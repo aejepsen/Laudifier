@@ -156,11 +156,11 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Injetar variáveis de ambiente no Angular
+      - name: Criar environment.ts (substituído em prod pelo environment.prod.ts)
         run: |
-          sed -i "s|REPLACE_API_URL|${{ secrets.API_URL }}|g"         src/environments/environment.prod.ts
-          sed -i "s|REPLACE_SUPABASE_URL|${{ secrets.SUPABASE_URL }}|g" src/environments/environment.prod.ts
-          sed -i "s|REPLACE_SUPABASE_KEY|${{ secrets.SUPABASE_ANON_KEY }}|g" src/environments/environment.prod.ts
+          cat > src/environments/environment.ts << 'EOF'
+          export const environment = { production: false, apiUrl: '', supabaseUrl: '', supabaseKey: '', appName: 'Laudifier', appVersion: '1.0.0' };
+          EOF
 
       - name: Build Angular
         run: npm ci && npm run build
