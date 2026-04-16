@@ -20,10 +20,11 @@ jobs:
         image: qdrant/qdrant:v1.9.4
         ports: ["6333:6333"]
         options: >-
-          --health-cmd "curl -f http://localhost:6333/healthz"
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
+          --health-cmd "curl -f http://localhost:6333/readyz || exit 1"
+          --health-interval 15s
+          --health-timeout 10s
+          --health-retries 10
+          --health-start-period 30s
     defaults:
       run:
         working-directory: backend
@@ -46,7 +47,6 @@ jobs:
         run: pytest tests/ -v --tb=short
         env:
           ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
-          OPENAI_API_KEY:            ${{ secrets.OPENAI_API_KEY }}
           QDRANT_URL:                http://localhost:6333
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_ANON_KEY:         ${{ secrets.SUPABASE_ANON_KEY }}
