@@ -15,8 +15,9 @@ export class AuthService {
   private sb: SupabaseClient;
   private router = inject(Router);
 
-  readonly profile   = signal<UserProfile | null>(null);
+  readonly profile    = signal<UserProfile | null>(null);
   readonly isLoggedIn = signal(false);
+  readonly loading    = signal(false);
 
   constructor() {
     this.sb = createClient(environment.supabaseUrl, environment.supabaseKey);
@@ -40,19 +41,27 @@ export class AuthService {
   }
 
   async signIn(email: string, password: string) {
-    const { error } = await this.sb.auth.signInWithPassword({ email, password });
-    if (error) throw error;
-    this.router.navigate(['/gerar']);
+    this.loading.set(true);
+    try {
+      const { error } = await this.sb.auth.signInWithPassword({ email, password });
+      if (error) throw error;
+      this.router.navigate(['/gerar']);
+    } finally {
+      this.loading.set(false);
+    }
   }
 
   async signUp(email: string, password: string, nome: string, crm: string) {
+    this.loading.set(true);
     const { data, error } = await this.sb.auth.signUp({ email, password });
+    if (error) throw error;
     if (error) throw error;
     if (data.user) {
       await this.sb.from('user_profiles').insert({
         user_id: data.user.id, display_name: nome, crm, role: 'medico',
       });
     }
+    this.loading.set(false);
   }
 
   async signOut() {

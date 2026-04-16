@@ -11,6 +11,7 @@ export interface LaudoGeradoChunk {
   laudos_ref?:    any[];
   campos_faltando?: string[];
   laudo?:         string;
+  laudo_id?:      string;
   score?:         number;
   error?:         string;
 }
