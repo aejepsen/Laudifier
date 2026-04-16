@@ -9,10 +9,6 @@ python-multipart>=0.0.9
 # ── LLM ───────────────────────────────────────────────────────────────────────
 anthropic>=0.40.0
 
-# ── Agentes ───────────────────────────────────────────────────────────────────
-langgraph>=0.2.0,<0.3
-langchain-core>=0.2.22,<0.3
-
 # ── Vector DB ─────────────────────────────────────────────────────────────────
 qdrant-client>=1.9.0
 sentence-transformers>=2.7.0  # embeddings locais intfloat/multilingual-e5-large
