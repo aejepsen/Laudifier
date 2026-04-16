@@ -1,0 +1,42 @@
+# Copie para terraform.tfvars e preencha antes de aplicar.
+# terraform.tfvars está no .gitignore — NUNCA commitar valores reais.
+
+# ─── Infra ────────────────────────────────────────────────────────────────────
+environment = "production"
+location    = "brazilsouth"
+app_name    = "laudifier"
+
+# ─── Container App ────────────────────────────────────────────────────────────
+backend_cpu          = 0.5     # 0.5 vCPU — dentro do free tier com scale-to-zero
+backend_memory       = "1Gi"   # 1Gi — par obrigatório com 0.5 vCPU
+backend_min_replicas = 0       # scale-to-zero = free tier
+backend_max_replicas = 2
+whisper_share_quota_gb = 5     # modelo 'small' = 244MB
+
+# CORS: preencha após o primeiro apply com a URL real da SWA
+cors_origins = "https://laudifier.azurestaticapps.net"
+
+# ─── GitHub Container Registry ────────────────────────────────────────────────
+ghcr_username = "seu-usuario-github"
+ghcr_token    = "change-me-ghp_xxxxxxxxxxxxxxxxxxxx"  # read:packages
+
+# ─── AI ───────────────────────────────────────────────────────────────────────
+anthropic_api_key = "change-me-sk-ant-api03-xxxxx"
+openai_api_key    = "change-me-sk-xxxxx"
+mem0_api_key      = "change-me-m0-xxxxx"
+
+# ─── Auth ─────────────────────────────────────────────────────────────────────
+supabase_url              = "https://your-project.supabase.co"
+supabase_anon_key         = "change-me-eyJ..."
+supabase_service_role_key = "change-me-eyJ..."
+jwt_secret                = "change-me-minimum-32-characters-long"
+
+# ─── Qdrant Cloud ─────────────────────────────────────────────────────────────
+qdrant_url        = "https://your-cluster.region.aws.cloud.qdrant.io:6333"
+qdrant_api_key    = "change-me-qdrant-api-key"
+qdrant_collection = "laudos_medicos"
+
+# ─── Observabilidade (opcional) ───────────────────────────────────────────────
+langfuse_public_key = "change-me-pk-lf-xxxxx"
+langfuse_secret_key = "change-me-sk-lf-xxxxx"
+langfuse_host       = "https://cloud.langfuse.com"
