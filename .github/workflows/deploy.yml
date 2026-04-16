@@ -19,17 +19,20 @@ jobs:
       qdrant:
         image: qdrant/qdrant:v1.9.4
         ports: ["6333:6333"]
-        options: >-
-          --health-cmd "curl -f http://localhost:6333/readyz || exit 1"
-          --health-interval 15s
-          --health-timeout 10s
-          --health-retries 10
-          --health-start-period 30s
     defaults:
       run:
         working-directory: backend
     steps:
       - uses: actions/checkout@v4
+
+      - name: Aguardar Qdrant iniciar
+        run: |
+          echo "Aguardando Qdrant..."
+          for i in $(seq 1 20); do
+            curl -sf http://localhost:6333/readyz && echo "Qdrant pronto!" && break
+            echo "Tentativa $i/20 — aguardando 5s..."
+            sleep 5
+          done
 
       - uses: actions/setup-python@v5
         with:
