@@ -1,0 +1,35 @@
+# backend/fly.toml
+app            = "laudifier-backend"
+primary_region = "gru"   # São Paulo
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PORT             = "8000"
+  WHISPER_MODEL    = "small"
+  WHISPER_LANGUAGE = "pt"
+  ENVIRONMENT      = "production"
+
+# Secrets via CLI:
+#   flyctl secrets set ANTHROPIC_API_KEY=sk-ant-...
+#   flyctl secrets set OPENAI_API_KEY=sk-...
+#   flyctl secrets set QDRANT_URL=https://...
+#   flyctl secrets set QDRANT_API_KEY=...
+#   flyctl secrets set SUPABASE_URL=https://...
+#   flyctl secrets set SUPABASE_SERVICE_ROLE_KEY=...
+#   flyctl secrets set JWT_SECRET=...
+#   flyctl secrets set LANGFUSE_PUBLIC_KEY=pk-lf-...
+#   flyctl secrets set LANGFUSE_SECRET_KEY=sk-lf-...
+
+[http_service]
+  internal_port        = 8000
+  force_https          = true
+  auto_stop_machines   = false
+  auto_start_machines  = true
+  min_machines_running = 1
+
+[[vm]]
+  memory   = "1gb"       # Whisper precisa de ~512MB
+  cpu_kind = "shared"
+  cpus     = 1

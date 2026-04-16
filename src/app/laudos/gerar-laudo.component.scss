@@ -1,0 +1,324 @@
+/* src/app/laudos/gerar-laudo.component.scss */
+.laudo-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding: 24px;
+  height: 100%;
+  overflow-y: auto;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Painéis ─────────────────────────────────────────────────────────────── */
+.input-panel, .result-panel {
+  background: var(--colorNeutralBackground2);
+  border: 1px solid var(--colorNeutralStroke2);
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-panel.collapsed { opacity: 0.7; }
+
+.panel-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--colorNeutralForeground1);
+  margin: 0 0 4px;
+}
+
+/* ── Campos ──────────────────────────────────────────────────────────────── */
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--colorNeutralForeground2);
+}
+.optional { font-weight: 400; color: var(--colorNeutralForeground3); }
+
+.select-input, .text-input {
+  padding: 10px 14px;
+  border: 1px solid var(--colorNeutralStroke1);
+  border-radius: 8px;
+  font-size: 14px;
+  background: var(--colorNeutralBackground1);
+  color: var(--colorNeutralForeground1);
+  outline: none;
+  transition: border-color 0.15s;
+
+  &:focus { border-color: var(--colorBrandStroke1); }
+}
+
+.text-input {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.6;
+  font-family: inherit;
+
+  &.listening {
+    border-color: #dc2626;
+    box-shadow: 0 0 0 3px rgba(220,38,38,0.15);
+    animation: pulse-border 1.5s infinite;
+  }
+}
+
+@keyframes pulse-border {
+  0%,100% { box-shadow: 0 0 0 3px rgba(220,38,38,0.15); }
+  50%      { box-shadow: 0 0 0 6px rgba(220,38,38,0.05); }
+}
+
+.dados-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  input {
+    padding: 8px 12px;
+    border: 1px solid var(--colorNeutralStroke1);
+    border-radius: 6px;
+    font-size: 13px;
+    background: var(--colorNeutralBackground1);
+    color: var(--colorNeutralForeground1);
+    outline: none;
+    &:focus { border-color: var(--colorBrandStroke1); }
+  }
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: var(--colorBrandForeground1);
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  &:hover { text-decoration: underline; }
+}
+
+/* ── Input + Voz ─────────────────────────────────────────────────────────── */
+.input-voice-wrap {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  .text-input { flex: 1; }
+}
+
+.btn-voice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 10px;
+  border-radius: 10px;
+  border: 2px solid var(--colorNeutralStroke1);
+  background: var(--colorNeutralBackground1);
+  cursor: pointer;
+  min-width: 72px;
+  transition: all 0.15s;
+
+  &:hover:not(:disabled) {
+    border-color: var(--colorBrandStroke1);
+    background: var(--colorBrandBackground2);
+  }
+
+  &.recording {
+    border-color: #dc2626;
+    background: #fef2f2;
+    animation: recording-pulse 1s infinite;
+  }
+  &.processing {
+    border-color: #d97706;
+    background: #fffbeb;
+  }
+  &:disabled { opacity: 0.4; cursor: not-allowed; }
+}
+
+@keyframes recording-pulse {
+  0%,100% { box-shadow: 0 0 0 0 rgba(220,38,38,0.4); }
+  50%      { box-shadow: 0 0 0 8px rgba(220,38,38,0); }
+}
+
+.voice-icon  { font-size: 24px; }
+.voice-label { font-size: 11px; font-weight: 600; color: var(--colorNeutralForeground2); }
+
+.live-transcript {
+  font-size: 12px;
+  color: #dc2626;
+  font-style: italic;
+  margin: 4px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.dot {
+  width: 8px; height: 8px;
+  background: #dc2626;
+  border-radius: 50%;
+  animation: blink 1s infinite;
+  flex-shrink: 0;
+}
+@keyframes blink { 0%,100% { opacity:1; } 50% { opacity:0; } }
+
+.voice-error { font-size: 12px; color: #dc2626; margin: 4px 0 0; }
+
+/* ── Botão Gerar ─────────────────────────────────────────────────────────── */
+.btn-gerar {
+  padding: 14px;
+  background: var(--colorBrandBackground);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-top: 4px;
+
+  &:hover:not(:disabled) { background: var(--colorBrandBackgroundHover); }
+  &:disabled { opacity: 0.5; cursor: not-allowed; }
+}
+
+.generating { display: flex; align-items: center; gap: 10px; justify-content: center; }
+.spinner {
+  width: 18px; height: 18px;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Resultado ───────────────────────────────────────────────────────────── */
+.result-header { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+
+.badges { display: flex; gap: 6px; flex-wrap: wrap; }
+.badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  &.rag      { background: #d1fae5; color: #065f46; }
+  &.fallback { background: #fef3c7; color: #92400e; }
+  &.refs     { background: var(--colorBrandBackground2); color: var(--colorBrandForeground1); }
+}
+
+.result-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.btn-action {
+  padding: 7px 14px;
+  border: 1px solid var(--colorNeutralStroke1);
+  border-radius: 6px;
+  background: transparent;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.12s;
+  color: var(--colorNeutralForeground1);
+  &:hover:not(:disabled) { background: var(--colorNeutralBackground3); }
+  &.primary { background: var(--colorBrandBackground); color: white; border-color: transparent; }
+  &.primary:hover { background: var(--colorBrandBackgroundHover); }
+  &:disabled { opacity: 0.5; }
+}
+
+.btn-novo {
+  padding: 7px 14px;
+  background: var(--colorNeutralBackground4);
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--colorNeutralForeground1);
+  &:hover { background: var(--colorNeutralStroke1); }
+}
+
+.campos-alert {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #92400e;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.campo-tag {
+  background: #fde68a;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.laudo-content {
+  background: var(--colorNeutralBackground1);
+  border: 1px solid var(--colorNeutralStroke2);
+  border-radius: 8px;
+  padding: 20px;
+  min-height: 300px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.laudo-text { font-size: 14px; line-height: 1.7; color: var(--colorNeutralForeground1); }
+
+.markdown-body {
+  h1,h2,h3 { font-weight: 700; margin: 12px 0 6px; color: var(--colorNeutralForeground1); }
+  p  { margin: 6px 0; }
+  strong { font-weight: 700; }
+  ul,ol  { margin: 6px 0 6px 20px; }
+}
+
+.typing-cursor {
+  display: inline;
+  animation: blink 0.8s infinite;
+  color: var(--colorBrandForeground1);
+  font-size: 18px;
+}
+
+.laudo-editor {
+  width: 100%;
+  min-height: 400px;
+  padding: 16px;
+  border: 1px solid var(--colorNeutralStroke1);
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  line-height: 1.7;
+  background: var(--colorNeutralBackground1);
+  color: var(--colorNeutralForeground1);
+  resize: vertical;
+  outline: none;
+  &:focus { border-color: var(--colorBrandStroke1); }
+}
+
+/* ── Feedback ────────────────────────────────────────────────────────────── */
+.feedback-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid var(--colorNeutralStroke2);
+}
+.feedback-label { font-size: 13px; color: var(--colorNeutralForeground3); }
+.btn-feedback {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 600;
+  &.ok  { background: #d1fae5; color: #065f46; }
+  &.nok { background: #fef3c7; color: #92400e; }
+  &:hover { filter: brightness(0.95); }
+}

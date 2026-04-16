@@ -1,0 +1,85 @@
+/* src/styles.scss — Laudifier Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0; padding: 0; height: 100%;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --font-heading: 'Syne', system-ui, sans-serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* ── Fluent UI Tokens — Light ──────────────────────────────────────────────── */
+body, body[data-theme='default'] {
+  --colorNeutralBackground1:    #ffffff;
+  --colorNeutralBackground2:    #f8fafc;
+  --colorNeutralBackground3:    #f1f5f9;
+  --colorNeutralBackground4:    #e2e8f0;
+  --colorNeutralForeground1:    #0f172a;
+  --colorNeutralForeground2:    #334155;
+  --colorNeutralForeground3:    #64748b;
+  --colorNeutralForeground4:    #94a3b8;
+  --colorNeutralForegroundOnBrand: #ffffff;
+  --colorNeutralStroke1:        #cbd5e1;
+  --colorNeutralStroke2:        #e2e8f0;
+  /* Brand: Azul médico/hospitalar */
+  --colorBrandBackground:       #0f2d5e;
+  --colorBrandBackgroundHover:  #1a3f7a;
+  --colorBrandBackground2:      #dbeafe;
+  --colorBrandForeground1:      #1a56db;
+  --colorBrandStroke1:          #1a56db;
+}
+
+/* ── Dark ─────────────────────────────────────────────────────────────────── */
+body[data-theme='dark'] {
+  --colorNeutralBackground1:    #0f172a;
+  --colorNeutralBackground2:    #1e293b;
+  --colorNeutralBackground3:    #334155;
+  --colorNeutralBackground4:    #475569;
+  --colorNeutralForeground1:    #f1f5f9;
+  --colorNeutralForeground2:    #cbd5e1;
+  --colorNeutralForeground3:    #94a3b8;
+  --colorNeutralForeground4:    #64748b;
+  --colorNeutralForegroundOnBrand: #ffffff;
+  --colorNeutralStroke1:        #334155;
+  --colorNeutralStroke2:        #1e293b;
+  --colorBrandBackground:       #3b82f6;
+  --colorBrandBackgroundHover:  #60a5fa;
+  --colorBrandBackground2:      #1e3a5f;
+  --colorBrandForeground1:      #60a5fa;
+  --colorBrandStroke1:          #3b82f6;
+}
+
+/* ── Scrollbar ─────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--colorNeutralStroke1); border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: var(--colorNeutralForeground4); }
+
+/* ── Focus ─────────────────────────────────────────────────────────────────── */
+:focus-visible { outline: 2px solid var(--colorBrandStroke1); outline-offset: 2px; }
+
+/* ── Markdown body genérico ────────────────────────────────────────────────── */
+.markdown-body {
+  h1 { font-size: 18px; margin: 16px 0 8px; }
+  h2 { font-size: 16px; margin: 14px 0 6px; border-bottom: 1px solid var(--colorNeutralStroke2); padding-bottom: 4px; }
+  h3 { font-size: 14px; margin: 12px 0 4px; }
+  p  { margin: 6px 0; line-height: 1.7; }
+  strong { font-weight: 700; }
+  ul, ol { margin: 6px 0 6px 20px; }
+  li { margin-bottom: 4px; }
+  code { background: var(--colorNeutralBackground3); padding: 1px 5px; border-radius: 3px; font-size: 12px; }
+}
+
+/* ── Motion reduzido ───────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

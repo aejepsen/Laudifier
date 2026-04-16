@@ -1,0 +1,44 @@
+# docker-compose.yml — produção/base (sem source mounts, versões fixas)
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.9.4
+    container_name: laudifier-qdrant
+    # porta interna apenas — não exposta ao host em produção
+    # para dev, adicione `ports: ["6333:6333"]` no docker-compose.override.yml
+    volumes:
+      - qdrant_data:/qdrant/storage
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:6333/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: laudifier-backend
+    ports: ["8000:8000"]
+    env_file: .env
+    environment:
+      QDRANT_URL: http://qdrant:6333
+      USE_LOCAL_STORAGE: "true"
+    volumes:
+      - ./storage:/app/storage
+      - whisper_models:/home/app/.cache/whisper
+    depends_on:
+      qdrant:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    restart: unless-stopped
+
+volumes:
+  qdrant_data:
+  whisper_models:

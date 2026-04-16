@@ -1,0 +1,27 @@
+# docker-compose.override.yml — dev only (source mounts + hot reload)
+# Aplicado automaticamente por `docker compose up` em dev local.
+# NUNCA commitado com secrets; não vai para produção.
+services:
+  qdrant:
+    ports: ["6333:6333"]   # exposto apenas em dev para inspeção local
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend:/app
+      - ./storage:/app/storage
+      - whisper_models:/home/app/.cache/whisper
+    environment:
+      APP_ENV: development
+    command:
+      [
+        "uvicorn",
+        "api.main:app",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "8000",
+        "--reload",
+      ]
