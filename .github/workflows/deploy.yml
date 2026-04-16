@@ -39,6 +39,9 @@ jobs:
           python-version: "3.11"
           cache: pip
 
+      - name: Instalar torch CPU-only (evita CUDA ~5GB)
+        run: pip install torch==2.5.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+
       - run: pip install -r requirements.txt
 
       - name: Dependency audit
