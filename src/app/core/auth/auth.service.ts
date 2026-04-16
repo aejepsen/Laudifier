@@ -20,7 +20,9 @@ export class AuthService {
   readonly loading    = signal(false);
 
   constructor() {
-    this.sb = createClient(environment.supabaseUrl, environment.supabaseKey);
+    this.sb = createClient(environment.supabaseUrl, environment.supabaseKey, {
+      auth: { lock: async (_name: string, _timeout: number, fn: () => Promise<unknown>) => fn() },
+    });
     this.sb.auth.getSession().then(({ data }) => {
       if (data.session) {
         this.isLoggedIn.set(true);
