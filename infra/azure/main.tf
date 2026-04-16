@@ -87,15 +87,15 @@ resource "azurerm_container_app" "backend" {
   revision_mode                = "Single"
   tags                         = local.common_tags
 
-  # GitHub Container Registry — autenticação via PAT com permissão read:packages
+  # Docker Hub — 1 repo privado grátis, pulls autenticados sem rate limit
   registry {
-    server               = "ghcr.io"
-    username             = var.ghcr_username
-    password_secret_name = "ghcr-token"
+    server               = "index.docker.io"
+    username             = var.dockerhub_username
+    password_secret_name = "dockerhub-token"
   }
 
   # ── Secrets ───────────────────────────────────────────────────────────────
-  secret { name = "ghcr-token";             value = var.ghcr_token }
+  secret { name = "dockerhub-token";        value = var.dockerhub_token }
   secret { name = "anthropic-api-key";      value = var.anthropic_api_key }
   secret { name = "openai-api-key";         value = var.openai_api_key }
   secret { name = "mem0-api-key";           value = var.mem0_api_key }
@@ -121,7 +121,7 @@ resource "azurerm_container_app" "backend" {
 
     container {
       name   = "backend"
-      image  = "ghcr.io/${var.ghcr_username}/laudifier-backend:latest"
+      image  = "docker.io/${var.dockerhub_username}/laudifier-backend:latest"
       cpu    = var.backend_cpu
       memory = var.backend_memory
 

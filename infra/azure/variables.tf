@@ -76,19 +76,20 @@ variable "cors_origins" {
   default     = "https://laudifier.azurestaticapps.net"
 }
 
-# ─── GitHub Container Registry ───────────────────────────────────────────────
-# Alternativa gratuita ao ACR (que custa ~$5/mês mesmo no Basic).
-# Pré-requisito: repositório público ou PAT com permissão read:packages + write:packages.
+# ─── Docker Hub ───────────────────────────────────────────────────────────────
+# 1 repo privado grátis, sem limite de pulls autenticados.
+# Alternativa gratuita ao ACR (~R$29/mês) e ao ghcr.io (500MB limit no plano free privado).
+# Pré-requisito: conta Docker Hub + Access Token (Hub > Account Settings > Security).
 
-variable "ghcr_username" {
+variable "dockerhub_username" {
   type        = string
-  description = "Username do GitHub (para autenticação no ghcr.io)"
+  description = "Username do Docker Hub"
 }
 
-variable "ghcr_token" {
+variable "dockerhub_token" {
   type        = string
   sensitive   = true
-  description = "GitHub Personal Access Token com permissão read:packages"
+  description = "Docker Hub Access Token (read/write) — nunca usar senha da conta"
 }
 
 

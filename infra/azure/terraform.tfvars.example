@@ -16,9 +16,11 @@ whisper_share_quota_gb = 5     # modelo 'small' = 244MB
 # CORS: preencha após o primeiro apply com a URL real da SWA
 cors_origins = "https://laudifier.azurestaticapps.net"
 
-# ─── GitHub Container Registry ────────────────────────────────────────────────
-ghcr_username = "seu-usuario-github"
-ghcr_token    = "change-me-ghp_xxxxxxxxxxxxxxxxxxxx"  # read:packages
+# ─── Docker Hub ───────────────────────────────────────────────────────────────
+# 1 repo privado grátis — crie em hub.docker.com, depois gere Access Token em:
+# Account Settings > Security > New Access Token (permissão Read, Write, Delete)
+dockerhub_username = "seu-usuario-dockerhub"
+dockerhub_token    = "change-me-dckr_pat_xxxxxxxxxxxx"
 
 # ─── AI ───────────────────────────────────────────────────────────────────────
 anthropic_api_key = "change-me-sk-ant-api03-xxxxx"
