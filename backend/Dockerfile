@@ -7,7 +7,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /build
 COPY requirements.txt .
-RUN pip install --no-cache-dir --target=/deps -r requirements.txt
+# Instala torch CPU-only PRIMEIRO — evita que sentence-transformers puxe torch+CUDA (~5.5 GB)
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir \
+        torch==2.5.1+cpu \
+        --extra-index-url https://download.pytorch.org/whl/cpu \
+    && pip install --no-cache-dir -r requirements.txt
 
 # ─── Stage 2: runtime ────────────────────────────────────────────────────────
 FROM python:3.11-slim
@@ -20,19 +25,25 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
-# Deps do stage builder
-COPY --from=builder /deps /usr/local/lib/python3.11/site-packages
+# Deps do stage builder (site-packages + executáveis como uvicorn)
+COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
+COPY --from=builder /usr/local/bin /usr/local/bin
 
 # Código — sem .env, sem tests, sem __pycache__ (garantido pelo .dockerignore)
 COPY --chown=app:app . .
+
+# Symlink /workspace/backend → /app para que imports relativos (from ..agents) funcionem
+# Deve rodar como root, antes de USER app
+RUN mkdir -p /workspace && ln -sf /app /workspace/backend
 
 USER app
 
 # Whisper carrega do volume montado em runtime — nunca bake no build
 ENV WHISPER_CACHE_DIR=/home/app/.cache/whisper
+ENV PYTHONPATH=/workspace
 
-HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
-    CMD curl -f http://localhost:8000/health || exit 1
+HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
+    CMD curl -f http://localhost:8000/health/live || exit 1
 
 EXPOSE 8000
-CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
+CMD ["uvicorn", "backend.api.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]

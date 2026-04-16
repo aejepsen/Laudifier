@@ -3,7 +3,7 @@ import os
 from dataclasses import dataclass, field
 from fastapi import HTTPException, Security
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
-from jose import jwt, JWTError
+import jwt
 from supabase import create_client
 
 JWT_SECRET   = os.getenv("JWT_SECRET")
@@ -49,5 +49,5 @@ async def verify_token(
             role=p.get("role", "medico"),
             especialidade=p.get("especialidade", ""),
         )
-    except JWTError as e:
+    except jwt.PyJWTError as e:
         raise HTTPException(status_code=401, detail=f"Token inválido: {e}")

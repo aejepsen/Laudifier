@@ -14,7 +14,7 @@ Quatro escopos de memória:
 
 Configuração:
   - LLM:      Claude Haiku 4.5 (extração de fatos — barato e rápido)
-  - Embedder: OpenAI text-embedding-3-small (1536 dims — compatível com Mem0)
+  - Embedder: intfloat/multilingual-e5-large local via sentence-transformers (1024 dims)
   - Vector:   Qdrant (mesma instância, coleção separada: 'laudifier_memory')
 """
 
@@ -33,7 +33,7 @@ def _build_mem0_config() -> dict:
     """
     Configura Mem0 com:
     - Claude Haiku para extração de fatos (barato)
-    - OpenAI text-embedding-3-small para vetorizar memórias
+    - intfloat/multilingual-e5-large (sentence-transformers) para vetorizar memórias
     - Qdrant para persistência (mesma instância do projeto)
     """
     qdrant_url = os.getenv("QDRANT_URL", "http://localhost:6333")
@@ -42,7 +42,7 @@ def _build_mem0_config() -> dict:
     # Config base do Qdrant
     qdrant_config: dict = {
         "collection_name":       "laudifier_memory",
-        "embedding_model_dims":  1536,   # text-embedding-3-small
+        "embedding_model_dims":  1024,   # multilingual-e5-large
     }
 
     # Qdrant Cloud usa URL, local usa host/port
@@ -68,10 +68,9 @@ def _build_mem0_config() -> dict:
         },
         # OpenAI text-embedding-3-small — vetoriza as memórias
         "embedder": {
-            "provider": "openai",
+            "provider": "huggingface",
             "config": {
-                "model":  "text-embedding-3-small",  # 1536 dims
-                "api_key": os.getenv("OPENAI_API_KEY"),
+                "model": "intfloat/multilingual-e5-large"
             },
         },
         # Qdrant — persiste as memórias vetorizadas
@@ -114,7 +113,10 @@ class LaudifierMemory:
     """
 
     def __init__(self):
-        self.mem = get_memory()
+        try:
+            self.mem = get_memory()
+        except Exception:
+            self.mem = None
 
     # ── Lembrar ───────────────────────────────────────────────────────────────
 

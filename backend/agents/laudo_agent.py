@@ -214,6 +214,9 @@ def _formatar_dados(dados: dict) -> str:
     return "\n".join(f"  {k}: {v}" for k, v in dados.items() if v)
 
 
+_formatar_dados_clinicos = _formatar_dados
+
+
 def _extrair_campos_faltando(laudo: str) -> list[str]:
     import re
     return re.findall(r'\[([A-ZÁÉÍÓÚÂÊÔÃÕÇ\s/]+)\]', laudo)

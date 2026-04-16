@@ -25,6 +25,9 @@ node_modules/
 .angular/
 dist/
 
+# Environments — apenas o exemplo é commitado; environment.ts é gerado localmente
+src/environments/environment.ts
+
 # Storage local
 storage/
 backend/storage/

@@ -1,53 +1,52 @@
 # backend/requirements.txt — Laudifier
 
 # ── Web ───────────────────────────────────────────────────────────────────────
-fastapi==0.111.0
-uvicorn[standard]==0.30.1
-pydantic==2.7.1
-python-multipart==0.0.9
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+python-multipart>=0.0.9
 
 # ── LLM ───────────────────────────────────────────────────────────────────────
-anthropic==0.28.0
+anthropic>=0.40.0
 
 # ── Agentes ───────────────────────────────────────────────────────────────────
-langgraph==0.1.19
-langchain-core==0.2.7
+langgraph>=0.2.0,<0.3
+langchain-core>=0.2.22,<0.3
 
 # ── Vector DB ─────────────────────────────────────────────────────────────────
-qdrant-client==1.9.1
-openai==1.35.3            # embeddings text-embedding-3-large
+qdrant-client>=1.9.0
+sentence-transformers>=2.7.0  # embeddings locais intfloat/multilingual-e5-large
 
 # ── Transcrição de voz ────────────────────────────────────────────────────────
-openai-whisper==20231117  # fallback server-side se browser não suportar
-ffmpeg-python==0.2.0
+openai-whisper>=20231117  # fallback server-side se browser não suportar
 
 # ── Storage S3-compatível ─────────────────────────────────────────────────────
-boto3==1.34.0
+boto3>=1.34.0
 
 # ── Auth ──────────────────────────────────────────────────────────────────────
-supabase==2.4.6
-python-jose[cryptography]==3.3.0
+supabase>=2.4.0
+PyJWT[crypto]>=2.9.0
 
 # ── Parsers de laudos ─────────────────────────────────────────────────────────
-pypdf==4.2.0
-python-docx==1.1.2
+pypdf>=4.2.0
+python-docx>=1.1.0
 
 # ── Exportação de laudos ──────────────────────────────────────────────────────
-reportlab==4.2.0          # gera PDF do laudo gerado
-jinja2==3.1.4             # templates de laudo
+reportlab>=4.2.0          # gera PDF do laudo gerado
+jinja2>=3.1.0             # templates de laudo
 
 # ── Observabilidade ───────────────────────────────────────────────────────────
-langfuse==2.36.0
+langfuse>=2.36.0,<3
 
 # ── Pipeline ──────────────────────────────────────────────────────────────────
-prefect==2.19.7
+prefect>=2.19.0,<3
 
 # ── Memory 2.0 — Mem0 ────────────────────────────────────────────────────────
-mem0ai==1.0.7              # camada de memória persistente por médico
+mem0ai>=1.0.0              # camada de memória persistente por médico
 
 # ── Rate Limiting ─────────────────────────────────────────────────────────────
-slowapi==0.1.9
+slowapi>=0.1.9
 
 # ── Utils ─────────────────────────────────────────────────────────────────────
-httpx==0.27.0
-python-dotenv==1.0.1
+httpx>=0.27.0
+python-dotenv>=1.0.0

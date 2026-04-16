@@ -7,7 +7,7 @@ Uso:
     python -m pipeline.seed_repositorio
 
 Variáveis de ambiente necessárias (copie de .env.example):
-    OPENAI_API_KEY, QDRANT_URL, QDRANT_API_KEY (opcional)
+    QDRANT_URL, QDRANT_API_KEY (opcional)
 """
 
 from __future__ import annotations
@@ -20,7 +20,7 @@ import uuid
 from pathlib import Path
 
 from dotenv import load_dotenv
-from openai import OpenAI
+from sentence_transformers import SentenceTransformer
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, PointStruct, VectorParams
 
@@ -39,9 +39,9 @@ DATA_DIR    = Path(__file__).parent.parent.parent.parent / "data" / "laudos" / "
 QDRANT_URL  = os.getenv("QDRANT_URL", "http://localhost:6333")
 QDRANT_KEY  = os.getenv("QDRANT_API_KEY") or None
 COLLECTION  = os.getenv("QDRANT_COLLECTION", "laudos_medicos")
-OAI_KEY     = os.getenv("OPENAI_API_KEY")
-EMB_MODEL   = os.getenv("EMBEDDING_MODEL", "text-embedding-3-large")
-EMB_DIM     = 3072   # text-embedding-3-large
+
+EMB_MODEL   = "intfloat/multilingual-e5-large"
+EMB_DIM     = 1024   # multilingual-e5-large
 BATCH_SIZE  = 40     # chunks por chamada à API de embeddings
 SYSTEM_ID   = "seed-script"
 
@@ -161,18 +161,17 @@ def _chunk(texto: str, filename: str, esp: str, tipo: str) -> list[dict]:
 
 # ─── Embeddings + upsert ──────────────────────────────────────────────────────
 
-def _indexar(chunks: list[dict], oai: OpenAI, qdrant: QdrantClient) -> int:
+def _indexar(chunks: list[dict], model: SentenceTransformer, qdrant: QdrantClient) -> int:
     """Gera embeddings em lotes e upserta no Qdrant. Retorna nº de pontos indexados."""
     total = 0
     for i in range(0, len(chunks), BATCH_SIZE):
         lote   = chunks[i : i + BATCH_SIZE]
-        textos = [c["content"] for c in lote]
+        textos = [f"passage: {c['content']}" for c in lote]   # prefixo E5
 
-        resp = oai.embeddings.create(input=textos, model=EMB_MODEL)
-        embs = [e.embedding for e in resp.data]
+        embs = model.encode(textos, batch_size=BATCH_SIZE, normalize_embeddings=True)
 
         points = [
-            PointStruct(id=c["id"], vector={"dense": emb}, payload=c)
+            PointStruct(id=c["id"], vector={"dense": emb.tolist()}, payload=c)
             for c, emb in zip(lote, embs)
         ]
         qdrant.upsert(collection_name=COLLECTION, points=points)
@@ -184,16 +183,14 @@ def _indexar(chunks: list[dict], oai: OpenAI, qdrant: QdrantClient) -> int:
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 async def main() -> None:
-    if not OAI_KEY:
-        raise EnvironmentError("OPENAI_API_KEY não definida. Copie .env.example para .env e preencha.")
-
     arquivos = sorted(DATA_DIR.glob("*.txt"))
     if not arquivos:
         raise FileNotFoundError(f"Nenhum .txt encontrado em {DATA_DIR}")
 
     log.info("Iniciando seed: %d arquivos em %s", len(arquivos), DATA_DIR)
+    log.info("Carregando modelo %s...", EMB_MODEL)
 
-    oai    = OpenAI(api_key=OAI_KEY)
+    model  = SentenceTransformer(EMB_MODEL)
     qdrant = QdrantClient(url=QDRANT_URL, api_key=QDRANT_KEY)
     _garantir_collection(qdrant)
 
@@ -209,7 +206,7 @@ async def main() -> None:
 
             esp, tipo = _inferir(arq.name)
             chunks     = _chunk(texto, arq.name, esp, tipo)
-            n          = _indexar(chunks, oai, qdrant)
+            n          = _indexar(chunks, model, qdrant)
             total_chunks += n
 
             log.info("[%d/%d] ✓ %d chunk(s) | %s | %s — %s",

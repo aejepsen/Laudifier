@@ -105,18 +105,6 @@ variable "anthropic_api_key" {
   }
 }
 
-variable "openai_api_key" {
-  type        = string
-  description = "OpenAI API key para embeddings (sk-...)"
-  sensitive   = true
-}
-
-variable "mem0_api_key" {
-  type        = string
-  description = "Mem0 API key (m0-...)"
-  sensitive   = true
-}
-
 # ─── Secrets — Auth ───────────────────────────────────────────────────────────
 
 variable "supabase_url" {

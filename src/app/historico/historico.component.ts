@@ -12,7 +12,7 @@ import { LaudoService, LaudoSalvo, ESPECIALIDADES } from '../core/services/laudo
   template: `
     <div class="historico-page">
       <div class="page-header">
-        <h1>📋 Histórico de Laudos</h1>
+        <h1>Histórico</h1>
         <p>{{ laudos().length }} laudos gerados</p>
       </div>
 
@@ -32,8 +32,12 @@ import { LaudoService, LaudoSalvo, ESPECIALIDADES } from '../core/services/laudo
 
       <!-- Empty -->
       <div *ngIf="!loading() && filtered().length === 0" class="empty">
-        <span>📄</span>
-        <p>Nenhum laudo encontrado.</p>
+        <svg class="empty-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="4" width="32" height="40" rx="4" stroke="currentColor" stroke-width="2"/>
+          <path d="M16 16h16M16 24h16M16 32h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <p class="empty-title">Nenhum laudo encontrado</p>
+        <p class="empty-sub">Gere o primeiro laudo para começar a construir seu histórico.</p>
       </div>
 
       <!-- Lista -->
@@ -46,10 +50,10 @@ import { LaudoService, LaudoSalvo, ESPECIALIDADES } from '../core/services/laudo
           </div>
           <div class="laudo-meta">
             <span class="geracao-badge" [class]="laudo.tipo_geracao">
-              {{ laudo.tipo_geracao === 'rag' ? '📚' : '🧠' }}
+              {{ laudo.tipo_geracao === 'rag' ? 'RAG' : 'LLM' }}
             </span>
-            <span class="aprovado" *ngIf="laudo.aprovado === true">✅</span>
-            <span class="aprovado nok" *ngIf="laudo.aprovado === false">✏️</span>
+            <span class="status-dot ok"  *ngIf="laudo.aprovado === true"  title="Aprovado"></span>
+            <span class="status-dot nok" *ngIf="laudo.aprovado === false" title="Com ajustes"></span>
             <span class="data">{{ laudo.created_at | date:'dd/MM/yy HH:mm' }}</span>
             <div class="row-actions">
               <button class="btn-sm" (click)="exportar($event, laudo.id, 'pdf')">PDF</button>
@@ -66,35 +70,40 @@ import { LaudoService, LaudoSalvo, ESPECIALIDADES } from '../core/services/laudo
     </div>
   `,
   styles: [`
-    .historico-page { padding: 24px; height: 100%; overflow-y: auto; max-width: 900px; margin: 0 auto; }
-    .page-header { margin-bottom: 20px; }
-    .page-header h1 { font-size: 22px; font-weight: 700; color: var(--colorNeutralForeground1); margin: 0 0 4px; }
+    .historico-page { padding: 32px 40px; height: 100%; overflow-y: auto; box-sizing: border-box; }
+    .page-header { margin-bottom: 24px; }
+    .page-header h1 { font-family: var(--font-heading); font-size: 24px; font-weight: 700; color: var(--colorNeutralForeground1); margin: 0 0 4px; letter-spacing: -0.02em; }
     .page-header p  { font-size: 13px; color: var(--colorNeutralForeground3); margin: 0; }
     .filters { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
-    .search-input, .filter-select { padding: 9px 14px; border: 1px solid var(--colorNeutralStroke1); border-radius: 8px; font-size: 14px; background: var(--colorNeutralBackground2); color: var(--colorNeutralForeground1); outline: none; }
+    .search-input, .filter-select { padding: 9px 14px; border: 1px solid var(--colorNeutralStroke1); border-radius: 8px; font-size: 14px; background: var(--colorNeutralBackground2); color: var(--colorNeutralForeground1); outline: none; transition: border-color 0.15s; }
     .search-input { flex: 1; min-width: 200px; }
     .search-input:focus, .filter-select:focus { border-color: var(--colorBrandStroke1); }
     .skeleton-list { display: flex; flex-direction: column; gap: 8px; }
     .skeleton-row { height: 64px; border-radius: 8px; background: var(--colorNeutralBackground3); animation: shimmer 1.4s infinite; }
     @keyframes shimmer { 0%,100%{opacity:1} 50%{opacity:0.5} }
-    .empty { text-align: center; padding: 60px; color: var(--colorNeutralForeground3); font-size: 36px; }
-    .empty p { font-size: 14px; margin-top: 12px; }
-    .laudo-list { display: flex; flex-direction: column; gap: 8px; }
-    .laudo-row { display: flex; align-items: center; gap: 16px; padding: 14px 18px; border: 1px solid var(--colorNeutralStroke2); border-radius: 8px; background: var(--colorNeutralBackground2); cursor: pointer; transition: all 0.13s; }
+    .empty { display: flex; flex-direction: column; align-items: center; padding: 80px 24px; color: var(--colorNeutralForeground3); gap: 12px; }
+    .empty-icon { width: 48px; height: 48px; opacity: 0.3; }
+    .empty-title { font-size: 15px; font-weight: 600; color: var(--colorNeutralForeground2); margin: 0; }
+    .empty-sub { font-size: 13px; color: var(--colorNeutralForeground3); margin: 0; text-align: center; max-width: 280px; line-height: 1.5; }
+    .laudo-list { display: flex; flex-direction: column; gap: 6px; }
+    .laudo-row { display: flex; align-items: center; gap: 16px; padding: 14px 18px; border: 1px solid var(--colorNeutralStroke2); border-radius: 8px; background: var(--colorNeutralBackground2); cursor: pointer; transition: border-color 0.13s, background-color 0.13s; }
     .laudo-row:hover { border-color: var(--colorBrandStroke1); background: var(--colorBrandBackground2); }
     .laudo-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
     .esp-badge { font-size: 12px; font-weight: 700; color: var(--colorBrandForeground1); }
     .laudo-preview { font-size: 13px; color: var(--colorNeutralForeground2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .laudo-meta { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
-    .geracao-badge { font-size: 16px; }
-    .aprovado { font-size: 14px; }
-    .aprovado.nok { }
+    .geracao-badge { font-size: 10px; font-weight: 700; letter-spacing: 0.06em; padding: 2px 8px; border-radius: 4px; }
+    .geracao-badge.rag      { background: rgba(16,185,129,0.12); color: #10b981; }
+    .geracao-badge.fallback { background: rgba(245,158,11,0.12); color: #f59e0b; }
+    .status-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+    .status-dot.ok  { background: #10b981; }
+    .status-dot.nok { background: #f59e0b; }
     .data { font-size: 12px; color: var(--colorNeutralForeground3); }
     .row-actions { display: flex; gap: 4px; }
-    .btn-sm { padding: 4px 10px; border: 1px solid var(--colorNeutralStroke1); border-radius: 5px; background: transparent; font-size: 12px; cursor: pointer; color: var(--colorNeutralForeground2); }
+    .btn-sm { padding: 4px 10px; border: 1px solid var(--colorNeutralStroke1); border-radius: 5px; background: transparent; font-size: 12px; cursor: pointer; color: var(--colorNeutralForeground2); transition: background-color 0.12s; }
     .btn-sm:hover { background: var(--colorNeutralBackground4); }
     .pagination { display: flex; justify-content: center; margin-top: 20px; }
-    .btn-mais { padding: 10px 24px; border: 1px solid var(--colorNeutralStroke1); border-radius: 8px; background: transparent; font-size: 14px; cursor: pointer; color: var(--colorNeutralForeground1); }
+    .btn-mais { padding: 10px 24px; border: 1px solid var(--colorNeutralStroke1); border-radius: 8px; background: transparent; font-size: 14px; cursor: pointer; color: var(--colorNeutralForeground1); transition: background-color 0.12s, border-color 0.12s; }
     .btn-mais:hover { background: var(--colorBrandBackground2); border-color: var(--colorBrandStroke1); }
   `],
 })

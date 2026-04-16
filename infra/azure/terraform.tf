@@ -8,11 +8,10 @@ terraform {
     }
   }
 
-  # Descomente para usar Azure Blob como backend remoto
-  # backend "azurerm" {
-  #   resource_group_name  = "rg-laudifier-tfstate"
-  #   storage_account_name = "stlaudifiertfstate"
-  #   container_name       = "tfstate"
-  #   key                  = "laudifier.tfstate"
-  # }
+  backend "azurerm" {
+    resource_group_name  = "rg-aiprofessor-tfstate"
+    storage_account_name = "aiprofessortfstate"
+    container_name       = "tfstate"
+    key                  = "laudifier.tfstate"
+  }
 }

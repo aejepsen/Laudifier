@@ -9,7 +9,7 @@ import { LaudoService } from '../core/services/laudo.service';
   imports: [CommonModule],
   template: `
     <div class="dash-page">
-      <h1 class="page-title">📊 Dashboard</h1>
+      <h1 class="page-title">Dashboard</h1>
 
       <div *ngIf="loading()" class="kpi-grid">
         <div class="skeleton-kpi" *ngFor="let i of [1,2,3,4]"></div>
@@ -19,25 +19,26 @@ import { LaudoService } from '../core/services/laudo.service';
         <!-- KPIs -->
         <div class="kpi-grid">
           <div class="kpi-card">
-            <span class="kpi-icon">📋</span>
-            <div><span class="kpi-val">{{ s.total_laudos }}</span><span class="kpi-lbl">Laudos gerados</span></div>
+            <span class="kpi-accent">Laudos</span>
+            <span class="kpi-val">{{ s.total_laudos }}</span>
+            <span class="kpi-lbl">Gerados</span>
           </div>
           <div class="kpi-card">
-            <span class="kpi-icon">📚</span>
-            <div><span class="kpi-val">{{ s.por_rag }}</span><span class="kpi-lbl">Baseados no repositório</span></div>
+            <span class="kpi-accent">RAG</span>
+            <span class="kpi-val">{{ s.por_rag }}</span>
+            <span class="kpi-lbl">Do repositório</span>
           </div>
           <div class="kpi-card">
-            <span class="kpi-icon">🧠</span>
-            <div><span class="kpi-val">{{ s.por_fallback }}</span><span class="kpi-lbl">Gerados pelo Claude</span></div>
+            <span class="kpi-accent">LLM</span>
+            <span class="kpi-val">{{ s.por_fallback }}</span>
+            <span class="kpi-lbl">Pelo Claude</span>
           </div>
           <div class="kpi-card">
-            <span class="kpi-icon">✅</span>
-            <div>
-              <span class="kpi-val" [style.color]="s.taxa_aprovacao >= 0.8 ? '#059669' : '#d97706'">
-                {{ (s.taxa_aprovacao * 100).toFixed(0) }}%
-              </span>
-              <span class="kpi-lbl">Taxa de aprovação</span>
-            </div>
+            <span class="kpi-accent">Taxa</span>
+            <span class="kpi-val" [class.kpi-val--good]="s.taxa_aprovacao >= 0.8" [class.kpi-val--warn]="s.taxa_aprovacao < 0.8">
+              {{ (s.taxa_aprovacao * 100).toFixed(0) }}%
+            </span>
+            <span class="kpi-lbl">Aprovação</span>
           </div>
         </div>
 
@@ -57,38 +58,39 @@ import { LaudoService } from '../core/services/laudo.service';
 
         <!-- Dicas -->
         <div class="tip-box" *ngIf="s.por_rag < s.total_laudos * 0.5">
-          <span>💡</span>
+          <div class="tip-dot"></div>
           <div>
             <strong>Melhore a qualidade</strong>
-            <p>Mais da metade dos laudos está sendo gerado sem referência no repositório. Adicione mais laudos de referência na aba <strong>Repositório</strong> para melhorar os resultados.</p>
+            <p>Mais da metade dos laudos está sendo gerado sem referência no repositório. Adicione laudos de referência na aba <strong>Repositório</strong>.</p>
           </div>
         </div>
       </ng-container>
     </div>
   `,
   styles: [`
-    .dash-page { padding: 24px; height: 100%; overflow-y: auto; max-width: 860px; margin: 0 auto; }
-    .page-title { font-size: 22px; font-weight: 700; color: var(--colorNeutralForeground1); margin: 0 0 24px; }
-    .kpi-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-bottom: 28px; }
-    .kpi-card { display: flex; align-items: center; gap: 14px; padding: 18px; border: 1px solid var(--colorNeutralStroke2); border-radius: 10px; background: var(--colorNeutralBackground2); }
-    .kpi-icon { font-size: 28px; }
-    .kpi-val  { font-size: 26px; font-weight: 700; color: var(--colorNeutralForeground1); display: block; line-height: 1.2; }
-    .kpi-lbl  { font-size: 12px; color: var(--colorNeutralForeground3); display: block; }
-    .skeleton-kpi { height: 80px; border-radius: 10px; background: var(--colorNeutralBackground3); animation: shimmer 1.4s infinite; }
+    .dash-page { padding: 32px 40px; height: 100%; overflow-y: auto; box-sizing: border-box; }
+    .page-title { font-family: var(--font-heading); font-size: 24px; font-weight: 700; color: var(--colorNeutralForeground1); margin: 0 0 28px; letter-spacing: -0.02em; }
+    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 32px; }
+    .kpi-card { padding: 20px; border: 1px solid var(--colorNeutralStroke2); border-radius: 12px; background: var(--colorNeutralBackground2); display: flex; flex-direction: column; gap: 4px; }
+    .kpi-accent { font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--colorBrandForeground1); }
+    .kpi-val  { font-size: 32px; font-weight: 700; color: var(--colorNeutralForeground1); line-height: 1.1; }
+    .kpi-val--good { color: #059669; }
+    .kpi-val--warn { color: #d97706; }
+    .kpi-lbl  { font-size: 12px; color: var(--colorNeutralForeground3); }
+    .skeleton-kpi { height: 96px; border-radius: 12px; background: var(--colorNeutralBackground3); animation: shimmer 1.4s infinite; }
     @keyframes shimmer { 0%,100%{opacity:1} 50%{opacity:0.5} }
-    .section { margin-bottom: 24px; }
-    .section-title { font-size: 16px; font-weight: 600; color: var(--colorNeutralForeground1); margin: 0 0 14px; }
-    .esp-list { display: flex; flex-direction: column; gap: 10px; }
+    .section { margin-bottom: 28px; }
+    .section-title { font-size: 14px; font-weight: 600; color: var(--colorNeutralForeground2); margin: 0 0 16px; letter-spacing: 0.02em; text-transform: uppercase; }
+    .esp-list { display: flex; flex-direction: column; gap: 12px; }
     .esp-row  { display: flex; align-items: center; gap: 12px; }
     .esp-name { min-width: 140px; font-size: 13px; color: var(--colorNeutralForeground1); }
-    .esp-bar-wrap { flex: 1; background: var(--colorNeutralBackground4); border-radius: 4px; height: 8px; }
-    .esp-bar  { height: 100%; background: var(--colorBrandBackground); border-radius: 4px; transition: width 0.5s; }
+    .esp-bar-wrap { flex: 1; background: var(--colorNeutralBackground4); border-radius: 4px; height: 6px; }
+    .esp-bar  { height: 100%; background: var(--colorBrandForeground1); border-radius: 4px; transition: width 0.6s cubic-bezier(0.4,0,0.2,1); opacity: 0.7; }
     .esp-count { min-width: 30px; text-align: right; font-size: 13px; color: var(--colorNeutralForeground3); }
-    .tip-box  { display: flex; gap: 14px; padding: 16px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; font-size: 14px; }
-    .tip-box > span { font-size: 24px; flex-shrink: 0; }
-    .tip-box strong { display: block; margin-bottom: 4px; color: #1e40af; }
-    .tip-box p { margin: 0; color: #1e3a8a; font-size: 13px; }
-    @media (max-width: 700px) { .kpi-grid { grid-template-columns: 1fr 1fr; } }
+    .tip-box  { display: flex; gap: 14px; align-items: flex-start; padding: 16px; background: rgba(59,130,246,0.06); border: 1px solid rgba(59,130,246,0.2); border-radius: 10px; font-size: 14px; }
+    .tip-dot  { width: 8px; height: 8px; border-radius: 50%; background: var(--colorBrandForeground1); flex-shrink: 0; margin-top: 5px; }
+    .tip-box strong { display: block; margin-bottom: 4px; color: var(--colorBrandForeground1); font-size: 13px; }
+    .tip-box p { margin: 0; color: var(--colorNeutralForeground2); font-size: 13px; line-height: 1.5; }
   `],
 })
 export class DashboardComponent implements OnInit {
@@ -136,18 +138,18 @@ import { marked } from 'marked';
           <span class="esp-badge">{{ l.especialidade }}</span>
           <span class="data">{{ l.created_at | date:'dd/MM/yyyy HH:mm' }}</span>
           <span class="geracao-badge" [class]="l.tipo_geracao">
-            {{ l.tipo_geracao === 'rag' ? '📚 Repositório' : '🧠 Claude' }}
+            {{ l.tipo_geracao === 'rag' ? 'Repositório' : 'Claude' }}
           </span>
         </div>
         <div class="view-actions">
           <button class="btn-action" (click)="voice.isSpeaking() ? voice.stopSpeaking() : lerLaudo()">
-            {{ voice.isSpeaking() ? '⏹ Parar' : '🔊 Ouvir' }}
+            {{ voice.isSpeaking() ? 'Parar' : 'Ouvir' }}
           </button>
           <button class="btn-action" (click)="editando.set(!editando())">
-            {{ editando() ? '👁 Ver' : '✏️ Editar' }}
+            {{ editando() ? 'Visualizar' : 'Editar' }}
           </button>
-          <button class="btn-action primary" (click)="exportar('pdf')">⬇️ PDF</button>
-          <button class="btn-action" (click)="exportar('docx')">⬇️ DOCX</button>
+          <button class="btn-action primary" (click)="exportar('pdf')">PDF</button>
+          <button class="btn-action" (click)="exportar('docx')">DOCX</button>
         </div>
       </div>
 
@@ -159,41 +161,63 @@ import { marked } from 'marked';
       </div>
 
       <div class="view-footer" *ngIf="!l.aprovado">
-        <span>Laudo revisado?</span>
-        <button class="btn-feedback ok" (click)="aprovar()">👍 Aprovar</button>
-        <button class="btn-feedback nok" (click)="rejeitar()">✏️ Ajustes</button>
+        <span class="footer-label">Laudo revisado?</span>
+        <button class="btn-feedback ok" (click)="aprovar()">Aprovar</button>
+        <button class="btn-feedback nok" (click)="showCorrecao.set(!showCorrecao())">Ajustes</button>
       </div>
-      <div class="view-footer aprovado" *ngIf="l.aprovado === true">✅ Laudo aprovado pelo médico</div>
+
+      <div class="correcao-panel" *ngIf="showCorrecao()">
+        <textarea class="correcao-input" [(ngModel)]="correcaoText"
+                  placeholder="Descreva os ajustes necessários..." rows="3"></textarea>
+        <div class="correcao-actions">
+          <button class="btn-correcao-cancel" (click)="showCorrecao.set(false); correcaoText = ''">Cancelar</button>
+          <button class="btn-correcao-submit" (click)="confirmarRejeicao(l.id)">Enviar feedback</button>
+        </div>
+      </div>
+
+      <div class="view-footer aprovado" *ngIf="l.aprovado === true">Laudo aprovado</div>
     </div>
 
     <div class="loading" *ngIf="loading()">Carregando laudo...</div>
   `,
   styles: [`
-    .view-page { padding: 24px; height: 100%; overflow-y: auto; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+    .view-page { padding: 24px 32px; height: 100%; overflow-y: auto; display: flex; flex-direction: column; gap: 16px; box-sizing: border-box; }
     .view-header { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-    .btn-back { background: none; border: 1px solid var(--colorNeutralStroke1); border-radius: 6px; padding: 7px 14px; cursor: pointer; font-size: 14px; color: var(--colorNeutralForeground1); }
+    .btn-back { background: none; border: 1px solid var(--colorNeutralStroke1); border-radius: 6px; padding: 7px 14px; cursor: pointer; font-size: 13px; color: var(--colorNeutralForeground2); transition: background-color 0.12s; }
+    .btn-back:hover { background: var(--colorNeutralBackground3); }
     .view-info { display: flex; gap: 10px; align-items: center; flex: 1; flex-wrap: wrap; }
     .esp-badge { font-size: 13px; font-weight: 700; color: var(--colorBrandForeground1); }
     .data { font-size: 12px; color: var(--colorNeutralForeground3); }
-    .geracao-badge { font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 10px; }
-    .geracao-badge.rag { background: #d1fae5; color: #065f46; }
-    .geracao-badge.fallback { background: #fef3c7; color: #92400e; }
+    .geracao-badge { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 10px; letter-spacing: 0.02em; text-transform: uppercase; }
+    .geracao-badge.rag { background: rgba(16,185,129,0.12); color: #10b981; border: 1px solid rgba(16,185,129,0.2); }
+    .geracao-badge.fallback { background: rgba(245,158,11,0.12); color: #f59e0b; border: 1px solid rgba(245,158,11,0.2); }
     .view-actions { display: flex; gap: 8px; }
-    .btn-action { padding: 7px 14px; border: 1px solid var(--colorNeutralStroke1); border-radius: 6px; background: transparent; font-size: 13px; cursor: pointer; color: var(--colorNeutralForeground1); }
+    .btn-action { padding: 7px 14px; border: 1px solid var(--colorNeutralStroke1); border-radius: 6px; background: transparent; font-size: 13px; cursor: pointer; color: var(--colorNeutralForeground1); transition: background-color 0.12s; }
     .btn-action:hover { background: var(--colorNeutralBackground3); }
     .btn-action.primary { background: var(--colorBrandBackground); color: white; border-color: transparent; }
-    .view-body { background: var(--colorNeutralBackground2); border: 1px solid var(--colorNeutralStroke2); border-radius: 10px; padding: 24px; flex: 1; }
+    .btn-action.primary:hover { background: var(--colorBrandBackgroundHover); }
+    .view-body { background: var(--colorNeutralBackground2); border: 1px solid var(--colorNeutralStroke2); border-radius: 10px; padding: 28px; flex: 1; }
     .laudo-text { font-size: 14px; line-height: 1.8; color: var(--colorNeutralForeground1); }
     .markdown-body h1,h2,h3 { font-weight: 700; margin: 14px 0 6px; }
     .markdown-body p { margin: 6px 0; }
     .markdown-body strong { font-weight: 700; }
-    .laudo-editor { width: 100%; min-height: 400px; padding: 16px; border: 1px solid var(--colorNeutralStroke1); border-radius: 8px; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.7; background: var(--colorNeutralBackground1); color: var(--colorNeutralForeground1); resize: vertical; outline: none; box-sizing: border-box; }
-    .view-footer { display: flex; align-items: center; gap: 12px; padding: 14px 0; border-top: 1px solid var(--colorNeutralStroke2); font-size: 14px; color: var(--colorNeutralForeground2); }
-    .view-footer.aprovado { color: #059669; font-weight: 600; }
-    .btn-feedback { padding: 7px 16px; border: none; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer; }
-    .btn-feedback.ok  { background: #d1fae5; color: #065f46; }
-    .btn-feedback.nok { background: #fef3c7; color: #92400e; }
-    .loading { padding: 40px; text-align: center; color: var(--colorNeutralForeground3); }
+    .laudo-editor { width: 100%; min-height: 400px; padding: 16px; border: 1px solid var(--colorNeutralStroke1); border-radius: 8px; font-family: var(--font-mono); font-size: 13px; line-height: 1.7; background: var(--colorNeutralBackground1); color: var(--colorNeutralForeground1); resize: vertical; outline: none; box-sizing: border-box; }
+    .laudo-editor:focus { border-color: var(--colorBrandStroke1); }
+    .view-footer { display: flex; align-items: center; gap: 10px; padding: 14px 0; border-top: 1px solid var(--colorNeutralStroke2); font-size: 14px; color: var(--colorNeutralForeground2); }
+    .footer-label { font-size: 13px; color: var(--colorNeutralForeground3); }
+    .view-footer.aprovado { color: #10b981; font-weight: 600; font-size: 13px; }
+    .btn-feedback { padding: 7px 16px; border: 1px solid transparent; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer; transition: opacity 0.12s; }
+    .btn-feedback.ok  { background: rgba(16,185,129,0.12); color: #10b981; border-color: rgba(16,185,129,0.25); }
+    .btn-feedback.nok { background: rgba(245,158,11,0.12); color: #f59e0b; border-color: rgba(245,158,11,0.25); }
+    .btn-feedback:hover { opacity: 0.8; }
+    .correcao-panel { display: flex; flex-direction: column; gap: 10px; padding: 16px; background: var(--colorNeutralBackground2); border: 1px solid var(--colorNeutralStroke1); border-radius: 10px; }
+    .correcao-input { width: 100%; padding: 10px 14px; border: 1px solid var(--colorNeutralStroke1); border-radius: 8px; font-size: 13px; font-family: inherit; background: var(--colorNeutralBackground1); color: var(--colorNeutralForeground1); resize: none; outline: none; line-height: 1.5; box-sizing: border-box; }
+    .correcao-input:focus { border-color: var(--colorBrandStroke1); }
+    .correcao-actions { display: flex; gap: 8px; justify-content: flex-end; }
+    .btn-correcao-cancel { padding: 7px 14px; border: 1px solid var(--colorNeutralStroke1); border-radius: 6px; background: transparent; font-size: 13px; cursor: pointer; color: var(--colorNeutralForeground2); }
+    .btn-correcao-submit { padding: 7px 16px; border: none; border-radius: 6px; background: var(--colorBrandBackground); color: white; font-size: 13px; font-weight: 600; cursor: pointer; }
+    .btn-correcao-submit:hover { background: var(--colorBrandBackgroundHover); }
+    .loading { padding: 40px; text-align: center; color: var(--colorNeutralForeground3); font-size: 14px; }
   `],
 })
 export class VisualizarLaudoComponent implements OnInit {
@@ -205,7 +229,9 @@ export class VisualizarLaudoComponent implements OnInit {
   laudo        = signal<LaudoSalvo | null>(null);
   loading      = signal(true);
   editando     = signal(false);
+  showCorrecao = signal(false);
   textoEditado = '';
+  correcaoText = '';
 
   ngOnInit() {
     const id = this.route.snapshot.paramMap.get('id')!;
@@ -236,13 +262,13 @@ export class VisualizarLaudoComponent implements OnInit {
     );
   }
 
-  rejeitar() {
-    const l = this.laudo();
-    if (!l) return;
-    const c = prompt('Descreva os ajustes necessários:') ?? undefined;
-    this.laudoSvc.feedback(l.id, false, c).subscribe(() =>
-      this.laudo.update(cur => cur ? { ...cur, aprovado: false } : cur)
-    );
+  confirmarRejeicao(id: string) {
+    const correcoes = this.correcaoText.trim() || undefined;
+    this.laudoSvc.feedback(id, false, correcoes).subscribe(() => {
+      this.laudo.update(cur => cur ? { ...cur, aprovado: false } : cur);
+      this.showCorrecao.set(false);
+      this.correcaoText = '';
+    });
   }
 
   exportar(fmt: 'pdf' | 'docx') {

@@ -23,7 +23,7 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
       <!-- ── Painel de Entrada ─────────────────────────────────────────────── -->
       <div class="input-panel" [class.collapsed]="laudoGerado()">
 
-        <h2 class="panel-title">🩺 Novo Laudo</h2>
+        <h2 class="panel-title">Novo Laudo</h2>
 
         <!-- Especialidade -->
         <div class="field">
@@ -85,9 +85,10 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
           class="btn-gerar"
           [disabled]="!canGenerate()"
           (click)="gerarLaudo()">
-          <span *ngIf="!isGenerating()">✨ Gerar Laudo</span>
+          <span *ngIf="!isGenerating()">Gerar Laudo</span>
           <span *ngIf="isGenerating()" class="generating">
-            <span class="spinner"></span> Gerando...
+            <span class="dots"><span></span><span></span><span></span></span>
+            Gerando...
           </span>
         </button>
 
@@ -98,10 +99,10 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
 
         <!-- Header com badges -->
         <div class="result-header">
-          <h2 class="panel-title">📋 Laudo Gerado</h2>
+          <h2 class="panel-title">Laudo Gerado</h2>
           <div class="badges">
             <span class="badge" [class]="tipoGeracao()" *ngIf="tipoGeracao()">
-              {{ tipoGeracao() === 'rag' ? '📚 Baseado no Repositório' : '🧠 Conhecimento Claude' }}
+              {{ tipoGeracao() === 'rag' ? 'Repositório' : 'Claude' }}
             </span>
             <span class="badge refs" *ngIf="laudosRef().length > 0">
               {{ laudosRef().length }} referência(s)

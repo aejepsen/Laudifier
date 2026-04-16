@@ -207,6 +207,7 @@ def load_system_prompt() -> str:
 # backend/services/storage_service.py  (reutilizado do AI Professor v2)
 # ─────────────────────────────────────────────────────────────────────────────
 
+import uuid
 import boto3
 from botocore.config import Config
 from pathlib import Path as _Path

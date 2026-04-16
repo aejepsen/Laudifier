@@ -31,7 +31,7 @@ class TestLaudoSearchAgent:
     async def test_retorna_lista_vazia_sem_resultados(self):
         from backend.agents.search_agent import LaudoSearchAgent
         agent = LaudoSearchAgent.__new__(LaudoSearchAgent)
-        with patch.object(agent, '_embed', new=AsyncMock(return_value=[0.1] * 3072)):
+        with patch.object(agent, '_embed', new=AsyncMock(return_value=[0.1] * 1024)):
             with patch.object(agent, 'qdrant', create=True) as mock_q:
                 mock_q.search = AsyncMock(return_value=[])
                 result = await agent.buscar_laudos_similares("rx torax", "radiologia")

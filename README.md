@@ -1,4 +1,4 @@
-# 🏥 Laudifier — Gerador de Laudos Médicos com IA
+# 🏥 Laudifier — Gerador de Laudos Médicos com IA.
 
 > Gerador de laudos médicos com reconhecimento de voz, RAG sobre repositório de laudos reais e fallback para conhecimento clínico do Claude. Exportação em PDF e DOCX. Stack 100% gratuita para portfolio.
 

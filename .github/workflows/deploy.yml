@@ -37,6 +37,11 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Dependency audit
+        run: |
+          pip install pip-audit -q
+          pip-audit --requirement requirements.txt --skip-editable
+
       - name: Run tests
         run: pytest tests/ -v --tb=short
         env:
@@ -126,9 +131,9 @@ jobs:
               --name laudifier-production-backend \
               --resource-group rg-laudifier-production \
               --query "properties.configuration.ingress.fqdn" -o tsv)
-            echo "Aguardando Container App... URL: https://${FQDN}/health"
+            echo "Aguardando Container App... URL: https://${FQDN}/health/ready"
             sleep 30
-            curl -f --retry 6 --retry-delay 10 "https://${FQDN}/health"
+            curl -f --retry 6 --retry-delay 10 "https://${FQDN}/health/ready"
 
 
   # ─── 4. Deploy Frontend → Azure Static Web Apps ─────────────────────────────
@@ -145,10 +150,14 @@ jobs:
           node-version: 20
           cache: npm
 
+      - name: Injetar variáveis de ambiente no Angular
+        run: |
+          sed -i "s|REPLACE_API_URL|${{ secrets.API_URL }}|g"         src/environments/environment.prod.ts
+          sed -i "s|REPLACE_SUPABASE_URL|${{ secrets.SUPABASE_URL }}|g" src/environments/environment.prod.ts
+          sed -i "s|REPLACE_SUPABASE_KEY|${{ secrets.SUPABASE_ANON_KEY }}|g" src/environments/environment.prod.ts
+
       - name: Build Angular
         run: npm ci && npm run build
-        env:
-          API_URL: ${{ secrets.API_URL }}
 
       - name: Deploy para Azure Static Web Apps
         uses: azure/static-web-apps-deploy@v1
