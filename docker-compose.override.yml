@@ -3,7 +3,8 @@
 # NUNCA commitado com secrets; não vai para produção.
 services:
   qdrant:
-    ports: ["6333:6333"]   # exposto apenas em dev para inspeção local
+    profiles: ["local-qdrant"]   # mantém o profile do compose base
+    ports: ["6333:6333"]         # expõe ao host somente em dev
 
   backend:
     build:
