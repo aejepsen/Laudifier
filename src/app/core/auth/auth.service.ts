@@ -21,7 +21,7 @@ export class AuthService {
 
   constructor() {
     this.sb = createClient(environment.supabaseUrl, environment.supabaseKey, {
-      auth: { lock: async (_name: string, _timeout: number, fn: () => Promise<unknown>) => fn() },
+      auth: { lock: <R>(_name: string, _timeout: number, fn: () => Promise<R>) => fn() },
     });
     this.sb.auth.getSession().then(({ data }) => {
       if (data.session) {
