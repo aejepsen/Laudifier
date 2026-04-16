@@ -177,9 +177,9 @@ export class GerarLaudoComponent implements OnDestroy {
   editando       = signal(false);
   currentLaudoId = signal('');
 
-  canGenerate = computed(() =>
-    !!this.especialidade && !!this.solicitacao.trim() && !this.isGenerating()
-  );
+  canGenerate() {
+    return !!this.especialidade && !!this.solicitacao.trim() && !this.isGenerating();
+  }
 
   voicePlaceholder = computed(() => {
     if (this.voice.state() === 'listening')  return '🎙️ Ouvindo... fale os achados do exame';
