@@ -125,6 +125,12 @@ jobs:
           azcliversion: latest
           inlineScript: |
             SHA=$(echo "${{ github.sha }}" | cut -c1-7)
+            az containerapp registry set \
+              --name          laudifier-production-backend \
+              --resource-group rg-laudifier-production \
+              --server        docker.io \
+              --username      ${{ secrets.DOCKERHUB_USERNAME }} \
+              --password      ${{ secrets.DOCKERHUB_TOKEN }}
             az containerapp update \
               --name         laudifier-production-backend \
               --resource-group rg-laudifier-production \
