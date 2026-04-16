@@ -42,7 +42,7 @@ jobs:
       - name: Instalar torch CPU-only (evita CUDA ~5GB)
         run: pip install torch==2.5.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 
-      - run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt pytest pytest-asyncio httpx
 
       - name: Dependency audit
         run: |
