@@ -1,4 +1,4 @@
-name: Laudifier — Deploy
+name: Laudifier — CI/CD
 
 on:
   push:
@@ -6,61 +6,156 @@ on:
   pull_request:
     branches: [main]
 
+env:
+  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/laudifier-backend
+
 jobs:
 
+  # ─── 1. Testes ──────────────────────────────────────────────────────────────
   test-backend:
     name: Test Backend
     runs-on: ubuntu-latest
     services:
       qdrant:
-        image: qdrant/qdrant:latest
+        image: qdrant/qdrant:v1.9.4
         ports: ["6333:6333"]
+        options: >-
+          --health-cmd "curl -f http://localhost:6333/healthz"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
     defaults:
       run:
         working-directory: backend
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
-        with: { python-version: "3.11", cache: pip }
+        with:
+          python-version: "3.11"
+          cache: pip
+
       - run: pip install -r requirements.txt
-      - run: pytest tests/ -v
+
+      - name: Run tests
+        run: pytest tests/ -v --tb=short
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          OPENAI_API_KEY:    ${{ secrets.OPENAI_API_KEY }}
-          QDRANT_URL:        http://localhost:6333
-          SUPABASE_URL:      ${{ secrets.SUPABASE_URL }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY:            ${{ secrets.OPENAI_API_KEY }}
+          QDRANT_URL:                http://localhost:6333
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY:         ${{ secrets.SUPABASE_ANON_KEY }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          JWT_SECRET:        ${{ secrets.JWT_SECRET }}
-          USE_LOCAL_STORAGE: "true"
+          JWT_SECRET:                ${{ secrets.JWT_SECRET }}
+          MEM0_API_KEY:              ${{ secrets.MEM0_API_KEY }}
+          USE_LOCAL_STORAGE:         "true"
+          APP_ENV:                   "development"
 
-  deploy-frontend:
-    name: Deploy Angular → Vercel
+
+  # ─── 2. Build + Push → Docker Hub ───────────────────────────────────────────
+  build-push:
+    name: Build & Push → Docker Hub
     runs-on: ubuntu-latest
     needs: [test-backend]
     if: github.ref == 'refs/heads/main'
+    outputs:
+      image_tag: ${{ steps.meta.outputs.version }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: 20, cache: npm }
-      - run: npm ci && npm run build
-      - run: npm install -g vercel
-      - run: vercel deploy --prod --token=${{ secrets.VERCEL_TOKEN }} --yes
-        env:
-          VERCEL_ORG_ID:     ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
+      - name: Docker metadata (sha curto + latest)
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.IMAGE_NAME }}
+          tags: |
+            type=sha,prefix=sha-,format=short
+            type=raw,value=latest,enable=true
+
+      - name: Login Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Setup Buildx (layer cache via GitHub Actions cache)
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build e push
+        uses: docker/build-push-action@v5
+        with:
+          context:    ./backend
+          push:       true
+          tags:       ${{ steps.meta.outputs.tags }}
+          cache-from: type=gha
+          cache-to:   type=gha,mode=max
+
+
+  # ─── 3. Deploy Backend → Azure Container Apps ───────────────────────────────
   deploy-backend:
-    name: Deploy Backend → Fly.io
+    name: Deploy Backend → Azure Container Apps
+    runs-on: ubuntu-latest
+    needs: [build-push]
+    environment: production
+    steps:
+      - name: Login Azure via OIDC (sem credenciais estáticas)
+        uses: azure/login@v2
+        with:
+          client-id:       ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id:       ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Atualizar imagem no Container App
+        uses: azure/cli@v2
+        with:
+          azcliversion: latest
+          inlineScript: |
+            SHA=$(echo "${{ github.sha }}" | cut -c1-7)
+            az containerapp update \
+              --name         laudifier-production-backend \
+              --resource-group rg-laudifier-production \
+              --image        docker.io/${{ env.IMAGE_NAME }}:sha-${SHA} \
+              --output       none
+
+      - name: Health check pós-deploy
+        uses: azure/cli@v2
+        with:
+          azcliversion: latest
+          inlineScript: |
+            FQDN=$(az containerapp show \
+              --name laudifier-production-backend \
+              --resource-group rg-laudifier-production \
+              --query "properties.configuration.ingress.fqdn" -o tsv)
+            echo "Aguardando Container App... URL: https://${FQDN}/health"
+            sleep 30
+            curl -f --retry 6 --retry-delay 10 "https://${FQDN}/health"
+
+
+  # ─── 4. Deploy Frontend → Azure Static Web Apps ─────────────────────────────
+  deploy-frontend:
+    name: Deploy Angular → Azure Static Web Apps
     runs-on: ubuntu-latest
     needs: [test-backend]
     if: github.ref == 'refs/heads/main'
-    defaults:
-      run:
-        working-directory: backend
     steps:
       - uses: actions/checkout@v4
-      - uses: superfly/flyctl-actions/setup-flyctl@master
-      - run: flyctl deploy --remote-only
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Build Angular
+        run: npm ci && npm run build
         env:
-          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-      - run: sleep 20 && curl -f ${{ secrets.API_URL }}/health
+          API_URL: ${{ secrets.API_URL }}
+
+      - name: Deploy para Azure Static Web Apps
+        uses: azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.SWA_DEPLOY_TOKEN }}
+          repo_token:                      ${{ secrets.GITHUB_TOKEN }}
+          action:                          upload
+          app_location:                    "/"
+          output_location:                 "dist/laudifier/browser"
+          skip_api_build:                  true
