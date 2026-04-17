@@ -30,6 +30,7 @@ from ..services.laudo_service import LaudoService
 from ..services.export_service import ExportService
 from ..services.memory_service import LaudifierMemory
 from .memory_routes import router as memory_router
+from .pipeline_routes import router as pipeline_router
 
 logger  = logging.getLogger(__name__)
 limiter = Limiter(key_func=get_remote_address)
@@ -65,6 +66,7 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 storage = StorageService()
 
 app.include_router(memory_router)
+app.include_router(pipeline_router)
 
 
 # ─── Security headers ─────────────────────────────────────────────────────────
