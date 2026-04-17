@@ -25,15 +25,6 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
 
         <h2 class="panel-title">Novo Laudo</h2>
 
-        <!-- Especialidade -->
-        <div class="field">
-          <label>Especialidade</label>
-          <select [(ngModel)]="especialidade" class="select-input">
-            <option value="">Selecione...</option>
-            <option *ngFor="let e of especialidades" [value]="e">{{ e }}</option>
-          </select>
-        </div>
-
         <!-- Dados do Exame (opcional) -->
         <div class="field" *ngIf="showDados">
           <label>Dados do Exame <span class="optional">(opcional)</span></label>
@@ -162,8 +153,7 @@ export class GerarLaudoComponent implements OnDestroy {
   private  laudoSvc = inject(LaudoService);
   private  destroy$ = new Subject<void>();
 
-  especialidades = ESPECIALIDADES;
-  especialidade  = '';
+  especialidade  = 'Geral';
   solicitacao    = '';
   showDados      = false;
   dadosPaciente  = { nome: '', idade: '', sexo: '', indicacao: '' };
@@ -178,7 +168,7 @@ export class GerarLaudoComponent implements OnDestroy {
   currentLaudoId = signal('');
 
   canGenerate() {
-    return !!this.especialidade && !!this.solicitacao.trim() && !this.isGenerating();
+    return !!this.solicitacao.trim() && !this.isGenerating();
   }
 
   voicePlaceholder = computed(() => {

@@ -1,24 +1,30 @@
 # backend/api/auth.py
 import os
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from fastapi import HTTPException, Security
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
-import jwt
 from supabase import create_client
 
-JWT_SECRET   = os.getenv("JWT_SECRET")
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
 security     = HTTPBearer()
 
+_sb_admin = None
+
+def _get_sb_admin():
+    global _sb_admin
+    if _sb_admin is None:
+        _sb_admin = create_client(SUPABASE_URL, SUPABASE_KEY)
+    return _sb_admin
+
 
 @dataclass
 class UserContext:
-    id:           str
-    email:        str
-    display_name: str
-    crm:          str   = ""
-    role:         str   = "medico"   # medico | admin
+    id:            str
+    email:         str
+    display_name:  str
+    crm:           str  = ""
+    role:          str  = "medico"
     especialidade: str  = ""
 
 
@@ -27,20 +33,17 @@ async def verify_token(
 ) -> UserContext:
     token = credentials.credentials
     try:
-        payload = jwt.decode(
-            token, JWT_SECRET,
-            algorithms=["HS256"],
-            options={"verify_aud": False},
-        )
-        user_id = payload.get("sub")
-        email   = payload.get("email", "")
-        if not user_id:
+        sb = _get_sb_admin()
+        resp = sb.auth.get_user(token)
+        user = resp.user
+        if not user:
             raise HTTPException(status_code=401, detail="Token inválido")
 
-        # Busca perfil no Supabase
-        sb = create_client(SUPABASE_URL, SUPABASE_KEY)
-        r  = sb.table("user_profiles").select("*").eq("user_id", user_id).single().execute()
-        p  = r.data or {}
+        user_id = user.id
+        email   = user.email or ""
+
+        r = sb.table("user_profiles").select("*").eq("user_id", user_id).single().execute()
+        p = r.data or {}
 
         return UserContext(
             id=user_id, email=email,
@@ -49,5 +52,7 @@ async def verify_token(
             role=p.get("role", "medico"),
             especialidade=p.get("especialidade", ""),
         )
-    except jwt.PyJWTError as e:
+    except HTTPException:
+        raise
+    except Exception as e:
         raise HTTPException(status_code=401, detail=f"Token inválido: {e}")

@@ -3,6 +3,7 @@ import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, Subject } from 'rxjs';
 import { environment } from '../../../environments/environment';
+import { AuthService } from '../auth/auth.service';
 
 export interface LaudoGeradoChunk {
   type:           'meta' | 'token' | 'done' | 'error';
@@ -40,7 +41,8 @@ export const ESPECIALIDADES = [
 
 @Injectable({ providedIn: 'root' })
 export class LaudoService {
-  private http = inject(HttpClient);
+  private http   = inject(HttpClient);
+  private auth   = inject(AuthService);
 
   /** Gera laudo via streaming SSE */
   gerarLaudo(
@@ -56,7 +58,7 @@ export class LaudoService {
 
   private async _fetchStream(body: any, subject: Subject<LaudoGeradoChunk>) {
     try {
-      const token = localStorage.getItem('sb-token') || '';
+      const token = await this.auth.getToken();
       const resp  = await fetch(`${environment.apiUrl}/laudos/gerar`, {
         method:  'POST',
         headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
