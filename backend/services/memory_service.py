@@ -1,21 +1,15 @@
 # backend/services/memory_service.py
 """
-Mem0 — Camada de Memória Persistente para o Laudifier.
+Mem0 Cloud — Camada de Memória Persistente para o Laudifier.
 
-O Mem0 aprende automaticamente com cada interação do médico e injeta
-contexto relevante nos próximos laudos, sem que o médico precise repetir
-preferências ou informações já fornecidas anteriormente.
+Usa o serviço gerenciado Mem0 (app.mem0.ai) — sem modelo local, sem RAM duplicada.
+Free tier: 10 000 memories + 1 000 retrievals/mês (suficiente para MVP).
 
 Quatro escopos de memória:
   1. Médico (user_id)      — preferências pessoais, estilo de laudo, correções habituais
   2. Paciente (agent_id)   — histórico clínico, exames anteriores, condições conhecidas
   3. Especialidade (app_id)— padrões observados para cada especialidade
   4. Sessão (run_id)       — contexto da sessão atual (temporário)
-
-Configuração:
-  - LLM:      Claude Haiku 4.5 (extração de fatos — barato e rápido)
-  - Embedder: intfloat/multilingual-e5-large local via sentence-transformers (1024 dims)
-  - Vector:   Qdrant (mesma instância, coleção separada: 'laudifier_memory')
 """
 
 import os
@@ -23,99 +17,52 @@ import functools
 import logging
 from datetime import datetime, timezone
 
-from mem0 import Memory
-
 logger = logging.getLogger(__name__)
-
-# ── Configuração Mem0 ─────────────────────────────────────────────────────────
-
-def _build_mem0_config() -> dict:
-    """
-    Configura Mem0 com:
-    - Claude Haiku para extração de fatos (barato)
-    - intfloat/multilingual-e5-large (sentence-transformers) para vetorizar memórias
-    - Qdrant para persistência (mesma instância do projeto)
-    """
-    qdrant_url = os.getenv("QDRANT_URL", "http://localhost:6333")
-    qdrant_key = os.getenv("QDRANT_API_KEY", "")
-
-    # Config base do Qdrant
-    qdrant_config: dict = {
-        "collection_name":       "laudifier_memory",
-        "embedding_model_dims":  1024,   # multilingual-e5-large
-    }
-
-    # Qdrant Cloud usa URL, local usa host/port
-    if qdrant_url.startswith("http://localhost") or qdrant_url.startswith("http://qdrant"):
-        host, port = qdrant_url.replace("http://", "").split(":")
-        qdrant_config["host"] = host
-        qdrant_config["port"] = int(port)
-    else:
-        qdrant_config["url"] = qdrant_url
-        if qdrant_key:
-            qdrant_config["api_key"] = qdrant_key
-
-    return {
-        # Claude Haiku — extração de fatos médicos das conversas
-        "llm": {
-            "provider": "anthropic",
-            "config": {
-                "model":       "claude-haiku-4-5-20251001",
-                "temperature": 0.1,
-                "max_tokens":  2000,
-                "api_key":     os.getenv("ANTHROPIC_API_KEY"),
-            },
-        },
-        # OpenAI text-embedding-3-small — vetoriza as memórias
-        "embedder": {
-            "provider": "huggingface",
-            "config": {
-                "model": "intfloat/multilingual-e5-large"
-            },
-        },
-        # Qdrant — persiste as memórias vetorizadas
-        "vector_store": {
-            "provider": "qdrant",
-            "config": qdrant_config,
-        },
-        # Versão da API Mem0
-        "version": "v1.1",
-    }
 
 
 @functools.lru_cache(maxsize=1)
-def get_memory() -> Memory:
+def get_memory():
     """
-    Singleton do Mem0 Memory — inicializado uma vez por processo.
-    Thread-safe via lru_cache.
+    Singleton do Mem0 MemoryClient — inicializado uma vez por processo.
+    Usa o serviço cloud: sem modelo local, sem RAM extra.
     """
-    try:
-        config = _build_mem0_config()
-        mem    = Memory.from_config(config)
-        logger.info("✅ Mem0 inicializado — Qdrant collection: laudifier_memory")
-        return mem
-    except Exception as e:
-        logger.error(f"❌ Mem0 falhou ao inicializar: {e}")
-        raise
+    from mem0 import MemoryClient
+
+    api_key = os.getenv("MEM0_API_KEY", "")
+    if not api_key:
+        raise ValueError("MEM0_API_KEY não configurada")
+
+    client = MemoryClient(api_key=api_key)
+    logger.info("✅ Mem0 Cloud inicializado (MemoryClient)")
+    return client
+
+
+def _safe_results(raw) -> list:
+    """Normaliza resultado do Mem0 — MemoryClient retorna lista, Memory retorna dict."""
+    if isinstance(raw, list):
+        return raw
+    if isinstance(raw, dict):
+        return raw.get("results", [])
+    return []
 
 
 # ── API Pública ───────────────────────────────────────────────────────────────
 
 class LaudifierMemory:
     """
-    Wrapper de alto nível do Mem0 para o domínio médico.
+    Wrapper de alto nível do Mem0 Cloud para o domínio médico.
 
     Escopos:
       user_id   = ID do médico (Supabase)
       agent_id  = ID do paciente (nome ou CPF anonimizado)
       app_id    = especialidade (radiologia, patologia...)
-      run_id    = ID da sessão atual
     """
 
     def __init__(self):
         try:
             self.mem = get_memory()
-        except Exception:
+        except Exception as e:
+            logger.warning(f"[Mem0] Não inicializado: {e}")
             self.mem = None
 
     # ── Lembrar ───────────────────────────────────────────────────────────────
@@ -133,6 +80,8 @@ class LaudifierMemory:
         Extrai e persiste fatos relevantes de uma interação de geração de laudo.
         Chamado em background após cada laudo gerado.
         """
+        if not self.mem:
+            return
         try:
             mensagens = [
                 {
@@ -146,12 +95,11 @@ class LaudifierMemory:
                     "role": "assistant",
                     "content": (
                         f"[LAUDO GERADO — {tipo_geracao.upper()}]\n"
-                        f"{laudo[:2000]}"  # limita para não estourar context
+                        f"{laudo[:2000]}"
                     ),
                 },
             ]
 
-            # Memória do médico: preferências, estilo, termos usados
             self.mem.add(
                 mensagens,
                 user_id=medico_id,
@@ -162,14 +110,12 @@ class LaudifierMemory:
                 },
             )
 
-            # Memória da especialidade: padrões observados
             self.mem.add(
                 mensagens,
                 app_id=f"especialidade_{especialidade.lower().replace(' ', '_')}",
                 metadata={"tipo_geracao": tipo_geracao},
             )
 
-            # Memória do paciente (se identificado)
             if paciente_id:
                 self.mem.add(
                     mensagens,
@@ -187,22 +133,20 @@ class LaudifierMemory:
         laudo_editado:  str,
         especialidade:  str,
     ):
-        """
-        Aprende com as correções que o médico faz nos laudos.
-        Cada correção é uma informação valiosa sobre preferências do médico.
-        """
+        """Aprende com as correções que o médico faz nos laudos."""
+        if not self.mem:
+            return
         try:
             diff_context = (
                 f"O médico corrigiu este laudo de {especialidade}.\n\n"
                 f"ANTES (gerado pela IA):\n{laudo_original[:800]}\n\n"
                 f"DEPOIS (corrigido pelo médico):\n{laudo_editado[:800]}"
             )
-
             self.mem.add(
                 [{"role": "user", "content": diff_context}],
                 user_id=medico_id,
                 metadata={
-                    "tipo":         "correcao",
+                    "tipo":          "correcao",
                     "especialidade": especialidade,
                     "data":          datetime.now(timezone.utc).isoformat(),
                 },
@@ -223,25 +167,24 @@ class LaudifierMemory:
         Recupera memórias relevantes do médico para contextualizar a geração.
         Retorna string formatada para injetar no prompt do Claude.
         """
+        if not self.mem:
+            return ""
         try:
-            # Memórias do médico
-            resultado = self.mem.search(
-                query=f"{especialidade}: {solicitacao}",
-                user_id=medico_id,
-                limit=limite,
+            memorias_medico = _safe_results(
+                self.mem.search(
+                    query=f"{especialidade}: {solicitacao}",
+                    user_id=medico_id,
+                    limit=limite,
+                )
             )
-            memorias_medico = resultado.get("results", [])
-
-            # Padrões da especialidade
-            resultado_esp = self.mem.search(
-                query=solicitacao,
-                app_id=f"especialidade_{especialidade.lower().replace(' ', '_')}",
-                limit=3,
+            memorias_esp = _safe_results(
+                self.mem.search(
+                    query=solicitacao,
+                    app_id=f"especialidade_{especialidade.lower().replace(' ', '_')}",
+                    limit=3,
+                )
             )
-            memorias_esp = resultado_esp.get("results", [])
-
             return _formatar_memorias(memorias_medico, memorias_esp)
-
         except Exception as e:
             logger.warning(f"[Mem0] Falha ao buscar contexto: {e}")
             return ""
@@ -252,47 +195,48 @@ class LaudifierMemory:
         solicitacao:  str,
         limite:       int = 3,
     ) -> str:
-        """
-        Recupera histórico clínico do paciente de exames anteriores.
-        """
+        """Recupera histórico clínico do paciente de exames anteriores."""
+        if not self.mem:
+            return ""
         try:
-            resultado = self.mem.search(
-                query=solicitacao,
-                agent_id=f"paciente_{paciente_id}",
-                limit=limite,
+            memorias = _safe_results(
+                self.mem.search(
+                    query=solicitacao,
+                    agent_id=f"paciente_{paciente_id}",
+                    limit=limite,
+                )
             )
-            memorias = resultado.get("results", [])
-            if not memorias:
-                return ""
-
             items = [f"  • {m['memory']}" for m in memorias if m.get("score", 0) > 0.5]
             if not items:
                 return ""
-
             return "HISTÓRICO DO PACIENTE (exames anteriores):\n" + "\n".join(items)
-
         except Exception as e:
             logger.warning(f"[Mem0] Falha ao buscar histórico do paciente: {e}")
             return ""
 
     def listar_memorias_medico(self, medico_id: str) -> list[dict]:
         """Lista todas as memórias armazenadas de um médico (para exibir na UI)."""
+        if not self.mem:
+            return []
         try:
-            resultado = self.mem.get_all(user_id=medico_id)
-            return resultado.get("results", [])
+            return _safe_results(self.mem.get_all(user_id=medico_id))
         except Exception as e:
             logger.warning(f"[Mem0] Falha ao listar memórias: {e}")
             return []
 
     def deletar_memoria(self, memory_id: str):
-        """Remove uma memória específica (para o médico gerenciar)."""
+        """Remove uma memória específica."""
+        if not self.mem:
+            return
         try:
             self.mem.delete(memory_id=memory_id)
         except Exception as e:
             logger.warning(f"[Mem0] Falha ao deletar memória {memory_id}: {e}")
 
     def limpar_memorias_medico(self, medico_id: str):
-        """Remove todas as memórias de um médico (GDPR / privacidade)."""
+        """Remove todas as memórias de um médico (LGPD art. 18, VI)."""
+        if not self.mem:
+            return
         try:
             self.mem.delete_all(user_id=medico_id)
             logger.info(f"[Mem0] Memórias do médico {medico_id} removidas")
@@ -309,7 +253,6 @@ def _formatar_memorias(
     """Formata memórias recuperadas para injeção no prompt do Claude."""
     partes = []
 
-    # Preferências e padrões do médico
     itens_medico = [
         f"  • {m['memory']}"
         for m in memorias_medico
@@ -321,7 +264,6 @@ def _formatar_memorias(
             + "\n".join(itens_medico)
         )
 
-    # Padrões da especialidade
     itens_esp = [
         f"  • {m['memory']}"
         for m in memorias_esp

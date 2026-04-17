@@ -51,11 +51,26 @@ async def gerar_laudo_stream(
     client    = anthropic.AsyncAnthropic()
     mem_svc   = LaudifierMemory()
 
-    # ── 1. Recupera memórias do médico via Mem0 ───────────────────────────────
-    contexto_mem0    = mem_svc.buscar_contexto_medico(user_id, solicitacao, especialidade)
+    # ── 1. Recupera memórias do médico via Mem0 (non-blocking com timeout) ──────
+    # Mem0 usa sentence-transformers sincronamente — wrapping em thread evita
+    # bloquear o event loop; timeout de 8s garante fallback gracioso se lento.
+    try:
+        contexto_mem0 = await asyncio.wait_for(
+            asyncio.to_thread(mem_svc.buscar_contexto_medico, user_id, solicitacao, especialidade),
+            timeout=8.0,
+        )
+    except Exception:
+        contexto_mem0 = ""
+
     historico_paciente = ""
     if paciente_id:
-        historico_paciente = mem_svc.buscar_historico_paciente(paciente_id, solicitacao)
+        try:
+            historico_paciente = await asyncio.wait_for(
+                asyncio.to_thread(mem_svc.buscar_historico_paciente, paciente_id, solicitacao),
+                timeout=8.0,
+            )
+        except Exception:
+            historico_paciente = ""
 
     tem_memoria = bool(contexto_mem0 or historico_paciente)
 
