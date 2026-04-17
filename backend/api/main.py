@@ -171,6 +171,17 @@ async def gerar_laudo(
                         lambda t: logger.error("[Salvar laudo] Falhou", exc_info=t.exception()) if t.exception() else None
                     )
                     trace.update(output={"laudo_id": laudo_id, "tipo_geracao": chunk.get("tipo_geracao")})
+                    # Envia done sem o laudo completo (já foi acumulado no cliente via tokens)
+                    # e fecha o stream explicitamente para garantir que o cursor pare
+                    done_payload = {
+                        "type":            "done",
+                        "laudo_id":        laudo_id,
+                        "tipo_geracao":    chunk.get("tipo_geracao", ""),
+                        "campos_faltando": chunk.get("campos_faltando", []),
+                        "laudos_ref":      chunk.get("laudos_ref", []),
+                    }
+                    yield f"data: {json.dumps(done_payload)}\n\n"
+                    return  # fecha o stream imediatamente após done
                 yield f"data: {json.dumps(chunk)}\n\n"
         except Exception as e:
             logger.error("[Gerar laudo] Erro no streaming", exc_info=True)
