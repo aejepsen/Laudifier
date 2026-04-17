@@ -108,13 +108,35 @@ async def gerar_laudo_stream(
 
     system = load_system_prompt()
 
-    # ── 7. Streaming Claude ───────────────────────────────────────────────────
+    # ── 7. Streaming Claude com prompt caching ────────────────────────────────
+    # Divide o prompt em parte cacheável (contexto RAG + mem0) e dinâmica (solicitação)
+    _SPLIT = "── SOLICITAÇÃO DO MÉDICO ──"
+    if _SPLIT in prompt:
+        ctx_part, query_part = prompt.split(_SPLIT, 1)
+        query_part = _SPLIT + query_part
+    else:
+        ctx_part, query_part = "", prompt
+
+    user_content: list[dict] = []
+    if ctx_part.strip():
+        user_content.append({
+            "type": "text",
+            "text": ctx_part.rstrip(),
+            "cache_control": {"type": "ephemeral"},  # cache contexto RAG + mem0
+        })
+    user_content.append({"type": "text", "text": query_part})
+
     full_laudo = ""
     async with client.messages.stream(
         model=ANTHROPIC_MODEL,
         max_tokens=2000,
-        system=system,
-        messages=[{"role": "user", "content": prompt}],
+        system=[{
+            "type": "text",
+            "text": system,
+            "cache_control": {"type": "ephemeral"},  # cache system prompt
+        }],
+        messages=[{"role": "user", "content": user_content}],
+        extra_headers={"anthropic-beta": "prompt-caching-2024-07-31"},
     ) as stream:
         async for token in stream.text_stream:
             full_laudo += token
