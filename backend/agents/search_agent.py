@@ -5,7 +5,7 @@ Busca de laudos de referência no Qdrant.
 """
 
 import asyncio
-import functools
+import logging
 import os
 
 from sentence_transformers import SentenceTransformer
@@ -15,17 +15,31 @@ from qdrant_client.models import (
     Distance, VectorParams,
 )
 
+logger = logging.getLogger(__name__)
+
 QDRANT_URL  = os.getenv("QDRANT_URL", "http://localhost:6333")
 QDRANT_KEY  = os.getenv("QDRANT_API_KEY", "")
 COLLECTION  = os.getenv("QDRANT_COLLECTION", "laudos_medicos")
 EMB_MODEL   = "intfloat/multilingual-e5-large"
 EMB_DIM     = 1024
 
+_model: SentenceTransformer | None = None
+_model_error: Exception | None = None
 
-@functools.lru_cache(maxsize=1)
+
 def _get_model() -> SentenceTransformer:
-    """Carrega o modelo uma única vez por processo."""
-    return SentenceTransformer(EMB_MODEL)
+    """Carrega o modelo uma única vez por processo (lazy singleton)."""
+    global _model, _model_error
+    if _model_error is not None:
+        raise _model_error
+    if _model is None:
+        try:
+            _model = SentenceTransformer(EMB_MODEL)
+        except Exception as e:
+            _model_error = e
+            logger.error(f"[SearchAgent] Falha ao carregar modelo {EMB_MODEL}: {e}")
+            raise
+    return _model
 
 
 class LaudoSearchAgent:
@@ -41,21 +55,29 @@ class LaudoSearchAgent:
     ) -> list[dict]:
         """
         Busca laudos similares no repositório com filtro por especialidade.
-        Retorna lista de chunks com score de similaridade.
+        Retorna lista vazia se o modelo de embedding não estiver disponível.
         """
-        embedding = await self._embed(query)
-        filtro    = self._build_filter(especialidade, tipo_laudo)
+        try:
+            embedding = await self._embed(query)
+        except Exception as e:
+            logger.warning(f"[SearchAgent] Embedding indisponível, usando fallback Claude: {e}")
+            return []
 
-        results = await self.qdrant.search(
-            collection_name=COLLECTION,
-            query_vector=embedding,
-            query_filter=filtro,
-            limit=top,
-            with_payload=True,
-            score_threshold=0.45,
-        )
+        filtro = self._build_filter(especialidade, tipo_laudo)
 
-        return [self._to_dict(r) for r in results]
+        try:
+            results = await self.qdrant.search(
+                collection_name=COLLECTION,
+                query_vector=embedding,
+                query_filter=filtro,
+                limit=top,
+                with_payload=True,
+                score_threshold=0.45,
+            )
+            return [self._to_dict(r) for r in results]
+        except Exception as e:
+            logger.warning(f"[SearchAgent] Qdrant search falhou: {e}")
+            return []
 
     async def _embed(self, text: str) -> list[float]:
         model = _get_model()
