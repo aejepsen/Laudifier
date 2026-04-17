@@ -29,18 +29,10 @@ router = APIRouter(prefix="/admin/pipeline", tags=["pipeline"])
 
 # ── Lazy singletons ───────────────────────────────────────────────────────────
 
-_model  = None
 _client = None
 
-
-def _get_model():
-    global _model
-    if _model is None:
-        from sentence_transformers import SentenceTransformer
-        logger.info(f"[Pipeline] Carregando modelo {EMB_MODEL}...")
-        _model = SentenceTransformer(EMB_MODEL)
-        logger.info("[Pipeline] Modelo carregado.")
-    return _model
+# Reutiliza o singleton do search_agent — um único carregamento por processo
+from ..agents.search_agent import _get_model
 
 
 def _get_client():
