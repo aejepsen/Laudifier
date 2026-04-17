@@ -156,7 +156,7 @@ async def indexar(
             tipo = tipo_laudo or Path(upload.filename or "").stem[:80]
             points = [
                 PointStruct(
-                    id=str(uuid.uuid4()),
+                    id=str(uuid.uuid5(uuid.NAMESPACE_DNS, f"{upload.filename}:chunk:{i}")),
                     vector=vecs[i].tolist(),
                     payload={
                         "content":       chunks[i],
