@@ -28,7 +28,7 @@ from slowapi.errors import RateLimitExceeded
 from qdrant_client import QdrantClient
 
 from .auth import verify_token, UserContext
-from ..agents.laudo_agent import gerar_laudo_stream
+from ..agents.laudo_agent import gerar_laudo_stream, corrigir_laudo_stream, gerar_conclusao_stream
 from ..services.storage_service import StorageService
 from ..services.laudo_service import LaudoService
 from ..services.export_service import ExportService
@@ -109,6 +109,12 @@ class LaudoRequest(BaseModel):
 class FeedbackRequest(BaseModel):
     aprovado:  bool
     correcoes: Optional[str] = Field(default=None, max_length=2000)
+
+class CorrecaoRequest(BaseModel):
+    achados: str = Field(..., max_length=10000)
+
+class ConclusaoRequest(BaseModel):
+    dados_paciente: dict = Field(default={})
 
 class TranscricaoRequest(BaseModel):
     audio_base64: str
@@ -269,6 +275,87 @@ async def deletar_laudo(laudo_id: str, user: UserContext = Depends(verify_token)
         raise HTTPException(status_code=404, detail="Laudo não encontrado")
     await LaudoService(user.id).deletar(laudo_id)
     return {"status": "deleted"}
+
+
+@app.post("/laudos/{laudo_id}/corrigir")
+@limiter.limit("30/minute")
+async def corrigir_laudo(
+    request:  Request,
+    laudo_id: str,
+    body:     CorrecaoRequest,
+    user:     UserContext = Depends(verify_token),
+):
+    """
+    Etapa 3 — Correção assistida.
+    Médico fornece achados em linguagem livre; Laudifier reescreve em
+    terminologia radiológica correta usando RAG de frases especializadas.
+    """
+    laudo = await LaudoService(user.id).get(laudo_id)
+    if not laudo:
+        raise HTTPException(status_code=404, detail="Laudo não encontrado")
+
+    async def event_gen():
+        laudo_corrigido = ""
+        try:
+            async for chunk in corrigir_laudo_stream(
+                laudo_atual=laudo.get("laudo_editado") or laudo["laudo"],
+                achados=body.achados,
+                especialidade=laudo.get("especialidade", ""),
+                user_id=user.id,
+            ):
+                if chunk.get("type") == "token":
+                    laudo_corrigido += chunk.get("text", "")
+                if chunk.get("type") == "done":
+                    await LaudoService(user.id).atualizar(laudo_id, laudo_corrigido)
+                    yield f"data: {json.dumps({**chunk, 'laudo_id': laudo_id})}\n\n"
+                    return
+                yield f"data: {json.dumps(chunk)}\n\n"
+        except Exception:
+            logger.error("[Corrigir laudo] Erro no streaming", exc_info=True)
+            yield f"data: {json.dumps({'type': 'error', 'error': 'Erro ao corrigir laudo'})}\n\n"
+
+    return StreamingResponse(event_gen(), media_type="text/event-stream",
+                             headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
+
+
+@app.post("/laudos/{laudo_id}/concluir")
+@limiter.limit("30/minute")
+async def gerar_conclusao(
+    request:  Request,
+    laudo_id: str,
+    body:     ConclusaoRequest,
+    user:     UserContext = Depends(verify_token),
+):
+    """
+    Etapa 4 — Geração de conclusão.
+    Com o laudo de achados preenchido, Claude gera a IMPRESSÃO DIAGNÓSTICA
+    e preenche os dados do paciente para o laudo final.
+    """
+    laudo = await LaudoService(user.id).get(laudo_id)
+    if not laudo:
+        raise HTTPException(status_code=404, detail="Laudo não encontrado")
+
+    async def event_gen():
+        laudo_final = ""
+        try:
+            async for chunk in gerar_conclusao_stream(
+                laudo_atual=laudo.get("laudo_editado") or laudo["laudo"],
+                dados_paciente=body.dados_paciente,
+                especialidade=laudo.get("especialidade", ""),
+            ):
+                if chunk.get("type") == "token":
+                    laudo_final += chunk.get("text", "")
+                if chunk.get("type") == "done":
+                    await LaudoService(user.id).atualizar(laudo_id, laudo_final)
+                    yield f"data: {json.dumps({**chunk, 'laudo_id': laudo_id})}\n\n"
+                    return
+                yield f"data: {json.dumps(chunk)}\n\n"
+        except Exception:
+            logger.error("[Conclusão] Erro no streaming", exc_info=True)
+            yield f"data: {json.dumps({'type': 'error', 'error': 'Erro ao gerar conclusão'})}\n\n"
+
+    return StreamingResponse(event_gen(), media_type="text/event-stream",
+                             headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
 
 
 @app.post("/laudos/{laudo_id}/feedback")

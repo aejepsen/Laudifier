@@ -181,6 +181,116 @@ async def gerar_laudo_stream(
     )
 
 
+@observe(name="corrigir-laudo")
+async def corrigir_laudo_stream(
+    laudo_atual:  str,
+    achados:      str,
+    especialidade: str,
+    user_id:      str,
+) -> AsyncGenerator[dict, None]:
+    """
+    Etapa 3 — Correção assistida por RAG.
+    Recebe o laudo atual + achados do médico em linguagem livre.
+    Usa RAG de frases especializadas para reescrever em terminologia radiológica.
+    """
+    client = anthropic.AsyncAnthropic()
+    search = LaudoSearchAgent()
+
+    laudos_ref = await search.buscar_laudos_similares(
+        query=achados,
+        especialidade=especialidade,
+        top=5,
+    )
+
+    refs_str = ""
+    if laudos_ref:
+        refs_str = "\n\n── FRASES DE REFERÊNCIA DO REPOSITÓRIO ──\n"
+        for i, l in enumerate(laudos_ref, 1):
+            refs_str += f"[Ref {i}]\n{l['content'][:800]}\n\n"
+
+    prompt = (
+        f"ESPECIALIDADE: {especialidade.upper()}\n\n"
+        f"── LAUDO ATUAL ──\n{laudo_atual}\n\n"
+        f"{refs_str}"
+        f"── ACHADOS DO MÉDICO (linguagem livre) ──\n{achados}\n\n"
+        "Reescreva o laudo incorporando os achados do médico com terminologia radiológica precisa. "
+        "Mantenha a estrutura do laudo atual. "
+        "Use as frases de referência como vocabulário — não copie placeholders. "
+        "Retorne o laudo completo e corrigido."
+    )
+
+    system = load_system_prompt()
+    full_laudo = ""
+    async with client.messages.stream(
+        model=ANTHROPIC_MODEL,
+        max_tokens=3000,
+        system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
+        messages=[{"role": "user", "content": prompt}],
+        extra_headers={"anthropic-beta": "prompt-caching-2024-07-31"},
+    ) as stream:
+        async for token in stream.text_stream:
+            full_laudo += token
+            yield {"type": "token", "text": token}
+
+    campos_faltando = _extrair_campos_faltando(full_laudo)
+    yield {"type": "done", "campos_faltando": campos_faltando, "laudo": full_laudo}
+
+    asyncio.create_task(
+        LaudifierMemory().memorizar_interacao(
+            medico_id=user_id,
+            solicitacao=f"correção: {achados[:200]}",
+            laudo=full_laudo,
+            especialidade=especialidade,
+            tipo_geracao="correcao",
+        )
+    )
+
+
+@observe(name="gerar-conclusao")
+async def gerar_conclusao_stream(
+    laudo_atual:    str,
+    dados_paciente: dict,
+    especialidade:  str,
+) -> AsyncGenerator[dict, None]:
+    """
+    Etapa 4 — Geração de conclusão/impressão diagnóstica.
+    Recebe o laudo com achados preenchidos e gera a IMPRESSÃO DIAGNÓSTICA.
+    Substitui dados do paciente quando fornecidos.
+    """
+    client = anthropic.AsyncAnthropic()
+
+    dados_str = "\n".join(f"  {k}: {v}" for k, v in dados_paciente.items() if v)
+    dados_bloco = f"── DADOS DO PACIENTE ──\n{dados_str}\n\n" if dados_str else ""
+
+    prompt = (
+        f"ESPECIALIDADE: {especialidade.upper()}\n\n"
+        f"{dados_bloco}"
+        f"── LAUDO COM ACHADOS PREENCHIDOS ──\n{laudo_atual}\n\n"
+        "Com base nos achados descritos acima:\n"
+        "1. Gere ou reescreva a seção IMPRESSÃO DIAGNÓSTICA de forma objetiva e conclusiva.\n"
+        "2. Se dados do paciente foram fornecidos, preencha [NOME DO PACIENTE], [DATA DO EXAME] e similares.\n"
+        "3. Retorne o laudo COMPLETO e FINAL, pronto para assinatura do médico.\n"
+        "4. NUNCA deixe campos vazios nas seções de achados — use o que está preenchido.\n"
+        "5. Apenas [CRM DO MÉDICO] e [ASSINATURA] devem permanecer como placeholder."
+    )
+
+    system = load_system_prompt()
+    full_laudo = ""
+    async with client.messages.stream(
+        model=ANTHROPIC_MODEL,
+        max_tokens=3000,
+        system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
+        messages=[{"role": "user", "content": prompt}],
+        extra_headers={"anthropic-beta": "prompt-caching-2024-07-31"},
+    ) as stream:
+        async for token in stream.text_stream:
+            full_laudo += token
+            yield {"type": "token", "text": token}
+
+    campos_faltando = _extrair_campos_faltando(full_laudo)
+    yield {"type": "done", "campos_faltando": campos_faltando, "laudo": full_laudo}
+
+
 # ─── Helpers ──────────────────────────────────────────────────────────────────
 
 def _montar_prompt(

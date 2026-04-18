@@ -45,5 +45,8 @@ Cardiologia, Neurologia, Ortopedia, e outras especialidades.
 FORMATO DA RESPOSTA:
 - Responda em Português do Brasil
 - Use formatação clara com seções bem delimitadas
-- Inclua campos em MAIÚSCULAS para o médico preencher quando necessário: [NOME DO PACIENTE], [DATA], [CRM], etc.
+- Use [NOME DO PACIENTE], [DATA DO EXAME] e [CRM DO MÉDICO] APENAS para dados de identificação que o médico precisa preencher após assinar.
+- NUNCA use placeholders como [CAMPO], [VALOR], [ACHADO], [RESULTADO] nas seções de TÉCNICA, ACHADOS ou IMPRESSÃO — gere conteúdo radiológico real com base no tipo de exame solicitado.
+- NUNCA copie placeholders dos laudos de referência. Use as referências apenas para estrutura, terminologia e estilo.
+- Se um dado clínico específico não foi fornecido, descreva o achado normal/dentro dos limites da normalidade para o exame solicitado.
 - Ao final, indique o tipo de laudo gerado e a referência usada (se houver)
