@@ -135,8 +135,48 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
           rows="30">
         </textarea>
 
+        <!-- Complementar laudo com achados adicionais -->
+        <div class="complementar-bar" *ngIf="laudoGerado() && !isGenerating() && currentLaudoId()">
+          <div class="complementar-header">
+            <span class="complementar-label">📝 Complementar com achados</span>
+            <button class="btn-link" (click)="showComplementar = !showComplementar">
+              {{ showComplementar ? '▲ Fechar' : '▼ Adicionar informações ao laudo' }}
+            </button>
+          </div>
+          <div class="complementar-body" *ngIf="showComplementar">
+            <div class="input-voice-wrap">
+              <textarea
+                [(ngModel)]="achados"
+                placeholder="Descreva os achados adicionais em linguagem livre. Ex: &quot;Trauma de crânio com edema frontal, sem sangramento ativo&quot;"
+                rows="3"
+                class="text-input"
+                [class.listening]="voice.state() === 'listening'">
+              </textarea>
+              <button
+                class="btn-voice"
+                [class.recording]="voice.state() === 'listening'"
+                [disabled]="isRefining()"
+                (click)="toggleVoiceAchados()"
+                title="Ditar achados">
+                <span class="voice-icon">{{ voice.state() === 'listening' ? '⏹' : '🎙️' }}</span>
+              </button>
+            </div>
+            <button
+              class="btn-gerar"
+              style="margin-top: 0.5rem"
+              [disabled]="!achados.trim() || isRefining()"
+              (click)="refinarLaudo()">
+              <span *ngIf="!isRefining()">Refinar Laudo</span>
+              <span *ngIf="isRefining()" class="generating">
+                <span class="dots"><span></span><span></span><span></span></span>
+                Refinando...
+              </span>
+            </button>
+          </div>
+        </div>
+
         <!-- Feedback do médico -->
-        <div class="feedback-bar" *ngIf="laudoGerado() && !isGenerating()">
+        <div class="feedback-bar" *ngIf="laudoGerado() && !isGenerating() && !isRefining()">
           <span class="feedback-label">Este laudo está correto?</span>
           <button class="btn-feedback ok"    (click)="feedback(true)">👍 Aprovar</button>
           <button class="btn-feedback nok"   (click)="feedback(false)">✏️ Precisa de ajustes</button>
@@ -153,9 +193,11 @@ export class GerarLaudoComponent implements OnDestroy {
   private  laudoSvc = inject(LaudoService);
   private  destroy$ = new Subject<void>();
 
-  especialidade  = 'Geral';
-  solicitacao    = '';
-  showDados      = false;
+  especialidade    = 'Geral';
+  solicitacao      = '';
+  showDados        = false;
+  showComplementar = false;
+  achados          = '';
   dadosPaciente  = { nome: '', idade: '', sexo: '', indicacao: '' };
   laudoEditado   = '';
 
@@ -164,6 +206,7 @@ export class GerarLaudoComponent implements OnDestroy {
   laudosRef      = signal<any[]>([]);
   camposFaltando = signal<string[]>([]);
   isGenerating   = signal(false);
+  isRefining     = signal(false);
   editando       = signal(false);
   currentLaudoId = signal('');
 
@@ -206,6 +249,48 @@ export class GerarLaudoComponent implements OnDestroy {
       const texto = await this.voice.startListening();
       this.solicitacao = texto;
     } catch (e) { /* erro já em voice.error() */ }
+  }
+
+  async toggleVoiceAchados() {
+    if (this.voice.state() === 'listening') {
+      this.voice.stopListening();
+      return;
+    }
+    try {
+      const texto = await this.voice.startListening();
+      this.achados = texto;
+    } catch (e) { /* erro já em voice.error() */ }
+  }
+
+  refinarLaudo() {
+    if (!this.achados.trim() || !this.currentLaudoId() || this.isRefining()) return;
+    this.isRefining.set(true);
+    this.editando.set(false);
+
+    this.laudoSvc
+      .corrigirLaudo(this.currentLaudoId(), this.achados)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe({
+        next: (chunk: LaudoGeradoChunk) => {
+          if (chunk.type === 'token') {
+            this.laudoGerado.update(t => t + (chunk.text ?? ''));
+          }
+          if (chunk.type === 'done') {
+            this.camposFaltando.set(chunk.campos_faltando ?? []);
+            this.laudoEditado = chunk.laudo ?? this.laudoGerado();
+            this.achados = '';
+            this.showComplementar = false;
+            this.isRefining.set(false);
+          }
+          if (chunk.type === 'error') {
+            this.isRefining.set(false);
+          }
+        },
+        complete: () => this.isRefining.set(false),
+      });
+
+    // Limpa o laudo atual para mostrar o refinado em streaming
+    this.laudoGerado.set('');
   }
 
   gerarLaudo() {
@@ -277,10 +362,13 @@ export class GerarLaudoComponent implements OnDestroy {
   novoLaudo() {
     this.laudoGerado.set('');
     this.solicitacao = '';
-    this.especialidade = '';
+    this.especialidade = 'Geral';
     this.tipoGeracao.set('');
     this.camposFaltando.set([]);
     this.editando.set(false);
+    this.achados = '';
+    this.showComplementar = false;
+    this.currentLaudoId.set('');
   }
 
   ngOnDestroy() {

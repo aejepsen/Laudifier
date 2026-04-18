@@ -56,6 +56,28 @@ export class LaudoService {
     return subject.asObservable();
   }
 
+  /** Refina laudo existente com achados adicionais (Etapa 3) */
+  corrigirLaudo(laudoId: string, achados: string): Observable<LaudoGeradoChunk> {
+    const subject = new Subject<LaudoGeradoChunk>();
+    this._fetchCorrigirStream(laudoId, { achados }, subject);
+    return subject.asObservable();
+  }
+
+  private async _fetchCorrigirStream(laudoId: string, body: any, subject: Subject<LaudoGeradoChunk>) {
+    try {
+      const token = await this.auth.getToken();
+      const resp  = await fetch(`${environment.apiUrl}/laudos/${laudoId}/corrigir`, {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+        body:    JSON.stringify(body),
+      });
+      await this._processStream(resp, subject);
+    } catch (err: any) {
+      subject.next({ type: 'error', error: err.message });
+      subject.complete();
+    }
+  }
+
   private async _fetchStream(body: any, subject: Subject<LaudoGeradoChunk>) {
     try {
       const token = await this.auth.getToken();
@@ -65,32 +87,36 @@ export class LaudoService {
         body:    JSON.stringify(body),
       });
 
-      const reader  = resp.body!.getReader();
-      const decoder = new TextDecoder();
-      let   buffer  = '';
-
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        buffer += decoder.decode(value, { stream: true });
-        const lines = buffer.split('\n');
-        buffer = lines.pop() ?? '';
-        for (const line of lines) {
-          if (!line.startsWith('data: ')) continue;
-          try {
-            const chunk = JSON.parse(line.slice(6));
-            subject.next(chunk);
-            if (chunk.type === 'done' || chunk.type === 'error') {
-              subject.complete(); return;
-            }
-          } catch { /* incomplete line */ }
-        }
-      }
-      subject.complete();
+      await this._processStream(resp, subject);
     } catch (err: any) {
       subject.next({ type: 'error', error: err.message });
       subject.complete();
     }
+  }
+
+  private async _processStream(resp: Response, subject: Subject<LaudoGeradoChunk>) {
+    const reader  = resp.body!.getReader();
+    const decoder = new TextDecoder();
+    let   buffer  = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split('\n');
+      buffer = lines.pop() ?? '';
+      for (const line of lines) {
+        if (!line.startsWith('data: ')) continue;
+        try {
+          const chunk = JSON.parse(line.slice(6));
+          subject.next(chunk);
+          if (chunk.type === 'done' || chunk.type === 'error') {
+            subject.complete(); return;
+          }
+        } catch { /* incomplete line */ }
+      }
+    }
+    subject.complete();
   }
 
   listar(page = 0, especialidade?: string): Observable<LaudoSalvo[]> {
