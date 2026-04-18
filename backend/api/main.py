@@ -499,19 +499,51 @@ async def health():
 # ─── Background tasks ─────────────────────────────────────────────────────────
 
 async def _re_indexar_laudo_aprovado(laudo_id: str, user_id: str) -> None:
-    """Re-indexa laudo aprovado no Qdrant para enriquecer o repositório."""
+    """
+    Indexa laudo aprovado no Qdrant vinculado ao médico.
+    Dados do paciente são removidos antes da indexação (privacidade).
+    """
     laudo = await LaudoService(user_id).get(laudo_id)
     if not laudo:
         return
-    from pipeline.index import index_laudos
-    await index_laudos([{
-        "content":       laudo["laudo"],
-        "source_name":   f"aprovado_{laudo_id[:8]}",
-        "especialidade": laudo["especialidade"],
-        "tipo_laudo":    laudo.get("tipo_laudo", ""),
-        "aprovado":      True,
-    }])
-    logger.info("[Re-indexação] Laudo re-indexado", extra={"laudo_id": laudo_id})
+
+    texto = laudo.get("laudo_editado") or laudo["laudo"]
+    texto_anonimizado = _anonimizar_laudo(texto)
+
+    from ..agents.search_agent import LaudoSearchAgent
+    search = LaudoSearchAgent()
+    await search.indexar_laudo_aprovado(
+        laudo_id=laudo_id,
+        medico_id=user_id,
+        laudo_text=texto_anonimizado,
+        especialidade=laudo.get("especialidade", ""),
+        solicitacao=laudo.get("solicitacao", ""),
+    )
+    logger.info("[Re-indexação] Laudo indexado para médico", extra={"laudo_id": laudo_id, "user_id": user_id})
+
+
+def _anonimizar_laudo(texto: str) -> str:
+    """
+    Remove dados identificadores do paciente antes de indexar.
+    Substitui nomes, datas, CRMs e outros dados pessoais por placeholders.
+    """
+    import re
+    # Substitui placeholders existentes (já seguros)
+    # Remove linhas com dados nominais do paciente
+    padroes = [
+        (r'\b(?:Paciente|Nome)\s*:\s*.+',          'Paciente: [PACIENTE]'),
+        (r'\b\d{1,2}/\d{1,2}/\d{2,4}\b',           '[DATA]'),
+        (r'\bCRM\s*[:\-]?\s*[\w\-/]+',              'CRM: [CRM]'),
+        (r'\bDr[aA]?\.?\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+(?:\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+)*', 'Dr. [MÉDICO]'),
+        # Placeholders já existentes → mantém
+        (r'\[NOME DO PACIENTE\]',                   '[PACIENTE]'),
+        (r'\[DATA DO EXAME\]',                      '[DATA]'),
+        (r'\[CRM DO MÉDICO\]',                      '[CRM]'),
+        (r'\[ASSINATURA\]',                         '[MÉDICO]'),
+    ]
+    for pattern, replacement in padroes:
+        texto = re.sub(pattern, replacement, texto, flags=re.IGNORECASE)
+    return texto
 
 
 async def _ingerir_laudo_repositorio(

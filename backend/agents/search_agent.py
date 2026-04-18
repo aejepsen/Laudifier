@@ -7,12 +7,13 @@ Busca de laudos de referência no Qdrant.
 import asyncio
 import logging
 import os
+import uuid
 
 from sentence_transformers import SentenceTransformer
 from qdrant_client import AsyncQdrantClient
 from qdrant_client.models import (
     Filter, FieldCondition, MatchValue,
-    Distance, VectorParams,
+    Distance, VectorParams, PointStruct,
 )
 
 logger = logging.getLogger(__name__)
@@ -129,6 +130,95 @@ class LaudoSearchAgent:
             )
         return Filter(must=conditions) if conditions else None
 
+    async def buscar_laudos_do_medico(
+        self,
+        medico_id:     str,
+        query:         str,
+        especialidade: str = "",
+        top:           int = 3,
+    ) -> list[dict]:
+        """
+        Busca laudos aprovados pelo próprio médico no Qdrant.
+        Retorna os mais similares à query atual — usados como referência prioritária.
+        """
+        try:
+            embedding = await self._embed(query)
+        except Exception:
+            return []
+
+        conditions = [FieldCondition(key="medico_id", match=MatchValue(value=medico_id))]
+        if especialidade:
+            conditions.append(
+                FieldCondition(key="especialidade", match=MatchValue(value=especialidade.lower()))
+            )
+
+        try:
+            response = await self.qdrant.query_points(
+                collection_name=COLLECTION,
+                query=embedding,
+                query_filter=Filter(must=conditions),
+                limit=top,
+                with_payload=True,
+                score_threshold=0.40,
+            )
+            return [self._to_dict(r) for r in response.points]
+        except Exception as e:
+            logger.warning(f"[SearchAgent] buscar_laudos_do_medico falhou: {e}")
+            return []
+
+    async def indexar_laudo_aprovado(
+        self,
+        laudo_id:      str,
+        medico_id:     str,
+        laudo_text:    str,
+        especialidade: str,
+        solicitacao:   str,
+    ) -> None:
+        """
+        Indexa um laudo aprovado pelo médico no Qdrant.
+        Usado para personalização progressiva: laudos futuros buscam estes como referência.
+        """
+        try:
+            model = _get_model()
+            chunks = self._chunk_text(laudo_text)
+            points = []
+            for i, chunk in enumerate(chunks):
+                vec = await asyncio.to_thread(
+                    model.encode,
+                    f"passage: {chunk}",
+                    normalize_embeddings=True,
+                )
+                points.append(PointStruct(
+                    id=str(uuid.uuid5(uuid.NAMESPACE_DNS, f"medico:{medico_id}:{laudo_id}:{i}")),
+                    vector=vec.tolist(),
+                    payload={
+                        "content":       chunk,
+                        "source_name":   f"medico_{medico_id}_{laudo_id[:8]}",
+                        "especialidade": especialidade.lower(),
+                        "tipo_laudo":    solicitacao[:80],
+                        "source":        "medico_aprovado",
+                        "medico_id":     medico_id,
+                        "chunk_index":   i,
+                    },
+                ))
+            await self.qdrant.upsert(collection_name=COLLECTION, points=points)
+            logger.info(f"[SearchAgent] Laudo {laudo_id} indexado ({len(points)} chunks) para médico {medico_id}")
+        except Exception as e:
+            logger.error(f"[SearchAgent] indexar_laudo_aprovado falhou: {e}")
+
+    @staticmethod
+    def _chunk_text(text: str, size: int = 600, overlap: int = 30) -> list[str]:
+        words = text.split()
+        chunks, cur = [], []
+        for w in words:
+            cur.append(w)
+            if len(" ".join(cur)) >= size:
+                chunks.append(" ".join(cur))
+                cur = cur[-overlap:]
+        if cur:
+            chunks.append(" ".join(cur))
+        return chunks
+
     def _to_dict(self, point) -> dict:
         p = point.payload or {}
         return {
@@ -153,7 +243,7 @@ async def create_laudos_collection():
         vectors_config={"dense": VectorParams(size=EMB_DIM, distance=Distance.COSINE)},
     )
 
-    for field in ["especialidade", "tipo_laudo", "source_name", "modalidade"]:
+    for field in ["especialidade", "tipo_laudo", "source_name", "modalidade", "medico_id", "source"]:
         await client.create_payload_index(COLLECTION, field, "keyword")
 
     print(f"✅ Coleção '{COLLECTION}' criada no Qdrant")

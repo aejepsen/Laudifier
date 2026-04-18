@@ -75,12 +75,16 @@ async def gerar_laudo_stream(
     tem_memoria = bool(contexto_mem0 or historico_paciente)
 
     # ── 2. Busca laudos de referência (RAG) ───────────────────────────────────
-    search    = LaudoSearchAgent()
-    laudos_ref = await search.buscar_laudos_similares(
-        query=solicitacao,
-        especialidade=especialidade,
-        top=5,
+    search = LaudoSearchAgent()
+
+    # Laudos aprovados pelo próprio médico têm prioridade máxima
+    laudos_proprios, laudos_gerais = await asyncio.gather(
+        search.buscar_laudos_do_medico(user_id, solicitacao, especialidade, top=3),
+        search.buscar_laudos_similares(solicitacao, especialidade, top=5),
     )
+    # Mescla: laudos do médico primeiro, sem duplicatas
+    ids_proprios = {l["id"] for l in laudos_proprios}
+    laudos_ref   = laudos_proprios + [l for l in laudos_gerais if l["id"] not in ids_proprios]
 
     # ── 3. Decide estratégia ──────────────────────────────────────────────────
     score_max     = max((l.get("score", 0) for l in laudos_ref), default=0)
@@ -379,9 +383,10 @@ def _montar_prompt(
 def _formatar_refs(laudos: list[dict]) -> str:
     parts = []
     for i, l in enumerate(laudos, 1):
+        origem = "⭐ LAUDO DO PRÓPRIO MÉDICO" if l.get("source") == "medico_aprovado" \
+                 else f"{l.get('especialidade','')}/{l.get('tipo_laudo','')}"
         parts.append(
-            f"[Ref {i} — {l.get('especialidade','')}/{l.get('tipo_laudo','')}, "
-            f"score: {l.get('score',0):.2f}]\n{l['content'][:1200]}"
+            f"[Ref {i} — {origem}, score: {l.get('score',0):.2f}]\n{l['content'][:1200]}"
         )
     return "\n\n".join(parts)
 
