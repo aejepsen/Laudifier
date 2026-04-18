@@ -57,7 +57,7 @@ export class VoiceService {
           event.results[i].isFinal ? (final += t) : (interim += t);
         }
         this.transcript.set(final || interim);
-        if (final) { this.state.set('processing'); resolve(final.trim()); }
+        if (final) { this.state.set('idle'); resolve(final.trim()); }
       };
 
       this.recognition.onerror = (e: any) => {
