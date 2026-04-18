@@ -172,7 +172,7 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
               </div>
               <!-- Input inline para nova linha (após linha.num) -->
               <div *ngIf="!linha.isEmpty && adicionandoApos() === linha.num" class="linha-nova">
-                <span class="linha-num">+</span>
+                <span class="linha-num">{{ linha.num + 1 }}</span>
                 <input
                   class="linha-nova-input"
                   [(ngModel)]="novaLinhaTexto"
