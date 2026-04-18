@@ -196,17 +196,31 @@ async def corrigir_laudo_stream(
     # Normaliza instrução: "16 texto" → "linha 16: texto"
     achados = _normalizar_instrucao_linhas(achados)
 
-    # ── Substituição determinística de linha ──────────────────────────────────
-    # Se o médico referenciou uma linha específica, substituímos diretamente
-    # sem passar pelo Claude (evita que ele reescreva o laudo inteiro).
-    laudo_direto = _substituir_linha(laudo_atual, achados)
-    if laudo_direto is not None:
-        # Emite o laudo corrigido em chunks para manter a UX de streaming
+    # ── Edição de linha específica: Claude corrige só aquela linha ───────────
+    # Quando médico diz "14 frontal direita", extraímos a linha 14 e pedimos
+    # ao Claude para preencher/corrigir apenas ela — preserva o restante do texto.
+    linha_ref = _extrair_linha_referenciada(laudo_atual, achados)
+    if linha_ref is not None:
+        num_linha, texto_linha, instrucao = linha_ref
+        client = anthropic.AsyncAnthropic()
+        prompt_linha = (
+            f"Linha atual do laudo:\n{texto_linha}\n\n"
+            f"Instrução do médico: {instrucao}\n\n"
+            "Retorne APENAS o texto corrigido desta linha, incorporando a instrução "
+            "com terminologia radiológica precisa. Sem explicações, sem numeração."
+        )
+        resp = await client.messages.create(
+            model=ANTHROPIC_MODEL,
+            max_tokens=400,
+            messages=[{"role": "user", "content": prompt_linha}],
+        )
+        linha_corrigida = resp.content[0].text.strip()
+        laudo_corrigido = _substituir_linha_texto(laudo_atual, num_linha, linha_corrigida)
         CHUNK = 200
-        for i in range(0, len(laudo_direto), CHUNK):
-            yield {"type": "token", "text": laudo_direto[i:i + CHUNK]}
-        campos_faltando = _extrair_campos_faltando(laudo_direto)
-        yield {"type": "done", "campos_faltando": campos_faltando, "laudo": laudo_direto}
+        for i in range(0, len(laudo_corrigido), CHUNK):
+            yield {"type": "token", "text": laudo_corrigido[i:i + CHUNK]}
+        campos_faltando = _extrair_campos_faltando(laudo_corrigido)
+        yield {"type": "done", "campos_faltando": campos_faltando, "laudo": laudo_corrigido}
         return
 
     # ── Instrução geral: usa Claude + RAG ─────────────────────────────────────
@@ -379,6 +393,40 @@ def _formatar_dados(dados: dict) -> str:
 
 
 _formatar_dados_clinicos = _formatar_dados
+
+
+def _extrair_linha_referenciada(laudo: str, achados_normalizado: str) -> tuple[int, str, str] | None:
+    """
+    Se achados é 'linha N: instrução', retorna (num, texto_atual_da_linha, instrução).
+    Retorna None se não for referência de linha.
+    """
+    import re
+    m = re.match(r'^linha\s+(\d+):\s+(.+)', achados_normalizado.strip(), re.IGNORECASE | re.DOTALL)
+    if not m:
+        return None
+    num_alvo  = int(m.group(1))
+    instrucao = m.group(2).strip()
+    linhas    = laudo.split('\n')
+    contador  = 0
+    for linha in linhas:
+        if linha.strip():
+            contador += 1
+            if contador == num_alvo:
+                return (num_alvo, linha, instrucao)
+    return None
+
+
+def _substituir_linha_texto(laudo: str, num_alvo: int, novo_texto: str) -> str:
+    """Substitui a N-ésima linha não-vazia pelo novo_texto."""
+    linhas  = laudo.split('\n')
+    contador = 0
+    for i, linha in enumerate(linhas):
+        if linha.strip():
+            contador += 1
+            if contador == num_alvo:
+                linhas[i] = novo_texto
+                return '\n'.join(linhas)
+    return laudo
 
 
 def _substituir_linha(laudo: str, achados_normalizado: str) -> str | None:
