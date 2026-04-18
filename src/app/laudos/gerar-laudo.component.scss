@@ -348,6 +348,48 @@
 }
 .linha-spacer { height: 8px; }
 
+.linha-acoes {
+  display: none;
+  gap: 4px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+.laudo-linha:hover .linha-acoes { display: flex; }
+
+.btn-linha-add, .btn-linha-del, .btn-linha-ok, .btn-linha-cancel {
+  width: 20px; height: 20px;
+  border: none; border-radius: 4px;
+  font-size: 14px; line-height: 1;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  padding: 0;
+}
+.btn-linha-add    { background: rgba(96,165,250,0.15); color: #60a5fa; &:hover { background: rgba(96,165,250,0.3); } }
+.btn-linha-del    { background: rgba(239,68,68,0.12);  color: #f87171; &:hover { background: rgba(239,68,68,0.25); } }
+.btn-linha-ok     { background: rgba(52,211,153,0.15); color: #34d399; &:hover { background: rgba(52,211,153,0.3); } }
+.btn-linha-cancel { background: rgba(239,68,68,0.12);  color: #f87171; &:hover { background: rgba(239,68,68,0.25); } }
+
+.linha-nova {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  border-top: 1px dashed rgba(96,165,250,0.3);
+  border-bottom: 1px dashed rgba(96,165,250,0.3);
+  margin: 2px 0;
+}
+.linha-nova-input {
+  flex: 1;
+  background: var(--colorNeutralBackground1);
+  border: 1px solid rgba(96,165,250,0.4);
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 13px;
+  color: var(--colorNeutralForeground1);
+  font-family: inherit;
+  outline: none;
+  &:focus { border-color: #60a5fa; }
+}
+
 /* ── Complementar ───────────────────────────────────────────────────────── */
 .complementar-bar {
   border: 1px solid var(--colorNeutralStroke2);

@@ -165,6 +165,22 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
               <div *ngIf="!linha.isEmpty" class="laudo-linha">
                 <span class="linha-num">{{ linha.num }}</span>
                 <span class="linha-text" [innerHTML]="renderLine(linha.text)"></span>
+                <span class="linha-acoes" *ngIf="!isGenerating() && !isRefining()">
+                  <button class="btn-linha-add" (click)="iniciarAdicao(linha.num)" title="Inserir linha após">+</button>
+                  <button class="btn-linha-del" (click)="deletarLinha(linha.num)" title="Remover linha">×</button>
+                </span>
+              </div>
+              <!-- Input inline para nova linha (após linha.num) -->
+              <div *ngIf="!linha.isEmpty && adicionandoApos() === linha.num" class="linha-nova">
+                <span class="linha-num">+</span>
+                <input
+                  class="linha-nova-input"
+                  [(ngModel)]="novaLinhaTexto"
+                  placeholder="Digite o texto da nova linha..."
+                  (keydown.enter)="confirmarAdicao()"
+                  (keydown.escape)="cancelarAdicao()" />
+                <button class="btn-linha-ok"     (click)="confirmarAdicao()">✓</button>
+                <button class="btn-linha-cancel" (click)="cancelarAdicao()">×</button>
               </div>
             </ng-container>
             <div class="typing-cursor" *ngIf="isGenerating() || isRefining()">▌</div>
@@ -213,6 +229,8 @@ export class GerarLaudoComponent implements OnDestroy {
   isRefining     = signal(false);
   editando       = signal(false);
   currentLaudoId = signal('');
+  adicionandoApos = signal(0);
+  novaLinhaTexto  = '';
 
   canGenerate() {
     return !!this.solicitacao.trim() && !this.isGenerating();
@@ -362,6 +380,47 @@ export class GerarLaudoComponent implements OnDestroy {
       .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.+?)\*/g, '<em>$1</em>')
       .replace(/`([^`]+)`/g, '<code>$1</code>');
+  }
+
+  deletarLinha(num: number) {
+    const linhas = this.laudoGerado().split('\n');
+    let contador = 0;
+    const resultado = linhas.filter(linha => {
+      if (linha.trim()) { contador++; return contador !== num; }
+      return true;
+    });
+    const novo = resultado.join('\n');
+    this.laudoGerado.set(novo);
+    this.laudoEditado = novo;
+  }
+
+  iniciarAdicao(num: number) {
+    this.adicionandoApos.set(num);
+    this.novaLinhaTexto = '';
+  }
+
+  confirmarAdicao() {
+    if (!this.novaLinhaTexto.trim()) { this.cancelarAdicao(); return; }
+    const num = this.adicionandoApos();
+    const linhas = this.laudoGerado().split('\n');
+    let contador = 0;
+    let insertIdx = linhas.length;
+    for (let i = 0; i < linhas.length; i++) {
+      if (linhas[i].trim()) {
+        contador++;
+        if (contador === num) { insertIdx = i + 1; break; }
+      }
+    }
+    linhas.splice(insertIdx, 0, this.novaLinhaTexto.trim());
+    const novo = linhas.join('\n');
+    this.laudoGerado.set(novo);
+    this.laudoEditado = novo;
+    this.cancelarAdicao();
+  }
+
+  cancelarAdicao() {
+    this.adicionandoApos.set(0);
+    this.novaLinhaTexto = '';
   }
 
   lerLaudo() {
