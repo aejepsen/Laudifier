@@ -94,17 +94,28 @@ import { AuthService } from '../core/auth/auth.service';
             </div>
           </div>
 
-          <!-- E-mail (opcional) -->
-          <div class="field">
-            <label>E-mail <span class="optional">(opcional)</span></label>
-            <input
-              type="email"
-              [(ngModel)]="dadosPaciente.email"
-              placeholder="email@exemplo.com"
-              (blur)="marcarTocado('email')"
-              [class.field-error]="mostrarErro('email')"
-              [class.field-valid]="!!dadosPaciente.email && !errosDados().email && tocadoOuTentou('email')" />
-            <span class="erro-msg" *ngIf="mostrarErro('email')">{{ errosDados().email }}</span>
+          <!-- Data do Exame + E-mail (opcionais) -->
+          <div class="dados-grid-2">
+            <div class="field">
+              <label>Data do Exame <span class="optional">(opcional)</span></label>
+              <input
+                type="date"
+                [(ngModel)]="dadosPaciente.dataExame"
+                class="date-input" />
+              <span class="field-hint">Se diferente da data de solicitação</span>
+            </div>
+
+            <div class="field">
+              <label>E-mail <span class="optional">(opcional)</span></label>
+              <input
+                type="email"
+                [(ngModel)]="dadosPaciente.email"
+                placeholder="email@exemplo.com"
+                (blur)="marcarTocado('email')"
+                [class.field-error]="mostrarErro('email')"
+                [class.field-valid]="!!dadosPaciente.email && !errosDados().email && tocadoOuTentou('email')" />
+              <span class="erro-msg" *ngIf="mostrarErro('email')">{{ errosDados().email }}</span>
+            </div>
           </div>
         </div>
 
@@ -336,7 +347,7 @@ export class GerarLaudoComponent implements OnDestroy {
   especialidade = 'Geral';
   solicitacao   = '';
   achados       = '';
-  dadosPaciente = { nome: '', dataNascimento: '', sexo: '', indicacao: '', email: '' };
+  dadosPaciente = { nome: '', dataNascimento: '', sexo: '', indicacao: '', email: '', dataExame: '' };
   laudoEditado  = '';
 
   tocados    = signal<Set<string>>(new Set());
@@ -398,7 +409,7 @@ export class GerarLaudoComponent implements OnDestroy {
   editando       = signal(false);
   currentLaudoId = signal('');
   adicionandoApos   = signal(0);
-  modoLinhas        = signal(false);
+  modoLinhas        = signal(true);
   editandoLinha     = signal(0);
   novaLinhaTexto = '';
 
@@ -529,7 +540,8 @@ export class GerarLaudoComponent implements OnDestroy {
     if (this.dadosPaciente.dataNascimento)  dados['data_nascimento']  = this.dadosPaciente.dataNascimento;
     if (this.dadosPaciente.sexo)            dados['sexo']             = this.dadosPaciente.sexo;
     if (this.dadosPaciente.indicacao)       dados['indicacao']        = this.dadosPaciente.indicacao;
-    if (this.dadosPaciente.email)           dados['email']            = this.dadosPaciente.email;
+    if (this.dadosPaciente.email)            dados['email']            = this.dadosPaciente.email;
+    if (this.dadosPaciente.dataExame)        dados['data_exame']       = this.dadosPaciente.dataExame;
 
     // Dados do médico (autenticado)
     const perfil = this.authSvc.profile();
@@ -677,9 +689,9 @@ export class GerarLaudoComponent implements OnDestroy {
     this.editando.set(false);
     this.achados = '';
     this.currentLaudoId.set('');
-    this.modoLinhas.set(false);
+    this.modoLinhas.set(true);
     this.editandoLinha.set(0);
-    this.dadosPaciente = { nome: '', dataNascimento: '', sexo: '', indicacao: '', email: '' };
+    this.dadosPaciente = { nome: '', dataNascimento: '', sexo: '', indicacao: '', email: '', dataExame: '' };
     this.tocados.set(new Set());
     this.tentouGerar.set(false);
   }
