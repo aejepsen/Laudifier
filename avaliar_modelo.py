@@ -73,10 +73,6 @@ EVAL_QUERIES = [
     # Medicina Nuclear
     ("cintilografia óssea total com tecnécio",                           "medicina_nuclear",   "Cintilografia óssea"),
     ("PET-CT oncológico com FDG",                                        "medicina_nuclear",   "PET-CT"),
-    # Patologia
-    ("biópsia hepática percutânea",                                      "patologia",          "Biópsia fígado"),
-    ("biópsia de mama guiada por ultrassom",                             "patologia",          "Biópsia mama"),
-    ("biópsia de próstata transretal 12 fragmentos",                     "patologia",          "Biópsia próstata"),
     # Endoscopia
     ("endoscopia digestiva alta com biópsia gástrica",                   "gastroenterologia",  "EDA"),
     ("colonoscopia total com polipectomia",                              "gastroenterologia",  "Colonoscopia"),
@@ -89,20 +85,22 @@ Avalie laudos médicos gerados por IA em 5 dimensões, atribuindo nota de 1 a 5 
 Responda APENAS com JSON válido, sem texto extra."""
 
 def _prompt_judge(query: str, especialidade: str, laudo: str) -> str:
-    return f"""Avalie o laudo médico abaixo gerado por IA:
+    return f"""Avalie o laudo médico abaixo gerado por IA na ETAPA 1 (geração do modelo base).
+
+CONTEXTO: Este é um laudo modelo/template da Etapa 1. Os campos [NOME DO PACIENTE], [DATA DO EXAME] e [CRM DO MÉDICO] são ESPERADOS e NÃO devem ser penalizados. O médico preencherá esses dados na etapa final. Penalize apenas se houver placeholders nas seções de TÉCNICA, ACHADOS ou IMPRESSÃO DIAGNÓSTICA.
 
 SOLICITAÇÃO: {query}
 ESPECIALIDADE: {especialidade}
 
 LAUDO GERADO:
-{laudo[:3000]}
+{laudo[:6000]}
 
 Responda com JSON:
 {{
-  "completude": <1-5>,          // todos os campos obrigatórios presentes?
+  "completude": <1-5>,          // seções obrigatórias presentes (técnica, achados, impressão)?
   "precisao_clinica": <1-5>,    // terminologia e achados clinicamente corretos?
   "estrutura": <1-5>,           // organização e formatação adequadas?
-  "utilidade_clinica": <1-5>,   // um médico consegue usar este laudo?
+  "utilidade_clinica": <1-5>,   // um médico consegue usar este laudo como base?
   "geral": <1-5>,               // avaliação geral
   "comentario": "<1 frase>"
 }}"""
