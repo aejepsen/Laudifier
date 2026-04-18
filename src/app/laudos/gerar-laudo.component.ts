@@ -12,6 +12,7 @@ import { Subject, takeUntil } from 'rxjs';
 import { marked } from 'marked';
 import { VoiceService } from '../core/services/voice.service';
 import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services/laudo.service';
+import { AuthService } from '../core/auth/auth.service';
 
 @Component({
   selector: 'app-gerar-laudo',
@@ -25,19 +26,88 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
 
         <h2 class="panel-title">Novo Laudo</h2>
 
-        <!-- Dados do Exame (opcional) -->
-        <div class="field" *ngIf="showDados">
-          <label>Dados do Exame <span class="optional">(opcional)</span></label>
-          <div class="dados-grid">
-            <input [(ngModel)]="dadosPaciente.nome"    placeholder="Nome do paciente" />
-            <input [(ngModel)]="dadosPaciente.idade"   placeholder="Idade" />
-            <input [(ngModel)]="dadosPaciente.sexo"    placeholder="Sexo" />
-            <input [(ngModel)]="dadosPaciente.indicacao" placeholder="Indicação clínica" />
+        <!-- ── Dados do Paciente (obrigatório) ────────────────────────────── -->
+        <div class="dados-section">
+          <p class="dados-section-title">Dados do Paciente</p>
+
+          <!-- Nome -->
+          <div class="field">
+            <label>Nome <span class="required">*</span></label>
+            <input
+              [(ngModel)]="dadosPaciente.nome"
+              placeholder="Nome completo do paciente"
+              maxlength="100"
+              (blur)="marcarTocado('nome')"
+              [class.field-error]="mostrarErro('nome')"
+              [class.field-valid]="!errosDados().nome && tocadoOuTentou('nome')" />
+            <span class="erro-msg" *ngIf="mostrarErro('nome')">{{ errosDados().nome }}</span>
+          </div>
+
+          <!-- Data de Nascimento + Sexo -->
+          <div class="dados-grid-2">
+            <div class="field">
+              <label>Data de Nascimento <span class="required">*</span></label>
+              <input
+                type="date"
+                [(ngModel)]="dadosPaciente.dataNascimento"
+                (blur)="marcarTocado('dataNascimento')"
+                class="date-input"
+                [class.field-error]="mostrarErro('dataNascimento')"
+                [class.field-valid]="!errosDados().dataNascimento && tocadoOuTentou('dataNascimento')" />
+              <span class="erro-msg" *ngIf="mostrarErro('dataNascimento')">{{ errosDados().dataNascimento }}</span>
+            </div>
+
+            <div class="field">
+              <label>Sexo <span class="required">*</span></label>
+              <select
+                [(ngModel)]="dadosPaciente.sexo"
+                (blur)="marcarTocado('sexo')"
+                class="select-input"
+                [class.field-error]="mostrarErro('sexo')"
+                [class.field-valid]="!errosDados().sexo && tocadoOuTentou('sexo')">
+                <option value="">Selecione...</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Outro">Outro</option>
+              </select>
+              <span class="erro-msg" *ngIf="mostrarErro('sexo')">{{ errosDados().sexo }}</span>
+            </div>
+          </div>
+
+          <!-- Indicação Clínica -->
+          <div class="field">
+            <label>Indicação Clínica <span class="required">*</span></label>
+            <textarea
+              [(ngModel)]="dadosPaciente.indicacao"
+              placeholder="Descreva a indicação clínica. Ex: dor abdominal crônica, investigação de hepatopatia, suspeita de neoplasia..."
+              rows="3"
+              maxlength="300"
+              class="text-input"
+              (blur)="marcarTocado('indicacao')"
+              [class.field-error]="mostrarErro('indicacao')"
+              [class.field-valid]="!errosDados().indicacao && tocadoOuTentou('indicacao')">
+            </textarea>
+            <div class="field-footer">
+              <span class="erro-msg" *ngIf="mostrarErro('indicacao')">{{ errosDados().indicacao }}</span>
+              <span class="char-count" [class.over]="dadosPaciente.indicacao.length > 270">
+                {{ dadosPaciente.indicacao.length }}/300
+              </span>
+            </div>
+          </div>
+
+          <!-- E-mail (opcional) -->
+          <div class="field">
+            <label>E-mail <span class="optional">(opcional)</span></label>
+            <input
+              type="email"
+              [(ngModel)]="dadosPaciente.email"
+              placeholder="email@exemplo.com"
+              (blur)="marcarTocado('email')"
+              [class.field-error]="mostrarErro('email')"
+              [class.field-valid]="!!dadosPaciente.email && !errosDados().email && tocadoOuTentou('email')" />
+            <span class="erro-msg" *ngIf="mostrarErro('email')">{{ errosDados().email }}</span>
           </div>
         </div>
-        <button class="btn-link" (click)="showDados = !showDados">
-          {{ showDados ? '▲ Ocultar dados' : '▼ Adicionar dados do paciente' }}
-        </button>
 
         <!-- Solicitação do Médico -->
         <div class="field">
@@ -46,8 +116,9 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
             <textarea
               [(ngModel)]="solicitacao"
               [placeholder]="voicePlaceholder()"
-              rows="5"
+              rows="4"
               class="text-input"
+              [disabled]="!dadosValidos()"
               [class.listening]="voice.state() === 'listening' && editandoLinha() === 0 && adicionandoApos() === 0">
             </textarea>
 
@@ -56,13 +127,18 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
               class="btn-voice"
               [class.recording]="voice.state() === 'listening' && editandoLinha() === 0 && adicionandoApos() === 0"
               [class.processing]="voice.state() === 'processing'"
-              [disabled]="isGenerating()"
+              [disabled]="isGenerating() || !dadosValidos()"
               (click)="toggleVoice()"
-              [title]="voiceBtnTitle()">
+              [title]="dadosValidos() ? voiceBtnTitle() : 'Preencha os dados do paciente primeiro'">
               <span class="voice-icon">{{ voiceIcon() }}</span>
               <span class="voice-label">{{ voiceBtnLabel() }}</span>
             </button>
           </div>
+
+          <!-- Aviso dados incompletos -->
+          <p class="dados-alerta" *ngIf="!dadosValidos()">
+            ⚠️ Preencha os dados do paciente para habilitar o ditado e a geração do laudo.
+          </p>
 
           <!-- Transcrição em tempo real -->
           <p class="live-transcript" *ngIf="voice.state() === 'listening' && voice.transcript() && editandoLinha() === 0">
@@ -253,16 +329,65 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
 export class GerarLaudoComponent implements OnDestroy {
   readonly voice = inject(VoiceService);
   private  laudoSvc = inject(LaudoService);
+  private  authSvc  = inject(AuthService);
   private  destroy$ = new Subject<void>();
 
   @ViewChild('refinarTextarea') refinarTextareaRef?: ElementRef<HTMLTextAreaElement>;
 
   especialidade = 'Geral';
   solicitacao   = '';
-  showDados     = false;
   achados       = '';
-  dadosPaciente  = { nome: '', idade: '', sexo: '', indicacao: '' };
-  laudoEditado   = '';
+  dadosPaciente = { nome: '', dataNascimento: '', sexo: '', indicacao: '', email: '' };
+  laudoEditado  = '';
+
+  tocados    = signal<Set<string>>(new Set());
+  tentouGerar = signal(false);
+
+  errosDados(): Record<string, string> {
+    const d = this.dadosPaciente;
+    const e: Record<string, string> = {};
+
+    const nome = d.nome.trim();
+    if (!nome)               e['nome'] = 'Campo obrigatório';
+    else if (nome.length < 2) e['nome'] = 'Mínimo 2 caracteres';
+    else if (nome.length > 100) e['nome'] = 'Máximo 100 caracteres';
+
+    if (!d.dataNascimento) {
+      e['dataNascimento'] = 'Campo obrigatório';
+    } else {
+      const dt = new Date(d.dataNascimento + 'T00:00:00');
+      if (isNaN(dt.getTime()))        e['dataNascimento'] = 'Data inválida';
+      else if (dt > new Date())       e['dataNascimento'] = 'Data não pode ser no futuro';
+      else if (dt < new Date('1900-01-01')) e['dataNascimento'] = 'Data inválida';
+    }
+
+    if (!d.sexo) e['sexo'] = 'Campo obrigatório';
+
+    const ind = d.indicacao.trim();
+    if (!ind)                e['indicacao'] = 'Campo obrigatório';
+    else if (ind.length < 10) e['indicacao'] = 'Mínimo 10 caracteres';
+
+    if (d.email && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.email))
+      e['email'] = 'E-mail inválido';
+
+    return e;
+  }
+
+  dadosValidos(): boolean {
+    return Object.keys(this.errosDados()).length === 0;
+  }
+
+  mostrarErro(campo: string): boolean {
+    return !!(this.errosDados()[campo] && this.tocadoOuTentou(campo));
+  }
+
+  tocadoOuTentou(campo: string): boolean {
+    return this.tocados().has(campo) || this.tentouGerar();
+  }
+
+  marcarTocado(campo: string) {
+    this.tocados.update(s => new Set([...s, campo]));
+  }
 
   laudoGerado    = signal('');
   tipoGeracao    = signal<'rag' | 'fallback' | ''>('');
@@ -278,7 +403,7 @@ export class GerarLaudoComponent implements OnDestroy {
   novaLinhaTexto = '';
 
   canGenerate() {
-    return !!this.solicitacao.trim() && !this.isGenerating();
+    return this.dadosValidos() && !!this.solicitacao.trim() && !this.isGenerating();
   }
 
   laudoLinhas = computed(() => {
@@ -325,6 +450,10 @@ export class GerarLaudoComponent implements OnDestroy {
   );
 
   async toggleVoice() {
+    if (!this.dadosValidos()) {
+      this.tentouGerar.set(true);
+      return;
+    }
     if (this.voice.state() === 'listening') {
       this.voice.stopListening();
       return;
@@ -386,6 +515,7 @@ export class GerarLaudoComponent implements OnDestroy {
   }
 
   gerarLaudo() {
+    if (!this.dadosValidos()) { this.tentouGerar.set(true); return; }
     if (!this.canGenerate()) return;
     this.laudoGerado.set('');
     this.tipoGeracao.set('');
@@ -395,10 +525,16 @@ export class GerarLaudoComponent implements OnDestroy {
     this.editando.set(false);
 
     const dados: Record<string, string> = {};
-    if (this.dadosPaciente.nome)      dados['paciente']   = this.dadosPaciente.nome;
-    if (this.dadosPaciente.idade)     dados['idade']      = this.dadosPaciente.idade;
-    if (this.dadosPaciente.sexo)      dados['sexo']       = this.dadosPaciente.sexo;
-    if (this.dadosPaciente.indicacao) dados['indicacao']  = this.dadosPaciente.indicacao;
+    if (this.dadosPaciente.nome)            dados['paciente']         = this.dadosPaciente.nome;
+    if (this.dadosPaciente.dataNascimento)  dados['data_nascimento']  = this.dadosPaciente.dataNascimento;
+    if (this.dadosPaciente.sexo)            dados['sexo']             = this.dadosPaciente.sexo;
+    if (this.dadosPaciente.indicacao)       dados['indicacao']        = this.dadosPaciente.indicacao;
+    if (this.dadosPaciente.email)           dados['email']            = this.dadosPaciente.email;
+
+    // Dados do médico (autenticado)
+    const perfil = this.authSvc.profile();
+    if (perfil?.display_name) dados['medico']     = perfil.display_name;
+    if (perfil?.crm)          dados['medico_crm'] = perfil.crm;
 
     this.laudoSvc
       .gerarLaudo(this.solicitacao, this.especialidade, dados)
@@ -543,6 +679,9 @@ export class GerarLaudoComponent implements OnDestroy {
     this.currentLaudoId.set('');
     this.modoLinhas.set(false);
     this.editandoLinha.set(0);
+    this.dadosPaciente = { nome: '', dataNascimento: '', sexo: '', indicacao: '', email: '' };
+    this.tocados.set(new Set());
+    this.tentouGerar.set(false);
   }
 
   ngOnDestroy() {

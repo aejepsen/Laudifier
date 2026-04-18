@@ -295,7 +295,16 @@ async def gerar_conclusao_stream(
     client = anthropic.AsyncAnthropic()
 
     dados_str = "\n".join(f"  {k}: {v}" for k, v in dados_paciente.items() if v)
-    dados_bloco = f"── DADOS DO PACIENTE ──\n{dados_str}\n\n" if dados_str else ""
+    dados_bloco = f"── DADOS DO EXAME E MÉDICO ──\n{dados_str}\n\n" if dados_str else ""
+
+    medico_nome = dados_paciente.get("medico", "")
+    medico_crm  = dados_paciente.get("medico_crm", "")
+    medico_instrucao = (
+        f"5. Preencha [NOME DO MÉDICO] com '{medico_nome}' e [CRM DO MÉDICO] com '{medico_crm}'. "
+        "Apenas [ASSINATURA] deve permanecer como placeholder."
+    ) if medico_nome else (
+        "5. Apenas [NOME DO MÉDICO], [CRM DO MÉDICO] e [ASSINATURA] devem permanecer como placeholder."
+    )
 
     prompt = (
         f"ESPECIALIDADE: {especialidade.upper()}\n\n"
@@ -303,10 +312,10 @@ async def gerar_conclusao_stream(
         f"── LAUDO COM ACHADOS PREENCHIDOS ──\n{laudo_atual}\n\n"
         "Com base nos achados descritos acima:\n"
         "1. Gere ou reescreva a seção IMPRESSÃO DIAGNÓSTICA de forma objetiva e conclusiva.\n"
-        "2. Se dados do paciente foram fornecidos, preencha [NOME DO PACIENTE], [DATA DO EXAME] e similares.\n"
-        "3. Retorne o laudo COMPLETO e FINAL, pronto para assinatura do médico.\n"
-        "4. NUNCA deixe campos vazios nas seções de achados — use o que está preenchido.\n"
-        "5. Apenas [CRM DO MÉDICO] e [ASSINATURA] devem permanecer como placeholder."
+        "2. Se dados do paciente foram fornecidos, preencha [NOME DO PACIENTE], [DATA DE NASCIMENTO], [SEXO] e similares.\n"
+        "3. Preencha [INDICAÇÃO CLÍNICA] com o valor de 'indicacao' se fornecido.\n"
+        "4. Retorne o laudo COMPLETO e FINAL, sem campos de achados em branco.\n"
+        f"{medico_instrucao}"
     )
 
     system = load_system_prompt()
@@ -362,7 +371,18 @@ def _montar_prompt(
     # Camada 3 — Dados do exame atual
     dados_str = _formatar_dados(dados_clinicos)
     if dados_str:
-        secoes.append(f"── DADOS DO EXAME ──\n{dados_str}")
+        secoes.append(f"── DADOS DO EXAME E MÉDICO ──\n{dados_str}")
+
+    # Instrução explícita de preenchimento de campos do médico
+    medico_nome = dados_clinicos.get("medico", "")
+    medico_crm  = dados_clinicos.get("medico_crm", "")
+    if medico_nome or medico_crm:
+        instrucao = "IMPORTANTE: No laudo final, preencha automaticamente:\n"
+        if medico_nome: instrucao += f"  - [NOME DO MÉDICO] → {medico_nome}\n"
+        if medico_crm:  instrucao += f"  - [CRM DO MÉDICO] → CRM {medico_crm}\n"
+        instrucao += "  - [INDICAÇÃO CLÍNICA] → usar valor de 'indicacao' acima\n"
+        instrucao += "Apenas [ASSINATURA] deve permanecer como placeholder."
+        secoes.append(instrucao)
 
     # Camada 4 — Laudos de referência (RAG)
     if laudos_ref:
