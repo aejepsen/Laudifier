@@ -1,0 +1,119 @@
+=== RM encefalo — Variante 4 ===
+Especialidade: radiologia
+Cenário: acidente vascular cerebral isquêmico subagudo em território da ACM
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA DE ENCÉFALO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [XX] anos  
+**Sexo:** [M/F]  
+**Matrícula/RG:** [NÚMERO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Clínica Requisitante:** [CLÍNICA/HOSPITAL]  
+**Médico Solicitante:** Dr(a). [NOME] - [ESPECIALIDADE]  
+**Radiologista:** Dr(a). [NOME] - CRM [NÚMERO]
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Paciente com quadro clínico sugestivo de acidente vascular cerebral isquêmico em fase subaguda. Solicitado estudo de ressonância magnética de encéfalo para confirmação diagnóstica e avaliação da extensão do infarto.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizado estudo de ressonância magnética de encéfalo em equipamento de 3.0 Tesla, utilizando bobina de crânio padrão. Foram adquiridas sequências multiplanares:
+
+- **Sequências Ponderadas:** T1, T2, FLAIR
+- **Sequências de Difusão:** DWI (Diffusion Weighted Imaging) e ADC (Apparent Diffusion Coefficient)
+- **Angio-RM (3D TOF):** avaliação do polígono de Willis e territórios vasculares
+- **Perfusão dinâmica:** study dinâmico pós-contraste com gadolínio (0,1 mmol/kg)
+
+Foram obtidas imagens nos planos sagital, coronal e axial, com análise subsequente em múltiplas reconstruções.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **Morfologia Encefálica:**
+- Simetria encefálica preservada
+- Sistema ventricular de dimensões normais
+- Espaços subaracnóides sem alterações significativas
+- Sem desviação de linha média
+
+### **Achados Principais:**
+
+**Regiões de Restrição à Difusão:**
+Identificam-se múltiplas áreas de hipersinal em sequências DWI com correspondente hipossinal em mapas ADC, localizadas no território de distribuição da **artéria cerebral média (ACM) esquerda**, caracterizando restrição à difusão (true diffusion restriction).
+
+**Topografia específica dos infartos:**
+- Núcleo de infarto agudo envolvendo porção do **putamen e cápsula interna à esquerda**
+- Extensão para região **subcortical frontal superior**
+- Envolvimento parcial da **ínsula esquerda**
+- Penumbra isquêmica identificada em región peritalesional adjacente
+
+**Volume estimado:** aproximadamente 18-22 cm³
+
+### **Sequências Ponderadas:**
+
+- **T2/FLAIR:** Hipersinal moderado nas áreas infartadas com edema citotóxico e vasogênico associado
+- **T1:** Discreto hipossinal compatível com edema isquêmico
+- **Perfusão:** Aumento do tempo de trânsito médio (MTT) e redução do fluxo sanguíneo cerebral (FSC) nas áreas peri-infarto, indicando zona de hipoperfusão
+
+### **Avaliação Vascular (Angio-RM):**
+- **Sistema carotídeo:** sem estenose significativa
+- **Artéria cerebral média (ACM) esquerda:** redução discreta do calibre e fluxo comparado à direita, sugestivo de compromisso hemodinâmico
+- **Polígono de Willis:** visualizado, sem evidência de hipoplasia significativa
+- **Circulação posterior:** preservada bilateralmente
+
+### **Espaço Subaracnóideo:**
+- Sem hemorragia subaracnóidea
+- Sem exsudato meningeal
+
+### **Estruturas Supratentoriais:**
+- Núcleos da base sem alterações
+- Tálamos simétricos
+- Pedúnculos cerebrais normais
+
+### **Fossa Posterior:**
+- Cerebelo de volume normal, sem lesões focais
+- Tronco cerebral preservado
+- Ângulos ponto-cerebelaes pérvios
+
+### **Osso Temporal:**
+- Orelha interna com morfologia normal
+- Mastoides com pneumatização preservada
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**1. Acidente Vascular Cerebral Isquêmico Subagudo em Território de ACM Esquerda**
+   - Múltiplas áreas de restrição à difusão (DWI positivo/ADC reduzido)
+   - Distribuição consistente com infarto no território de ACM esquerda
+   - Envolvimento de putamen, cápsula interna, região subcortical frontal e ínsula
+   - Fase subaguda com edema citotóxico e vasogênico
+
+**2. Penumbra Isquêmica**
+   - Zona de hipoperfusão identificada nas margens do infarto
+   - Possível candidato a terapia de reperfusão dependendo do tempo de evolução
+
+**3. Sem evidência de:**
+   - Transformação hemorrágica
+   - Hemorragia parenquimatosa ou subaracnóidea
+   - Outras lesões estruturais explanatórias
+   - Oclusão de grandes vasos proximais
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Este paciente apresenta achados de ressonância magnética compatíveis com **acidente v

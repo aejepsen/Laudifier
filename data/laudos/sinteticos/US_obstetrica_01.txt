@@ -1,0 +1,119 @@
+=== US obstetrica — Variante 1 ===
+Especialidade: radiologia
+Cenário: gestação tópica de 20 semanas, morfologia fetal normal
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA OBSTÉTRICA
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE E EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [XX] anos  
+**Registro Hospitalar/Clínica:** [XXXXXX]  
+
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Equipamento:** Ultrassom em modo B e Doppler  
+**Transdutor:** Convexo multifrequencial (2-5 MHz)  
+**Operador:** [NOME DO PROFISSIONAL]  
+**Médico Responsável:** [NOME DO MÉDICO RADIOLOGISTA]  
+
+---
+
+## DADOS CLÍNICOS RELEVANTES
+
+**Indicação:** Ultrassonografia morfológica de segundo trimestre
+
+**Idade Gestacional Relatada:** 20 semanas  
+**Antecedentes Maternos:** [PREENCHIMENTO CONFORME DADOS CLÍNICOS]  
+**Antecedentes Obstétricos:** [PREENCHIMENTO CONFORME DADOS CLÍNICOS]
+
+---
+
+## TÉCNICA
+
+Realizado exame de ultrassonografia em tempo real em modo B, com avaliação Doppler, utilizando transdutor convexo multifrequencial. O exame foi executado pela via transabdominal. Múltiplos planos de corte foram obtidos para adequada avaliação da gestação, membranas ovulares, placenta, quantidade de líquido amniótico e biometria fetal, bem como análise morfológica detalhada.
+
+---
+
+## ACHADOS
+
+### **CARACTERIZAÇÃO GESTACIONAL**
+
+**Localização:** Gestação tópica intrauterina, em cavidade endometrial.
+
+**Vitalidade Fetal:** Feto único, vivo, com batimentos cardíacos presentes e rítmicos à frequência de aproximadamente 145 bpm.
+
+**Membranas Ovulares:** Íntegras, sem sinais de descoleamento.
+
+### **BIOMETRIA FETAL**
+
+| Parâmetro | Medida (mm) | Percentil | IC 95% |
+|-----------|------------|-----------|---------|
+| **Diâmetro Biparietal (DBP)** | 48 | 50º | ±3 |
+| **Circunferência Cefálica (CC)** | 152 | 50º | ±8 |
+| **Comprimento do Fêmur (CF)** | 35 | 50º | ±3 |
+| **Circunferência Abdominal (CA)** | 146 | 50º | ±10 |
+| **Índice CA/CC** | 0,96 | Normal | - |
+
+**Avaliação:** Biometria fetal compatível com idade gestacional de **19 a 21 semanas**, confirmando a datação informada. Crescimento simétrico. Índices de proporcionalidade normais.
+
+### **ANÁLISE MORFOLÓGICA FETAL DETALHADA**
+
+**Cabeça e Encéfalo:**
+- Formato cefálico normal, simétrico
+- Ventrículos laterais com dimensão normal (largura <10 mm)
+- Plexo coroide presente e simétrico
+- Cérebelo visualizado, com tamanho apropriado para a idade
+- Cisterna magna com dimensão normal (5-8 mm)
+- Cavum do septo pelúcido visualizado
+- Tálamo e núcleos da base sem particularidades
+
+**Face:**
+- Órbitas simétricas com cristalinos visualizados
+- Distância interorbitária normal
+- Nariz com perfil normal
+- Lábios íntegros, sem fissura
+- Maxila e mandíbula com simetria e proporções adequadas
+
+**Coluna Vertebral:**
+- Alinhamento normal em todos os segmentos (cervical, torácico, lombar e sacro)
+- Ossificação apropriada
+- Sem deformidades ou descontinuidades
+- Imagem ultrassonográfica tridimensional com aspecto normal
+
+**Coração:**
+- Frequência cardíaca: 145 bpm, rítmico
+- Eixo cardíaco normal, levógiro (ângulo ~45°)
+- Câmaras cardíacas adequadamente dimensionadas
+- Septo ventricular íntegro, sem defeitos
+- Septo atrial íntegro
+- Válvulas (tricúspide, mitral, aórtica e pulmonar) com movimentação normal
+- Arcos aórtico e ductal visualizados com calibre apropriado
+- Veia cava inferior e veias pulmonares com fluxo adequado
+- Forâmen oval com aspecto normal
+
+**Tórax:**
+- Simetria normal
+- Pulmões com ecogenicidade homogênea
+- Sem derrame pleural
+- Diâmetro torácico apropriado
+
+**Abdômen:**
+- Parede abdominal íntegra
+- Estômago visualizado e preenchido
+- Fígado com dimensões e ecogenicidade normais
+- Baço sem particularidades
+- Rins bilaterais com tamanho apropriado, simetria mantida
+- Pelves renais sem dilatação (diâmetro anteroposterior <7 mm)
+- Vesícula urinária preenchida e vazia adequadamente
+- Alças intestinais com calibre normal, sem dilatação
+- Sem ascite
+
+**Membros:**
+- Membros superiores: úmero, rádio e ulna com aspecto normal bilateralmente
+- Mãos com cinco dedos visibilizados bilateralmente
+- Membros inferiores: fêmur, tíbia

@@ -1,0 +1,92 @@
+=== RM mama — Variante 3 ===
+Especialidade: radiologia
+Cenário: realce assimétrico na mama esquerda — BIRADS 3, seguimento recomendado
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA DE MAMA
+
+---
+
+## **IDENTIFICAÇÃO DO EXAME**
+
+| Campo | Informação |
+|-------|-----------|
+| **Paciente** | [NOME COMPLETO] |
+| **Registro Hospitalar** | [Nº PRONTUÁRIO] |
+| **Data de Nascimento** | [DD/MM/AAAA] |
+| **Idade** | [XX] anos |
+| **Sexo** | Feminino |
+| **Data do Exame** | [DD/MM/AAAA] |
+| **Hora do Exame** | [HH:MM] |
+| **Médico Solicitante** | [NOME DO MÉDICO CLÍNICO/CIRURGIÃO] |
+| **Indicação Clínica** | Realce assimétrico em mama esquerda; seguimento de achado incidental |
+
+---
+
+## **TÉCNICA**
+
+Ressonância Magnética de mama bilateral realizada em equipamento de 1.5 Tesla, utilizando bobina dedicada de mama de 7 canais. Foram adquiridas sequências de pulso:
+
+- **T1 TSE** (sagital e axial)
+- **T2 TSE** com supressão de gordura
+- **T1 3D-GRE com saturação de gordura** (VIBE ou FLASH), antes e após administração intravenosa de gadolínio (Gd-DTPA ou Gd-BOPTA), na dose de 0,1 mmol/kg
+- Subtração dinâmica e análise de curvas de realce temporal em 6 fases consecutivas
+- **Difusão DWI** com b = 800 s/mm² e ADC mapping
+
+Tempo total de exame: aproximadamente 30 minutos. Paciente em decúbito ventral. Exame realizado sem intercorrências técnicas.
+
+---
+
+## **ACHADOS**
+
+### **Morfologia Mamária:**
+Mamas de volume e densidade usual. Não há alterações de volume ou contorno que sugiram massas focais ou deformidades. Simetria aproximadamente adequada entre as glândulas.
+
+### **Parênquima Mamário:**
+
+**Mama Direita:** Parênquima com fibroglandular distribuído de forma simétrica e homogênea, predominantemente em densidade ACR-BI-RADS D (heterogeneamente denso). Após administração de gadolínio, apresenta realce difuso simétrico e homogêneo, compatível com realce fisiológico normal do tecido mamário. Não se identificam focos, nódulos ou segmentos de realce patológico.
+
+**Mama Esquerda:** Parênquima com fibroglandular de distribuição semelhante à mama contralateral. Identificam-se **realces focais assimétricos no quadrante superior externo (QSE) da mama esquerda**, mais precisamente em localização aproximadamente às **2 horas do relógio, a cerca de 3 cm da aréola**. 
+
+O realce em questão apresenta as seguintes características:
+- **Tamanho:** aproximadamente 8 mm de diâmetro
+- **Localização:** QSE, profundidade intermediária (parênquima glandular)
+- **Morfologia:** foco de realce focal bem delimitado, sem distorção de arquitetura associada
+- **Padrão de realce:** realce gradual/persistente nas curvas dinâmicas, sem padrão de "wash-out" rápido (tipo 1-2)
+- **Simetria:** assimétrico em relação ao parênquima contralateral
+- **ADC:** não apresenta restrição difusional significativa (ADC não reduzido)
+
+Não se observam outras áreas de realce focal ou segmentar associadas. Não há achados de lesão de massa com bordas espiculadas, irregulares ou distorção arquitetural.
+
+### **Estruturas Adjacentes:**
+
+- **Pele:** sem espessamento ou realce patológico
+- **Tecido subcutâneo:** sem alterações significativas
+- **Parede torácica:** sem achados relevantes
+- **Linfonodos:** não se identificam linfonodos axilares suspeitos (pequeno eixo <1 cm)
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+**Realce assimétrico focal em mama esquerda, quadrante superior externo, de aspecto benigno, sem características suspeitas de malignidade.**
+
+Trata-se de pequeno foco de realce bem delimitado, com dinâmica de realce persistente, sem restrição em sequência de difusão, padrão compatível com:
+- Realce fisiológico exagerado
+- Pequena lesão fibrocística
+- Microglandularidade focal
+- Lesão benigna de baixo risco (como fibroadenoma, adenose ou nódulo fibro-epitelial pequeno)
+
+**Classificação BI-RADS: 3 (Achado provavelmente benigno)**
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+A Ressonância Magnética de mama não demonstra sinais imagiológicos de malignidade. O realce assimétrico identificado em mama esquerda apresenta características morfológicas e dinâmicas compatíveis com achado benigno.
+
+**Recomendações:**
+
+1. **Seguimento Imagiológico:** Realizar controle imagiológico em **6 meses** com RM de mama bilateral nas mesmas condições técnicas para avaliação de estabilidade do achado
+2. **Correlação Clínica:** Manter correlação com achados do exame clínico realizado pela equipe assistente
+3. **Cuidados Adicionais:** Na presença de sintomas clínicos novos (como nódulo palpável ou secreção), recomenda-se nova avaliação imagiológica ac

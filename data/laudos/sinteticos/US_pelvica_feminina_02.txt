@@ -1,0 +1,110 @@
+=== US pelvica feminina — Variante 2 ===
+Especialidade: radiologia
+Cenário: mioma uterino intramural de 3,5 cm
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA PÉLVICA
+
+---
+
+## DADOS DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [__/__/____]  
+**Idade:** [   ] anos  
+**Sexo:** Feminino  
+**Registro/Prontuário:** [________________]  
+**Data do Exame:** [__/__/____]  
+**Horário:** [__:__]  
+
+---
+
+## SOLICITANTE
+
+**Médico Assistente:** [NOME DO MÉDICO]  
+**Especialidade:** [ESPECIALIDADE]  
+**Indicação Clínica:** [Avaliação de massa pélvica / Sintomas abdominopélvicos / Investigação de infertilidade / Outro: ________]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Ultrassonografia pélvica transvaginal e transabdominal realizada com equipamento de alta resolução (transdutor multifrequencial 5-10 MHz), seguindo protocolo padronizado de avaliação do compartimento pélvico feminino. Foram obtidas imagens nos planos longitudinal, transversal e oblíquo. Análise doppler colorido e espectral realizada quando necessário.
+
+---
+
+## ACHADOS
+
+### **Útero e Endométrio:**
+Útero em anteversoflexão, de forma regular, com dimensões aproximadamente normais:
+- **Comprimento:** 7,8 cm
+- **Espessura (parede anterior):** 2,3 cm
+- **Espessura (parede posterior):** 2,5 cm
+
+Dentro da miometrial, precisamente na parede anterior-lateral direita, identifica-se lesão nodular sólida, hipoecogênica, bem delimitada, medindo aproximadamente **3,5 cm × 3,2 cm × 3,0 cm** (maior eixo), com características ecográficas típicas de **leiomioma (mioma) intramural**. A lesão determina leve abaulamento da cavidade endometrial, sem distorção significativa desta.
+
+O endométrio apresenta espessura adequada, com visualização de linha endometrial clara. Sem imagens sugestivas de hiperplasia endometrial ou pólipos.
+
+### **Ovários:**
+- **Ovário Direito:** Volume aproximadamente 6,5 mL, contendo 5-6 folículos antrais de distribuição normal, maior medindo 8 mm. Ecotextura homogênea.
+- **Ovário Esquerdo:** Volume aproximadamente 7,2 mL, com 4-5 folículos antrais de distribuição normal, maior medindo 9 mm. Ecotextura homogênea.
+
+Sem imagens sugestivas de cistos complexos ou lesões nodulares ovarianas.
+
+### **Cavidade Pélvica:**
+Pequena quantidade de líquido livre pélvico, medindo aproximadamente 2 cm em declive, sem características de sangramento agudo. Sem evidência de coleções, abscessos ou outras lesões focais.
+
+### **Estruturas Adjacentes:**
+Bexiga em repleção parcial, de paredes regulares. Alças intestinais sem dilatação ou sinais de obstrução. Sem linfonodomegalias pélvicas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Leiomioma (Mioma) Uterino Intramural** de aproximadamente 3,5 cm, localizado na parede anterior-lateral direita do útero, com leve abaulamento endometrial;
+
+2. Útero com volume normal, sem outros achados miomatosos detectados;
+
+3. Ovários com características de normalidade, correspondendo a paciente em fase reprodutiva;
+
+4. Pequeno volume de líquido livre pélvico, sem significado patológico evidente.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Foram confirmadas as alterações sugestivas de **mioma intramural único**, com dimensões mensuráveis em 3,5 cm, em parede anterior-lateral direita uterina. A lesão apresenta características ecográficas clássicas, sem sinais de degeneração, infarto ou transformação maligna.
+
+**Recomendações:**
+
+1. Correlação clínica com os sintomas apresentados (menorragia, dismenorreia, pressão pélvica);
+
+2. Caso a paciente apresente sintomatologia significativa, considerar avaliação por Ginecologista para discussão de opções terapêuticas (conduta expectante, farmacológica ou cirúrgica);
+
+3. Ressonância Magnética pélvica pode ser considerada se houver necessidade de planejamento cirúrgico ou melhor caracterização de múltiplos miomas;
+
+4. Seguimento ultrassonográfico periódico (anual ou conforme conduta estabelecida) para monitoramento do tamanho e características da lesão;
+
+5. Se houver progressão significativa ou sintomas refratários, nova avaliação radiológica está indicada.
+
+---
+
+## ASSINATURA DO RADIOLOGISTA
+
+**Médico Radiologista:** _________________________________
+
+**Nome (Legível):** _________________________________
+
+**Número de Registro/CRM:** [__________]
+
+**Especialidade:** Radiologia e Diagnóstico por Imagem
+
+**Data:** [__/__/____]
+
+**Hora:** [__:__]
+
+**RQE/Especialidade:** [__________]
+
+---
+
+**Observação:** Este laudo foi gerado em caráter ilustrativo. Laudos reais devem incluir identificação completa do paciente e do médico executante, bem como conformidade com protocolos institucionais e regulamentações vigentes.

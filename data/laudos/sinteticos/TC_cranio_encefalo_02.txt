@@ -1,0 +1,111 @@
+=== TC cranio encefalo — Variante 2 ===
+Especialidade: radiologia
+Cenário: infarto isquêmico agudo no território da ACM esquerda
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+| Campo | Informação |
+|-------|-----------|
+| **Nome** | [NOME COMPLETO DO PACIENTE] |
+| **Data de Nascimento** | [DD/MM/AAAA] |
+| **Idade** | [IDADE] anos |
+| **Sexo** | [MASCULINO/FEMININO] |
+| **Registro/Prontuário** | [Nº PRONTUÁRIO] |
+| **Data do Exame** | [DD/MM/AAAA] |
+| **Hora do Exame** | [HH:MM] |
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+| Campo | Informação |
+|-------|-----------|
+| **Modalidade** | Tomografia Computadorizada de Crânio e Encéfalo |
+| **Equipamento** | Tomógrafo Multislice 64 canais |
+| **Protocolo** | TC Crânio Encéfalo com e sem Contraste Iodado |
+| **Solicitante** | [NOME DO MÉDICO SOLICITANTE] - [ESPECIALIDADE] |
+| **Indicação Clínica** | Suspeita de acidente vascular cerebral agudo |
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizado estudo tomográfico de crânio e encéfalo utilizando protocolo de emergência com aquisição de cortes axiais contínuos de 5mm de espessura, desde o forame magno até o vértex. Foram adquiridas séries pré-contraste e pós-contraste intravenoso (100mL de contraste não-iônico, concentração 370 mgI/mL, injetado em bolus com 3-4mL/s, iniciando-se a aquisição pós-contraste 25-30 segundos após a injeção). Reconstruções multi-planares (sagitais e coronais) foram geradas. Dose de radiação controlada conforme protocolo ALARA.
+
+---
+
+## ACHADOS
+
+### FASE PRÉ-CONTRASTE
+
+**Atenuação Parenquimatosa:**
+- Área hipodensa mal definida com aspecto "obscuro", localizada na região insular esquerda, estendendo-se pelo córtex frontal inferior e temporal da ínsula de Reil, compatível com edema citotóxico no território de perfusão da artéria cerebral média (ACM) esquerda.
+- Dimensões aproximadas: 35mm x 28mm de extensão máxima.
+- Limites não completamente nítidos, sugestivos de lesão em fase aguda.
+
+**Ventrículos Laterais:**
+- Simétricos e normotensor, com dimensões dentro dos limites normais.
+- Ausência de desvio de linha média.
+
+**Cisternas da Base:**
+- Pérvias e sem sinais de compressão.
+- Cisterna suprasselar com anatomia preservada.
+
+**Espaço Subaracnoide:**
+- Sem evidência de hemácia subaracnoideia.
+- Sulcos cerebrais preservados bilateralmente.
+
+**Substância Branca:**
+- Apresenta alterações hipodensas crônicas compatíveis com leucoaraiose leve a moderada, distribuídas periventricularmente e em região subcortical, sugestivas de mudanças vasculares crônicas.
+
+**Fossa Posterior:**
+- Cerebelo com contornos preservados.
+- Medulablongata sem alterações.
+- Ponte sem particularidades.
+- IV ventrículo pérvio.
+
+**Seios Paranasais:**
+- Seios maxilares aéricos, sem nível líquido.
+- Etmoides com septos preservados, sem opacificação.
+- Seios esfenoidais aéricos.
+- Seios frontais sem particularidades.
+
+**Órbitas:**
+- Cristalinos claros bilateralmente.
+- Nervos ópticos sem espessamento.
+- Músculos extraoculares simétricos.
+
+**Estruturas Ósseas:**
+- Calvária com densidade e contornos normais.
+- Forame magno sem compressão medular.
+- Mastoides aéricos.
+
+### FASE PÓS-CONTRASTE
+
+- Realce homogêneo da circulação arterial intracraniana, sem evidência de aneurisma sacular.
+- Ausência de realce anômalo parenquimatoso ou de leptomeninges, afastando etiologia infecciosa ou neoplásica aguda.
+- Sinais de perfusão cerebral diminuída na distribuição da ACM esquerda, com preservação relativa da circulação colateral.
+- Barreira hematoencefálica íntegra na área de isquemia, sem extravasamento de contraste indicativo de reperfusão hemorrágica.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Infarto isquêmico agudo no território da artéria cerebral média esquerda**, localizando-se predominantemente na região insular e córtex frontotemporal ipsilateral, apresentando edema citotóxico precoce, compatível com fase aguda.
+
+2. **Leucoaraiose leve a moderada de distribuição periventricular e subcortical**, sugestiva de angiopatia crônica.
+
+3. **Ausência de hemorragia intracraniana**.
+
+4. **Circulação intracraniana pérvias sem evidência de oclusão vascular ou aneurisma sacular detectável à TC**.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Estudo tomográfico com achados confirmando infarto isquêmico agudo no leito vascular da artéria cerebral média esquerda, em fase hiperaguda (edema citotóxico precoce), sem sinais de transformação hemorrágica secundária

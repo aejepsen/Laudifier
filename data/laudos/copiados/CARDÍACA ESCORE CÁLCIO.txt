@@ -1,0 +1,166 @@
+CARDÍACA
+ESCORE CÁLCIO
+
+PROTOCOLO:
+
+3 mm / 0 mm (espessura / Gap)
+
+FOV limitado à área cardíaca, adquiridos
+
+sincronização prospectiva com o ECG (meio/fim da diástole), 
+
+sem contraste intravenoso. 
+
+menor que 1,5 mSv 
+
+Método:
+
+Calcificação >= 130 (UH) e área ≥ 3 pixels adjacentes (pelo menos 1 mm2)
+
+Agatston: área * fator
+
+EC= zero, nenhum outro exame estaria indicado; se EC 1-400, o consenso recomenda a angiotomografia computadorizada coronariana; e se EC > 400, a angiografia coronariana estaria indicada 
+
+
+Baixa densidade de cálcio se associa com maior risco cardiovascular
+
+Risco inferior a 85% para evento CV se CAC=0 (caso de assintomáticos)
+
+Indicação atual: risco intermediário + assintomático
+
+Follow up 
+
+não melhorar decisão terapêutica pois existe progressão
+
+Aumento ≥ 15%/ano no volume de cálcio coronariano = aumento de 17 vezes no risco de evento CV. 
+
+Atualmente, o método mais aceito é o proposto por Hokanson et al., que sugere um modelo matemático de regressão, com transformação da raiz quadrada do volume de cálcio coronariano, considerando progressão significativa um aumento ≥ 2,5 mm3(34). 
+
+Estatina pode aumentar EC por promover microcalcificacao nas placas
+
+Cálculo do percentil - MESA 
+
+http://www. mesa-nhlbi.org/Calcium/input.aspx inserindo-se o EC do paciente (conforme método do escore de Agatston), idade, sexo e etnia.
+
+
+Excluir:  pacientes com doença cardiovascular conhecida (IAM, angina, AVC, FA, uso de nitroglicerina, pacientes já submetidos a angioplastia, revascularização miocárdica, dispositivo de estimulação cardíaca ou qualquer cirurgia cardíaca ou arterial) e com DM em tratamento. 
+
+
+
+PROTOCOLO ANGIOTOMOGRAFIA DE CORONÁRIAS
+
+
+ESCORE DE CÁLCIO
+
+-Nos pacientes com pedidos exclusivos de escore de cálcio não há necessidade de ajuste da frequência cardíaca.
+
+Deve ser realizado o treinamento de apneia como na angioCT de coronárias. A determinação do EC coronariano se baseia em uma aquisição não contrastada de uma série de cortes axiais com 3 mm de espessura cobrindo toda a extensão do coração. As imagens são adquiridas de forma prospecHva sincronizada ao sinal do eletrocardiograma. Usar voltagem de tubo de 120 kV.
+
+Exceção: em pacientes revascularizados ou com stents coronarianos NÃO realizar escore de cálcio.
+
+
+ANGIOTOMOGRAFIA DE CORONÁRIAS
+
+FREQUÊNCIA CARDÍACA (FC):
+
+Não há necessidade de controle da FC se < 65 bpm.
+
+Caso frequência cardíaca > 65 bpm, fazer uso das medicações para controle de frequência cardíaca abaixo:
+
+Medicações para controle da frequência cardíaca:
+
+* Contra-indicações aos betabloqueadores (atenolol e metoprolol): Inicialmente checar todas as contraindicações abaixo.
+
+- Pressão sistólica < 100;
+
+- Alergia à medicação;
+
+- Estenose valvar aórHca importante;
+
+- Asma ou DPOC descompensados, ou em uso de B2 agonistas;
+
+- Broncoespasmo; insuficiência cardíaca descompensada;
+
+- Bloqueios átrio-ventriculares (BAV) de segundo e terceiro graus (checar com médico responsável pelo exame).
+
+- Após checar contraindicações, realizar 50 min antes do exame:
+
+Se FC entre 65-75 bpm: Atenolol 50 mg ou tartarato de metoprolol 50 mg (Seloken) via oral.
+
+Se FC > 75 bpm: Atenolol 100 mg ou tartarato de metoprolol 100 mg (Seloken), via oral. - Se paciente com contraindicação aos betabloqueadores, realizar 50 min antes do exame:
+
+Se FC entre 65-75 bpm: Ivabradina 7,5 mg, via oral.
+
+Se FC > 75 bpm: Ivabradina 15 mg, via oral.
+
+- Com o paciente em sala e posicionado, eletrocardiográfico: reavaliar a FC no traçado
+
+Se FC > 65 bpm administrar Tartarato de Metoprolol (Seloken): 5 mg (1 ampola) EV. Repetir até FC < 65 bpm.
+
+Dose máxima de 5 ampolas (intervalo de 2 a 4 minutos entre as doses).
+
+Obs: é comum que na reavaliação da FC em sala, ocorra aumento da FC avaliada previamente (por ansiedade do paciente ou efeito do isordil). Neste caso realizar o Metoprolol mesmo que FC controlada anteriormente.
+
+
+MEDICAÇÕES VASODILATADORAS
+
+Essenciais para a visualização adequada das coronárias, possibilitando o diagnóstico acurado.
+
+- Dinitrato de isossorbida (Isordil) 5 mg (1 comprimido), via sublingual lingual, 3 minutos antes do início do exame contrastado (quando o paciente deitar no aparelho).
+
+* Contra-indicações:
+
+_ Hipotensão (PA Sistólica <100mmHg ou diastólica <60mmHg); 
+
+_ Estenose valvar aórtica importante; 
+
+_ Alergia à medicação; 
+
+_ Hipertensão intracraniana; 
+
+_ Cardiomiopatia hipertrófica com angina (angina de outras causas e cardiomiopatia hipertrófica sem angina não são contra-indicações); 
+
+_ Uso de inibidores da fosfodiesterase nas 24 horas que antecedem o exame: Sildenafil (Viagra, Revatio), Tadalafil (Cialis) e Vardenafil (Levitra).
+
+
+MÉTODO DE AQUISIÇÃO:
+
+- Inicia com uma imagem scout do tórax. Da carina até abaixo do diafragma.
+
+- Para a maioria dos pacientes, a voltagem máxima do tubo deve ser 100 kV. Em pacientes obesos, uHlizar 120 kV. (IMC>30)
+
+- Puncionar acesso periférico com jelco 18 G (se não for possível, puncionar com 20 G).
+
+- Contraste iodado 350 mg/ml ou 370 mg/ml (Optray e Ultravist):
+
+- Na aquisição, injetar 80 ml de contraste a 5 ml/s (bomba injetora), seguido de 50 ml de soro fisiológico. Se paciente obeso fazer 100 ml. Programar disparo do contraste com método do Bolus Tracking (exemplo abaixo).
+
+Configurações do bolus tracking: disparo com 180 HU na aorta descendente. Delay de 5 segundos (DEPENDE DA MÁQUINA, NÃO PRECISA ALTERAR CASO O PROTOCOLO JÁ ESTEJA FUNCIONANDO E TESTADO, MESMO QUE COM VALORES DIFERENTES).
+
+- Nos pacientes não revascularizados a varredura deve se iniciar ao nível da carina e se estender até imediatamente abaixo do diafragma:
+
+- Em pacientes revascularizados a varredura deve se iniciar cérvico-torácica, incluindo-se a origem das artérias mamárias internas:
+
+
+RECONSTRUÇÃO:
+
+
+- Realizar sempre duas reconstruções, uma entre 60 e 70% (Best Diástole) e outra entre 25 e 40% (Best Sístole), com espessura de 0,75mm (ou a menor possível pelo equipamento) e espaçamento de 0,4mm.
+
+
+- Realizar também as reconstruções: 30%, 40%, 70%, 80%.
+
+
+INSTRUÇÕES AOS PACIENTES:
+
+
+- Informar ao paciente que terá que permanecer totalmente imóvel e segurar a respiração durante aproximadamente 10 a 20 segundos ao seu comando e que o exame será comprometido se as instruções não forem seguidas. Verificar se o paciente entendeu as instruções e realizar treinamento de apneia (até que seja realizada com sucesso). O comando dado ao paciente no treinamento e no momento da aquisição deve ser: "respire e segure" ou “respire e prenda o ar” (não incentivar encher o peito de ar pois desta forma a apneia prolongada será mais difícil).
+
+
+- Informar ao paciente sobre as possíveis sensações durante a injeção do contraste e novamente lembrar que não deve se mover. O auxiliar de enfermagem deverá estar na sala de exame durante a injeção do meio de contraste.
+
+
+- É muito importante que a frequência cardíaca esteja baixa durante o exame. Tomar bastante cuidado para manter o paciente calmo e relaxado durante o estudo. Este detalhe é muito mais importante nos exames de coração do que nos demais exames tomográficos.
+
+
+- Os pacientes devem ser mantidos em observação por pelo menos 10 minutos após o fim do exame, para avaliação de efeitos adversos das medicações utilizadas (tontura, lipotíma, náusea). Após o período de observação liberar o paciente sempre na presença de acompanhante.

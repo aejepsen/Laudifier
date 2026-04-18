@@ -1,0 +1,387 @@
+Fígado
+ALT. PERF. SEM LESÕES FOCAIS
+
+Fígado de topografia, morfologia e dimensões normais, exibindo impregnação levemente heterogênea do parênquima na fase arterial, sugerindo alterações perfusionais, sem evidências de lesões focais.
+
+
+ESTEATOSE HEPÁTICA RM
+
+Fígado de topografia e morfologia normais, exibindo discreta redução difusa da densidade do parênquima, relacionada a infiltração gordurosa/discreta esteatose hepática.
+
+
+Fígado de dimensões aumentadas, apresentando acentuada redução difusa dos seus coeficientes de atenuação relacionados a infiltração gordurosa (esteatose hepática), com algumas áreas de preservação focal.
+
+
+Fígado exibe queda de sinal na sequência T1 fora de fase, inferindo infiltração gordurosa (esteatose hepática).
+
+
+ESTEATOSE NODULAR MULTIFOCAL RM
+
+Fígado com dimensões pouco aumentadas, contornos regulares e bordos finos, destacando-se áreas nodulares mal definidas, sem efeito expansivo, esparsas pelo lobo direito, caracterizadas pela queda de sinal na sequência fora de fase e ausência de impregnação pelo gadolínio, compatíveis com esteatose multinodular. Ausência de lesões focais definidas.
+
+
+ESTEATOSE NODULAR MULTIFOCAL TC
+
+Fígado de dimensões aumentadas, a custa de formações nodulares mal delimitadas esparsas pelo lobo direito, sem significativo realce após contraste, com padrão indeterminado, porém podendo representar áreas de esteatose nodular. Um estudo complementar por ressonância magnética poderá auxiliar no diagnóstico.
+
+
+TRAUMA - CONTUSÃO
+
+Parênquima com coeficientes de atenuação preservados, exceto por áreas hipoatenuantes confluentes no segmento VIII, medindo cerca de <> x <> cm, sem realce ao meio de contraste, compatível com contusão intraparenquimatosa neste contexto clínico.
+
+
+TRAUMA LACERAÇÃO
+
+Parênquima com coeficientes de atenuação preservados, exceto por pequena área linear hipoatenuante compatível com laceração no segmento IV / II, sem evidência de sangramento ativo. Veias hepáticas e ramos portais preservados.
+
+
+TRAUMA HEMATOMA
+
+Extenso hematoma hepático acometendo praticamente todo o lobo direito, de maneira mais acentuada nos segmentos VI e VII, associada a lacerações nos segmentos IV, V, VIII, algumas mais profundas no parênquima hepático junto o segmento IV, tendo amplo contato com o segmento anterior do ramo portal direito, porém não se caracterizam nítido extravasamento de contraste.
+
+
+ABSCESSO HEPÁTICO
+
+Parênquima com coeficientes de atenuação heterogêneos à custa de volumosa formação irregular, multiloculada, heterogênea, com áreas centrais de necrose/liquefação, que após a injeção do meio de contraste iodado apresenta intenso realce capsular nas fases mais tardias, associada a distúrbio perfusional do parênquima hepático circunjacente, por provável processo inflamatório perilesional. A lesão localiza-se nos segmento IV, V, e VIII e mede cerca de <> x <> x <> cm. Tal formação determina deslocamento e compressão das estruturas vasculares e das vias biliares adjacentes, destacando-se sinais de trombose / invasão do ramo portal e veia hepática esquerdas e discreta dilatação das vias biliares intra-hepáticas. Observa-se ainda compressão da porção mais proximal da veia cava inferior, associado a sinais de trombose desde o seu segmento proximal até a bifurcação com as veias ilíacas, destacando-se conteúdo heterogêneo luminal, que pode estar relacionado a trombose parcial destes vasos. Considerar a possibilidade de volumoso abscesso hepático como principal diagnóstico diferencial, não se podendo descartar a possibilidade de lesão de natureza neoplásica com processo infeccioso associado.
+
+
+CISTO HIDATICO
+
+Volumosa formação cística de paredes espessas e regulares, que apresentam realce ao meio de contraste, acometendo praticamente todo o lobo hepático esquerdo e determinando compressão do restante do parênquima hepático, das veias hepáticas média e esquerda e do ramo portal esquerdo da porta. Esta formação apresenta alguns finos septos de permeio (lesões-filhas?) e mede cerca de 17 x 15,3 x 16 cm. Considerar a possibilidade de lesão de natureza infecciosa (mais provavelmente cisto hidático, ou mesmo abscesso amebiano), não se afastando por completo outras possibilidades.
+
+
+HEMOCROMATOSE TC
+
+Parênquima com coeficientes de atenuação aumentadas, podendo estar relacionado à sobrecarga férrica/tratamento com amiodarona.
+
+
+HEMOCROMATOSE RM
+
+Parênquima com intensidade de sinal difusamente reduzida em todas as sequencias podendo estar relacionado a depósito férrico (hemocromatose). Correlacionar com dados clínicos / laboratoriais e a critério clinico, proceder a avaliação complementar com RM com técnica específica para quantificação de ferro hepático.
+
+Decréscimo da intensidade de sinal do parênquima hepático nas sequências de eco mais longo, relacionada a sobrecarga férrica.
+
+Sinais de leve/ moderada / acentuada sobrecarga férrica hepática. Valor estimado em <> µmol/g (normal até 36,0 µmol/g).
+
+HEPATOPATIA CRÔNICA
+
+Fígado apresentando contornos discretamente regulares, com acentuação de suas fissuras e proeminência dos segmentos laterais do lobo esquerdo, achados relacionados a hepatopatia crônica.
+
+
+Fígado de contornos irregulares, bordos rombos, alargamento das fissuras e redistribuição volumétrica caracterizada por hipertrofia dos segmentos laterais do lobo esquerdo e hipotrofia relativa do lobo direito.
+
+
+Fígado com contornos lobulados, exibindo alargamento suas fissuras e hipertrofia do lobo caudado, exibindo realce heterogêneo pelo contraste, relacionado a hepatopatia crônica.
+
+CONCLUSÃO: Sinais de hepatopatia crônica OU Alterações morfológicas hepáticas sugerindo hepatopatia crônica.
+
+
+Alterações morfoestruturais hepáticas caracterizadas por redução volumétrica predominante do lobo direito, e distúrbios perfusionais. Sinais de transformação cavernotamosa dos ramos portais direito e esquerdo. Acentuação da circulação periesplênica com sinal de "shunt" fisiológico esplenorrenal esquerdo. Proeminência de estruturas vasculares perigástricas e periesofágicas (varizes).
+
+
+CIRROSE COM HIPERTENSÃO PORTAL
+
+Fígado apresentando redução das dimensões do segmento lateral do lobo esquerdo, hipertrofia do lobo caudado, contornos irregulares e serrilhados, bordos rombos e densidade heterogênea. Não se caracterizam lesões hipervasculares.
+
+Veias porta e esplênica de calibre aumentado.
+
+Circulação colateral de médio calibre no plexo gastro-esofágico, no trajeto das veias gástricas curtas e esquerda, periesplênica, peripancreática e mesentérica.
+
+Pequena quantidade de líquido livre nos espaços peri-hepático, periesplênico, nas goteiras paracólicas, entre alças intestinais e na escavação pélvica (ascite).
+
+Infiltração difusa da gordura na raiz do mesentério, provavelmente relacionada a hipertensão portal decorrente da hepatopatia crônica.
+
+Baço com dimensões aumentadas.
+
+
+CIRROSE COM TRANSFORMAÇÃO CAVERNOMATOSA E CIRCULAÇÃO COLATERAL
+
+Fígado de dimensões reduzidas, principalmente à custa do lobo direito, apresentando contornos irregulares e bordos rombos, com acentuação das fissuras, destacando-se áreas de distorção arquitetural periportal, devendo corresponder à fibrose. Parênquima com intensidade de sinal heterogênea, destacando-se formação cística de aspecto simples junto ao domus hepático, medindo 1,1 cm.
+
+Sinais de transformação cavernomatosa portal no hilo hepático associada a aumento do calibre da veia esplênica, dilatação significativa da veia gástrica esquerda, colaterais no hilo esplênico, fundo gástrico e periesofágicas. Hepatopatia crônica com sinais de hipertensão portal e fibrose periportal.
+
+
+NÓDULOS REGENERATIVOS / DISPLÁSICO DE BAIXO GRAU
+
+Nódulo de hipo/isossinal em T1 e T2, sem realce na fase arterial, enchimento isovascular na fase portal, sem lavagem do contraste na fase hepatobiliar.
+
+
+Formação nodular de hipossinal em T2 e hipersinal espontâneo em T1, sem impregnação significativa pelo gadolínio, na periferia do segmento VIII do lobo hepático direito, medindo 1,7 cm, sugerindo nódulo de regeneração
+
+
+NÓDULOS HNF-like / HNR
+
+Notam-se ainda múltiplos pequenos nódulos, difusos pelo parênquima hepático, isointensos nas sequências pré contraste e que retém o contraste hepatoespecífico, alguns também hipervasculares no estudo dinâmico, compatíveis com lesões HNF-like, possivelmente relacionadas ao processo de vicariância.
+
+
+NÓDULO SIDERÓTICO
+
+Nódulo de marcado hipossinal em T1 e T2, realce isovascular nas fases arterial e portal.
+
+
+NÓDULO DISPLÁSICO DE ALTO GRAU
+
+Nódulos de hipersinal em T1, iso a hipossinal em T2, com foco de hipersinal em T2 de hipercaptação na fase arterial (padrão de “nódulo dentro de nódulo”).
+
+
+Nódulo com intenso realce arterial, sem lavagem do contraste na fase hepatobiliar.
+
+TROMBOSE TOTAL VEIA PORTA
+
+Dilatação da veia porta e seus principais ramos, contendo material hipodenso luminal, sem opacificação ao meio de contraste. Há circulação colateral proeminente periportal e seus principais ramos.
+
+
+TROMBOSE TUMORAL DA VEIA PORTA
+
+Falha de enchimento no tronco da veia porta e nos seus ramos direito e esquerdo, que determina aumento do calibre dos vasos, com realce pós-contraste sugerindo trombose tumoral.
+
+
+TROMBOSE PARCIAL DA VEIA PORTA
+
+Trombose parcial excêntrica envolvendo a confluência da veia esplênica e mesentérica superior e porta principal.
+
+
+TROMBOSE VENOSA PORTAL INTRAHEPÁTICA
+
+Oclusão do segmento anterior do ramo portal direito, provavelmente relacionado a trombo hemático, com alteração perfusional do parênquima hepático adjacente.
+
+
+HIPERTENSÃO PORTAL
+
+Colaterais venosas de grosso calibre no esplênico, perigástricas, periesofágicas e retrocrurais.
+
+Presença de circulação colateral caracterizada por varizes esofágicas, periesofágicas de fundo gástrico, peri-esplênica, observando-se recanalização da para-umbilical, bem como proeminência da veia gástrica esquerda.
+
+CONCLUSÃO: Sinais de hipertensão portal caracterizados por varizes esofágicas, periesofágicas, de fundo gástrico, peri-esplênicas, bem como proeminência da veia gástrica esquerda e recanalização da para-umbilical, associada esplenomegalia e ascite moderada.
+
+
+Dilatação e tortuosidade da veia gástrica esquerda, determinando varizes no fundo gástrico e periesofágicas.
+
+CONCLUSÃO: Sinais de hipertensão portal com esplenomegalia e circulação colateral, com acentuada ectasia e tortuosidade da veia gástrica esquerda e varizes de fundo gástrico e periesofágicas.
+
+
+FÍSTULA PORTOSSISTÊMICA
+
+Fígado de dimensões normais, contornos regulares e bordos discretamente rombos. Parênquima com coeficientes de atenuação preservados, exceto por hipoatenuação subcentimétrica no segmento II / III, bem como área nodular hipoatenuante mal definida, com realce na fase portal, adjacente à vesícula biliar, no segmento V/VIII, medindo cerca de 2,0 cm no maior eixo, e em íntimo contato com a veia hepática média e ramo portal anterior direito. Demais veias hepáticas e ramos portais preservados.
+
+OPINIÃO: Área nodular mal definida com realce na fase portal, adjacente à vesícula biliar, em íntimo contato com a veia hepática média e ramo portal anterior direito, não se podendo descartar a possibilidade de fístula porto sistêmica.
+
+
+NÓDULO HIPERVASCULAR SUBCENTIMÉTRICO
+
+Formação nodular hipervascular no segmento IV do fígado, com realce precoce na fase arterial sem correspondente na fase portal, medindo cerca de 1,0 cm.
+
+ID: Pequena formação nodular hipervascular no lobo hepático esquerdo, indeterminada pelas suas reduzidas dimensões.
+
+
+Fígado de topografia, morfologia e dimensões preservadas, exibindo múltiplas pequenas formações nodulares hipervasculares, envolvendo ambos os lobos hepáticos, identificadas apenas na fase arterial, medindo até cerca de 0,5 cm.
+
+ID: Pequenas formações nodulares hipervasculares envolvendo ambos os lobos hepáticos, inespecíficas, provavelmente benignas.
+
+
+NÓDULOS HIPERVASCULARES
+
+Nódulos hepáticos, com alto sinal nas sequências T1 e T2, sem queda de sinal na sequência fora de fase e com padrão de realce hipervascular, localizadas nos segmentos V, VI, VII e VIII. Tais lesões podem representar adenomas, hiperplasia nodulares focais ou lesões hipervasculares de outra natureza.
+
+
+HEMANGIOMA TÍPICO
+
+Fígado com dimensões normais apresentando grande lesão com marcado hipersinal em T2 comprometendo os segmentos V, VI, VII e VIII (principalmente segmentos posteriores) medindo <> x <> cm nos maiores eixos. A lesão apresenta realce globular com enchimento progressivo, aspecto compatível com hemangioma.
+
+
+Formações nodulares esparsas pelo parênquima hepático, com realce nodulariforme pelo contraste, tendendo a homogeneização nas fases tardias, as maiores localizadas na transição dos segmentos VII /VIII (medindo cerca de 7,7 cm), transição dos segmentos II / IV (4,2 cm) e segmento V (2,1 cm).
+
+CONCLUSÃO: Formações nodulares hepáticas, com características de realce sugestivas de hemangiomas.
+
+
+Nódulo com marcardo hipersinal em T2, hipossinal em T2, captação nodular, periférica e descontínua na fase arterial com tendência a preenchimento centrípeto pelo contraste nas fases subsequentes.
+
+
+Nódulo apresentando hipersinal em T2 e impregnação periférica e descontínua, com tendência à homogeneização nas fases tardias, compatível com hemangioma, localizado no segmento Ill medindo cerca de 2,7 x 2,6 cm.
+
+
+ADENOMA
+
+Nódulo circunscrito, hipoatenuante, localizado no domus hepático, medindo cerca de <> x <> cm, que apresenta realce arterial pelo meio de contraste iodado, não sendo caracterizado nas fases portal e tardia.
+
+
+Destaca-se formação nodular hiperintensa em T2, com diminutos focos de gordura intracelular e realce hipervascular, circunscrito e capsulado, localizado na região subcapsular do segmento III. Mede cerca de <> x <> cm. Pode representar um adenoma hepático, hiperplasia nodular focal ou nódulo hepático hipervascular de outra natureza. Conveniente controle evolutivo entre 3 e 6 meses (no estudo controle, pode-se realizar RM do abdome superior com contraste hepatoespecífico – Primovist).
+
+
+Formação expansiva heterogênea, com material espontaneamente hiperatenuante no interior de provável natureza hemática, sem realce significativo pelo contraste, ocupando os segmentos mediais do lobo esquerdo hepático, medindo 9,4 x 8,4 x 7,7 cm. Formação expansiva hepática, devendo-se considerar a possibilidade de lesão nodular com hemorragia associada, entre os principais diferenciais adenoma entre outros.
+
+
+Nódulos com sinal indicando presença de gordura microscópica, hipervasculares e apresentando lavagem nas sequências de transição e portal e sem captação do contraste na fase hepatobiliar, compatíveis com adenomas com mutação do gene HNF 1 alfa (esteatóticos). Há mais de de 10 lesões com essas características, caracterizando adenomatose hepática. Destacamos os maiores:
+
+
+HNF
+
+Nódulos isointensos nas sequências pré contraste, hipervasculares e com retenção do contraste na fase hepatobiliar, apresentando cicatriz central, compatíveis com hiperplasias nodulares focais, destacando-se as maiores:
+
+
+Formação nodular pedunculada, adjacente ao segmento V, caracterizada por hiperrealce precoce após a administração do meio de contraste iodado, delimitando pequena área central com hipocontrastação (achado esse observado nas fases arterial e portal), a qual apresenta homogeneização na fase de equilíbrio. Essa lesão mede <> x <> x<> cm. O conjunto desses achados é compatível com hiperplasia nodular focal.
+
+
+Parênquima com coeficientes de atenuação preservados, exceto por nódulo isoatenuante de contornos lobulados, apresentando realce arterial e cicatriz central, localizado no segmento III, onde determina abaulamento capsular
+
+
+Nódulo sólido de contornos labutados, limites bem definidos, realce intenso pelo meio de contraste na fase arterial, com cicatriz central que realça tardiamente, medindo <>, no segmento <>. Nódulo hipervascular com cicatriz cirúrgica caracterizando hiperplasia nodular focal.
+
+
+METASTASE
+
+Múltiplos nódulos hipovasculares, de limites mal definidos, por vezes confluentes, distribuídos difusamente por todo o parênquima.
+
+
+Fígado de dimensões aumentadas, contornos lobulados e bordos rombos a custa de múltiplos nódulos hipoatenuantes, a maioria com realce periférico, acometendo todos os segmentos hepáticos, compatíveis com lesões de natureza neoplásica secundária. Destaca-se formação expansiva com realce heterogêneo pelo meio de contraste, acometendo os segmentos III/IV, que determina compressão da cabeça do pâncreas, segunda porção do duodeno. Tal formação mede cerca de 11 x 10 x 8,2 cm e deve corresponder a nódulos hepáticos confluentes. Imagem hipoatenuante no segmento VIII, medindo 0,5 cm, sugestiva de cisto hepático. Veias hepáticas e ramos portais preservados.
+
+OPINIÃO: Nódulos hepáticos de provável etiologia neoplásica secundária, alguns confluentes.
+
+
+NODULO HIPODENSO PEQUENO INDETERMINADO
+
+Pequenas formações hipodensas nos segmento IV e V do figado, medindo ate cerca de 0,5 cm, indeterminadas, pelas suas reduzidas dimensões.
+
+ID:Pequenas formações hipodensas em ambos os lobos hepáticos, indeterminadas pelas suas reduzidas dimensões.
+
+
+LIRADS 5
+
+O nódulo dominante no segmento VIII apresentou aumento volumétrico. Essa lesão media 3,4 cm no exame anterior e mede 5,2 cm no exame atual. A intensidade de sinal no interior do nódulo também se modificou, identificamos atualmente formação nodular interna com 4 cm, exibindo hipossinal em T1, hipersinal em T2, restrição à difusibilidade da água, comportamento hipervascular em fase arterial e washout em fase tardia. O aspecto é compatível com carcinoma hepatocelular típico e o padrão de imagem é característico da apresentação nódulo dentro de nódulo. Observamos, ainda, formação de cápsula com realce pelo contraste que envolve toda o complexo nodular e que não era identificada em exame prévio. Considerando toda a complexidade da lesão para fins de classificação, a lesão mede 5,2 cm o aspecto é de nódulo LI-RADS 5.
+
+
+HCC
+
+Formação nodular com hipervascularização na fase arterial e lavagem ao meio de contraste (“washout”), medindo <> x <> cm nos maiores eixos transversos, localizada na periferia posterior do segmento VI do lobo hepático direito.
+
+ID:Nódulo hipervascularizado no lobo hepático esquerdo. Considerar entre as hipóteses diagnósticas a de processo neoplásico primário.
+
+
+Massa/Nódulo sólido no segmento, hipervascularizado na fase arterial e com clareamento nas fases tardias, suspeito para processo primário.
+
+
+Formação nodular com discreto hipersinal em T2, intensa captação arterial do contraste e clareamento nas fases tardias, com tênue pseudocápsula associada, na transição entre os segmentos II / IV do lobo hepático esquerdo, medindo 1,6 cm.
+
+
+Volumosa lesão expansiva, heterogênea, envolvendo os segmentos II, III, IV, V e VIII, que exibe áreas de hipervascularização de permeio e outras hipodensas, sugerindo necrose / degeneração cística, medindo cerca de 14,0 cm no maior eixo, no plano axial, com áreas de clareamento na fase tardia., sugerindo a possibilidade de carcinoma hepatocelular.
+
+
+Lesão expansiva / infiltrativa, de limites parcialmente indefinidos, acometendo os segmentos II e IV do lobo hepático esquerdo e o segmento V do lobo direito. Essa lesão mede grosseiramente 10,0 cm, no seu maior eixo no plano axial, apresenta realce precoce e difusamente heterogêneo pelo meio de contraste, com áreas centrais sem realce provavelmente relacionadas a necrose, com áreas de clareamento, nas fases tardia, sugerindo carcinoma hepatocelular.
+
+
+Fígado de dimensões discretamente aumentadas, bordos rombos e contornos regulares, apresentando coeficientes de atenuação difusamente heterogêneos à custa de múltiplas formações nodulares mal definidas, algumas tendendo à confluência, comprometendo praticamente todo o lobo hepático direito e apresentando realce heterogêneo precoce ao meio de contraste endovenoso, com wash-out nas fases tardias. A maior lesão mede cerca de XXXX cm, localizada no segmento XXXX. Há invasão do ramo portal direito, o qual apresenta ainda falha de enchimento, denotando trombose.
+
+
+ADENOMA X HCC (PRIMOVIST)
+
+Formação nodular com discreto hipersinal em T2, hipossinal em T1, captação na fase arterial, sem retenção do contraste específico (Primovist) na fase hepatobiliar, o segmento IV / V, medindo cerca de 1,7 cm no maior eixo transverso, podendo corresponder a adenoma, não sendo possível excluir lesão de natureza neoplásica.
+
+
+HCC + FIBROSE CONFLUENTE
+
+Fígado de dimensões reduzidas, a custa do lobo esquerdo, contornos serrilhados e bordos rombos. Parênquima com intensidade de sinal difusamente heterogênea, destacando-se nódulo com hipossinal em T1, hipersinal em T2 e impregnação arterial pelo gadolínio, no segmento VII, medindo 2,5 x 1,9 cm. Nota-se ainda área mal delimitada de distorção arquitetural, que se estende do hilo à periferia hepática, envolvendo parcialmente os segmentos anteriores do lobo direito e medial do esquerdo, que pode corresponder a fibrose confluente. Veias hepáticas e ramos portais preservados.
+
+OPINIÃO: Nódulo hepático com realce arterial no segmento VII, que pode corresponder a lesão de natureza neoplásica primária.
+
+
+FIBROSE CONFLUENTE
+
+Sinais de hepatopatia crônica, com área de distorção da arquitetura hepática, sugestiva de fibrose focal confluente.
+
+
+DOENÇA DE CAROLI
+
+Fígado de dimensões aumentadas, contornos lobulados e bordos rombos. Múltiplas imagens cisticas lobuladas distribuidas difusamente pelo parênquima hepático, a maior medindo 5,8 cm no segmento lateral do lobo esquerdo, algumas circundando ramos portais (“central dot sign”), que sugerem dilatações císticas das vias biliares intra-hepáticas. Nota-se, ainda, dilatação das vias biliares extra-hepáticas (colédoco com diâmetro máximo de 2,0 cm). O conjunto das alterações císticas das vias biliares sugerem doença de Caroli como principal hipótese diagnóstica.
+
+
+Aumento dos lobos esquerdo e do caudado com dilatação de ductos biliares intra-hepáticos. Dilatação circunferencial dos ductos biliares ao redor do vaso portal central.
+
+
+CIRROSE CARDIACA
+
+Ectasia da veia cava inferior e das veias hepáticas, bem como aumento das dimensões cardíacas, achados que devem estar relacionados à sobrecarga cardíaca. Realce difusamente heterogêneo do parênquima hepático, possivelmente relacionado à congestão passiva.
+
+
+Fígado de dimensões aumentadas, parênquima exibindo realce heterogêneo pelo meio do contraste, identificando-se ainda, aumento do calibre das veias hepáticas. Achados que podem estar relacionados a congestão venosa passiva relacionada a insuficiência cardíaca.
+
+CONCLUSÃO: Sinais de congestão venosa hepática passiva.
+
+
+HEPATOBLASTOMA
+
+Formação expansiva heterogênea, hipervascular, nutrida pelo ramo esquerdo da artéria hepática, bem delimitada, com aparente cápsula, septos e fibrose de permeio, localizada no segmento IV, medindo cerca de <> x <> x <> cm. Tal formação comprime a vesícula biliar e os ramos portais, sem sinais de invasão dos mesmos. Restante do parênquima com coeficientes de atenuação preservados.
+
+
+HAMARTOMA
+
+O parênquima esboça múltiplos cistos de distribuição difusa medindo até <> cm no segmento VIII, sem comunicação aparente com a árvore biliar.
+
+
+Fígado de dimensões preservadas, apresentando inúmeras formações hipoatenuantes homogêneas, bem delimitadas, medindo até XXXX cm de diâmetro, esparsas pelo parênquima. Dentre os diagnósticos diferenciais, considerar a possibilidade de hamartomas biliares.
+
+
+BUDD CHIARI
+
+Fígado apresentando contornos bocelados e acentuado aumento volumétrico do lobo caudado, com sinal discreta e difusamente heterogêneo e realce com padrão em mosaico do parênquima. Nota-se importante compressão da veia cava inferior retro hepática pelo lobo caudado. Contrastação satisfatória da veia hepática direita. Veias hepáticas média e esquerda não caracterizadas no presente estudo. Tais alterações sugerem a possibilidade de Budd Chiari.
+
+
+ESQUISTOSSOMOSE
+
+Fígado com dimensões reduzidas, redistribuição volumétrica e predomínio dos lobos esquerdo e caudado, contornos lobulados e bordos finos. Parênquima com coeficientes de atenuação heterogêneos e fibrose periportal de distribuição periférica. Ausência de lesões focais. 
+
+Veias hepáticas preservados. 
+
+Acentuada dilatação do tronco da veia porta e de seus ramos, bem como da veia esplênica. Sinais de recanalização da veia paraumbilical que apresenta-se bastante dilatada, associado à múltiplas colaterais na parede abdominal anterior, no hilo esplênico, hilo hepático, junto à pequena curvatura gástrica e periesofágicas.
+
+Baço de dimensões bastante aumentadas, apresentando múltiplos focos de calcificação puntiforme esparsos pelo parênquima, residuais (corpúsculos de Gamna-Gandy). Calcificações no terço médio/distal da veia esplênica, de aspecto residual.
+
+ID: Sinais de hepatopatia crônica e acentuada hipertensão portal com extensa rede de circulação colateral.
+
+Acentuada esplenomegalia.
+
+
+COLANGIOCARCINOMA INTRAHEPÁTICO
+
+Fígado com dimensões aumentadas e contornos bocelados. Inúmeras lesões sólidas confluentes com necrose central comprometendo difusamente todos os segmentos hepáticos, com exceção do lobo caudado, as maiores lesões agrupadas comprometendo os segmentos V, VI, VII e VIII, medindo até 9,2 cm. As lesões envolvem os ramos portais, sem promover trombose. Há ainda envolvimento circunferencial da vesícula, que apresenta leve espessamento parietal. Associa-se extensa retração capsular no segmento V e VIII. Considerar inicialmente a possibilidade de colangiocarcinoma intra-hepático multifocal.
+
+
+COLANGIOCARCINOMA EXTRAHEPÁTICO
+
+Dilatação das vias biliares intra-hepáticas e do ducto hepático comum até próximo à junção com o ducto cístico, observando-se espessamento circunferencial, estenosante, com extensão aproximada de cerca de XXXX cm, compatível com processo expansivo primário da via biliar.
+
+
+NODULOS TRATADOS POR RADIOABLAÇÃO
+
+Múltiplos nódulos heterogêneos de limites mal definidos e sem definitivo realce ao contraste, o maior medindo 4,6 x 3,6 x 3,1 cm localizada no segmento VI. Destaca-se lesão na transição entre os segmentos VIII e IV, que determina afilamento do ramo esquerdo da veia porta, medindo 3,4 x 2,7 x 3,8 cm.
+
+Área nodular heterogênea com leve hipersinal em T2 da periferia do segmento VI, medindo 7,5 x 2,5 cm, grosseiramente alongada e apresentando um discreto realce heterogêneo na fase portal, inespecífico e que pode representar tecido neoplásico viável.
+
+OPINIÃO: Múltiplos nódulos hepáticos sugestivos de lesões tratadas, sem sinais definitivos de tumor viável. Lesão nodular alongada na periferia do segmento VI hepático, esboçando discreto realce na fase portal, inespecífico podendo representar tecido neoplásico viável. Conveniente controle evolutivo ou correlação histopatológica.
+
+
+METÁSTASES / COLANGIOCARCINOMA / HEMANGIOENDOTELIOMA EPITELIÓIDE
+
+Fígado de dimensões aumentadas, contornos lobulados, bordos rombos e coeficientes de atenuação heterogêneos à custa de múltiplas formações nodulares irregulares, com tendência a confluência, difusamente distribuídas pelo parênquima, a maior delas medindo cerca de XXXX cm, no segmento VII / VIII. Tais alterações admitem como diagnósticos diferenciais as seguintes possibilidades: lesões secundárias, colangiocarcinoma e hemangioendotelioma epitelióide.
+
+
+CHC FIBROLAMELAR
+
+Fígado de dimensões aumentadas, apresentando volumosa formação expansiva heterogênea, predominantemente hipoatenuante, com cicatriz central calcificada, medindo cerca de 11,4 x 8,7 x 9,2 cm, que ocupa principalmente o lobo hepático esquerdo (segmentos II, III e IV) e parte do segmento VIII. Após a injeção EV do meio de contraste iodado observa-se distúrbio perfusional ao redor da massa, decorrente da invasão do ramo esquerdo da veia porta. Observamos ainda amputação das veias hepáticas média e esquerda.
+
+Linfonodomegalias periaórticas, interaortocaval, no ligamento hepatogástrico, mesentéricos e diafragmáticos. Linfonodomegalia heterogênea com centro hipoatenuante de necrose/liquefação em íntimo contato com o corpo/cauda pancreáticos medindo cerca de 6,0 x 5,7 x 6,7 cm, sem planos de clivagens com o parênquima do corpo do pâncreas.
+
+
+ELASTOGRAFIA
+
+Normal: ondas de cisalhamento com comprimento de onda mais curto
+
+Cirrose: Ondas de cisalhamento com comprimento de onda substancialmente mais longo
+
+Aumento assimétrico periférico da rigidez hepática. Considerar hipótese de congestão ou colangite esclerosante.
+
+
+NECROSE BILIAR CENTRAL PÓS TRANSPLANTE
+
+O enxerto hepático tem volume global preservado e contorno regular. Destaco 2 áreas mal delimitadas com sinal elevado na difusão e em T2 localizadas em projeção da transição do segmento VIII e IV, medindo 2,7 cm e no segmento VI, medindo 2,3 cm. Essas áreas tem marcada hipovascularização e exibem alteração perfusional ao redor. Considerar a possibilidade de abscessos em formaçãoo.
+
+Ectasia das vias biliares intra-hepáticas com sinal heterogêneo na ponderação T2 e comportamento avascular após contraste. Esses achados em associação da informação de trombose na artéria henática. própria e ramos relatada em angio TC prévia, configuram a possibilidade de necrose biliar central.

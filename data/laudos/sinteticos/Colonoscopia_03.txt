@@ -1,0 +1,93 @@
+=== Colonoscopia — Variante 3 ===
+Especialidade: gastroenterologia
+Cenário: colite ulcerativa em atividade moderada — pancolite
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE COLONOSCOPIA
+
+---
+
+## DADOS DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DATA DE NASCIMENTO]  
+**Sexo:** [MASCULINO/FEMININO]  
+**Registro/Prontuário:** [Nº PRONTUÁRIO]  
+
+**Data do Exame:** [DATA DO EXAME]  
+**Hora de Início:** [HORA]  
+**Hora de Término:** [HORA]  
+**Duração:** [DURAÇÃO EM MINUTOS]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Paciente com diagnóstico prévio de colite ulcerativa em seguimento gastroenterológico. Encaminhado para colonoscopia de avaliação de atividade inflamatória, progressão da doença e estadiamento da extensão da inflamação. Queixa de diarréia mucossanguinolenta, tenesmo e sintomas sistêmicos sugestivos de atividade moderada.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizada colonoscopia completa sob sedação consciente com midazolam e fentanila, após higienização intestinal adequada com polietilenoglicol (PEG) 4 litros. Paciente posicionado em decúbito lateral esquerdo. Utilizou-se colonoscópio de alta definição com espessura 12-13 mm, com progressão cuidadosa e visualização sistemática. Realizada intubação do ceco, confirmada pela visualização da válvula ileocecal, ápice cecal e óstio apendicular. Retirada do aparelho sob inspeção minuciosa de toda a mucosa.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **Reto e Sigmoide:**
+Mucosa eritematosa com edema significativo e perda parcial do padrão vascular normal. Presença de pseudopólipos inflamatórios esparsos. Exsudato fibrinossanguinolento aderido à mucosa. Friabilidade moderada, com sangramento à passagem do aparelho. Ausência de úlceras profundas neste segmento.
+
+### **Cólon Descendente:**
+Mucosa inflamada com eritema franco, edema acentuado e granularidade difusa. Múltiplas áreas de ulceração superficial com bases fibrinosas. Pseudopólipos inflamatórios de pequeno tamanho distribuídos de forma irregular. Exsudato fibrinossanguinolento em extensão. Friabilidade moderada a intensa. Sangramento espontâneo presente.
+
+### **Cólon Transverso:**
+Inflamação difusa com padrão similar aos segmentos anteriores. Mucosa gravemente edemaciada com perda completa da vascularização normal. Pseudopólipos inflamatórios mais volumosos neste segmento. Ulcerações superficiais a moderadamente profundas alternando com áreas de mucosa preservada. Friabilidade intensa com sangramento à passagem do aparelho.
+
+### **Cólon Ascendente:**
+Inflamação contínua com características inflamatórias semelhantes aos demais segmentos. Mucosa eritematosa, edematosa e granular. Presença de pseudopólipos inflamatórios. Ulcerações superficiais. Exsudato fibrinossanguinolento. Friabilidade moderada.
+
+### **Cecum e Válvula Ileocecal:**
+Mucosa cecal apresentando inflamação ativa com eritema e edema. Válvula ileocecal preservada estruturalmente, porém com mucosa inflamada e eritematosa em seus bordos. Não há evidência de afecção do íleo terminal visualizado.
+
+### **Achados Adicionais:**
+- Ausência de massas, estenoses ou sinais de obstrução
+- Ausência de fístulas ou abcessos aparentes
+- Padrão inflamatório contínuo compatível com pancolite
+- Sem evidência de carcinoma
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Colonoscopia compatível com Colite Ulcerativa em atividade moderada com padrão de PANCOLITE.**
+
+Observam-se achados endoscópicos características de inflamação moderada por doença inflamatória intestinal, incluindo:
+- Eritema, edema e granularidade difusa da mucosa
+- Múltiplas ulcerações superficiais e moderadamente profundas
+- Pseudopólipos inflamatórios
+- Friabilidade moderada a intensa com sangramento
+- Acometimento contínuo desde o reto até o ceco
+
+Os achados são compatíveis com colite ulcerativa em atividade, com envolvimento de todo o cólon (pancolite), confirmando a extensão já conhecida da doença.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+### **Conclusões:**
+1. Confirmação de pancolite ulcerativa com inflamação moderada em atividade
+2. Ausência de complicações agudas como tóxon, perfuração ou megacólon
+3. Ausência de malignidade aparente no momento
+4. Ausência de estenoses significativas
+
+### **Recomendações:**
+
+1. **Terapêutica:**
+   - Revisão e otimização do esquema terapêutico atual com gastroenterologista
+   - Considerar intensificação da terapia, incluindo análogos de ácido 5-aminossalicílico (5-ASA) em dose otimizada
+   - Avaliação para possível terapia biológica (anti-TNF ou inibidores de integrina) caso não haja resposta adequada
+   - Terapia corticosteroide sistêmica conforme protocolo institucional
+
+2. **Vigilância:**
+   - Bióp

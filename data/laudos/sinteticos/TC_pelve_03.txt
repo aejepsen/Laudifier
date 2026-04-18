@@ -1,0 +1,108 @@
+=== TC pelve — Variante 3 ===
+Especialidade: radiologia
+Cenário: espessamento endometrial de 14 mm
+Fonte: sintético — gerado por Claude
+
+# LAUDO MÉDICO - TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## **CABEÇALHO DO EXAME**
+
+**INSTITUIÇÃO:** [NOME DA CLÍNICA/HOSPITAL]
+
+**PACIENTE:** [NOME COMPLETO]
+
+**PRONTUÁRIO:** [NÚMERO DO PRONTUÁRIO]
+
+**DATA DE NASCIMENTO:** [DATA] | **IDADE:** [IDADE] | **SEXO:** [FEMININO/MASCULINO]
+
+**DATA DO EXAME:** [DATA DO EXAME]
+
+**HORA DO EXAME:** [HORÁRIO]
+
+**MÉDICO SOLICITANTE:** [NOME DO MÉDICO SOLICITANTE] | **ESPECIALIDADE:** [ESPECIALIDADE]
+
+**RADIOLOGISTA:** [NOME DO RADIOLOGISTA] | **CREMESP:** [NÚMERO]
+
+**MODALIDADE:** Tomografia Computadorizada de Pelve
+
+**EQUIPAMENTO:** TC Multislice 64 canais
+
+---
+
+## **INDICAÇÃO CLÍNICA**
+
+Avaliação de espessamento endometrial detectado à ultrassonografia. Investigação de possível patologia uterina.
+
+---
+
+## **TÉCNICA UTILIZADA**
+
+Realizada tomografia computadorizada da pelve menor com aquisição de cortes axiais contínuos de 2 mm de espessura, desde o nível da sínfise púbica até o reto sigmoide, com e sem injeção intravenosa de contraste iodado não-iônico (volume: 80 mL, concentração: 370 mg/mL). Reconstruções multi-planares (coronal e sagital) foram obtidas. Janelas apropriadas para avaliação de partes moles, óssea e vascular foram utilizadas.
+
+---
+
+## **ACHADOS**
+
+### **Útero e Endométrio:**
+O útero apresenta dimensões normais (comprimento aproximado de 7,0 cm, transverso de 4,5 cm). O endométrio encontra-se **espessado, medindo aproximadamente 14 mm** na sua maior dimensão, avaliado em corte sagital. A camada basal mantém seus limites bem definidos em relação ao miométrio subjacente. Não há sinais de descontinuidade ou invasão do endométrio.
+
+**Sinal de realce:** O endométrio demonstra realce homogêneo e uniforme na fase dinâmica arterial pós-injeção de contraste, sem áreas focais de hipocaptação sugestivas de lesão expansiva.
+
+### **Miométrio:**
+O miométrio apresenta densidade e características de realce normais, sem evidências de adenomiose ou espessamento segmentar. Não há focos de calcificação dentro da camada muscular uterina.
+
+### **Adnexa:**
+- **Ovários:** Bilateralmente apresentam dimensões normais (eixo maior menor que 3,0 cm). Apresentam densidade heterogênea habitual, compatível com sua natureza folicular. Sem sinais de lesão expansiva ovariana.
+- **Trompas:** Não dilatadas. Trajeto habitual.
+- **Ligamentos uterinos:** Sem alterações.
+
+### **Bexiga:**
+Adequadamente replecionada. Parede sem espessamento. Sem lesões endoluminais.
+
+### **Reto e Sigmoide:**
+Calibre normal. Paredes sem espessamento focal. Sem evidências de divertículos complicados.
+
+### **Coxofemoral:**
+Articulações coxofemorais mantêm seus espaços articulares preservados, sem sinais de osteoartrite avançada.
+
+### **Osso Pélvico:**
+Estrutura óssea da pelve sem focos de lise ou esclerose focal suspeita. Sacro-iliíacas sem alterações degenerativas significativas.
+
+### **Linfonodos:**
+Não há linfonodos pélvicos aumentados em número ou volume (limiar de normalidade > 1,0 cm em menor eixo). Sem cadeias linfonodais paraórticas dilatadas.
+
+### **Gordura Pélvica:**
+Planos gordurosos pélvicos livres, sem sinais de inflamação ou coleção.
+
+### **Outras Estruturas:**
+Alças intestinais de calibre normal. Sem ascite. Sem pneumoperiônio.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+1. **Espessamento endometrial medindo 14 mm**, identificado em tomografia computadorizada de pelve realizada com técnica apropriada e otimizada.
+
+2. Características não específicas ao estudo tomográfico, compatível com:
+   - Endométrio espessado benigno (fase proliferativa do ciclo menstrual em mulher em idade reprodutiva; efeito de terapia hormonal)
+   - Hiperplasia endometrial benigna
+   - Pólipo endometrial
+   - Mioma submucoso (menos provável, dada a apresentação homogênea)
+
+3. Sem sinais tomográficos de malignidade (ausência de invasão miometrial, realce homogêneo uniforme, ausência de adenopatias).
+
+4. Útero, ovários, adnexa e estruturas pélvicas adjacentes sem outras alterações significativas.
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+A tomografia computadorizada demonstra **espessamento endometrial de 14 mm com características benignas neste estudo**, porém sem possibilidade de caracterização específica quanto à etiologia.
+
+### **Recomendações:**
+
+1. **Correlação clínica:** Avaliar status menopausal da paciente, sintomatologia (sangramento vaginal, corrimento), história de tratamento hormonal ou quimioterápico.
+
+2. **Ultrassonografia Transvaginal de Seguimento:** Recomenda-se realização de ultrassonografia endovaginal, que oferece melhor resolução

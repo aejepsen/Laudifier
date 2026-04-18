@@ -1,0 +1,115 @@
+=== TC torax — Variante 2 ===
+Especialidade: radiologia
+Cenário: nódulo pulmonar solitário de 8 mm no lobo superior direito
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**HOSPITAL/CLÍNICA:** [NOME DA INSTITUIÇÃO]  
+**DEPARTAMENTO:** Radiologia e Diagnóstico por Imagem  
+**MODALIDADE:** Tomografia Computadorizada de Tórax
+
+**PACIENTE:** [NOME COMPLETO]  
+**PRONTUÁRIO:** [Nº DO PRONTUÁRIO]  
+**DATA DE NASCIMENTO:** [DATA]  
+**SEXO:** [M/F]  
+**IDADE:** [IDADE]
+
+**DATA DO EXAME:** [DATA/HORA]  
+**SOLICITANTE:** [NOME DO MÉDICO]  
+**ESPECIALIDADE:** [ESPECIALIDADE DO SOLICITANTE]  
+**INDICAÇÃO CLÍNICA:** Investigação de nódulo pulmonar
+
+---
+
+## TÉCNICA
+
+Tomografia computadorizada helicoidal multidetetor do tórax realizada em equipamento [MARCA/MODELO], com aquisição volumétrica contínua do ápex até a base pulmonar, após administração intravenosa de contraste iodado não iônico (volume: 100 mL, concentração: 370 mg I/mL). Foram obtidas reconstruções multiplanares (axial, sagital e coronal) com espessura de corte de 1,0 mm para análise detalhada do parênquima pulmonar. Não foram identificadas limitações técnicas para avaliação.
+
+---
+
+## ACHADOS
+
+### Parênquima Pulmonar
+Identificado **nódulo pulmonar sólido, arredondado, bem delimitado, medindo 8 mm de diâmetro máximo, localizado no segmento apical do lobo superior direito** (coordenadas aproximadas: 3 cm da pleura visceral, 2,5 cm do hilum).
+
+O nódulo apresenta as seguintes características:
+- **Morfologia:** Arredondada, contornos regulares
+- **Densidade:** Homogênea, sem calcificações visíveis
+- **Atenuação:** Semelhante ao parênquima pulmonar adjacente, sem realce significativo após administração de contraste
+- **Localização:** Lobo superior direito, segmento apical (subsegmental)
+- **Singularidade:** Nódulo solitário, sem outros nódulos detectados nos pulmões bilateralmente
+
+### Avaliação Pleural
+Pleura visceral e parietal íntegras. Sem derrame pleural. Sem espessamento pleural focal ou difuso.
+
+### Espaço Intersticial
+Sem sinais de fibrose pulmonar ou infiltrados intersticiais.
+
+### Vias Aéreas
+Árvore traqueobrônquica pérvea até suas ramificações distais. Sem evidências de estenose ou massas endobrônquicas.
+
+### Hilum Pulmonar
+Estruturas hilares bilateralmente normais, sem linfadenopatia regional.
+
+### Mediastino
+Mediastino de aspecto normal. Sem massas mediastinais. Sem linfadenopatia mediastinal (sem adenomegalias com diâmetro transverso superior a 10 mm).
+
+### Coração e Grandes Vasos
+Silhueta cardíaca de tamanho normal. Aorta torácica de calibre e trajeto normais. Veia cava superior e inferior sem anormalidades. Sem tromboembolismo pulmonar agudo.
+
+### Esqueleto Axial
+Coluna vertebral e arcos costais íntegros, sem lesões líticas ou osteocondensações anormais. Sem fraturas agudas.
+
+### Achados Incidentais
+Pequenos linfonodos hilarais bilateralmente com dimensões dentro dos limites normais.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Nódulo pulmonar solitário de 8 mm no lobo superior direito**, de morfologia arredondada e contornos regulares
+2. Características radiológicas sugestivas de baixo risco de malignidade, porém com possibilidade diagnóstica ainda indeterminada para lesão benigna (hamartoma, cicatriz pulmonar, nódulo inflamatório) ou neoplasia de pequenas dimensões
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Nódulo pulmonar sólido de 8 mm identificado no segmento apical do lobo superior direito, com características morfológicas benignas, mas que exigem seguimento clínico-radiológico.
+
+**RECOMENDAÇÕES:**
+
+1. **Seguimento tomográfico recomendado** conforme protocolo de vigilância de nódulos pulmonares:
+   - **Primeira tomografia de seguimento:** em 3 meses
+   - **Segunda tomografia de seguimento:** em 12 meses
+   - Caso o nódulo permaneça estável após 12 meses, considerado de baixo risco e seguimento pode ser descontinuado
+
+2. Correlação com:
+   - História clínica e fatores de risco (tabagismo, exposições ocupacionais, antecedentes oncológicos pessoais ou familiares)
+   - Tomografias prévias, se disponíveis, para comparação e avaliação de estabilidade
+
+3. Considerar avaliação clínica multidisciplinar caso haja crescimento, mudança de características morfológicas ou outros achados clínicos relevantes
+
+4. Paciente deve ser orientado sobre importância da adesão ao protocolo de seguimento
+
+---
+
+## ASSINATURA
+
+**RADIOLOGISTA RESPONSÁVEL:**
+
+_________________________________________________
+
+**Nome:** [NOME COMPLETO]  
+**CRM:** [Nº CRM/UF]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Data:** _____ / _____ / _______  
+**Hora:** ________
+
+---
+
+**Nota:** Este laudo é de caráter informativo

@@ -1,0 +1,86 @@
+=== RX torax — Variante 1 ===
+Especialidade: radiologia
+Cenário: radiografia de tórax sem alterações
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+**Nome:** [NOME DO PACIENTE]  
+**Idade:** [IDADE] anos | **Sexo:** [M/F]  
+**Data de Nascimento:** [DATA]  
+**Registro Hospitalar:** [RH/PRONTUÁRIO]  
+**Data do Exame:** [DATA DO EXAME]  
+**Hora:** [HORÁRIO]
+
+---
+
+## DADOS DO EXAME
+
+**Modalidade:** Radiografia Digital  
+**Região Anatômica:** Tórax  
+**Projeções:** Posteroanterior (PA) e Perfil (P)  
+**Equipamento:** Sistema de Radiografia Digital  
+**Técnica:** Convencional com proteção radiológica adequada
+
+---
+
+## TÉCNICA UTILIZADA
+
+Radiografia de tórax realizada em incidência posteroanterior e perfil (lateral esquerdo), com o paciente em posição ortostática. Foram utilizados parâmetros técnicos adequados com boa penetração e contraste, permitindo avaliação detalhada das estruturas torácicas.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**Campos pulmonares:** Apresentam transparência homogênea, sem opacidades, consolidações, derrame pleural ou sinais de pneumotórax. Padrão vascular pulmonar normal, bem distribuído bilateralmente. Hilos pulmonares normodimensionados, sem sinais de adenomegalia.
+
+**Mediastino:** Contorno mediastinal dentro dos limites normais. Silhueta cardíaca com dimensões normais (índice cardiotorácico preservado, inferior a 50%). Coração em posição anatômica habitual. Sem sinais de cardiomegalia ou desvios do eixo mediastinal.
+
+**Estruturas ósseas:** Coluna dorsal com curvatura fisiológica preservada. Corpos vertebrais íntegros com altura normal. Arcos costais íntegros bilateralmente. Clavículas e escápulas sem alterações. Sem sinais de lise, condensação ou fraturas.
+
+**Diafragma:** Cúpulas diafragmáticas simétricas e com contornos nítidos. Ângulos costofrênicos agudos bilateralmente. Seio costofrênico sem derrame.
+
+**Partes moles:** Contornos suaves e simétricos, sem edema ou enfisema subcutâneo.
+
+**Sonda/Tubos:** Nenhum dispositivo intratorácico presente.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Radiografia de tórax **sem alterações agudas**. Campos pulmonares, mediastino e estruturas ósseas dentro dos limites normais. Silhueta cardíaca com dimensões normais. Ausência de sinais de infecção, ocupação espaço-ocupadora, derrame pleural ou pneumotórax.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+**Conclusão:** Tórax radiograficamente normal, sem achados patológicos.
+
+**Recomendações:** 
+- Nenhum achado que necessite investigação complementar imediata
+- Seguimento clínico de rotina conforme orientação médica assistente
+- Novo exame apenas se indicado clinicamente
+
+---
+
+## ASSINATURA E RESPONSABILIDADE
+
+**Médico Responsável:** ___________________________________________
+
+**Nome (legível):** ___________________________________________
+
+**Especialidade:** Radiologia
+
+**CRM:** ______________________ **CNPJ (clínica):** ______________________
+
+**Data:** ____/____/______  |  **Horário:** __________
+
+**Assinatura:** ___________________________________________
+
+---
+
+*Laudo em conformidade com a Resolução CFM nº 1.734/2016 e Código de Ética Médica*

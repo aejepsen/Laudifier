@@ -1,0 +1,116 @@
+=== US abdome total — Variante 2 ===
+Especialidade: radiologia
+Cenário: colecistolitíase — múltiplos cálculos, vesícula com paredes normais
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA
+
+---
+
+## **IDENTIFICAÇÃO**
+
+| Campo | Informação |
+|-------|-----------|
+| **Paciente** | [NOME COMPLETO] |
+| **Data de Nascimento** | [__/__/____] |
+| **Sexo** | [  ] M  [  ] F |
+| **Idade** | [__] anos |
+| **Registro/Prontuário** | [________________] |
+| **Data do Exame** | [__/__/____] |
+| **Hora do Exame** | [__:__] |
+| **Médico Solicitante** | [NOME E ESPECIALIDADE] |
+
+---
+
+## **DADOS TÉCNICOS**
+
+**Modalidade:** Ultrassonografia em tempo real (B-mode)
+
+**Equipamento:** Aparelho ultrassonográfico multifrequencial com transdutor convexo
+
+**Frequência Utilizada:** 3,5 a 5 MHz
+
+**Via de Acesso:** Transabdominal
+
+**Posicionamento:** Paciente em decúbito dorsal e oblíquo anterior direito
+
+**Tempo de Exame:** Aproximadamente 15-20 minutos
+
+---
+
+## **ACHADOS / DESCRIÇÃO DETALHADA**
+
+### **VESÍCULA BILIAR**
+A vesícula biliar encontra-se **dilatada**, apresentando dimensões aumentadas (eixo longitudinal: 9,2 cm; diâmetro transversal máximo: 4,1 cm). Seu contorno é bem delimitado e regular. As paredes mostram-se **normais**, com espessura aproximada de 2-3 mm, sem evidência de edema, espessamento heterogêneo ou sinais de colecistite.
+
+Identificam-se **múltiplos cálculos** (litíase), com diâmetros variando de 0,5 cm a 2,8 cm, que apresentam:
+- Ecos intensos e bem definidos (densidade aumentada);
+- Sombra acústica posterior característica;
+- Mobilidade livre nos diferentes decúbitos testados.
+
+A bile apresenta-se **anecoica** (sem particularidades), permitindo boa visualização dos cálculos.
+
+**Sinal de Murphy sonográfico:** Negativo
+
+### **DUCTO COLÉDOCO**
+Ducto colédoco com calibre normal, medindo aproximadamente 4-5 mm, sem evidência de dilatação ou obstrução.
+
+### **FÍGADO**
+Ecotextura hepática homogênea, sem evidência de cirrose, esteatose, lesões focais ou hepatomegalia. Contornos regulares e bem preservados. Veias hepáticas e suprahepática pérvias com fluxo normal ao Doppler.
+
+### **VIAS BILIARES INTRA-HEPÁTICAS**
+Sem dilatação. Calibres normais.
+
+### **PÂNCREAS**
+Glândula pancreática com ecogenicidade normal, bem delimitada. Contorno regular. Ducto pancreático não dilatado. Sem evidência de lesões focais.
+
+### **BAÇO**
+Baço com dimensões normais (eixo longitudinal aproximadamente 11,5 cm), sem alterações ecográficas. Ecotextura homogênea.
+
+### **RINS**
+Rins bilaterais com tamanho e forma normais. Córtex preservado. Sem evidência de litíase, dilatação pielocalicial ou lesões focais. Sinus renais com ecogenicidade preservada.
+
+### **AORTA ABDOMINAL**
+Calibre normal, aproximadamente 2,0 cm, sem evidência de aneurisma ou trombose. Fluxo Doppler presente e pulsátil.
+
+### **LÍQUIDO LIVRE**
+Não identificado ascite ou derrame peritoneal.
+
+### **REGIÃO PÉLVICA**
+Exame limitado nesta região pela técnica (sonda abdominal), mas não evidenciou achados relevantes no terço superior.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+✓ **COLECISTOLITÍASE COM MÚLTIPLOS CÁLCULOS BILIARES**
+
+Características:
+- Múltiplos cálculos de variados tamanhos;
+- Paredes vesiculares preservadas, sem sinais de inflamação;
+- Ausência de colecistite aguda ou crônica;
+- Ductos biliares sem obstrução.
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+1. **Diagnóstico:** Paciente apresenta colecistolitíase (múltiplos cálculos biliares) com características ultrassonográficas típicas. A vesícula biliar encontra-se ligeiramente dilatada, mas com paredes normais e sem sinais de inflamação.
+
+2. **Achados Secundários:** Demais órgãos abdominais apresentam-se dentro dos padrões de normalidade para a idade e constituição do paciente.
+
+3. **Recomendações Clínicas:**
+   - Orientar paciente sobre sintomatologia de alerta (dor em hipocôndrio direito, colecistite, colangite);
+   - Acompanhamento clínico com especialista em Hepatologia/Cirurgia Geral, conforme indicação clínica;
+   - Avaliação para possível tratamento cirúrgico (colecistectomia), especialmente se sintomático;
+   - Evitar refeições gordurosas e alimentos irritantes;
+   - Retorno periódico para acompanhamento ultrassonográfico, conforme orientação médica.
+
+4. **Observações Técnicas:** Exame bem técnico, com boa qualidade de imagem. Não houve limitações relevantes na avaliação.
+
+---
+
+## **ASSINATURA E RESPONSABILIDADE**
+
+| Campo | Informação |
+|-------|--------

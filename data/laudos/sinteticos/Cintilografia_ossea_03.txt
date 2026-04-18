@@ -1,0 +1,103 @@
+=== Cintilografia ossea — Variante 3 ===
+Especialidade: medicina_nuclear
+Cenário: hipercaptação focal em L3 — fratura por compressão, sem outras lesões
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE MEDICINA NUCLEAR
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Instituição:** [NOME DA INSTITUIÇÃO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Horário do Exame:** [HH:MM]  
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA] | Idade: [XX] anos  
+**Sexo:** [M/F]  
+**Registro/Prontuário:** [NÚMERO]  
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+
+---
+
+## TIPO DE EXAME
+
+**Modalidade:** Cintilografia Óssea (Gammagrafia Óssea Trifásica)
+
+---
+
+## TÉCNICA UTILIZADA
+
+Foi realizada cintilografia óssea com injeção intravenosa de 25 mCi (925 MBq) de tecnécio-99m metilenodifosfonato (Tc-99m MDP). Adquiriram-se imagens planares nas fases:
+- **Fase Dinâmica (Fluxo):** sequência rápida nos primeiros 60 segundos pós-injeção, região dorsolumbar
+- **Fase Vascular (Pool sanguíneo):** imagens aos 5-10 minutos pós-injeção
+- **Fase Óssea (tardia):** imagens aos 120-180 minutos pós-injeção em projeções anterior, posterior, oblíquas direita e esquerda, com especial atenção à região dorsolumbar
+
+Índice de Qualidade: Adequado. Distribuição do radiofármaco dentro dos limites esperados. Sem artefatos significativos.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+Na análise da cintilografia óssea trifásica da coluna vertebral, observa-se:
+
+**Achado Principal:**
+- **Hipercaptação focal moderada em L3**, com padrão de acúmulo agudo compatível com reação osteogênica reparadora. A lesão apresenta-se bem delimitada, em região anterior do corpo vertebral, sugestiva de fratura por compressão vertebral.
+
+**Caracterização:**
+- Contorno irregular, sugestivo de edema perifocal com atividade metabólica aumentada
+- Razão de captação (captação lesional/captação óssea normal cervical) > 1,8
+- Distribuição do radiofármaco simétrica nas fases vasculares, sem evidência de hipervascularização focal significativa
+- Ausência de padrão em "cold spot" (defeito de captação)
+
+**Região Dorsolumbar:**
+- Vértebra D11: padrão de captação normal
+- Vértebra D12: padrão de captação normal
+- Vértebra L1: padrão de captação normal
+- **Vértebra L3:** hipercaptação focal descrita acima
+- Vértebra L4: padrão de captação normal
+- Vértebra L5: padrão de captação normal
+- Sacro: distribuição simétrica, padrão normal
+
+**Avaliação do Esqueleto Apendicular:**
+- Úmeros, rádios, ulnas: simétricos, padrão normal
+- Fêmures, tíbias, fíbulas: simétricos, sem focos anormais
+- Cintilografia de membros superiores e inferiores: sem hipercaptações ou hipocaptações significativas
+- Glândula mamária: captação fisiológica esperada
+- Bexiga: captação normal
+
+**Outras Observações:**
+- Rim direito e esquerdo com função renal adequada (visualização de ambas as estruturas)
+- Fígado: distribuição homogênea do radiofármaco
+- Baço: captação fisiológica normal
+- Medula óssea: distribuição simétrica
+- Genitálias externas: captação fisiológica esperada
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Fratura por compressão vertebral em L3** – confirmada por hipercaptação focal osteogênica característica, compatível com fase inicial de remodelamento ósseo e reparo.
+
+2. **Ausência de lesões ósseas metastáticas, focos infecciosos ou outras patologias esqueléticas** no restante do esqueleto rastreado.
+
+3. **Perfil cintiligráfico consistente com fratura traumática aguda a subaguda** (com base na atividade metabólica aumentada).
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A cintilografia óssea evidencia achado único e focal de hipercaptação em L3, compatível clinicamente com **fratura por compressão vertebral em estágio inicial de reparação osteogênica**, sem evidências de:
+- Metástases ósseas
+- Lesões infecciosas (osteomielite, espondilodiscite)
+- Osteonecrose ou necrose avascular
+- Doença degenerativa significativa
+- Outras fraturas occiptas
+
+**Recomendações:**
+
+1. **Correlação clínico-radiológica:** Confirmar com ressonância magnética da coluna dorsolumbar ou tomografia computadorizada, caso não realizada, para melhor caracterização de fragmentos ósseos, deslocamento e envolvimento de estruturas adjacentes.
+
+2. **Acompanhamento clínico:** Monitorar evolução sintomatológica (dor, mobilidade). Cintilografia de controle em 3-6 meses, se indicado clinicamente, para avaliar progressão do reparo ósseo.
+
+3. **Avaliação etiológica:** Investigar mecanismo de trauma, qualidade óssea (screening para osteoporose, se não real

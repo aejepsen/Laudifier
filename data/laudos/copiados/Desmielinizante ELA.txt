@@ -1,0 +1,86 @@
+Desmielinizante
+ELA
+
+Observa-se hipersinal seletivo na sequência T1/SE/MTC comprometendo o trato córtico-espinal, desde a região subcortical dos giros pré-centrais até ao tronco cerebral. Não há efeito expansivo ou impregnação pelo gadolínio.
+
+OPINIÃO: Alteração de sinal seletiva dos tratos córtico-espinais cujas características de imagem são sobreponíveis àquelas observadas nos processos degenerativos do neurônio motor superior.
+
+Hipersinal nas sequência ponderadas em T2 e na sequência T1 MTC no córtex dos giros pré-centrais e ao longo dos tratos corticoespinhais, desde a substância branca subcortical à base dos pedúnculos cerebrais.
+
+Medula espinhal cervical com calibre normal, presentando hipersinal nas sequência ponderada em T2 nos fascículos laterais. Existe ainda foco com hipersinal nas sequências ponderadas em T2 no funículo posterior no nível C6-C7.
+
+ID: Alteração de sinal no córtex dos giros pré-centrais e dos tratos corticoespinhais, achados que neste contexto clínico configuram disfunção do neurônio motor superior.
+
+Alteração de sinal nos funículos laterais na medula cervical espinhal, achado que neste contexto clínico provavelmente decorre de degeneração Walleriana dos tratos corticoespinhais
+
+PSEUDOTUMORAL
+
+Lesão expansiva com hipossinal em T1 e hipersinal em T2, acometendo a substância branca do centro semioval e a região subcortical perirrolândica, do lóbulo parietal superior e pré-cúneo esquerdos, bem como o giro do cíngulo homolateral com extensão ao istmo do corpo caloso. A lesão mede cerca de 5,6 x 4,1 x 3,8 cm (L x AP x T) e exibe impregnação periférica e descontínua ao meio de contraste paramagnético, além de restrição à difusão nas áreas de impregnação, com área de hipersinal em T2/FLAIR adjacente que pode corresponder à edema vasogênico. Não há evidente extensão da lesão para o interior do ventrículo lateral esquerdo, assim como não há sinais de disseminação ependimária.
+
+O conjunto de achados descritos determina efeito expansivo local, caracterizado pelo discreto apagamento dos sulcos corticais regionais e pela compressão sobre o corpo do ventrículo lateral esquerdo. Não há desvio das estruturas centromedianas ou sinais de herniações parenquimatosas. O efeito expansivo observado é desproporcional (menor) ao tamanho da lesão descrita.
+
+Após a injeção dinâmica do agente de contraste paramagnético para avaliação da microvasculatura, observa-se que os componentes lesionais não demonstram aumento da densidade capilar.
+
+As sequências de espectroscopia por ressonância magnética caracterizam pico de mioinositol (marcador de proliferação/reparação astrocitária), bem como discreta redução do pico de NAA, com inversão das relações colina/creatina (1.7) e colina/NAA (1.1), determinada pela elevação dos picos de colina, traduzindo o aumento local da atividade de membrana ou turnover celular. Nota-se ainda a presença do pico de lípides e lactato, marcadores de necrose / anaerobiose.
+
+ID: Lesão expansiva / infiltrativa acometendo a substância branca das regiões perirrolândica, lóbulo parietal superior, centro semioval, pré-cúneo e giro do cíngulo esquerdos, com extensão ao istmo do corpo caloso. A análise das características de imagem convencional, em conjunto com os métodos funcionais, favorece a possibilidade de lesão tumefativa de substrato desmielinizante (desmielinização pseudotumoral com padrão infiltrativo) como principal diagnóstico diferencial.
+
+Lesão expansiva com hipossinal em T1 e hipersinal em T2, acometendo a substância branca do centro semioval e a região subcortical perirrolândica, do lóbulo parietal superior e pré-cúneo esquerdos, bem como o giro do cíngulo homolateral com extensão ao istmo do corpo caloso. A lesão mede cerca de 5,6 x 4,1 x 3,8 cm (L x AP x T) e exibe impregnação periférica e descontínua ao meio de contraste paramagnético, além de restrição à difusão nas áreas de impregnação, com área de hipersinal em T2/FLAIR adjacente que pode corresponder à edema vasogênico. Não há evidente extensão da lesão para o interior do ventrículo lateral esquerdo, assim como não há sinais de disseminação ependimária.
+
+O conjunto de achados descritos determina efeito expansivo local, caracterizado pelo discreto apagamento dos sulcos corticais regionais e pela compressão sobre o corpo do ventrículo lateral esquerdo. Não há desvio das estruturas centromedianas ou sinais de herniações parenquimatosas. O efeito expansivo observado é desproporcional (menor) ao tamanho da lesão descrita.
+
+Após a injeção dinâmica do agente de contraste paramagnético para avaliação da microvasculatura, observa-se que os componentes lesionais não demonstram aumento da densidade capilar.
+
+As sequências de espectroscopia por ressonância magnética caracterizam pico de mioinositol (marcador de proliferação/reparação astrocitária), bem como discreta redução do pico de NAA, com inversão das relações colina/creatina (1.7) e colina/NAA (1.1), determinada pela elevação dos picos de colina, traduzindo o aumento local da atividade de membrana ou turnover celular. Nota-se ainda a presença do pico de lípides e lactato, marcadores de necrose / anaerobiose.
+
+OPINIÃO: Lesão expansiva / infiltrativa acometendo a substância branca das regiões perirrolândica, lóbulo parietal superior, centro semioval, pré-cúneo e giro do cíngulo esquerdos, com extensão ao istmo do corpo caloso. A análise das características de imagem convencional, em conjunto com os métodos funcionais, favorece a possibilidade de lesão tumefativa de substrato desmielinizante (desmielinização pseudotumoral com padrão infiltrativo) como principal diagnóstico diferencial.
+
+ESCLEROSE MÚLTIPLA
+
+Focos ovoides de hipersinal nas sequências T1SE/MTC, T2 e FLAIR localizados na substância branca periventricular e justacortical, alguns com orientação perpendicular ao tronco do corpo caloso, o que denota disseminação perivenular das lesões. Observam-se áreas de alteração de sinal semelhantes acometendo os pedúnculos cerebelares médios. Há acometimento da interface caloso-septal.
+
+Destaca-se foco de hipossinal na sequência T1 SE / MTC localizado na substância branca do centro semi-oval esquerdo, adjacente ao corpo dos ventriculo lateral homolateral, compatível com lesão irreversível (“black holes”).
+
+ID Múltiplos focos de alteração de sinal na substância branca dos hemisférios cerebrais e tronco encefálico, com características de sinal e distribuição compatíveis com substrato desmielinizante.
+
+As lesões com baixo sinal em T1 SE/MTC na substância branca periventricular são compatíveis com lesões irreversíveis ("blackholes").
+
+Não há lesões com atividade inflamatória aguda/ atividade inflamatória desmielinizante.
+
+Destacam-se dois diminutos focos com impregnação nodular pelo agente de contraste paramagnético, localizada na substância branca periventricular frontal esquerda e peritrigonal homolateral, denotando sinais de atividade inflamatória aguda.
+
+Múltiplos focos confluentes de hipersinal nas sequências T1 SE/MTC, T2 e FLAIR, localizados na substância branca dos centros semiovais, na interface calososseptal, periventricular, estendendo-se para os lobos temporais, e regiões justacorticais dos hemisférios cerebrais, alguns com orientação perpendicular ao tronco do corpo caloso, denotando a disseminação perivenular das lesões.
+
+ID Os focos de alteração de sinal descritos na substância branca dos hemisférios cerebrais têm características de sinal e distribuição compatíveis com substrato desmielinizante.
+
+Focos de hipersinal nas sequencias T1SE/MTC, T2 e FLAIR localizados na substância branca periventricular, inclusive ao redor do corno temporal do ventriculo lateral direito, e regiõessubcorticais dos hemisférios cerebrais, algumas com orientação perpendicular ao tronco do corpo caloso, denotando disseminação perivenular das lesões.
+
+Nota-se ainda lesão semelhante acometendo a porção posterior medula cervical, com extensão menor que um corpo vertebral, na topografia de C2.
+
+A sequência sagital FLAIR evidencia estriações com hipersinal na porção inferior do corpo caloso, compatível com comprometimento da interface caloso-septal.
+
+Destacam-se lesões focais ovóides na substância branca periventricular, adjacente ao corpo dos ventriculos laterais, com hipossinal na sequência T1 SE/MTC, compatíveis com lesõesirreversíveis (black holes).
+
+OPINIÃO: Os focos de alteração de sinal descritos nos compartimentos supra e infratentorial não são específicos, mas têm características de sinal e distribuição compatíveis com substratodesmielinizante.
+
+Destacam-se lesões focais ovóides na substância branca periventricular, adjacente ao corpo dos ventriculos laterais, com hipossinal na sequência T1 SE/MTC, compatíveis com lesõesirreversíveis (black holes).
+
+EM ATIVIDADE
+
+Observam-se três lesões com impregnação pelo gadolínio localizadas na substância branca periventricular adjacente ao corno frontal e ao átrio do ventrículo lateral direito e na substânciabranca subcortical frontal esquerda.
+
+OPINIÃO: As lesões com quebra de barreira hematoencefálica denotam atividade inflamatória da doença.
+
+Destacam-se múltiplas lesões com impregnação anelar e anelar incompleta pelo agente de contraste, denotando atividade inflamatória aguda.
+
+NMO
+
+O nervo óptico esquerdo apresenta sinal hiperintenso em T2 ao longo de toda sua extensão com impregnação pelo agente contraste paramagnético desde a cabeça do nervo óptico até o quiasma. Nota-se ainda a alteração focal do sinal do quiasma em T2/FLAIR.
+
+OPINIÃO: Sinais de extensa neurite óptica à esquerda. A possibilidade de comprometimento desmielinizante deve ser considerada, particularmente no contexto da NMO.
+
+Lesão de aspecto tumefativo caracterizada por hipossinal em T1 e hipersinal em T2/FLAIR, localizada na substância branca do centro semioval direito e subcortical da região perirrolândica homolateral. Destaca-se área de restrição à livre movimentação das moléculas de água no aspecto medial da lesão supradescrita. A lesão mede cerca de 4,2 x 3,1 x 2,6 cm (AP X LL X CC) nos seus maiores eixos e apresenta impregnação puntiforme pelo gadolínio com padrão de distribuição perivenular.
+
+O conjunto de achados descritos determina mínimo efeito expansivo local, caracterizado pelo discreto apagamento dos sulcos corticais regionais e compressão do corpo do ventrículo lateral direito.
+
+ID: Lesão de aspecto tumefativo localizada na substância branca do hemisfério cerebral direito, com padrão de impregnação puntiforme com distribuição perivenular. A análise evolutiva, considerando a ocorrência prévia de mielite longitudinalmente extensa, permite incluir entre os diferenciais a possibilidade de desmielinização cerebral tumefativa no contexto da neuromielite óptica.

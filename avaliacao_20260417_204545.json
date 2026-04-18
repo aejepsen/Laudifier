@@ -1,0 +1,193 @@
+{
+  "timestamp": "2026-04-17T23:45:45.629749+00:00",
+  "backend_url": "https://laudifier-production-backend.wonderfulsand-193c30c5.brazilsouth.azurecontainerapps.io",
+  "qdrant_points": 1683,
+  "total_queries": 25,
+  "rag_threshold": 0.6,
+  "resultados": [
+    {
+      "query": "TC abdome superior com foco hepático, paciente 55 anos",
+      "especialidade": "radiologia",
+      "desc": "TC fígado",
+      "rag_score_local": 0.874,
+      "rag_hit_local": true
+    },
+    {
+      "query": "tomografia de tórax com nódulo pulmonar",
+      "especialidade": "radiologia",
+      "desc": "TC tórax nódulo",
+      "rag_score_local": 0.886,
+      "rag_hit_local": true
+    },
+    {
+      "query": "TC crânio sem contraste, cefaleia intensa",
+      "especialidade": "radiologia",
+      "desc": "TC crânio",
+      "rag_score_local": 0.866,
+      "rag_hit_local": true
+    },
+    {
+      "query": "tomografia coluna lombar, dor radicular L5",
+      "especialidade": "radiologia",
+      "desc": "TC coluna lombar",
+      "rag_score_local": 0.891,
+      "rag_hit_local": true
+    },
+    {
+      "query": "TC de rins e vias urinárias, suspeita de cálculo",
+      "especialidade": "radiologia",
+      "desc": "TC rins",
+      "rag_score_local": 0.872,
+      "rag_hit_local": true
+    },
+    {
+      "query": "ressonância magnética de encéfalo com contraste",
+      "especialidade": "radiologia",
+      "desc": "RM encéfalo",
+      "rag_score_local": 0.876,
+      "rag_hit_local": true
+    },
+    {
+      "query": "RM coluna cervical, mielopatia",
+      "especialidade": "radiologia",
+      "desc": "RM coluna cervical",
+      "rag_score_local": 0.872,
+      "rag_hit_local": true
+    },
+    {
+      "query": "ressonância de joelho direito, suspeita de lesão meniscal",
+      "especialidade": "radiologia",
+      "desc": "RM joelho",
+      "rag_score_local": 0.879,
+      "rag_hit_local": true
+    },
+    {
+      "query": "RM de mama bilateral com gadolínio",
+      "especialidade": "radiologia",
+      "desc": "RM mama",
+      "rag_score_local": 0.88,
+      "rag_hit_local": true
+    },
+    {
+      "query": "radiografia de tórax PA e perfil",
+      "especialidade": "radiologia",
+      "desc": "RX tórax",
+      "rag_score_local": 0.88,
+      "rag_hit_local": true
+    },
+    {
+      "query": "raio-x de coluna lombar",
+      "especialidade": "radiologia",
+      "desc": "RX coluna",
+      "rag_score_local": 0.879,
+      "rag_hit_local": true
+    },
+    {
+      "query": "ultrassonografia de abdome total",
+      "especialidade": "radiologia",
+      "desc": "US abdome",
+      "rag_score_local": 0.885,
+      "rag_hit_local": true
+    },
+    {
+      "query": "ultrassom pélvico feminino transvaginal",
+      "especialidade": "radiologia",
+      "desc": "US pelve",
+      "rag_score_local": 0.886,
+      "rag_hit_local": true
+    },
+    {
+      "query": "ultrassonografia de tireoide com doppler",
+      "especialidade": "radiologia",
+      "desc": "US tireoide",
+      "rag_score_local": 0.903,
+      "rag_hit_local": true
+    },
+    {
+      "query": "ultrassonografia obstétrica morfológica 20 semanas",
+      "especialidade": "radiologia",
+      "desc": "US obstétrica",
+      "rag_score_local": 0.896,
+      "rag_hit_local": true
+    },
+    {
+      "query": "mamografia bilateral, rastreamento",
+      "especialidade": "radiologia",
+      "desc": "Mamografia",
+      "rag_score_local": 0.916,
+      "rag_hit_local": true
+    },
+    {
+      "query": "ecocardiograma transtorácico com doppler",
+      "especialidade": "cardiologia",
+      "desc": "Ecocardiograma",
+      "rag_score_local": 0.88,
+      "rag_hit_local": true
+    },
+    {
+      "query": "teste ergométrico máximo",
+      "especialidade": "cardiologia",
+      "desc": "Teste ergométrico",
+      "rag_score_local": 0.864,
+      "rag_hit_local": true
+    },
+    {
+      "query": "cintilografia óssea total com tecnécio",
+      "especialidade": "medicina_nuclear",
+      "desc": "Cintilografia óssea",
+      "rag_score_local": 0.875,
+      "rag_hit_local": true
+    },
+    {
+      "query": "PET-CT oncológico com FDG",
+      "especialidade": "medicina_nuclear",
+      "desc": "PET-CT",
+      "rag_score_local": 0.873,
+      "rag_hit_local": true
+    },
+    {
+      "query": "biópsia hepática percutânea",
+      "especialidade": "patologia",
+      "desc": "Biópsia fígado",
+      "rag_score_local": 0.88,
+      "rag_hit_local": true
+    },
+    {
+      "query": "biópsia de mama guiada por ultrassom",
+      "especialidade": "patologia",
+      "desc": "Biópsia mama",
+      "rag_score_local": 0.887,
+      "rag_hit_local": true
+    },
+    {
+      "query": "biópsia de próstata transretal 12 fragmentos",
+      "especialidade": "patologia",
+      "desc": "Biópsia próstata",
+      "rag_score_local": 0.877,
+      "rag_hit_local": true
+    },
+    {
+      "query": "endoscopia digestiva alta com biópsia gástrica",
+      "especialidade": "gastroenterologia",
+      "desc": "EDA",
+      "rag_score_local": 0.89,
+      "rag_hit_local": true
+    },
+    {
+      "query": "colonoscopia total com polipectomia",
+      "especialidade": "gastroenterologia",
+      "desc": "Colonoscopia",
+      "rag_score_local": 0.879,
+      "rag_hit_local": true
+    }
+  ],
+  "agregado": {
+    "rag_hit_rate_api": 0.0,
+    "rag_hit_rate_local": 1.0,
+    "campos_faltando_media": 0.0,
+    "ttfb_media_s": 0.0,
+    "total_s_media": 0.0,
+    "judge_geral_media": 0.0,
+    "erros_count": 0
+  }
+}

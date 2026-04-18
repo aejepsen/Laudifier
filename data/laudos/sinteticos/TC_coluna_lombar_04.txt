@@ -1,0 +1,102 @@
+=== TC coluna lombar — Variante 4 ===
+Especialidade: radiologia
+Cenário: espondilólise bilateral em L5
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [__/__/____]  
+**Sexo:** [M / F]  
+**Registro Hospitalar:** [_____________]  
+**Data do Exame:** [__/__/____]  
+**Horário:** [____:____]  
+
+**Modalidade:** Tomografia Computadorizada de Coluna Lombar  
+**Requisição Clínica:** [CLÍNICO SOLICITANTE]  
+**Equipamento:** Tomógrafo Multislice 64 canais  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizada tomografia computadorizada da coluna vertebral lombar com aquisição de cortes axiais contíguo de 1mm de espessura, desde a plataforma de L4 até o sacro, sem injeção de contraste iodado endovenoso. Foram obtidas reconstruções multiplanares (coronal, sagital e 3D) para melhor avaliação das estruturas ósseas. Dose de radiação dentro dos parâmetros de otimização ALARA.
+
+---
+
+## ACHADOS
+
+### Alinhamento e Morfologia Vertebral
+Alinhamento sagital adequado da coluna lombar. Altura dos corpos vertebrais preservada em todos os níveis estudados. Sem espondilodisci (deslocamento anterior dos corpos vertebrais).
+
+### Achados Principais
+
+**Espondilólise bilateral em L5:**
+- Visualizam-se solução de continuidade bilateral nas porções istmo-articulares de L5, melhor caracterizadas nas reconstruções multiplanares e nas reformatações 3D
+- As fraturas apresentam aspecto crônico, com bordos suavizados
+- Não há sinais de fratura aguda (ausência de edema ósseo perilesional)
+- Confirmação bilateral e simétrica, sugestivo de lesão congênita ou de estresse crônico
+
+### Corpos Vertebrais
+Sem alterações degenerativas significativas em L5. L4 e L3 sem particularidades. L1 e L2 dentro dos limites normais.
+
+### Discos Intervertebrais
+- **L5-S1:** Disco com altura preservada, sem sinais de degeneração discal significativa. Sem hérnias discais.
+- **L4-L5:** Disco íntegro, sem alterações relevantes.
+- **L3-L4, L2-L3, L1-L2:** Sem particularidades.
+
+### Espaço Vertebral
+Sem evidências de estenose vertebral ou foraminais significativas. Sacos durais preservados em todos os níveis.
+
+### Facetas Articulares
+Articulações facetárias com cartilagem articular bem preservada. Sem artroses significativas.
+
+### Ligamentos
+Ligamentos longitudinais anterior e posterior íntegros. Ligamento amarelo sem espessamento patológico.
+
+### Medula Espinhal
+Não visualizada alteração estrutural da medula nos limites do estudo.
+
+### Estruturas Adjacentes
+Musculatura paravertebral simétrica. Sem massas de partes moles. Gordura epidural sem alterações relevantes.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Espondilólise bilateral em L5** – Com características radiológicas sugestivas de lesão crônica/constitucional
+2. Coluna lombar remanescente dentro dos limites normais
+3. Sem espondilólise em outros níveis
+4. Ausência de espondilolístese associada
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Tomografia computadorizada confirma **espondilólise bilateral em L5** sem evidências de instabilidade vertebral ou deslocamento (espondilolístese) no momento. Estruturas discais e foraminas neurais íntegras. Não há sinais de compressão neurológica.
+
+**Recomendações:**
+- Correlação clínica com sintomatologia do paciente
+- Avaliação de ressonância magnética de coluna lombar se houver sintomas neurológicos ou para melhor caracterização de possível afetamento de estruturas moles
+- Seguimento com médico assistente para orientação conservadora ou intervencionista, conforme indicação clínica
+- Radiografias simples de seguimento se necessário acompanhamento evolutivo
+
+---
+
+## RESPONSÁVEL PELO LAUDO
+
+**Médico Radiologista:** [NOME COMPLETO]  
+**Especialista em:** Radiologia e Diagnóstico por Imagem  
+**Registro no CRM:** [UF - Nº _________]  
+**Registro na ACRB:** [Nº _________]  
+
+**Data:** [__/__/____]  
+**Assinatura:** ________________________
+
+---
+
+*Laudo emitido de acordo com as normas técnicas do Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR) e regulamentações da ANVISA.*

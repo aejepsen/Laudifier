@@ -1,0 +1,100 @@
+=== TC torax — Variante 1 ===
+Especialidade: radiologia
+Cenário: pulmões sem alterações, sem derrame pleural
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA DE TÓRAX
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [XX] anos  
+**Registro Hospitalar:** [Nº]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+**Indicação Clínica:** [DESCRIÇÃO DA INDICAÇÃO]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Tomografia computadorizada de alta definição de tórax realizada em equipamento de 64 colunas de detectores, com aquisição de cortes axiais contínuos de 1,0 mm de espessura, do ápice até a base pulmonar. Foram adquiridas reconstruções sagitais e coronais multiplanares. Administração de contraste iodado não-iônico intravenoso (100 mL, concentração de 370 mg/mL de iodo) em bolus, com sincronização arterial pulmonar. Parâmetros técnicos: mAs de 200, kVp de 120, índice de dose de volume (CTDI vol) 7,2 mGy.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **Estruturas Ósseas:**
+Coluna torácica com corpos vertebrais íntegros, sem sinais de fratura, colapso ou lesão osteolítica. Arcos costais simétricos e sem solução de continuidade. Escápulas e úmeros proximais sem anormalidades. Alinhamento sagital adequado da coluna.
+
+### **Pulmões:**
+Ambos os pulmões apresentam padrão parenquimatoso homogêneo, sem opacidades nodulares, consolidativas ou em vidro fosco. Não são visualizadas imagens sugestivas de nódulos pulmonares. A árvore traqueobrônquica é pérvia e sem estenoses. Brônquios segmentares e subsegmentares pérvios bilateralmente. Não há evidência de bronquiectasia, aprisionamento aéreo ou enfisema.
+
+Declividade pulmonar adequada em ambos os lados, com volume pulmonar normal.
+
+### **Mediastino:**
+Mediastino de dimensões normais. Não há alargamento mediastinal, desvio do eixo ou deslocamento estrutural. Tráquea pérvias em toda sua extensão, com diâmetro dentro dos limites da normalidade (aproximadamente 18 mm).
+
+**Coração e Grandes Vasos:**
+Silhueta cardíaca com dimensões normais (índice cardiotorácico < 50%). Câmaras cardíacas não dilatadas. Aorta torácica com calibre normal (diâmetro máximo da aorta ascendente: 35 mm). Artérias pulmonares direita e esquerda com calibre normal após realce homogêneo com contraste, sem evidência de tromboembolismo pulmonar.
+
+### **Pleura:**
+Folhetos pleurais com espessura normal, sem irregularidades ou nódulos. **Não há derrame pleural bilateral ou unilateral**. Espaços costofrênicos livres e afiados bilateralmente.
+
+### **Diafragma:**
+Cúpulas diafragmáticas elevadas simétrica e regularmente, com contorno liso e contínuo. Não há sinais de paresia ou herniação diafragmática.
+
+### **Paredes Torácicas:**
+Musculatura da parede torácica simétrica, sem atrofias focais. Não há lesões em partes moles, cicatrizes cirúrgicas ou implantes metálicos.
+
+### **Estruturas Abdominais Superiores:**
+Ápices hepáticos visualizados apresentam densidade normal. Não há lesões evidentes no segmento superior dos órgãos abdominais visualizados.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Tomografia computadorizada de tórax **DENTRO DOS LIMITES DA NORMALIDADE**.
+
+- Pulmões com padrão parenquimatoso normal, bilateralmente homogêneo
+- Ausência de nódulos, consolidações ou opacidades
+- Árvore traqueobrônquica pérvias
+- Mediastino normal
+- Coração e grandes vasos com dimensões normais
+- **Sem derrame pleural**
+- Pleura íntegra
+- Diafragma íntegro
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+O presente exame de tomografia computadorizada de tórax não evidencia alterações significativas. Os pulmões apresentam padrão normal, sem sinais de doença parenquimatosa, inflamatória, infecciosa ou neoplásica. Não há derrame pleural ou outras anormalidades na avaliação do espaço pleural. Mediastino, hilares e estruturas vasculares sem achados relevantes.
+
+**Recomendações:**
+- Seguimento clínico conforme indicação médica
+- Retorno ao radiologista em caso de novos sintomas respiratórios
+- Tomografia de controle conforme necessidade clínica
+
+---
+
+## ASSINATURA E RESPONSABILIDADE
+
+**Médico Radiologista Responsável:** ________________________________
+
+**Nome:** [NOME COMPLETO]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**CRM:** [NÚMERO] UF: [UF]  
+**RQE:** [NÚMERO]  
+
+**Data:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]
+
+---
+
+*Este laudo foi elaborado conforme prot

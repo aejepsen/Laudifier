@@ -1,0 +1,65 @@
+Mediastino
+TIMO
+
+Timo com dimensões próprias para a faixa etária.
+
+Timo aumentado, de contornos lobulados, com ___ cm de espessura.
+
+
+LINFONODOMEGALIA
+
+Linfonodomegalia com realce heterogêneo pelo meio de contraste iodado delimitando áreas de necrose/liquefação, localizada nas cadeias paratraqueal inferior/subcarinal., medindo cerca de <> x <> x <> cm.
+
+Linfonodomegalias nas cadeias paratraqueal inferior direita e subcarinal, medindo respectivamente 1,5 cm e 1,2 cm nos seus menores diâmetros.
+
+Calcificações em linfonodos mediastinais relacionadas com lesões residuais, verificando-se também em linfonodos no hilo pulmonar esquerdo.
+
+Linfonodos aumentados de volume em todas as cadeias mediastinais, inclusive contralaterais, verificando-se também comprometimento da cadeia supraclavicular direita, alguns com componentes de baixa densidade, relacionados a necrose.
+
+Proeminência numérica de linfonodos mediastinais e hilares, com algumas linfonodomegalias, a maior em situação subcarinal, medindo cerca de 1,3 cm menor diâmetro.
+
+
+LINFOMA
+
+Múltiplos nódulos e massas de contornos irregulares, de distribuição predominantemente peribrônquica e com broncogramas aéreos de permeio, esparsos pelos campos pulmonares, por vezes confluentes formando consolidações.
+
+Linfonomegaliamediastinal nas regiões paratraqueais inferior/superior/subaórtica, medindo até <> cm no menor eixo. Linfonodos paratraqueais superiores proeminentes, sem configurar linfonodomegalias. Destaca-se ainda aumento das linfonodomegalias nas cadeias torácicas internas, medindo até <> cm à direita, bem como pericardiofrênicos, medindo até <> cm no maior eixo.
+
+
+TU MEDIASTINO ANTERIOR
+
+Formação expansiva e infiltrativa de contornos lobulados e realce heterogêneo pelo meio de contraste iodado, delimitando áreas centrais hipodensas que podem estar relacionadas a necrose /liquefação, medindo cerca de <> x <> x <> cm, localizada no mediastino anterior. Anteriormente, a lesão apresenta contato com a parede torácica, invadindo partes moles, ao nível da porção superior do esterno, sem evidências de lesões ósseas adjacentes. Apresenta sinais de compressão extrínseca do tronco da pulmonar, veia pulmonar superior esquerda e na veia cava superior e obliteração total da veia inominada esquerda. Tal massa não apresenta planos de clivagem evidentes com as estruturas vasculares adjacentes. Lateralmente, a lesão comprime o pulmão esquerdo, com má definição de seus contornos e se associa a opacidades em vidro fosco no parênquima pulmonar adjacente. Superiormente, estende-se até o plano das clavículas e, inferiormente, até o plano das veias pulmonares. Pequena elevação do diafragma esquerdo, por possível envolvimento do nervo frênico. Tais achados não são específicos, mas, dentre os diagnósticos diferenciais, considerar as possibilidades de tumores da linhagem germinativa e doença linfoproliferativa.
+
+
+NEO DE ESOFAGO
+
+Espessamento parietal concêntrico e estenosante, com realce do esôfago distal associado a dilatação à montante e formação de nível hidroaéreo.
+
+Espessamento parietal concêntrico, vegetante, determinando redução luminal dos terços superior e médio do esôfago, sem e estase líquida à montante. Nota-se perda dos planos gordurosos no terço superior e médio e possível invasão das estruturas adjacentes no terço médio caracterizado por presença de material com coeficientes de atenuação de partes moles e áreas hipoatenuantes de permeio, que pode corresponder a necrose/liquefação na região subcarinal. Não há sinais inequívocos de acometimento aórtico e da arvore traqueobrônquica.
+
+
+MEDIASTINITE FIBROSANTE
+
+A ATC pulmonar revela uma lesão mal definida, hipodensa e sem contraste, de densidade de partes moles com focos de calcificação, envolvendo hilos bilaterais (direito> esquerdo) e mediastino médio. Há revestimento da artéria pulmonar direita com corte luminal completo. Observa-se não-opacificação completa das artérias pulmonares segmentares e lobares direitas. A veia pulmonar superior direita foi revestida com oclusão luminal completa. Do lado esquerdo, observa-se estenose severa de segmento curto da artéria pulmonar lobar inferior. Há recuo posterior na VCS. Os pulmões bilaterais apresentam áreas irregulares de consolidação parenquimatosa e bandas atelectásicas.
+
+
+CORAÇÃO
+
+Calcificações grosseiras, homogêneas, semi-circunferencial ao longo miocárdio médio do ventrículo esquerdo, inclusive no no septo interventricular.
+
+
+CISTO TÍMICO/PLEUROPERICÁRDICO
+
+Formação cística no mediastino anterior, em topografia tímica, estendendo-se ao longo do plano pericárdico, predominando à esquerda da linha média, medindo aproximadamente 12,8 cm no maior diâmetro, podendo corresponder a cisto tímico, não se afastando cisto pleuropericárdico.
+
+
+CISTO MEDIASTINAL CONGÊNITO (BRONCOGÊNICO/DUPLICAÇÃO ESOFÁGICA)
+
+Identifica-se no mediastino formação ovalada com densidade de partes moles, guardando relação com o esôfago, porém não alterando o contorno interno deste órgão, medindo cm no maior eixo transverso, sugerindo a hipótese mais provável de cisto mediastinal congênito (broncogênico / duplicação esofágica).
+
+
+CISTO PERICÁRDICO
+
+Imagem cística junto ao ângulo cardiofrênico direito medindo pouco mais de centímetros no maior eixo transverso, com densidade semelhante a da água, sem sofrer impregnação pelo contraste iodado, sugerindo cisto pericárdico.
+
+

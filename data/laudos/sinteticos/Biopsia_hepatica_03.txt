@@ -1,0 +1,113 @@
+=== Biopsia hepatica — Variante 3 ===
+Especialidade: patologia
+Cenário: biópsia hepática — cirrose hepática, sem displasia
+Fonte: sintético — gerado por Claude
+
+# LAUDO ANATOMOPATOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Tipo de Exame:** Biopsia Hepática  
+**Especialidade:** Patologia/Anatomia Patológica  
+**Data da Coleta:** [DD/MM/AAAA]  
+**Data do Recebimento:** [DD/MM/AAAA]  
+**Data do Laudo:** [DD/MM/AAAA]  
+**Número do Processo:** [XXXXX/AAAA]
+
+---
+
+## DADOS DO PACIENTE
+
+| Campo | Informação |
+|-------|-----------|
+| **Nome Completo** | [NOME DO PACIENTE] |
+| **Data de Nascimento** | [DD/MM/AAAA] |
+| **Idade** | [XX anos] |
+| **Sexo** | [M / F] |
+| **RG/CPF** | [XXXXXXXXX-XX] |
+| **Registro Hospitalar** | [XXXXXXX] |
+| **Clínico Solicitante** | [Dr. ________________] Especialidade: Hepatologia/Gastroenterologia |
+
+---
+
+## INFORMAÇÃO CLÍNICA RESUMIDA
+
+Paciente encaminhado para avaliação histopatológica de fragmento hepático. Investigação de doença hepática crônica com suspeita clínica de cirrose hepática. Encaminhado complementar diagnóstico e estadiamento da fibrose.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Biopsia hepática percutânea obtida por punção com agulha de 16-18G (técnica de Menghini modificada ou agulha automática). O fragmento foi fixado em formol tamponado a 10%, processado por técnica histológica de rotina e incluído em parafina. Cortes histológicos com 4 micrômetros foram submetidos às seguintes colorações:
+
+- **HE (Hematoxilina e Eosina)** – avaliação geral de arquitetura e alterações parenquimais
+- **Tricrômio de Masson** – visualização de fibras colágenas e fibrose
+- **Reticulina de Gordon** – avaliação da arquitetura portal
+- **PAS (Ácido Periódico de Schiff)** – depósitos de glicogênio e inclusões
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Características Macroscópicas:
+- Fragmento de tecido hepático medindo aproximadamente 1,2 cm de comprimento e 0,2 cm de diâmetro
+- Textura firme
+- Coloração acastanhada, sem áreas de hemorragia ou necrose
+
+### Características Microscópicas:
+
+**Arquitetura Hepática:**
+- Perda completa da arquitetura normal do parênquima hepático
+- Substituição da estrutura lobular preservada por fibrose extensa
+- Presença de septos fibrosos espessos, conectando áreas de necrose e fibrose
+- Formação de nódulos de regeneração cirrotogênicos, circundados por tecido fibroso denso
+
+**Fibrose:**
+- **Estadiamento:** Fibrose F4 (cirrose hepática completa)
+- Septos fibrosos espessos e irregulares, com distribuição característica de cirrose
+- Colapso da arquitetura parenquimal com integração de nódulos regenerativos
+- Preenchimento do espaço portal por colágeno fibrilar denso
+
+**Componente Inflamatório:**
+- Inflamação portal crônica de intensidade LEVE a MODERADA
+- Infiltrado linfomonocitário intersticial discreto
+- Ausência de inflamação lobar ativa significativa
+- Raros focos de necrose hepatocelular
+
+**Alterações Hepatocelulares:**
+- Hepatócitos apresentando pleomorfismo nuclear mínimo
+- Ausência de atipia citológica acentuada
+- Esteatose macrovesicular focal leve em hepatócitos periféricos
+- Sem depósitos de ferro significativos
+
+**Avaliação de Displasia:**
+- **Displasia Hepatocelular:** AUSENTE
+- Não se observam alterações displásicas de baixo ou alto grau
+- Nuclei de hepatócitos sem sobreposição excessiva ou hipercromasia acentuada
+- Sem aumento significativo da relação núcleo-citoplasma
+
+**Estruturas Porta e Lobar:**
+- Espaços porta com expansão fibrótica acentuada
+- Ausência de ductos biliares funcionais em algumas áreas portais
+- Veia hepática obliterada ou pouco identificável
+- Sem evidência de hipertensão portal aguda (ausência de esplenomegalia observável no fragmento)
+
+**Outros Achados:**
+- Ausência de inclusões virais ou parasitárias
+- Ausência de depósitos de hemossiderina ou ceruloplasmina específicos
+- Ausência de corpos de Mallory-Denk evidentes
+- Padrão de fibrose compatível com etiologia alcoólica, viral (HCV/HBV) ou criptogênica (conforme contexto clínico)
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Biopsia hepática revelando:
+
+1. **Cirrose hepática estabelecida** – Estadio F4 (METAVIR)
+2. **Ausência de displasia hepatocelular** – sem alterações displásicas de baixo ou alto grau
+3. **Inflamação portal crônica** – intensidade leve a moderada
+4. **Arquitetura desorganizada** – com nódulos regenerativos e septos fibrosos espessos
+5. **Compatível com cirrose de diferentes etiologias** – avaliação sorológica e clínica complementar re

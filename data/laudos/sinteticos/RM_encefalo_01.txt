@@ -1,0 +1,114 @@
+=== RM encefalo — Variante 1 ===
+Especialidade: radiologia
+Cenário: encéfalo sem alterações de sinal ou morfologia
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA DE ENCÉFALO
+
+---
+
+## DADOS DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA] | **Idade:** [XX] anos | **Sexo:** [M/F]  
+**Prontuário:** [NÚMERO DO PRONTUÁRIO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+
+---
+
+## REQUISIÇÃO CLÍNICA
+
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+**Indicação Clínica:** [INDICAÇÃO CLÍNICA DO EXAME]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Ressonância magnética de encéfalo realizada em equipamento 3.0 Tesla, com sequências de pulso convencionais incluindo:
+
+- **Sequências ponderadas em T1:** Sagital, axial e coronal
+- **Sequências ponderadas em T2:** Axial e coronal
+- **Sequências FLAIR:** Axial
+- **Sequências de difusão (DWI):** Axial com mapa ADC
+- **Angiografia por RM (ARM):** Artérias intracranianas
+- **Venografia por RM (VRM):** Seios venosos intracranianos
+
+Espessura de corte: 5mm com espaçamento de 1mm entre cortes.  
+Campo de visão adequado com boa relação sinal-ruído.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **Parênquima Encefálico**
+
+O parênquima encefálico apresenta sinal normal nas sequências ponderadas em T1 e T2. Não são identificadas alterações focais de sinal que sugiram lesões isquêmicas, hemorrágicas, expansivas ou inflamatórias. A substância branca e cinzenta apresentam diferenciação adequada em todos os níveis.
+
+### **Ventrículos e Espaços Subaracnóideos**
+
+Os ventrículos laterais, terceiro e quarto ventrículos encontram-se normais em tamanho e forma, sem sinais de hidrocefalia. O sistema ventricular apresenta circulação liquórica preservada. Os espaços subaracnóideos encontram-se pérvios e sem sinais de espessamento meníngeo ou acúmulo de líquor anormal.
+
+### **Estruturas da Linha Média**
+
+O corpo caloso apresenta aspecto normal com espessura e morfologia adequadas. A glândula pineal não apresenta calcificação relevante e não há alterações de sinal. A hipófise apresenta dimensões normais (altura aproximada de [X] mm), com intensidade de sinal normal e sem imagem expansiva associada.
+
+### **Tronco Encefálico e Cerebelo**
+
+O tronco encefálico apresenta sinal e morfologia normais em todas as sequências. O cerebelo exibe volume adequado sem atrofia ou lesões focais. Os pedúnculos cerebelares mantêm relações anatômicas normais.
+
+### **Estruturas Profundas**
+
+Os gânglios da base, tálamo e estruturas temporais internas apresentam sinal normal, sem alterações de densidade ou morfologia.
+
+### **Angiorressonância (ARM) - Artérias Intracranianas**
+
+As artérias cerebrais anterior, média e posterior bilateralmente apresentam calibre normal e fluxo preservado, sem estenose, oclusão ou aneurismas detectáveis. Artérias carótidas internas com trajeto e calibre normais. Artéria basilar pérvio com fluxo normal.
+
+### **Venografia (VRM) - Seios Venosos**
+
+Os seios venosos durais apresentam permeabilidade normal bilateralmente, incluindo seios sagitais superior e inferior, seios cavernosos, seios transversos e seios sigmóideos. Não há sinais de trombose venosa.
+
+### **Forame Magno e Região Cervical Alta**
+
+Forame magno pérvio sem compressão medular. Junção craniocervical sem alterações estruturais relevantes.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Ressonância magnética de encéfalo **sem alterações de sinal ou morfologia** que sugiram patologia aguda ou crônica relevante. Parênquima encefálico, ventrículos, espaços subaracnóideos e estruturas vasculares normais.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+1. **Conclusão:** Exame normal, sem achados patológicos significativos no momento.
+
+2. **Recomendações:**
+   - Seguimento conforme indicação clínica
+   - Correlação com apresentação clínica do paciente
+   - Ressonância de seguimento conforme orientação clínica, se necessário
+
+---
+
+## OBSERVAÇÕES
+
+Exame de qualidade técnica adequada. Não há limitações significativas que prejudiquem a análise.
+
+---
+
+## ASSINATURA
+
+**Dr(a). [NOME COMPLETO DO RADIOLOGISTA]**  
+**CRM:** [NÚMERO DO CRM]/[UF]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**RQE:** [NÚMERO DA RQE]  
+
+**Data:** [DD/MM/AAAA]  
+**Assinatura:** ___________________________
+
+---
+
+*Este laudo foi gerado conforme padrões de qualidade e terminologia reconhecida pela Sociedade Brasileira de Radiologia (SBR) e normas de arquivos médicos.*

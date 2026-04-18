@@ -1,0 +1,890 @@
+[
+  {
+    "url": "https://www.compendioradiologia.com",
+    "slug": "home",
+    "file": "data/raw/home.txt",
+    "words": 51
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico",
+    "slug": "acervo-did_C3_A1tico",
+    "file": "data/raw/acervo-did_C3_A1tico.txt",
+    "words": 25
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/contraste",
+    "slug": "acervo-did_C3_A1tico__contraste",
+    "file": "data/raw/acervo-did_C3_A1tico__contraste.txt",
+    "words": 406
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/corpo",
+    "slug": "acervo-did_C3_A1tico__corpo",
+    "file": "data/raw/acervo-did_C3_A1tico__corpo.txt",
+    "words": 2079
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/ginob",
+    "slug": "acervo-did_C3_A1tico__ginob",
+    "file": "data/raw/acervo-did_C3_A1tico__ginob.txt",
+    "words": 3588
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/mama",
+    "slug": "acervo-did_C3_A1tico__mama",
+    "file": "data/raw/acervo-did_C3_A1tico__mama.txt",
+    "words": 39
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/msk",
+    "slug": "acervo-did_C3_A1tico__msk",
+    "file": "data/raw/acervo-did_C3_A1tico__msk.txt",
+    "words": 2924
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/neuro-e-cp",
+    "slug": "acervo-did_C3_A1tico__neuro-e-cp",
+    "file": "data/raw/acervo-did_C3_A1tico__neuro-e-cp.txt",
+    "words": 184
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/pediatria",
+    "slug": "acervo-did_C3_A1tico__pediatria",
+    "file": "data/raw/acervo-did_C3_A1tico__pediatria.txt",
+    "words": 17
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/pediatria/endocrinas",
+    "slug": "acervo-did_C3_A1tico__pediatria__endocrinas",
+    "file": "data/raw/acervo-did_C3_A1tico__pediatria__endocrinas.txt",
+    "words": 48
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/pediatria/msk",
+    "slug": "acervo-did_C3_A1tico__pediatria__msk",
+    "file": "data/raw/acervo-did_C3_A1tico__pediatria__msk.txt",
+    "words": 680
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/pediatria/neuro",
+    "slug": "acervo-did_C3_A1tico__pediatria__neuro",
+    "file": "data/raw/acervo-did_C3_A1tico__pediatria__neuro.txt",
+    "words": 243
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/pediatria/tgi",
+    "slug": "acervo-did_C3_A1tico__pediatria__tgi",
+    "file": "data/raw/acervo-did_C3_A1tico__pediatria__tgi.txt",
+    "words": 577
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/pediatria/tgu",
+    "slug": "acervo-did_C3_A1tico__pediatria__tgu",
+    "file": "data/raw/acervo-did_C3_A1tico__pediatria__tgu.txt",
+    "words": 894
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/pediatria/torax",
+    "slug": "acervo-did_C3_A1tico__pediatria__torax",
+    "file": "data/raw/acervo-did_C3_A1tico__pediatria__torax.txt",
+    "words": 524
+  },
+  {
+    "url": "https://www.compendioradiologia.com/acervo-did%C3%A1tico/vascular",
+    "slug": "acervo-did_C3_A1tico__vascular",
+    "file": "data/raw/acervo-did_C3_A1tico__vascular.txt",
+    "words": 703
+  },
+  {
+    "url": "https://www.compendioradiologia.com/calculadoras",
+    "slug": "calculadoras",
+    "file": "data/raw/calculadoras.txt",
+    "words": 62
+  },
+  {
+    "url": "https://www.compendioradiologia.com/diretrizes",
+    "slug": "diretrizes",
+    "file": "data/raw/diretrizes.txt",
+    "words": 17
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases",
+    "slug": "frases",
+    "file": "data/raw/frases.txt",
+    "words": 4011
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-1",
+    "slug": "frases-1",
+    "file": "data/raw/frases-1.txt",
+    "words": 18
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-1/mediastino",
+    "slug": "frases-1__mediastino",
+    "file": "data/raw/frases-1__mediastino.txt",
+    "words": 696
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-1/parede",
+    "slug": "frases-1__parede",
+    "file": "data/raw/frases-1__parede.txt",
+    "words": 306
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-1/parenquima",
+    "slug": "frases-1__parenquima",
+    "file": "data/raw/frases-1__parenquima.txt",
+    "words": 2884
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve",
+    "slug": "frases-abdome-e-pelve",
+    "file": "data/raw/frases-abdome-e-pelve.txt",
+    "words": 27
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/adrenal",
+    "slug": "frases-abdome-e-pelve__adrenal",
+    "file": "data/raw/frases-abdome-e-pelve__adrenal.txt",
+    "words": 602
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/alcas",
+    "slug": "frases-abdome-e-pelve__alcas",
+    "file": "data/raw/frases-abdome-e-pelve__alcas.txt",
+    "words": 4020
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/baco",
+    "slug": "frases-abdome-e-pelve__baco",
+    "file": "data/raw/frases-abdome-e-pelve__baco.txt",
+    "words": 230
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/bexiga",
+    "slug": "frases-abdome-e-pelve__bexiga",
+    "file": "data/raw/frases-abdome-e-pelve__bexiga.txt",
+    "words": 721
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/defeco",
+    "slug": "frases-abdome-e-pelve__defeco",
+    "file": "data/raw/frases-abdome-e-pelve__defeco.txt",
+    "words": 843
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/figado",
+    "slug": "frases-abdome-e-pelve__figado",
+    "file": "data/raw/frases-abdome-e-pelve__figado.txt",
+    "words": 3822
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/mesenterio",
+    "slug": "frases-abdome-e-pelve__mesenterio",
+    "file": "data/raw/frases-abdome-e-pelve__mesenterio.txt",
+    "words": 712
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/pancreas",
+    "slug": "frases-abdome-e-pelve__pancreas",
+    "file": "data/raw/frases-abdome-e-pelve__pancreas.txt",
+    "words": 2200
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/parede-abdominal",
+    "slug": "frases-abdome-e-pelve__parede-abdominal",
+    "file": "data/raw/frases-abdome-e-pelve__parede-abdominal.txt",
+    "words": 315
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/pelve-feminina",
+    "slug": "frases-abdome-e-pelve__pelve-feminina",
+    "file": "data/raw/frases-abdome-e-pelve__pelve-feminina.txt",
+    "words": 3305
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/pelve-masculina",
+    "slug": "frases-abdome-e-pelve__pelve-masculina",
+    "file": "data/raw/frases-abdome-e-pelve__pelve-masculina.txt",
+    "words": 1946
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/retroperitonio",
+    "slug": "frases-abdome-e-pelve__retroperitonio",
+    "file": "data/raw/frases-abdome-e-pelve__retroperitonio.txt",
+    "words": 352
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/rins",
+    "slug": "frases-abdome-e-pelve__rins",
+    "file": "data/raw/frases-abdome-e-pelve__rins.txt",
+    "words": 3036
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-abdome-e-pelve/vesicula-biliar-e-vias-biliares",
+    "slug": "frases-abdome-e-pelve__vesicula-biliar-e-vias-biliares",
+    "file": "data/raw/frases-abdome-e-pelve__vesicula-biliar-e-vias-biliares.txt",
+    "words": 1692
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-angio-corpo",
+    "slug": "frases-angio-corpo",
+    "file": "data/raw/frases-angio-corpo.txt",
+    "words": 5760
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco",
+    "slug": "frases-cabeca-e-pescoco",
+    "file": "data/raw/frases-cabeca-e-pescoco.txt",
+    "words": 22
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco/atm",
+    "slug": "frases-cabeca-e-pescoco__atm",
+    "file": "data/raw/frases-cabeca-e-pescoco__atm.txt",
+    "words": 199
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco/dental",
+    "slug": "frases-cabeca-e-pescoco__dental",
+    "file": "data/raw/frases-cabeca-e-pescoco__dental.txt",
+    "words": 1554
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco/faringe",
+    "slug": "frases-cabeca-e-pescoco__faringe",
+    "file": "data/raw/frases-cabeca-e-pescoco__faringe.txt",
+    "words": 4777
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco/gl",
+    "slug": "frases-cabeca-e-pescoco__gl",
+    "file": "data/raw/frases-cabeca-e-pescoco__gl.txt",
+    "words": 1384
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco/laringe-e-traqueia",
+    "slug": "frases-cabeca-e-pescoco__laringe-e-traqueia",
+    "file": "data/raw/frases-cabeca-e-pescoco__laringe-e-traqueia.txt",
+    "words": 841
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco/orbita",
+    "slug": "frases-cabeca-e-pescoco__orbita",
+    "file": "data/raw/frases-cabeca-e-pescoco__orbita.txt",
+    "words": 2360
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco/osso",
+    "slug": "frases-cabeca-e-pescoco__osso",
+    "file": "data/raw/frases-cabeca-e-pescoco__osso.txt",
+    "words": 268
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco/ouvido",
+    "slug": "frases-cabeca-e-pescoco__ouvido",
+    "file": "data/raw/frases-cabeca-e-pescoco__ouvido.txt",
+    "words": 5111
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco/partes-moles",
+    "slug": "frases-cabeca-e-pescoco__partes-moles",
+    "file": "data/raw/frases-cabeca-e-pescoco__partes-moles.txt",
+    "words": 2614
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco/seios",
+    "slug": "frases-cabeca-e-pescoco__seios",
+    "file": "data/raw/frases-cabeca-e-pescoco__seios.txt",
+    "words": 5028
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio",
+    "slug": "frases-cranio",
+    "file": "data/raw/frases-cranio.txt",
+    "words": 18
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/atrofia",
+    "slug": "frases-cranio__atrofia",
+    "file": "data/raw/frases-cranio__atrofia.txt",
+    "words": 2318
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/calota",
+    "slug": "frases-cranio__calota",
+    "file": "data/raw/frases-cranio__calota.txt",
+    "words": 373
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/congenito",
+    "slug": "frases-cranio__congenito",
+    "file": "data/raw/frases-cranio__congenito.txt",
+    "words": 1464
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/desmielinizante",
+    "slug": "frases-cranio__desmielinizante",
+    "file": "data/raw/frases-cranio__desmielinizante.txt",
+    "words": 1436
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/epilepsia",
+    "slug": "frases-cranio__epilepsia",
+    "file": "data/raw/frases-cranio__epilepsia.txt",
+    "words": 202
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/facomatose",
+    "slug": "frases-cranio__facomatose",
+    "file": "data/raw/frases-cranio__facomatose.txt",
+    "words": 795
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/hemorragia",
+    "slug": "frases-cranio__hemorragia",
+    "file": "data/raw/frases-cranio__hemorragia.txt",
+    "words": 1023
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/hipofise",
+    "slug": "frases-cranio__hipofise",
+    "file": "data/raw/frases-cranio__hipofise.txt",
+    "words": 1357
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/infeccao",
+    "slug": "frases-cranio__infeccao",
+    "file": "data/raw/frases-cranio__infeccao.txt",
+    "words": 3046
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/isquemia",
+    "slug": "frases-cranio__isquemia",
+    "file": "data/raw/frases-cranio__isquemia.txt",
+    "words": 2503
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/leucodistrofia",
+    "slug": "frases-cranio__leucodistrofia",
+    "file": "data/raw/frases-cranio__leucodistrofia.txt",
+    "words": 719
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/metabolica",
+    "slug": "frases-cranio__metabolica",
+    "file": "data/raw/frases-cranio__metabolica.txt",
+    "words": 1388
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/perinatal",
+    "slug": "frases-cranio__perinatal",
+    "file": "data/raw/frases-cranio__perinatal.txt",
+    "words": 1066
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/pos-operatorio",
+    "slug": "frases-cranio__pos-operatorio",
+    "file": "data/raw/frases-cranio__pos-operatorio.txt",
+    "words": 1570
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/sistema-ventricular",
+    "slug": "frases-cranio__sistema-ventricular",
+    "file": "data/raw/frases-cranio__sistema-ventricular.txt",
+    "words": 1011
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/trauma",
+    "slug": "frases-cranio__trauma",
+    "file": "data/raw/frases-cranio__trauma.txt",
+    "words": 1047
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/tumores",
+    "slug": "frases-cranio__tumores",
+    "file": "data/raw/frases-cranio__tumores.txt",
+    "words": 6888
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/variados",
+    "slug": "frases-cranio__variados",
+    "file": "data/raw/frases-cranio__variados.txt",
+    "words": 2137
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-cranio/vascular",
+    "slug": "frases-cranio__vascular",
+    "file": "data/raw/frases-cranio__vascular.txt",
+    "words": 4459
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-dia",
+    "slug": "frases-dia",
+    "file": "data/raw/frases-dia.txt",
+    "words": 498
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico",
+    "slug": "frases-musculoesqueletico",
+    "file": "data/raw/frases-musculoesqueletico.txt",
+    "words": 21
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/cotovelo",
+    "slug": "frases-musculoesqueletico__cotovelo",
+    "file": "data/raw/frases-musculoesqueletico__cotovelo.txt",
+    "words": 520
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/joelho",
+    "slug": "frases-musculoesqueletico__joelho",
+    "file": "data/raw/frases-musculoesqueletico__joelho.txt",
+    "words": 3240
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/mao",
+    "slug": "frases-musculoesqueletico__mao",
+    "file": "data/raw/frases-musculoesqueletico__mao.txt",
+    "words": 568
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/membros",
+    "slug": "frases-musculoesqueletico__membros",
+    "file": "data/raw/frases-musculoesqueletico__membros.txt",
+    "words": 528
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/ombro",
+    "slug": "frases-musculoesqueletico__ombro",
+    "file": "data/raw/frases-musculoesqueletico__ombro.txt",
+    "words": 1822
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/pe",
+    "slug": "frases-musculoesqueletico__pe",
+    "file": "data/raw/frases-musculoesqueletico__pe.txt",
+    "words": 1527
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/plexo-braquial",
+    "slug": "frases-musculoesqueletico__plexo-braquial",
+    "file": "data/raw/frases-musculoesqueletico__plexo-braquial.txt",
+    "words": 316
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/punho",
+    "slug": "frases-musculoesqueletico__punho",
+    "file": "data/raw/frases-musculoesqueletico__punho.txt",
+    "words": 1402
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/quadril",
+    "slug": "frases-musculoesqueletico__quadril",
+    "file": "data/raw/frases-musculoesqueletico__quadril.txt",
+    "words": 1620
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/sacroiliaca",
+    "slug": "frases-musculoesqueletico__sacroiliaca",
+    "file": "data/raw/frases-musculoesqueletico__sacroiliaca.txt",
+    "words": 412
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/tornozelo",
+    "slug": "frases-musculoesqueletico__tornozelo",
+    "file": "data/raw/frases-musculoesqueletico__tornozelo.txt",
+    "words": 1225
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-musculoesqueletico/tumores",
+    "slug": "frases-musculoesqueletico__tumores",
+    "file": "data/raw/frases-musculoesqueletico__tumores.txt",
+    "words": 5235
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-petct",
+    "slug": "frases-petct",
+    "file": "data/raw/frases-petct.txt",
+    "words": 499
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-pettc",
+    "slug": "frases-pettc",
+    "file": "data/raw/frases-pettc.txt",
+    "words": 1608
+  },
+  {
+    "url": "https://www.compendioradiologia.com/home",
+    "slug": "home",
+    "file": "data/raw/home.txt",
+    "words": 51
+  },
+  {
+    "url": "https://www.compendioradiologia.com/jur%C3%ADdico",
+    "slug": "jur_C3_ADdico",
+    "file": "data/raw/jur_C3_ADdico.txt",
+    "words": 881
+  },
+  {
+    "url": "https://www.compendioradiologia.com/mama",
+    "slug": "mama",
+    "file": "data/raw/mama.txt",
+    "words": 17
+  },
+  {
+    "url": "https://www.compendioradiologia.com/mama/frases-mamas",
+    "slug": "mama__frases-mamas",
+    "file": "data/raw/mama__frases-mamas.txt",
+    "words": 427
+  },
+  {
+    "url": "https://www.compendioradiologia.com/mama/mamografia",
+    "slug": "mama__mamografia",
+    "file": "data/raw/mama__mamografia.txt",
+    "words": 863
+  },
+  {
+    "url": "https://www.compendioradiologia.com/mama/rm",
+    "slug": "mama__rm",
+    "file": "data/raw/mama__rm.txt",
+    "words": 105
+  },
+  {
+    "url": "https://www.compendioradiologia.com/medidas-keats",
+    "slug": "medidas-keats",
+    "file": "data/raw/medidas-keats.txt",
+    "words": 17
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1",
+    "slug": "modelo-de-laudos-1",
+    "file": "data/raw/modelo-de-laudos-1.txt",
+    "words": 43
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/cabeca-e-pescoco-rm",
+    "slug": "modelo-de-laudos-1__cabeca-e-pescoco-rm",
+    "file": "data/raw/modelo-de-laudos-1__cabeca-e-pescoco-rm.txt",
+    "words": 512
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/cabeca-e-pescoco-tc",
+    "slug": "modelo-de-laudos-1__cabeca-e-pescoco-tc",
+    "file": "data/raw/modelo-de-laudos-1__cabeca-e-pescoco-tc.txt",
+    "words": 634
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/coluna",
+    "slug": "modelo-de-laudos-1__coluna",
+    "file": "data/raw/modelo-de-laudos-1__coluna.txt",
+    "words": 315
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/coluna-tc",
+    "slug": "modelo-de-laudos-1__coluna-tc",
+    "file": "data/raw/modelo-de-laudos-1__coluna-tc.txt",
+    "words": 256
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/corpo-inteiro-tcrm",
+    "slug": "modelo-de-laudos-1__corpo-inteiro-tcrm",
+    "file": "data/raw/modelo-de-laudos-1__corpo-inteiro-tcrm.txt",
+    "words": 465
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/cranio-rm",
+    "slug": "modelo-de-laudos-1__cranio-rm",
+    "file": "data/raw/modelo-de-laudos-1__cranio-rm.txt",
+    "words": 458
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/cranio-tc",
+    "slug": "modelo-de-laudos-1__cranio-tc",
+    "file": "data/raw/modelo-de-laudos-1__cranio-tc.txt",
+    "words": 624
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/mama-rm",
+    "slug": "modelo-de-laudos-1__mama-rm",
+    "file": "data/raw/modelo-de-laudos-1__mama-rm.txt",
+    "words": 205
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos",
+    "slug": "modelo-de-laudos-1__modelo-de-laudos",
+    "file": "data/raw/modelo-de-laudos-1__modelo-de-laudos.txt",
+    "words": 1940
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/raw/modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm.txt",
+    "words": 6067
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelos-de-angio-corpo-tc",
+    "slug": "modelo-de-laudos-1__modelos-de-angio-corpo-tc",
+    "file": "data/raw/modelo-de-laudos-1__modelos-de-angio-corpo-tc.txt",
+    "words": 2342
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelos-de-laudos---angio-corpo-rm",
+    "slug": "modelo-de-laudos-1__modelos-de-laudos---angio-corpo-rm",
+    "file": "data/raw/modelo-de-laudos-1__modelos-de-laudos---angio-corpo-rm.txt",
+    "words": 268
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/musculoesqueletico-rm",
+    "slug": "modelo-de-laudos-1__musculoesqueletico-rm",
+    "file": "data/raw/modelo-de-laudos-1__musculoesqueletico-rm.txt",
+    "words": 1311
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/musculoesqueletico-tc",
+    "slug": "modelo-de-laudos-1__musculoesqueletico-tc",
+    "file": "data/raw/modelo-de-laudos-1__musculoesqueletico-tc.txt",
+    "words": 711
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/pet",
+    "slug": "modelo-de-laudos-1__pet",
+    "file": "data/raw/modelo-de-laudos-1__pet.txt",
+    "words": 1182
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/procedimento",
+    "slug": "modelo-de-laudos-1__procedimento",
+    "file": "data/raw/modelo-de-laudos-1__procedimento.txt",
+    "words": 144
+  },
+  {
+    "url": "https://www.compendioradiologia.com/modelo-de-laudos-1/torax-tc-rm",
+    "slug": "modelo-de-laudos-1__torax-tc-rm",
+    "file": "data/raw/modelo-de-laudos-1__torax-tc-rm.txt",
+    "words": 490
+  },
+  {
+    "url": "https://www.compendioradiologia.com/protocolos",
+    "slug": "protocolos",
+    "file": "data/raw/protocolos.txt",
+    "words": 17
+  },
+  {
+    "url": "https://www.compendioradiologia.com/protocolos/contrastado",
+    "slug": "protocolos__contrastado",
+    "file": "data/raw/protocolos__contrastado.txt",
+    "words": 2295
+  },
+  {
+    "url": "https://www.compendioradiologia.com/protocolos/rm",
+    "slug": "protocolos__rm",
+    "file": "data/raw/protocolos__rm.txt",
+    "words": 4121
+  },
+  {
+    "url": "https://www.compendioradiologia.com/protocolos/tc",
+    "slug": "protocolos__tc",
+    "file": "data/raw/protocolos__tc.txt",
+    "words": 1790
+  },
+  {
+    "url": "https://www.compendioradiologia.com/radiografia",
+    "slug": "radiografia",
+    "file": "data/raw/radiografia.txt",
+    "words": 17
+  },
+  {
+    "url": "https://www.compendioradiologia.com/radiografia/contrastados",
+    "slug": "radiografia__contrastados",
+    "file": "data/raw/radiografia__contrastados.txt",
+    "words": 1242
+  },
+  {
+    "url": "https://www.compendioradiologia.com/radiografia/densitometria",
+    "slug": "radiografia__densitometria",
+    "file": "data/raw/radiografia__densitometria.txt",
+    "words": 1577
+  },
+  {
+    "url": "https://www.compendioradiologia.com/radiografia/geral",
+    "slug": "radiografia__geral",
+    "file": "data/raw/radiografia__geral.txt",
+    "words": 146
+  },
+  {
+    "url": "https://www.compendioradiologia.com/radiografia/me",
+    "slug": "radiografia__me",
+    "file": "data/raw/radiografia__me.txt",
+    "words": 363
+  },
+  {
+    "url": "https://www.compendioradiologia.com/sites",
+    "slug": "sites",
+    "file": "data/raw/sites.txt",
+    "words": 65
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us",
+    "slug": "us",
+    "file": "data/raw/us.txt",
+    "words": 21
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral",
+    "slug": "us-geral",
+    "file": "data/raw/us-geral.txt",
+    "words": 20
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral/frase-cervical",
+    "slug": "us-geral__frase-cervical",
+    "file": "data/raw/us-geral__frase-cervical.txt",
+    "words": 773
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral/frase-cranio",
+    "slug": "us-geral__frase-cranio",
+    "file": "data/raw/us-geral__frase-cranio.txt",
+    "words": 162
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral/frase-torax",
+    "slug": "us-geral__frase-torax",
+    "file": "data/raw/us-geral__frase-torax.txt",
+    "words": 63
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral/frases-abdome",
+    "slug": "us-geral__frases-abdome",
+    "file": "data/raw/us-geral__frases-abdome.txt",
+    "words": 1602
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral/frases-msk",
+    "slug": "us-geral__frases-msk",
+    "file": "data/raw/us-geral__frases-msk.txt",
+    "words": 913
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral/frases-partes-moles",
+    "slug": "us-geral__frases-partes-moles",
+    "file": "data/raw/us-geral__frases-partes-moles.txt",
+    "words": 1845
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral/frases-pelve-feminina",
+    "slug": "us-geral__frases-pelve-feminina",
+    "file": "data/raw/us-geral__frases-pelve-feminina.txt",
+    "words": 420
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral/frases-pelve-masculina",
+    "slug": "us-geral__frases-pelve-masculina",
+    "file": "data/raw/us-geral__frases-pelve-masculina.txt",
+    "words": 275
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "slug": "us-geral__modelos",
+    "file": "data/raw/us-geral__modelos.txt",
+    "words": 6015
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral/preparo",
+    "slug": "us-geral__preparo",
+    "file": "data/raw/us-geral__preparo.txt",
+    "words": 17
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-geral/procedimentos",
+    "slug": "us-geral__procedimentos",
+    "file": "data/raw/us-geral__procedimentos.txt",
+    "words": 477
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-obstetrico",
+    "slug": "us-obstetrico",
+    "file": "data/raw/us-obstetrico.txt",
+    "words": 20
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-obstetrico/frases",
+    "slug": "us-obstetrico__frases",
+    "file": "data/raw/us-obstetrico__frases.txt",
+    "words": 1981
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us-obstetrico/modelo-de-laudos",
+    "slug": "us-obstetrico__modelo-de-laudos",
+    "file": "data/raw/us-obstetrico__modelo-de-laudos.txt",
+    "words": 2727
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us/doppler-arterial",
+    "slug": "us__doppler-arterial",
+    "file": "data/raw/us__doppler-arterial.txt",
+    "words": 2175
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us/doppler-carotida",
+    "slug": "us__doppler-carotida",
+    "file": "data/raw/us__doppler-carotida.txt",
+    "words": 445
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us/doppler-carotideo",
+    "slug": "us__doppler-carotideo",
+    "file": "data/raw/us__doppler-carotideo.txt",
+    "words": 1169
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us/doppler-peniano",
+    "slug": "us__doppler-peniano",
+    "file": "data/raw/us__doppler-peniano.txt",
+    "words": 244
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us/doppler-renal",
+    "slug": "us__doppler-renal",
+    "file": "data/raw/us__doppler-renal.txt",
+    "words": 470
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us/doppler-vci",
+    "slug": "us__doppler-vci",
+    "file": "data/raw/us__doppler-vci.txt",
+    "words": 265
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us/doppler-venoso",
+    "slug": "us__doppler-venoso",
+    "file": "data/raw/us__doppler-venoso.txt",
+    "words": 3207
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us/outros",
+    "slug": "us__outros",
+    "file": "data/raw/us__outros.txt",
+    "words": 23
+  },
+  {
+    "url": "https://www.compendioradiologia.com/us/outros_1",
+    "slug": "us__outros_1",
+    "file": "data/raw/us__outros_1.txt",
+    "words": 111
+  },
+  {
+    "url": "https://www.google.com/url",
+    "slug": "url",
+    "file": "data/raw/url.txt",
+    "words": 18
+  },
+  {
+    "url": "https://www.compendioradiologia.com/frases-coluna",
+    "slug": "frases-coluna",
+    "file": "data/raw/frases-coluna.txt",
+    "words": 94
+  }
+]

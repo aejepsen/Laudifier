@@ -1,0 +1,116 @@
+=== RM coluna cervical — Variante 3 ===
+Especialidade: radiologia
+Cenário: hérnia discal C6-C7 com radiculopatia
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [IDADE] anos  
+**Registro Hospitalar/CPF:** [Nº DE REGISTRO]  
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Tipo de Exame:** Ressonância Magnética da Coluna Cervical  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Equipamento:** Ressonador de 1.5 Tesla ou 3.0 Tesla  
+**Solicitante:** [NOME DO MÉDICO SOLICITANTE - ESPECIALIDADE]  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizada Ressonância Magnética (RM) da coluna cervical utilizando sequências multiplanares e multiecodificação:
+
+- **Sequências T1:** Sagitais e axiais ponderadas em T1 (TR/TE: 400-600/15-20 ms)
+- **Sequências T2:** Sagitais e axiais ponderadas em T2 (TR/TE: 3500-4000/90-120 ms)
+- **STIR:** Sagital com supressão de gordura (TR/TE: 4000-5000/60-80 ms)
+- **Angulação:** Realizada de acordo com a anatomia individual
+- **Espessura de corte:** 3-4 mm com intervalos de 0,5 mm
+- **Campo de Visão:** 220 x 220 mm
+- **Contraste:** Sem utilização de contraste paramagnético (exame nativo)
+
+Não foram observadas contra-indicações ao procedimento.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### ESTRUTURA ÓSSEA:
+- Corpos vertebrais de C3 a C7 apresentam altura e intensidade de sinal normais em T1 e T2
+- Alinhamento anterior da coluna preservado
+- Sem evidência de fraturas ou lise óssea
+- Espaços discais com alturas proporcionais, exceto em C6-C7 conforme descrito abaixo
+
+### MEDULA ESPINHAL:
+- Calibre medular preservado
+- Intensidade de sinal normal em T1 e T2
+- Contorno regular em toda extensão
+- Sem presença de siringomielia ou alterações intrínsecas
+
+### DISCOS INTERVERTEBRAIS:
+
+**C3-C4:** Disco íntegro, sem hérnias discais. Altura discal normal.
+
+**C4-C5:** Disco com altura preservada, sem deslocamento de material discal. Sem compressão de estruturas neuroforamiais.
+
+**C5-C6:** Disco sem alterações significativas. Espaço subaracnoideo e neuroforamina pérvios bilateralmente.
+
+**C6-C7 (ACHADO PRINCIPAL):**
+- **Hérnia discal posterolateral à direita** com extrusão de material do núcleo pulposo
+- Deslocamento posterior do disco medindo aproximadamente **8-10 mm** em seu maior diâmetro
+- Material discal em contato direto com a raiz nervosa C7 à direita
+- Redução significativa do espaço subaracnoideo anterior neste nível
+- Compressão moderada da raiz nervosa C7 direita dentro do recesso lateral e forame intervertebral
+- Sem compressão medular significativa
+- Redução parcial do diâmetro sagital do canal medular (aproximadamente 12 mm no nível da hérnia)
+
+### ESTRUTURAS LIGAMENTARES:
+- Ligamento longitudinal anterior íntegro
+- Ligamento longitudinal posterior espessado em C6-C7, contribuindo para redução do espaço subaracnoideo
+- Ligamento flavum com espessura normal
+- Processos articulares com aspecto normal
+
+### ESPAÇOS NEUROFORAMIAIS:
+- **Bilaterais em C3, C4, C5, C6:** Pérvios e sem compressão
+- **C7 direito:** Significativamente reduzido pelo material discal herniado, compatível com compressão radicular
+- **C7 esquerdo:** Preservado
+
+### MUSCULATURA PARAVERTEBRAL:
+- Simétrica, sem sinais de atrofia ou edema
+- Gordura subcutânea sem alterações
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Hérnia discal C6-C7 posterolateral à direita** com extrusão de núcleo pulposo
+2. **Compressão radicular C7 à direita** secundária ao material discal deslocado
+3. **Estenose foraminal relativa C6-C7 direita**
+4. **Redução moderada do diâmetro sagital do canal cervical** no nível de C6-C7 (aproximadamente 12 mm)
+5. Medula espinhal sem alterações intrínsecas ou compressão significativa
+6. Sem evidência de mielopatia cervical
+
+---
+
+## CORRELAÇÃO CLÍNICA
+
+Os achados radiológicos são concordantes com quadro de radiculopatia cervical C7 à direita, podendo justificar sintomatologia de:
+- Dor irradiada para membro superior direito
+- Parestesias em distribuição de C7
+- Possível déficit motor em musculatura inervada por C7
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A Ressonância Magnética da coluna cervical documenta **hérnia discal C6-C7 posterolateral à direita com compressão radicular**, apresentando características compatíveis com radiculopatia cerv

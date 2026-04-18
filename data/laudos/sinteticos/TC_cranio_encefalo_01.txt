@@ -1,0 +1,111 @@
+=== TC cranio encefalo — Variante 1 ===
+Especialidade: radiologia
+Cenário: exame normal, sem lesões intracranianas
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA DE CRÂNIO E ENCÉFALO
+
+---
+
+## DADOS DO PACIENTE
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [IDADE] anos  
+**Sexo:** [SEXO]  
+**RG/CPF:** [NÚMERO DO DOCUMENTO]  
+**Prontuário:** [NÚMERO DO PRONTUÁRIO]  
+
+---
+
+## DADOS DO EXAME
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]  
+**Modalidade:** Tomografia Computadorizada  
+**Região:** Crânio e Encéfalo  
+**Médico Solicitante:** [NOME DO MÉDICO SOLICITANTE]  
+**Médico Radiologista:** [NOME DO MÉDICO RADIOLOGISTA]  
+**CREMESP/CRM:** [NÚMERO DO REGISTRO]  
+
+---
+
+## TÉCNICA
+Realizado estudo tomográfico helicoidal do crânio e encéfalo com espessura de corte de 5mm e reconstruções multiplanares nas dimensões axial, coronal e sagital. Não foi utilizado contraste iodado venoso. Os parâmetros técnicos (kV, mAs, índice de dose) foram apropriados e otimizados para redução de dose de radiação, respeitando os protocolos de radioproteção.
+
+---
+
+## ACHADOS
+
+**Sistema Ventricular:**  
+Os ventrículos cerebrais (laterais, terceiro e quarto ventrículos) apresentam dimensões e morfologia normais, sem evidências de dilatação ou deslocamento. O sistema de circulação liquórica encontra-se pérvio.
+
+**Parênquima Encefálico:**  
+O tecido cerebral demonstra aspecto homogêneo e simétrico, com preservação adequada da diferenciação entre substância cinzenta e branca. Não se identificam áreas de hipoatenuação, hiperfibrância, calcificações intraparenquimatosas ou lesões focais sugestivas de isquemia, hemorragia ou processo expansivo.
+
+**Córtex e Estruturas Profundas:**  
+Córtex cerebral com giros e sulcos de amplitude normal para a idade. Os núcleos da base, tálamo, hipocampo e estruturas do tronco encefálico apresentam sinal atenuação normais. Cerebelo íntegro com arquitectura preservada.
+
+**Seios Paranasais:**  
+Seios maxilares, etmoidais e esfenoidal com pneumatização normal, sem evidências de opacificação, níveis hidroaéreos ou espessamento de mucosa. Ossos nasais íntegros.
+
+**Mastoides:**  
+Mastoides com pneumatização adequada bilateralmente, sem sinais de mastoidite ou processo expansivo.
+
+**Órbitas:**  
+Órbitas simétricas com cristalinos e nervos ópticos preservados. Ausência de lesões retrorbitárias ou proptose.
+
+**Ossos do Crânio:**  
+Calvária apresenta integridade estrutural com contornos lisos, sem solução de continuidade, deformidades ou lesões osteolíticas/osteoblásticas. Diploe óssea com aspecto normal. Ausência de pneumocéfalo.
+
+**Meninges:**  
+Espaços subaracnoides de amplitude normal. Cisternas basais pérvias e simétricas. Sem evidências de espessamento meníngeo ou coleção subdural.
+
+**Estruturas Vasculares:**  
+Não há evidências de hiperdensidade espontânea nos territórios vasculares que sugira hemorragia. As principais estruturas vasculares apresentam calibre normal ao nível dos voxels avaliados.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Tomografia computadorizada do crânio e encéfalo **SEM ALTERAÇÕES SIGNIFICATIVAS**.
+
+Não se identificam:
+- Lesões intracranianas focais ou difusas
+- Sinais de infarto cerebral agudo ou crônico
+- Hemorragia intracraniana ou epidural
+- Lesões expansivas (neoplasias, cistos, hematomas)
+- Hidrocefalia ou deslocamento de estruturas da linha média
+- Inflamação ou infecção meníngea
+- Traumatismo cranioencefálico agudo
+- Anomalias vasculares aparentes
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+O estudo apresenta resultado **NORMAL**, sem evidências de patologia intracraniana aguda ou crônica que explique a sintomatologia clínica.
+
+**Recomendações:**
+- Resultado compatível com exame normal para a faixa etária do paciente
+- Correlação clínica recomendada conforme protocolo do médico assistente
+- Caso persista a sintomatologia, considerar investigação complementar com Ressonância Magnética de Crânio ou outros métodos de imagem conforme julgamento clínico
+- Arquivamento dos dados digitais em sistema PACS para eventual comparação com futuras investigações
+- Seguimento clínico conforme protocolo do serviço solicitante
+
+---
+
+## ASSINATURA
+
+**Médico Radiologista:** _________________________________
+
+**Nome:** [NOME COMPLETO]  
+**CRM/CREMESP:** [NÚMERO DO REGISTRO]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Data:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]  
+
+**Carimbo:**  
+[CARIMBO COM DADOS DO MÉDICO E DA INSTITUIÇÃO]
+
+---
+
+**Nota:** Este laudo é de caráter confidencial e destina-se exclusivamente ao médico solicitante e ao

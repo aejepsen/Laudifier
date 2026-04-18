@@ -1,0 +1,118 @@
+=== US doppler membros inferiores — Variante 2 ===
+Especialidade: radiologia
+Cenário: trombose venosa profunda em veia poplítea direita
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA DOPPLER
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Sexo:** [M/F]  
+**Idade:** [IDADE] anos  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Registro Hospitalar/CPF:** [RH/CPF]  
+
+**Solicitante:** [NOME DO MÉDICO SOLICITANTE]  
+**Especialidade:** [ESPECIALIDADE]
+
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Equipamento:** Ultrassom Doppler colorido com transdutor linear multifrequencial (7,5-10 MHz)  
+**Examinador:** [NOME DO MÉDICO/TÉCNICO]  
+**Assinante:** [NOME DO MÉDICO RESPONSÁVEL]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Suspeita de trombose venosa profunda em membro inferior direito. Apresenta edema e dor em panturrilha direita.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizado estudo ultrassonográfico com Doppler colorido e espectral dos membros inferiores bilateralmente, com avaliação das veias femoral comum, femoral superficial, femoral profunda, poplítea, tibial anterior, tibial posterior e fibular. O paciente foi avaliado em posição supina e decúbito lateral direito. Aplicou-se compressão venosa seriada ao longo dos trajetos vasculosos para análise da colapsabilidade venosa. Foram obtidos traçados Doppler espectral nas velocidades venosas durante manobra de Valsalva e respiração espontânea.
+
+---
+
+## ACHADOS
+
+### Membro Inferior Direito:
+
+**Veia Poplítea Direita:**
+- Apresenta trombo intraluminal hipoecogênico, ocluindo aproximadamente 80-90% do lúmen vascular
+- A veia não colapsa com compressão externa (sinal de não-compressibilidade)
+- Ausência de fluxo Doppler colorido na região do trombo
+- Aumento discreto do calibre venoso proximal ao trombo, sugerindo congestão
+- Ausência de sinais de fluxo pulsátil ou respiratório compatível com oclusão trombótica aguda
+- Sem evidência de permeabilidade vascular distal imediata
+
+**Veia Femoral Comum Direita:**
+- Permevel, colabível à compressão
+- Fluxo Doppler colorido presente, com padrão respiratório normal
+- Calibre normal
+
+**Veia Femoral Superficial Direita:**
+- Permevel
+- Responsiva à compressão
+- Fluxo Doppler mantido
+
+**Veia Femoral Profunda Direita:**
+- Permevel
+- Sem alterações relevantes
+
+**Veias Tibiais (anterior, posterior) e Fibular Direitas:**
+- Permeáveis
+- Fluxo mantido
+- Sem sinais de trombose
+
+### Membro Inferior Esquerdo:
+
+**Avaliação Geral:**
+- Todas as veias estudadas (femoral comum, femoral superficial, femoral profunda, poplítea, tibiais) apresentam-se permeáveis
+- Colapsáveis à compressão externa
+- Fluxo Doppler colorido presente e normal
+- Padrão respiratório preservado
+- Sem evidência de trombose
+
+**Calibres vasculosos:** dentro dos limites da normalidade
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Trombose Venosa Profunda aguda em veia poplítea direita**, com oclusão luminal significativa (aproximadamente 80-90%) e sinais ultrassonográficos de insuficiência venosa proximal.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Confirmado diagnóstico de **trombose venosa profunda (TVP) em veia poplítea direita**, classificada como trombose venosa profunda proximal segundo classificação de localização anatômica.
+
+**Recomendações:**
+
+1. **Referência imediata para avaliação clínica e instituição de terapia anticoagulante** conforme protocolo institucional e avaliação angiológica/vascular complementar
+2. Considerar **ressonância magnética com angiografia venosa (AngioRM)** se houver dúvida diagnóstica ou necessidade de caracterização mais detalhada
+3. Otimização de prevenção de embolia pulmonar com medidas de suporte (elevação de membro, meias de compressão, se tolerado)
+4. **Ultrassom doppler de seguimento** em 5-7 dias para avaliação de progressão ou resolução trombótica
+5. Rastreamento de sintomas de embolia pulmonar (dispneia, dor torácica, taquicardia)
+
+---
+
+## ASSINATURA
+
+```
+_________________________________________________
+Dr(a). [NOME COMPLETO]
+Médico Radiologista
+Registro CRM: [UF] [NÚMERO]
+Data: [DD/MM/AAAA]
+Carimbo do CRLM
+```
+
+---
+
+**Laudo sujeito a revisão pelo médico radiologista responsável.**

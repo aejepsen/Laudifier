@@ -1,0 +1,108 @@
+=== RM coluna lombar — Variante 2 ===
+Especialidade: radiologia
+Cenário: estenose do canal em L3-L4, moderada
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Sexo:** [M / F]  
+**Idade:** [___] anos  
+**Data de Nascimento:** [__/__/____]  
+**Número do Prontuário:** [________________]  
+**Data do Exame:** [__/__/____]  
+**Hora do Exame:** [__:__]  
+**Especialidade:** Radiologia  
+**Modalidade:** Ressonância Magnética  
+**Região de Interesse:** Coluna Vertebral Lombar  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[QUEIXA PRINCIPAL - ex: dor lombar crônica, radiculopatia, claudicação neurógena]
+
+---
+
+## TÉCNICA
+
+Realizado estudo de ressonância magnética da coluna lombar em equipamento de 1.5 Tesla, com sequências multiplanares incluindo:
+
+- **Sequências ponderadas em T1:** cortes sagitais e axiais
+- **Sequências ponderadas em T2:** cortes sagitais, axiais e coronais com supressão de gordura (STIR)
+- **Sequência FLAIR:** cortes sagitais
+- **Sequência GRE (Gradient Recall Echo):** cortes sagitais
+- **Sequências de difusão (DWI):** quando indicado clinicamente
+
+Campo de visão: 20 x 20 cm. Espessura de corte: 4-5 mm com intervalo de 1 mm. Sem administração de contraste paramagnético.
+
+---
+
+## ACHADOS
+
+### Análise Morfológica Geral
+
+A curvatura lordótica fisiológica encontra-se preservada, embora discretamente reduzida em seu segmento distal.
+
+### Análise Segmental
+
+**Nível L1-L2:**
+Pequena protrusão discal central-ligamentar, de características degenerativas. Sem compressão significativa das estruturas nervosas. Espaço discal com altura preservada. Foramens neurais pérvios bilateralmente.
+
+**Nível L2-L3:**
+Disco intervertebral com sinais de desidratação (hipointensidade em T2). Pequena protrusão discal central-ligamentar. Sem estenose significativa. Foramens neurais sem redução.
+
+**Nível L3-L4:** ⚠️ **PRINCIPAL ACHADO**
+
+- **Protrusão discal posterior:** Protrusão discal difusa, com componente ligamentar hipertrófico, determinando redução moderada do diâmetro anteroposterior do canal vertebral central (aproximadamente 10-11 mm);
+  
+- **Estenose de canal central moderada:** Compressão do saco dural com redução do espaço subaracnoideo, particularmente em sua porção mediana, porém com preservação de espaço liquórico residual;
+
+- **Alterações facetárias:** Hipertrofia bilateral das articulações facetárias ínfero-posteriores, com componente osteofitário, contribuindo para a redução do diâmetro do canal;
+
+- **Estenose foraminal:** Redução moderada dos foramens neurais bilateralmente, mais acentuada à direita, secundária à combinação de protrusão discal, hipertrofia facetária e deslocamento posterior da margem vertebral superior;
+
+- **Compressão radicular:** Contato com e discreta compressão da raiz nervosa L4 bilateralmente, especialmente à direita, com indução de sinais de edema/aumento de volume radicular direito, compatível com irritação neuronal.
+
+**Nível L4-L5:**
+Pequena protrusão discal central. Leve redução do diâmetro do canal, sem estenose significativa. Foramens neurais pérvios.
+
+**Nível L5-S1:**
+Disco com altura adequada, sem protrusão significativa. Espaço discal e canal vertebral pérvios.
+
+### Corpos Vertebrais
+
+Alturas vertebrais preservadas. Ausência de deformidades agudas ou colapsos. Intensidade de sinal normal, sem evidência de lesões medulares ou infiltrações patológicas.
+
+### Estruturas Adjacentes
+
+**Ligamentos:** Ligamento longitudinal posterior com discreto espessamento. Ligamento amarelo sem alterações significativas.
+
+**Musculatura paravertebral:** Simétrica, sem atrofias ou infiltrações gordurosas significativas. Sem evidência de hematoma ou coleções.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Estenose do canal vertebral central em L3-L4, de grau MODERADO**, secundária a:
+   - Protrusão discal difusa com componente ligamentar hipertrófico
+   - Hipertrofia bilateral das articulações facetárias
+   - Redução do diâmetro sagital do canal a aproximadamente 10-11 mm
+
+2. **Estenose foraminal bilateral em L3-L4, de grau MODERADO**, mais acentuada à direita
+
+3. **Compressão e irritação da raiz nervosa L4 bilateralmente**, com edema radicular à direita
+
+4. **Alterações degenerativas da coluna lombar** com sinais de discopatia em L2-L3, L3-L4 e L4-L5
+
+5. **Preservação do espaço liquórico residual**, sem sinais de mielopatia em sequências T2
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Exame de ressonância magnética evidencia **estenose moderada do canal vertebral em L3-L4**, com compressão do saco dural e raízes nervosas, particularmente à direita, compatível com quadro de radiculopatia lombar ou claudicação neur

@@ -1,0 +1,38 @@
+Adrenal
+ADENOMA
+
+Nódulo na haste medial da adrenal direita, medindo cerca de <> cm, apresentando queda de sinal nas seqüência fora de fase, compatível com adenoma.
+
+Nódulo na adrenal esquerda com sinal discretamente heterogêneo em T1 e T2 e perda de sinal homogênea na sequência fora de fase, medindo 4,2 x 3,4 x 2,8 cm, também compatível com adenoma.
+
+Nódulos nas adrenais bilaterais, medindo à direita 3,0 cm e à esquerda 2,7 cm, com baixa densidade na fase pré-contraste (<10 HU) e com impregnação após a utilização do mesmo, sugestivos de adenomas.
+
+Formação nodular de limites definidos localizada na glândula adrenal direita, com coeficiente de atenuação heterogêneos, predominantemente hipodensa, com realce significativo pelo contraste e clareamento do mesmo em cerca de 60% na fase venosa tardia, medindo cerca de 3,5 cm.
+
+PARAGANGLIOMA
+
+Formação expansiva retroperitoneal situada posteriormente à veia cava inferior, na topografia da loja da adrenal direita, estabelecendo íntimo contato com o hilo hepático, caracterizada predominantemente por hipersinal em T2, destacando-se pequenos focos ovalados de hipossinal nesta sequência (“flow voids”), observando-se também alguns focos de alto sinal T1 (conteúdo hemático), a qual demonstrou intensa impregnação heterogênea após a injeção do agente paramagnético. Tal lesão mede cerca de <> x <> x <> cm nos eixos crânio-caudal, ântero-posterior e látero-lateral. Apesar do contato com estruturas vasculares retroperitoneais, não há sinais de trombose evidente.
+
+Formação sólida, bem delimitada, medindo <> x <> x <> cm, apresentando sinal heterogêneo (com predomínio de hipersinal T2), com intensa impregnação pelo agente paramagnético.
+
+MIELOLIPOMA
+
+Nódulo bem delimitado, com coeficientes de atenuação de gordura, <> x <> x <> cm, localizado na haste lateral da adrenal direita.
+
+HEMANGIOMA
+
+Nódulo heterogêneo, com conteúdo central hipodenso, e realce heterogêneo ao meio de contraste iodado, progressivo e periférico, tendendo à homogeneização na fase venosa tardia, localizado no istmo/haste medial da adrenal esquerda, medindo <> x <> x <> cm, não preenchendo critérios para adenoma, estável em relação ao estudo anterior. Dadas as características aqui apresentadas, considerar, no diagnóstico diferencial, a possibilidade de hemangioma, não se descartando completamente feocromocitoma.
+
+NEUROBLASTOMA
+
+Volumosa formação expansiva, com origem presumida na adrenal esquerda, sólida, heterogênea e apresentando calcificações de permeio. A lesão desloca inferiormente o rim esquerdo, estendendo-se da região subfrênica ao epigástrio. Tal lesão mede <> x <> x <> cm. Considerar a hipótese de neuroblastoma.
+
+CA ADRENAL
+
+Formação expansiva heterogênea localizada na topografia da glândula suprarrenal direita, com pequenos focos de gordura e calcificação e pequenas áreas de hemorragia no seu interior, medindo <> x <> x <> cm. Tal formação apresenta sinal e realce heterogêneos e promove afilamento da veia cava inferior retrohepática com falhas de enchimento no seu interior que pode estar relacionado a fluxo lento ou invasão tumoral. Apresenta ainda extenso contato com o segmento VII hepático, sem nítidos planos de clivagem com o mesmo, aspecto que pode significar invasão parenquimatosa. Formação expansiva na topografia da glândula adrenal direita, que não preenche os critérios de adenoma, podendo representar carcinoma adrenal ou feocromocitoma.
+
+CARCINOMA X FEOCROMOCITOMA
+
+Formação expansiva heterogênea localizada na topografia da glândula suprarrenal direita, com pequenos focos de gordura e calcificação e pequenas áreas de hemorragia no seu interior, medindo 6,5 x 6,3 x 6,1 cm. Tal formação apresenta sinal e realce heterogêneos e promove afilamento da veia cava inferior retro-hepática com falhas de enchimento no seu interior que pode estar relacionado a fluxo lento ou invasão tumoral. Apresenta ainda extenso contato com o segmento VII hepático, sem nítidos planos de clivagem com o mesmo, aspecto que pode significar invasão parenquimatosa. Formação expansiva na topografia da glândula adrenal direita, que não preenche os critérios de adenoma, podendo representar carcinoma adrenal ou feocromocitoma.
+
+

@@ -1,0 +1,85 @@
+=== RX torax — Variante 5 ===
+Especialidade: radiologia
+Cenário: pneumotórax direito espontâneo
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RADIOGRAFIA DE TÓRAX
+
+---
+
+## IDENTIFICAÇÃO
+
+**Paciente:** [NOME COMPLETO]  
+**Registro/Prontuário:** [Nº REGISTRO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [IDADE] anos | **Sexo:** [M/F]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Horário:** [HH:MM]  
+**Solicitante:** [NOME DO MÉDICO]  
+**Especialidade do Solicitante:** [ESPECIALIDADE]
+
+---
+
+## TÉCNICA
+
+Radiografia digital de tórax em incidência posteroanterior (PA) e perfil direito (PD), realizada em equipamento de raios-x digital de alta resolução, com distância foco-filme de 180 cm e paciente em posição ortostática.
+
+---
+
+## ACHADOS
+
+**Estruturas ósseas:**
+- Coluna vertebral integra, sem desvios ou deformidades visíveis
+- Caixa torácica simétrica
+- Omoplatas, clavículas e úmeros sem alterações focais
+
+**Pulmões e pleura:**
+Visibiliza-se colapso volumétrico acentuado do pulmão direito, estimado em aproximadamente 60% de seu volume. Observa-se radiolucência pleural bem demarcada, sem padrão vascular pulmonar, caracterizando **ar intrapleurais sem identificação de vascularização pulmonar associada**. A linha pleural visceral é bem visualizada no terço médio e inferior de hemitórax direito, definindo o pneumotórax.
+
+Pulmão esquerdo apresenta expansão preservada com padrão broncovascular normal. Seios costofrênicos bilateral permeáveis. Silhueta cardiomediastinal dentro dos limites normais, sem desvio de mediastino evidenciado.
+
+**Diafragma:**
+Perfil diafragmático bilateral suave e integro, sem sinais de hernias.
+
+**Costelas e espaços intercostais:**
+Sem fraturas visíveis ou alterações ósseas significativas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **PNEUMOTÓRAX ESPONTÂNEO DIREITO** com colapso volumétrico pulmonar moderado a acentuado (aproximadamente 60%)
+2. Sem evidências de tensão hemitorácica ou desvio de mediastino
+3. Pulmão contralateral preservado
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Radiografia de tórax compatível com **pneumotórax espontâneo direito de volume moderado**.
+
+**Recomendações:**
+
+- Avaliação clínica urgente para definição de necessidade de drenagem pleural
+- Correlacionar com sintomatologia clínica (dispneia, dor torácica)
+- Considerar tomografia de alta resolução de tórax (TCAR) para avaliação de bolhas apicais e predisposição a recorrência
+- Radiografia de tórax de controle em 24-48 horas, conforme conduta estabelecida
+- Orientar paciente sobre repouso relativo e evitar atividades que aumentem pressão intratorácica
+
+---
+
+## ASSINATURA
+
+**Médico Responsável (Radiologista):**
+
+Nome: ___________________________________  
+CRM: _________________ | Estado: _______  
+Especialidade: Radiologia e Diagnóstico por Imagem  
+
+Data: ____/____/________ | Hora: _______
+
+Assinatura: _____________________________
+
+---
+
+**Nota:** Este é um laudo modelo. Dados em [COLCHETES] devem ser preenchidos com informações reais do paciente.

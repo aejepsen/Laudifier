@@ -1,0 +1,110 @@
+=== TC abdome rins vias urinarias — Variante 2 ===
+Especialidade: radiologia
+Cenário: urolitíase no ureter distal direito, 6 mm
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [XX] anos  
+**Número de Prontuário:** [XXXXXXXXXXXXX]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+
+**Solicitante:** [NOME DO MÉDICO]  
+**Especialidade:** [CLÍNICA/UROLOGIA]  
+**Indicação Clínica:** Cólica renal à direita; investigação de possível urolitíase.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Tomografia computadorizada de abdome e pelve realizada em aparelho de 64 canais, com protocolo de cortes axiais contínuos de 1mm de espessura, adquiridos sem contraste intravenoso. Foram obtidas reconstruções nos planos sagital e coronal. Não foi utilizado meio de contraste devido ao protocolo de investigação de litíase urinária.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Rins:
+- **Rim direito:** Normotópico, com contornos regulares e dimensões normais (aproximadamente 11,5 cm de comprimento). Densidade parenquimatosa homogênea, sem alterações do sistema pielocaliceal proximal.
+
+- **Rim esquerdo:** Normotópico, com contornos regulares e dimensões normais. Parênquima com densidade homogênea. Sistema pielocaliceal sem dilatação.
+
+### Vias Urinárias:
+- **Ureter direito proximal e médio:** Sem dilatação significativa.
+
+- **Ureter direito distal:** Visualiza-se cálculo radiopaco, com densidade aproximada de 800-900 unidades Hounsfield, medindo 6 mm de maior eixo, localizado no ureter distal direito, aproximadamente 5 cm acima da sua junção com a bexiga. Observa-se leve dilatação do sistema pielocaliceal ipsilateral e discreto espessamento da parede ureteral adjacente ao cálculo, compatível com processo inflamatório reacional.
+
+- **Ureter esquerdo:** Calibre normal, sem alterações.
+
+- **Bexiga:** Bem distendida, com paredes lisas e contornos regulares. Sem alterações na sua mucosa. Sem cálculos intravesicais.
+
+### Estruturas Adjacentes:
+- **Fígado:** Contornos regulares, densidade homogênea, sem lesões focais detectadas.
+
+- **Pâncreas:** Morfologia normal, sem dilatação do ducto pancreático.
+
+- **Baço:** Normotópico e com dimensões normais.
+
+- **Estômago e alças intestinais:** Sem dilatação. Sem sinais de obstrução ou inflamação aguda.
+
+- **Aorta abdominal e vasos ilíacos:** Calibre normal, sem aneurismas.
+
+- **Glândulas adrenais:** Simétricas, sem massas.
+
+- **Linfonodos:** Sem linfonodomegalia significativa.
+
+- **Cavidade peritoneal:** Sem coleção líquida.
+
+### Coluna e Parede Abdominal:
+- Corpos vertebrais com altura normal, sem alterações degenerativas significativas. Parede abdominal sem alterações.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Urolitíase no ureter distal direito** - Cálculo renal radiopaco medindo 6 mm, localizado no terço distal do ureter direito, aproximadamente 5 cm acima da junção ureterovesical.
+
+2. **Pielocalicectasia leve à direita** - Atribuível ao obstáculo ureteral.
+
+3. **Ureterite reacional** - Discreto espessamento da parede ureteral adjacente ao cálculo.
+
+4. **Ausência de outras alterações significativas** nas demais estruturas abdominais e pélvicas avaliadas.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Laudo de TC de abdome e pelve evidencia cálculo ureteral direito de pequeno volume (6 mm) localizado no segmento distal, com achados compatíveis com urolitíase obstrutiva.
+
+**Recomendações:**
+
+1. Seguimento clínico com o urologista assistente para avaliação da necessidade de intervenção terapêutica, considerando o tamanho reduzido do cálculo e possibilidade de expulsão espontânea.
+
+2. Hidratação adequada e analgesia conforme protocolos de manejo da cólica renal.
+
+3. Controle de sintomas com avaliação periódica clínica e, se necessário, novo estudo de imagem.
+
+4. Orientação ao paciente para coleta de urina para análise do cálculo após sua expulsão (se ocorrer), a fim de identificar sua composição e estabelecer medidas preventivas de recorrência.
+
+---
+
+## ASSINATURA
+
+**Médico Radiologista:** _______________________________________________
+
+**CREMESP nº:** ________________  
+**RQE/Radiologia:** ________________
+
+**Data:** ___/___/_______  
+**Hora:** _____:_____ h
+
+---
+
+*Documento gerado em conformidade com as normas da Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR).*

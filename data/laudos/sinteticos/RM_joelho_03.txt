@@ -1,0 +1,127 @@
+=== RM joelho — Variante 3 ===
+Especialidade: radiologia
+Cenário: lesão do ligamento cruzado anterior — ruptura completa
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA
+
+---
+
+## DADOS ADMINISTRATIVOS
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [XX] anos  
+**Registro:** [Nº DO PRONTUÁRIO]  
+
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+**Clínica/Hospital:** [INSTITUIÇÃO]
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Avaliação de lesão do ligamento cruzado anterior (LCA) com suspeita de ruptura completa. História de traumatismo em joelho com instabilidade articular.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Ressonância magnética de joelho direito/esquerdo [ESPECIFICAR] realizada em equipamento de 1.5 Tesla [OU 3.0 Tesla], com bobina de joelho dedicada. Foram adquiridas sequências multiplanares:
+
+- **Sequências ponderadas em T1:** Axial, sagital e coronal
+- **Sequências ponderadas em T2:** Axial, sagital e coronal com supressão de gordura (STIR/SPAIR)
+- **Sequências ponderadas em DP:** Coronal e sagital
+- **Sequências gradiente eco:** Sagital (para avaliação de estruturas fibrocartilaginosas)
+
+**Parâmetros técnicos:** FOV adequado, espessura de corte 3-4 mm com gap mínimo, sem artefatos significativos que comprometam a análise.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Ligamento Cruzado Anterior (LCA)
+
+Descontinuidade completa das fibras do ligamento cruzado anterior, visualizada particularmente nas sequências sagitais ponderadas em T2 e DP. O ligamento apresenta-se fragmentado com interrupção total da sua continuidade fibrosa, não havendo continuidade de sinal entre os segmentos proximal e distal. Há edema nas adjacências (hipersinal em T2) indicativo de processo inflamatório agudo. O padrão e localização da lesão são compatíveis com ruptura completa de origem traumática.
+
+### Ligamento Cruzado Posterior (LCP)
+
+Íntegro, apresentando aspecto morfológico normal e sinal homogêneo.
+
+### Ligamentos Colaterais
+
+**Ligamento colateral medial (LCM):** Visualizado em sua totalidade, com integridade preservada e sinal normal.
+
+**Ligamento colateral lateral (LCL):** Íntegro, sem sinais de lesão.
+
+### Meniscos
+
+**Menisco medial:** Morfologia normal, triangular, sem sinais de degeneração ou rotura.
+
+**Menisco lateral:** Morfologia normal, sem lesão associada.
+
+### Superfícies Articulares
+
+Cartilagem articular da patela, côndilo femoral medial, côndilo femoral lateral e planalto tibial sem alterações degenerativas significativas. Espessura adequada. Sem sinais de condromalácia.
+
+### Cápsula Articular e Sinovial
+
+Derrame articular de moderada quantidade (aproximadamente 40-50 mL), com características inflamatórias agudas. Sem presença de corpos soltos intra-articulares.
+
+### Tendões e Estruturas Periarticulares
+
+**Tendão patelar:** Íntegro, sem tendinopatia.
+
+**Tendões do mecanismo extensor:** Sem alterações.
+
+**Tendões isquiotibiais:** Preservados.
+
+### Ossos
+
+Medula óssea de aspecto normal, sem focos de edema significativo além das alterações inerentes ao trauma recente. Integridade cortical óssea preservada, sem fraturas associadas.
+
+### Outros Achados
+
+Edema de partes moles periarticulares, compatível com reação inflamatória aguda pós-trauma.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Ruptura completa do ligamento cruzado anterior** com característica de lesão aguda, apresentando edema periligamentar associado.
+
+2. **Derrame articular de moderada quantidade**, de características inflamatórias, secundário ao traumatismo.
+
+3. **Ligamentos e estruturas articulares restantes íntegros.**
+
+4. **Ausência de fraturas associadas ou outras lesões meniscais.**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A ressonância magnética confirma **ruptura completa do ligamento cruzado anterior**, com modificações inflamatórias articulares agudas associadas. Não há outras lesões estruturais significativas no joelho avaliado.
+
+### Recomendações:
+
+- Correlação clínica obrigatória e testes de estabilidade articular (teste de Lachman, teste anterior da gaveta)
+- Avaliação ortopédica especializada para discussão de opções terapêuticas (conservadora *versus* cirúrgica)
+- Fisioterapia imediata para redução do edema e manutenção da amplitude de movimento
+- Repouso relativo e proteção da articulação
+- Eventual realização de ressonância contralateral para fins comparativos, se clinicamente indicado
+
+---
+
+## ASSINATURA
+
+**Médico Radiologista Responsável:**
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Nome:** [NOME COMPLETO]  
+**CREMESP:** [Nº DE REGISTRO]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Data:** [DD/

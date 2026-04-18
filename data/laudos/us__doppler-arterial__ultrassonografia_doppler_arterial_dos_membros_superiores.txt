@@ -1,0 +1,5 @@
+TITLE: ULTRASSONOGRAFIA DOPPLER ARTERIAL DOS MEMBROS SUPERIORES
+URL: https://www.compendioradiologia.com/us/doppler-arterial
+SOURCE_SLUG: us__doppler-arterial
+============================================================
+TÉCNICA:Estudo arterial com transdutor linear de alta frequência nas modalidades bidimensional, Doppler espectral, Color e Power Doppler.Qualidade técnica do estudo: Adequada. RELATÓRIO:Artérias subclávias, axilares, braquiais, radiais e ulnares pérvias, com calibres normais, sem sinais de irregularidades parietais.Avaliação espectral ao Doppler evidencia fluxo trifásico com velocidades sistólicas adequadas.CONCLUSÃONão há sinais de estenose arterial hemodinamicamente expressiva.Com os cumprimentos,

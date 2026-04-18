@@ -1,0 +1,103 @@
+=== RX coluna lombar — Variante 2 ===
+Especialidade: radiologia
+Cenário: redução do espaço discal L4-L5 com osteofitose
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+**Paciente:** [NOME COMPLETO]  
+**Prontuário:** [Nº DO PRONTUÁRIO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [XX] anos | **Sexo:** [M/F]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+
+---
+
+## DADOS DO EXAME
+
+**Especialidade:** Radiologia  
+**Tipo de Exame:** Radiografia da Coluna Lombar  
+**Requisição Clínica:** [INDICAÇÃO CLÍNICA OU QUEIXA PRINCIPAL]  
+**Médico Solicitante:** [NOME DO MÉDICO]  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Foram realizadas radiografias digitais da coluna lombar nas projeções **anteroposterior (AP)**, **perfil (P)** e **perfil em flexão**, com paciente em pé, utilizando aparelho de raios-X digital de última geração. Parâmetros técnicos adequados permitiram otimização da qualidade diagnóstica das imagens sem prejuízo da análise radiológica.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Análise Estrutural:
+
+**Corpos vertebrais:** Apresentam altura normal, com contornos regulares. Sem sinais de fraturas, colapsos ou lesões líticas ou escleróticas focais.
+
+**Alinhamento:** Mantém-se o alinhamento fisiológico da coluna lombar, sem desvios para os lados (escoliose) ou deslocamentos ântero-posteriores (espondilolistese). A lordose lombar está preservada.
+
+**Espaços discais:** 
+
+- **L1-L2, L2-L3 e L3-L4:** Espaços discais com altura normal e sem sinais de degeneração.
+
+- **L4-L5:** **REDUÇÃO SIGNIFICATIVA DO ESPAÇO DISCAL**, indicativa de degeneração discal. Observa-se perda de altura do disco intervertebral em aproximadamente 30-40%. Há presença de **osteófitos** (proliferações ósseas) em margens das plataformas vertebrais de L4 e L5, conferindo aspecto irregular às superfícies articulares. Estes achados são compatíveis com **espondilartrose degenerativa**.
+
+- **L5-S1:** Espaço discal com altura discretamente reduzida, sugestivo de degeneração discal inicial. Discretos osteófitos marginais.
+
+### Análise das Articulações Facetárias:
+
+Observa-se **hipertrofia das articulações facetárias em L4-L5**, com aumento da densidade óssea (esclerose) nas superfícies articulares, compatível com osteoartrose facetária. As articulações superiores apresentam manutenção dos espaços articulares.
+
+### Foramens Intervertebrais:
+
+O forame intervertebral em L4-L5 apresenta-se **levemente reduzido** bilateralmente, resultado da combinação entre redução da altura discal e hipertrofia facetária, podendo estar associado a estenose foraminal leve.
+
+### Análise do Canal Vertebral:
+
+O canal vertebral em L4-L5 apresenta-se **discretamente estreitado** em seus diâmetros sagital e transversal, sugestivo de **estenose de canal central leve**, relacionada à degeneração discal e às proliferações osteofitárias.
+
+### Outras Observações:
+
+- Sem sinais de listese significativa.
+- Sem alterações compatíveis com processo inflamatório, infeccioso ou neoplásico.
+- Sem achados de calcificação anormal ou metaloses.
+- Técnica radiográfica adequada, sem artefatos que comprometam a análise.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Espondilartrose degenerativa da coluna lombar**, com predomínio em **L4-L5**;
+
+2. **Redução significativa do espaço discal L4-L5** com **osteofitose marginal** bilateral;
+
+3. **Degeneração discal em L4-L5** com perda de altura estimada em 30-40%;
+
+4. **Hipertrofia das articulações facetárias em L4-L5** com osteoartrose;
+
+5. **Estenose foraminal leve bilateral em L4-L5**;
+
+6. **Estenose de canal central leve em L4-L5**;
+
+7. **Degeneração discal inicial em L5-S1** com discretos osteófitos marginais.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Radiografias da coluna lombar evidenciam achados de **espondilartrose degenerativa** predominantemente em **L4-L5**, caracterizada por redução significativa do espaço discal com osteofitose, hipertrofia facetária e discretas estenoses foraminal e central.
+
+### Recomendações:
+
+1. **Correlação clínica** com sintomatologia do paciente (dor lombar, irradiação, claudicação de marcha, parestesias) é fundamental para determinar a relevância clínica destes achados;
+
+2. Caso haja sintomas neurológicos persistentes ou claudicação de esforço, recomenda-se **Ressonância Magnética (RM) da coluna lombar** para avaliação detalhada das estruturas de partes moles, disco intervertebral, ligamentos e raízes nervosas;
+
+3. Considerar avaliação por **Fisioterapia** e implementação de programa de reabilitação;
+
+4. Seguimento clínico com o médico assist

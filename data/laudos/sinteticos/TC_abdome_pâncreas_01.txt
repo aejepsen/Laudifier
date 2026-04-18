@@ -1,0 +1,102 @@
+=== TC abdome pâncreas — Variante 1 ===
+Especialidade: radiologia
+Cenário: pâncreas de aspecto normal
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [XX] anos  
+**Registro/Prontuário:** [NÚMERO DO PRONTUÁRIO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+
+---
+
+## DADOS DO EXAME
+
+**Modalidade:** Tomografia Computadorizada (TC)  
+**Região Anatômica:** Abdome com ênfase em pâncreas  
+**Aparelho Utilizado:** Tomógrafo multislice 64 canais  
+**Protocolo:** Helicoidal com reconstruções multiplanares (axial, coronal e sagital)  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizada tomografia computadorizada do abdome em cortes contínuos de 2-3 mm de espessura, adquiridos em fase arterial e portal venosa, após a administração de contraste iodado não-iônico intravenoso (100-120 mL) em bolus. Foram obtidas reconstruções multiplanares e tridimensionais para melhor avaliação das estruturas estudadas. O paciente foi orientado a manter apneia durante as aquisições.
+
+---
+
+## ACHADOS
+
+### **PÂNCREAS:**
+O pâncreas apresenta volume e contorno normais. Nota-se ausência de dilatação do ducto pancreático principal, que se mostra pérvio com calibre normal (aproximadamente 2 mm). A cabeça, corpo e cauda pancreáticos apresentam densidade homogênea, com realce uniforme após administração do contraste venoso, sem evidência de lesões focais, coleções ou alterações de sinal. Os limites anatômicos do órgão encontram-se bem preservados.
+
+### **ESTRUTURAS ADJACENTES:**
+- **Estômago:** Parede adequada, sem espessamento
+- **Duodeno:** Calibre e aspecto normais
+- **Vesícula Biliar:** Normocálica, com paredes delgadas e sem sinais de litiase
+- **Vias Biliares:** Não dilatadas
+- **Fígado:** Contorno regular, densidade homogênea, sem lesões focais detectáveis
+- **Baço:** Normotrófico
+- **Rins:** Bilateralmente simétricos, com parênquima preservado e sem hidronefrose
+- **Aorta e ilíacas:** Sem estenose significativa ou aneurisma
+- **Alças intestinais:** Sem dilatação ou sinais de obstrução
+
+### **CAVIDADE PERITONEAL:**
+Sem ascite. Sem linfonodomegalias significativas. Tecido adiposo mesentérico normal.
+
+### **PAREDE ABDOMINAL:**
+Sem alterações significativas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Tomografia computadorizada do abdome com enfoque pancreático evidenciando:
+
+✓ **Pâncreas de aspecto completamente normal**
+- Morfologia preservada
+- Volume apropriado
+- Realce homogêneo após contraste
+- Ducto pancreático principal pérvio com calibre normal
+- Ausência de lesões, focos de necrose ou coleções
+
+✓ Estruturas abdominais adjacentes sem alterações relevantes
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A tomografia computadorizada do abdome realizada apresenta achados tomográficos **dentro dos limites da normalidade**, com destaque para o pâncreas que se mostra estruturalmente íntegro, sem evidência de processos patológicos agudos ou crônicos no momento do estudo.
+
+**Recomendações:**
+- Correlação clínica com sintomatologia apresentada
+- Seguimento de acordo com protocolo clínico instituído
+- Retorno para novas imagens apenas se indicado clinicamente
+
+---
+
+## ASSINATURA
+
+**Médico Radiologista Responsável:**
+
+_________________________________
+
+**Nome:** [NOME COMPLETO DO RADIOLOGISTA]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Registro Profissional (CRM):** [UF] Nº [NÚMERO]  
+**CNPQ/Certificação:** [NÚMERO DA CERTIFICAÇÃO]  
+**Data:** ___/___/_____  
+**Assinatura Digital/Manuscrita:**
+
+---
+
+*Laudo emitido em conformidade com as normas técnicas da CBIR (Colégio Brasileiro de Radiologia e Diagnóstico por Imagem) e legislação vigente.*

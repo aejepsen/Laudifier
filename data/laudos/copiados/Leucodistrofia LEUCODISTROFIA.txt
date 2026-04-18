@@ -1,0 +1,50 @@
+Leucodistrofia
+LEUCODISTROFIA
+
+Permanece de aspecto inalterado a redução volumétrica e hiperintensidade de sinal em T2/FLAIR envolvendo a substância branca predominantemente periventricular e notadamente nos lobos parietais e occipitais, com dilatação compensatória dos átrios e cornos occipitais dos ventrículos laterais.
+
+Também existe comprometimento do tegmento pontino e mesencefálico, bem como dos tálamos (pulvinar) e do braço anterior das cápsulas internas.
+
+Também notamos padrão de hipomielinização, havendo alteração de sinal predominantemente subcortical dos hemisférios cerebrais.
+
+O estudo de espectroscopia de prótons na substância branca periventricular e nos núcleos da base revelou discreta redução dos picos de N-Acetil aspartato, inferindo neste contexto perda neuronal, sem alteração nos demais picos metabólicos e principalmente sem elevação dos picos de lactato.
+
+IMPRESSÃO DIAGNÓSTICA: A hipótese de lesão com substrato metabólico (leucodistrofia) é a principal consideração diagnóstica, porém com padrão de imagem não específico, podendo ser encontrado por exemplo em doenças mitocondriais e aminoacidopatias.
+
+PELIZEUS
+
+Hipersinal difuso e simetrico nas sequencias ponderadas em T2/FLAIR da substancia branca dos hemisferios cerebrais (acometendo as fibras em ¨U¨,centros semiovais,coroa radiada e capsula interna ), tronco cerebral e hemisferios cerebelares, associado a sinais de reducao volumetrica do parenquima encefalico caracterizados por ectasia do sistema ventricular supra-tentorial e acentuacao de sulcos e fissuras cerebrais bem como dos espacos entre as folias cerebelares e reducao da substancia branca dos hemisferios cerebelares.
+
+Nas sequencias ponderadas em T2 observa-se hipointensidade de sinal nos nucleos da base e talamos, de aspecto inespecifico mas que deve corresponder a deposito de ferro.
+
+Nota-se ainda isossinal da substancia branca dos hemisferios cerebrais nas sequencias ponderadas em T1, denotando sinais de hipomielinizacao.
+
+ID: Achados compativeis com leucoencefalopatia difusa, associado a reducao volumetrica do parenquima encefalico caracterizada por hipomielinização difusa.
+
+KRABBE
+
+Áreas de alteração de sinal caracterizadas por hipersinal em T2/FLAIR comprometendo a substância branca dos centros semiovais e das regiões periventriculares com aspecto confluente, que não exibem impregnação pelo agente de contraste paramagnético, destacando-se tênues focos de preservação de sinal de permeio à substância branca dos hemisférios cerebrais com padrão “tigróide”, o que pode corresponder à preservação da mielinização perivenular. Nota-se ainda alteração de sinal comprometendo o corpo caloso, notadamente o esplênio, e a substância branca dos hemisférios cerebelares, bem como os tratos corticospinais, acometendo os braços posteriores das cápsulas internas, pedúnculos cerebrais, ponte e pirâmides, destacando-se áreas de restrição à difusão na substância branca parietal dos hemisférios cerebrais, no corpo caloso e nos tratos corticospinais.
+
+As imagens T2 evidenciam hipossinal nos tálamos, em correspondência com a área de hiperatenuação observada no estudo tomografia computadorizada sem contraste.
+
+As sequências de espectroscopia por ressonância magnética caracterizam diminuição da relação NAA/creatina e aumento da relação colina/creatina, determinadas pela elevação dos picos de colina, indicando redução da população neuronal viável e desmielinização das áreas acometidas. Nota-se ainda a elevação do pico de mioinositol.
+
+ID: O conjunto das alterações observadas favorece a possibilidade de doença de Krabbé (leucodistrofia de células globoides).
+
+WVM
+
+Alteração de sinal difusa e simétrica da substância branca dos hemisférios cerebrais, substância branca profunda, tronco e hemisférios cerebelares, bem como do esplênio do corpo caloso, caracterizada por hipossinal em T1 e hipersinal em T2.
+
+A substância branca profunda apresenta marcado hipossinal na sequência FLAIR, assumindo padrão tigroide, compatível com áreas de rarefação mielínica e/ou degeneração cística, com áreas de restrição à livre movimentação das moléculas de água na sua periferia.
+
+As sequências de espectroscopia por ressonância magnética mostram sinais de depressão / disfunção neuronal caracterizada por redução dos picos de NAA e suas relações. Destaca-se ainda a presença de pequena quantidade de lactato, marcador de metabolismo anaeróbio.
+
+ID: Achados compatíveis com leucoencefalopatia difusa, de aspecto inespecífico. O conjunto dos achados de imagem, no contexto clínico apropriado, sugere a possibilidade de leucoencefalopatia com substância branca evanescente no diagnóstico diferencial.
+
+Alteração de sinal difusa da substância branca dos hemisférios cerebrais, tronco encefálico e hemisférios cerebelares, bem como do corpo caloso, caracterizada por hipossinal em T1 e hipersinal em T2.
+
+A substância branca profunda apresenta marcado hipossinal na sequência FLAIR, compatível com áreas de rarefação mielínica e/ou degeneração cística.
+
+As sequências de espectroscopia por ressonância magnética mostram sinais de depleção / disfunção neuronal caracterizada pela redução dos picos de NAA e suas relações. Destaca-se ainda a presença de pequena quantidade de lactato, marcador de metabolismo anaeróbio. Destaca-se ainda a elevação de mioinositol relacionado a mecanismos de reparação astrocitária.
+
+Nota-se atrofia do parênquima encefálico, caracterizado por dilatação do sistema ventricular supra e infratentorial.

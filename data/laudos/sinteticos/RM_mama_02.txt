@@ -1,0 +1,99 @@
+=== RM mama — Variante 2 ===
+Especialidade: radiologia
+Cenário: nódulo espiculado na mama direita, quadrante superolateral — BIRADS 5
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA DE MAMA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [IDADE] anos  
+**Sexo:** [SEXO]  
+**Prontuário:** [NÚMERO DO PRONTUÁRIO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Instituição:** [NOME DA INSTITUIÇÃO]  
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+**Radiologista:** [NOME DO RADIOLOGISTA - CREMESP XXXXX]
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Investigação de nódulo suspeito em mama direita, quadrante superolateral, detectado à mamografia de rastreamento/diagnóstico. Paciente encaminhado para avaliação complementar por ressonância magnética de mama.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Ressonância magnética dinâmica de mama em equipamento de 1.5 Tesla (Philips/Siemens), com bobina dedicada bilateral de mama e paciente em posição prona. Foram adquiridas sequências T1 e T2 com saturação de gordura, seguidas de aquisições dinâmicas contrastadas com gadolínio (gadoterato de meglumina ou similar, 0,1 mmol/kg EV). Inclusão de técnicas de supressão de gordura e difusão (DWI). Tempo total de exame: aproximadamente 25 minutos.
+
+---
+
+## ACHADOS
+
+### Mama Direita
+
+**Localização:** Quadrante superolateral (posição aproximada: 11-12 horas), a aproximadamente 4 cm do mamilo.
+
+**Lesão Principal:**
+- **Morfologia:** Nódulo sólido com contornos espiculados e irregulares
+- **Tamanho:** 13 mm × 10 mm × 12 mm
+- **Sinal T1:** Discretamente hipointenso em relação ao tecido fibroglandular
+- **Sinal T2:** Hipointenso, sugestivo de lesão fibrosa/dura
+- **Realce dinâmico:** Realce heterogêneo, início rápido (wash-in) nos primeiros 90-120 segundos após injeção de contraste, com padrão tipo "tipo III" (plateau/washout precoce), indicando cinética suspeita de malignidade
+- **Difusão (DWI):** Restrição leve a moderada do sinal em sequências de difusão, com valores de ADC reduzidos (estimado em 0,9 × 10⁻³ mm²/s), sugestivo de celularidade aumentada
+- **Espaçamento reticular:** Margens com espículas irradiando para o tecido fibroglandular adjacente
+
+**Achados Secundários:**
+- Tecido fibroglandular distribuído predominantemente nos quadrantes superiores bilateralmente
+- Pequenas áreas nodulares fibrocísticas, não específicas, no quadrante inferomedial da mama direita, com características benignas
+- Tênue espessamento do complexo areolar direito, sem características sugestivas de malignidade
+- Sem dilatação de ductos
+
+### Mama Esquerda
+
+- Parênquima sem alterações significativas
+- Ausência de lesões focais suspeitas
+- Padrão fibrocístico discreto
+- Sem achados relevantes
+
+### Linfonodos Regionais
+
+- Linfonodos axilares direitos apresentam características morfológicas ainda dentro dos limites normais, sem encurtamento do eixo cortical significativo. Maiores medindo até 8 mm de eixo curto
+- Linfonodos axilares esquerdos sem alterações significativas
+
+### Parede Torácica e Estruturas Adjacentes
+
+- Sem sinais de envolvimento de estruturas profundas
+- Integridade de músculos peitorais bilateralmente
+- Silhueta cardíaca e mediastino sem particularidades
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Lesão nodular com contornos espiculados na mama direita, quadrante superolateral, apresentando características imaginológicas altamente suspeitas para neoplasia maligna, incluindo:
+
+1. Morfologia espiculada com margens irregulares
+2. Realce heterogêneo com cinética de wash-in rápido e washout precoce
+3. Restrição de difusão com ADC reduzido
+4. Características não-lipomatosas em sequências multiplanar T1 e T2
+
+**Classificação BI-RADS 5:** Lesão altamente suspeita de malignidade. Risco estimado de malignidade superior a 95%.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A ressonância magnética de mama confirma e caracteriza melhor a lesão de mama direita previamente detectada, demonstrando achados de alto grau de suspeição para carcinoma mamário, provavelmente do tipo invasivo ductal ou variantes agressivas.
+
+**Recomendações:**
+
+1. **BIÓPSIA DIAGNÓSTICA URGENTE** — Preferencialmente biópsia por agulha grossa (BAG 14G) guiada por ultrassom ou ressonância magnética, ou biópsia excisional, para confirmação diagnóstica histopatológica e tipagem tumoral
+2. **Avaliação complementar:** Solicitação de estágio pré-operatório com TC de tórax, abdome e pelve para descartar metástases sistêmicas (protocolo oncológico)
+3. **Avaliação oncológica urgente:** Encaminhamento ao serviço de oncologia/cirurgia de mama para discussão diagnóstica e terapê

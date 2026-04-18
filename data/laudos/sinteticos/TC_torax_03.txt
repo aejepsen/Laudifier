@@ -1,0 +1,101 @@
+=== TC torax — Variante 3 ===
+Especialidade: radiologia
+Cenário: derrame pleural bilateral pequeno, consolidação em base direita
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA DE TÓRAX
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [__/__/____]  
+**Sexo:** [  ] Masculino [  ] Feminino  
+**Idade:** [___] anos  
+**Registro Hospitalar/PRONTUÁRIO:** [________________]  
+**Data do Exame:** [__/__/____]  
+**Hora do Exame:** [__:__]  
+
+---
+
+## DADOS DO EXAME
+
+**Modalidade:** Tomografia Computadorizada (TC) de Tórax  
+**Equipamento:** Tomógrafo multidetetor  
+**Protocolo:** Helicoidal com cortes axiais contígus (espessura de 1-2mm) do ápice pulmonar até base  
+**Meio de Contraste:** Sem contraste intravenoso  
+**Indicação Clínica:** [INDICAÇÃO CLÍNICA DESCRITA]  
+**Técnico Executor:** [NOME DO TÉCNICO]  
+**Médico Executor:** [NOME DO RADIOLOGISTA]  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Foram adquiridas imagens tomográficas do tórax no sentido craniocaudal, com o paciente em posição supina em apneia inspiratória, sem administração de contraste intravenoso. Os dados foram processados em cortes axiais contígus, com posterior reconstrução em planos coronal e sagital para melhor caracterização das estruturas. As imagens foram analisadas em janelas de parênquima pulmonar (largura 1500 HU, nível -500 HU) e mediastinal (largura 350 HU, nível 40 HU).
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Parênquima Pulmonar:
+
+**Pulmão Direito:**
+- Identificado consolidação do espaço aéreo localizada na região basal direita (segmento basal anterior e/ou posterior), apresentando densidade heterogênea com interface mal definida em relação ao tecido pulmonar adjacente.
+- A consolidação mede aproximadamente 3,5 x 2,8 cm em seus maiores diâmetros axial e craniocaudal.
+- Presença de broncograma aéreo no interior da área de consolidação.
+- Não se identificam calcificações, cavitações ou ar trapping associado.
+
+**Pulmão Esquerdo:**
+- Parênquima pulmonar com transparência preservada.
+- Não há áreas de consolidação, atelectasia ou opacidades nodulares.
+- Arquitetura vascular normal.
+
+### Pleura e Espaço Pleural:
+
+- **Derrame pleural bilateral pequeno:**
+  - Direito: Camada de efusão pleural medindo aproximadamente 8-10mm de espessura máxima, localizada em bases e recesso costo-frenicano.
+  - Esquerdo: Camada de efusão pleural medindo aproximadamente 7-9mm de espessura máxima, predominantemente em região basilar.
+- Ambos os derrames apresentam densidade próxima à água (densidade homogênea), compatível com transudato.
+- Não há septações, locules ou características que sugiram empiema.
+
+### Mediastino:
+
+- **Coração:** Silhueta cardíaca dentro dos limites normais de tamanho. Câmaras cardíacas com dimensões habituais.
+- **Grandes Vasos:** Aorta torácica com calibre preservado e paredes sem irregularidades. Sem dilatação de veias cavas.
+- **Tráqueia:** Pérvea, sem estenose.
+- **Brônquios principais:** Pérvios bilateralmente. Sem evidência de obstrução.
+- **Linfonodos:** Não há linfonodomegalia mediastinal ou hilar. Linfonodos mediastinais e hilares com tamanho normal.
+- **Esôfago:** Sem dilatação.
+
+### Estruturas Ósseas e de Partes Moles:
+
+- **Coluna vertebral torácica:** Corpos vertebrais com densidade normal, sem sinais de compressão ou colapso. Espaços discais com altura preservada.
+- **Arcos costais:** Íntegros, sem fraturas ou lesões líticas.
+- **Escápulas:** Simetricamente posicionadas e integras.
+- **Musculatura torácica:** Espessura normal, sem atrofia significativa.
+- **Paredes torácicas:** Sem achados significativos.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Consolidação do espaço aéreo em base pulmonar direita** (segmento basal), medindo aproximadamente 3,5 x 2,8 cm, com broncograma aéreo, sugestiva de processo pneumônico/inflamação aguda.
+
+2. **Derrame pleural bilateral pequeno**, de natureza transuditiva, sem evidência de complicações (empiema, loculação).
+
+3. **Coração e grandes vasos:** Sem alterações significativas detectadas nos limites deste estudo.
+
+4. **Linfonodos mediastinais e hilares:** Sem evidência de linfadenomegalia.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A tomografia computadorizada de tórax evidencia consolidação parenquimatosa localizada na base do pulmão direito, associada a derrame pleural bilateral discreto, sugestivo de processo inflamatório/infeccioso agudo.
+
+**Recomendações:**
+
+1. Correlação clínica com sintomatologia do paciente (febre, tosse, dispneia).
+2. Análise do quadro laboratorial (hemograma, proteína C reativa, procal

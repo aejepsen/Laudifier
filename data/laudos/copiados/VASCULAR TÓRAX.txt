@@ -1,0 +1,137 @@
+VASCULAR
+TÓRAX
+
+TEP : injeção 5ml /s - 18 G - 1 ml/kg - ROI na VCS - apneia sem Valsalva - cortes caudocranial
+
+Aorta torácica: ROI na aorta descendente. A varredura dos cortes deve ser realizada em sincronização ao ECG, que mitigará os efeitos do movimento cardíaco
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ABDOME VENOSO
+
+Tempo: Smart prep na VCI distal (abaixo das artéria renais) ou fase venosa 150 seg
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+MMSS ARTERIAL E VENOSA
+
+POSIÇÃO
+
+EXTREMIDADE DE INTERESSE ACIMA DA CABEÇA, MÃO VENTRAL E DEDOS ESTENDIDOS
+
+CAMPO
+
+CARINA ATÉ PONTA DOS DEDOS
+
+TEMPO
+
+BOLUS TRACKIN, TRIGGER NO ARCO AÓRTICO OU MANUAL IMEDIATAMENTE APÓS OPACIFICAÇÃO DA ARTÉRIA BRAQUIAL NO TERÇO MÉDIO DO BRAÇO
+
+QUANTIDADE E TAXA
+
+CONTRASTE 100-125 ML - 5 CC/S + SOLUCAO SALINA 40 ML - 4CC/S
+
+ESPESSURA CORTE
+
+1MM COM 0,7 MM INTERVALO DE RECONSTRUÇÃO
+
+PITCH
+
+VARIÁVEL
+
+OBS: FASE TARDIA (ESTUDO POUCO ACIMA DO COTOVELO ATÉ PONTA DOS DEDOS)
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+MMSS ARTERIAL E VENOSA (Sd Desfiladeiro)
+
+Posição: supino
+
+Aquisição com manobra de estresse: membro sintomático acima da cabeça com rotação externa e palma pra cima. Vire a cabeça para o lado contrário com elevação do queixo. Membro contrário para baixo.
+
+Aquisição neutra: membro sintomático para baixo e membro oposto acima da cabeça 
+
+Scan Range: arco aórtico até a região média entre o ombro e cotovelo do membro sintomático 
+
+Contraste 
+
+Acesso: 18 ou 20G no membro NÃO SINTOMÁTICO
+
+Dose: 140 ml (2x 70 ml - <100 kg) ou 160 ml (2x80ml - >100 kg)
+
+Flush: 50 ml salina 
+
+Taxa 4ml/seg
+
+4 aquisições (arterial e venoso em estresse e neutro) - verificar na história se necessário os tempos de arterial e venoso 
+
+Fase arterial (estresse): trigger arco aórtico (100 UH) - corte de 0,6-0,75 mm
+
+Fase venosa (estresse): delay 70 seg - corte 0,6-0,75 mm
+
+Fase arterial (neutro com inversão dos membros): trigger arco aórtico (100 UH) - corte de 0,6-0,75 mm
+
+Fase venosa (neutro com inversão dos membros): delay 70 seg - corte 0,6-0,75 mm
+
+Reformatações
+
+arterial stress
+
+Axial (thin) 0.6-0.75 mm soft tissue kernel (autoroute to TeraRecon) 
+
+Axial (not thin) 2-2.5 mm soft tissue kernel (autoroute to TeraRecon) 
+
+Coronal 2 x 2 mm soft tissue kernel 
+
+Sagittal 2 x 2 mm soft tissue kernel Coronal MIP 5 x 2 mm soft tissue kernel
+
+Venoso stress 
+
+Axial 0.6-0.75 mm soft tissue kernel 
+
+Arterial neutra 
+
+Axial (thin) 0.6-0.75 mm soft tissue kernel (autoroute to TeraRecon) 
+
+Axial (not thin) 2-2.5 mm soft tissue kernel (autoroute to TeraRecon) 
+
+Coronal 2 x 2 mm soft tissue kernel 
+
+Sagittal 2 x 2 mm soft tissue kernel
+
+Venoso neutra 
+
+Axial 0.6-0.75 mm soft tissue kernel
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+MMII 
+
+VENOSA INDIRETA
+
+Acesso periférico no membro superior.
+
+Tempo de aquisição usual: 120 - 150 seg pós injeção (fase venosa tardia). Se necessário, repetir com 180- 210 seg
+
+Se for feito na bomba utilizar tx de injeção de 3-4ml/s
+
+
+VENOSA DIRETA
+
+Uso de meia de compressão até a coxa no membro afetado. 
+
+Agulha calibre 21 em qualquer veia do pé. 
+
+Injeção de 100 mL de contraste iodado a 3 mL/segundo com um flash de solução salina de 30 mL 
+
+Varredura do meio da panturrilha até o diafragma
+
+Aquisição começa no fim da infusão 

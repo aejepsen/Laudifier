@@ -1,0 +1,103 @@
+=== Ecocardiograma transtorácico — Variante 3 ===
+Especialidade: cardiologia
+Cenário: insuficiência mitral moderada, fração de ejeção preservada (64%)
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ECOCARDIOGRAMA TRANSTORÁCICO
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [XX] anos  
+**Sexo:** [M/F]  
+**Prontuário:** [NÚMERO DO PRONTUÁRIO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]
+
+---
+
+## DADOS CLÍNICOS RELEVANTES
+
+Paciente encaminhado para avaliação cardiológica devido a [INDICAÇÃO CLÍNICA]. Refere [SINTOMAS ASSOCIADOS - dispneia aos esforços / sopro cardíaco detectado / palpitações]. Antecedentes: [COMORBIDADES RELEVANTES].
+
+---
+
+## TÉCNICA UTILIZADA
+
+Ecocardiograma transtorácico bidimensional com modo M e estudo Doppler (espectral e colorido), realizado com transdutor de 2-4 MHz. Avaliação realizada nas janelas paraesternal, apical e subcostal, em múltiplos planos. Foram obtidas imagens de boa qualidade técnica. O paciente encontrava-se em ritmo sinusal durante a execução do exame.
+
+---
+
+## ACHADOS DETALHADOS
+
+### Câmaras Cardíacas
+
+**Átrio Direito (AD):** Dimensões normais (área ≤ 20 cm²), sem sinais de sobrecarga volumétrica.
+
+**Ventrículo Direito (VD):** Dimensões normais (diâmetro basal ≤ 42 mm). Função sistólica preservada, com onda S' da parede livre estimada em 16 cm/s (normal). TAPSE 24 mm (normal).
+
+**Átrio Esquerdo (AE):** Dimensão aumentada, medindo 47 mm no eixo anteroposterior (volume indexado estimado em 38 mL/m² - moderadamente aumentado), secundário à insuficiência mitral crônica.
+
+**Ventrículo Esquerdo (VE):** Dimensões normais em diástole (53 mm) e sístole (33 mm). Septo interventricular e parede posterior com espessura normal (9 e 10 mm, respectivamente). Sem dilatação da câmara. Ausência de alterações de contratilidade segmentar visíveis.
+
+### Função Sistólica Ventricular Esquerda
+
+**Fração de Ejeção:** 64% (pelo método de Simpson bidimensional)  
+**Avaliação Qualitativa:** Função sistólica global preservada.  
+**Índice de Performance Miocárdico:** 0,38 (normal)
+
+### Valva Mitral
+
+**Estrutura:** Folhetos mitrais com aparência anatomicamente normal, sem espessamento, calcificação ou restrição de mobilidade. Sem evidência de prolapso mitral.
+
+**Insuficiência Mitral:** 
+- **Grau:** MODERADA
+- **Jato regurgitante:** Jato excêntrico posterior, ocupando aproximadamente 40-45% da área do átrio esquerdo em diástole
+- **Vena contracta:** 6,5 mm (moderada)
+- **Volume regurgitante:** Estimado em 45 mL por batimento
+- **Fração regurgitante:** Aproximadamente 35%
+
+**Gradiente Transmitral:** Velocidade em diástole inicial (onda E) de 1,2 m/s; onda A de 0,8 m/s; relação E/A de 1,5. Tempo de desaceleração de 220 ms (padrão de enchimento normal a ligeiramente lentificado).
+
+### Valva Aórtica
+
+**Estrutura:** Trivalvular, com aparência normal. Sem evidência de estenose ou regurgitação significativa. Ausência de calcificação.
+
+**Gradiente Aórtico:** Pico estimado em 15 mmHg (normal).
+
+### Valva Tricúspide
+
+**Estrutura:** Normal, sem sinais de endocardite ou vegetações.
+
+**Insuficiência Tricúspide:** LEVE (jato regurgitante ≤ 10 mm), secundária à dilatação moderada do anel (36 mm).
+
+**Pressão Sistólica do Ventrículo Direito (PSVD):** Estimada em 42 mmHg (normal a ligeiramente elevada), calculada pela velocidade máxima de insuficiência tricúspide (2,9 m/s) + pressão venosa central estimada.
+
+### Pericárdio
+
+Sem derrame pericárdico. Espessura normal. Sem aderências.
+
+### Aorta
+
+**Diâmetro da raiz aórtica:** 35 mm (normal). Sem sinais de dissecção, dilatação aneurismática ou outras anormalidades.
+
+---
+
+## ACHADOS ADICIONAIS
+
+**Vena Cava Inferior:** Calibre normal, com adequada variação respiratória.
+
+**Fluxo Pulmonar:** Padrão bifásico normal nas veias pulmonares direitas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Insuficiência mitral moderada**, com jato excêntrico posterior, secundária a degeneração valvular (provável etiologia reumática antiga ou degenerativa-fibroelástica).
+
+2. **Fração de ejeção do ventrículo esquerdo preservada** (64%), sem alterações de contratilidade segmentar.
+
+3. **Remodelamento atrial** com aumento moderado do átrio esquerdo, compatível com sobrecarga volumétrica crônica pela insuficiência

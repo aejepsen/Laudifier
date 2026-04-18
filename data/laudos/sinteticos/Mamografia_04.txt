@@ -1,0 +1,121 @@
+=== Mamografia — Variante 4 ===
+Especialidade: radiologia
+Cenário: assimetria focal na mama esquerda — BIRADS 0, complementar com US
+Fonte: sintético — gerado por Claude
+
+# LAUDO MÉDICO - RADIOLOGIA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [XX] anos  
+**Sexo:** Feminino  
+**Prontuário/RG:** [NÚMERO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+
+**Exame:** Mamografia Bilateral (Rastreamento/Diagnóstico)  
+**Equipamento:** Mamógrafo Digital [MARCA/MODELO]  
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+**Clínica/Hospital:** [INSTITUIÇÃO]  
+
+---
+
+## QUEIXA CLÍNICA
+
+Assimetria focal na mama esquerda detectada em exame prévio. Paciente assintomática.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Mamografia digital bilateral com incidências padrão (craniocaudal e oblíqua mediolateral em ambas as mamas). Imagens de qualidade diagnóstica adequada. Não foram necessárias compressões focalizadas durante o exame. Dose de radiação dentro dos padrões de otimização recomendados.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### MAMA DIREITA:
+- **Densidade parenquimatosa:** Tipo B (heterogeneamente densa)
+- **Textura:** Fibroglandular distribuído uniformemente
+- **Simetria:** Mantida em relação ao lado esquerdo
+- **Achados específicos:** 
+  - Sem nodulações, distorções arquiteturais ou microcalcificações suspeitas
+  - Sem derrame pleural ou alterações da parede torácica
+  - Cicatrizes vasculares normais
+
+### MAMA ESQUERDA:
+- **Densidade parenquimatosa:** Tipo B (heterogeneamente densa)
+- **Textura:** Fibroglandular com distribuição prevalentemente lateral
+- **Achado principal:** 
+  - Assimetria focal de densidade identificada na região lateral média da mama esquerda, medindo aproximadamente 18 x 15 mm
+  - Contornos pouco definidos, aspecto ligeiramente denso
+  - Sem microcalcificações associadas em incidência craniocaudal
+  - Visibilização presente apenas na incidência craniocaudal e parcialmente na oblíqua mediolateral esquerda
+  - Não identificada claramente na incidência craniocaudal contralateral
+
+### ASPECTOS ADICIONAIS:
+- Pele de espessura normal, sem retrações ou alterações
+- Reflexos areolares preservados bilateralmente
+- Axilas sem linfadenopatia aparente
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Assimetria focal de densidade na mama esquerda (região lateral média), medindo aproximadamente 18 x 15 mm, com contornos pouco definidos. Achado de caracterização incompleta não permitindo descartar lesão sólida subjacente.
+
+**Classificação BI-RADS: 0 (Necessário exame complementar)**
+
+Recomenda-se ultrassom das mamas para melhor caracterização desta assimetria e definição de natureza (se fibroglandular assimétrica ou lesão focal).
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+1. **Achado principal:** Assimetria focal de densidade na mama esquerda que requer caracterização ultrassonográfica complementar.
+
+2. **Classificação Final:** BI-RADS 0 - Exame incompleto, necessário complementação diagnóstica.
+
+3. **Recomendações:**
+   - Ultrassom de mamas bilaterais com ênfase na região lateral média da mama esquerda para avaliação da assimetria identificada
+   - Ultrassom deverá ser realizado preferencialmente no mesmo período menstrual ou em até 2 semanas
+   - Correlação clínica com palpação e história da paciente recomendada
+   - Seguimento conforme orientação do radiologista após realização do ultrassom
+
+4. **Próximas etapas:**
+   - Realizar ultrassom complementar
+   - Reavaliação após resultado do exame complementar
+   - Se confirmada lesão focal suspeita, prosseguir com protocolo de investigação apropriado (possível ressonância magnética, biópsia ou seguimento radiológico conforme achados ultrassonográficos)
+
+5. **Período de validade:** Este laudo deve ser discutido com a paciente e o médico solicitante. Recomenda-se realização do exame complementar em até 15 dias.
+
+---
+
+## ASSINATURA
+
+```
+___________________________________________
+Dr(a). [NOME COMPLETO]
+CRM: [NÚMERO] - UF: [UF]
+Especialidade: Radiologia e Diagnóstico por Imagem
+RQE: [NÚMERO] (se residente)
+Cadastro na CBR (Colégio Brasileiro de Radiologia)
+
+Data: [DD/MM/AAAA]
+Hora: [HH:MM]
+```
+
+**Carimbo ou Assinatura Digital:** [ESPAÇO PARA SELO/CARIMBO]
+
+---
+
+## OBSERVAÇÕES IMPORTANTES
+
+- Este laudo foi emitido com base nas imagens obtidas na data do exame
+- A interpretação baseia-se nos critérios BI-RADS (Breast Imaging Reporting and Data System)
+- Recomenda-se arquivo de cópia em prontuário médico
+- Paciente deve receber orientações por escrito quanto à necessidade de complementação diagnóstica

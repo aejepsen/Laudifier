@@ -1,0 +1,98 @@
+=== US abdome total — Variante 3 ===
+Especialidade: radiologia
+Cenário: esplenomegalia leve (14 cm), sem lesões focais esplênicas
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA ABDOMINAL
+
+---
+
+## DADOS DO PACIENTE
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [XX] anos  
+**Registro:** [RG/CPF/Nº PRONTUÁRIO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]
+
+---
+
+## DADOS DO EXAME
+
+**Modalidade:** Ultrassonografia  
+**Região Examinada:** Abdome Total  
+**Equipamento:** Aparelho de ultrassom com transdutores de 2,0 a 5,0 MHz  
+**Médico Responsável:** [NOME - CRM - UF]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Estudo ultrassonográfico completo do abdome superior e inferior realizado com transdutor setorial e linear de frequências apropriadas, em planos longitudinais e transversais, avaliando-se sistematicamente fígado, vias biliares, pâncreas, baço, rins, bexiga, aorta abdominal e peritônio. Paciente em jejum relativo no momento do exame, em posição supina e em decúbito lateral direito quando necessário.
+
+---
+
+## ACHADOS
+
+### **FÍGADO:**
+Apresenta volume normal com contorno regular. Ecotextura homogênea, sem lesões focais em seu interior. Borda anterior afilada. Não há dilatação de vias biliares intra-hepáticas. Calibre do colédoco dentro dos limites normais (< 6 mm). Sistema vascular hepático pérvio, com fluxo hepatopetal mantido.
+
+### **VESÍCULA BILIAR:**
+Forma globosa, paredes finas e imperceptíveis. Não demonstra conteúdo no interior. Não são visualizadas imagens sugestivas de cálculos ou tumefação das paredes. Ducto cístico pérvio.
+
+### **PÂNCREAS:**
+Glândula de dimensões normais, com contorno regular. Ecotextura homogênea, sem dilatação do ducto pancreático (< 3 mm). Não há evidência de lesões focais ou coleções.
+
+### **BAÇO:**
+Órgão aumentado em volume. Dimensão ântero-posterior de aproximadamente **14 cm** (normal: até 11 cm), caracterizando esplenomegalia leve. Contorno regular e convexo. Ecotextura homogênea, mantendo características de parênquima normal sem áreas de heterogeneidade. **Não são identificadas lesões focais no parênquima esplênico, coleções líquidas, ou outras alterações estruturais.** Hilo esplênico pérvio ao fluxo doppler.
+
+### **RINS:**
+Rins de dimensões e forma normais bilateralmente. Ecotextura preservada. Sem dilatação de sistemas colectores. Não há evidência de litíase, massas ou cistos renais. Fluxo arterial renal mantido.
+
+### **BEXIGA:**
+Bexiga com parede fina, distensão normal. Não há imagens sugestivas de cálculos, tumefações parietal ou detritos no interior.
+
+### **AORTA ABDOMINAL:**
+Calibre normal (< 25 mm), com fluxo laminar mantido ao doppler. Paredes sem alterações significativas.
+
+### **PERITÔNIO:**
+Sem evidência de ascite ou coleções líquidas intra-abdominais.
+
+### **ACHADOS ADICIONAIS:**
+Sem outras alterações significativas nos órgãos avaliados.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Esplenomegalia leve**, com baço medindo 14 cm de diâmetro ântero-posterior;
+2. Parênquima esplênico **sem lesões focais**, com ecotextura homogênea;
+3. Demais órgãos abdominais **sem alterações relevantes**.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Ultrassonografia abdominal total demonstra esplenomegalia leve sem lesões focais esplênicas. Os achados podem estar associados a diversas condições clínicas (infecções virais, hemólise, processos inflamatórios, hemopatias, cirrose hepática compensada ou outras etiologias). 
+
+**Recomenda-se:**
+- Correlação clínica com dados laboratoriais (hemograma, provas de função hepática, enzimas pancreáticas);
+- Avaliação de marcadores virais se indicado clinicamente;
+- Acompanhamento clínico periódico;
+- Repetição do exame ultrassonográfico em caso de progressão dos sintomas ou alterações laboratoriais significativas.
+
+---
+
+## ASSINATURA
+
+**Médico Responsável:** _________________________________  
+**Nome (legível):** _________________________________  
+**CRM:** _________________________ **UF:** _________  
+**Data:** _____/_____/________  
+**Hora:** ___:___ h
+
+---
+
+**Obs.:** Este laudo é documento médico confidencial destinado ao paciente e sua equipe assistencial.

@@ -1,0 +1,114 @@
+=== Endoscopia digestiva alta — Variante 4 ===
+Especialidade: gastroenterologia
+Cenário: esôfago de Barrett — segmento curto 2 cm, biópsia sem displasia
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ENDOSCOPIA DIGESTIVA ALTA
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [IDADE] anos  
+**Sexo:** [M/F]  
+**Registro/Prontuário:** [Nº DO PRONTUÁRIO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Procedimento:** [HH:MM]  
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Especialidade:** Gastroenterologia  
+**Tipo de Procedimento:** Endoscopia Digestiva Alta (EDA)  
+**Indicação Clínica:** [Vigilância de esôfago de Barrett / Acompanhamento de DRGE com sintomas de alarme / Outro:]  
+**Anestesia/Sedação:** Anestesia local com spray de lidocaína a 10% + Sedação consciente com [MEDICAÇÃO]  
+**Médico Responsável:** Dr(a). [NOME COMPLETO]  
+**CREMESP/Conselho:** [Nº DE REGISTRO]  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Procedimento realizado sob sedação consciente com monitoramento contínuo de saturação de oxigênio, frequência cardíaca e pressão arterial. Utilizou-se endoscópio de visão frontal de alta definição com sistema de magnificação óptica. O esôfago foi inspecionado sistematicamente em sua extensão. Identificado segmento com mucosa de aspecto colunar na transição esôfago-gástrica. Foram colhidas biópsias múltiplas (n=4) do segmento alterado, sendo encaminhadas para análise histopatológica.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**ESÔFAGO:**
+- Esôfago proximal e médio com mucosa estratificada escamosa de aspecto normal, sem lesões, úlceras ou áreas de estenose.
+- Esôfago distal: Identificado segmento com mucosa de aspecto avermelhado, aterciopelado, de características colunar, estendendo-se por aproximadamente **2 cm acima da junção esofagogástrica**.
+- A transição entre a mucosa escamosa normal e a mucosa colunar é bem demarcada.
+- Endoscópica compatível com **esôfago de Barrett, segmento curto**.
+- Sem sinais de ulceração, erosão ou estenose no segmento alterado.
+- Sem evidências de displasia de alto grau ao exame endoscópico.
+
+**JUNÇÃO ESOFAGOGÁSTRICA:**
+- Posição: Identificada claramente a transição Z (junção escamo-colunar).
+- Cárdia presente com anatomia preservada.
+
+**ESTÔMAGO:**
+- Fundo gástrico com mucosa de aspecto normal, sem lesões.
+- Corpo gástrico com mucosa normocorada, sem ulcerações ou áreas de gastrite.
+- Antro gástrico com mucosa normal.
+- Grande curvatura e pequena curvatura sem alterações.
+- Piloro pérvio.
+
+**DUODENO:**
+- Primeira porção duodenal com mucosa de aspecto normal.
+- Segunda porção duodenal visualizada parcialmente, sem alterações evidentes.
+
+**OBSERVAÇÕES ADICIONAIS:**
+- Presença de refluxo biliar mínimo ao nível gástrico.
+- Sem sangramento ativo.
+- Sem varizes esofágicas.
+
+---
+
+## BIÓPSIA
+
+**Material colhido:** Fragmentos de mucosa do segmento columnar do esôfago distal (4 amostras)  
+**Sítio:** Esôfago distal, segmento com metaplasia intestinal  
+**Destino:** Análise histopatológica
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Esôfago de Barrett, segmento curto (< 3 cm)**
+   - Extensão: 2 cm acima da junção esofagogástrica
+   - Classificação: Segmento curto (SSBE - Short Segment Barrett's Esophagus)
+
+2. **Ausência de displasia ao exame histopatológico** (Resultado de biópsia: Metaplasia intestinal intestinal sem atipia/displasia)
+
+3. **Refluxo gastroesofágico com complicação - Barrett**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+### Achados Principais:
+Presença de esôfago de Barrett com segmento curto de 2 cm, confirmado por biópsias que demonstram mucosa cilíndrica metaplásica **sem displasia**.
+
+### Classificação de Risco:
+- Risco moderado de progressão para displasia ou adenocarcinoma
+- Necessária vigilância endoscópica periódica
+
+### Recomendações:
+
+1. **Terapia Farmacológica:**
+   - Manutenção de inibidor de bomba de prótons (IBP) em dose plena diariamente
+   - Sugerir omeprazol 20 mg 2x/dia ou equivalente
+   - Considerar estudo de pH-metria/impedanciometria se sintomas persistirem
+
+2. **Vigilância Endoscópica:**
+   - **Próxima endoscopia:** em 12 meses (dentro de um ano)
+   - Colher biópsias a cada 2 cm do segmento de Barrett e da transição esofagogástrica
+   - Caso não haja displasia em vigilância inicial, considerar intervalos de 2-3 anos após confirmação
+
+3. **Modificações do Estilo de Vida:**
+   - Evitar alimentos ácidos e gordurosos
+   -

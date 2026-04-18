@@ -1,0 +1,116 @@
+=== US pelvica feminina — Variante 3 ===
+Especialidade: radiologia
+Cenário: cisto simples no ovário direito, 4 cm
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA
+
+---
+
+## DADOS DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [XX] anos  
+**Sexo:** Feminino  
+**Registro/Prontuário:** [NÚMERO DO PRONTUÁRIO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Tipo de Exame:** Ultrassonografia Pélvica Feminina  
+**Equipamento:** Ultrassom de Tempo Real com transdutor convexo multifrequencial  
+**Frequência Utilizada:** 3.5-5.0 MHz (sonda transabdominal)  
+**Médico Responsável:** [NOME DO RADIOLOGISTA]  
+**CREMESP/CRM:** [NÚMERO DO REGISTRO]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[INDICAÇÃO CLÍNICA FORNECIDA PELO SOLICITANTE]
+
+---
+
+## TÉCNICA
+
+Realizado exame ultrassonográfico pélvico feminino com transdutor convexo multifrequencial de 3.5-5.0 MHz por via transabdominal. Paciente em decúbito dorsal com bexiga repleta para melhor visualização das estruturas pélvicas. Foram obtidas imagens nos planos longitudinal e transversal, com avaliação dinâmica das estruturas anatômicas pélvicas.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**Útero:** Apresenta dimensões normais, medindo aproximadamente 7,2 x 4,5 x 5,0 cm. Miométrio homogêneo, sem focos de heterogeneidade ou massas. Endométrio de aspecto habitual com espessura dentro dos limites normais ([XX] mm). Posição antevertida. Sem alterações detectadas.
+
+**Ovário Esquerdo:** Forma e ecogenicidade normais. Dimensões aproximadamente 3,0 x 1,8 x 2,2 cm. Volume estimado em 6,5 cm³, dentro dos limites esperados para a idade. Sem formações císticas ou sólidas significativas.
+
+**Ovário Direito:** Identificam-se dimensões aumentadas, medindo aproximadamente 4,5 x 4,2 x 3,8 cm. Volume estimado em aproximadamente 34 cm³. Visualiza-se formação cística bem delimitada, anecoica, medindo 4,0 x 3,8 x 3,5 cm, com volume aproximado de 25 cm³. A lesão apresenta:
+
+- **Morfologia:** Redonda a ovalada
+- **Ecogenicidade:** Anecoica (simples)
+- **Paredes:** Delgadas e regulares
+- **Septações:** Ausentes
+- **Ecos internos:** Não identificados
+- **Reforço posterior:** Presente
+- **Calcificações:** Ausentes
+- **Mobilidade:** Móvel à compressão dinâmica
+
+Não há sinais de torção ou hemorrragia. Não há características de malignidade pelos critérios de IOTA-ADNEX.
+
+**Ligamentos Uterinos:** Ovários não se encontram em posição anômala.
+
+**Ligamento Largo e Estruturas Anexiais:** Sem alterações detectadas.
+
+**Cavidade Pélvica:** Sem líquido livre significativo. Sem massas ou formações anômalas nas estruturas pélvicas.
+
+**Bexiga:** Repleta, contorno regular, paredes não espessadas.
+
+**Observações Técnicas:** Exame realizado com boa qualidade técnica. Excelente janela acústica.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Cisto ovariano simples direito** medindo aproximadamente 4,0 cm, com características benign compatíveis com cisto funcional.
+
+2. Aumento do volume do ovário direito secundário à presença da formação cística.
+
+3. Restante da avaliação pélvica dentro dos limites normais.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Ultrassonografia pélvica evidencia **cisto simples no ovário direito** com 4,0 cm de diâmetro máximo, apresentando características ultrassonográficas beninas. O achado é compatível com cisto funcional e não apresenta sinais de suspeita de malignidade.
+
+**Recomendações:**
+
+- Acompanhamento clínico conforme orientação do médico assistente.
+- Ultrassonografia pélvica de controle em 6-8 semanas para avaliação da involução espontânea da lesão (recomendação conforme diretrizes de seguimento de cistos ovarianos simples).
+- Caso haja persistência ou aumento da lesão após este período, ou desenvolvimento de sintomas (dor pélvica, alterações do ciclo menstrual), solicitar avaliação complementar e reavaliação radiológica.
+- Não há indicação de investigação adicional ou intervenção no momento.
+
+---
+
+## ASSINATURA E AUTORIZAÇÃO
+
+Laudo analisado e aprovado pelo médico radiologista responsável.
+
+---
+
+**Dr(a). [NOME COMPLETO DO RADIOLOGISTA]**  
+Especialista em Radiologia e Diagnóstico por Imagem  
+CRM/CREMESP: [NÚMERO DO REGISTRO]  
+RQE: [NÚMERO DA QUALIFICAÇÃO PROFISSIONAL]  
+
+**Assinatura:** ___________________________  
+
+**Data:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]  
+
+---
+
+*Este laudo foi emitido em conformidade com as normas técnicas da

@@ -1,0 +1,92 @@
+=== Cintilografia ossea — Variante 2 ===
+Especialidade: medicina_nuclear
+Cenário: múltiplos focos de hipercaptação — compatíveis com metástases ósseas
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE MEDICINA NUCLEAR
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [___] anos  
+**Prontuário:** [_______________]  
+
+**Exame:** Cintilografia Óssea de Corpo Inteiro  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Equipamento:** Câmara Gama Dual-Head com colimador de baixa energia  
+**Radioisótopo:** Tecnécio-99m MDP (Difosfonato de Metileno)  
+**Atividade Injetada:** 25 mCi (925 MBq)  
+**Via de Administração:** Intravenosa  
+**Tempo de Aquisição:** 3 horas pós-injeção  
+
+**Clínica Apresentada:** [Suspeita de doença metastática óssea / Oncologia / Câncer de _______ com estadiamento]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizada cintilografia óssea de corpo inteiro após injeção intravenosa de 25 mCi de Tecnécio-99m MDP. O radiofármaco foi administrado por via endovenosa periférica, com confirmação de injeção adequada. Realizou-se aquisição de imagens em projeção anterior e posterior de corpo inteiro, seguida de aquisições estáticas de áreas específicas de interesse. Não foram utilizados métodos de correção de atenuação. O paciente foi posicionado em decúbito dorsal em maca de aquisição apropriada, mantendo-se imobilidade durante os procedimentos.
+
+---
+
+## ACHADOS
+
+### Descrição Detalhada das Imagens:
+
+**Distribuição fisiológica normal:**
+- Captação difusa simétrica nas estruturas ósseas do esqueleto axial (coluna vertebral, costelas, bacia e esterno).
+- Captação adequada nas articulações de ombro, cotovelo e joelho, com padrão de distribuição homogêneo.
+- Atividade normal em órgãos moles: captação renal e vesical dentro dos limites esperados.
+- Esvaziamento vesical preservado.
+
+### Achados Patológicos:
+
+**Múltiplos focos de hipercaptação:** Identificam-se diversos focos de captação aumentada do radiofármaco distribuídos pelo esqueleto, de padrão focal a moderadamente focal:
+
+1. **Coluna Vertebral:** Hipercaptação em corpos vertebrais de T5, T8, L2, L4 e L5, com padrão focal bem delimitado, sugestivo de envolvimento metastático.
+
+2. **Bacia:** Múltiplos focos de hipercaptação bilaterais distribuídos em:
+   - Ala ilíaca direita
+   - Asa ilíaca esquerda
+   - Articulação sacroilíaca esquerda
+   - Região acetabular bilateral
+
+3. **Costelas:** Hipercaptação em múltiplas costelas bilaterais (3ª, 5ª, 7ª e 9ª costelas à direita; 4ª, 6ª e 8ª à esquerda).
+
+4. **Fêmur proximal:** Hipercaptação focal em região trocantérica bilateral, mais evidente à esquerda.
+
+5. **Tíbia proximal:** Pequeno foco de hipercaptação em plateau tibial direito.
+
+**Características dos focos:**
+- Padrão de captação aumentada em relação ao osso normal circunjacente
+- Distribuição não uniforme, sugestiva de processo patológico focal
+- Ausência de padrão linear ou linear-focal que pudesse sugerir artefatos técnicos
+
+**Outros achados:**
+- Sem hipercaptação significativa em partes moles que sugerisse complicações de extravasamento ou outras anormalidades.
+- Sem evidência de defeito ósseo (ausência de "fotopénia" significativa).
+- Distribuição de captação bilateralmente assimétrica em algumas áreas, reforçando caráter patológico.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Cintilografia óssea compatível com **múltiplas metástases ósseas** distribuídas em localização esquelética variegada, incluindo coluna vertebral, bacia, costelas e ossos longos. O padrão multifocal e bilateral, associado ao aumento focal de captação, é altamente sugestivo de doença metastática avançada.
+
+Os achados são indicativos de estadiamento metastático ósseo (M1b) e demandam avaliação complementar com ressonância magnética de coluna para definição de envolvimento de partes moles adjacentes e possível compressão medular.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+1. **Confirmação Diagnóstica:** Os achados são altamente compatíveis com metástases ósseas multifocais. Recomenda-se correlação clínica e laboratorial com níveis de fosfatase alcalina e marcadores tumorais.
+
+2. **Investigação Complementar:**
+   - Ressonância magnética de coluna vertebral (RM de coluna lombar e torácica) para avaliação de possível compressão medular e envolvimento de partes moles.
+   - Tomografia computadorizada de tórax, abdômen e pelve para complementação do estadiamento oncológico.
+   - Dosagem de CTX (telopeptídeo C terminal do colágeno tipo I) e P1NP (propeptídeo N terminal do pró-colágeno tipo I) para avali

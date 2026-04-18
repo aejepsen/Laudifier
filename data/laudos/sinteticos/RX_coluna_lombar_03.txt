@@ -1,0 +1,109 @@
+=== RX coluna lombar — Variante 3 ===
+Especialidade: radiologia
+Cenário: escoliose lombar de 18 graus, Cobb
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## DADOS DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Idade/Data de Nascimento:** [IDADE] anos / [DD/MM/AAAA]  
+**Sexo:** [MASCULINO / FEMININO]  
+**Prontuário/RG:** [NÚMERO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Solicitante:** [NOME DO MÉDICO SOLICITANTE]  
+**CRM:** [NÚMERO]
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Modalidade:** Radiografia Digital Convencional  
+**Região de Interesse:** Coluna Vertebral Lombar  
+**Incidências Realizadas:** 
+- Radiografia em Posição Anteroposterior (AP)
+- Radiografia em Posição Lateral (Perfil)
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizado exame radiográfico da coluna lombar em incidências anteroposterior e lateral, com o paciente em posição ereta. Foram utilizados parâmetros técnicos apropriados, com adequada penetração e contraste. O campo de visão abrange as vértebras de L1 a S1, incluindo articulações sacroilíacas bilateralmente. Não foram utilizados meios de contraste.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**Análise da Configuração Vertebral:**
+- As vértebras lombares apresentam alturas normais, sem sinais de colapso ou fragmentação.
+- Os platôs vertebrais apresentam contornos íntegros, sem evidência de osteófitos marginais significativos.
+- Os espaços discais demonstram altura preservada de L1 a L5, com discreta redução em L4-L5.
+
+**Análise do Alinhamento Sagital:**
+- A lordose fisiológica lombar encontra-se mantida.
+- Não há anterolistese ou retrolistese significativa em nível algum.
+
+**Análise do Alinhamento Coronal:**
+- Identifica-se **desvio lateral da coluna lombar com concavidade à [DIREITA/ESQUERDA]**, caracterizando escoliose de padrão lombar.
+- Realizada mensuração do ângulo de Cobb entre as vértebras [INDICAR NÍVEIS, ex.: L1 e L4], obtendo-se **medida de 18 graus**, configurando escoliose de grau leve.
+- Análise de rotação vertebral evidencia discreta rotação das vértebras apicais.
+
+**Análise de Espaços Articulares:**
+- As facetas articulares posteriores bilateralmente apresentam alinhamento adequado, sem evidência de artropatia significativa.
+- Os forames intervertebrais encontram-se pérvios em todos os níveis.
+
+**Análise dos Tecidos Moles:**
+- Silhueta cardíaca e diafragmas íntegros.
+- Sem evidência de massa de partes moles ou alterações significativas.
+
+**Análise de Outras Estruturas:**
+- Articulações sacroilíacas apresentam alinhamento normal.
+- Base sacra integra, sem alterações evidentes.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Escoliose Lombar Leve** – Ângulo de Cobb de 18 graus com concavidade à [DIREITA/ESQUERDA], de padrão simples tipo lombar.
+
+2. **Lordose Fisiológica Mantida** – Alinhamento sagital preservado sem sinais de cifose anormal.
+
+3. **Discreta Redução de Altura Discal em L4-L5** – Compatível com degeneração discal incipiente, sem colapso vertebral associado.
+
+4. **Forame Intervertebrais Pérvios** – Sem estenose significativa em qualquer nível.
+
+5. **Sem Outras Alterações Significativas** – Não há evidência de fraturas, lispondese, síndrome espondilolítica ou afecções ósseas secundárias.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Exame radiográfico da coluna lombar revelando **escoliose de grau leve (18° de Cobb)** com padrão típico de deformidade lombar. A magnitude da curvatura situa-se dentro do grupo de escoliose leve (10-25°), não requerendo intervenção cirúrgica no momento. As alterações degenerativas discais são mínimas e compatíveis com o padrão etário.
+
+**Recomendações:**
+
+- Seguimento clínico periódico com reavaliação radiográfica em **6 a 12 meses** para monitorar progressão da deformidade, particularmente se paciente encontra-se em fase de crescimento.
+- Reforço de medidas de higiene postural, fisioterapia e fortalecimento da musculatura paravertebral.
+- Evitar atividades que sobrecarreguem excessivamente a coluna lombar.
+- Avaliação clínica seriada quanto ao aparecimento de sintomatologia ou alterações do padrão de crescimento.
+- Caso haja sintomas neurológicos associados, considerar investigação complementar com ressonância magnética.
+
+---
+
+## RESPONSABILIDADE TÉCNICA
+
+**Tecnólogo em Radiologia:** [NOME - CREFITO Nº]
+
+---
+
+## ASSINATURA DO RADIOLOGISTA
+
+**Médico Radiologista:**  
+**Nome:** [NOME COMPLETO]  
+**CRM:** [NÚMERO/UF]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Registro no CREMESP/Conselho Regional:** [NÚMERO]

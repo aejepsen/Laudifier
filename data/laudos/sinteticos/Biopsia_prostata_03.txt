@@ -1,0 +1,114 @@
+=== Biopsia prostata — Variante 3 ===
+Especialidade: patologia
+Cenário: biópsia de próstata — adenocarcinoma Gleason 4+5=9, alto grau
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ANATOMIA PATOLÓGICA
+
+---
+
+## DADOS DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [__/__/____]  
+**Idade:** [___] anos  
+**Sexo:** Masculino  
+**RG/CPF:** [_________________]  
+**Prontuário:** [_________________]  
+
+---
+
+## DADOS DO EXAME
+
+**Tipo de Exame:** Biópsia de Próstata  
+**Data da Coleta:** [__/__/____]  
+**Data do Recebimento:** [__/__/____]  
+**Data do Laudo:** [__/__/____]  
+**Material Recebido:** 12 fragmentos de tecido prostático  
+**Fixador:** Formalina 10%  
+**Médico Solicitante:** [NOME DO UROLOGISTA]  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Foram processados 12 fragmentos de tecido prostático obtidos por biópsia ecoguiada transretal. Os espécimes foram fixados em formalina tamponada 10%, processados em equipamento de inclusão automática e inclusos em blocos de parafina. Secções histológicas de 4 micrômetros foram coradas pela técnica de Hematoxilina-Eosina (HE) e analisadas ao microscópio óptico de luz.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**Macroscopia:**  
+12 fragmentos fibromusculares esbranquiçados de próstata, medindo entre 0,5 e 1,5 cm de comprimento.
+
+**Microscopia:**
+
+### Hallazgos Neoplásicos:
+
+Identifica-se **adenocarcinoma acinar de próstata** acometendo **8 dos 12 fragmentos biópsiados** (66,7% de positividade). O adenocarcinoma apresenta os seguintes aspectos:
+
+**Padrão de Gleason:**
+- **Padrão Primário (Gleason 4):** Predomínio de glândulas com contorno irregular, fusionadas, com distribuição desordenada. Mucosa neoplásica infiltrativa apresentando fusão glandular significativa, perda parcial de arquitetura glandular normal.
+
+- **Padrão Secundário (Gleason 5):** Componente agressivo identificado em áreas focais com ablação completa da diferenciação glandular, apresentando:
+  - Crescimento em ninhos e cordões sólidos de células tumorais
+  - Ausência de diferenciação glandular
+  - Cribriformes destrutivos com necrose central focal
+  - Invasão estromal intensa
+
+**Escore de Gleason:** 4 + 5 = **9** (Grupo de Risco: MUITO ALTO)
+
+**Características Histológicas Adicionais:**
+- Invasão perineural presente em múltiplos fragmentos
+- Infiltração extensa da musculatura lisa periprostática
+- Índice mitótico elevado
+- Celularidade aumentada com pleomorfismo nuclear moderado a acentuado
+- Citoplasma escasso, cromatina grosseira
+
+**Margens:**  
+Não foi possível avaliar margens cirúrgicas pela natureza da biópsia.
+
+**Tecido Adjacente:**  
+Hiperplasia benigna prostática concomitante em focos isolados. Sem evidências de inflamação aguda significativa.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Adenocarcinoma acinar de próstata, padrão Gleason 4+5=9**
+
+- Tipo histológico: Adenocarcinoma convencional
+- Escore de Gleason: 9/10 (Grupo de Risco: MUITO ALTO segundo NCCN 2024)
+- Extensão: Multifocal (8 fragmentos positivos)
+- Invasão perineural: Presente
+- Variante histológica: Não identificada
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Confirma-se diagnóstico de **adenocarcinoma de próstata de alto grau (Gleason 9)**, caracterizando-se como neoplasia agressiva de comportamento biológico muito desfavorável.
+
+**Recomendações Clínicas:**
+
+1. **Estadiamento Completo:** Recomenda-se realização de ressonância magnética de próstata multiparamétrica (mpRM) para melhor avaliação local e detecção de possível invasão extraprostática.
+
+2. **Investigação de Metástases:** Rastreamento de metástases distantes através de cintilografia óssea (método preferencial) ou PET-CT 18F-fluorocolina conforme disponibilidade institucional.
+
+3. **Testes Genômicos:** Considerar realização de testes genômicos (Oncotype DX Genomic Prostate Score ou análise molecular) para refinar estratificação de risco e prognóstico.
+
+4. **Encaminhamento Multidisciplinar:** Encaminhamento urgente para avaliação urologista/oncologista para discussão de opções terapêuticas, incluindo:
+   - Prostatectomia radical com linfadenectomia pélvica estendida
+   - Radioterapia externa com braquiterapia
+   - Terapia hormonal neoadjuvante
+
+5. **Seguimento PSA:** Monitoramento rigoroso de PSA sérico conforme protocolo instituído.
+
+---
+
+## OBSERVAÇÕES ADICIONAIS
+
+- Material adequado para diagnóstico
+- Diagnóstico de malignidade confirmado
+- A graduação de Gleason foi realizada de acordo com os critérios da International Society of Urological Pathology (ISUP 2019)
+- Classificação TNM: Para estadiamento completo, aguardar resultados

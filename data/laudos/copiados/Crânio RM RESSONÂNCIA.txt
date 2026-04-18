@@ -1,0 +1,97 @@
+Crânio (RM)
+RESSONÂNCIA MAGNÉTICA DO CRÂNIO
+
+TÉCNICA
+
+Exame realizado com sequências ecogradiente, T1, T2, FLAIR e difusão. 
+
+Planos de cortes múltiplos, orientados conforme os planos longitudinal e ortogonal dos lobos temporais.
+
+Obtidas também sequências em T1 SE e FSE após a administração endovenosa do agente de contraste paramagnético (gadolínio).
+
+Realizada sequência volumétrica 3D - SPGR, com reformatações multiplanares.
+
+RELATÓRIO
+
+Sistema ventricular de formas e dimensões dentro da normalidade.
+
+Sulcos e fissuras encefálicas sem alterações.
+
+Parênquima encefálico de morfologia e sinal normais.
+
+Hipocampos, núcleos amigdaloides, colunas dos fórnices e corpos mamilares têm morfologia simétrica e sinal normal.
+
+Tronco cerebral e cerebelo com morfologia e intensidade de sinal usuais.
+
+Sinal de fluxo habitual das grandes artérias dos sistemas vertebrobasilar e carotídeo, pela análise das sequências convencionais.
+
+A sequência de difusão não demonstra áreas de restrição a movimentação livre das moléculas de água.
+
+A administração do agente paramagnético não evidenciou focos de impregnação anômala.
+
+OPINIÃO
+
+Ressonância magnética do encéfalo dentro da normalidade.
+
+
+TÉCNICAS AVANÇADAS
+
+Realizadas sequências ponderadas em perfusão para a avaliação dinâmica da primeira passagem do agente de contraste paramagnético pelo leito microvascular, ponderadas em T1 (DCE-MRI) e T2 (DSC-MRI).
+
+Foram realizadas ainda aquisições de espectroscopia com voxel único e volume de interesse na lesão expansiva do ........
+
+Realizado estudo do fluxo liquórico através da técnica de contraste de fase (“phase contrast”).
+
+Estudo do fluxo liquórico evidencia fluxo turbilhonado através da terceira ventriculostomia / do aqueduto cerebral.
+
+Realizada sequência DIR para avaliação cortical.
+
+Tractografia axial na sequencia DTI demonstra queda da anisotropia fracionada com significativa perda de tratos cruzando o esplênio do corpo caloso.
+
+
+ANGIORRESSONÂNCIA MAGNÉTICA DAS ARTÉRIAS INTRACRANIANAS
+
+ANGIORRESSONÂNCIA MAGNÉTICA DA DRENAGEM VENOSA DO ENCÉFALO
+
+TÉCNICA
+
+Realizado estudo angiográfico das artérias intracranianas através de sequências TOF/3D com reconstrução MIP.
+
+Realizado estudo angiográfico da drenagem venosa do encéfalo através de sequência TOF/3D, após a injeção endovenosa do agente de contraste paramagnético (gadolínio).
+
+RELATÓRIO
+
+Artérias carótidas internas intracranianas pérvias, de calibre, contornos e trajetos preservados.
+
+Artérias vertebrais e basilar pérvias, de calibre, contornos e trajetos preservados.
+
+Artérias cerebrais médias, anteriores e posteriores pérvias, de calibre e contornos preservados.
+
+Artérias comunicantes anterior e posteriores pérvias, de configuração preservada.
+
+Seios durais e veias corticais principais com morfologia e sinal de fluxo habituais, sem evidentes estenoses.
+
+Não há sinais de trombose venosa recente.
+
+Ausência de malformações vasculares ou dilatações aneurismáticas no presente estudo, salientando-se a limitação do método que pode eventualmente não detectar os pequenos aneurismas.
+
+OPINIÃO
+
+Estudo das artérias do polígono de Willis e sistema carotídeo/vértebro-basilar e do sistema venoso encefálico dentro da normalidade.
+
+
+ANGIORRESSONÂNCIA MAGNÉTICA DA DRENAGEM VENOSA DO ENCÉFALO
+
+TÉCNICA
+
+Realizado estudo angiográfico da drenagem venosa do encéfalo através de sequência TOF/3D, após a injeção endovenosa do agente de contraste paramagnético (gadolínio).
+
+RELATÓRIO: 
+
+Seios venosos durais superficiais e profundos sem anormalidades, observando-se apenas como variação anatômica assimetria dos seios transversos, com drenagem preferencial para a esquerda.
+
+Veias corticais pérvias.
+
+Ausência de tromboses ou estenoses venosas durais.
+
+Ausência de malformações vasculares.

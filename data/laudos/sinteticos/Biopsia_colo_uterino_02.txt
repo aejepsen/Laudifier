@@ -1,0 +1,105 @@
+=== Biopsia colo uterino — Variante 2 ===
+Especialidade: patologia
+Cenário: biópsia de colo uterino — NIC III (displasia grave / carcinoma in situ)
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ANATOMIA PATOLÓGICA
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+**Nome do Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [__/__/____]  
+**Idade:** [__] anos  
+**Número de Registro:** [________________]  
+**Data de Coleta:** [__/__/____]  
+**Data de Recebimento:** [__/__/____]  
+**Data do Laudo:** [__/__/____]  
+
+---
+
+## DADOS CLÍNICOS
+
+**Clínico Solicitante:** [NOME DO MÉDICO]  
+**Especialidade:** Ginecologia e Obstetrícia  
+**Indicação Clínica:** Colo uterino com achados colposcópicos anormais; investigação de lesão intraepitelial cervical
+
+---
+
+## MATERIAL RECEBIDO
+
+**Tipo de Amostra:** Fragmento de tecido cervical  
+**Número de Fragmentos:** 01 (um)  
+**Características Macroscópicas:** Fragmento irregular de tecido esbranquiçado, com aproximadamente 4 x 3 mm, consistência firme. Aspecto compatível com lesão epitelial.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Processamento de rotina em parafina. Cortes histológicos submetidos à coloração por Hematoxilina-Eosina (HE). Análise microscópica sob microscópio óptico em aumentos de até 400x. Exame realizado de acordo com protocolos internacionais de análise de lesões cervicais (classificação de Bethesda e critérios da OMS).
+
+---
+
+## ACHADOS HISTOPATOLÓGICOS
+
+**Descrição Detalhada:**
+
+Fragmento de tecido cervical apresentando epitélio estratificado pluriestratificado com acentuada desorganização arquitetural. Observam-se as seguintes alterações:
+
+- **Aumento da relação núcleo-citoplasma:** Proporção significativamente elevada, com núcleos hipercorados e de tamanho irregular.
+
+- **Atipia nuclear grave:** Núcleos aumentados de tamanho, com cromatina hipercromática, distribuição irregular e presença de mitoses atípicas, incluindo figuras mitóticas em localizações anormais (superficiais).
+
+- **Desorganização arquitetural:** Perda completa da estratificação normal do epitélio cervical. Camadas basais e parabasais substituem progressivamente as camadas superficiais.
+
+- **Envolvimento epitelial:** A lesão acaça a espessura total do epitélio estratificado (displasia grave/carcinoma in situ), sem ultrapassar a membrana basal íntegra.
+
+- **Figuras mitóticas:** Numerosas mitoses convencionais e atípicas distribuídas em toda a espessura do epitélio.
+
+- **Membrana basal:** Íntegra, sem evidência de invasão de estroma adjacente.
+
+- **Estroma subjacente:** Apresenta inflamação crônica leve com infiltrado linfoplasmocitário.
+
+- **Margens:** Envolvidas pela lesão (recomenda-se complementação).
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Neoplasia Intraepitelial Cervical Grau III (NIC III)**  
+**Equivalente a:** Carcinoma in situ / Displasia Grave do Colo Uterino  
+**Classificação de Bethesda:** High-Grade Squamous Intraepithelial Lesion (HSIL)  
+**Classificação da OMS:** Neoplasia Cervical Intraepitelial de Alto Grau (CIN 3)
+
+---
+
+## DIAGNÓSTICO FINAL
+
+Biópsia de colo uterino com **NEOPLASIA INTRAEPITELIAL CERVICAL GRAU III (NIC III) / CARCINOMA IN SITU**, caracterizada por displasia grave do epitélio cervical com perda completa da maturação e estratificação normais, sem invasão estromal detectada.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+**Conclusões:**
+
+1. Confirmação diagnóstica de lesão intraepitelial cervical de alto grau (NIC III).
+2. Ausência de invasão estromal no material analisado.
+3. Margens comprometidas — sugere-se completação de ressecção.
+4. Necessidade de seguimento rigoroso e tratamento ablativo/excisional.
+
+**Recomendações Clínicas:**
+
+- **Tratamento urgente:** Considerando o grau de displasia, recomenda-se excisão completa da lesão (ressecção em alça diatérmica - LEEP, conização a laser ou conização cirúrgica com margem de segurança).
+- **Complementação:** Avaliar necessidade de ressecção adicional caso as margens se revelem comprometidas.
+- **Seguimento colposcópico:** Após tratamento, realizar colposcopia de controle em 6 semanas.
+- **Citologia cervical:** Realizar Papanicolau ou teste de HPV em intervalos de 3-6 meses durante o primeiro ano pós-tratamento.
+- **Teste de HPV:** Recomenda-se tipagem de HPV se não realizada previamente, dados os achados de NIC III.
+- **Exclusão de invasão:** Embora sem evidência de invasão no material biopsiado, risco de foco invasivo não detectado na amostra. Correlação clínica-colposcópica necessária.
+
+**Observações Adicionais:**
+
+- Lesão de alto risco de progressão para carcinoma invasor se não tratada.
+- Encaminhamento a serviço de referência em patologia cervical recomendado se necessária segunda opinião.
+- Paciente deve ser instruída sobre importância da aderência ao seguimento

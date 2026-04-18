@@ -1,0 +1,124 @@
+=== Teste ergoespirometrico — Variante 1 ===
+Especialidade: cardiologia
+Cenário: teste ergométrico negativo para isquemia miocárdica
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TESTE ERGOMÉTRICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [__/__/____]  
+**Sexo:** [M/F]  
+**Idade:** [__] anos  
+**Registro:** [_________________]
+
+**Data do Exame:** [__/__/____]  
+**Hora de Início:** [__:__]  
+**Hora de Término:** [__:__]  
+**Cardiologista Responsável:** [_________________]  
+**CREMESP/CRM:** [_________________]
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Avaliação da capacidade funcional cardiopulmonar e pesquisa de isquemia miocárdica induzida pelo esforço em paciente com [sintomas/histórico clínico relevante].
+
+---
+
+## TÉCNICA UTILIZADA
+
+Teste ergométrico em esteira rolante (protocolo de Bruce modificado), com monitorização contínua de frequência cardíaca por eletrocardiografia (ECG) de 12 derivações, pressão arterial aferida a cada 2 minutos e avaliação clínica sintomatológica durante todas as fases do teste.
+
+**Medicações suspensas:** [quando aplicável - beta-bloqueadores, bloqueadores de canal de cálcio, etc.]
+
+**Duração total do teste:** [__] minutos
+
+---
+
+## DADOS HEMODINÂMICOS
+
+| Parâmetro | Repouso | Esforço Máximo | Recuperação (1 min) |
+|-----------|---------|-----------------|-------------------|
+| **FC (bpm)** | [__] | [__] | [__] |
+| **PAS (mmHg)** | [__] | [__] | [__] |
+| **PAD (mmHg)** | [__] | [__] | [__] |
+| **Estágio Bruce** | - | [__] | - |
+| **METs atingidos** | - | [__] | - |
+
+**Frequência Cardíaca Máxima Teórica:** [__] bpm  
+**Frequência Cardíaca Máxima Atingida:** [__] bpm  
+**Percentual da FC máxima teórica:** [__]%
+
+---
+
+## ACHADOS ELETROCARDIOGRÁFICOS
+
+### Em Repouso:
+- Ritmo cardíaco: Sinusal, regular
+- Frequência cardíaca: [__] bpm
+- Segmento ST: Isoelétrico em todas as derivações
+- Onda T: Morfologia normal
+- Intervalo QT: Normal
+- Bloqueios: Ausentes
+- **Diagnóstico de repouso:** Normal / [Alteração presente: _________________]
+
+### Durante o Esforço:
+- Comportamento do ST: Isoelétrico e estável em todas as derivações durante progressão do esforço
+- Resposta cromotropa: Adequada, com incremento linear da frequência cardíaca de [__] para [__] bpm
+- Resposta inotrópica: Adequada, com elevação pressórica proporcional ao esforço
+- Arritmias: Ausentes
+- **Observações:** Sem infradesnivelamento de segmento ST ≥ 1mm em nenhuma derivação. Sem supradesnivelamento de ST.
+
+### Durante a Recuperação:
+- Recuperação da FC: Rápida e adequada
+- Dinâmica do ST: Retorno rápido ao baseline
+- Sem fenômenos isquêmicos tardios
+- Sem arritmias ventriculares
+
+---
+
+## ACHADOS CLÍNICOS
+
+**Sintomas durante o teste:**
+- Dispneia: Ausente / Presente [Leve / Moderada / Importante]
+- Dor ou desconforto torácico: Ausente
+- Fadiga: Presente [Leve / Grau [__]/10]
+- Tontura/Vertigem: Ausente
+- Palpitações: Ausente
+
+**Razão da interrupção do teste:**
+- [X] Atingimento de FC máxima teórica (≥85%)
+- [ ] Fadiga física do paciente
+- [ ] Sintomas limitantes
+- [ ] Alterações eletrocardiográficas significativas
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**TESTE ERGOMÉTRICO NEGATIVO PARA ISQUEMIA MIOCÁRDICA**
+
+O teste foi realizado com adequado incremento de carga, permitindo avaliação diagnóstica satisfatória. Paciente apresentou resposta hemodinâmica normal ao esforço, sem alterações isquêmicas do segmento ST em qualquer estágio do teste ou durante fase de recuperação. Não houve sintomas anginosos durante a realização do exame.
+
+Os achados eletrocardiográficos não demonstram evidências de isquemia miocárdica induzida pelo esforço.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+1. **Resultado:** Teste ergométrico NEGATIVO para isquemia miocárdica.
+
+2. **Interpretação:** O teste permite descartar isquemia miocárdica significativa com probabilidade razoavelmente alta no contexto clínico avaliado. A capacidade funcional cardiopulmonar demonstrada ([__] METs) é [compatível / superior / inferior] ao esperado para a idade e sexo do paciente.
+
+3. **Recomendações:**
+   - Manutenção de programa regular de atividade física aeróbica conforme tolerância
+   - Controle de fatores de risco cardiovascular
+   - Adoção de estilo de vida saudável (dieta adequada, cessação do tabagismo se aplicável)
+   - Acompanhamento clínico periódico com cardiologista
+   - [Outras orientações específicas: _________________________________]
+
+4. **

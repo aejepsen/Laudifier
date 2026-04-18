@@ -1,0 +1,108 @@
+=== Ecocardiograma transtorácico — Variante 4 ===
+Especialidade: cardiologia
+Cenário: estenose aórtica grave — gradiente médio 45 mmHg, área valvar 0,8 cm²
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ECOCARDIOGRAMA TRANSTORÁCICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Data do Exame:** [__/__/____]  
+**Hora do Exame:** [____:____]  
+**Paciente:** [_________________________________]  
+**Data de Nascimento:** [__/__/____] | **Idade:** [____] anos | **Sexo:** [   ]  
+**Prontuário/RG:** [_________________________________]  
+**Peso:** [____] kg | **Altura:** [____] cm | **IMC:** [____] kg/m²  
+**Pressão Arterial:** [____]/[____] mmHg | **Frequência Cardíaca:** [____] bpm  
+
+**Solicitante:** [_________________________________]  
+**Indicação Clínica:** [_________________________________]  
+
+**Equipamento:** Ecocardiógrafo Bidimensional com Doppler Espectral e Mapeamento por Cores  
+**Transdutor:** 2.5-3.5 MHz  
+
+---
+
+## TÉCNICA
+
+Realizado ecocardiograma transtorácico (ETT) com incidência do décimo espaço intercostal esquerdo, conforme protocolos padronizados da Sociedade Brasileira de Cardiologia. Obtidas múltiplas incidências ecocardiográficas: eixo longo paraesternal, eixo curto paraesternal (níveis mitral, papilar e apical), apical 4 câmaras, apical 2 câmaras e apical 5 câmaras. Análise Doppler espectral e mapeamento por cores das valvas. Paciente cooperativo, janela acústica adequada.
+
+---
+
+## ACHADOS E DESCRIÇÃO DETALHADA
+
+### Câmaras Cardíacas
+
+**Átrio Esquerdo (AE):** Dimensão normal, diâmetro anteroposterior 35 mm. Função de bomba mecânica preservada.
+
+**Ventrículo Esquerdo (VE):** Dimensões aumentadas. Diâmetro diastólico final (DDVE) 52 mm; diâmetro sistólico final (DSVE) 38 mm. Relação E/A ligeiramente reduzida. Espessura de parede normal (septo e parede posterior 10 mm). Função sistólica global discretamente reduzida.
+
+**Fração de Ejeção do Ventrículo Esquerdo (FEVE):** 45-50% (método de Simpson biplano).
+
+**Átrio Direito (AD):** Dimensões normais, 32 mm.
+
+**Ventrículo Direito (VD):** Dimensões normais, comprimento basal 32 mm, parede livre normal.
+
+### Valva Aórtica
+
+**Anatomia:** Valva aórtica trifólio, com redução significativa da mobilidade dos folhetos. Espessamento valvar difuso, sem calcificação importante visualizada no modo bidimensional, porém com alterações estruturais sugestivas de doença degenerativa.
+
+**Função:** **Estenose Aórtica Grave**
+
+- **Gradiente de Pressão:**
+  - Gradiente máximo (pico): 68 mmHg
+  - **Gradiente médio: 45 mmHg**
+  - Velocidade máxima (Vmax): 4.2 m/s
+
+- **Área Valvar Aórtica (AVA):**
+  - Cálculo pela equação de continuidade: **0.8 cm²**
+  - Índice de área valvar: 0.45 cm²/m²
+
+- **Padrão Doppler:** Fluxo sistólico contínuo, com pico no terço médio-distal da sístole, padrão característico de obstrução ao fluxo ventricular esquerdo.
+
+**Incompetência Aórtica:** Leve (regurgitação diastólica de pequeno diâmetro, largura < 6 mm no nível do anel aórtico).
+
+### Valva Mitral
+
+**Anatomia:** Normal, sem alterações estruturais relevantes.
+
+**Função:** Competente. Leve insuficiência mitral funcional (regurgitação homossistólica de pequeno diâmetro, secundária à dilatação ventricular).
+
+### Valva Tricúspide
+
+**Função:** Competente com regurgitação tricúspide fisiológica mínima (jato < 2 cm).
+
+### Valva Pulmonar
+
+**Função:** Normal, competente.
+
+### Função Diastólica do Ventrículo Esquerdo
+
+Padrão diastólico com componente restritivo. Onda E aumentada, relação E/A invertida. Duração da desaceleração da onda E encurtada (140 ms). Compatível com disfunção diastólica grau II (pseudonormal).
+
+### Pressão Sistólica da Artéria Pulmonar
+
+Estimada pela regurgitação tricúspide: **42 mmHg** (elevação discreta).
+
+### Aorta
+
+Raiz aórtica: 35 mm (normal). Aorta ascendente: 38 mm (normal). Aorta descendente: 30 mm (normal).
+
+### Pericárdio
+
+Sem derrame pericárdico.
+
+### Septo Interatrial
+
+Intacto, sem comunicação detectada.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Estenose Aórtica Grave** (Critérios diagnósticos plenamente preenchidos):
+   - Gradiente médio transaórtico: 45 mmHg
+   - Área valvar aórtica: 0.8 cm² (AVA < 1.0 cm² = grave)
+   - Velocidade máxima: 4.2 

@@ -1,0 +1,116 @@
+=== RM joelho — Variante 2 ===
+Especialidade: radiologia
+Cenário: ruptura do menisco medial, corno posterior
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Idade/Data de Nascimento:** [IDADE] anos / [DD/MM/AAAA]  
+**Sexo:** [M / F]  
+**Matrícula/Prontuário:** [NÚMERO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Horário:** [HH:MM]  
+
+**Solicitante:** [NOME DO MÉDICO - ESPECIALIDADE]  
+**Indicação Clínica:** Investigação de lesão meniscal / dor articular no joelho
+
+**Equipamento:** Ressonância Magnética 3.0 Tesla  
+**Protocolo:** Padrão para articulação do joelho
+
+---
+
+## TÉCNICA UTILIZADA
+
+Foram adquiridas sequências multiplanares de alta resolução:
+
+- **Sequências ponderadas em T1:** planos sagital, coronal e axial
+- **Sequências ponderadas em T2 com supressão de gordura (STIR/SPAIR):** planos sagital, coronal e axial
+- **Sequência de gradiente eco 3D (GRE-3D):** para melhor definição de estruturas cartilagíneas
+- **Sequência T2 *:** para detecção de edema e processos inflamatórios
+- **Sequência PD (densidade de prótons):** plano sagital bilateral
+
+Foram utilizados parâmetros otimizados com FOV apropriado e espessura de corte de 3mm com sobreposição mínima.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Estruturas Ósseas:
+Os côndilos femorais, platô tibial e patela apresentam contornos regulares, sem alterações na densidade óssea. Sem evidência de fraturas agudas ou degenerativas. Ausência de edema ósseo significativo.
+
+### Meniscos:
+**Menisco Medial:** 
+- Visualiza-se solução de continuidade (*gap*) bem definida no corno posterior do menisco medial, com extensão superior a 8mm no sentido longitudinal
+- Sinal hiperintenso em T2 dentro da lesão, compatível com ruptura traumática
+- O fragmento meniscal distal apresenta deslocamento anterior, consistente com mecanismo de rotação
+- A raiz meniscal medial posterior encontra-se íntegra
+
+**Menisco Lateral:** 
+Morfologia preservada, sem alterações sinais ou contornos. Estrutura íntegra sem evidência de lesão.
+
+### Ligamentos:
+**Ligamento Cruzado Anterior (LCA):** Íntegro, sem sinais de ruptura ou degeneração. Traço contínuo em todas as sequências.
+
+**Ligamento Cruzado Posterior (LCP):** Preservado, sem alterações estruturais.
+
+**Ligamentos Colaterais:** 
+- Ligamento colateral medial (LCM): estrutura contínua, sem descontinuidades
+- Ligamento colateral lateral (LCL): íntegro e sem sinais de sofrimento
+
+**Complexo Posterolateral:** Sem alterações associadas.
+
+### Cartilagem Articular:
+Superfícies cartilagíneas femorais e tibiais com espessura preservada. Ausência de fissuras, ulcerações ou degeneração cartilaginosa focal. Cartilagem patelar íntegra.
+
+### Derrame Articular:
+Pequena quantidade de líquido sinovial dentro dos limites normais (< 10mm no recesso suprapatelar), consistente com reação pós-traumática leve.
+
+### Bolsas Sinoviais:
+Bolsa poplítea sem coleção ou inflamação. Bursa infrapatelar não dilatada.
+
+### Estruturas de Partes Moles:
+Musculatura do compartimento anterior e posterior sem alterações significativas. Tendão quadriciptal e patelar sem sinais de tendinopatia. Ausência de coleções ou hematomas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Ruptura do menisco medial – corno posterior** – com deslocamento do fragmento, configurando lesão aguda traumática.
+
+2. **Integridade preservada das demais estruturas articulares** – ligamentos cruzados e colaterais íntegros.
+
+3. **Ausência de lesões cartilaginosas** – superfícies articulares preservadas sem alterações degenerativas.
+
+4. **Pequeno derrame articular** – reativo, de magnitude não significativa.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A ressonância magnética do joelho confirma **ruptura do menisco medial, especificamente do corno posterior**, com deslocamento do fragmento meniscal. Trata-se de uma lesão traumática que potencialmente compromete a função estabilizadora do menisco.
+
+### Recomendações:
+- Correlação clínica com sinais de McMurray ou teste de Thessaly
+- Avaliação ortopédica para discussão de tratamento conservador versus meniscectomia artroscópica
+- Repouso relativo e proteção articular na fase aguda
+- Seguimento clínico em 7-10 dias para reavaliação
+- Em caso de sintomas persistentes ou bloqueio articular, considerar arthroscopia diagnóstica e terapêutica
+
+---
+
+## OBSERVAÇÕES ADICIONAIS
+
+Exame realizado com excelente qualidade técnica e colaboração do paciente. Imagens adequadas para diagnóstico.
+
+---
+
+## ASSINATURA
+
+**Dr(a). [NOME COMPLETO DO RADIOLOGISTA]**  
+**Registro de Especialista - Radiologia:** [NÚMERO]  
+**Conselho Regional de Medicina - CREMESP (ou UF):**

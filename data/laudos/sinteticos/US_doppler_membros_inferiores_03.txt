@@ -1,0 +1,96 @@
+=== US doppler membros inferiores — Variante 3 ===
+Especialidade: radiologia
+Cenário: insuficiência venosa superficial bilateral, varizes safena magna
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA COM DOPPLER DOS MEMBROS INFERIORES
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [___] anos  
+**Registro (Matrícula):** [__________]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Horário:** [HH:MM]  
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+**Radiologista:** [NOME E CRM]
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Investigação de insuficiência venosa crônica com queixa de varizes em membros inferiores.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Estudo ultrassonográfico bidimensional com análise espectral Doppler pulsátil e colorido dos sistemas venosos superficial e profundo de ambos os membros inferiores, realizado em posição supina e ortostática, utilizando sonda linear de frequência 7-12 MHz. Foi realizada manobra de compressão manual e teste de Valsalva para avaliação da competência valvular venosa.
+
+---
+
+## ACHADOS
+
+### **MEMBRO INFERIOR DIREITO:**
+
+**Sistema Venoso Profundo:**
+- Veia ilíaca comum: Pérvea, colapsável, sem sinais de trombose.
+- Veia ilíaca externa: Calibre normal, padrão de fluxo hepatopetal fásico preservado.
+- Veia femoral comum: Diâmetro de 8 mm, permevel, sem trombo intraluminal.
+- Veia femoral superficial: Pérvea em toda sua extensão, colapsável.
+- Veia poplítea: Pérvea, compressível, sem alterações.
+- Veias tibiais anteriores e posteriores: Pérveas bilateralmente.
+
+**Avaliação de Competência Valvular Profunda:** Válvulas competentes ao teste de Valsalva. Sem sinais de refluxo venoso profundo.
+
+**Sistema Venoso Superficial:**
+- **Veia Safena Magna:** Apresenta calibre aumentado medindo 6,5 mm (critério de insuficiência >5,5 mm). Visualiza-se ectasia progressiva desde a região inguinal até o terço médio da coxa. À avaliação Doppler com teste de Valsalva, documenta-se refluxo venoso com duração de 2,8 segundos, confirmando insuficiência da válvula safeno-femoral. Visualiza-se segmento varicoso com dilatação fusiforme atingindo 9,2 mm de diâmetro em terço médio de coxa.
+
+- **Veia Safena Parva:** Calibre preservado, padrão Doppler normal, sem sinais de insuficiência.
+
+- **Tributárias:** Presença de tributárias dilatadas em região inguinal e medial da coxa, sugestivas de drenagem inadequada.
+
+### **MEMBRO INFERIOR ESQUERDO:**
+
+**Sistema Venoso Profundo:**
+- Veia ilíaca comum: Pérvea, colapsável, sem trombose.
+- Veia ilíaca externa: Calibre normal, fluxo hepatopetal preservado.
+- Veia femoral comum: Diâmetro de 8,5 mm, permevel, sem material trombótico.
+- Veia femoral superficial: Pérvea, colapsível em toda extensão.
+- Veia poplítea: Pérvea e compressível.
+- Veias tibiais: Pérveas bilateralmente.
+
+**Avaliação de Competência Valvular Profunda:** Válvulas competentes. Sem refluxo ao teste de Valsalva.
+
+**Sistema Venoso Superficial:**
+- **Veia Safena Magna:** Apresenta calibre aumentado medindo 7,1 mm (maior ectasia que o lado contralateral). Documenta-se insuficiência safeno-femoral com refluxo de duração de 3,4 segundos ao teste de Valsalva. Observa-se segmento varicoso em terço proximal e médio da coxa com diâmetro máximo de 10,8 mm. Presença de múltiplas tortuosidades ao longo do trajeto.
+
+- **Veia Safena Parva:** Calibre normal, sem insuficiência.
+
+- **Tributárias:** Múltiplas tributárias dilatadas em região medial de coxa e perna, correlacionando-se com varizes clínicas palpáveis.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Insuficiência Venosa Crônica Bilateral** com componente predominantemente superficial.
+
+2. **Insuficiência da Veia Safena Magna Bilateral** com incompetência da junção safeno-femoral bilateralmente.
+
+3. **Varizes da Safena Magna Bilateral**, de maior magnitude no membro inferior esquerdo (diâmetro máximo 10,8 mm) em relação ao direito (diâmetro máximo 9,2 mm).
+
+4. **Refluxo Venoso Superficial Patológico** com duração de 2,8 segundos à direita e 3,4 segundos à esquerda.
+
+5. **Sistema Venoso Profundo Íntegro** bilateralmente, sem sinais de trombose venosa profunda ou insuficiência valvular profunda.
+
+6. **Tributárias Varicosas** secundárias ao comprometimento da drenagem superficial.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Confirma-se a presença de **insuficiência venosa

@@ -1,0 +1,134 @@
+=== Ecocardiograma transtorácico — Variante 1 ===
+Especialidade: cardiologia
+Cenário: ecocardiograma dentro dos limites da normalidade
+Fonte: sintético — gerado por Claude
+
+# LAUDO MÉDICO - ECOCARDIOGRAMA TRANSTORÁCICO
+
+---
+
+## DADOS DO PACIENTE
+
+| Campo | Informação |
+|-------|-----------|
+| **Nome** | [NOME COMPLETO DO PACIENTE] |
+| **Data de Nascimento** | [DD/MM/AAAA] |
+| **Sexo** | [M / F] |
+| **Idade** | [XX] anos |
+| **Número de Registro** | [NÚMERO DO PRONTUÁRIO] |
+| **Data do Exame** | [DD/MM/AAAA] |
+| **Horário do Exame** | [HH:MM] |
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[INDICAÇÃO DO EXAME - Ex: Investigação de sopro cardíaco, avaliação de dispneia, rastreamento pré-operatório, acompanhamento de hipertensão arterial sistêmica]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Ecocardiograma transtorácico em escala de cinza bidimensional associado a Doppler pulsátil, contínuo e colorido. O exame foi realizado com paciente em decúbito lateral esquerdo, utilizando transdutor setorial de banda larga (2-4 MHz). Obtidas imagens nas incidências paraesternal longitudinal e transversal, apical de 2, 3 e 4 câmaras, e subcostal. O estudo Doppler foi realizado com ajuste adequado de volume de amostra e escala de velocidades.
+
+---
+
+## ACHADOS
+
+### CÂMARAS CARDÍACAS
+
+**Ventrículo Esquerdo (VE):**
+- Tamanho: Normal, com dimensão diastólica final de 48 mm e dimensão sistólica final de 30 mm
+- Forma: Normal, com mantimento apropriado da geometria
+- Função sistólica: Preservada globalmente, sem detectar alterações na contratilidade regional
+- Fração de ejeção do VE: 64% (método de Simpson bidimensional)
+- Espessura da parede: Normal, com septo interventricular de 9 mm e parede posterior de 9 mm
+
+**Ventrículo Direito (VD):**
+- Tamanho: Normal, com diâmetro basal de 32 mm
+- Função sistólica: Preservada, com excursão sistólica do anel tricúspide (TAPSE) de 18 mm
+- Septo interventricular: Posição normal, sem desvios
+
+**Átrio Esquerdo (AE):**
+- Tamanho: Normal, com diâmetro anteroposterior de 37 mm
+- Volume indexado ao corpo: Dentro dos limites da normalidade (22 mL/m²)
+
+**Átrio Direito (AD):**
+- Tamanho: Normal
+- Área em diástole: Dentro dos limites normais
+
+### VALVAS CARDÍACAS
+
+**Valva Mitral:**
+- Estrutura: Normal, com amplitude adequada de movimento das cúspides
+- Abertura: Normal, com pico de velocidade diastólica apropriado
+- Closure: Sem atrasos patológicos
+- Regurgitação mitral: Ausente (Doppler colorido sem fluxo regurgitante)
+- Estenose mitral: Descartada
+
+**Valva Aórtica:**
+- Estrutura: Tricúspide, com amplitude normal de movimento
+- Abertura: Normal, sem restrição ao fluxo
+- Regurgitação aórtica: Ausente
+- Estenose aórtica: Descartada, com pico de gradiente de 8 mmHg
+
+**Valva Tricúspide:**
+- Estrutura: Normal
+- Regurgitação tricúspide: Mínima, fisiológica, permitindo estimativa de pressão sistólica do ventrículo direito de 22 mmHg (estimativa conservadora)
+- Função: Preservada
+
+**Valva Pulmonar:**
+- Estrutura: Normal
+- Insuficiência pulmonar: Ausente ou mínima, fisiológica
+- Estenose: Descartada
+
+### SEPTO INTERATRIAL E INTERVENTRICULAR
+
+- Ambos normais e íntegros
+- Sem evidência de comunicação interatrial ou interventricular
+- Excursão normal durante ciclo cardíaco
+
+### PERICÁRDIO
+
+- Integridade mantida
+- Sem derrame pericárdico
+- Aderências pericárdicas: Não detectadas
+
+### AORTA ASCENDENTE
+
+- Calibre: Normal, com diâmetro de 34 mm
+- Fluxo: Normal, sem turbulência
+- Sem sinais de dissecção ou ectasia
+
+### RAIZ AÓRTICA
+
+- Dimensão normal: 29 mm
+- Inserção adequada dos óstios coronarianos
+
+### ANÁLISE DOPPLER
+
+**Fluxo Mitral:**
+- Onda E: 75 cm/s
+- Onda A: 58 cm/s
+- Proporção E/A: Normal (1,29)
+- Tempo de desaceleração: 225 ms
+- Indicadores de função diastólica: Normal (compatível com padrão de enchimento normal)
+
+**Fluxo Aórtico:**
+- Pico de velocidade: 95 cm/s
+- Integral tempo-velocidade (VTI): 19 cm
+- Débito cardíaco indexado: Preservado
+
+**Fluxo Tricúspide:**
+- Velocidade sistólica máxima: 55 cm/s
+- Sem características de obstrução
+
+**Fluxo Pulmonar:**
+- Padrão normal
+- Aceleração pulmonar: Normal
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Ecocardiograma transtor

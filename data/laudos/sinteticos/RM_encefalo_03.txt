@@ -1,0 +1,101 @@
+=== RM encefalo — Variante 3 ===
+Especialidade: radiologia
+Cenário: glioma de baixo grau no lobo frontal esquerdo, 3 cm
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA ENCEFÁLICA
+
+---
+
+## **DADOS DO PACIENTE**
+
+| Campo | Informação |
+|-------|-----------|
+| **Nome** | [NOME COMPLETO DO PACIENTE] |
+| **Data de Nascimento** | [__/__/____] |
+| **Sexo** | [   ] M    [   ] F |
+| **Idade** | [__] anos |
+| **Registro/Prontuário** | [________________] |
+| **Data do Exame** | [__/__/____] |
+| **Horário** | [__:__h] |
+
+---
+
+## **DADOS DO EXAME**
+
+| Campo | Informação |
+|-------|-----------|
+| **Modalidade** | Ressonância Magnética Encefálica |
+| **Equipamento** | Ressonância Magnética 1.5T |
+| **Requisitante** | [NOME DO MÉDICO SOLICITANTE] |
+| **CRM Solicitante** | [_____________] |
+
+---
+
+## **TÉCNICA UTILIZADA**
+
+Realizado exame de ressonância magnética encefálica (RM encéfalo) em equipamento de 1.5 Tesla, com protocolo de rotina incluindo sequências ponderadas em T1, T2, FLAIR (Fluid Attenuated Inversion Recovery) e difusão (DWI/ADC), nos planos axial, coronal e sagital. Adquiridas imagens de RM com contraste paramagnético à base de gadolínio (Gadopentetato de dimeglumina - 0,1 mmol/kg). Campo de visão adequado, sem artefatos que prejudiquem a análise diagnóstica.
+
+---
+
+## **ACHADOS**
+
+### **Localização da Lesão**
+Identificada lesão expansiva intra-axial, bem delimitada, localizada no lobo frontal esquerdo, medindo aproximadamente **3,0 cm** em seu maior eixo, com centro localizado próximo à região do córtex pré-motor e giro frontal superior.
+
+### **Características Morfológicas**
+- **Forma**: Contornos levemente lobulados
+- **Limites**: Parcialmente bem definidos, com plano de clivagem parcialmente preservado em relação ao parênquima adjacente
+- **Dimensões**: 3,0 × 2,6 × 2,8 cm (eixo ântero-posterior × transversal × crânio-caudal)
+
+### **Sinal e Intensidade**
+
+**Sequências não contrastadas:**
+- **T1**: Lesão apresentando sinal intermediário a ligeiramente hipointenso em relação ao córtex cerebral normal, sem focos de hipersinal sugestivos de hemorragia subaguda
+- **T2/FLAIR**: Hipersinal acentuado, compatível com conteúdo líquido ou hipercelularidade
+- **DWI/ADC**: Restrição leve a moderada da difusão, com valores de ADC reduzidos, sugestivo de hipercelularidade
+
+**Sequências pós-contraste:**
+- Realce heterogêneo e progressivo do lesão, predominantemente periférico, com núcleo central não realçado sugestivo de componente cístico ou de necrose
+
+### **Efeito de Massa**
+Edema vasogênico moderado do parênquima adjacente, principalmente em distribuição subcortical perilesional, determinando:
+- Apagamento parcial do sulco adjacente
+- Desvio de estruturas da linha média de aproximadamente **0,5 cm** para a direita
+- Sem sinais de herniação encefálica ou hidrocefalia obstrutiva
+- Ventrículos laterais e demais estruturas ventriculares mantêm dimensões e posição normais
+
+### **Estruturas Adjacentes**
+- Artérias cerebrais anterior, média e posterior com calibre normal e fluxo preservado
+- Círculo arterial de Willis íntegro
+- Seios venosos durais pérvios (seios frontal, sagital superior, reto e sigmoides normais)
+- Glândula pituitária com dimensões normais
+- Quiasma óptico sem alterações
+- Fosse hipofisária normal
+
+### **Demais Estruturas**
+- Lobo frontal direito: sem alterações focais
+- Lobos parietais: sem alterações focais
+- Lobos temporais: estrutura e sinal normais bilateralmente
+- Lobo occipital: sem alterações focais
+- Substância branca supratentorial: padrão de sinal normal, sem focos de hipersinal FLAIR sugestivos de doença desmielinizante ou isquêmica
+- Infratentoriamente: cerebelo, ponte, mesencéfalo e bulbo com estrutura e sinal normais
+- Espaço subaracnoide: sem evidência de sangramento ou hidrocefalia
+- Osso temporal: pneumatização normal, sem opacificação das mastoides
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+Lesão expansiva intra-axial do lobo frontal esquerdo, medindo 3,0 cm, apresentando características de **glioma de baixo grau** (astrocitoma difuso de baixo grau - OMS Grau II é a hipótese diagnóstica principal).
+
+**Achados sugestivos:**
+- Sinal heterogêneo em T2/FLAIR com componente de restrição difusional
+- Realce heterogêneo pós-contraste
+- Contornos parcialmente bem definidos
+- Edema vasogênico moderado perilesional
+- Efeito de massa moderado
+
+**Diagnóstico diferencial:**
+- Astrocitoma difuso de baixo grau (Grau II)
+- Oligodendroglioma (menos provável - pela distribuição e padrão de realce)

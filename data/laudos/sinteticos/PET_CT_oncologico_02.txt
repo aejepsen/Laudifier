@@ -1,0 +1,86 @@
+=== PET CT oncologico — Variante 2 ===
+Especialidade: medicina_nuclear
+Cenário: lesão hipermetabólica no lobo inferior direito — SUVmax 8,4, sugestiva de neoplasia primária
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE MEDICINA NUCLEAR
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Prontuário:** [NÚMERO DO PRONTUÁRIO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade/Sexo:** [__] anos / [M / F]  
+
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+**Médico Executor:** [NOME E REGISTRO PROFISSIONAL]  
+
+**Indicação Clínica:** Investigação de lesão pulmonar com suspeita de malignidade. Estadiamento oncológico.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizado PET-CT com fluorodeoxiglicose marcada com Fluor-18 (18F-FDG), seguindo protocolo padronizado. O radiofármaco foi injetado por via intravenosa com atividade de [___] MBq. Tempo de espera entre injeção e aquisição de imagens: 60 minutos (dentro do padrão recomendado de 45-75 minutos).
+
+Aquisição de imagens realizada em tomógrafo híbrido PET-CT de última geração, com campos de visão desde base de crânio até região proximal de coxas. Foram adquiridas imagens dinâmicas de PET e CT de baixa dose simultâneas, com subsequente fusão de imagens multiplanares e reconstrução tridimensional.
+
+Parâmetros técnicos:
+- **PET:** Matriz 168 x 168; espessura de corte: 3,27 mm
+- **CT:** 120 kVp; corrente modulada; espessura: 3 mm
+- **Fusão:** Algoritmo de deformação não-rígida aplicado
+
+---
+
+## ACHADOS E DESCRIÇÃO DETALHADA
+
+### Componente PET:
+
+**Lesão Pulmonar Primária:**
+Identificada lesão hipermetabólica bem definida no segmento basilar do lobo inferior direito, medindo aproximadamente **28 x 24 mm** em seus maiores diâmetros (eixos transverso e crânio-caudal). 
+
+- **Captação de 18F-FDG:** Intensamente elevada, com **SUVmax (Standardized Uptake Value máximo) de 8,4**
+- **SUVmean:** 5,2
+- **Padrão de captação:** Heterogêneo, com concentração máxima no centro-periferia, sugestivo de metabolismo glicolítico intensamente aumentado compatível com atividade neoplásica
+- **Morfologia:** Contornos parcialmente definidos, sem delimitação nítida de margens
+
+### Componente CT:
+
+**Achados Pulmonares:**
+Nódulo pulmonar sólido no segmento basilar (S10) do lobo inferior direito, com densidade de partes moles (aproximadamente 45 unidades Hounsfield em janela de pulmão). Apresenta contorno lobulado com pequenos espículos periféricos, sugestivo de crescimento infiltrativo.
+
+**Densidade Centro-perimétrica:** Identificadas áreas de hipoatenuação central, podendo representar necrose ou cavitação incipiente.
+
+**Linfonodos Mediastinais e Hilares:**
+- Linfonodo hilar direito medindo **12 x 9 mm** (eixo transverso x eixo crânio-caudal), sem captação significativa de FDG (SUV < 2,0) — compatível com reatividade inflamatória
+- Linfonodos mediastinais múltiplos, todos com dimensões inferiores a 10 mm de menor eixo, sem captação patológica de radiofármaco
+
+**Pleura e Espaços Pleurai:** Sem evidência de derrame pleural. Parênquima pulmonar adjacente apresenta pequenas opacidades em vidro despolido, sugestivas de inflamação perilesional ou atelectasia.
+
+### Avaliação Corporal Sistêmica:
+
+**Fígado:** Homogêneo. Metabolismo basal normal. Sem lesões focais com captação aumentada.
+
+**Pâncreas:** Tamanho e morfologia normais, com padrão de distribuição de FDG fisiológico.
+
+**Baço:** Dimensões normais (comprimento < 12 cm). Ausência de captação anômala.
+
+**Rins:** Simétricos com eliminação adequada de radiofármaco e padrão de captação renal fisiológico.
+
+**Ossos:** Sem evidência de lesões líticas ou escleróticas com hipermetabolismo. Densidade óssea compatível com idade.
+
+**Encéfalo:** Captação fisiológica simétrica, sem focos anômalos de hipermetabolismo.
+
+**Estômago e Alças Intestinais:** Atividade gástrica e intestinal normal.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Lesão hipermetabólica no lobo inferior direito com SUVmax de 8,4**, altamente sugestiva de **neoplasia pulmonar primária maligna**. O padrão de captação intenso e a morfologia imaging (nódulo espiculado com densificação centro-periférica) são compatíveis com carcinoma pulmonar não-pequenas células (NSCLC), sendo também consideradas outras possibilidades como carcinoma de pequenas células ou adenocarcinoma, conforme confirmação histopatológica.
+
+2. **Ausência de captação patológica em linfonodos hilares e mediastinais**, sugerindo ausência de metastização linfonodal detectável neste momento (provável N0 ou

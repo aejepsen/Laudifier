@@ -1,0 +1,113 @@
+=== RM abdome figado — Variante 2 ===
+Especialidade: radiologia
+Cenário: hemangioma típico segmento VI, 3,2 cm, com realce centrífugo
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Hospital/Clínica:** [NOME DA INSTITUIÇÃO]  
+**Data do Exame:** [DATA DO EXAME]  
+**Hora do Exame:** [HORÁRIO]
+
+**Paciente:** [NOME COMPLETO]  
+**Sexo:** [M / F]  
+**Idade:** [IDADE] anos  
+**Data de Nascimento:** [DATA]  
+**Registro/Prontuário:** [Nº PRONTUÁRIO]
+
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+**Radiologista:** [NOME DO RADIOLOGISTA]
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[DESCRIÇÃO DA INDICAÇÃO CLÍNICA]
+
+---
+
+## TÉCNICA
+
+Ressonância magnética de abdome superior realizada em equipamento de 1.5T, com protocolo multifásico dedicado ao fígado. Foram obtidas imagens ponderadas em T1 e T2, com supressão de gordura (FATSAT), além de sequências dinâmicas contrastadas (arterial, portal venosa e fase tardia) após administração intravenosa de gadolínio (Gadoterato de meglumina - 0,1 mmol/kg). Imagens multiplanares (axial, coronal e sagital) foram analisadas em workstation dedicada.
+
+---
+
+## ACHADOS
+
+**Fígado:** Apresenta volume e contorno habituais. Ecogenicidade parenquimatosa normal, sem sinais de fibrose ou cirrose. Sem esteatose hepática significativa.
+
+**Lesão Focal Hepática:**  
+Identificada lesão nodular bem delimitada no segmento VI hepático, com dimensões de aproximadamente **3,2 x 2,8 cm**. A lesão exibe:
+
+- **Sinal em T1:** Levemente hipointenso em relação ao parênquima hepático normal
+- **Sinal em T2:** Marcadamente hiperintensa
+- **Comportamento Dinâmico (Padrão de Realce):**
+  - **Fase Arterial:** Realce periférico centrípeto, com discreto realce nas margens da lesão
+  - **Fase Portal Venosa:** Enchimento progressivo do centro da lesão (realce centrífugo)
+  - **Fase Tardia (90-120 segundos):** Homogeneização completa com realce isointenso ou ligeiramente hiperintenso em relação ao parênquima adjacente
+
+- **Características Adicionais:** Margens bem definidas, sem halo de wash-out. Sem restrição na difusão (DWI). Sem sinais de sangramento ou trombose.
+
+**Vias Biliares Intra-hepáticas:** Não dilatadas.  
+**Ducto Colédoco:** Calibre normal (<6 mm).  
+**Vesícula Biliar:** Sem cálculos. Paredes não edemaciadas.
+
+**Pâncreas:** Estrutura e sinal preservados. Ducto pancreático normal. Sem lesões focais.
+
+**Baço:** Volume e sinal normais. Sem lesões.
+
+**Rins:** Bilateralmente simétricos. Córtex preservado. Sem hidronefrose ou litíase.
+
+**Vasos:** Tronco celíaco, artéria hepática comum, porta e suprahepáticas pérvias. Fluxo normal.
+
+**Cavidade Peritoneal:** Sem ascite.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Lesão nodular hepatática no segmento VI com características imagenológicas **compatíveis com HEMANGIOMA TÍPICO (Hemangioma Cavernoso)**, medindo 3,2 cm de maior diâmetro.
+
+O padrão de realce centrífugo (centro para periferia) após opacificação inicial periférica, aliado à hiperntensidade em T2 e às margens bem definidas, constitui achado típico dessa entidade benigna.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+1. Lesão benigna confirmada de acordo com critérios radiológicos de hemangioma hepático (LI-RADS 2 - Benign).
+
+2. **Não há sinais de malignicidade ou transformação.**
+
+3. **Não há sinais de cirrose hepática ou hipertensão portal.**
+
+4. Recomenda-se seguimento clínico conservador. Dado o tamanho <5 cm e características típicas, não há indicação de seguimento imagenológico rotineiro ou intervenção.
+
+5. Correlação clínica recomendada, particularmente se houver sintomas abdominais relacionados.
+
+6. Se houver dúvidas diagnósticas futuras ou alteração clínica, nova avaliação por RM ou ultrassom doppler poderá ser solicitada.
+
+---
+
+## OBSERVAÇÕES
+
+Este laudo foi elaborado de acordo com os critérios internacionais de classificação (LI-RADS - Liver Imaging Reporting and Data System) e protocolos técnicos de ressonância magnética de abdome.
+
+---
+
+**Assinado digitalmente em:** [DATA E HORA]
+
+---
+
+**Dr(a). [NOME COMPLETO DO RADIOLOGISTA]**  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Registro no Conselho Regional de Medicina:** CRM - [UF] / [Nº REGISTRO]  
+**Telefone:** [TELEFONE]  
+**Email:** [EMAIL]
+
+---
+
+*Este documento é confidencial e destinado exclusivamente ao médico solicitante e ao paciente.*

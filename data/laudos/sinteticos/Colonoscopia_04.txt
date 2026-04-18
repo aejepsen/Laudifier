@@ -1,0 +1,117 @@
+=== Colonoscopia — Variante 4 ===
+Especialidade: gastroenterologia
+Cenário: adenocarcinoma no cólon ascendente, lesão circunferencial, biópsia positiva
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE COLONOSCOPIA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [XX] anos  
+
+**Registro de Prontuário:** [NNNNNNNNN]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Horário:** [HH:MM]  
+**Local:** [UNIDADE/HOSPITAL]  
+
+**Indicação Clínica:** [Rastreamento de câncer colorretal / Avaliação de sintomas gastrointestinais / Seguimento pós-polipectomia]
+
+---
+
+## TÉCNICA
+
+Colonoscopia total realizada sob sedação consciente com propofol ([DOSE] mg IV). Paciente em decúbito lateral esquerdo inicial, posteriormente posicionado conforme necessário. Aparelho utilizado: Colonoscópio de alta definição [MARCA/MODELO]. Inserção sem intercorrências até o ceco, com identificação de válvula ileocecal e apêndice cecal. Retirada cuidadosa do aparelho com inspeção detalhada de toda a mucosa colônica.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Cólon Ascendente
+**Achado Principal:** Lesão nodular infiltrativa, circunferencial, localizada no cólon ascendente, aproximadamente 12 cm da margem anal (distância aferida pelo comprimento do aparelho). Dimensões estimadas: 4,5 cm x 3,8 cm.
+
+**Características da Lesão:**
+- Aspecto: Ulcerado, com borda elevada e endurecida
+- Morfologia: Tipo Brinton III (circunferencial com estenose)
+- Cor: Avermelhada com áreas de necrose central
+- Consistência: Dura à palpação com pinça de biópsia
+- Sangramento: Presente, com gotejamento discreto ao toque instrumental
+
+**Lúmen Residual:** Redução importante da luz intestinal, estimada em aproximadamente 50% do calibre original, permitindo passagem limitada do aparelho.
+
+### Demais Segmentos
+- **Cólon Transverso:** Mucosa normal, sem lesões focais
+- **Cólon Descendente:** Mucosa normal, padrão vascular preservado
+- **Cólon Sigmóide:** Sem alterações relevantes
+- **Reto:** Mucosa íntegra, sem estenose ou lesões
+
+---
+
+## BIÓPSIA
+
+**Procedimento:** Realizada biópsia múltipla (4 fragmentos) da lesão, com pinça de biópsia adequada. Material obtido com dificuldade discreta devido à consistência endurecida da lesão. Colhidas amostras das margens e centro da lesão.
+
+**Resultado Histopatológico:**
+- **Diagnóstico:** Adenocarcinoma invasivo do cólon
+- **Tipo Histológico:** Adenocarcinoma tubular
+- **Grau de Diferenciação:** Moderadamente diferenciado (Grau II de Broders)
+- **Infiltração:** Presente em submucosa
+- **Margens:** Lesão atinge camada muscular própria na biópsia
+- **Presença de Mucina:** Sem componente mucinoso significativo
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Lesão maligna do cólon ascendente** – Adenocarcinoma invasivo, tipo circunferencial, com estenose luminal;
+
+2. **Confirmação histopatológica** – Adenocarcinoma tubular, moderadamente diferenciado;
+
+3. **Sem evidência de outras lesões neoplásicas** nos demais segmentos do cólon examinados.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Paciente apresenta adenocarcinoma primário do cólon ascendente com morfologia infiltrativa e circunferencial, confirmado histopatologicamente. A lesão determina obstrução parcial da luz intestinal, com risco potencial de evolução para obstrução completa.
+
+### Recomendações:
+
+1. **Estadiamento Tumoral Urgente:**
+   - Tomografia Computadorizada de abdome e pelve com contraste intravenoso (estudar extensão local, linfonodos regionais e metástases à distância)
+   - Ressonância Magnética de pelve se indicado clinicamente
+   
+2. **Marcadores Tumorais:**
+   - Dosagem de CEA e CA 19.9 séricos
+
+3. **Referência Oncológica:**
+   - Encaminhamento urgente ao serviço de Oncologia Cirúrgica para discussão de estratégia terapêutica
+   - Possível ressecção cirúrgica (hemicolectomia direita) vs. abordagem neoadjuvante conforme estadiamento
+
+4. **Suporte Clínico:**
+   - Avaliação pré-operatória completa
+   - Consideração de suporte nutricional caso haja comprometimento da ingestão oral
+
+5. **Contra-indicação Relativa:**
+   - Evitar nova endoscopia diagnóstica até resolução da lesão, pelo risco de perfuração
+
+---
+
+## COMPLICAÇÕES
+
+Nenhuma complicação imediata identificada. Paciente apresentou recuperação adequada da sedação. Orientado sobre achados e encaminhamento para seguimento especializado.
+
+---
+
+## ASSINATURA
+
+**Dr(a). [NOME COMPLETO]**  
+**Registro CREMESP/CRM:** [NNNNNNNNN]  
+**Especialidade:** Gastroenterologia  
+**Subespecialidade:** Endoscopia Digestiva  
+
+**Assinatura:** 

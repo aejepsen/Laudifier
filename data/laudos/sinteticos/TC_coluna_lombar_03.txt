@@ -1,0 +1,109 @@
+=== TC coluna lombar — Variante 3 ===
+Especialidade: radiologia
+Cenário: hérnia de disco extrusa L5-S1 com compressão do saco dural
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Idade/Data de Nascimento:** [IDADE] anos / [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Prontuário:** [Nº PRONTUÁRIO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+
+**Requisitante:** [NOME DO MÉDICO]  
+**Especialidade:** [ESPECIALIDADE]  
+**Indicação Clínica:** Dor lombar com irradiação para membro inferior; suspeita de hérnia de disco
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizada tomografia computadorizada de alta resolução da coluna lombar com cortes axiais e reconstruções sagitais e coronais, sem administração de contraste iodado endovenoso. Espessura de corte: 1 mm. Equipamento: [MARCA/MODELO]. Campo de visão estendido. Radiação: dose padrão.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **Estruturas Ósseas:**
+- Corpos vertebrais de L1 a S1 apresentam altura normal, sem sinais de colapso ou fratura.
+- Alinhamento vertebral preservado. Sem espondilolistese.
+- Arcos posteriores íntegros bilateralmente.
+- Facetas articulares com alterações degenerativas discretas em nível L4-L5.
+- Sem lesões líticas ou escleróticas sugestivas de metástases.
+
+### **Discos Intervertebrais:**
+- **L1-L2, L2-L3, L3-L4:** Altura normal. Sem herniação discal.
+- **L4-L5:** Discreta protrusão discal central, sem compressão significativa do saco dural.
+- **L5-S1:** **Hérnia de disco extrusa**, com componente discal migrado dorsalmente em direção à linha média e para o lado direito. O material discal determina **compressão significativa do saco dural** com redução de sua calibre. Há contacto direto com as raízes nervosas S1 bilateralmente, com maior acentuação à direita.
+
+### **Espaço Epidural:**
+- Redução do espaço epidural posterior em L5-S1 secundária à herniação discal.
+- Gordura epidural comprimida.
+
+### **Ligamentos:**
+- Ligamento amarelo sem espessamento significativo.
+- Ligamento longitudinal posterior íntegro.
+
+### **Musculatura:**
+- Músculos paravertebrais simétricos, sem atrofia focal.
+- Musculatura psoas bilateral sem alterações.
+
+### **Canais:**
+- **Canal central:** Ocupado em L5-S1 pela hérnia extrusa discal.
+- **Forames de conjugação:** Permeáveis em L1-L4. Em L5-S1, discreto comprometimento à direita pelo material discal.
+
+### **Outras Estruturas:**
+- Visualização parcial de órgãos pélvicos sem alterações relevantes ao estudo.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Hérnia de disco extrusa em L5-S1** com migração cranial do fragmento discal, determinando **compressão significativa do saco dural** e das raízes nervosas S1 bilateralmente, mais evidente à direita.
+
+2. Alterações degenerativas discretas em L4-L5.
+
+3. Protrusão discal em L4-L5 sem compressão relevante.
+
+4. Sem evidências de estenose de canal em outros níveis.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A tomografia computadorizada confirma hérnia de disco extrusa L5-S1 com compressão expressiva do saco dural, achado este compatível com a apresentação clínica de lombalgia com irradiação radicular.
+
+**Recomendações:**
+- Correlação clínica e neurofisiológica.
+- Avaliação neurocirúrgica para definição da conduta terapêutica (conservadora versus cirúrgica).
+- Ressonância magnética da coluna lombar pode ser considerada para melhor avaliação dos elementos neurais e confirmação diagnóstica.
+- Evitar esforços físicos intensos.
+
+---
+
+## OBSERVAÇÕES
+
+Exame realizado e interpretado conforme protocolos de radiologia. Qualidade técnica adequada. Sem intercorrências durante o procedimento.
+
+---
+
+## ASSINATURA E IDENTIFICAÇÃO
+
+**Médico Radiologista Responsável:**
+
+_________________________________  
+**Nome Completo**  
+**CREMESP/CRM:** [Nº REGISTRO]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Data:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]
+
+---
+
+**Nota:** Este laudo é um documento médico confidencial destinado exclusivamente ao médico requisitante e ao paciente.

@@ -1,0 +1,89 @@
+=== Colonoscopia — Variante 2 ===
+Especialidade: gastroenterologia
+Cenário: pólipo tubular no cólon sigmoide, 8 mm, ressecado com pinça
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE COLONOSCOPIA
+
+---
+
+## DADOS DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Registro Hospitalar:** [Nº DO REGISTRO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Horário:** [HH:MM]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[INDICAÇÃO DO EXAME - Ex: Rastreamento de câncer colorretal; Investigação de alterações em colonoscopia anterior; etc.]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Colonoscopia convencional realizada sob anestesia local com sedação consciente (propofol/midazolam). Introdução do colonoscópio pelo ânus com progressão até o ceco sob visualização direta. Identificação de pólipo no trajeto e ressecção da lesão com pinça de biopsia. Aspiração de secreções e inspecção cuidadosa da mucosa durante a retirada do aparelho.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**Intestino Grosso (Análise segmentar):**
+
+- **Reto:** Mucosa normal, sem ulcerações, lesões ou estenoses. Tônus preservado.
+
+- **Sigmóide:** Apresenta lesão polipóide séssil, de coloração normal com vasos superficiais não dilatados. Dimensões aproximadas de **8 mm de diâmetro maior**. Localização: terço superior da alça sigmóidea. A lesão foi ressecada integralmente utilizando **pinça de biopsia apropriada**, com múltiplas capturas até completa retirada da base de implantação. Não foram observados sinais de sangramento após a ressecção.
+
+- **Cólon descendente:** Mucosa normal, sem lesões focais.
+
+- **Cólon transverso:** Sem alterações relevantes. Boa luminosidade.
+
+- **Cólon ascendente:** Mucosa íntegra. Válvula ileocecal presente e normal. Ceco visualizado adequadamente.
+
+- **Íleon terminal:** Não explorado (não indicado).
+
+**Observações:** Exame bem tolerado. Preparação intestinal adequada. Nenhuma complicação intra-procedimento observada.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Pólipo tubular (adenoma) no cólon sigmóide**, com **8 mm**, ressecado completamente por pinça de biopsia.
+2. Sem outras lesões significativas detectadas no trajeto.
+3. Ausência de sinais de sangramento ou perfuração.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+- A lesão polipóide foi completamente ressecada durante o procedimento.
+- Recomenda-se **análise anatomopatológica** da peça removida para confirmação diagnóstica definitiva (tipo histológico, grau de displasia).
+- Com base no resultado histopatológico, estabelecer protocolo de vigilância endoscópica.
+- **Acompanhamento recomendado:** 
+  - Se adenoma de baixo risco: Repetir colonoscopia em **5-10 anos**
+  - Se adenoma de risco intermediário: Repetir em **3-5 anos**
+  - Se adenoma de alto risco ou lesões múltiplas: Avaliação mais precoce conforme recomendações vigentes
+
+- Paciente foi orientado quanto aos cuidados pós-procedimento e sinais de alerta (sangramento persistente, perfuração, febre).
+
+---
+
+## ASSINATURA
+
+**Médico Responsável:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Nome (Legível):** [NOME DO MÉDICO]
+
+**Especialidade:** Gastroenterologia
+
+**CRM:** [Nº DO REGISTRO PROFISSIONAL] / UF: [ESTADO]
+
+**Data:** \_\_\_/\_\_\_/\_\_\_\_  |  **Assinatura:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+**Local/Instituição:** [NOME DO HOSPITAL/CLÍNICA]

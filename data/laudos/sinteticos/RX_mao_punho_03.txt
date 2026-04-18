@@ -1,0 +1,111 @@
+=== RX mao punho — Variante 3 ===
+Especialidade: radiologia
+Cenário: osteoartrose carpometacárpica bilateral
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [   ] anos  
+**Registro/Prontuário:** [________________]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Solicitante:** [NOME DO MÉDICO]  
+**Especialidade Solicitante:** [ESPECIALIDADE]  
+
+---
+
+## EXAME REALIZADO
+
+**Tipo de Exame:** Radiografia de Mãos e Punhos  
+**Projeções:** Póstero-anterior (PA) e lateral bilateral  
+**Equipamento:** Radiografia convencional digital  
+**Técnica:** Exposição padrão, filme digital de alta resolução  
+
+---
+
+## ACHADOS RADIOLÓGICOS
+
+### Descrição Detalhada:
+
+Foram avaliadas ambas as mãos (direita e esquerda) e punhos em projeções póstero-anterior e lateral.
+
+**Análise das Articulações Carpometacárpicas (CMC):**
+
+Observam-se alterações degenerativas bilaterais nas articulações carpometacárpicas, mais evidentes nas articulações CMC-I (policarpometacárpica) e CMC-II.
+
+**Lado Direito:**
+- Osteófitos marginais discretos a moderados na articulação CMC-I
+- Redução moderada do espaço articular CMC-I
+- Esclerose de subcondrais nas superfícies articulares
+- Pequenos osteófitos em CMC-II e CMC-III
+- Sem desalinhamento articular significativo
+- Sem subluxação
+
+**Lado Esquerdo:**
+- Achados semelhantes ao lado direito
+- Osteófitos marginais discretos nas articulações CMC-I e CMC-II
+- Redução moderada do espaço articular CMC-I
+- Esclerose subcondral
+- Preservação relativa do alinhamento articular
+
+**Avaliação Complementar:**
+- Articulações interfalangianas: sem alterações degenerativas significativas
+- Articulações metacarpofalangianas: sem alterações significativas
+- Articulações radiocárpicas: preservadas
+- Estruturas ósseas: sem fraturas, lise ou lesões líticas
+- Partes moles: normais, sem edema ou derrame articular
+- Densidade óssea: preservada
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Osteoartrose Carpometacárpica Bilateral**, com maior acometimento das articulações CMC-I e CMC-II bilateralmente, caracterizada por:
+
+1. Presença de osteófitos marginais
+2. Redução do espaço articular
+3. Esclerose de subcondrais
+4. Alterações degenerativas típicas da doença articular degenerativa
+
+Não há evidências de instabilidade articular significativa, desalinhamento grosseiro ou complicações agudas associadas.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Os achados radiológicos são compatíveis com **osteoartrose carpometacárpica bilateral em estágio moderado**, clinicamente relevante, particularmente nas articulações policarpometacárpicas.
+
+**Recomendações:**
+
+1. Correlação clínica com sintomas do paciente (dor, limitação funcional, deformidade)
+2. Avaliação fisioterápica para orientações de proteção articular
+3. Consideração de tratamento conservador com anti-inflamatórios não esteroidais, se necessário
+4. Repouso relativo das atividades que exacerbem os sintomas
+5. Possibilidade de infiltração articular com corticóide, a critério clínico
+6. Acompanhamento radiológico em 12-24 meses, caso haja progressão sintomática
+7. Encaminhamento ortopédico/reumatológico para avaliação e conduta terapêutica adequada
+
+---
+
+## ASSINATURA DO RADIOLOGISTA
+
+**Radiologista Responsável:** _______________________________________
+
+**Registro Profissional (CRM-UF):** _______________________________________
+
+**Especialidade:** Radiologia e Diagnóstico por Imagem
+
+**Data:** _____ / _____ / _________
+
+**Assinatura:** _______________________________________
+
+---
+
+**DOCUMENTO CONFIDENCIAL - USO RESTRITO A FINS MÉDICOS**

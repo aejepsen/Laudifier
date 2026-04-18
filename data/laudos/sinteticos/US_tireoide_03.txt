@@ -1,0 +1,117 @@
+=== US tireoide — Variante 3 ===
+Especialidade: radiologia
+Cenário: bócio multinodular difuso bilateral
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA] | **Idade:** [  ] anos  
+**Sexo:** [  ] M  [  ] F  
+**Registro Hospitalar:** [________________]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]  
+
+**ÓRGÃO EXAMINADO:** Glândula Tireoide  
+**TIPO DE EXAME:** Ultrassonografia em Tempo Real  
+**EQUIPAMENTO:** Ecógrafo Modelo [________________], Sonda Linear Multi-frequencial 7-12 MHz  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizado exame ultrassonográfico da glândula tireoide em seus planos longitudinais, transversais e oblíquos, utilizando sonda linear de alta frequência. Avaliação cuidadosa dos lobos tireoidianos, istmo, espaços cervicais laterais e região supraclavicular bilateralmente. Estudo complementado com manobra de deglutição para melhor caracterização das lesões e dinamismo.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **Dimensões Gerais:**
+- **Lobo Tireoidiano Direito:** 55 x 28 x 35 mm (Volume estimado: 26,6 mL)
+- **Lobo Tireoidiano Esquerdo:** 58 x 30 x 37 mm (Volume estimado: 32,3 mL)
+- **Istmo:** 4 mm de espessura
+- **Volume Tireoidiano Total Estimado:** ~62 mL
+
+### **Padrão de Ecogenicidade:**
+Glândula apresenta ecogenicidade global reduzida e heterogênea, com múltiplos focos de densidades variadas, compatível com padrão difuso multinodular.
+
+### **Achados Nodulares:**
+
+**LOBO TIREOIDIANO DIREITO:**
+
+1. **Nódulo 1 (Upper pól anterior):**
+   - Dimensões: 14 x 11 x 12 mm
+   - Morfologia: Ovalado, bem definido
+   - Ecogenicidade: Isoecogênico
+   - Vascularização (Doppler): Sem fluxo significativo
+   - Características: Sem microcalcificações
+
+2. **Nódulo 2 (Região média anterior):**
+   - Dimensões: 18 x 14 x 16 mm
+   - Morfologia: Ovaloide
+   - Ecogenicidade: Hipoecogênico
+   - Halo: Presente
+   - Vascularização: Fluxo periférico discreto
+   - Características: Sem achados suspeitos
+
+3. **Nódulo 3 (Lower pól):**
+   - Dimensões: 10 x 8 x 9 mm
+   - Morfologia: Redondo
+   - Ecogenicidade: Isoecogênico
+   - Características: Sem particularidades
+
+4. **Múltiplos micronódulos dispersos** (< 5 mm) distribuídos difusamente
+
+**LOBO TIREOIDIANO ESQUERDO:**
+
+1. **Nódulo 1 (Upper pól):**
+   - Dimensões: 16 x 13 x 14 mm
+   - Morfologia: Ovalado
+   - Ecogenicidade: Hipoecogênico
+   - Vascularização: Fluxo intranodular discreto
+   - Características: Sem achados suspeitos
+
+2. **Nódulo 2 (Região média):**
+   - Dimensões: 22 x 17 x 19 mm (nódulo de maior dimensão)
+   - Morfologia: Ovaloide, contornos bem definidos
+   - Ecogenicidade: Hipoecogênico
+   - Halo: Presente
+   - Vascularização: Fluxo periférico
+   - Características: Sem microcalcificações aparentes
+
+3. **Nódulo 3 (Lower pól):**
+   - Dimensões: 12 x 10 x 11 mm
+   - Morfologia: Ovalado
+   - Ecogenicidade: Isoecogênico
+   - Características: Sem particularidades
+
+4. **Múltiplos micronódulos dispersos** (< 5 mm)
+
+### **Istmo:**
+Preservado, com espessura normal, apresentando pequeno nódulo de 6 x 5 mm, isoecogênico.
+
+### **Espaços Cervicais:**
+- **Linfonodos:** Não se identificam linfonodos patológicos nos espaços laterais cervicais bilateralmente
+- **Espaço pré-traqueal:** Sem adenomegalias
+- **Região supraclavicular:** Sem achados significativos
+
+### **Estruturas Adjacentes:**
+- **Traços tímicos:** Não visualizados adequadamente (fora do campo de análise)
+- **Estruturas vasculares:** Artérias carótidas e veias jugulares pérvias, sem alterações significativas
+- **Esôfago/Traqueia:** Sem compressão extrinseca
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Ultrassonografia de tireoide revelando:
+
+1. **Bócio Multinodular Difuso Bilateral** com volume tireoidiano aumentado (aproximadamente 62 mL)
+
+2. **Múltiplos nódulos identificados bilateralmente**, sendo:
+   - Nódulo dominante no lobo esquerdo (região média) medindo 22 x 17 x 19 mm
+   - N

@@ -1,0 +1,92 @@
+=== RX torax — Variante 3 ===
+Especialidade: radiologia
+Cenário: consolidação pneumônica em lobo inferior direito
+Fonte: sintético — gerado por Claude
+
+# LAUDO MÉDICO RADIOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Idade/Data de Nascimento:** [IDADE] anos | [DD/MM/YYYY]  
+**Sexo:** [M/F]  
+**Prontuário:** [NÚMERO DO PRONTUÁRIO]  
+**Data do Exame:** [DD/MM/YYYY]  
+**Hora do Exame:** [HH:MM]  
+
+**Exame Solicitado:** Radiografia de Tórax  
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+**Indicação Clínica:** Suspeita de pneumonia
+
+---
+
+## TÉCNICA UTILIZADA
+
+Radiografia digital de tórax nas incidências ântero-posterior (PA) e lateral (perfil) em posição ortostática, realizada com equipamento radiográfico de arco fluoroscópico digital. Adequada penetração técnica, com bom contraste e resolução espacial satisfatória.
+
+---
+
+## ACHADOS
+
+**Parênquima Pulmonar:**
+Presença de opacidade consolidativa com distribuição parenquimatosa, localizada no **lobo inferior direito**, predominantemente na região basilar. A consolidação apresenta bordos mal definidos, com aspecto homogêneo, medindo aproximadamente **7,0 x 5,5 cm** em seus maiores diâmetros. Observa-se broncograma aéreo no interior da lesão, caracterizando consolidação alveolar típica de processo inflamatório/infeccioso.
+
+Pulmão esquerdo dentro dos limites normais, sem sinais de infiltrado pulmonar, derrame pleural ou pneumotórax.
+
+**Pleura:**
+Sem evídência de derrame pleural bilateral. Seios costofrênicos íntegros e bem pneumatizados.
+
+**Mediastino:**
+Estruturas mediastinais centralizadas. Silhueta cardíaca com contornos normais, sem cardiomegalia. Densidade em limites normais.
+
+**Coluna Vertebral:**
+Segmentos torácicos mostram alinhamento normal.
+
+**Ossos e Partes Moles:**
+Sem achados relevantes. Cápsula suprarenal direita dentro dos limites normais.
+
+**Campos Pulmonares Superiores:**
+Preservados, sem alterações parenquimatosas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Consolidação parenquimatosa no lobo inferior direito**, com características radiológicas compatíveis com **pneumonia bacteriana** (consolidação alveolar com broncograma aéreo).
+
+2. Ausência de sinais de complicação pleural (derrame ou empiema) no momento.
+
+3. Pulmão esquerdo sem alterações significativas.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Os achados radiológicos são compatíveis com **pneumonia adquirida na comunidade (PAC) em lobo inferior direito**, em fase de consolidação. A correlação clínica com sintomas do paciente (tosse, febre, dispneia) é importante para orientar a conduta terapêutica.
+
+**Recomendações:**
+
+- Correlacionar com achados clínicos, laboratoriais (hemograma, proteína C reativa, procalcitonina) e oximetria.
+- Considerar investigação etiológica adicional se houver falha terapêutica ou progressão das lesões.
+- Tomografia de alta resolução (TCAR) de tórax pode ser indicada em caso de: consolidação não resolutiva após 4-6 semanas de tratamento adequado, ou para melhor caracterização se suspeita de complicações.
+- Radiografia de controle recomendada em 4-6 semanas para documenter resolução completa.
+- Investigação de fatores de risco para infecção por germes atípicos ou oportunistas se clinicamente indicado.
+
+---
+
+## ASSINATURA
+
+```
+_____________________________________________
+Dr(a). [NOME COMPLETO]
+Médico Radiologista
+CRM: [NÚMERO] | ESPECIALIDADE: Radiologia e Diagnóstico por Imagem
+Data: [DD/MM/YYYY]
+Hora: [HH:MM]
+```
+
+---
+
+**Observação:** Este laudo é confidencial e destinado exclusivamente ao paciente e ao médico solicitante.

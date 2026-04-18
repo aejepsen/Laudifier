@@ -1,0 +1,18 @@
+CABEÇA E PESCOÇO
+ATM
+
+120 Kv
+
+100 mA
+
+Corte e gap: 1 a 0,5 mm
+
+Pitch 1:1
+
+Angulo gantry 0°
+
+Boca fechada
+
+Sem contraste
+
+FOV 20 cm (pode ser ajustado para cada paciente) - incluir no campo de estudo a sela, conduto auditivo externo, borda inferior da órbita e de preferência até o ponta do queixo

@@ -1,0 +1,88 @@
+=== US tireoide — Variante 1 ===
+Especialidade: radiologia
+Cenário: tireoide com volume e ecotextura normais, sem nódulos
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA DE TIREOIDE
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Idade/Data de Nascimento:** [IDADE] anos / [DD/MM/AAAA]  
+**Sexo:** [M / F]  
+**Registro/Prontuário:** [Nº]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Médico Solicitante:** [NOME DO MÉDICO] - CREMESP [Nº]  
+**Médico Executor:** [NOME DO RADIOLOGISTA] - CREMESP [Nº]  
+**Equipamento:** Ultrassom marca [MARCA/MODELO] com transdutor linear de [7,5-12 MHz]
+
+---
+
+## TÉCNICA
+
+Realizado exame ultrassonográfico de glândula tireoide com transdutor linear de alta frequência, nos planos longitudinal e transversal, com avaliação dos lobos direito e esquerdo, istmo, região cervical adjacente e cadeias linfonodais regionais. O paciente foi examinado em posição supina com leve hiperextensão cervical.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**GLÂNDULA TIREOIDE:**
+
+**Lobo Direito:**  
+Apresenta dimensões normais. Comprimento de aproximadamente 4,5 cm, largura de 1,5 cm e espessura de 1,2 cm. Ecotextura homogênea e isoecóica em relação ao padrão glandular normal. Ecogenicidade preservada, sem áreas de hipoecogenicidade ou hipercogenicidade focal. Fluxo Doppler presente, simétrico e sem alterações significativas.
+
+**Lobo Esquerdo:**  
+Dimensões simétricas ao lobo contralateral. Comprimento de aproximadamente 4,4 cm, largura de 1,5 cm e espessura de 1,1 cm. Ecotextura homogênea e isoecóica. Ecogenicidade mantida sem heterogeneidade detectável. Vascularização normal ao Doppler colorido, padrão simétrico.
+
+**Istmo:**  
+Presente e integro, com espessura de aproximadamente 0,4 cm. Ecotextura homogênea, sem espessamento ou características anômalas.
+
+**Volume Glandular:**  
+Aproximadamente 8 mL (volume total estimado pela fórmula: comprimento × largura × espessura × 0,52 × 2). Encontra-se dentro dos limites da normalidade para adultos.
+
+**Nódulos:**  
+Ausentes.
+
+**Cadeias Linfonodais Cervicais:**  
+Sem evidência de linfonodos patológicos aumentados (maiores que 1 cm no menor eixo transverso) na região cervical anterior e lateral.
+
+**Estruturas Adjacentes:**  
+Cartilagens laríngeas normais. Traqueias sem deslocamento ou compressão. Não há efusão pericardial significativa.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+- Glândula tireoide com volume e ecotextura normais
+- Ausência de nódulos tireoidianos
+- Padrão de vascularização simétrico ao estudo Doppler
+- Cadeias linfonodais cervicais sem alterações relevantes
+- Diagnóstico: **Tireoide normal**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A glândula tireoide apresenta características ultrassonográficas normais, com volume adequado (8 mL) para a idade do paciente, parênquima homogêneo e sem lesões nodulares detectáveis.
+
+**Recomendações:**
+- Seguimento clínico conforme indicação do médico assistente
+- Caso o paciente tenha sintomas thyroideus, solicitar avaliação laboratorial complementar (TSH, T3 e T4 livres) conforme apropriado clinicamente
+- Novo ultrassom apenas se houver mudança clínica significativa ou conforme recomendação médica específica
+- Documento disponível para consulta pelo paciente e equipe clínica
+
+---
+
+## ASSINATURA
+
+_______________________________________________  
+[NOME COMPLETO DO RADIOLOGISTA]  
+CREMESP: [Nº] | RQE: [Nº]  
+Médico Radiologista e Diagnóstico por Imagem
+
+**Data:** ___/___/_______
+
+**Carimbo profissional:**

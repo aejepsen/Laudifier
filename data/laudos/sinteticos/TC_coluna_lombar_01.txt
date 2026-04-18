@@ -1,0 +1,105 @@
+=== TC coluna lombar — Variante 1 ===
+Especialidade: radiologia
+Cenário: coluna lombar sem alterações significativas
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [__] anos  
+
+**Número do Exame:** [____________]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [__:__]  
+
+**Solicitante:** [NOME DO MÉDICO SOLICITANTE]  
+**CRM:** [______________]  
+
+**Indicação Clínica:** [Dor lombar / Investigação de dor crônica / Avaliação de rotina / Outro]
+
+---
+
+## TÉCNICA
+
+Tomografia computadorizada helicoidal da coluna lombar realizada no equipamento [MODELO DO TOMÓGRAFO], com aquisição de cortes axiais contíguos de 1,5 mm de espessura, do nível de L1 até S1, seguidos de reconstruções multiplanares nos planos coronal e sagital. Janelas óssea e de partes moles foram analisadas. Não foi utilizado contraste intravenoso.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Alinhamento e Estrutura Óssea
+
+Os corpos vertebrais de L1 a L5 apresentam altura normal e integridade morfológica preservada. Não se observam espaços de disco intervertebral reduzidos significativamente. As margens ósseas dos corpos vertebrais encontram-se regulares e bem definidas. Os pedículos, lâminas e processos espinhosos encontram-se íntegros bilateralmente.
+
+### Espaços Discais Intervertebrais
+
+**L1-L2:** Disco intervertebral com hidratação preservada, sem sinais de protusão, extrusão ou migração discal. Estenose foraminal ausente.
+
+**L2-L3:** Disco sem alterações significativas. Altura do espaço discal normal. Ausência de abaulamento discal.
+
+**L3-L4:** Morfologia discal normal. Espaço discal pérméivel sem sinais de compressão neural.
+
+**L4-L5:** Disco com sinal de intensidade normal. Sem sinais de degeneração ou hérnias discais.
+
+**L5-S1:** Disco intervertebral com aspecto habitual. Espaço discal pérméível.
+
+### Canal Vertebral e Forames
+
+O canal vertebral apresenta calibre normal em todos os níveis avaliados. Não há evidências de estenose central. Os forames intervertebrais encontram-se pérmeiveis bilateralmente, sem sinais de compressão radicular.
+
+### Estruturas Ósseas Adjacentes
+
+As articulações facetárias encontram-se bem preservadas, sem sinais de artrose ou alterações degenerativas significativas. Os processos articulares apresentam alinhamento normal.
+
+### Saco Dural e Raízes Nervosas
+
+O saco dural apresenta calibre normal e aspecto típico ao longo de todo o segmento analisado. As raízes nervosas encontram-se livres e sem sinais de compressão.
+
+### Partes Moles
+
+A musculatura paravertebral apresenta simetria e volume normais, sem sinais de atrofia. Não se observam lesões de partes moles, coleções ou alterações inflamatórias significativas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Coluna lombar **sem alterações significativas** na presente data.
+
+- Ausência de hérnias discais
+- Ausência de estenose vertebral central
+- Ausência de estenose foraminal
+- Espaços discais intervertebrais preservados
+- Estruturas ósseas íntegras
+- Sem sinais de compressão neural
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A tomografia computadorizada da coluna lombar não evidencia alterações patológicas significativas. Os achados são compatíveis com coluna dentro dos limites normais para a idade do paciente.
+
+**Recomendações:**
+- Seguimento clínico conforme orientação médica
+- Se sintomas persistirem, correlação clínica é fundamental
+- Caso haja indicação de investigação adicional de componente medular, considerar ressonância magnética da coluna lombar
+
+---
+
+## ASSINATURA
+
+**Dr(a).** [NOME DO RADIOLOGISTA]  
+**CRM:** [____________]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+
+**Data da Assinatura:** [DD/MM/AAAA]  
+**Hora:** [__:__]  
+
+---
+
+*Este laudo foi gerado em conformidade com os padrões técnicos da Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR).*

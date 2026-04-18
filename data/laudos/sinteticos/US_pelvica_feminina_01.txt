@@ -1,0 +1,122 @@
+=== US pelvica feminina — Variante 1 ===
+Especialidade: radiologia
+Cenário: útero e anexos sem alterações
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA PÉLVICA FEMININA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [__/__/____]  
+**Idade:** [__] anos  
+**Sexo:** Feminino  
+**RG/CPF:** [________________]  
+**Data do Exame:** [__/__/____]  
+**Hora do Exame:** [__:__h]  
+
+**Solicitante:** [NOME DO MÉDICO - ESPECIALIDADE]  
+**Número do Registro (CRM):** [__________]  
+**Indicação Clínica:** [MOTIVO DO PEDIDO]  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Ultrassonografia pélvica realizada com aparelho de ultrassom bidimensional, utilizando transdutor convexo multifrequencial (2-5 MHz) por via transabdominal, complementado por transdutor endocavitário (6-9 MHz) por via transvaginal quando aplicável. Análise dinâmica realizada em planos longitudinal e transversal, com avaliação do útero, endométrio, ovários e estruturas anexiais bilateralmente. Bexiga urinária preenchida adequadamente para melhor visualização das estruturas pélvicas.
+
+---
+
+## ACHADOS
+
+### ÚTERO
+Útero em posição anteversa, dimensões normais:
+- **Comprimento:** 7,2 cm
+- **Altura (parede anterior):** 4,8 cm
+- **Altura (parede posterior):** 4,5 cm
+- **Espessura do miométrio:** 1,8 cm bilateralmente
+
+Miométrio homogêneo, sem focos de ecogenicidade alterada, sem sinais de adenomiose. Contratilidade miometrial fisiológica presente.
+
+### ENDOMÉTRIO
+Endométrio com espessura de 7,5 mm, ecotextura homogênea e uniforme. Linha endometrial bem definida. Aspecto morfológico condizente com fase do ciclo menstrual relatado.
+
+### CAVIDADE UTERINA
+Cavidade endometrial com contornos bem delimitados, sem presença de imagens compatíveis com lesões ocupantes de espaço, septações ou deformidades. Visualização adequada em planos longitudinal e transversal.
+
+### OVÁRIO DIREITO
+Localizado em topografia normal, dimensões:
+- **Comprimento:** 3,1 cm
+- **Altura:** 2,2 cm
+- **Espessura:** 2,0 cm
+- **Volume aproximado:** 6,8 cm³
+
+Ecotextura homogênea com folículos antrais pequenos (2-5 mm), compatíveis com folículos primordiais. Sem cistos complexos ou massas. Vascularização normal ao Doppler.
+
+### OVÁRIO ESQUERDO
+Localizado em topografia normal, dimensões:
+- **Comprimento:** 3,0 cm
+- **Altura:** 2,3 cm
+- **Espessura:** 2,1 cm
+- **Volume aproximado:** 7,1 cm³
+
+Ecotextura homogênea com folículos antrais pequenos (2-6 mm). Sem cistos complexos ou massas. Vascularização normal ao Doppler.
+
+### ESTRUTURAS ANEXIAIS BILATERAIS
+Trompas não dilatadas. Ausência de coleções peritoniais. Sem sinais ecográficos de inflamação das estruturas anexiais.
+
+### BEXIGA URINÁRIA
+Bexiga adequadamente preenchida, com paredes uniformes, sem sinais de lesões intraluminais. Conteúdo anecóico.
+
+### ESTRUTURAS ADJACENTES
+Sem líquido livre na pelve. Sigmóide e alças do intestino delgado visualizadas sem alterações relevantes.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Útero:** Normal em volume e morfologia. Miométrio homogêneo. Endométrio normal.
+
+2. **Ovários:** Bilateralmente normais, com padrão ecográfico compatível com ovários normovolêmicos e fisiológicos.
+
+3. **Anexos:** Sem alterações detectáveis.
+
+4. **Pelve:** Sem sinais de inflamação, coleção ou doença.
+
+**CONCLUSÃO:** Ultrassonografia pélvica feminina **NORMAL**, sem achados patológicos.
+
+---
+
+## RECOMENDAÇÕES
+
+- Seguimento clínico conforme necessário
+- Retorno radiológico conforme critério clínico
+- Nenhuma intervenção urgente indicada pelos achados ultrassonográficos
+
+---
+
+## RESPONSABILIDADE TÉCNICA
+
+**Técnico em Ultrassom:** [NOME - CREFITO Nº __________]  
+**Assinatura:** _______________________________  
+**Data:** __/__/____
+
+---
+
+## ASSINATURA DO RADIOLOGISTA
+
+**Dr(a):** [NOME COMPLETO]  
+**CRM:** [__________] | **RQE:** [__________]  
+**Especialidade:** Radiologia | **Área de Atuação:** Ultrassonografia  
+
+**Assinatura:** _______________________________  
+
+**Data:** __/__/____  
+**Hora:** __:__h  
+
+---
+
+**DOCUMENTO CONFIDENCIAL - SIGILO PROFISSIONAL**  
+*Este laudo é de propriedade do paciente e deve ser entregue ao mesmo ou ao médico solicitante.*

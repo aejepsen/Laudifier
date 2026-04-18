@@ -1,0 +1,101 @@
+=== Teste ergoespirometrico — Variante 3 ===
+Especialidade: cardiologia
+Cenário: teste interrompido por fadiga muscular, sem alterações isquêmicas
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TESTE ERGOESPIROMÉTRICO
+
+---
+
+## DADOS DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [__] anos  
+**Sexo:** [  ] Masculino  [  ] Feminino  
+**Registro Hospitalar:** [_______________]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora de Início:** [__:__]  
+**Hora de Término:** [__:__]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[DESCREVER INDICAÇÃO DO TESTE - Ex: Avaliação de capacidade funcional, intolerância ao esforço, dispneia de esforço, avaliação pré-operatória]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Teste ergoespirométrico máximo realizado em cicloergômetro com protocolo de carga progressiva incremental. O paciente foi submetido a monitorização contínua através de eletrocardiograma (ECG) de 12 derivações, mensuração não invasiva de pressão arterial a cada estágio, monitorização contínua da saturação periférica de oxigênio (SpO₂) por oximetria de pulso, e análise dos gases expirados através de sistema de calorimetria indireta acoplado.
+
+**Protocolo:** Carga inicial de 25W com incrementos de 25W a cada 3 minutos até atingir a fadiga máxima tolerada ou critério de parada predefinido.
+
+**Equipamento utilizado:** Cicloergômetro eletromagnético acoplado a sistema de análise de gases expirados com software dedicado para cálculo de variáveis ventilatórias e metabólicas.
+
+---
+
+## ACHADOS
+
+### Dados Demográficos e Antropométricos
+- **Peso:** [___] kg
+- **Altura:** [___] cm
+- **Índice de Massa Corporal:** [___] kg/m²
+- **Superfície Corporal:** [___] m²
+
+### Variáveis Hemodinâmicas Basais
+- **Frequência Cardíaca (FC) em repouso:** [___] bpm
+- **Pressão Arterial Sistólica (PAS) em repouso:** [___] mmHg
+- **Pressão Arterial Diastólica (PAD) em repouso:** [___] mmHg
+- **Saturação de Oxigênio (SpO₂) em repouso:** [___]%
+
+### Curso do Teste
+O paciente foi posicionado corretamente no cicloergômetro com ajustes apropriados de altura e distância. Iniciou-se o exercício progredindo conforme protocolo estabelecido.
+
+**Estágios Alcançados:**
+- 1º estágio (25W): Tolerado adequadamente
+- 2º estágio (50W): Tolerado adequadamente
+- 3º estágio (75W): Tolerado adequadamente
+- 4º estágio (100W): Tolerado com fadiga muscular emergente
+- **5º estágio (125W): TESTE INTERROMPIDO POR FADIGA MUSCULAR**
+
+### Variáveis no Pico do Esforço
+- **Carga máxima alcançada:** [___] W ([___]% da carga predita)
+- **Frequência Cardíaca máxima:** [___] bpm ([___]% da FC máxima predita)
+- **Resposta cronotrópica:** Adequada com incremento de [___] bpm
+- **Pressão Arterial sistólica ao pico:** [___] mmHg
+- **Pressão Arterial diastólica ao pico:** [___] mmHg
+- **Saturação de Oxigênio ao pico:** [___]%
+
+### Variáveis Ventilatórias e Metabólicas
+- **VO₂ máximo:** [___] mL/kg/min ([___]% do predito)
+- **VO₂ no pico:** [___] mL/min
+- **VCO₂ máximo:** [___] mL/min
+- **Razão de Quociente Respiratório (RQ):** [___]
+- **Ventilação minuto (VE):** [___] L/min
+- **Frequência Respiratória pico:** [___] resp/min
+- **Volume Corrente (VC):** [___] mL
+- **Equivalente ventilatório para O₂ (VE/VO₂):** [___]
+- **Equivalente ventilatório para CO₂ (VE/VCO₂):** [___]
+- **Limiar anaeróbico:** [___] mL/kg/min ([___]% do VO₂ máximo)
+- **Slope VE/VCO₂:** [___]
+
+### Achados Eletrocardiográficos
+
+**ECG em repouso:**
+- Ritmo: Ritmo sinusal regular
+- Frequência: [___] bpm
+- Eixo: Normal (aproximadamente [___]°)
+- Segmento ST: Sem alterações
+- Onda T: Sem alterações
+- PR: Normal
+- QRS: Normal
+
+**ECG durante o esforço:**
+Não foram identificadas alterações de segmento ST durante os estágios do teste. Não observados desnivelamentos do segmento ST. Não identificadas inversões dinâmicas de onda T. Ritmo manteve-se sinusal regular em toda progressão do esforço.
+
+**ECG na recuperação:**
+Rápido retorno do segmento ST à linha isoelétrica. Normalização da frequência cardíaca esperada para o período inicial de recuperação. Sem arritmias detectadas.
+
+### Resposta

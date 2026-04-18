@@ -1,0 +1,107 @@
+=== RM coluna lombar — Variante 1 ===
+Especialidade: radiologia
+Cenário: coluna lombar sem sinais de compressão radicular
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M / F]  
+**Idade:** [XX] anos  
+**Matrícula/RG:** [NÚMERO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Modalidade:** Ressonância Magnética (RM)  
+**Região Estudada:** Coluna Lombar  
+**Aparelho Utilizado:** Ressonador de [1.5 / 3.0] Tesla  
+**Médico Solicitante:** [NOME DO MÉDICO]  
+**Especialidade do Solicitante:** [ESPECIALIDADE]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[INDICAÇÃO CLÍNICA FORNECIDA PELO MÉDICO SOLICITANTE]
+
+---
+
+## TÉCNICA
+
+Realizado estudo de ressonância magnética da coluna lombar com sequências multiplanares e multimodais. Foram adquiridas imagens ponderadas em T1, T2, FLAIR e sequências de difusão com gradientes. Os estudos foram realizados nos planos sagital, axial e coronal. Foram utilizadas técnicas de supressão de gordura quando apropriado. Não foi administrado contraste paramagnético intravenoso. Paciente cooperativo durante todo o procedimento, sem intercorrências.
+
+---
+
+## ACHADOS
+
+### Aspecto Geral da Coluna Lombar
+A coluna lombar apresenta alinhamento anatômico preservado. Curva lordótica fisiológica mantida. Altura dos corpos vertebrais dentro dos limites normais.
+
+### Corpos Vertebrais
+Os corpos vertebrais de L1 a L5 apresentam intensidade de sinal normal em T1 e T2, compatível com medula óssea de padrão hematopõiético normal. Não há sinais de edema intraósseo, hérnia vertebral ou colapso.
+
+### Discos Intervertebrais
+
+**Nível L1-L2:** Disco com altura e sinal preservados. Núcleo pulposo mantendo adequada hidratação (sinal hiperintenso em T2). Sem protrusão ou herniação discal.
+
+**Nível L2-L3:** Disco íntegro, bem hidratado, sem abaulamento ou herniação. Espaço discal com altura normal.
+
+**Nível L3-L4:** Disco com estrutura normal. Sem evidências de desidratação ou degeneração. Sem herniação discal.
+
+**Nível L4-L5:** Disco preservado com altura normal. Sinal T2 adequado. Sem protrusão ou herniação.
+
+**Nível L5-S1:** Disco intervertebral bem hidratado, altura preservada. Sem sinais de degeneração discal ou herniação.
+
+### Canal Vertebral e Recesso Lateral
+O canal vertebral lombar apresenta calibre amplo em toda sua extensão. Sem compressão medular ou da cauda equina em nenhum nível.
+
+**Espaço epidural:** Livre de lesões e sem sinais de compressão neural.
+
+**Recessos laterais:** Pérvios bilateralmente em todos os níveis. Sem compressão das raízes nervosas emergentes.
+
+### Forame Intervertebral
+Os foramina intervertebrais encontram-se patentes bilateralmente em todos os níveis estudados (L1-L2, L2-L3, L3-L4, L4-L5 e L5-S1), sem sinais de estenose foraminal.
+
+### Raízes Nervosas
+As raízes nervosas da cauda equina apresentam-se íntegras, sem compressão, irritação ou deslocamento. Não há sinais de radiculopatia ou compressão radicular em nenhum segmento.
+
+### Ligamento Amarelo
+Ligamentos amarelos preservados, sem hipertrofia ou ossificação.
+
+### Ligamentos Longitudinais
+Ligamentos longitudinais anteriores e posteriores íntegros, sem relevantes alterações.
+
+### Articulações Facetárias
+Articulações zigoapofisárias com cartilagem articular preservada, congruência normal. Sem sinais de osteoartrose facetária significativa. Espaço articular mantido bilateralmente em todos os níveis.
+
+### Partes Moles
+Musculatura paravertebral simétrica, com sinal normal, sem atrofia, edema ou infiltração gordurosa anormal. Sem massas ou lesões de partes moles adjacentes.
+
+### Mediastino Posterior
+Sem alterações significativas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Ressonância Magnética de Coluna Lombar demonstra:**
+
+1. ✓ **Coluna lombar sem alterações degenerativas significativas** - discos íntegros, bem hidratados e sem sinais de herniação em nenhum nível.
+
+2. ✓ **Ausência de compressão neural** - canal vertebral amplo e pérvio em toda extensão, sem compressão da cauda equina.
+
+3. ✓ **Ausência de compressão radicular** - recessos laterais e foramina intervertebrais patentes bilateralmente, sem sinais de compressão das raízes nervosas emergentes.
+
+4. ✓ **Articulações facetárias normais** - sem osteoartrose relevante.
+
+5. ✓ **Estruturas ósseas normais** - sem sinais de fratura, hérnia vertebral ou lesão medular.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A Ressonância Magnética da coluna

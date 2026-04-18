@@ -1,0 +1,596 @@
+ABDOME
+ABDOME SUPERIOR
+
+1- Axial T2 TSE blade
+
+2- Axial T2 TSE FATSAT blade
+
+3 – Coronal T1 vibe 3D 3 mm pré contraste
+
+4 – Axial T1 IN/OUT phase
+
+5 – Axial T2 TE 90
+
+6 – Axial T2 TE 180
+
+7 - Axial DWI e MAPA DE ADC (B 50 e B>600 s/mm2. Deve incluir o fígado inteiro. Espessura de corte ≤ 7 mm [ideal 3-4 mm] / Gap ≤ 1 mm / Pixel (fase) ≤ 2.0 mm )
+
+8 – Axial T1 3D fat sat- 3 mm pré contraste
+
+9 – Axial T1 3D fat sat - 3 mm pos contraste (fases parenquimatosa arterial; venosa portal e equilíbrio ou tardia)
+
+10 – Coronal T1 fat sat pós contraste (fase equilíbrio ou tardia)
+
+Notas:
+
+1, 2, 3, 4, 5 , 6: Deve cobrir o fígado inteiro. Espessura de corte ≤ 7mm (ideal 3-4 mm) / Gap ≤ 1,5 mm / Pixel (fase) ≤ 2.0 mm
+
+8, 9 e 10 – espessura de corte de 3 mm
+
+-------------------------------------------------------------------------------------------------------
+
+ABDOME SUPERIOR COM CONTRASTE HEPATOESPECÍFICO (PRIMOVIST)
+
+2D OU 3D T1 IN-PHASE E OUT-PHASE
+
+2D OU 3D T2 FSE MRCP (COLANGIO) - OPCIONAL
+
+3D T1 FAT SAT GRE sem contraste
+
+INJEÇÃO DO CONTRASTE 1-2 ML/S + 20-30 ML SF 0,9 %
+
+FASE DINÂMICA
+
+20 SEG (FASE ARTERIAL): 3D T1 FAT SAT GRE
+
+60-70 SEG (FASE PORTAL): 3D T1 FAT SAT GRE
+
+2-3 MIN (FASE VENOSA TARDIA): 3D T1 FAT SAT GRE
+
+DIFUSÃO
+
+2D T2 FSE (COM OU SEM SATURAÇÃO)
+
+FASE HEPATOBILIAR
+
+20 MIN APÓS INJEÇÃO (FASE HEPATOCELULAR) - 3D T1 FAT SAT GRE
+
+2D T1 SEM SATURAÇÃO
+
+-------------------------------------------------------------------------------------------------------
+
+ABDOME SUPERIOR PARA CHC (PROTOCOLO ABREVIADO)
+
+T1 Fase Hepatobiliar
+
+T2
+
+DWI (≥ 2 b values)
+
+-------------------------------------------------------------------------------------------------------
+
+QUANTIFICAÇÃO DE FERRO HEPÁTICO 
+
+sequência única eco gradiente com 8-10 ecos, alternando ecos em fase e fora de fase. Somente a bobina corporal deve ser selecionada. 
+
+Parâmetros RM
+
+Coil: Body (autoselection off)
+
+Sequente:GRE
+
+Opção: sem FAT SAT
+
+TR (msec): 120 (para reduzir contraste T1)
+
+TE (msec): multiplo de 1.2
+
+FA (°): 20 (para reduzir contraste T1)
+
+Bandwith: adptar para obter TEs corretos
+
+Numero de excitações: 1
+
+Plano: axial
+
+Número de cortes: máximo permitido (depende do número de TEs)
+
+Espessura: 7 a 8 mm
+
+GAP: pode ser largo (10 mm) se tem um número reduzido de cortes
+
+MAtrix: assimétrico para reduzir tempo de aquisição (ex 128x116)
+
+Fase: antero-posterior
+
+FOV: 40 cm
+
+Tempo de aquisição: 15 seg
+
+-------------------------------------------------------------------------------------------------------
+
+ELASTOGRAFIA HEPÁTICA
+
+Jejum 4-6 horas
+
+AXIAL T2 HASTE
+
+AXIAL IN/OUT PHASE
+
+CORONAL T2 HASTE
+
+GRE ou SE-EPI - pos processamento: imagem de cisalhamento e mapa de rigidez (elastograma  - fugir de grandes vasos e pelos 1 cm de distância da capsula)
+
+-------------------------------------------------------------------------------------------------------
+
+ADRENAL
+
+Coronal T2 - SSFSE BH - 5mm / 0.5 mm
+
+Axial T1 - Dual Echo / SPGR BH - 3 mm/ 0.5 mm
+
+Coronal T1 - Dual Echo / SPGR - 3mm/ 0.5 mm
+
+Axial T1 Fat Sat - 3D mdixon pre BH 
+
+Sagital - bolus - acionar quanto atingir AMS
+
+Axial T1 Fat Sat - 3D  mdixon phase BH - arterial, arterial/venoso e tardio
+
+Coronal T1 Fat Sat - 3D mdixon pos - 3 min pos contraste
+
+Axial T2 - TSE FS - 5mm / 1mm
+
+DWI - 7 mm / 1mm
+
+Enviar Mapa ADC e subtração
+
+-------------------------------------------------------------------------------------------------------
+
+URO (RINS E VIAS URINÁRIAS)
+
+Adulto:
+
+Hidratação com soro: Bolus 250 ml solução salina 
+
+Lasix / furosemida: dosagem 0.5 mg/kg, max 20 mg - 15 min antes da R
+
+Orientações para exame pediátrico:
+
+Necessário paciente chegar 1 hora antes do exame para acesso venoso e infusão de soro fisiológico.
+
+Administrar soro conforme orientação:
+
+4 ml/kg/hr para os primeiros 10kg de peso + 2 ml/kg/hr para os próximos 10kg de peso + 1ml/kg/hr para cada kg acima de 20 kg de peso
+
+Esvaziar bexiga antes de deitar na mesa de exame.
+
+Sequências:
+
+1 - SSFSE: coronal abd e pelve
+
+2 – Axial T1 fat sat abd e pelve
+
+3 – Axial T2 FSE Abd e pelve
+
+4 – Axial T2 FSE FatSat Abd e pelve
+
+5 – Coronal T2 FSE Fat Sat Abd e pelve
+
+6 – Coronal T2 SSFSE corte fino (1mm) dos rins e ureteres com respiratory trigerring (tipo colangioRM) e reconstrução 3d
+
+7- DWI axial (0-50;400-500;800-100) + ADC
+
+8 – Coronal LAVA pre gadolíneo
+
+Pós contraste
+
+9 – 3D dinamico GRE em coronal oblíquo incluindo rins e bexiga (2 mm de corte). Fases arterial (+- 30 seg), portal (+- 60 seg), nefrográfica (+-100 seg) e excretora (+-8 minutos)
+
+10 – Coronal LAVA pos gad (8 min) – precisa ver ureteres até a bexiga
+
+11 - Sagital LAVA 10 min pos gad para cada rim
+
+-------------------------------------------------------------------------------------------------------
+
+PELVE ENDOMETRIOSE
+
+Sequências:
+
+1. Sagital T2 FSE – 3mm – FOV 270-300
+
+2. Axial pelve T2 FSE - 6 mm FOV 350-400
+
+3. Coronal do eixo curto do útero T2 FSE - 3mm FOV 180-230
+
+4. Coronal do eixo longo do útero T2 FSE - 3 mm FOV 180-230
+
+5. Axial T1 In/Out Phase – Pré-Contraste –
+
+6. Axial 3D LAVA Fat Sat - Pré-Contraste – apnéia FOV
+
+7 Axial 3D LAVA Fat Sat – Pós contraste – apnéia FOV
+
+8. Sag FAT SAT pos contraste
+
+9 . Coronal FAT SAT pós contraste
+
+Notas:
+
+1. Buscopan simples 01 ampola (20mg) I.V. diluída em 10ml de água destilada estéril,10 minutos antes do exame.
+
+2. Gel de ultra-som via vaginal - 40 ml - rotina.
+
+3. Laxante na noite anterior (supositório de glicerina ou bisacodil) e dieta leve
+
+-------------------------------------------------------------------------------------------------------
+
+PELVE O-RADS
+
+Técnica:
+
+T2 SAG sem supressão - espessura: <= 4 mm
+
+T2 AXIAL sem supressão - espessura <=3 mm
+
+Axial T1 IN/OUT phase - espessura: <= 4 mm
+
+DWI axial - mesma localização de T2, espessura  <= 4 mm; b-value 0; 50 e 1000 ou maior 
+
+DCE 3D T1 com supressão
+
+DCE (3D ultrafast GRE): T1 dinâmica -> resolução de 15 seg
+
+Espessura mínima: 3mm
+
+Inicio 30 seg antes da junção para permitir subtração, com duração total de 4 minutos
+
+Não DCE 3D T1 com supressão:  pré e pos simples (30-40 seg após fim da injeção);  espessura <=3 mm
+
+-------------------------------------------------------------------------------------------------------
+
+PELVE ANOMALIA MULLERIANA
+
+Sequências:
+
+1. Coronal T2 SSFSE – 5mm/0mm – afastar anomalias renais
+
+2. Axial T1 In/Out Phase – 5.2mm/2.6 mm
+
+3. Coronal 3D FS T2 - 1.4 mm/ 0.7 mm 
+
+4. Axial FS T2 motion correction - 4.0/0mm - usar em pacientes com dificuldade em se manter estáticos
+
+5.  Axial FS T1 GRE - 4.0 mm / 2.0 mm
+
+Opcional
+
+6. Obliquo coronal T2 FSE - 4.0 mm / 0 
+
+7 Axial Dinamico FS T1 GRE - 4.2 mm / 0
+
+8. Coronal FS T1 GRE - fase tardia - avaliar ureteres
+
+Notas:
+
+1. Buscopan simples 01 ampola (20mg) I.V. diluída em 10ml de água destilada estéril,10 minutos antes do exame.
+
+2. Laxante na noite anterior (supositório de glicerina ou bisacodil) e dieta leve
+
+-------------------------------------------------------------------------------------------------------
+
+FÍSTULA PERIANAL
+
+SEQUÊNCIAS
+
+AXIAL OBLÍQUO T1 TSE - corte 3,5mm / gap 0,8 mm - FOV: 18-20 mm (cortes direcionados ao eixo do canal anal)
+
+AXIAL OBLÍQUO T2 TSE - corte 3,0mm / gap 0,8 mm - FOV: 18-20 mm (cortes direcionados ao eixo do canal anal)
+
+AXIAL OBLÍQUO T2 TSE FS - corte 3,0mm / gap 0,8 mm - FOV: 18-20 mm (cortes direcionados ao eixo do canal anal)
+
+CORONAL OBLÍQUO T2 TSE - corte 3,0mm / gap 0,8 mm - FOV: 18-20 mm (cortes direcionados ao eixo do canal anal)
+
+AXIAL OBLÍQUO T1 FS 3D - mesmos parâmetros de AXIAL OBLÍQUO T2 TSE 
+
++ CONTRASTE ENDOVENOSO
+
+SAG T1 FS 3D - entre as cabeças femorais
+
+AXIAL OBLÍQUO T1 FS 3D - mesmos parâmetros de AXIAL OBLÍQUO T2 TSE 
+
+CORONAL OBLÍQUO T1 FS 3D - mesmos parâmetros de CORONAL OBLÍQUO T2 TSE
+
+--------------------------------------------------------------------------------------------------------
+
+FÍSTULA RETOVAGINAL
+
+Usar gel vaginal. Gel retal opcional.
+
+Cortes direcionados para o eixo do canal vaginal
+
+T2 FSE - SAGITAL - corte 3,5 mm / gap 0,5 mm / fov 220 mm
+
+T2 FSE FAT SAT - AXIAL OBLIQUO - corte 3,5 mm / gap 0,5 mm / fov 220 mm
+
+T2 FSE - AXIAL OBLIQUO E CORONAL OBLIQUO - corte 3,5 mm / gap 0,5 mm / fov 220 mm
+
+DWI - AXIAL OBLIQUO - corte 5,0 mm / gap 0 mm / fov 240 mm
+
+T1 3D DIXON COM CONTRASTE - AXIAL OBLIQUO - corte 2,6 mm / gap 0 mm / fov 280 mm
+
+FAT SAT T1 SPGR - SAGITAL - corte 3,5 mm / gap 0,5 mm / fov 220 mm
+
+-------------------------------------------------------------------------------------------------------
+
+MULTIPARAMÉTRICA DA PRÓSTATA
+
+T2 FSE ou TSE:
+
+Axial, sagital e coronal
+
+Espessura 3 mm / sem intervalos (gap 0)
+
+Plano de corte axial deve ser o meso para DWI e DCE
+
+FOV: 12-20 cm (abranger prostata e vesículas seminais)
+
+≤0,7 mm (phase) x ≤ 0,4 mm (frequency)  
+
+As aquisições axiais 3D podem ser usadas como COMPLEMENTO para aquisições 2D.
+
+T1: SE ou GRE
+
+Com ou sem supressão de gordura
+
+FOV: pelve inteira
+
+Plano de corte axial deve ser o meso para DWI e DCE
+
+DWI
+
+Valores de b: 0-100 e 800-1000
+
+Inclusão obrigatória de b com alto valor -> pelo menos 1400 segundos/mm2 (aquisição separada)
+
+Mapa ADC: usar valores < =1000
+
+Spin echo EPI combinado com spectralfat saturation.
+
+TE: ≤90 msec; TR: ≥3000 msec.
+
+Espessura de corte: ≤4mm, sem intervalo (gap).
+
+  O plano de corte axial deve ser o mesmo para a T2W e o DCE.
+
+FOV: 16-22 cm.
+
+≤2.5mm phase and frequency
+
+DCE
+
+3D T1W GRE com ou sem supressão
+
+Realizar SUBTRAÇÃO do estudo dinâmico
+
+TR/TE: <100msec/<;5msec.
+
+Espessura de corte: 3mm, sem intervalo (gap).
+
+O plano de corte axial deve ser o mesmo para a DWI e o T2.
+
+FOV: abranger toda a próstata e vesículas seminais.
+
+≤2mm X ≤2mm.
+
+Resolução Temporal: ≤15sec.
+
+Tempo de observação total: ≥2min.
+
+Dose: 0.1mmol/kg standardGBCA or equivalent high relativityGBCA.
+
+Fluxo: 2-3cc/sec começando com a aquisição contínua de dados de imagem (deve ser o mesmo para todos os exames).
+
+---------------------------------------------------------------------------------------------------------------
+
+PENIS / ESCROTO
+
+Sequências anatômicas padrão
+
+1- Axial, sagital e coronal localizador - FOV 400 mm - Espessura 10 mm - Gap 5 mm - Matriz 128 x 256 - Programação das posteriores sequências.
+
+2 - Axial, sagital e coronal T2W FSE- FOV 160 mm - Espessura 4 mm - Gap 0,5 mm - Matriz 256 x 192 - Sequências essenciais para avaliação anatômica, localização de tumores, avaliação da integridade da túnica albuginea, caracterização de massas e coleções.
+
+3 - Axial T1W SE - FOV 340 mm - Espessura 5 mm - Gap 1 mm - Matriz 256 x 192 - avaliação da integridade da túnica albuginea, caracterização de massas e coleções, verificar doença pélvica profunda, adenopatia pélvica e inguinal
+
+Sequências adicionais para trauma
+
+4 - Axial T1W dual echo GRE (in e out phase) - FOV 340 mm - Espessura 4 mm - Gap 1 mm - Matriz 256 x 192 - caracterização de produtos de degradação da homoglobina
+
+5 - Sagital T2W fat sat FSE ou STIR - FOV 160 mm - Espessura 4 mm - Gap 0,5 mm - Matriz 256 x 192 - identificação de coleções e edema
+
+Sequências adicionais para inflamação
+
+4 - Axial DW - FOV 340 mm - Espessura 8 mm - Gap 2 mm - Matriz 128 x 128 - caracterização de coleções como abscessos 
+
+5 - Axial T2W fat sat FSE ou STIR - FOV 340 mm - Espessura 6 mm - Gap 1 mm - Matriz 320 x 256 -  identificação de coleções e edema
+
+6 - Axial pos contraste T1W 3D fat sat GRE - FOV 340 mm - Espessura 3 mm - Gap 0 mm - Matriz 320 x 256 - caracterização de coleções, de sitios de inflamação, delineamento da extensão da inflamação, verificar inflamação ativa na doença de Peyronie
+
+Sequências adicionais para tumor
+
+4 - Axial DW - FOV 340 mm - Espessura 8 mm - Gap 2 mm - Matriz 128 x 128 - identificação do tumor e reposta da terapia
+
+5 - Axial T2W fat sat FSE ou STIR - FOV 160 mm - Espessura 4 mm - Gap 0,5 mm - Matriz 256 x 192 -  avaliação de conteúdo gorduroso macroscópico, idenfiticação de cistos e inflamação associada
+
+6- Axial T1W dual echo GRE (in e out phase) - FOV 340 mm - Espessura 4 mm - Gap 1 mm - Matriz 256 x 192 - caracterização de produtos de degradação da homoglobina e componente lipidico intracelular
+
+7 - Axial pré e pos contraste T1W 3D fat sat GRE - FOV 340 mm - Espessura 3 mm - Gap 0 mm - Matriz 320 x 256 - avaliação do realce e extensão tumoral
+
+8 - Sagital pos contraste T1W 3D fat sat GRE - FOV 260 mm - Espessura 3 mm - Gap 0 mm - Matriz 256 x 192 - avaliação do realce e extensão tumoral
+
+-----------------------------------------------------------------------------------------------------
+
+URETROCISTOGRAFIA
+
+As imagens nas sequências FSE e GRE, ponderadas em T1 e T2, sem a injeção do agente paramagnético.
+
+  Realizadas sequências urográficas altamente ponderadas em T2 e aquisições volumétricas com a utilização de xilocaína distendendo todo o trajeto uretral até a bexiga com FOV dedicado a região.
+
+  São realizadas aquisições em CINE na fase de contração e micção.
+
+  O contraste venoso é utilizado em situações especiais como avaliações tumorais ou coleções; fístulas.
+
+-----------------------------------------------------------------------------------------------------
+
+DEFECO
+
+Preparo:
+
+Enema / clister laxativo na manhã do exame para esvaziamento da ampola retal até 1 hora antes do exame.
+
+Esvaziamento da bexiga 1 hora antes do exame. 
+
+Uso de 60-100 ml de gel retal ou mais até o paciente ter a sensação de plenitude. No caso de mulheres, usar, se possível, 40 ml de gel vaginal.
+
+Sequências:
+
+2D T2 TSE SAGITAL 3MM SFOV (200-240 mm)
+
+2D T2 TSE AXIAL OBL 3 MM SFOV
+
+2D T2 TSE CORONAL OBL 3 MM SFOV
+
+T2 CINE TRUEFISP/FIESTA/BFFE SFOV (320-350 mm) 7 MM
+
+Repouso: 7-10 segundos:
+
+Valsalva: forçar por 4 segundos e depois relaxar por 4 segundos, e depois forçar por 4 segundos e depois relaxar por 4 segundos.
+
+Contração (Kegel): aperte (e segure) por 4 segundos, depois relaxe por 4 segundos, depois aperte por 4 segundos e depois relaxe por 4 segundos.
+
+Defecação (ao menos três tentativas)
+
+Opcionais:
+
+T2 TSE Alta resolução nos esfincteres - axial oblíquo (caso de disfunção posterior).
+
+3D T2 TSE / FSE sagital - em substituição ao 2D T2
+
+T1 GRE axial
+
+-----------------------------------------------------------------------------------------------------
+
+ACRETISMO PLACENTÁRIO
+
+Parâmetros:
+
+FOV (mm) 320-400
+
+TR/TE 1000/140
+
+Flip angle 150º
+
+Matrix axial 256x256 e coronal/sagital 384 x 256
+
+Parallel imaging factor 2
+
+Section thickness (mm) 4
+
+Intersection gap (mm) 1
+
+Sequências:
+
+SCOUT HASTE
+
+T2_trufi_sag_p2_bh (2DTrueFISP (Siemens)/FIESTA (GE) /bFFE (phillips) : Espessura 0,7 mm)
+
+T2_trufi_axial_p2_bh_sup
+
+T2_trufi_axila_p2_bh_inf
+
+T2_trufi_cor_p2_bh
+
+T2_trufi3d_cor_p6_bh_320
+
+Ax_T2_haste_2apneias (HASTE/SSFSE / SSHTSE : espessura 3-4mm)
+
+COR_T2_haste_2apneias
+
+SAG_T2_haste_2apneias
+
+Ax _FAT SAT T2 FSE - Espessura 4 mm
+
+T1_vibe_fs_axial - Espessura: 4,6 mm - alternativa: LAVA (GE) ou THRIVE (Philips)
+
+T1_vibe_opp-in_fs_axial - Espessura: 6 mm
+
+Placenta prévia acrescentar focado no segmento inferior cervical: SAG_T2_HASTE_2apneias + AxT2_HASTE_2apneias
+
+-------------------------------------------------------------------------------------------------------
+
+FETAL
+
+Balanced SSFP – coronal, axial e sagital da paciente – Section / Gap: 6/3 – FOV 350-400 mm – planejamento das próxima sequências
+
+T2W SE Single Shot RARE - axial da paciente – Section / Gap: 7/0– FOV 350 mm – avaliação de toda a extensão uterina
+
+T1W FSE - axial da paciente – Section / Gap: 6/3 – FOV 350-400 mm – avaliação de toda a extensão uterina
+
+T2W SE Single Shot RARE - axial do cranio fetal – Section / Gap: 3/0– FOV 250 -350 mm
+
+T2W SE Single Shot RARE – coronal, axial e sagital do abdome e torax do feto – Section / Gap: 3-5/0– FOV 250- 350 mm
+
+Balanced SSFP – coronal, axial e sagital do abdome e torax do feto – Section / Gap: 3-5/0 – FOV 250-350 mm
+
+T1W FSE breath hold- coronal do feto – Section / Gap: 5,5/0,5 – FOV 250-350mm
+
+TRUE FISP CINE 3D - coronal, axial e sagital do feto - Section / Gap: 4 / 0.6 mm - FOV 350 mm
+
+T2* 3D FLASH - coronal, axial e sagital do feto - Section / Gap: 7 / 1.4 mm - FOV 350 mm - avaliação de ossos
+
+-------------------------------------------------------------------------------------------------------
+
+NEUROFETAL
+
+Balanced SSFP – coronal, axial e sagital da paciente – Section / Gap: 6/2 – FOV 350-400 mm – planejamento das próxima sequências
+
+CRANIO:
+
+T2W SE Single Shot RARE ou HASTE - axial do cranio fetal – corte / Gap: 3/0– FOV 200 -300 mm
+
+T1 2D GRE - axial/sag/coronal do crânio fetal - corte / Gap: 3/0– FOV 300mm
+
+B-FFE ou FIESTA - axial/sag/coronal do crânio fetal - corte / Gap: 3/0– FOV 300-400mm
+
+Ultra FAST GRE - axial/sag/coronal do crânio fetal - corte / Gap: 3/0– FOV 300 mm
+
+DWI (b 0 e 700) - axial - corte / Gap: 3/0 - FOV 240
+
+COLUNA:
+
+T2 HASTE - sagital da coluna – corte / Gap: 3/0– FOV 280-320 mm
+
+T1 TSE/VIBE - sagital da coluna – corte / Gap: 3/0– FOV 280-320 mm
+
+T2 HASTE - axial da coluna – corte / Gap: 3/0– FOV 280-320 mm
+
+T1 TSE/VIBE - axial da coluna – corte / Gap: 3/0– FOV 280-320 mm
+
+T2 HASTE - coronal da coluna – corte / Gap: 3/0– FOV 280-320 mm
+
+-------------------------------------------------------------------------------------------------------
+
+MASSA ANEXIAL EM GESTANTE
+
+AXIAL T1 SPGR / FLASH / FFE
+
+AXIAL T1 SPGR / FLASH / FFE FATSAT
+
+AXIAL / SAGITAL / CORONAL T2 RARE SINGLE SHOT (FSE/TSE)
+
+AXIAL T1_opp-in
+
+DIFUSÃO (0, 100, 500 e 1000) com mapa ADC
+
+CORTE 5–8 mm / gap of 0–1 mm 

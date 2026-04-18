@@ -1,0 +1,86 @@
+=== PET CT oncologico — Variante 3 ===
+Especialidade: medicina_nuclear
+Cenário: múltiplas lesões hipermetabólicas hepáticas — metástases, sem outros focos
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE MEDICINA NUCLEAR
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Idade:** [IDADE] anos  
+**Sexo:** [M/F]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Número de Registro (Prontuário):** [NNNNNNNNN]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora de Aquisição:** [HH:MM]  
+**Solicitante:** [NOME DO MÉDICO CLÍNICO/ONCOLOGISTA]  
+**Instituição:** [NOME DA INSTITUIÇÃO]  
+
+**Exame:** PET-CT Oncológico com Fluordesoxiglicose (18F-FDG)  
+**Equipamento:** Tomógrafo híbrido PET-CT (resolução: 4-5 mm)  
+**Radiofármaco:** 18F-FDG (Fluordesoxiglicose marcada com Flúor-18)  
+**Atividade Injetada:** [VALOR] MBq (aproximadamente [VALOR] mCi)  
+**Via de Administração:** Intravenosa  
+**Intervalo Injeção-Aquisição:** 60 minutos  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Paciente foi submetido a jejum de 6 horas, seguido de injeção intravenosa de 18F-FDG. Após período de espera de aproximadamente 60 minutos para otimização da biodistribuição do radiofármaco, foram adquiridas imagens dinâmicas de corpo inteiro em tomógrafo PET-CT, iniciando pela região da cabeça até o terço proximal de coxas, com duração de aproximadamente 20 minutos.
+
+As imagens de TC foram obtidas em modo de baixa dosimetria para correção de atenuação e localização anatômica das lesões hipermetabólicas. Subsequentemente, foram adquiridas imagens de fusão PET-CT e reformatações multiplanares (axial, coronal e sagital) nos programas de análise dedicados.
+
+---
+
+## ACHADOS
+
+### Metabolismo Hepático Alterado:
+
+Identificam-se **múltiplas lesões hipermetabólicas no fígado**, distribuídas em ambos os lobos, sugestivas de processo metastático:
+
+1. **Lesão hipermetabólica hilar/segmento VIII hepático:** Dimensões aproximadas 3,2 x 2,8 cm, captação máxima de 18F-FDG com SUVmax (Standardized Uptake Value máximo) de **8,4**, significativamente elevado em relação ao parênquima hepático normal (SUV médio: 2,1).
+
+2. **Lesão hipermetabólica segmento VI/VII:** Dimensões aproximadas 2,6 x 2,1 cm, SUVmax de **7,9**.
+
+3. **Lesão hipermetabólica segmento II:** Dimensões aproximadas 1,8 x 1,5 cm, SUVmax de **6,8**.
+
+4. **Lesão hipermetabólica segmento V:** Dimensões aproximadas 2,0 x 1,8 cm, SUVmax de **7,2**.
+
+5. **Lesão hipermetabólica segmento III:** Dimensões aproximadas 1,4 x 1,2 cm, SUVmax de **6,5**.
+
+Todas as lesões apresentam padrão de captação heterogênea, com maior concentração na periferia, consistente com necrose central e metabolismo celular periférico.
+
+### Parênquima Hepático Remanescente:
+
+Parênquima hepático não-acometido com distribuição normal de FDG, sem evidência de cirrose ou hepatopatia difusa. SUV médio do fígado normal: 2,1 (valores de referência: 1,8-2,5).
+
+### Demais Estruturas Abdominais:
+
+- **Baço:** Captação normal, homogênea, SUVmax 3,2.
+- **Pâncreas:** Sem alterações de captação sugestivas de malignidade.
+- **Estômago:** Captação fisiológica, sem focos hipermetabólicos focais.
+- **Cólon e intestino delgado:** Sem achados relevantes.
+- **Rins:** Captação simétrica e homogênea, sem focos suspeitos. SUVmax bilateral 2,8.
+- **Bexiga:** Preenchida, atividade de eliminação normal.
+- **Glândulas adrenais:** Sem captação suspeita.
+- **Peritoneo:** Sem lesões hipermetabólicas peritoneais ou ascite significativa.
+
+### Estruturas Torácicas:
+
+- **Pulmões:** Parênquima pulmonar com baixa captação difusa, compatível com metabolismo basal. Sem nódulos ou massas hipermetabólicas.
+- **Coração:** Miocárdio com captação variável dependente da viabilidade; sem sinais de evento agudo.
+- **Mediastino:** Sem linfadenomegalia ou linfonodos hipermetabólicos.
+- **Hilo pulmonar:** Sem alterações suspeitas.
+
+### Estruturas Cervicais e Cérebro:
+
+- **SNC:** Córtex cerebral com captação simétrica e homogênea, padrão normal. Sem lesões focais hipermetabólicas no parênquima.
+- **Pescoço:** Sem linfadenomegalia cervical ou captação patológica.
+
+### Esqueleto Axial e Apendicular:
+
+- **Ossos:** Distribuição normal de FDG na medula

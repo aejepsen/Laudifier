@@ -1,0 +1,121 @@
+=== Endoscopia digestiva alta — Variante 2 ===
+Especialidade: gastroenterologia
+Cenário: gastrite crônica antral com teste de urease positivo para H. pylori
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ENDOSCOPIA DIGESTIVA ALTA
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+| Campo | Informação |
+|-------|-----------|
+| **Nome completo** | [NOME DO PACIENTE] |
+| **Número do prontuário** | [PRONTUÁRIO] |
+| **Data de nascimento** | [DATA] |
+| **Idade** | [IDADE] anos |
+| **Sexo** | [SEXO] |
+| **Data do exame** | [DIA/MÊS/ANO] |
+| **Médico solicitante** | [NOME E ESPECIALIDADE] |
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Paciente apresentando sintomatologia dispéptica crônica com epigastralgia, saciedade precoce e queixa de náuseas recorrentes. Solicitado investigação endoscópica para avaliação de estruturas da porção superior do trato digestivo e esclarecimento diagnóstico.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Procedimento realizado sob sedação profunda com propofol (2 mg/kg), sob supervisão anestesiológica contínua. Monitorização de frequência cardíaca, pressão arterial e saturação de oxigênio durante todo o procedimento. Utilizado endoscópio de videoendoscopia de alta definição (Pentax/Olympus®), com visibilização direta e sistemática de esôfago, estômago e duodeno. Foram realizadas **biópsias múltiplas** para investigação histopatológica e **teste rápido de urease** (CLO - Campylobacter-Like Organism test) na mucosa antral.
+
+---
+
+## ACHADOS ENDOSCÓPICOS
+
+### **Esôfago**
+Mucosa esofágica de aspecto normal, com calibre preservado e ausência de lesões, ulcerações ou sinais de refluxo gastroesofágico. Sem evidência de varizes esofágicas. Junção esofagogástrica íntegra.
+
+### **Estômago**
+
+**Região do fundo e corpo:**
+- Mucosa de aspecto rosado, com padrão vascular normal
+- Ausência de lesões erosivas ou ulceradas
+- Lúmen com distensão adequada
+- Presença de secreção gástrica clara, sem hemorragia
+
+**Região antral:**
+- Edema moderado da mucosa antral com padrão de aspecto avermelhado e aumento da friabilidade mucosa
+- **Eritema antral difuso** caracterizando inflamação crônica
+- Mucosa com aspecto nodular e discretamente irregular
+- Ausência de úlceras ativas ou cicatrizes de ulceração
+- Presença de resíduos alimentares mínimos
+
+### **Píloro**
+Abertura pilórica pérvea, permitindo passagem facilitada do endoscópio para análise duodenal.
+
+### **Duodeno (Primeira e Segunda Porções)**
+- Mucosa de aspecto normal e regular
+- Anel de Vater visualizado sem alterações
+- Ausência de ulcerações, erosões ou sangramento
+- Calibre preservado
+
+---
+
+## TESTE RÁPIDO DE UREASE (CLO-test)
+
+| Resultado | Status |
+|-----------|--------|
+| **Coloração** | Mudança de cor presente em 25 minutos |
+| **Interpretação** | **POSITIVO** ✓ |
+| **Conclusão** | Compatível com presença de *Helicobacter pylori* |
+
+---
+
+## BIÓPSIAS REALIZADAS
+
+| Local | Número de fragmentos | Objetivo |
+|-------|---------------------|----------|
+| Antro gástrico | 4 | Histopatologia e pesquisa de H. pylori |
+
+**Nota:** As amostras foram fixadas em formaldeído 10% e encaminhadas ao laboratório de anatomia patológica para análise histológica completa.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+### **Diagnósticos Principais:**
+
+1. **Gastrite crônica antral** com inflamação activa da mucosa antral, manifestando-se por eritema difuso e edema moderado
+2. **Infecção ativa por *Helicobacter pylori*** confirmada por:
+   - Teste rápido de urease POSITIVO
+   - Achados endoscópicos sugestivos (gastrite antral)
+   - Correlação clínica com sintomas dispépticos
+
+### **Diagnósticos Secundários:**
+- Ausência de úlceras pépticas ativas
+- Ausência de neoplasia gástrica
+- Esôfago e duodeno sem alterações significativas
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+### **Conclusão:**
+
+Endoscopia digestiva alta revelando **gastrite crônica antral com comprovação de infecção por *Helicobacter pylori* (teste de urease positivo)**. Os achados endoscópicos são compatíveis com inflamação crônica da mucosa antral relacionada à presença do micro-organismo. Não foram identificadas complicações como úlceras ativas ou sangramento.
+
+### **Recomendações:**
+
+1. **Terapia de Erradicação de H. pylori:**
+   - Iniciar esquema tríplice ou quádruplo conforme protocolo institucional:
+     - Omeprazol (20 mg) ou Lansoprazol (30 mg) - 2x/dia
+     - Amoxicilina (1 g) - 2x/dia
+     - Claritromicina (500 mg) - 2x/dia
+     - *(Opcional: Bismuto subsalicilato 525 mg - 4x/dia)*
+   - Duração: 10-14 dias
+
+2. **Confirmação de Erradicação:**
+   - Realizar teste de ureia [¹⁴C] ou teste

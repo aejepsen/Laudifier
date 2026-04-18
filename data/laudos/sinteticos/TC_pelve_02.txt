@@ -1,0 +1,120 @@
+=== TC pelve — Variante 2 ===
+Especialidade: radiologia
+Cenário: tumor ovariano bilateral sugestivo de cistoadenoma seroso
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME DO PACIENTE]  
+**Registro:** [NÚMERO DE MATRÍCULA/RG]  
+**Data de Nascimento:** [DATA]  
+**Idade:** [IDADE] anos | **Sexo:** [FEMININO/MASCULINO]  
+**Data do Exame:** [DATA DO EXAME]  
+**Hora do Exame:** [HORÁRIO]  
+**Modalidade:** Tomografia Computadorizada (TC)  
+**Região Estudada:** Pelve  
+**Técnico Responsável:** [NOME DO TÉCNICO]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Investigação de massa pélvica bilateral. Suspeita de lesão ovariana.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Tomografia computadorizada hélicoidal da pelve foi realizada em equipamento de 64 colunas de detectores. Foram adquiridas imagens axiais sem contraste e após administração intravenosa de contraste iodado não iônico (100 mL, concentração 350 mgI/mL), com apneia em fase portal (70 segundos após injeção). Foram obtidas reconstruções coronais e sagitais. Dose efetiva de radiação: aproximadamente 8-10 mSv.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**Estruturas Abdominais Superiores:**
+- Fígado com contornos regulares, densidade homogênea e sem lesões focais detectáveis.
+- Vesícula biliar colapsada, sem sinais de litíase ou colecistite.
+- Vias biliares intra-hepáticas não dilatadas.
+- Pâncreas com atenuação simétrica, sem alterações significativas.
+- Baço com dimensões e densidade normais.
+- Rins com corticais preservadas, sem dilatação do sistema pielocalicinal. Sem litíase.
+- Adrenais de aspecto normal bilateralmente.
+
+**Estruturas Vasculares:**
+- Aorta abdominal com calibre e densidade normais, sem sinais de aneurisma.
+- Veia cava inferior pérvio, sem trombose.
+
+**Cavidade Peritoneal e Loops Intestinais:**
+- Alças de delgado e cólon com calibre normal, sem sinais de obstrução.
+- Sem ascite detectável.
+- Sem linfonodos aumentados de volume significativo.
+
+**Estruturas Ósseas:**
+- Vértebras lombares com altura e densidade normal, sem sinais de colapso.
+- Sínfise púbica íntegra. Sem sinais de lise ou esclerose.
+- Acetábulos simétricos. Sem alterações degenerativas significativas.
+
+---
+
+## ACHADOS PÉLVICOS - RELEVANTE
+
+**Ovário Direito:**
+- Estrutura de aspecto cístico, bem definida, com dimensões aproximadas de 5,2 cm × 4,8 cm × 4,5 cm.
+- Contorno regular e suave.
+- Densidade do conteúdo: homogênea, correspondendo a densidade de fluido simples (aproximadamente 10-15 UH).
+- Paredes finas, sem realce significativo após administração de contraste intravenoso.
+- Não apresenta septos espessos nem projeções sólidas.
+- Sem derrame intracavitário associado.
+
+**Ovário Esquerdo:**
+- Formação cística bem delimitada, com dimensões aproximadas de 5,5 cm × 5,0 cm × 4,7 cm.
+- Contorno liso e regular.
+- Conteúdo de atenuação compatível com fluido simples (8-12 UH), homogêneo.
+- Parede fina, sem realce após contraste.
+- Ausência de septos intracavitários, tabiques ou componentes sólidos.
+- Posicionamento normal no aspecto lateral do útero.
+
+**Útero:**
+- Útero de tamanho normal (aproximadamente 7,5 cm de comprimento), com contornos regulares.
+- Miométrio com espessura adequada, sem alterações focais.
+- Endométrio de espessura normal.
+- Posição normal na pelve menor.
+
+**Trompas de Falópio:**
+- Traçado normal bilateralmente, sem dilatação.
+
+**Bexiga:**
+- Parede fina e regular, sem espessamento.
+- Conteúdo adequado, sem massa intraluminal.
+- Sem sinais de trabeculização.
+
+**Espaço Pouldouglas e Cavidade Pélvica:**
+- Sem ascite ou coleção fluida.
+- Sem sinais de peritonite ou envolvimento peritoneal.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Massas ovarianas bilaterais com características radiológicas sugestivas de cistadenoma seroso bilateral:**
+   - Lesões císticas de parede fina, bem definidas e homogêneas
+   - Ausência de componentes sólidos significativos
+   - Ausência de realce após contraste
+   - Características morfológicas e de densidade compatíveis com lesões benignas
+   - Aparência simétrica e similar bilateralmente
+
+2. **Útero e estruturas pélvicas remanescentes sem alterações detectáveis.**
+
+3. **Abdômen sem achados significativos que alterem a impressão acima descrita.**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+**Conclusão:**
+
+A tomografia computadorizada da pelve evidencia massas císticas ovarianas bilaterais com características radiológicas consistentes com **cistadenoma seroso bilateral**. As lesões apresentam aspecto benigno, caracterizadas por paredes finas, conteú

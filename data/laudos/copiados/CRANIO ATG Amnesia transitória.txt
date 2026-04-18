@@ -1,0 +1,6 @@
+CRANIO
+ATG (Amnesia transitória global)
+
+Hipocampo: b value = 2000 s/mm2; slice thickness = < 3 mm
+
+

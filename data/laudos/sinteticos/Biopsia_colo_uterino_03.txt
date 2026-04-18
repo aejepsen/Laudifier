@@ -1,0 +1,118 @@
+=== Biopsia colo uterino — Variante 3 ===
+Especialidade: patologia
+Cenário: biópsia de colo uterino — carcinoma espinocelular invasivo
+Fonte: sintético — gerado por Claude
+
+# LAUDO ANATOMOPATOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Laboratório de Patologia:** [NOME DO LABORATÓRIO]  
+**CNPJ/Registro:** [NÚMERO]  
+**Endereço:** [ENDEREÇO COMPLETO]
+
+**Data de Recebimento:** [__/__/____]  
+**Data do Exame:** [__/__/____]  
+**Data do Laudo:** [__/__/____]
+
+---
+
+## DADOS DO PACIENTE
+
+| Campo | Informação |
+|-------|-----------|
+| **Nome Completo** | [NOME DO PACIENTE] |
+| **Data de Nascimento** | [__/__/____] |
+| **Idade** | [__] anos |
+| **Sexo** | Feminino |
+| **CPF/RG** | [NÚMERO] |
+| **Procedência** | [INSTITUIÇÃO/CONSULTÓRIO] |
+
+---
+
+## INFORMAÇÕES CLÍNICAS
+
+**Clínico Solicitante:** [NOME DO MÉDICO]  
+**Especialidade:** [GINECOLOGIA/ONCOLOGIA]  
+**Indicação Clínica:** Lesão suspeita de malignidade em colo uterino; achados anormais em citologia oncótica prévia; investigação de hemorragia vaginal anormal.
+
+---
+
+## MATERIAL RECEBIDO
+
+**Tipo de Amostra:** Fragmentos de tecido cervical  
+**Número de Fragmentos:** 3 (três) fragmentos  
+**Identificação:** Biópsia de colo uterino  
+**Acondicionamento:** Fixador (Formol 10% tamponado)  
+**Volume Total:** Aproximadamente 0,8 cm³
+
+---
+
+## TÉCNICA UTILIZADA
+
+Os fragmentos de tecido foram fixados em formol 10% tamponado por período adequado, processados rotineiramente em inclusora de tecidos, incluídos em parafina e seccionados em micrótomo com espessura de 4-5 micrômetros. As lâminas foram coradas com Hematoxilina-Eosina (HE) e examinadas em microscopia óptica de campo claro com objetivas de 4x, 10x, 40x e 100x de ampliação.
+
+---
+
+## ACHADOS / DESCRIÇÃO MACROSCÓPICA
+
+Fragmentos teciduais múltiplos, de consistência fibrosa, coloração acinzentada e aspecto granuloso. As amostras medem, em conjunto, aproximadamente 0,8 x 0,6 cm. Não são observadas áreas de necrose grosseira evidente.
+
+---
+
+## DESCRIÇÃO MICROSCÓPICA
+
+**Estrutura Tecidual Geral:**
+Os fragmentos apresentam mucosa cervical revestida parcialmente por epitélio escamoso estratificado. A arquitetura normal da zona de transformação cervical encontra-se completamente desorganizada.
+
+**Neoplasia Maligna:**
+Identificam-se ninhos, trabeculadas e bandas infiltrativas de células epiteliais malignas de origem escamosa, invadindo a lâmina própria e musculatura lisa subjacente. As células tumorais apresentam:
+
+- **Citomorfologia:** Núcleos aumentados de tamanho, com cromatina grosseira e irregular
+- **Proporção núcleo-citoplasma:** Aumentada (aproximadamente 3:1 a 4:1)
+- **Membrana nuclear:** Irregular e espessada
+- **Nucléolos:** Proeminentes e múltiplos
+- **Citoplasma:** Abundante, basófilo, frequentemente queratinizado em algumas áreas
+- **Atividade mitótica:** Aumentada, incluindo figuras mitóticas atípicas (10-15 figuras por 10 campos de grande ampliação)
+
+**Diferenciação e Padrão de Crescimento:**
+As neoplasia apresenta diferenciação escamosa moderada a bem diferenciada em algumas áreas, com formação de pérolas de queratina. Padrão predominantemente invasivo com destruição da membrana basal, infiltração perineural focal e invasão linfovascular multifocal.
+
+**Reação do Estroma:**
+Reação desmoplásica moderada com infiltrado inflamatório linfoplasmocitário associado. Presença de vasos neoformados.
+
+**Margens:**
+As margens de ressecção teciduais encontram-se comprometidas pela neoplasia em pelo menos uma área focal.
+
+**Outros Achados:**
+- Focos de ulceração epitelial
+- Inflamação crônica subjacente ao componente neoplásico
+- Ausência de invasão de glândulas de Naboth
+- Sem evidências de invasão vasos sanguíneos de grande calibre nas amostras
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Diagnóstico Principal:**
+
+### CARCINOMA ESPINOCELULAR INVASIVO DO COLO UTERINO
+
+**Especificações:**
+- **Tipo histológico:** Carcinoma espinocelular
+- **Grau de diferenciação:** G2 - Moderadamente diferenciado
+- **Padrão de invasão:** Infiltrativo
+- **Profundidade de invasão:** Invade lâmina própria e musculatura lisa
+- **Achados adicionais:** Invasão perineural focal; invasão linfovascular multifocal
+
+**Classificação TNM (Baseado em Dados Histopatológicos):**
+- **Estimativa de invasão tumoral:** Compatível com T1b (invasão além da lâmina própria)
+- **Nota:** Estadiamento completo requer correlação clínica, exame físico e estudos de imagem
+
+---
+
+## DIAGNÓSTICOS SECUNDÁRIOS / ACHADOS ASSOCIADOS
+
+1. **Inflamação crônica cervical** - Secundária à ne

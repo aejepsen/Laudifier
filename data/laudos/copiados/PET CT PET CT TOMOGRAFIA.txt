@@ -1,0 +1,212 @@
+PET/CT
+PET-CT - TOMOGRAFIA POR EMISSÃO DE PÓSITRONS ASSOCIADA À TOMOGRAFIA COMPUTADORIZADA
+
+MÉTODO
+
+Exame realizado após administração endovenosa em [sítio de injeção] de [ ] mCi de flúor-2-deoxiglicose marcada com flúor-18 (18F-FDG) em condição de jejum de [ ] horas.
+
+Intervalo injeção-imagem = [ ] min;
+
+Nível de glicemia à injeção= [ ] mg/dL
+
+Imagens obtidas em equipamento dedicado de tomografia por emissão de pósitrons acoplada à tomografia computadorizada (PET-CT), com imagens da base do crânio até as coxas. Obtidas imagens tomográficas adicionais do crânio e de [ ].
+
+Procedimentos CT: [Não foi utilizado meio de contraste.] [ Foi utilizado meio de contraste [tipo/ quantidade e via de administração/ e-ou mudança de protocolo]].
+
+Notas: [Modificação de protocolo ou cuidados adicionais, medicação utilizada (ansiolítico, diurético, pré-medicação para reação a contraste, intercorrências clínicas].
+
+DESCRIÇÃO
+
+Achados com expressão metabólica:
+
+Em comparação ao exame anterior realizado em xx/xx/2011 neste serviço / outro serviço nota-se:
+
+Cabeça e Pescoço
+
+Atividade fisiológica do radiofármaco no córtex cerebral, glândulas salivares, orofaringe, nasofaringe, músculos oculares e cordas vocais. Não se observam linfonodomegalias ou linfonodopatias hipermetabólicas cervicais ou supraclaviculares.
+
+Tórax
+
+Não há sinais de linfonodomegalias ou linfonodopatias hipermetabólicas mediastinais, hilares ou axilares.
+
+Abdome e Pelve
+
+Fígado e baço de volume e metabolismo normais.
+
+Não há sinais de linfonodomegalias ou linfonodopatias hipermetabólicas mesentéricas, retroperitoniais, pélvicas ou fêmoro-inguinais.
+
+Musculoesquelético
+
+Processos degenerativos na coluna vertebral.
+
+(inclui encéfalo quando pertinente)
+
+O estudo mostra padrão normal e fisiológico de captação da fluordeoxiglicose nos segmentos corporais analisados, sem alterações anatômicas significativas.
+
+O estudo mostra padrão normal e fisiológico de captação da fluordeoxiglicose nos demais segmentos corporais analisados, sem alterações anatômicas significativas.
+
+Demais achados anatômicos sem expressão metabólica:
+
+•
+
+IMPRESSÃO DIAGNÓSTICA
+
+Exame solicitado para paciente com [tipo de tumor] com o propósito de [motivo da solicitação].
+
+Estudo sem evidências de lesões com aumento do metabolismo glicolítico.
+
+Estudo evidencia aumento do metabolismo glicolítico [ ], compatível com [ ].
+
+Estudo evidencia lesões com aumento do metabolismo glicolítico [ ], compatíveis com [ ].
+
+Hipermetabolismo glicolítico em múltiplos espessamentos teciduais irregulares abdominais, conforme descrito, alguns de difícil distinção entre tecido neoplásico viável e alterações pós cirúrgicas.
+
+Hipermetabolismo glicolítico em linfonodos, conforme descrito, devendo correspondente a tecido neoplásico viável.
+
+Estudo sugestivo de déficit do metabolismo glicolítico em [ ], compatível com [ ]. Conveniente correlação com estudo [ ] ou avaliação por biópsia do achado em [ ] para elucidação diagnóstica.
+
+Estudo realizado para controle de linfoma, evidenciando:
+
+- boa resposta []
+
+- melhora parcial do padrão metabólico em relação ao estudo [ ] - estudo sem modificações significativas em relação a [ ]
+
+- sinais de progressão da doença
+
+Comentários
+
+Embora o Valor Padronizado de Captação (“SUV”) seja considerado de importância na monitoração terapêutica, deve-se analisar com cautela seu valor com finalidade diagnóstica. O SUV também é limitado quando comparados estudos realizados em diferentes equipamentos ou protocolos.
+
+O presente exame de tomografia computadorizada foi realizado a título de complementação para a tomografia por emissão de pósitrons, sendo descritos os achados de relevância oncológica.
+
+Para investigação de lesões cerebrais, caso haja relevância clínica, é conveniente a realização de ressonância magnética, devido à limitada sensibilidade e especificidade do método.
+
+Informações:
+
+- medidas dos linfonodos realizadas nos menores eixos transversos;
+
+- PET com FDG tem valor limitado na avaliação de lesões encefálicas secundárias;
+
+- os valores de SUV são referentes ao SUVmax;
+
+- as informações contidas neste relatório são parte da avaliação da condição do paciente, não sendo absolutas, devendo ser correlacionadas com o contexto clínico.
+
+
+PET-CT - TOMOGRAFIA POR EMISSÃO DE PÓSITRONS ASSOCIADA À TOMOGRAFIA COMPUTADORIZADA (NEUROLÓGICO)
+
+MÉTODO
+
+Exame realizado após administração endovenosa em [sítio de injeção] de [ ] mCi de flúor-2-deoxiglicose marcada com flúor-18 (18F-FDG) em condição de jejum de [ ] horas.
+
+Intervalo injeção-imagem = [ ] min
+
+Nível de glicemia à injeção = [ ] mg/dL
+
+Imagens de crânio obtidas em equipamento dedicado de tomografia por emissão de pósitrons acoplada à tomografia computadorizada (PET-CT).
+
+Procedimentos CT: Não foi utilizado meio de contraste. 
+
+DESCRIÇÃO
+
+Observa-se padrão habitual de distribuição do radiofármaco nas estruturas analisadas. Observa-se diminuição focal de concentração do radiofármaco [ ]
+
+Observa-se diminuição difusa de concentração do radiofármaco [ ]
+
+Observa-se aumento focal da concentração relativa do radiofármaco [ ]
+
+Nota-se assimetria de concentração em [ ], com [ ] concentração relativa em [ ]
+
+As demais regiões corticais dos hemisférios cerebrais, cerebelares, núcleos da base e tálamos apresentam concentração preservada do radiofármaco.
+
+IMPRESSÃO DIAGNÓSTICA
+
+Estudo do metabolismo glicolítico cerebral dentro dos limites normais para a faixa etária.
+
+Hipometabolismo glicolítico cerebral regional em [ ] Hipermetabolismo glicolítico cerebral regional em [ ]
+
+Comentário
+
+O presente exame de tomografia computadorizada foi realizado a título de complementação para a tomografia por emissão de pósitrons. 
+
+Informações
+
+- medidas dos linfonodos realizadas nos menores eixos transversos;
+
+- PET com FDG tem valor limitado na avaliação de lesões encefálicas secundárias;
+
+- os valores de SUV são referentes ao SUVmax;
+
+- as informações contidas neste relatório são parte da avaliação da condição do paciente, não sendo absolutas, devendo ser correlacionadas com o contexto clínico.
+
+
+PET/CT - TOMOGRAFIA POR EMISSÃO DE PÓSITRONS ASSOCIADA A TOMOGRAFIA COMPUTADORIZADA
+
+
+TÉCNICA:
+
+Rádiofármaco: FGD-18F
+
+Glicemia pré injeção: <> mg/dL
+
+Dose: <> mCi
+
+Tempo de captação: <> min
+
+
+PROTOCOLO:
+
+Imagens tomográficas do crânio à raiz da coxa foram adquiridas em aparelho PET/CT dedicado após a injeção intravenosa do radiotraçador e de furosemida venosa para melhor visualização das vias de excreção urinária. Foram também adquiridas imagens de CT diagnóstica da mesma região sem injeção venosa do contraste iodado. Estudo complementado com imagens de CT do tórax em inspiração máxima.
+
+
+CONTEXTO CLÍNICO:
+
+<>
+
+
+DESCRIÇÃO
+
+A fusão das imagens metabólicas (PET) às imagens anatômicas (CT) não mostra focas de hipermetabolismo anômalo, notando-se apenas distribuição fisiológica do radiofármaco para o sexo e faixa etária do paciente.
+
+Em comparação ao estudo anterior datado de <>, realizado em outra instituição, não mais são observados focos metabólicos anômalos.
+
+
+IMPRESSÃO DIAGNÓSTICA
+
+Estudo do metabolismo glicolítico cerebral dentro dos limites normais para a faixa etária.
+
+
+
+PET/CT - TOMOGRAFIA POR EMISSÃO DE PÓSITRONS ASSOCIADA A TOMOGRAFIA COMPUTADORIZADA
+
+
+METODOLOGIA:
+
+
+Exame realizado mediante administração intrevenosa de 7,81 mCi de 1uor-2-desoxiglicose (FDG) marcada com flúor-18 (18F), Glicemie pré-injeção de 97 mg/di As imagens tomográficas foram obtidas aproximadamente 60 minutos após a administração intravenosa do radiofámaco, Utilizando equipamento dedicado PET/CT multicorte de 16 canais, respiração livre, com administração de contraste iodado endovenoso. As imagens foram processadas com reformatações multiplanares e tridimensionais e com análise da fusão das imagens tomograficas e do RET, Os valores de SUV (standerd uptake vale) discriminados abaixo são valores maximos na região de interesse, expressos em g/mi (SUVIbm).
+
+
+
+PET-CT (TOMOGRAFIA POR EMISSÃO DE PÓSITRONS ASSOCIADA A TOMOGRAFIA COMPUTADORIZADA) PSMA
+
+CONTEXTO CLÍNICO:
+
+<>
+
+TÉCNICA:
+
+Foi realizada tomografia computadorizada (CT) em aparelho multi-slice de 20 canais seguida de tomografia por emissão de pósitron (PET) adquirida em equipamento dedicado (Biograph mCT Flow), obtendo-se fusão das imagens metabólicas e anatômicas (PET-CT), se estendendo do crânio ao terço médio do fêmur.
+
+Estudo de PET-CT realizado 82 minutos após a injeção intravenosa de 2,8 mCi PSMA 11 marcado com Gálio 68. Foi administrado furosemida e realizado hidratação intravenosa.
+
+Foram adquiridas imagens de ressonância magnética da pelve (T2 e difusão) para análise comparativa com as imagens de PET-CT com PSMA.
+
+Estudo complementado com estudo de CT do tórax em inspiração, sem uso de contraste venoso iodado.
+
+
+PET/CT - TOMOGRAFIA POR EMISSÃO DE PÓSITRONS ASSOCIADA A TOMOGRAFIA COMPUTADORIZADA
+
+
+METODOLOGIA:
+
+
+Múltiplas imagens tomográficas nos planos transversal, coronal, sagital e MIP da cabeça até a pelve foram obtidas uma hora após a administração EV do radiofármaco, usando um equipamento híbrido de tomografia por emissão de pósitron (PET) e tomografia computadorizada (CT).

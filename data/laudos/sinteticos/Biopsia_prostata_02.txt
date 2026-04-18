@@ -1,0 +1,106 @@
+=== Biopsia prostata — Variante 2 ===
+Especialidade: patologia
+Cenário: biópsia de próstata — adenocarcinoma Gleason 3+4=7 em 4/12 fragmentos
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE PATOLOGIA ANATÔMICA
+
+---
+
+## **IDENTIFICAÇÃO DO EXAME**
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [XX] anos  
+
+**Número do Espécime:** [XXXX/2024]  
+**Data da Coleta:** [DD/MM/AAAA]  
+**Data do Recebimento:** [DD/MM/AAAA]  
+**Data do Exame:** [DD/MM/AAAA]  
+
+**Procedência:** [IDENTIFICAR INSTITUIÇÃO]  
+**Médico Solicitante:** [NOME E CREMESP/CRM]  
+
+**Tipo de Espécime:** Biopsia de próstata  
+**Material Recebido:** 12 fragmentos teciduais fixados em formol 10%  
+
+---
+
+## **TÉCNICA UTILIZADA**
+
+Foram recebidos 12 fragmentos de próstata, sendo processados e incluídos em parafina para obtenção de lâminas histológicas. Realizou-se coloração de rotina pela técnica de Hematoxilina-Eosina (HE). Análise microscópica realizada em microscópio óptico convencional com objetivas de 4x, 10x, 20x e 40x.
+
+---
+
+## **ACHADOS / DESCRIÇÃO DETALHADA**
+
+**Material Macroscópico:**
+Recebidos 12 fragmentos teciduais de coloração acinzentada, consistência firme, medindo entre 0,5 e 1,0 cm de comprimento, presumivelmente procedentes de diferentes sítios da próstata.
+
+**Material Microscópico:**
+
+**Fragmentos Positivos (04/12):**
+Presença de neoplasia prostática acinar intra-epitelial de alto grau, representada por glândulas neoplásicas infiltrativas com as seguintes características:
+
+- **Padrão Gleason primário (3):** Glândulas bem formadas, ainda com contorno glandular discretamente preservado, com invasão estromal irregular. Citoplasma citoplasmático eosinófilo com núcleos moderadamente aumentados, hipercromáticos e com cromatina grosseira.
+
+- **Padrão Gleason secundário (4):** Cribriformação glandular focal, perda parcial da diferenciação glandular, aglomerados celulares com menor formação acinar, invasão estromal mais acentuada e núcleos mais proeminentes com nucléolos evidentes. Presença de atipias nucleares moderadas.
+
+- **Distribuição:** Os achados neoplásicos encontram-se presentes em 4 dos 12 fragmentos analisados (fragmentos núms. [04, 07, 09, 11]), representando aproximadamente 33% das amostras teciduais.
+
+- **Extensão da doença:** Envolvimento neoplásico estimado em aproximadamente 40-50% da extensão dos fragmentos acometidos.
+
+- **Características adicionais:** 
+  - Presença de invasão perineural focal em um dos fragmentos (fragmento nº 09)
+  - Ausência de necrose tumoral
+  - Sem evidência de componentes mucinoso, pequenas células ou variantes histológicas
+
+**Fragmentos Negativos (08/12):**
+Tecido prostático benigno com glândulas de próstata normais, revestidas por epitélio de duas camadas (cilíndrico secretor externo e basal interno), estroma fibromuscular sem atipias e sem hiperplasia nodular significativa. Ausência de neoplasia nestes fragmentos.
+
+**Hiperplasia Nodular Benigna:** Presente de forma discreta associada ao tecido neoplásico.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+**Adenocarcinoma prostático com padrão de Gleason 3+4=7**
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+1. **Diagnóstico confirmado:** Adenocarcinoma acinar usual da próstata, classificado como Gleason 3+4=7 (grupo de risco intermediário conforme ISUP Grade Group 2).
+
+2. **Achados relevantes:**
+   - Neoplasia em 4 de 12 fragmentos (33% de positividade)
+   - Presença de invasão perineural focal
+   - Ausência de variantes histológicas agressivas
+   - Estadiamento histopatológico: T1c (achado incidental em biópsia)
+
+3. **Recomendações clínicas:**
+   - Correlação clínico-patológica com PSA sérico, toque retal e achados de imagem (RM e/ou ultrassom)
+   - Dosagem de PSA pré-operatório e cálculo de risco prognosticador (Partin Tables)
+   - Avaliação oncológica para determinação de estratégia terapêutica (prostatectomia radical, radioterapia ou vigilância ativa, conforme estadio clínico)
+   - Seguimento periódico com PSA nos casos tratados conservadoramente
+
+4. **Observações adicionais:**
+   - A amostra de biopsia apresenta adequado processamento técnico
+   - Material suficiente para análise diagnóstica
+   - Complementação com marcadores imunoistoquímicos não foi realizada por tratar-se de padrão histológico clássico inequívoco
+
+---
+
+## **RESPONSABILIDADE TÉCNICA**
+
+**Patologista responsável:** Dr(a). [NOME COMPLETO]  
+**CREMESP/CRM:** [NÚMERO]  
+**Especialidade:** Patologia Geral / Patologia Cirúrgica
+
+---
+
+**Assinatura Digital/Manuscrita:**
+
+___________________________________  
+Dr

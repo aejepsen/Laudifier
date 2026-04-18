@@ -1,0 +1,72 @@
+Hemorragia
+AVCH
+
+Presença de foco espontaneamente hiperatenuante (sangue) em região ____________, compatível com hematoma intraparenquimatoso agudo, associado a halo de edema adjacente, promovendo efeito expansivo caracterizado por desvio das estruturas da linha mediana para a _______ (direita/esquerda).
+
+Dilatação do sistema ventricular supra e infra-tentorial, observando-se conteúdo espontaneamente hiperatenuante no interior dos ventrículos laterais, aqueduto cerebral e terceiro e quarto ventrículos (inundação ventricular).
+
+
+HEMATOMA
+
+Múltiplos hematomas intraparenquimatosos comprometendo os hemisférios cerebrais, a maior delas localizado na região frontal direita, medindo 3,5 x 2,5 x 2,3 cm (volume= 10 ml), que determinam efeito expansivo significativo, caracterizado por apagamento dos sulcos corticais.
+
+Hematoma intraparenquimatoso comprometendo o lobo temporal direito, medindo algo próximo de 3,0 x 2,2 x 1,3 cm, determinando efeito compressivo sobre o parênquima encefálico adjacente, associado a fratura linear da porção escamosa do osso temporal deste lado, com pequeno fragmento ósseo deslocado para o interior da fossa média.
+
+
+HEMATOMA SUBAGUDO
+
+Hematoma intraparenquimatoso em fase de reabsorção parcial, localizado em praticamente toda extensão do lobo temporal direito, circunscrito por halo hipodenso da substância branca circunjacente sugestiva de edema vasogênico, promovendo efeito compressivo, caracterizado por colapso dos cornos temporal e occipital e do átrio do ventrículo lateral ipsilateral, além de apagamento dos sulcos entre giros corticais adjacentes.
+
+ID: Hematoma intraparenquimatoso em fase de reabsorção parcial no lobo temporal direito, circunscrito por halo de edema vasogênico, com as características foram acima descritas. Considerar no diagnóstico diferencial a possibilidade de angiopatia amilóide.
+
+Área heterogênea, com predominante hipersinal em T1 e T2/FLAIR, e marcado hipossinal na sequência SWI, que deve resultar da presença de produtos de degradação da hemoglobina (componente hemático), associado a discreto edema vasogênico adjacente, localizada no aspecto posterolateral esquerdo da ponte, no nível dos pedúnculos cerebelares médios, sem determinar evidente efeito expansivo local. Após a injeção intravenosa do agente paramagnético, observa-se discreta impregnação, predominantemente perilesional.
+
+
+INFARTO VENOSO HEMORRÁGICO
+
+Persiste o hematoma intraparenquimatoso em fase subaguda tardia, de dimensões semelhantes em relação ao estudo de referência, medindo aproximadamente 2,5 cm no seu maior eixo, na face lateral do lobo temporal esquerdo, envolvendo o terço médio dos giros temporal médio e inferior, com intensidade de sinal heterogênea, representando as várias fases de degradação da hemoglobina, circundada por edema vasogênico, distribuído na substância branca do lobo temporal adjacente, determinando efeito compressivo sobre o corno temporal, com colapso parcial do mesmo.
+
+Destacamos a hipoplasia da porção proximal do seio lateral esquerdo, vindo este seio a apresentar um calibre maior, em sua porção mais lateral, junto à transição do seio transverso com o seio sigmóide, onde existe a desembocadura de uma veia temporal calibrosa, aparentemente representando a veia de Labbé, sendo que este segmento do seio dural apresenta irregularidades em seus contornos e fina falha de enchimento linear, e arredondada junto ao local de desembocadura da veia de Labbé, aspectos estes bastante sugestivos de trombose venosa parcialmente recanalizada.
+
+Existe assimetria no golfo jugular, sendo à esquerda de menor dimensão, assim como da veia jugular interna.
+
+ID: A associação dos achados de imagem de ressonância magnética com os de angio-ressonância magnética venoso intracraniano sugerem portanto como possibilidade diagnóstica mais provável a presença de infarto venoso hemorrágico em topografia do território de drenagem da veia de Labbe a esquerda
+
+
+ANGIOPATIA AMILOIDE
+
+Observam-se múltiplos focos de hemorragia em diferentes estágios de evolução com dimensões variadas, as menores petequiais e as maiores com até 2,0 cm em seus maiores diâmetros. O comprometimento é predominantemente periférico, cortical e subcortical, comprometendo ambos hemisférios cerebrais e cerebelares, principalmente nas regiões posteriores.
+
+O comprometimento cortical determina múltiplas áreas de encefalomalácia e gliose, por vezes associada a sinais de deposição de hemossiderina na superfície cortical (siderose superficial), mais evidente no lobo frontal direito.
+
+Destaca-se foco hemorrágico subagudo com elevado sinal na sequência T1 na região peritrigonal direita, medindo 1,5 cm de diâmetro, determinando leve deslocamento da superfície ependimária adjacente.
+
+Observam-se ainda múltiplos focos de hipersinal em T2 e FLAIR na substância branca dos hemisférios cerebrais, sem efeito expansivo ou impregnação pelo gadolínio.
+
+Merece destaque o comprometimento da região peritrigonal direita, cuja alteração de sinal ao redor de focos hemorrágicos peritrigonais assume aspecto edematoso, digitiforme, sem impregnação pelo gadolínio.
+
+OPINIÃO: O conjunto dos achados descritos é sobreponível ao observado nos pacientes com angiopatia amiloide cerebral, com múltiplos focos de hemorragia em diferentes estágios de evolução em ambos hemisférios cerebrais e cerebelares associada a múltiplas áreas de encefalomalácia, gliose e siderose superficial.
+
+Merece destaque o comprometimento da região peritrigonal direita, cuja alteração de sinal ao redor de focos hemorrágicos assume aspecto edematoso, digitiforme, sem impregnação pelo gadolínio. Este padrão de imagem, no contexto clínico adequado, pode resultar de superposição de componente inflamatório vascular decorrente da presença dos depósitos de material amiloide (angiopatia inflamatória amiloide).
+
+Chama atenção no presente estudo pequenos focos de hipossinal na sequência Gradient Echo na periferia dos hemisférios cerebrais, sugestivas de sequela de micro-hemorragia, notando-se ainda sinais de siderose superficial preenchendo sulcos entre giros corticais, principalmente na região perirrolândica e frontal à direita, sugerindo sequela de hemorragia subaracnóide.
+
+Sinais de redução volumétrica encefálica difusa, simétrica, sem predomínio lobar.
+
+Dilatação do sistema ventricular supratentorial, levemente desproporcional a redução encefálica, sugerindo distúrbio do manejo do liquor.
+
+ID: pequenos focos de hipossinal em Gradient Echo na periferia dos hemisférios cerebrais, sugestivas de sequela de micro-hemorragia havendo ainda siderose superficial principalmente na região frontal direita, por sequela de hemorragia subaracnóide. Tais achados são bastante sugestivos, nesta faixa etária, de angiopatia amilóide.
+
+Dilatação do sistema ventricular supratentorial, desproporcional aos sinais de redução encefálica, sem aspecto hipertensivo, sugerindo distúrbio do manejo do liquor.
+
+
+HEMOVENTRÍCULO
+
+Material espontaneamente hiperatenuante preenchendo parcialmente o ventrículo lateral esquerdo com extensão ao III ventrículo, determinando desvio das estruturas da linha média em cerca de 0,8 cm bem como dilatação dos ventrículos laterais, com sinais de transudato liquórico incipiente além de apagamento dos sulcos corticais frontoparietais bilateral. Achados compatíveis com hemoventrículo no ventrículo lateral esquerdo associado a sinais de hipertensão liquórica incipiente.
+
+
+SEQUELA
+
+Sequela de hemorragia intraparenquimatosa no corpo estriado / cápsula externa esquerdos, topografia frequentemente relacionada a hemorragia secundária a hipertensão arterial sistêmica.
+
+Extensa área em fenda de marcado hipossinal na sequência T2* eco gradiente comprometendo o contorno lateral do putâmen e região subinsular direito, determinado leve efeito atrófico local. Área de evento hemorrágico antigo com morfologia em fenda no contorno lateral do putâmen e região subinsular direita.

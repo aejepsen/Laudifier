@@ -1,0 +1,120 @@
+=== TC abdome rins vias urinarias — Variante 3 ===
+Especialidade: radiologia
+Cenário: cisto renal simples bilateral (Bosniak I)
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+**Nome do Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [XX] anos  
+**Sexo:** [M/F]  
+**RG/CPF:** [NÚMERO]  
+**Prontuário:** [NÚMERO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]
+
+---
+
+## REQUISIÇÃO CLÍNICA
+
+**Médico Solicitante:** [NOME E CRM]  
+**Especialidade:** [ESPECIALIDADE]  
+**Indicação Clínica:** [INDICAÇÃO CLÍNICA DO PACIENTE]
+
+---
+
+## TÉCNICA
+
+Realizado estudo tomográfico multislice do abdômen e pelve com aquisição volumétrica contínua e espessura de corte de 2mm. Foram adquiridas séries nas fases sem contraste, arterial, portal venosa e tardia, utilizando 120mAs, 120kVp. Reconstruções multiplanares e 3D foram processadas quando necessário. Não houve intercorrências durante o procedimento.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### AVALIAÇÃO DO PARÊNQUIMA RENAL E VIAS URINÁRIAS:
+
+**Rins:**
+- Rins normotópicos, de tamanho e contorno normais, bilateralmente simétricos.
+- Rim direito: comprimento aproximado de 11,5 cm
+- Rim esquerdo: comprimento aproximado de 11,8 cm
+- Densidade parenquimatosa uniforme, sem sinais de hidronefrose, nefrolitíase ou sinais de inflamação aguda.
+
+**Formações Císticas:**
+- Identifica-se cisto renal simples no pólo superior do rim direito, medindo aproximadamente 1,8 cm, de contorno bem definido, paredes finas e imperceptíveis, densidade líquida (aproximadamente 8 UH), sem septações, calcificações ou componente sólido. Classificação de Bosniak: I.
+- Identifica-se cisto renal simples no pólo inferior do rim esquerdo, medindo aproximadamente 2,1 cm, de contorno bem definido, paredes finas, densidade líquida (aproximadamente 6 UH), sem septações, calcificações ou realce após injeção de contraste. Classificação de Bosniak: I.
+
+**Cálices Renais:**
+- Cálices bem distendidos, sem dilatação. Fornix de aspecto normal bilateralmente.
+
+**Ureteres:**
+- Ureteres normais, sem dilatação ou sinais obstrutivos, com calibre homogêneo em seu trajeto.
+
+**Bexiga Urinária:**
+- Bexiga bem distendida, com paredes finas, sem irregularidades no contorno ou espessamento. Sem lesões intraluminais.
+
+### AVALIAÇÃO DOS ÓRGÃOS ADJACENTES:
+
+**Fígado:**
+- Silhueta normal, sem hepatomegalia. Parênquima homogêneo, sem lesões focais hipodensas ou hiperenhançantes. Vesícula biliar colapsada, sem cálculos ou espessamento de parede.
+
+**Pâncreas:**
+- Tamanho normal, contorno regular. Densidade parenquimatosa homogênea, sem alterações focais. Ducto pancreático não dilatado.
+
+**Baço:**
+- Dimensões normais, densidade adequada, sem lesões focais.
+
+**Glândulas Adrenais:**
+- Normais bilateralmente, sem espessamento ou lesões.
+
+**Alças Intestinais:**
+- Alças de delgado e cólon com calibre normal, sem sinais de obstrução ou deslocamento por massas.
+
+**Musculatura Abdominal e Parede:**
+- Sem alterações relevantes.
+
+**Aorta e Vasos Abdominais:**
+- Aorta abdominal de calibre normal, sem aneurisma ou estenose significativa. Veias ilíacas e cava inferior normais.
+
+**Linfonodos:**
+- Sem linfadenomegalia significativa (linfonodos < 1cm no menor diâmetro).
+
+**Líquido Livre:**
+- Sem ascite.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Cistos renais simples bilaterais, classificados como Bosniak I:**
+   - Cisto simples em pólo superior de rim direito (1,8 cm)
+   - Cisto simples em pólo inferior de rim esquerdo (2,1 cm)
+   
+   Achados benignos, sem características de malignidade. Não demonstram crescimento potencial ou características preocupantes.
+
+2. **Demais órgãos abdominais sem alterações relevantes.**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Os achados tomográficos demonstram cistos renais simples bilaterais, Bosniak I, que são lesões completamente benignas sem potencial de malignidade e sem necessidade de seguimento imagiológico.
+
+**Recomendações:**
+- Nenhuma conduta intervencionista é necessária
+- Não há indicação de seguimento com imagem para essas lesões
+- Orientar o paciente sobre o achado incidental e sua benignidade
+- Manter acompanhamento clínico de rotina com nefrologista/urologista, caso indicado pela clínica do paciente
+
+---
+
+## ASSINATURA
+
+**Médico Radiologista:** ___________________________________  
+**Nome:** [NOME COMPLETO]  
+**CRM:** [NÚMERO]/[UF]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  

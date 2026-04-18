@@ -1,0 +1,87 @@
+=== RX mao punho — Variante 2 ===
+Especialidade: radiologia
+Cenário: fratura do escafóide — traço linear na cintura
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RADIOLOGIA
+
+---
+
+## **IDENTIFICAÇÃO DO EXAME**
+
+**PACIENTE:** [NOME COMPLETO]  
+**Nº MATRÍCULA/CPF:** [NÚMERO]  
+**DATA DE NASCIMENTO:** [DD/MM/AAAA]  
+**IDADE:** [IDADE] anos  
+**SEXO:** [M / F]  
+
+**EXAME:** Radiografia da Mão e Punho  
+**DATA DO EXAME:** [DD/MM/AAAA]  
+**HORA DO EXAME:** [HH:MM]  
+**LOCAL:** [INSTITUIÇÃO / CLÍNICA]  
+
+**REQUISIÇÃO CLÍNICA:** Avaliação de trauma em punho com suspeita de fratura do escafóide
+
+---
+
+## **TÉCNICA UTILIZADA**
+
+Foram realizadas radiografias simples da mão e punho direito [OU ESQUERDO] em incidências: anteroposterior (AP), perfil (lateral) e oblíqua. Imagens de boa qualidade técnica, com adequada penetração e posicionamento anatômico.
+
+---
+
+## **ACHADOS / DESCRIÇÃO DETALHADA**
+
+Estruturas ósseas: Análise dos ossos do carpo, metacarpianos e falanges.
+
+**Escafóide:** Visualiza-se **traço de fratura linear na região da cintura do osso escafóide**, com discreto desvio dos fragmentos. A linha de fratura apresenta-se clara e bem demarcada, sem fragmentação significativa.
+
+**Outros ossos do carpo:** Semilunar, piramidal, pisiforme, trapézio, trapezoide, capitato e hamato sem alterações relevantes.
+
+**Metacarpianos:** Sem fraturas.
+
+**Falanges:** Sem fraturas.
+
+**Partes moles:** Discreto edema de partes moles periungueal, compatível com trauma recente. Sem outras alterações relevantes.
+
+**Articulações:** Interlinha articular radiocárpica preservada. Sem sinais de subluxação ou instabilidade.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+1. **Fratura do escafóide – cintura** – traço linear com discreto desvio dos fragmentos
+2. Edema periarticular de punho, compatível com trauma recente
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+Confirma-se fratura aguda do osso escafóide em sua região cintura, apresentando traço linear bem delimitado. Esta é a localização mais comum de fraturas de escafóide e apresenta bom prognóstico quando tratada precocemente.
+
+**RECOMENDAÇÕES:**
+
+- Avaliar clinicamente correlação com dor à palpação na tabaqueira anatômica
+- Realizar imobilização imediata (tipoia ou gesso)
+- Acompanhamento ortopédico para definição do tratamento: conservador vs. cirúrgico
+- Seguimento radiográfico com radiografias simples em 2-3 semanas para avaliação de consolidação
+- Se necessário maior detalhamento anatômico, considerar complementação com tomografia computadorizada de punho
+
+---
+
+## **ASSINATURA E IDENTIFICAÇÃO DO RADIOLOGISTA**
+
+**Radiologista Responsável:** ___________________________________
+
+**Nome (legível):** [NOME COMPLETO DO RADIOLOGISTA]
+
+**CRM/SP:** [NÚMERO] | **Especialidade:** Radiologia  
+**RANK:** [REGISTRO, se aplicável]
+
+**Data:** [DD/MM/AAAA] | **Hora:** [HH:MM]
+
+**Assinatura:** ___________________________ 
+
+---
+
+*Laudo gerado em conformidade com as Normas Técnicas da Radiologia Brasileira e Colégio Brasileiro de Radiologia (CBR).*

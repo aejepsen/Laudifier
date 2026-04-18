@@ -1,0 +1,116 @@
+=== RM mama — Variante 1 ===
+Especialidade: radiologia
+Cenário: mamas sem lesões suspeitas bilateralmente
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA DE MAMAS
+
+---
+
+## DADOS DO EXAME
+
+**Hospital/Clínica:** [INSTITUIÇÃO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Horário:** [HH:MM]  
+**Modalidade:** Ressonância Magnética de Mamas  
+**Equipamento:** Ressonânciador 1.5T / 3.0T [MODELO]  
+
+---
+
+## DADOS DO PACIENTE
+
+**Nome:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [IDADE] anos  
+**Sexo:** [SEXO]  
+**Número do Prontuário:** [Nº PRONTUÁRIO]  
+**Solicitante:** [NOME DO MÉDICO SOLICITANTE]  
+**Especialidade do Solicitante:** [ESPECIALIDADE]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[DESCRIÇÃO DA INDICAÇÃO CLÍNICA - ex: Investigação de nódulo palpável; Avaliação de asimetria mamária; Rastreamento em paciente de alto risco; Seguimento pós-biopsia]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizado exame de ressonância magnética bilateral das mamas com sequências ponderadas em T1 e T2, incluindo sequências FLAIR e difusão. Foram adquiridas imagens axiais, sagitais e coronais de alta resolução. Administrou-se contraste paramagnético intravenoso (Gadolínio 0,1 mmol/kg) com subsequente avaliação dinâmica em bolus rápido. Foram obtidas séries pré e pós-contraste com análise de realce temporal. A qualidade técnica do exame foi adequada. Não foram observadas limitações significativas.
+
+---
+
+## ACHADOS
+
+### **MAMA DIREITA:**
+
+- **Parênquima mamário:** Distribuição normal de tecido glandular e adiposo, sem sinais de edema ou alterações inflamatórias.
+- **Complexo areolamamilar:** Sem alterações significativas. Espessura normal.
+- **Lesões nodulares:** Não identificadas.
+- **Lesões focais de realce suspeito:** Ausentes.
+- **Microcalcificações:** Não evidenciadas.
+- **Distorções arquiteturais:** Ausentes.
+- **Linfonodos axilares:** Sem linfonodos aumentados de volume ou com características suspeitas. Maiores dimensões preservadas dentro dos limites normais.
+
+### **MAMA ESQUERDA:**
+
+- **Parênquima mamário:** Distribuição normal de tecido glandular e adiposo, sem sinais de edema ou alterações inflamatórias.
+- **Complexo areolamamilar:** Sem alterações significativas. Espessura normal.
+- **Lesões nodulares:** Não identificadas.
+- **Lesões focais de realce suspeito:** Ausentes.
+- **Microcalcificações:** Não evidenciadas.
+- **Distorções arquiteturais:** Ausentes.
+- **Linfonodos axilares:** Sem linfonodos aumentados de volume ou com características suspeitas. Maiores dimensões preservadas dentro dos limites normais.
+
+### **AVALIAÇÃO DINÂMICA PÓS-CONTRASTE:**
+
+Padrão de realce dinâmico normal, compatível com tecido fibroglandular normal. Curvas de intensidade de sinal compatíveis com realce tipo I (curva de realce progressivo) nas áreas de parênquima. Ausência de realces precoces suspeitos ou padrões de lavagem rápida.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**BI-RADS: 1** (Achados negativos/Normal)
+
+Exame de ressonância magnética de mamas **sem achados de lesões suspeitas bilateralmente**. Mamas estruturalmente normais, sem evidências de nódulos, massas, distorções arquiteturais ou calcificações suspeitas. Padrão de realce dinâmico compatível com estruturas normais. Avaliação dos espaços axilares sem alterações significativas.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+O presente exame não demonstra sinais de malignidade. As mamas encontram-se sem lesões suspeitas bilateralmente, apresentando características de normalidade.
+
+**Recomendações:**
+
+1. Rastreamento mamográfico conforme protocolos de risco individual do paciente
+2. Seguimento clínico periódico
+3. Orientação para autoexame das mamas
+4. Correlação clínica conforme indicação inicial
+
+---
+
+## OBSERVAÇÕES
+
+- Exame realizado sem intercorrências
+- Paciente colaborativa(o)
+- Qualidade diagnóstica adequada
+
+---
+
+## ASSINATURA
+
+**Médico Radiologista:**  
+Nome completo: ___________________________________  
+CRM: ___________________ UF: _____  
+Especialidade: Radiologia  
+Certificação: Radiologia Geral / Mamografia  
+Data: ___/___/_______  
+
+**Assinatura:** _________________________________  
+
+---
+
+**Protocolo do Exame:** [NÚMERO DE PROTOCOLO]  
+**Gerado em:** [DATA/HORA]  
+**Impresso em:** [DATA/HORA]

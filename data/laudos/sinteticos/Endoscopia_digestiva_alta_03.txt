@@ -1,0 +1,114 @@
+=== Endoscopia digestiva alta — Variante 3 ===
+Especialidade: gastroenterologia
+Cenário: úlcera gástrica em pequena curvatura, A2 (Sakita), sem sinais de sangramento
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ENDOSCOPIA DIGESTIVA ALTA
+
+---
+
+## DADOS DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M / F]  
+**Registro Hospitalar:** [NÚMERO DO PRONTUÁRIO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora de Início:** [HH:MM]  
+**Hora de Término:** [HH:MM]  
+
+---
+
+## DADOS DO MÉDICO EXAMINADOR
+
+**Endoscopista:** [NOME COMPLETO DO MÉDICO]  
+**CRM:** [NÚMERO DO CRM] - UF: [UF]  
+**Especialidade:** Gastroenterologia  
+**Instituição:** [NOME DA INSTITUIÇÃO]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[Exemplo: Dispepsia persistente com sintomas de dor epigástrica, investigação de possível úlcera péptica]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizada endoscopia digestiva alta com aparelho videoendoscópio de alta definição, sob sedação com midazolam [X mg] e propofol [X mg] associados a analgesia com fentanil [X mcg], com monitoração contínua de sinais vitais (frequência cardíaca, pressão arterial, saturação de oxigênio e capnografia). Realizada decanulação nasofaríngea prévia. Foram seguidos protocolos de biossegurança e antissepsia conforme normas institucionais.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**Esôfago:**  
+Mucosa lisa, de coloração normal, sem edema, eritema ou lesões. Sem divertículos. Sem varizes. Motilidade preservada. Sem alterações.
+
+**Junção Esofagogástrica:**  
+Sem alterações. Sem hérnia de hiato evidente.
+
+**Estômago:**  
+Realizada exploração completa da câmara gástrica com manobras de insuflação adequadas.
+
+*Parede Anterior:* Mucosa de coloração normal, sem alterações.
+
+*Pequena Curvatura:* **Visualizado defeito da mucosa de aproximadamente 8-10 mm de diâmetro, localizado na pequena curvatura do corpo gástrico, com bordos bem definidos e regulares. Presença de exsudato fibrinoso de coloração cinza-esbranquiçada recobrindo a base da lesão. Ausência de sinais de hemorragia ativa ou recente (sem sangue fresco na cavidade, sem coágulos). Avaliação da lesão compatível com úlcera gástrica crônica em fase de cicatrização (Estágio A2 - Sakita)**. A lesão encontra-se sem sangramento evidente.
+
+*Parede Posterior:* Mucosa de padrão normal.
+
+*Grande Curvatura:* Sem alterações.
+
+*Fundo Gástrico:* Mucosa com padrão normal, ausência de pólipos ou lesões.
+
+**Duodeno:**  
+Primeira e segunda porções duodenais com mucosa de coloração normal, sem úlceras, erosões ou lesões. Ausência de sinais sugestivos de doença duodenal. Sem alterações no padrão vascular.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Úlcera gástrica crônica em pequena curvatura, estágio A2 (Sakita), sem sinais de sangramento ativo**
+   - Lesão mucosa bem definida com exsudato fibrinoso na base
+   - Ausência de sangramento visível
+   - Indicativa de lesão em processo de cicatrização
+
+2. Esôfago: normal
+3. Junção esofagogástrica: normal
+4. Duodeno: normal
+
+---
+
+## RECOMENDAÇÕES E CONDUTA
+
+1. **Terapia antisecretória:**
+   - Iniciar inibidor de bomba de prótons em dose dupla (omeprazol 40 mg/dia ou equivalente) durante 6-8 semanas, com possível ajuste conforme resposta clínica
+
+2. **Investigação etiológica:**
+   - Recomenda-se coleta de biópsias antral e corporal para investigação de *Helicobacter pylori* (histopatologia + urease rápida)
+   - Avaliar uso prévio de anti-inflamatórios não esteroides (AINEs) e suspender se aplicável
+   - Desestimular uso de álcool e tabagismo
+
+3. **Acompanhamento:**
+   - Vigilância clínica com reavaliação sintomatológica em 2-4 semanas
+   - Considera-se endoscopia de controle em 6-8 semanas caso haja persistência de sintomas ou má resposta terapêutica
+
+4. **Orientações gerais:**
+   - Dieta fracionada, evitando alimentos gordurosos e irritantes
+   - Suporte psicológico se indicado para manejo de estresse
+   - Evitar jejuns prolongados
+
+---
+
+## OBSERVAÇÕES
+
+- Procedimento realizado sem intercorrências
+- Paciente tolerou bem o procedimento
+- Recuperação pós-sedação adequada
+- Paciente liberado com acompanhante
+
+---
+
+## CONCLUSÃO
+
+Endoscopia digestiva alta que documenta úlcera gástrica crônica em pequena curvatura, classificada como estágio A2 pela classificação de Sakita, sem sinais endoscópicos de sangramento ativo. Ausência de outras alterações significativas no esôfago, duodeno e demais estruturas exploradas. Recomenda-se terapia antisecretória otimizada e investigação da etiologia conf

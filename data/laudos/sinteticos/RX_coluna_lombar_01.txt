@@ -1,0 +1,117 @@
+=== RX coluna lombar — Variante 1 ===
+Especialidade: radiologia
+Cenário: coluna lombar sem alterações
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## **IDENTIFICAÇÃO DO EXAME**
+
+| Campo | Informação |
+|-------|-----------|
+| **Paciente** | [NOME DO PACIENTE] |
+| **Data de Nascimento** | [DATA] |
+| **Sexo** | [M / F] |
+| **Idade** | [IDADE] anos |
+| **Prontuário** | [NÚMERO DO PRONTUÁRIO] |
+| **Data do Exame** | [DATA DO EXAME] |
+| **Hora do Exame** | [HORÁRIO] |
+| **Médico Solicitante** | [NOME DO MÉDICO] / [ESPECIALIDADE] |
+| **Modalidade** | Radiografia Digital |
+| **Local do Exame** | [INSTITUIÇÃO] |
+
+---
+
+## **TÉCNICA UTILIZADA**
+
+Radiografias da coluna lombar em incidências **ântero-posterior (AP)** e **perfil (P)**, realizadas em aparelho de raios X digital com técnica apropriada para avaliação de estruturas ósseas da região lombar. Posicionamento técnico adequado. Exposição e penetração satisfatórias. Campos incluindo corpos vertebrais de L1 a S1 e articulações interapofisárias.
+
+---
+
+## **ACHADOS / DESCRIÇÃO DETALHADA**
+
+### **Corpos Vertebrais e Discos Intervertebrais**
+
+Os corpos vertebrais de L1 a L5 apresentam altura adequada, com morfologia e densidade óssea normais. Não se identificam sinais de colapso, acunhamento ou fraturas. Os espaços discais de L1-L2, L2-L3, L3-L4, L4-L5 e L5-S1 encontram-se preservados, sem evidência de protusão, extrusão ou redução significativa da altura discal.
+
+### **Pedículos e Istmos**
+
+Pedículos bilaterais íntegros e simétricos em todos os níveis. Istmos vertebrais sem solução de continuidade. Não há espondilólise.
+
+### **Articulações Interapofisárias e Facetárias**
+
+Articulações zigapofisárias bilaterais apresentando congruência articular apropriada. Não há evidência de hipertrofia articular, subluxação ou artrose. Espaços articulares mantidos.
+
+### **Canal Raquidiano**
+
+Avaliação indireta do canal vertebral demonstra calibre preservado, sem sinais de estenose aparente.
+
+### **Lordose Fisiológica**
+
+Lordose lombar preservada e apropriada para a faixa etária.
+
+### **Estruturas Adjacentes**
+
+- **Cristas ilíacas:** Íntegras e simétricas
+- **Sínfise pubiana:** Sem alterações
+- **Psoas:** Contornos normais bilateralmente
+
+### **Partes Moles**
+
+Partes moles da região apresentam densidade e contornos normais. Sem evidência de massas ou alterações significativas.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+**Coluna lombar sem alterações radiológicas detectáveis.**
+
+Achados compatíveis com coluna lombar normal:
+- Manutenção adequada da altura dos corpos vertebrais
+- Preservação dos espaços discais
+- Ausência de processos degenerativos ou artrosicos
+- Integridade das estruturas ósseas
+- Lordose fisiológica normal
+- Sem evidência de fraturas, espondilólise ou outras lesões traumáticas
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+O estudo radiológico da coluna lombar não revela alterações patológicas nos limites da resolução técnica da radiografia simples.
+
+**Recomendações:**
+
+1. Correlação clínica com apresentação do paciente
+2. Persistindo sintomatologia, considerar avaliação complementar com **Ressonância Magnética da coluna lombar** para melhor análise de estruturas de partes moles, disco intervertebral e medula espinal
+3. Seguimento clínico conforme orientação do médico assistente
+
+---
+
+## **ASSINATURA E VALIDAÇÃO**
+
+---
+
+**Dr(a). [NOME DO RADIOLOGISTA]**
+
+CRM: [NÚMERO CRM] - [UF]
+
+Especialista em Radiologia e Diagnóstico por Imagem
+
+Certificação CBIR: [NÚMERO, se aplicável]
+
+Data: [DIA]/[MÊS]/[ANO]
+
+Hora: [HORÁRIO]
+
+---
+
+**Assinatura:** ________________________________
+
+**Carimbo/Assinatura Digital** (conforme regulamentação)
+
+---
+
+*Este laudo foi gerado em conformidade com as normas técnicas da Sociedade Brasileira de Radiologia (SBR) e segue os padrões de qualidade exigidos pelos órgãos reguladores.*

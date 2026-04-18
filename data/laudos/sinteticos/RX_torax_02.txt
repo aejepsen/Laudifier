@@ -1,0 +1,85 @@
+=== RX torax — Variante 2 ===
+Especialidade: radiologia
+Cenário: cardiomegalia grau II, congestão pulmonar
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Registro:** [NÚMERO DE PRONTUÁRIO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [___] anos  
+**Sexo:** [  ] Masculino [  ] Feminino  
+
+**Exame:** Radiografia de Tórax (PA e Perfil)  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]  
+**Local:** [CLÍNICA/HOSPITAL]  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Radiografia digital de tórax realizada em incidência posteroanterior (PA) e perfil direito, com o paciente em posição ortostática. Técnica adequada com boa inspiração, permitindo adequada avaliação das estruturas pulmonares, cardíacas e mediastinais.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Coração e Mediastino
+A silhueta cardíaca apresenta-se aumentada, com índice cardiotorácico de aproximadamente **0,58** (cardiomegalia grau II). O aumento é predominantly do ventrículo esquerdo, com abaulamento do arco ventricular inferior. Os ângulos cardiofrênicos encontram-se obliterados. Ausência de alterações do contorno aórtico mediastinal e dos grandes vasos.
+
+### Campos Pulmonares
+Presença de **opacidades intersticiais bilaterais**, com predominância nas bases pulmonares e regiões hiloares, compatível com padrão de congestão pulmonar. Observam-se linhas de Kerley B horizontais nas bases pulmonares bilateralmente, com distribuição periférica.
+
+O hilo pulmonar apresenta-se aumentado bilateralmente, com ingurgitamento de vasos pulmonares. Padrão vascular compatível com redistribuição do fluxo sanguíneo para os ápices pulmonares.
+
+Ausência de consolidações focais, derrame pleural ou pneumotórax. Os ápices e seios costofrênicos encontram-se preservados.
+
+### Estruturas Ósseas e Outros Achados
+Caixa torácica sem alterações degenerativas significativas. Coluna vertebral com lordose cervical mantida. Sem alterações ósseas agudas evidentes.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Cardiomegalia grau II** com predomínio do ventrículo esquerdo
+2. **Congestão pulmonar** bilateral com evidência de edema intersticial
+3. **Ingurgitamento venoso pulmonar** bilateral com redistribuição do fluxo
+4. **Linhas de Kerley B** bilaterais
+5. Sem evidência de derrame pleural significativo no momento
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Os achados radiológicos são compatíveis com **insuficiência cardíaca congestiva em estágio moderado** (classe funcional II-III de NYHA), com comprometimento ventricular esquerdo predominante e congestão pulmonar associada.
+
+### Recomendações:
+- **Seguimento clínico** com médico assistente para otimização do tratamento clínico
+- **Ecocardiograma transtorácico** para avaliação detalhada da função ventricular e estimativa de fração de ejeção
+- **Eletrocardiograma** de repouso
+- Controle de fatores de risco cardiovascular (pressão arterial, diabetes, dislipidemia)
+- **Radiografia de controle** em 4-6 semanas para monitorização da resposta terapêutica
+- Orientação para repouso relativo, restrição de sódio e controle hídrico conforme prescrição médica
+
+---
+
+## ASSINATURA
+
+**Médico Responsável:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+**Nome (legível):** [NOME COMPLETO]  
+**Especialidade:** Radiologia  
+**CREMESP/Conselho Regional:** [NÚMERO]  
+**Carimbo:**
+
+Data: \_\_\_/\_\_\_/\_\_\_\_\_\_  
+Hora: \_\_\_:\_\_\_
+
+---
+
+**Nota:** Este laudo é um documento médico legalmente vinculativo. As recomendações devem ser avaliadas e adaptadas pelo médico assistente conforme o contexto clínico completo do paciente.

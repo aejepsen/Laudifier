@@ -1,0 +1,28 @@
+COLUNA
+PLEXO LOMBAR
+
+FOV
+
+Craniocaudal: L5 até o trocanter menor do fêmur
+
+Anteroposterior: sínfise púbica até o sacro
+
+Transversal: de um trocanter maior ao outro
+
+Sempre usar cortes finos
+
+Sequências
+
+Axial oblíquo T2 FS
+
+Axial oblíquo T1
+
+Cor volumétrico STIR
+
+Cor oblíquo T1
+
+Sag PD FS
+
+Cor 3D FIESTA-C
+
+Cor e Axial oblíquo T1 FS antes e após contraste

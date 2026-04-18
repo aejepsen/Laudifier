@@ -1,0 +1,110 @@
+=== RM encefalo — Variante 2 ===
+Especialidade: radiologia
+Cenário: lesões desmielinizantes periventriculares sugestivas de esclerose múltipla
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA ENCEFÁLICA
+
+---
+
+## DADOS DO PACIENTE
+
+| Campo | Informação |
+|-------|-----------|
+| **Nome do Paciente** | [NOME COMPLETO DO PACIENTE] |
+| **Data de Nascimento** | [DD/MM/AAAA] |
+| **Idade** | [XX] anos |
+| **Sexo** | [M/F] |
+| **Registro Hospitalar** | [Nº REGISTRO] |
+| **Data do Exame** | [DD/MM/AAAA] |
+| **Hora do Exame** | [HH:MM] |
+| **Médico Solicitante** | [NOME DO MÉDICO - ESPECIALIDADE] |
+
+---
+
+## DADOS DO EXAME
+
+| Campo | Informação |
+|-------|-----------|
+| **Modalidade** | Ressonância Magnética Encefálica |
+| **Equipamento** | Ressonância Magnética 3.0 Tesla |
+| **Protocolo** | Encéfalo com e sem contraste gadolínico |
+
+---
+
+## TÉCNICA UTILIZADA
+
+Foram adquiridas sequências multiplanares e multimodo do encéfalo, incluindo:
+- Sequências ponderadas em T1 (TR/TE: 500-600/15-25 ms)
+- Sequências ponderadas em T2 (TR/TE: 4000-5000/90-110 ms)
+- Sequências ponderadas em FLAIR (TR/TE/TI: 8000-9000/120/2200 ms)
+- Sequências de difusão (DWI) e mapa de coeficiente de difusão aparente (ADC)
+- Sequência de susceptibilidade magnética (SWI)
+- Imagens pós-contraste paramagnético (Gadolínio 0,1 mmol/kg IV)
+
+Cortes axiais, coronais e sagitais foram obtidos com espessura de 5 mm e análise multiplanar nos três eixos ortogonais.
+
+---
+
+## ACHADOS
+
+### Lesões Desmielinizantes:
+
+**Padrão Ovóide Periventricular:**
+Identificam-se múltiplas lesões hipointensas em T1 e hiperintensas em T2/FLAIR, distribuídas predominantemente na substância branca periventricular, com orientação perpendicular ao eixo longitudinal dos ventrículos laterais (padrão "Dawson fingers" clássico). Aproximadamente 12-15 focos lesionais demonstram este padrão característico.
+
+**Localização e Distribuição:**
+- Região periventricular anterior e posterior
+- Região juxtacortical (próximas à interface córtex-substância branca)
+- Região infratentorial com focos em tronco encefálico
+- Região supra-tentorial bilateral
+
+**Características das Lesões:**
+- Tamanho variável, predominantemente 3-10 mm
+- Bordas bem definidas
+- Sem efeito massa
+- Sem edema perilesional significativo
+- Sem restrição aparente na difusão
+- Ausência de hemorragia associada (SWI negativo)
+
+### Análise Pós-Contraste:
+
+Duas lesões (região periventricular direita anterior e lobo parietal esquerdo) demonstram realce heterogêneo anelar/nodular de intensidade moderada, sugestivo de atividade inflamatória subaguda.
+
+### Estruturas Ventriculares:
+
+Sistema ventricular de dimensões normais. Sem deslocamento de linha média. Sem hidrocefalia. Terceiro ventrículo com dimensão normal.
+
+### Estruturas Supratentoriais:
+
+Núcleos da base e tálamo sem alterações estruturais. Córtex cerebral sem focos de atrofia focal. Lobos frontais, parietais, temporais e occipitais sem outras lesões focais.
+
+### Fossa Posterior:
+
+Tronco encefálico com contornos normais. Presença de lesão desmielinizante em região pontina direita, hiperintensa em T2/FLAIR. Cerebelo com morfologia normal, sem lesões. Ângulo pontocerebelar pérvio bilateralmente. Quarto ventrículo patente.
+
+### Sela Túrcica e Região Sellar:
+
+Hipófise de tamanho e sinal normais. Sem alterações na região sellar.
+
+### Estruturas Vasculares:
+
+Artérias carótidas internas, vertebrais e polígono de Willis sem sinais de estenose, oclusão ou dissecção.
+
+### Espaços Liquóricos:
+
+Cisterna magna com dimensões normais. Espaços subaracnoideos preservados. Sem sinais de hidrocefalia comunicante.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Exame de Ressonância Magnética do Encéfalo com achados compatíveis com **doença desmielinizante, sugestivo de Esclerose Múltipla (EM)**, satisfazendo critérios radiológicos para disseminação espacial conforme critérios de McDonald 2017:
+
+✓ **Lesões periventriculares múltiplas** (critério principal)
+✓ **Lesões juxtacorticais**
+✓ **Lesões infratentoriais** (região pontina)
+✓ **Padrão de orientação "Dawson fingers"** (lesões perpendiculares aos ventrículos)
+✓ **Presença de lesões com realce pós-contraste** (indicando atividade inflamatória)
+
+A distribuição anatômica e as características morfológicas das lesões, associadas ao padrão de realce heterogêneo em algumas delas, são altamente sugestivas de

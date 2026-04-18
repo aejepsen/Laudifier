@@ -1,0 +1,22 @@
+MSK
+REGIÃO INGUINAL
+
+Bobina: large surface/body
+
+Incluir os dois canais inguinais pra comparação
+
+Preferencialmente usar marcador no local de queixa clínica 
+
+Sequências
+
+Coronal pelve T1/T2/STIR - FOV (32-40 cm) desde região  anterior da sínfise até terminar o sacro - cortes 6 mm / menor gap possível 
+
+Sagital T2-weighted FSE/PDFS FAT SAT - FOV (14-18 cm) entre as paredes mediais dos acetábulos - cortes 2-4 mm / mínimo gap
+
+Coronal T2-weighted FSE/PDFS FAT SAT- FOV (14-18 cm) desde região  anterior da sínfise até face anterior do sacro - cortes 2-4 mm / mínimo gap
+
+Obliquo T2-weighted FSE/PDFS FAT SAT- FOV (14-18 cm) paralelo à margem anterior do ilíaco - cortes 2-4 mm / mínimo gap
+
+Axial T1 e T2-weighted FSE/PDFS FAT SAT- FOV (14-18 cm) entre os tetos acetabulares e margem inferior dos ramos isquiopubicos - cortes 2-4 mm / mínimo gap
+
+

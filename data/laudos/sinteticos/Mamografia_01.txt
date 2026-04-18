@@ -1,0 +1,108 @@
+=== Mamografia — Variante 1 ===
+Especialidade: radiologia
+Cenário: mamas sem alterações, BIRADS 1
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE MAMOGRAFIA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [__] anos  
+**Sexo:** Feminino  
+**Número do Prontuário:** [________________]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Local do Exame:** [INSTITUIÇÃO/CLÍNICA]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Rastreamento mamográfico de rotina.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Mamografia digital de campo completo (FFDM) em projeções padrão bilaterais:
+- Projeção craniocaudal (CC) bilateral
+- Projeção oblíqua mediolateral (MLO) bilateral
+
+Qualidade técnica: adequada, com posicionamento satisfatório e exposição otimizada. Artefatos: ausentes.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**Parênquima Mamário:**
+- Densidade mamária heterogeneamente densa, padrão ACR tipo B (densidade mamária moderada)
+- Distribuição parenquimatosa simétrica bilateralmente
+- Parênquima com aspecto fibroglandular normal
+
+**Glândula Mamária Direita:**
+- Contornos regulares, sem retração cutânea ou do complexo areolar
+- Parênquima apresenta aspecto homogêneo, sem áreas focais de assimetria
+- Ausência de nódulos, distorção arquitetural ou microcalcificações
+- Sem achados sugestivos de lesão de massa
+- Sem dilatação ductal
+
+**Glândula Mamária Esquerda:**
+- Contornos regulares, sem retração cutânea ou do complexo areolar
+- Parênquima apresenta aspecto homogêneo, sem áreas focais de assimetria
+- Ausência de nódulos, distorção arquitetural ou microcalcificações
+- Sem achados sugestivos de lesão de massa
+- Sem dilatação ductal
+
+**Estruturas Adjacentes:**
+- Parede torácica sem alterações identificáveis
+- Sem linfonodos axilares aumentados de volume
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Mamografia bilateral demonstrando **mamas sem alterações patológicas identificáveis**. Ausência de sinais radiológicos sugestivos de malignidade.
+
+**Classificação BI-RADS: 1** (Sem achados - Negativo)
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Estudo mamográfico negativo, compatível com mamas normais.
+
+**Recomendações:**
+- Retorno para rastreamento mamográfico conforme protocolo institucional (mamografia anual ou a cada 2 anos, conforme faixa etária e fatores de risco)
+- Orientações de autoexame mensal mantidas
+- Paciente está liberada para retorno à rotina sem restrições
+
+---
+
+## OBSERVAÇÕES ADICIONAIS
+
+Nenhuma observação adicional relevante.
+
+---
+
+## RESPONSABILIDADE TÉCNICA
+
+**Médico Radiologista responsável pelo laudo:**
+
+Dr(a). [NOME COMPLETO]  
+CRM [UF]: [NÚMERO]  
+RQE: [NÚMERO]
+
+---
+
+**Assinatura e Carimbo do Radiologista:**
+
+___________________________________  
+Data: [DD/MM/AAAA]
+
+---
+
+**Nota:** Este laudo é confidencial e destina-se ao uso exclusivo do paciente e de seu médico solicitante. Reprodução parcial ou total sem autorização é proibida.

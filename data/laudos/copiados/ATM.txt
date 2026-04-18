@@ -1,0 +1,49 @@
+ATM
+
+AXIAL T1 - Corte/gap: 2mm / 0 - TR / TE: 500 / mínimo - Boca fechada - FOV paralelo ao palato (do corpo caloso ao ângulo da mandíbula)
+
+CORONAL T1 - Corte/gap: 2mm / 0 - TR / TE: 500 / mínimo - Boca fechada - FOV 12 cm - paralelo ao eixo longo
+
+SAGITAL OBLÍQUO BILATERAL  T2TSE - Corte/gap: 2mm / 0 - TR / TE: 3500 / mínimo - Boca fechada e aberta - FOV 12 cm - perpendicular ao eixo longo
+
+SAGITAL OBLÍQUO BILATERAL DP - Corte/gap: 2mm / 0 - TR / TE: 3500 / 85 - Boca fechada e aberta- FOV 12 cm - perpendicular ao eixo longo
+
+SAGITAL OBLÍQUO BILATERAL DP/SSFSE - Corte/gap: 2mm / 0 - TR / TE: 1180 a 2000 / 64 - Preferencialmente Dynamic cine / Alternativa: abertura bucal leve, moderada e acentuada - FOV 12 cm - perpendicular ao eixo longo
+
+
+Se suspeita de doença inflamatória, adicionar:
+
+CORONAL T1 - FOV 23 cm - corte 3 mm - boca fechada
+
+CORONAL T2 FS / STIR / TIRM - FOV 23 cm - corte 3 mm- boca fechada
+
+AXIAL T2 / STIR / TIRM - FOV 23 cm - corte 5 mm- boca fechada
+
+CORONAL T2 - FOV 23 cm - corte 3 mm  - boca fechada
+
+-------------------------------------------------------------------------------------------------------
+
+
+SIALOGRAFIA
+
+Fov: Entre Palato Duro E Osso Hioide
+
+T1SE Axial 3 Mm
+
+T2 Haste Axial 3 Mm
+
+T2 Stir Coronal 3 Mm
+
+Contraste Oral (Suco De 1 Limão)
+
+Localizador Haste Paralelo A Cada Glândula 60 Mm
+
+T2 Haste Sagital Obliqua 20 Mm
+
+T2 Haste Axial Obliqua 20 Mm
+
+T2 Haste Coronal Obliqua 20 Mm
+
+Ciss 3D Sag 1Mm (Fov 200 Mm)
+
+

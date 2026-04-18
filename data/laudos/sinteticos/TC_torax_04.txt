@@ -1,0 +1,126 @@
+=== TC torax — Variante 4 ===
+Especialidade: radiologia
+Cenário: enfisema pulmonar difuso, sem lesões focais
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA DE TÓRAX
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Registro:** [Nº PRONTUÁRIO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [XX] anos  
+
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Solicitante:** [NOME DO MÉDICO/ESPECIALIDADE]  
+**Local do Exame:** [CLÍNICA/HOSPITAL]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Avaliação de enfisema pulmonar; estadiamento e caracterização de doença pulmonar obstrutiva crônica.
+
+---
+
+## TÉCNICA
+
+Tomografia computadorizada helicoidal do tórax, realizada em cortes axiais contíguous com 1mm de espessura, adquiridos em inspiração máxima, com e sem injeção intravenosa de contraste iodado. Reconstruções multiplanares (coronais e sagitais) foram obtidas. Janelas para parênquima pulmonar, mediastino e osso foram utilizadas para análise detalhada.
+
+---
+
+## ACHADOS
+
+### **Pulmões e Pleura**
+
+- **Enfisema pulmonar:** Alterações enfisematosas difusas e bilaterais, caracterizadas por rarefação do parênquima pulmonar com destruição do tecido alveolar, predominantemente distribuído em:
+  - Terços superiores e médios dos campos pulmonares (padrão centrílobular)
+  - Distribuição heterogênea com áreas de maior rarefação alternadas a áreas de menor acometimento
+  
+- **Padrão vascular:** Redução difusa da trama vascular pulmonar, compatível com enfisema de predomínio centrílobular.
+
+- **Brônquios:** Ausência de dilatação brônquica significativa. Calibre e paredes brônquicas normais bilateralmente.
+
+- **Sem lesões nodulares:** Ausência de nódulos pulmonares de qualquer tamanho ou localização.
+
+- **Sem consolidações:** Negado consolidações ou opacidades em vidro fosco focais.
+
+- **Sem derrame pleural:** Cavidades pleurais livres, sem evidência de líquido.
+
+- **Sem pneumotórax:** Ausência de coleção de ar intrapleural.
+
+### **Mediastino**
+
+- **Hilares:** Estruturas vasculares hilares com calibre dentro dos limites normais. Ausência de linfadenopatia significativa. Linfonodos de tamanho normal (< 10mm no menor eixo transverso).
+
+- **Coração:** Silhueta cardíaca de dimensões normais. Sem derrame pericárdico. Sopro cardíaco não analisado neste exame.
+
+- **Grandes vasos:** Aorta torácica com calibre normal, sem evidência de dilatação ou dissecção. Veia cava superior e inferior com calibres normais.
+
+- **Esôfago:** Sem dilatação ou alterações focais.
+
+- **Estruturas mediastinais:** Ausência de massas ou coleções anormais.
+
+### **Parede Torácica e Estruturas Ósseas**
+
+- **Músculos:** Simetria preservada, sem infiltração ou colapsos significativos.
+
+- **Coluna vertebral:** Corpos vertebrais com altura e densidade normais para a idade. Ausência de fraturas ou desalinhamentos. Espaços discais mantidos. Sem estenose de canal.
+
+- **Arcos costais:** Íntegros, sem fraturas agudas ou antigas.
+
+- **Escápulas e clavículas:** Sem alterações focais.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Enfisema pulmonar difuso bilateral** – padrão centrílobular predominante, sem lesões focais associadas
+2. **Ausência de:**
+   - Nódulos pulmonares
+   - Consolidações parenquimatosas
+   - Derrame pleural
+   - Pneumotórax
+   - Linfadenopatia mediastinal
+   - Lesões ósseas agudas
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Estudo tomográfico que confirma enfisema pulmonar difuso e bilateral em padrão centrílobular, sem evidência de complicações agudas ou lesões focais estruturadas. Alterações compatíveis com doença pulmonar obstrutiva crônica (DPOC) em estágio avançado.
+
+**Recomendações:**
+
+1. Correlação com parecer clínico e funcionalidade respiratória (espirometria)
+2. Rastreamento de malignidade se antecedentes de tabagismo ativo ou prolongado
+3. Seguimento radiológico conforme indicação clínica, particularmente se novo surgimento de sintomas ou alteração da função respiratória
+4. Consideração de encaminhamento a especialista em pneumologia para otimização de terapêutica e possível candidatura a procedimentos de redução de volume pulmonar
+
+---
+
+## RADIOLOGISTA
+
+**Nome:** [NOME COMPLETO DO RADIOLOGISTA]  
+**Registro:** [CRM/ESTADO - Nº ESPECIALIDADE]  
+**Telefone:** [NÚMERO]  
+**E-mail:** [EMAIL]  
+
+---
+
+**Assinatura Digital/Física:**
+
+_________________________________  
+[NOME E CARIMBO DO RADIOLOGISTA]
+
+**Data:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]
+
+---
+
+**Observação:** Este laudo é confidencial e destina-se exclusivamente ao médico solicitante e ao paciente.

@@ -1,0 +1,117 @@
+=== RM joelho — Variante 4 ===
+Especialidade: radiologia
+Cenário: condromalácia patelar grau III
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [__/__/____]  
+**Sexo:** [M / F]  
+**Idade:** [___] anos  
+**Matrícula/RG:** [_______________]  
+
+**Exame:** Ressonância Magnética de Joelho  
+**Lado:** [Direito / Esquerdo]  
+**Data do Exame:** [__/__/____]  
+**Horário:** [__:__h]  
+**Modalidade:** RM 1.5 Tesla  
+**Aparelho:** [MODELO E FABRICANTE]  
+**Técnico:** [NOME DO TÉCNICO]  
+
+**Clínica Solicitante:** [HOSPITAL/CLÍNICA]  
+**Solicitante:** Dr(a). [NOME E CRM DO SOLICITANTE]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Avaliação de dor anterior do joelho com suspeita de condromalácia patelar. Sintomatologia crônica com limitação funcional.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Ressonância magnética do joelho realizada em aparelho de 1.5 Tesla, utilizando bobina de joelho dedicada. Foram adquiridas sequências multiplanares e multimodais:
+
+- **Sequências T1:** Sagital, coronal e axial
+- **Sequências T2 com supressão de gordura (FSTIR):** Sagital, coronal e axial
+- **Sequência gradiente eco (GRE):** Sagital e coronal
+- **Sequência PDFS (Proton Density Fat Saturation):** Sagital e coronal
+- **Sequência T2 TSE:** Sagital
+
+Espessura de corte: 3-4 mm. Campo de visão: 16 x 16 cm. Matriz: 256 x 256.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **CARTILAGEM ARTICULAR**
+
+**Compartimento Patelofemoral:**
+- Presença de condromalácia patelar de grau III caracterizada por perda substancial da cartilagem articular na faceta medial da patela, com área de aproximadamente 2,5 x 2,0 cm.
+- Erosão cartilaginosa com exposição parcial do osso subcondral subjacente.
+- Edema associado no osso subcondral (bone marrow edema) na face profunda da patela, apresentando hipersinal em sequências T2 FSTIR.
+- Superfície cartilaginosa irregular e fragmentada.
+- Cartilagem das superfícies articulares dos côndilos femorais (medial e lateral) preservadas, sem alterações significativas.
+
+**Compartimentos Tibiofemoral Medial e Lateral:**
+- Cartilagem articular com espessura normal em ambos os compartimentos.
+- Sem sinais de condromalácia ou defeitos focais.
+
+### **ESTRUTURAS ÓSSEAS**
+
+- Cortical óssea das epífises femoral e tibial mantém sua integridade.
+- Sinais de edema ósseo (hipersinal T2) no setor medial do côndilo femoral, adjacente ao defeito cartilaginoso patelar.
+- Osso esponjoso com textura normal nos compartimentos não afetados.
+- Sem linhas de fratura aguda identificadas.
+
+### **MENISCOS**
+
+- **Menisco medial (tibial interno):** Mantém sua morfologia normal em forma de "C", sem sinais de degeneração ou rotura. Sem derrame associado.
+- **Menisco lateral (tibial externo):** Preservado com configuração normal em forma de "O". Integridade mantida.
+
+### **LIGAMENTOS**
+
+- **Ligamento Cruzado Anterior (LCA):** Íntegro, com hipersinal característico, sem sinais de laceração ou degeneração.
+- **Ligamento Cruzado Posterior (LCP):** Normal, sem alterações.
+- **Ligamentos Colaterais Medial e Lateral:** Estruturas ligamentares com integridade preservada bilateralmente.
+
+### **CÁPSULA ARTICULAR E SINOVIAL**
+
+- Presença de derrame articular pequeno (aproximadamente 8-10 mL) distribuído principalmente no recesso suprapatelar.
+- Espessura sinovial normal, sem hiperplasia sinovial evidente.
+- Sinais compatíveis com sinovite leve secundária ao processo de condromalácia.
+
+### **ESTRUTURAS PERIARTICULARES**
+
+- **Tendão patelar:** Normalmente posicionado, sem sinais de tendinose ou tenosinovite.
+- **Tendão do quadríceps:** Íntegro e simétrico.
+- **Bursa suprapatelar:** Sem alterações significativas.
+- **Plica sinovial medial:** Visualizada, de aspecto habitual.
+
+### **ARTICULAÇÃO PATELOFEMORAL**
+
+- Deslocamento patelar não evidenciado.
+- Ângulo de congruência dentro dos limites normais.
+- Lateralização patelar leve associada ao gasto cartilaginoso medial.
+
+### **OUTROS ACHADOS**
+
+- Pequeno cisto de Baker no espaço poplíteo: aproximadamente 1,0 cm em maior diâmetro, de caráter simples, sem compressão estrutural.
+- Sem sinais de ossificação heterotópica.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+### Diagnóstico Principal:
+**CONDROMALÁCIA PATELAR GRAU III**
+
+Caracterizada por:
+- Perda substancial e erosão da cartilagem articular na faceta medial patelar
+- Exposição parcial do osso subcondral

@@ -1,0 +1,111 @@
+=== RM abdome figado — Variante 3 ===
+Especialidade: radiologia
+Cenário: lesão focal indeterminada no segmento IV, necessita correlação
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA
+
+---
+
+## DADOS DO PACIENTE
+
+**Nome:** [NOME COMPLETO DO PACIENTE]  
+**Prontuário:** [NÚMERO DO PRONTUÁRIO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [IDADE] anos  
+**Sexo:** [MASCULINO/FEMININO]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Lesão focal indeterminada no segmento IV hepático. Avaliação por ressonância magnética para melhor caracterização e correlação clínico-radiológica.
+
+---
+
+## TÉCNICA
+
+Ressonância magnética de abdome superior realizada em equipamento de 1.5 Tesla, sem sedação. Foram adquiridas sequências:
+- Localização (scout);
+- HASTE (Half-Fourier Acquisition Single-shot Turbo spin-Echo);
+- T1 in-phase e out-of-phase;
+- T2 com supressão de gordura;
+- Difusão (DWI) com valores de b = 50, 400 e 800 s/mm²;
+- Perfusão dinâmica (FLASH 3D) nas fases arterial, portal e de equilíbrio, com injeção de 0,1 mmol/kg de contraste paramagnético (Gadolínio);
+- Sequências de supressão de ferro quando necessário.
+
+Foram obtidas imagens multiplanares (sagital, coronal e axial) com adequada qualidade técnica.
+
+---
+
+## ACHADOS
+
+**Fígado:** Volume normal. Sinal de intensidade usual em T1 e T2. Não há esteatose hepática evidente. Contornos regulares.
+
+**Lesão focal no Segmento IV:**
+- Localização: Segmento IV (quadrante superomedial do lobo direito), em região adjacente à vesícula biliar;
+- Dimensões: Aproximadamente 1,8 x 1,5 cm;
+- Morfologia: Arredondada, bem delimitada, com halo periférico discreto;
+- Sinal em T1: Isointenso ao parênquima hepático;
+- Sinal em T2: Levemente hipertenso ao parênquima hepático;
+- Difusão (DWI): Restrição discreta de difusão, com valores de ADC intermediários (compatível com restrição borderline);
+- Dinâmica pós-contraste:
+  - Fase arterial: Realce discreto, heterogêneo;
+  - Fase portal: Realce progredindo gradualmente;
+  - Fase de equilíbrio: Lesão apresenta realce similar ao parênquima hepático circundante (wash-out tardio não evidente no tempo de aquisição);
+
+**Vias biliares:** Não dilatadas. Colédoco com calibre normal.
+
+**Vesícula biliar:** Sem conteúdo litiásico. Paredes normais.
+
+**Pâncreas:** Contornos regulares. Sem evidência de lesões focais. Ducto pancreático não dilatado.
+
+**Baço:** Volume normal. Sinal homogêneo.
+
+**Rins:** Ambos com contornos e dimensões normais. Sinal parenquimatoso regular bilateralmente.
+
+**Glândulas adrenais:** Sem lesões focais.
+
+**Peritoneu:** Sem ascite.
+
+**Linfonodos:** Sem linfadenopatias significativas.
+
+**Parede abdominal:** Sem alterações.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Lesão focal no segmento IV hepático com características de **indeterminação diagnóstica**, não permitindo caracterização definitiva no presente exame. Apresenta as seguintes características descritivas:
+
+- Realce arterial discreto com padrão de realce dinâmico gradual;
+- Restrição borderline de difusão;
+- Ausência de wash-out evidente em fase portal/equilíbrio;
+- Dimensões menores que 2 cm.
+
+**Diagnósticos diferenciais a considerar:**
+1. Hemangioma cavernoso pequeno (menos provável pela falta de realce homogêneo intenso arterial);
+2. Nódulo regenerativo/displasia de baixo grau;
+3. Adenoma hepatocelular;
+4. Carcinoma hepatocelular precoce (em contexto de hepatopatia crônica);
+5. Lesão inflamatória ou infecciosa.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A lesão focal identificada no segmento IV do fígado apresenta características radiológicas indeterminadas, não permitindo diagnóstico definitivo pela ressonância magnética. 
+
+**Recomendações:**
+
+1. **Correlação clínica obrigatória** com histórico do paciente, fatores de risco para hepatopatia crônica (cirrose, hepatite, esteatose), níveis de alfafetoproteína (AFP) e função hepática;
+
+2. **Seguimento radiológico:** Recomenda-se ressonância magnética de controle em **3 meses** para avaliação de possível crescimento ou mudança nas características da lesão;
+
+3. **Considerar tomografia computadorizada multifásica** como exame complementar, particularmente em pacientes com cirrose hepática ou hepatopatia crônica significativa, para melhor caracterização dinâmica;
+
+4. **Investigação complementar orientada:** Conforme achados clínico-laboratoriais, pode estar indicada ultrassonografia de seguimento, tomografia ou até avaliação por especialista em hepatologia;
+
+5. **Critérios de malignidade:** Caso haja pres

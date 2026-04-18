@@ -1,0 +1,110 @@
+=== Biopsia hepatica — Variante 2 ===
+Especialidade: patologia
+Cenário: biópsia hepática — esteatohepatite não alcoólica (NASH), fibrose F1
+Fonte: sintético — gerado por Claude
+
+# LAUDO PATOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Registro/CPF:** [Nº DO REGISTRO/CPF]  
+**Idade:** [IDADE] anos | **Sexo:** [SEXO]  
+**Data de Nascimento:** [DD/MM/AAAA]
+
+**Material Recebido:** Fragmento de tecido hepático  
+**Data da Coleta:** [DD/MM/AAAA]  
+**Data do Recebimento:** [DD/MM/AAAA]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Procedimento:** Biópsia hepática percutânea
+
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+**Local do Procedimento:** [LOCAL/HOSPITAL]
+
+---
+
+## TÉCNICA UTILIZADA
+
+O material consistiu em fragmento de tecido hepático com aproximadamente 15 mm de comprimento e 1,5 mm de diâmetro, obtido por biópsia percutânea ecoguiada. O espécime foi fixado em formalina tamponada a 10%, processado rotineiramente e incluído em parafina. Foram realizados cortes histológicos seriados, corados com Hematoxilina-Eosina (HE) e coloração especial de Tricrômio de Masson para avaliação de fibrose. Avaliação adicional com coloração de Azul da Prússia foi realizada para descartar depósito de ferro.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **Arquitetura Hepática:**
+- Preservação geral da arquitetura lobular
+- Tratos portais presentes e levemente proeminentes
+- Espaço porta-porta não visualizado
+- Limite entre espaço porta e hepatócitos adjacentes bem definido
+
+### **Esteatose:**
+Presente em aproximadamente 25-30% dos hepatócitos, predominantemente macrovesicular. Distribuição difusa nos diferentes acinos. Hepatócitos esteatóticos demonstram deslocamento basal do núcleo, compatível com esteatose simples.
+
+### **Inflamação:**
+- Infiltrado inflamatório portal composto por linfócitos (predominantemente CD8+), plasmócitos e macrófagos
+- Inflamação portal leve (score 1/4)
+- Infiltrado inflamatório lobular discreto, com presença esparsa de macrófagos ativados
+- Ausência de agregados linfoides ou folículos com centro germinativo
+
+### **Lesão Hepatocelular:**
+- Hepatócitos com sinais de dano citológico focal
+- Presença discreta de corpúsculos apoptóticos
+- Desorganização celular focal em algumas áreas
+- Ausência de inclusões virais ou alterações citopáticas específicas
+
+### **Fibrose:**
+Fibrose portal presente com padrão de expansão do espaço porta. Não há ponte de fibrose porto-portal ou porto-central. Septos fibrosos delgados limitados aos tratos portais. **Classificação METAVIR: F1** (fibrose portal sem ponte)
+
+### **Esteatose Hepática Não Alcoólica (EHNA/NASH):**
+Achados compatíveis com Esteatohepatite Não Alcoólica, caracterizada pela combinação de:
+- Esteatose hepatocelular (> 5% de hepatócitos)
+- Inflamação lobular
+- Dano hepatocelular
+- Fibrose portal incipiente
+
+**NAS (NAFLD Activity Score) estimado: 5/8** (compatível com NASH)
+
+### **Estruturas Vasculares:**
+- Espaço porta com estruturas vasculares preservadas
+- Veias centrolobulares permeáveis
+- Ausência de alterações vasculares significativas
+
+### **Material de Depósito:**
+- Coloração de Azul da Prússia negativa (sem depósito de ferro)
+- Ausência de deposição de lipofuscina excessiva
+- Sem evidências de colestase
+
+### **Achados Adicionais:**
+- Ausência de cirrose
+- Ausência de alterações displásicas
+- Ausência de neoplasia
+- Sem evidências de hepatite viral, autoimune ou colestática
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Esteatohepatite Não Alcoólica (NASH) com fibrose portal**
+2. **Fibrose hepática grau 1 (F1) - METAVIR**
+3. **Ausência de cirrose hepática**
+4. **Sem evidências de hepatopatia de outra etiologia**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+### **Conclusão:**
+Biópsia hepática evidencia esteatohepatite não alcoólica em estágio inicial, com fibrose portal (F1) sem ponte de fibrose ou cirrose. Os achados histológicos são consistentes com NASH estabelecida, demonstrando progressão a partir de esteatose hepática simples. O padrão de inflamação e dano celular reflete atividade inflamatória em curso que requer monitoramento e intervenção terapêutica.
+
+### **Recomendações:**
+
+1. **Manejo Clínico:**
+   - Implementar mudanças no estilo de vida com perda de peso progressiva (7-10% do peso corporal)
+   - Adequação dietética com redução de lipídios simples e carboidratos refinados
+   - Programa de atividade física regular (150 minutos/semana de exercício moderado)
+
+2. **Avaliação Metabólica:**
+   - Investigação e tratamento de síndrome metabólica associada
+   - Controle glicêmico e pressão arterial

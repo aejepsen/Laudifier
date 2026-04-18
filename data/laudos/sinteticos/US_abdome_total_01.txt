@@ -1,0 +1,105 @@
+=== US abdome total — Variante 1 ===
+Especialidade: radiologia
+Cenário: abdome superior e inferior sem alterações ecográficas
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA
+
+---
+
+## **IDENTIFICAÇÃO DO EXAME**
+
+| Campo | Informação |
+|-------|-----------|
+| **Paciente** | [NOME COMPLETO DO PACIENTE] |
+| **Data de Nascimento** | [DD/MM/AAAA] |
+| **Sexo** | [MASCULINO/FEMININO] |
+| **Idade** | [___] anos |
+| **Prontuário/RG** | [________________] |
+| **Data do Exame** | [DD/MM/AAAA] |
+| **Hora do Exame** | [HH:MM] |
+| **Médico Solicitante** | [NOME E ESPECIALIDADE] |
+| **Radiologista** | [NOME E NÚMERO CREMESP/REGIONAL] |
+| **Equipamento** | Ultrassom modelo [_____________] |
+| **Frequência do Transdutor** | 3,5 a 5,0 MHz |
+
+---
+
+## **INDICAÇÃO CLÍNICA**
+
+[DESCREVER MOTIVO DO EXAME: Ex: Dor abdominal inespecífica, investigação de abdome agudo, acompanhamento de patologia prévia, etc.]
+
+---
+
+## **TÉCNICA UTILIZADA**
+
+Realizado exame ultrassonográfico de abdome total com transdutor convexo de 3,5 MHz, em escala de cinza. O paciente foi avaliado em decúbito dorsal e em decúbito lateral direito e esquerdo, com múltiplos planos de varredura (transversal, longitudinal e oblíquo). Foi realizada manobra de respiração profunda para melhor caracterização das estruturas hepatobiliares.
+
+---
+
+## **ACHADOS / DESCRIÇÃO DETALHADA**
+
+### **FÍGADO**
+Lobo hepático direito e lobo hepático esquerdo apresentam ecogenicidade homogênea, sem evidência de lesões focais, calcificações ou alterações de textura. Dimensões normais (diâmetro craniocaudal do lobo direito: ~12 cm). Contornos regulares. Ecotextura sem esteatose aparente.
+
+### **VIAS BILIARES INTRA-HEPÁTICAS**
+Não dilatadas. Padrão ramificado normal.
+
+### **VESÍCULA BILIAR**
+Vesícula biliar puntiforme, vazia, com paredes regulares e não espessadas (espessura <3 mm). Sem evidência de cálculos, lama biliar ou sinais inflamatórios.
+
+### **VIAS BILIARES EXTRA-HEPÁTICAS**
+Colédoco com calibre normal (diâmetro <7 mm). Sem dilatação das vias biliares.
+
+### **PÂNCREAS**
+Glândula pancreática apresenta ecogenicidade homogênea, sem sinais de edema, necrose ou dilatação do ducto pancreático. Contornos regulares. Tamanho dentro dos limites normais.
+
+### **BAÇO**
+Órgão com ecogenicidade homogênea, sem lesões focais ou alterações de tamanho. Dimensões normais (diâmetro eixo longo: ~9 cm).
+
+### **RINS**
+Ambos os rins com ecogenicidade cortical normal, sem dilatação da via excretora. Parênquima renal sem focos de ecogenicidade anormal. Sem evidência de cálculos, cistos ou massas. Rim direito mede aproximadamente 10 cm de eixo longo e rim esquerdo aproximadamente 10,5 cm. Índice de resistividade normal bilateralmente (quando avaliado com Doppler).
+
+### **ADRENAIS**
+Glândulas adrenais com aspecto normal bilateralmente, sem massas ou alterações morfológicas.
+
+### **AORTA ABDOMINAL**
+Aorta abdominal com calibre normal (diâmetro ~2,0 cm), sem sinais de ectasia ou aneurisma. Fluxo Doppler normal.
+
+### **VEIA CAVA INFERIOR**
+Veia cava inferior com calibre normal, sem trombose ou alterações do fluxo Doppler.
+
+### **ALÇAS INTESTINAIS**
+Alças de delgado e cólon apresentam calibres normais, sem evidência de distensão, obstrução ou outras alterações morfológicas. Padrão peristáltico normal.
+
+### **CAVIDADE PERITONEAL**
+Ausência de coleção líquida livre na cavidade peritoneal. Peritoneo com aspecto normal.
+
+### **PAREDE ABDOMINAL**
+Tecidos de partes moles da parede abdominal sem alterações significativas.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+Ultrassom de abdome total **sem alterações ecográficas significativas**. Estruturas hepatobiliares, pâncreas, baço, rins, adrenais e grandes vasos apresentam aspecto normal. Ausência de coleções, dilatações ou lesões focais. Cavidade peritoneal sem líquido livre.
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+O exame ultrassonográfico do abdome total não evidencia alterações ecográficas relevantes no momento. Estruturas avaliadas apresentam-se morfologicamente normais e funcionalmente preservadas.
+
+**Recomendações:**
+- Caso persista quadro clínico, considerar investigação complementar conforme orientação clínica.
+- Acompanhamento clínico conforme indicação do médico assistente.
+- Não há achados que requeiram seguimento ultrassonográfico programado neste momento.
+
+---
+
+## **ASSINATURA E RESPONSABILIDADE**
+
+| | |
+|---|---|
+| **Médico Radiologista** | _________________________ |
+| **Nome (Legível)** | [

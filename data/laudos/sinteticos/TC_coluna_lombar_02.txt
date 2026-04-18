@@ -1,0 +1,91 @@
+=== TC coluna lombar — Variante 2 ===
+Especialidade: radiologia
+Cenário: protrusão discal L4-L5 com compressão radicular
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M / F]  
+**Idade:** [__] anos  
+**Registro/Prontuário:** [_________________]
+
+**Data do Exame:** [DD/MM/AAAA]  
+**Horário:** [HH:MM]  
+**Local:** [INSTITUIÇÃO / CLÍNICA]  
+**Médico Solicitante:** [NOME E ESPECIALIDADE]  
+**Radiologista:** [NOME E CRM]
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Dor lombar irradiada com suspeita de compressão radicular. Avaliação de hérnia discal.
+
+---
+
+## TÉCNICA
+
+Tomografia computadorizada helicoidal de coluna lombar realizada em cortes axiais contínuos de 1 mm de espessura, com posterior processamento e reconstrução em planos sagital e coronal. Aquisição iniciada ao nível de L3 e finalizada ao nível de S1, com escaneamento realizado durante apneia respiratória. Não foi administrado contraste intravenoso. Aparelho utilizado: tomógrafo de 64 detectores.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **Análise Geral da Coluna Vertebral**
+
+A coluna lombar apresenta lordose fisiológica adequada. Visualizam-se os corpos vertebrais de L3 a S1 com alturas e densidades apropriadas. Não há sinais de fratura, lise lítica ou esclerótica. Os platôs vertebrais apresentam-se íntegros, sem aspecto irregular ou colapso.
+
+### **Espaços Intervertebrais**
+
+- **L3-L4:** Disco intervertebral com altura preservada. Contornos regularmente convexos. Não visualizam-se protrusões, hérnias ou abaulamentos significativos.
+
+- **L4-L5:** **Disco intervertebral com redução da altura discal.** Detecta-se **protrusão discal centroposteromedial** do material nuclear, de aspecto fibroso, medindo aproximadamente **6-8 mm** de extensão craniocaudal. Observa-se **compressão das raízes nervosas** bilateralmente, mais pronunciada à **direita**, com **obliteração parcial dos recésos laterais**. O saco dural apresenta-se comprimido pelo material discal. A protrusão exerce efeito compressivo significativo sobre a raiz de L4 à direita e, em menor grau, sobre a raiz de L5.
+
+- **L5-S1:** Disco com altura preservada. Contornos regulares sem deformidades. Pequeno abaulamento difuso do anel fibroso, não configurando protrusão significativa. Saco dural e recésos laterais pérviosos.
+
+### **Análise de Partes Moles**
+
+Espaço epidural com redução focal em L4-L5 secundária ao material discal. Ligamento amarelo apresenta-se sem hipertrofia significativa. Articulações facetárias com orientação apropriada e cartilagem preservada.
+
+### **Análise Óssea**
+
+Corpos vertebrais: densidade mineral óssea normal para a idade. Apófises transversas e espinhosas íntegras. Ausência de lesões escleróticas ou líticas. Lâminas e pilares integros.
+
+### **Medula Espinhal**
+
+Não visualizada em nível de compressão, pois a medula termina proximalmente em relação ao nível avaliado (termina fisiologicamente em L1-L2).
+
+### **Canais e Recésos**
+
+- **Canal central:** Permeável em L3 e L5-S1. Estreitamento focal em L4-L5 por protrusão discal.
+- **Recésos laterais:** Permeáveis bilateralmente em L3, L5-S1. Redução bilateral em L4-L5, com estenose relativa.
+- **Forames de conjunção:** Pérviosos em L3. Redução bilateral em L4-L5, principalmente à direita, com compressão radicular.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Protrusão discal L4-L5** com compressão radicular bilateral, predominantemente à direita
+2. **Redução do espaço discal L4-L5** com degeneração discal associada
+3. **Obliteração parcial dos recésos laterais** em L4-L5
+4. **Compressão das raízes nervosas** L4 (bilateral) e L5 (bilateral)
+5. Demais níveis da coluna lombar sem alterações significativas
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Presentes achados tomográficos compatíveis com **protrusão discal L4-L5 com compressão radicular bilateral, com predominância à direita**, correlacionando-se com a clínica apresentada de dor lombar irradiada.
+
+### Recomendações:
+
+1. **Correlação clínica** com o padrão de irradiação (raiz L4-L5) e intensidade dos sintomas
+2. **Ressonância magnética da coluna lombar** para melhor caracterização de tecidos moles, avaliação mais precisa do saco dural e raízes nervosas, particularmente se considerado tratamento invasivo
+3. **Avaliação fisioterapêutica** e tratamento conservador com anti-inflamatórios, analgésicos e reabilitação motora
+4. **Avaliação do neurocirurgião ou médico da dor** em caso de sintomas refratários ao tratamento clí

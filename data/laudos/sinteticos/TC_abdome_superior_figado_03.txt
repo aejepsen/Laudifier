@@ -1,0 +1,114 @@
+=== TC abdome superior figado — Variante 3 ===
+Especialidade: radiologia
+Cenário: cisto hepático simples no segmento VI, 2,5 cm
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## **DADOS DO PACIENTE**
+
+| Campo | Informação |
+|-------|-----------|
+| **Nome do Paciente** | [NOME COMPLETO] |
+| **Data de Nascimento** | [DD/MM/AAAA] |
+| **Idade/Sexo** | [__] anos / [M / F] |
+| **RG/CPF** | [_______________] |
+| **Registro Hospitalar** | [_______________] |
+| **Data do Exame** | [DD/MM/AAAA] |
+| **Hora do Exame** | [HH:MM] |
+
+---
+
+## **DADOS DO EXAME**
+
+| Campo | Informação |
+|-------|-----------|
+| **Tipo de Exame** | Tomografia Computadorizada de Abdome Superior |
+| **Região Estudada** | Fígado e estruturas adjacentes |
+| **Indicação Clínica** | [INDICAÇÃO CLÍNICA] |
+| **Médico Solicitante** | [NOME DO MÉDICO] / [ESPECIALIDADE] |
+
+---
+
+## **TÉCNICA UTILIZADA**
+
+Tomografia computadorizada do abdome superior foi realizada em aparelho MDCT (Tomografia Computadorizada Multidetector) com os seguintes parâmetros técnicos:
+
+- **Protocolo**: Abdome superior bifásico com e sem contraste iodado
+- **Fases de aquisição**: Fase arterial, fase portal e fase tardia
+- **Espessura de corte**: 1,0 mm
+- **Reconstruções**: Axiais, coronais e sagitais multiplanares
+- **Contraste**: Contraste iodado não-iônico, 100 mL, via intravenosa
+- **Dose de radiação**: Apropriada para a indicação clínica
+
+---
+
+## **ACHADOS E DESCRIÇÃO DETALHADA**
+
+### **Fígado:**
+O fígado apresenta tamanho normal (comprimento craniocaudal aproximadamente 15 cm), contorno regular e densidade homogênea nas diferentes fases de realce pelo contraste.
+
+Identificam-se sinais de atenuação normal do parênquima hepático em todas as fases de estudo, com manutenção da relação de realce entre o fígado e o baço, sugestivo de função hepatobilitiar preservada.
+
+**Lesão Focal Hepática**: Visualiza-se lesão cística arredondada localizada no **segmento VI do fígado** (segmento posterior direito), com dimensões aproximadas de **2,5 cm de diâmetro maior**. 
+
+Características da lesão:
+- **Morfologia**: Arredondada, bem delimitada
+- **Densidade**: Homogênea, com atenuação próxima à da água (aproximadamente 0-15 UH)
+- **Realce**: Sem realce pelo contraste iodado nas fases arterial, portal e tardia
+- **Parede**: Fina, sem espessamento
+- **Septações**: Ausentes
+- **Componente sólido**: Ausente
+- **Achados secundários**: Sem hemorrragia, calcificação ou níveis hidroaéreos
+
+**Diagnóstico diferencial**: Os achados são completamente compatíveis com **cisto simples** de acordo com os critérios de Bosniak categoria I.
+
+### **Vias Biliares Intra e Extra-hepáticas:**
+Sem dilatação. Ducto colédoco com calibre normal (< 6 mm). Não visualizam-se cálculos ou outras lesões.
+
+### **Vesícula Biliar:**
+Tamanho normal, paredes finas, conteúdo anecoico homogêneo. Sem cálculos, polipos ou sinais de colecistite.
+
+### **Pâncreas:**
+Tamanho e densidade normais, sem sinais de pancreatite aguda ou crônica. Ducto pancreático com calibre normal. Sem lesões focais.
+
+### **Baço:**
+Tamanho e densidade normal. Sem lesões focais ou sinais de congestão.
+
+### **Rins:**
+Ambos com tamanho e contorno normal. Sistema coletor sem dilatação. Sem cálculos ou massas renais.
+
+### **Glândulas Adrenais:**
+Simétricas, com densidade normal (< 10 UH).
+
+### **Estômago e Duodeno:**
+Sem dilatação, paredes de espessura normal.
+
+### **Vasos Abdominais:**
+Aorta abdominal com calibre normal, sem sinais de aneurisma. Tronco celíaco e artérias mesentéricas com trajeto e calibre normais.
+
+### **Cavidade Peritoneal:**
+Sem ascite. Sem coleções líquidas ou gasosas.
+
+### **Estruturas Ósseas:**
+Ossos estudados sem sinais de lise ou esclerose patológicas.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+1. **Cisto Hepático Simples no Segmento VI** - 2,5 cm, Bosniak I
+   - Lesão benigna com características císticas puras
+   - Sem indicativos de malignidade
+
+2. **Fígado com Parênquima Homogêneo** - sem cirrose aparente
+3. **Vias Biliares Pérvias e Colédoco com Calibre Normal**
+4. **Demais órgãos abdominais sem alterações relevantes**
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+O cisto hepático simples identificado no segmento VI apresenta características completamente benignas, compatíveis com cisto não complicado. Lesões com este padrão apresentam excelente prognóstico e não requerem interven

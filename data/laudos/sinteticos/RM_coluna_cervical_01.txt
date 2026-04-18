@@ -1,0 +1,111 @@
+=== RM coluna cervical — Variante 1 ===
+Especialidade: radiologia
+Cenário: coluna cervical sem alterações
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RESSONÂNCIA MAGNÉTICA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/YYYY]  
+**Sexo:** [M/F]  
+**Idade:** [XX] anos  
+
+**Número do Exame:** [XXXXXXXX]  
+**Data do Exame:** [DD/MM/YYYY]  
+**Hora do Exame:** [HH:MM]  
+
+**Requisitante:** [NOME DO MÉDICO]  
+**Especialidade do Requisitante:** [ESPECIALIDADE]  
+**Indicação Clínica:** [QUEIXA/MOTIVO DO EXAME]  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Ressonância magnética da coluna cervical realizada em aparelho de 1,5 Tesla, com sequências convencionais incluindo:
+
+- **Sequências ponderadas em T1:** cortes sagitais e axiais
+- **Sequências ponderadas em T2:** cortes sagitais e axiais
+- **Sequências STIR:** cortes sagitais
+- **Sequências gradiente-eco (GRE):** cortes sagitais
+- **Sequências T2 com supressão de gordura:** cortes axiais
+
+Realizado com posicionamento padrão, sem artefatos significativos que comprometam a análise diagnóstica.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **Posicionamento e Alinhamento**
+Adequado alinhamento da coluna cervical. Curvatura cervical com lordose fisiológica preservada.
+
+### **Corpos Vertebrais**
+Os corpos vertebrais de C1 a C7 apresentam altura e sinal de intensidade normais. Sem sinais de colapso, compressão ou fraturas. Espaços discais mantêm altura apropriada. Sem evidências de lesões ósseas destrutivas.
+
+### **Espaços Discais**
+- **C2-C3, C3-C4, C4-C5, C5-C6, C6-C7:** Discos cervicais hidratados, com sinal hiperintenso em T2, sem sinais de desidratação discal. Sem protrusões, herniações ou extrusões discais. Sem estenose foraminal.
+
+### **Canal Medular**
+Apresenta calibre normal e simétrico em toda sua extensão. A medula espinhal dentro do canal demonstra sinal homogêneo, sem focos de hipersinal em T2 ou alterações de intensidade em T1. Sem mielopatia evidente.
+
+### **Ligamentos**
+- **Ligamento longitudinal anterior:** Íntegro e de espessura normal
+- **Ligamento longitudinal posterior:** Íntegro, sem hipertrofia
+- **Ligamento amarelo:** Não hipertrofiado
+
+### **Facetas Articulares**
+As articulações interapofisárias bilateralmente apresentam cartilagem articular preservada. Sem sinais de artrose degenerativa, osteófitos ou subluxação.
+
+### **Foramina Vertebrais**
+Os forames vertebrais encontram-se pérvios bilateralmente em todos os níveis, sem evidências de compressão por disco, osteófito ou outras estruturas.
+
+### **Estruturas Paravelenais**
+Musculatura paravertebral apresenta volume e sinal normais, sem alterações sugestivas de trauma, miopatia ou processo inflamatório.
+
+### **Estruturas Vasculares**
+As artérias carótidas internas e vertebrais demonstram fluxo arterial preservado, sem estenose ou dissecção.
+
+### **Espaço Epidural**
+Sem alterações. Espaço epidural adiposo normal.
+
+### **Outras Estruturas**
+Laringe, faringe e estruturas do pescoço com aspecto normal. Sem linfoadenopatia cervical.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Ressonância magnética da coluna cervical sem alterações relevantes.**
+
+Coluna cervical estruturalmente íntegra, com preservação da lordose fisiológica, sem sinais de mielopatia, radiculopatia, compressão medular ou foraminal. Discos intervertebrais hidratados e bem posicionados. Corpos vertebrais com altura normal. Ligamentos íntegros. Articulações interapofisárias com cartilagem preservada. Sem evidências de processo inflamatório, infeccioso ou neoplásico.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A ressonância magnética da coluna cervical demonstra **ausência de alterações significativas** que justifiquem sintomatologia clínica cervical, caso presente.
+
+### **Recomendações:**
+1. Correlação clínica com apresentação e achados ao exame físico do paciente
+2. Seguimento conforme indicação clínica do requisitante
+3. Não é necessário acompanhamento radiológico imediato
+4. Orientação para retorno ao médico assistente com este laudo
+
+---
+
+## ASSINATURA
+
+**Dr(a).** [NOME COMPLETO DO RADIOLOGISTA]  
+**CRM:** [NÚMERO DO CRM] - [UF]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**RQE:** [NÚMERO DO RQE]
+
+**Data:** [DD/MM/YYYY]
+
+---
+
+*Laudo elaborado em conformidade com as normas técnicas da Sociedade Brasileira de Radiologia (SBR) e Colégio Brasileiro de Radiologia (CBR).*

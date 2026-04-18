@@ -1,0 +1,97 @@
+=== TC pelve — Variante 1 ===
+Especialidade: radiologia
+Cenário: pelve feminina sem alterações
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## **IDENTIFICAÇÃO DO EXAME**
+
+| Campo | Informação |
+|-------|-----------|
+| **Paciente** | [NOME COMPLETO] |
+| **Data de Nascimento** | [__/__/____] |
+| **Sexo** | Feminino |
+| **Idade** | [___] anos |
+| **Registro Hospitalar** | [RH: __________] |
+| **Data do Exame** | [__/__/____] |
+| **Horário** | [__:__h] |
+| **Médico Solicitante** | [NOME E REGISTRO] |
+| **Radiologista** | [NOME E CREMESP] |
+
+---
+
+## **INDICAÇÃO CLÍNICA**
+
+Avaliação radiológica da pelve feminina. [Complementar com indicação específica do caso]
+
+---
+
+## **TÉCNICA UTILIZADA**
+
+Realizado exame de tomografia computadorizada (TC) do tipo espiral da pelve com aquisição em cortes contíguos de 2 mm de espessura, com extensão da sínfise púbica até o nível do períneo. Reconstruções multiplanares (coronal, sagital e 3D) foram obtidas. Não foi utilizado meio de contraste iodado intravenoso. Parâmetros técnicos: kV: 120, mA: 200, FOV: 350 mm, filtro de reconstrução padrão.
+
+---
+
+## **ACHADOS / DESCRIÇÃO DETALHADA**
+
+### **Estruturas Ósseas:**
+Os ossos da pelve (ílio, ísquio, púbis) apresentam densidade óssea normal e contornos regulares. Acetábulos com superfícies articulares íntegras bilateralmente. Sínfise púbica com espaçamento e alinhamento adequados. Sacro e cóccix com morfologia normal. Sem focos de esclerose, rarefação ou solução de continuidade óssea.
+
+### **Espaço Pélvico:**
+Útero em anteversoflexão, de dimensões normais (aproximadamente 80 x 45 x 35 mm), apresentando contorno liso e ecotextura homogênea. Espessura do miométrio dentro dos limites normais. Cavidade endometrial não distendida.
+
+### **Ovários:**
+Ovário direito medindo aproximadamente 25 x 18 mm, localizado na fossa ovárica direita. Ovário esquerdo medindo aproximadamente 26 x 19 mm, localizado na fossa ovárica esquerda. Ambos com volume, contorno e atenuação normais. Sem focos ou formações intracavitárias significativas.
+
+### **Vesícula Urinária:**
+Vesícula urinária com contorno regular, paredes colapsadas, em posição normal. Sem focos de densidade aumentada, espessamento parietal ou dilatação ureteral.
+
+### **Tecidos Moles Pélvicos:**
+Planos musculares do assoalho pélvico com morfologia normal. Tecidos subcutâneos sem alterações relevantes. Sem coleções líquidas, infiltrações ou nódulos.
+
+### **Alças Intestinais:**
+Segmentos de alças intestinais delgadas no interior da pelve apresentam calibre normal, sem sinais de obstrução. Sem presença de ar intraluminal anormal.
+
+### **Linfonodos:**
+Não identificados linfonodos pélvicos de aspecto patológico.
+
+### **Achados Incidentais:**
+Nenhum achado incidental relevante identificado.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+Tomografia computadorizada da pelve **sem alterações relevantes**. Útero, ovários e demais estruturas pélvicas com morfologia, dimensões e características densitométricas normais. Ausência de imagens sugestivas de lesões, inflamação, neoplasia ou outras anormalidades significativas. Estruturas ósseas pélvicas íntegras.
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+1. **Conclusão:** Exame tomográfico de pelve feminina dentro dos limites normais, sem achados agudos ou patológicos significativos no momento.
+
+2. **Recomendações:**
+   - Correlação clínica com apresentação da paciente
+   - Seguimento de acordo com conduta clínica
+   - Não há indicação de novos estudos radiológicos imediatos baseado nas imagens
+   - Arquivamento do exame para futuro interconsulta, se necessário
+
+---
+
+## **ASSINATURA E RESPONSABILIDADE**
+
+| Elemento | Descrição |
+|----------|-----------|
+| **Médico Radiologista** | [NOME COMPLETO] |
+| **CREMESP / Registro** | [CREMESP nº __________] |
+| **Especialidade** | Radiologia Geral e Diagnóstica |
+| **Assinatura** | _________________________ |
+| **Data** | [__/__/____] |
+| **Horário** | [__:__h] |
+
+---
+
+**Laudo emitido em conformidade com as normas técnicas da Sociedade Brasileira de Radiologia (SBR) e regulamentações do Conselho Regional de Medicina (CREMESP).**

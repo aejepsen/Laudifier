@@ -1,0 +1,87 @@
+=== RX mao punho — Variante 1 ===
+Especialidade: radiologia
+Cenário: mão e punho sem fraturas ou luxações
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Registro:** [Nº PRONTUÁRIO]  
+**Instituição:** [HOSPITAL/CLÍNICA]
+
+**Exame:** Radiografia de Mão e Punho  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]  
+**Médico Solicitante:** [NOME - ESPECIALIDADE - CRM]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Foram realizadas radiografias digitais da mão e punho em projeções posteroanterior (PA), lateral e oblíqua, com técnica adequada, permitindo boa avaliação das estruturas ósseas. Paciente em posição ortostática, com mão apoiada em plano radiológico.
+
+---
+
+## ACHADOS
+
+### Esqueleto Axial:
+
+**Ossos do Carpo:** Os ossos carpianos apresentam-se com densidade e contornos normais. Linha articular radiocárpica íntegra, sem evidências de diastase ou alterações degenerativas. Espaço articular preservado.
+
+**Ossos Metacárpicos:** Os cinco metacárpicos apresentam corticais bem definidas, sem solução de continuidade. Alinhamento apropriado. Bases, corpos e cabeças íntegros, sem deformidades.
+
+**Falanges:** As falanges proximais, mediais e distais de todos os dedos encontram-se íntegras, com contornos normais e densidade uniforme.
+
+**Rádio e Ulna Distal:** Apresentam densidade normal, com cortical bem preservada. Epífises fechadas. Superfícies articulares íntegras.
+
+### Espaços Articulares:
+
+Os espaços articulares radiocárpicos, intercarpais e interfalangianos encontram-se preservados, sem evidências de osteoartrose ou outro processo articular degenerativo.
+
+### Partes Moles:
+
+As estruturas de partes moles (músculos, tendões e tecido adiposo subcutâneo) apresentam densidade e espessura normais, sem edema significativo ou atrofia evidente.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Radiografia de mão e punho sem alterações significativas.**
+
+- Ausência de fraturas ou luxações
+- Alinhamento ósseo normal
+- Integridade das corticais
+- Espaços articulares preservados
+- Estruturas de partes moles íntegras
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Estudo radiológico de mão e punho dentro dos padrões normais. Não há evidências de trauma ósseo agudo, alterações degenerativas ou outras lesões estruturais significativas.
+
+Caso haja suspeita clínica de lesão de partes moles (tendões, ligamentos ou meniscos), recomenda-se ressonância magnética para melhor avaliação.
+
+Seguimento clínico conforme indicado pelo médico assistente.
+
+---
+
+## ASSINATURA
+
+**Médico Radiologista:** ___________________________________
+
+**Nome (Letra de Forma):** ___________________________________
+
+**CRM:** __________________ **CREA:** __________________
+
+**Data:** [DD/MM/AAAA] **Hora:** [HH:MM]
+
+---
+
+*Este laudo foi emitido em conformidade com as normas técnicas da Radiologia brasileira e regulamentações vigentes da ANVISA e CFM.*

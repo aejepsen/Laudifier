@@ -1,0 +1,101 @@
+=== PET CT oncologico — Variante 1 ===
+Especialidade: medicina_nuclear
+Cenário: PET-CT sem evidência de doença metabólica ativa
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE MEDICINA NUCLEAR
+
+---
+
+## DADOS DE IDENTIFICAÇÃO
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DATA]  
+**Idade:** [IDADE] anos | **Sexo:** [M/F]  
+**Registro:** [Nº PRONTUÁRIO]  
+**Data do Exame:** [DATA/HORA]  
+**Encaminhante:** [NOME DO MÉDICO]  
+**Especialidade:** [ONCOLOGIA/CIRURGIA ONCOLÓGICA/OUTRO]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[Paciente com história de neoplasia maligna encaminhado para estadiamento/monitoramento pós-tratamento/avaliação de resposta terapêutica]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizado exame de PET-CT (Tomografia por Emissão de Pósitrons integrada com Tomografia Computadorizada) com injeção intravenosa de 5,2 MBq/kg (0,14 mCi/kg) de ¹⁸F-Fluordesoxiglicose (18F-FDG), administrada por via endovenosa periférica. Aquisição de imagens PET realizada 60 minutos após injeção do radiofármaco, com paciente em jejum de 6 horas. Leitura da glicemia pré-injeção: [____] mg/dL.
+
+Imagens adquiridas em modo 3D do corpo inteiro (do vértex aos pés), seguidas de CT de diagnóstico com protocolo de baixa dose para correção de atenuação. Processamento de dados incluindo reconstrução iterativa, fusão PET-CT e análise visual e semi-quantitativa (SUVmax).
+
+---
+
+## ACHADOS
+
+### Análise PET
+
+**Encéfalo:** Captação fisiológica simétrica de 18F-FDG no córtex cerebral, núcleos da base, cerebelo e tronco encefálico. Sem focos de hipercaptação anormal.
+
+**Mediastino e Hilares Pulmonares:** Captação fisiológica moderada de 18F-FDG em linfonodos mediastinais e hilares, de dimensões normais (menores que 1 cm de diâmetro). Sem hipercaptação patológica sugestiva de acometimento metastático.
+
+**Pulmões:** Parênquima pulmonar com captação fisiológica dentro da normalidade. Sem nódulos pulmonares com hipercaptação anormal de 18F-FDG.
+
+**Coração:** Captação fisiológica miocárdica presente. Sem evidência de acometimento neoplásico.
+
+**Fígado:** Captação fisiológica homogênea. Sem lesões focais hipercaptantes. SUVmax hepático: 2,1.
+
+**Baço:** Captação fisiológica normal.
+
+**Rins:** Captação fisiológica bilateral simétrica sem alterações.
+
+**Trato Gastrointestinal:** Captação fisiológica do estômago, intestino delgado e intestino grosso, dentro do padrão esperado. Sem lesões focais com hipercaptação anormal.
+
+**Cadeia Ganglionar Abdominal e Pelviana:** Linfonodos abdominais e pélvicos com captação fisiológica e dimensões normais. Sem evidência de acometimento linfonodal metastático.
+
+**Osso:** Captação óssea fisiológica com distribuição simétrica. Sem focos de hipercaptação osteoblástica ou osteolítica sugestivos de metástases ósseas.
+
+**Musculatura e Partes Moles:** Captação fisiológica simétrica. Sem lesões de partes moles com hipercaptação anormal.
+
+### Análise CT
+
+Avaliação tomográfica evidencia:
+- Estruturas ósseas íntegras sem sinais de lise ou condensação patológica
+- Arquitetura pulmonar preservada
+- Fígado, baço e rins com dimensões e atenuação normais
+- Sem coleções ou massas abdominais
+- Sem ascite
+- Gordura mediastinal e peritoneal sem infiltração
+- Ausência de adenomegalias significativas (linfonodos menores que 1 cm de diâmetro menor)
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+PET-CT de corpo inteiro sem evidência de doença metabólica maligna ativa.
+
+Não se identificam focos de hipercaptação de 18F-FDG em distribuição sistêmica compatível com lesões neoplásicas primárias ou metastáticas.
+
+Achados compatíveis com:
+- **Resposta completa ao tratamento prévio**, OU
+- **Estadio oncológico sem evidência de disseminação metastática**, OU
+- **Ausência de recorrência de doença** (conforme contexto clínico)
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+1. **Achado Principal:** Ausência de captação anormal de 18F-FDG em distribuição sistêmica, não se evidenciando lesões sugestivas de malignidade metabolicamente ativa.
+
+2. **Correlação Clínica Essencial:** Resultado deve ser correlacionado com história clínica, marcadores tumorais séricos, dados de imagem morfológica anterior e resposta clínica ao tratamento.
+
+3. **Recomendações:**
+   - Seguimento clínico conforme protocolo oncológico instituído
+   - Reavaliação em [___] meses (conforme direcionamento clínico)
+   - Novos exames de imagem (CT/RM) conforme indicação clínica
+   - Monitoramento de marcadores tumorais séricos
+
+4. **Limitações:**
+   - Lesões de pequ

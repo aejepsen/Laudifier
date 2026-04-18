@@ -1,0 +1,898 @@
+[
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA DA MANDÍBULA E DA MAXILA (DENTAL SCAN)",
+    "source_url": "https://www.compendioradiologia.com/frases-cabeca-e-pescoco/dental",
+    "source_slug": "frases-cabeca-e-pescoco__dental",
+    "file": "data/laudos/frases-cabeca-e-pescoco__dental__tomografia_computadorizada_da_mandibula_e_da_maxila_dental_scan.txt",
+    "words": 1534
+  },
+  {
+    "title": "ULTRASSONOGRAFIA MAMÁRIA",
+    "source_url": "https://www.compendioradiologia.com/mama/frases-mamas",
+    "source_slug": "mama__frases-mamas",
+    "file": "data/laudos/mama__frases-mamas__ultrassonografia_mamaria.txt",
+    "words": 414
+  },
+  {
+    "title": "MAMOGRAFIA BILATERAL",
+    "source_url": "https://www.compendioradiologia.com/mama/mamografia",
+    "source_slug": "mama__mamografia",
+    "file": "data/laudos/mama__mamografia__mamografia_bilateral.txt",
+    "words": 850
+  },
+  {
+    "title": "SIALOGRAFIA POR RESSONÂNCIA MAGNÉTICA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/cabeca-e-pescoco-rm",
+    "source_slug": "modelo-de-laudos-1__cabeca-e-pescoco-rm",
+    "file": "data/laudos/modelo-de-laudos-1__cabeca-e-pescoco-rm__sialografia_por_ressonancia_magnetica.txt",
+    "words": 64
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA DO PESCOÇO",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/cabeca-e-pescoco-tc",
+    "source_slug": "modelo-de-laudos-1__cabeca-e-pescoco-tc",
+    "file": "data/laudos/modelo-de-laudos-1__cabeca-e-pescoco-tc__tomografia_computadorizada_do_pescoco.txt",
+    "words": 105
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA DAS ÓRBITAS",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/cabeca-e-pescoco-tc",
+    "source_slug": "modelo-de-laudos-1__cabeca-e-pescoco-tc",
+    "file": "data/laudos/modelo-de-laudos-1__cabeca-e-pescoco-tc__tomografia_computadorizada_das_orbitas.txt",
+    "words": 91
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA DOS OSSOS TEMPORAIS",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/cabeca-e-pescoco-tc",
+    "source_slug": "modelo-de-laudos-1__cabeca-e-pescoco-tc",
+    "file": "data/laudos/modelo-de-laudos-1__cabeca-e-pescoco-tc__tomografia_computadorizada_dos_ossos_temporais.txt",
+    "words": 76
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA DOS SEIOS DA FACE",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/cabeca-e-pescoco-tc",
+    "source_slug": "modelo-de-laudos-1__cabeca-e-pescoco-tc",
+    "file": "data/laudos/modelo-de-laudos-1__cabeca-e-pescoco-tc__tomografia_computadorizada_dos_seios_da_face.txt",
+    "words": 259
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA DAS ARTICULAÇÕES TEMPOROMANDIBULARES",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/cabeca-e-pescoco-tc",
+    "source_slug": "modelo-de-laudos-1__cabeca-e-pescoco-tc",
+    "file": "data/laudos/modelo-de-laudos-1__cabeca-e-pescoco-tc__tomografia_computadorizada_das_articulacoes_temporomandibulares.txt",
+    "words": 76
+  },
+  {
+    "title": "ANGIOTOMOGRAFIA COMPUTADORIZADA ARTERIAL E VENOSADOS VASOS INTRACRANIANOS",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/cranio-tc",
+    "source_slug": "modelo-de-laudos-1__cranio-tc",
+    "file": "data/laudos/modelo-de-laudos-1__cranio-tc__angiotomografia_computadorizada_arterial_e_venosados_vasos_intracranianos.txt",
+    "words": 125
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DAS MAMAS",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/mama-rm",
+    "source_slug": "modelo-de-laudos-1__mama-rm",
+    "file": "data/laudos/modelo-de-laudos-1__mama-rm__ressonancia_magnetica_das_mamas.txt",
+    "words": 192
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DO ABDOME TOTAL",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_do_abdome_total.txt",
+    "words": 306
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica.txt",
+    "words": 323
+  },
+  {
+    "title": "RESSONANCIA MAGNETICA DO ABDOME SUPERIOR",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_do_abdome_superior.txt",
+    "words": 195
+  },
+  {
+    "title": "RESSONANCIA MAGNETICA DO ABDOME SUPERIOR COM QUANTIFICAÇÃO DE FERRO HEPÁTICO",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_do_abdome_superior_com_quantificacao_de_ferro_hepatico.txt",
+    "words": 341
+  },
+  {
+    "title": "ELASTOGRAFIA HEPÁTICA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__elastografia_hepatica.txt",
+    "words": 317
+  },
+  {
+    "title": "RESSONANCIA MAGNETICA DO ABDOME SUPERIOR COM PROTOCOLO DE CONTRASTE HEPATOESPECÍFICO",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_do_abdome_superior_com_protocolo_de_contraste_hepatoespeci.txt",
+    "words": 464
+  },
+  {
+    "title": "RESSONANCIA MAGNETICA DO ABDOME SUPERIOR COM PROTOCOLO DE VOLUMETRIA HEPÁTICA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_do_abdome_superior_com_protocolo_de_volumetria_hepatica.txt",
+    "words": 162
+  },
+  {
+    "title": "RESSONANCIA MAGNETICA DE RINS E VIAS URINÁRIASURORRESSONÂNCIA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_de_rins_e_vias_urinariasurorressonancia.txt",
+    "words": 141
+  },
+  {
+    "title": "COLANGIORRESSONÂNCIA MAGNÉTICA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__colangiorressonancia_magnetica.txt",
+    "words": 267
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DA PELVE FEMININA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_da_pelve_feminina.txt",
+    "words": 257
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DA PELVE (PROTOCOLO DE ENDOMETRIOSE)",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_da_pelve_protocolo_de_endometriose.txt",
+    "words": 320
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DA PELVE MASCULINA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_da_pelve_masculina.txt",
+    "words": 172
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DE PELVE COM ÊNFASE EM BOLSA ESCROTAL",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_de_pelve_com_enfase_em_bolsa_escrotal.txt",
+    "words": 146
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA MULTIPARAMÉTRICA DA PRÓSTATA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_multiparametrica_da_prostata.txt",
+    "words": 385
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA PENIANA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_peniana.txt",
+    "words": 762
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DA PELVE",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_da_pelve.txt",
+    "words": 298
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DA PELVE",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_da_pelve_2.txt",
+    "words": 213
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA FETAL",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_fetal.txt",
+    "words": 156
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA FETAL DIRECIONADA PARA O NEUROEIXO",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_fetal_direcionada_para_o_neuroeixo.txt",
+    "words": 179
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DA PLACENTA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_da_placenta.txt",
+    "words": 182
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DA PLACENTA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos---abdome-e-pelve-rm",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos---abdome-e-pelve-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos---a__ressonancia_magnetica_da_placenta_2.txt",
+    "words": 406
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA DO ABDOME E PELVE",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos__tomografia_computadorizada_do_abdome_e_pelve.txt",
+    "words": 162
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA DO ABDOME SUPERIOR",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos__tomografia_computadorizada_do_abdome_superior.txt",
+    "words": 132
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZA DE RINS E VIAS URINÁRIASUROTOMOGRAFIA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos__tomografia_computadoriza_de_rins_e_vias_urinariasurotomografia.txt",
+    "words": 112
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZA DE RINS E VIAS URINÁRIASUROTOMOGRAFIA COM RECONSTRUÇÕES MORFOFUNCIONAIS",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos__tomografia_computadoriza_de_rins_e_vias_urinariasurotomografia_com_reconstrucoes.txt",
+    "words": 140
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA DA PELVE MASCULINA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos__tomografia_computadorizada_da_pelve_masculina.txt",
+    "words": 98
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA DA PELVE FEMININA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos__tomografia_computadorizada_da_pelve_feminina.txt",
+    "words": 95
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA (ENTEROTOMOGRAFIA)",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos__tomografia_computadorizada_enterotomografia.txt",
+    "words": 272
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA (COLONOSCOPIA VIRTUAL)",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos__tomografia_computadorizada_colonoscopia_virtual.txt",
+    "words": 291
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA (COLONOSCOPIA VIRTUAL)",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos__tomografia_computadorizada_colonoscopia_virtual_2.txt",
+    "words": 280
+  },
+  {
+    "title": "TOMOGRAFIA COMPUTADORIZADA DA PAREDE ABDOMINAL",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelo-de-laudos",
+    "source_slug": "modelo-de-laudos-1__modelo-de-laudos",
+    "file": "data/laudos/modelo-de-laudos-1__modelo-de-laudos__tomografia_computadorizada_da_parede_abdominal.txt",
+    "words": 310
+  },
+  {
+    "title": "ANGIOTOMOGRAFIA COMPUTADORIZADA DA AORTA TORÁCICA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelos-de-angio-corpo-tc",
+    "source_slug": "modelo-de-laudos-1__modelos-de-angio-corpo-tc",
+    "file": "data/laudos/modelo-de-laudos-1__modelos-de-angio-cor__angiotomografia_computadorizada_da_aorta_toracica.txt",
+    "words": 117
+  },
+  {
+    "title": "ANGIOTOMOGRAFIA COMPUTADORIZADA DA AORTA ABDOMINAL E DE ARTÉRIAS ILÍACAS",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelos-de-angio-corpo-tc",
+    "source_slug": "modelo-de-laudos-1__modelos-de-angio-corpo-tc",
+    "file": "data/laudos/modelo-de-laudos-1__modelos-de-angio-cor__angiotomografia_computadorizada_da_aorta_abdominal_e_de_arterias_iliacas.txt",
+    "words": 141
+  },
+  {
+    "title": "ANGIOTOMOGRAFIA COMPUTADORIZADA DA AORTA ABDOMINAL (MODELO ANEURISMA)",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelos-de-angio-corpo-tc",
+    "source_slug": "modelo-de-laudos-1__modelos-de-angio-corpo-tc",
+    "file": "data/laudos/modelo-de-laudos-1__modelos-de-angio-cor__angiotomografia_computadorizada_da_aorta_abdominal_modelo_aneurisma.txt",
+    "words": 505
+  },
+  {
+    "title": "ANGIOTOMOGRAFIA COMPUTADORIZADA DO CORAÇÃO E VASOS DA BASE",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelos-de-angio-corpo-tc",
+    "source_slug": "modelo-de-laudos-1__modelos-de-angio-corpo-tc",
+    "file": "data/laudos/modelo-de-laudos-1__modelos-de-angio-cor__angiotomografia_computadorizada_do_coracao_e_vasos_da_base.txt",
+    "words": 1547
+  },
+  {
+    "title": "ANGIORRESSONÂNCIA MAGNÉTICA DA AORTA TORÁCICA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelos-de-laudos---angio-corpo-rm",
+    "source_slug": "modelo-de-laudos-1__modelos-de-laudos---angio-corpo-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelos-de-laudos---__angiorressonancia_magnetica_da_aorta_toracica.txt",
+    "words": 102
+  },
+  {
+    "title": "ANGIORRESSONÂNCIA MAGNÉTICA DA AORTA ABDOMINAL, DE ARTÉRIAS ILÍACAS E DAS ARTÉRIAS DOS MEMBROS INFERIORES",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/modelos-de-laudos---angio-corpo-rm",
+    "source_slug": "modelo-de-laudos-1__modelos-de-laudos---angio-corpo-rm",
+    "file": "data/laudos/modelo-de-laudos-1__modelos-de-laudos---__angiorressonancia_magnetica_da_aorta_abdominal_de_arterias_iliacas_e_das_arteria.txt",
+    "words": 140
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DOS PLEXOS BRAQUIAIS",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/musculoesqueletico-rm",
+    "source_slug": "modelo-de-laudos-1__musculoesqueletico-rm",
+    "file": "data/laudos/modelo-de-laudos-1__musculoesqueletico-r__ressonancia_magnetica_dos_plexos_braquiais.txt",
+    "words": 133
+  },
+  {
+    "title": "RESSONÂNCIA MAGNÉTICA DOS PLEXOS BRAQUIAIS",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/musculoesqueletico-rm",
+    "source_slug": "modelo-de-laudos-1__musculoesqueletico-rm",
+    "file": "data/laudos/modelo-de-laudos-1__musculoesqueletico-r__ressonancia_magnetica_dos_plexos_braquiais_2.txt",
+    "words": 725
+  },
+  {
+    "title": "PET/CT - TOMOGRAFIA POR EMISSÃO DE PÓSITRONS ASSOCIADA A TOMOGRAFIA COMPUTADORIZADA",
+    "source_url": "https://www.compendioradiologia.com/modelo-de-laudos-1/pet",
+    "source_slug": "modelo-de-laudos-1__pet",
+    "file": "data/laudos/modelo-de-laudos-1__pet__pet_ct_tomografia_por_emissao_de_positrons_associada_a_tomografia_computadorizad.txt",
+    "words": 396
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DA TIREÓIDE",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_da_tireoide.txt",
+    "words": 210
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DA TIREÓIDE COM DOPPLER",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_da_tireoide_com_doppler.txt",
+    "words": 240
+  },
+  {
+    "title": "ULTRASSONOGRAFIA CERVICAL",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_cervical.txt",
+    "words": 41
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DE GLÂNDULAS SALIVARES",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_de_glandulas_salivares.txt",
+    "words": 45
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO ABDOME SUPERIOR",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_abdome_superior.txt",
+    "words": 101
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO ABDOME SUPERIOR COM DOPPLER DO SISTEMA PORTA",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_abdome_superior_com_doppler_do_sistema_porta.txt",
+    "words": 219
+  },
+  {
+    "title": "ULTRASSONOGRAFIA ABDOMINAL TOTAL",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_abdominal_total.txt",
+    "words": 141
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DE RINS E VIAS URINÁRIAS",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_de_rins_e_vias_urinarias.txt",
+    "words": 275
+  },
+  {
+    "title": "ULTRASSONOGRAFIA PÉLVICA VIA ABDOMINAL COM DOPPLER DAS ARTÉRIAS UTERINAS",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_pelvica_via_abdominal_com_doppler_das_arterias_uterinas.txt",
+    "words": 425
+  },
+  {
+    "title": "ULTRASSONOGRAFIA PÉLVICA TRANSVAGINAL COM DOPPLER",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_pelvica_transvaginal_com_doppler.txt",
+    "words": 173
+  },
+  {
+    "title": "ULTRASSONOGRAFIA TRANSVAGINAL COM PREPARO INTESTINAL",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_transvaginal_com_preparo_intestinal.txt",
+    "words": 210
+  },
+  {
+    "title": "ULTRASSONOGRAFIA PÉLVICA TRANSVAGINALPARA INSERÇÃO DE DISPOSITIVO INTRAUTERINO",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_pelvica_transvaginalpara_insercao_de_dispositivo_intrauterino.txt",
+    "words": 112
+  },
+  {
+    "title": "ULTRASSONOGRAFIA PÉLVICA TRANSVAGINALPARA CONTROLE PÓS INSERÇÃO DE DISPOSITIVO INTRAUTERINO",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_pelvica_transvaginalpara_controle_pos_insercao_de_dispositivo_i.txt",
+    "words": 189
+  },
+  {
+    "title": "ULTRASSONOGRAFIA PÉLVICA TRANSLABIAL / TRANSPERINEAL",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_pelvica_translabial_transperineal.txt",
+    "words": 187
+  },
+  {
+    "title": "ULTRASSONOGRAFIA PROSTÁTICA VIA ABDOMINAL",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_prostatica_via_abdominal.txt",
+    "words": 180
+  },
+  {
+    "title": "ULTRASSONOGRAFIA PROSTÁTICA VIA TRANSRETAL",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_prostatica_via_transretal.txt",
+    "words": 97
+  },
+  {
+    "title": "ULTRASSONOGRAFIA TESTICULAR",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_testicular.txt",
+    "words": 105
+  },
+  {
+    "title": "ULTRASSONOGRAFIA TESTICULAR COM DOPPLER",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_testicular_com_doppler.txt",
+    "words": 337
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DE PÊNIS",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_de_penis.txt",
+    "words": 39
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DE PARTES MOLES",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_de_partes_moles.txt",
+    "words": 40
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DERMATOLÓGICO DE ALTA RESOLUÇÃO E ULTRA-ALTA FREQUÊNCIA",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_dermatologico_de_alta_resolucao_e_ultra_alta_frequencia.txt",
+    "words": 87
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DERMATOLÓGICO DE ALTA RESOLUÇÃO E ULTRA-ALTA FREQUÊNCIA COM DOPPLER",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_dermatologico_de_alta_resolucao_e_ultra_alta_frequencia_com_dop.txt",
+    "words": 138
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DA PAREDE ABDOMINAL",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_da_parede_abdominal.txt",
+    "words": 102
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DAS REGIÕES INGUINAIS",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_das_regioes_inguinais.txt",
+    "words": 61
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO TÓRAX",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_torax.txt",
+    "words": 30
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO ABDOME TOTAL (FAST)",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_abdome_total_fast.txt",
+    "words": 254
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DA COXA DIREITA / ESQUERDA",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_da_coxa_direita_esquerda.txt",
+    "words": 52
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO JOELHO ESQUERDO / DIREITO",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_joelho_esquerdo_direito.txt",
+    "words": 63
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DA PERNA DIREITA / ESQUERDA",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_da_perna_direita_esquerda.txt",
+    "words": 51
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DA PANTURRILHA DIREITA / ESQUERDA",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_da_panturrilha_direita_esquerda.txt",
+    "words": 51
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO TORNOZELO ESQUERDO / DIREITO",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_tornozelo_esquerdo_direito.txt",
+    "words": 71
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO PÉ DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_pe_direito_esquerdo.txt",
+    "words": 58
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO CALCÂNEO DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_calcaneo_direito_esquerdo.txt",
+    "words": 51
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DA MÃO ESQUERDA / DIREITA",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_da_mao_esquerda_direita.txt",
+    "words": 58
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO PUNHO ESQUERDO / DIREITO",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_punho_esquerdo_direito.txt",
+    "words": 115
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO ANTEBRAÇO DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_antebraco_direito_esquerdo.txt",
+    "words": 49
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO COTOVELO DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_cotovelo_direito_esquerdo.txt",
+    "words": 70
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO BRAÇO DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_braco_direito_esquerdo.txt",
+    "words": 134
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DO QUADRIL DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_do_quadril_direito_esquerdo.txt",
+    "words": 70
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DE QUADRIL DIREITO / ESQUERDO PELO MÉTODO DE GRAAF",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_de_quadril_direito_esquerdo_pelo_metodo_de_graaf.txt",
+    "words": 126
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DA REGIÃO LOMBOSSACRAL",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_da_regiao_lombossacral.txt",
+    "words": 72
+  },
+  {
+    "title": "ULTRASSONOGRAFIA CRANIANA TRANSFONTANELA",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_craniana_transfontanela.txt",
+    "words": 116
+  },
+  {
+    "title": "ULTRASSONOGRAFIA CRANIANA TRANSFONTANELA COM DOPPLER",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__ultrassonografia_craniana_transfontanela_com_doppler.txt",
+    "words": 146
+  },
+  {
+    "title": "ELASTOGRAFIA HEPÁTICA POR ULTRASSONOGRAFIA",
+    "source_url": "https://www.compendioradiologia.com/us-geral/modelos",
+    "source_slug": "us-geral__modelos",
+    "file": "data/laudos/us-geral__modelos__elastografia_hepatica_por_ultrassonografia.txt",
+    "words": 464
+  },
+  {
+    "title": "ULTRASSONOGRAFIA TRANSRETAL",
+    "source_url": "https://www.compendioradiologia.com/us-geral/procedimentos",
+    "source_slug": "us-geral__procedimentos",
+    "file": "data/laudos/us-geral__procedimentos__ultrassonografia_transretal.txt",
+    "words": 404
+  },
+  {
+    "title": "ULTRASSONOGRAFIA OBSTÉTRICA (1º TRIMESTRE)",
+    "source_url": "https://www.compendioradiologia.com/us-obstetrico/modelo-de-laudos",
+    "source_slug": "us-obstetrico__modelo-de-laudos",
+    "file": "data/laudos/us-obstetrico__modelo-de-laudos__ultrassonografia_obstetrica_1_trimestre.txt",
+    "words": 131
+  },
+  {
+    "title": "ULTRASSONOGRAFIA TRANSVAGINALPARA AVALIAÇÃO DO COLO UTERINO",
+    "source_url": "https://www.compendioradiologia.com/us-obstetrico/modelo-de-laudos",
+    "source_slug": "us-obstetrico__modelo-de-laudos",
+    "file": "data/laudos/us-obstetrico__modelo-de-laudos__ultrassonografia_transvaginalpara_avaliacao_do_colo_uterino.txt",
+    "words": 112
+  },
+  {
+    "title": "ULTRASSONOGRAFIA OBSTÉTRICA MORFOLÓGICO DE 1º TRIMESTRETRANSLUCÊNCIA NUCAL",
+    "source_url": "https://www.compendioradiologia.com/us-obstetrico/modelo-de-laudos",
+    "source_slug": "us-obstetrico__modelo-de-laudos",
+    "file": "data/laudos/us-obstetrico__modelo-de-laudos__ultrassonografia_obstetrica_morfologico_de_1_trimestretranslucencia_nucal.txt",
+    "words": 316
+  },
+  {
+    "title": "ULTRASSONOGRAFIA OBSTÉTRICA",
+    "source_url": "https://www.compendioradiologia.com/us-obstetrico/modelo-de-laudos",
+    "source_slug": "us-obstetrico__modelo-de-laudos",
+    "file": "data/laudos/us-obstetrico__modelo-de-laudos__ultrassonografia_obstetrica.txt",
+    "words": 245
+  },
+  {
+    "title": "ULTRASSONOGRAFIA OBSTÉTRICA GEMELAR",
+    "source_url": "https://www.compendioradiologia.com/us-obstetrico/modelo-de-laudos",
+    "source_slug": "us-obstetrico__modelo-de-laudos",
+    "file": "data/laudos/us-obstetrico__modelo-de-laudos__ultrassonografia_obstetrica_gemelar.txt",
+    "words": 361
+  },
+  {
+    "title": "ULTRASSONOGRAFIA OBSTÉTRICA COM ESTUDO MORFOLÓGICO FETAL DE 2º TRIMESTRE",
+    "source_url": "https://www.compendioradiologia.com/us-obstetrico/modelo-de-laudos",
+    "source_slug": "us-obstetrico__modelo-de-laudos",
+    "file": "data/laudos/us-obstetrico__modelo-de-laudos__ultrassonografia_obstetrica_com_estudo_morfologico_fetal_de_2_trimestre.txt",
+    "words": 352
+  },
+  {
+    "title": "ULTRASSONOGRAFIA OBSTÉTRICA COM DOPPLER",
+    "source_url": "https://www.compendioradiologia.com/us-obstetrico/modelo-de-laudos",
+    "source_slug": "us-obstetrico__modelo-de-laudos",
+    "file": "data/laudos/us-obstetrico__modelo-de-laudos__ultrassonografia_obstetrica_com_doppler.txt",
+    "words": 197
+  },
+  {
+    "title": "ULTRASSONOGRAFIA OBSTÉTRICA COM DOPPLER",
+    "source_url": "https://www.compendioradiologia.com/us-obstetrico/modelo-de-laudos",
+    "source_slug": "us-obstetrico__modelo-de-laudos",
+    "file": "data/laudos/us-obstetrico__modelo-de-laudos__ultrassonografia_obstetrica_com_doppler_2.txt",
+    "words": 294
+  },
+  {
+    "title": "ULTRASSONOGRAFIA OBSTÉTRICA GEMELAR COM DOPPLER",
+    "source_url": "https://www.compendioradiologia.com/us-obstetrico/modelo-de-laudos",
+    "source_slug": "us-obstetrico__modelo-de-laudos",
+    "file": "data/laudos/us-obstetrico__modelo-de-laudos__ultrassonografia_obstetrica_gemelar_com_doppler.txt",
+    "words": 567
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER OBSTÉTRICO",
+    "source_url": "https://www.compendioradiologia.com/us-obstetrico/modelo-de-laudos",
+    "source_slug": "us-obstetrico__modelo-de-laudos",
+    "file": "data/laudos/us-obstetrico__modelo-de-laudos__ultrassonografia_doppler_obstetrico.txt",
+    "words": 110
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER ARTERIAL DOS MEMBROS INFERIORES",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-arterial",
+    "source_slug": "us__doppler-arterial",
+    "file": "data/laudos/us__doppler-arterial__ultrassonografia_doppler_arterial_dos_membros_inferiores.txt",
+    "words": 93
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER ARTERIAL DO MEMBRO INFERIOR DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-arterial",
+    "source_slug": "us__doppler-arterial",
+    "file": "data/laudos/us__doppler-arterial__ultrassonografia_doppler_arterial_do_membro_inferior_direito_esquerdo.txt",
+    "words": 109
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER DAS ARTÉRIAS SUBCLÁVIAS",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-arterial",
+    "source_slug": "us__doppler-arterial",
+    "file": "data/laudos/us__doppler-arterial__ultrassonografia_doppler_das_arterias_subclavias.txt",
+    "words": 110
+  },
+  {
+    "title": "ULTRASSONOGRAFIA ARTERIAL DO MEMBRO SUPERIOR DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-arterial",
+    "source_slug": "us__doppler-arterial",
+    "file": "data/laudos/us__doppler-arterial__ultrassonografia_arterial_do_membro_superior_direito_esquerdo.txt",
+    "words": 71
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER ARTERIAL DO MEMBRO SUPERIOR DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-arterial",
+    "source_slug": "us__doppler-arterial",
+    "file": "data/laudos/us__doppler-arterial__ultrassonografia_doppler_arterial_do_membro_superior_direito_esquerdo.txt",
+    "words": 100
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER ARTERIAL DOS MEMBROS SUPERIORES",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-arterial",
+    "source_slug": "us__doppler-arterial",
+    "file": "data/laudos/us__doppler-arterial__ultrassonografia_doppler_arterial_dos_membros_superiores.txt",
+    "words": 56
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER ARTERIAL DOS MEMBROS SUPERIORES",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-arterial",
+    "source_slug": "us__doppler-arterial",
+    "file": "data/laudos/us__doppler-arterial__ultrassonografia_doppler_arterial_dos_membros_superiores_2.txt",
+    "words": 187
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER ARTERIAL E VENOSO DO MEMBRO SUPERIOR DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-arterial",
+    "source_slug": "us__doppler-arterial",
+    "file": "data/laudos/us__doppler-arterial__ultrassonografia_doppler_arterial_e_venoso_do_membro_superior_direito_esquerdo.txt",
+    "words": 1391
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER DA AORTA ABDOMINAL E ARTÉRIAS ILÍACAS",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-carotida",
+    "source_slug": "us__doppler-carotida",
+    "file": "data/laudos/us__doppler-carotida__ultrassonografia_doppler_da_aorta_abdominal_e_arterias_iliacas.txt",
+    "words": 425
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER DE CARÓTIDAS E VERTEBRAIS",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-carotideo",
+    "source_slug": "us__doppler-carotideo",
+    "file": "data/laudos/us__doppler-carotideo__ultrassonografia_doppler_de_carotidas_e_vertebrais.txt",
+    "words": 1151
+  },
+  {
+    "title": "ULTRASSONOGRAFIA PENIANA COM DOPPLER",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-peniano",
+    "source_slug": "us__doppler-peniano",
+    "file": "data/laudos/us__doppler-peniano__ultrassonografia_peniana_com_doppler.txt",
+    "words": 228
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER DAS ARTÉRIAS RENAIS",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-renal",
+    "source_slug": "us__doppler-renal",
+    "file": "data/laudos/us__doppler-renal__ultrassonografia_doppler_das_arterias_renais.txt",
+    "words": 192
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER DE RIM TRANSPLANTADO",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-renal",
+    "source_slug": "us__doppler-renal",
+    "file": "data/laudos/us__doppler-renal__ultrassonografia_doppler_de_rim_transplantado.txt",
+    "words": 258
+  },
+  {
+    "title": "ULTRASSONOGRAFIA VENOSO DOS MEMBROS INFERIORES",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-venoso",
+    "source_slug": "us__doppler-venoso",
+    "file": "data/laudos/us__doppler-venoso__ultrassonografia_venoso_dos_membros_inferiores.txt",
+    "words": 133
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER VENOSO DO MEMBRO INFERIOR DIREITO",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-venoso",
+    "source_slug": "us__doppler-venoso",
+    "file": "data/laudos/us__doppler-venoso__ultrassonografia_doppler_venoso_do_membro_inferior_direito.txt",
+    "words": 117
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER VENOSO DO MEMBRO INFERIOR ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-venoso",
+    "source_slug": "us__doppler-venoso",
+    "file": "data/laudos/us__doppler-venoso__ultrassonografia_doppler_venoso_do_membro_inferior_esquerdo.txt",
+    "words": 124
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER VENOSO DOS MEMBROS INFERIORES",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-venoso",
+    "source_slug": "us__doppler-venoso",
+    "file": "data/laudos/us__doppler-venoso__ultrassonografia_doppler_venoso_dos_membros_inferiores.txt",
+    "words": 164
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER VENOSO DO MEMBRO INFERIOR DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-venoso",
+    "source_slug": "us__doppler-venoso",
+    "file": "data/laudos/us__doppler-venoso__ultrassonografia_doppler_venoso_do_membro_inferior_direito_esquerdo.txt",
+    "words": 98
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER VENOSO DOS MEMBROS INFERIORES",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-venoso",
+    "source_slug": "us__doppler-venoso",
+    "file": "data/laudos/us__doppler-venoso__ultrassonografia_doppler_venoso_dos_membros_inferiores_2.txt",
+    "words": 146
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER VENOSO DOS MEMBROS SUPERIORES",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-venoso",
+    "source_slug": "us__doppler-venoso",
+    "file": "data/laudos/us__doppler-venoso__ultrassonografia_doppler_venoso_dos_membros_superiores.txt",
+    "words": 66
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER VENOSO DO MEMBRO SUPERIOR DIREITO / ESQUERDO",
+    "source_url": "https://www.compendioradiologia.com/us/doppler-venoso",
+    "source_slug": "us__doppler-venoso",
+    "file": "data/laudos/us__doppler-venoso__ultrassonografia_doppler_venoso_do_membro_superior_direito_esquerdo.txt",
+    "words": 2306
+  },
+  {
+    "title": "ULTRASSONOGRAFIA DOPPLER DAS ARTÉRIAS TEMPORAIS",
+    "source_url": "https://www.compendioradiologia.com/us/outros_1",
+    "source_slug": "us__outros_1",
+    "file": "data/laudos/us__outros_1__ultrassonografia_doppler_das_arterias_temporais.txt",
+    "words": 95
+  }
+]

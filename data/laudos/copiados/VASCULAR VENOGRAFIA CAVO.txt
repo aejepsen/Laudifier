@@ -1,0 +1,105 @@
+VASCULAR
+VENOGRAFIA CAVO-ILÍACA
+
+FOV: desde o polo superior do rim esquerdo até a coxa proximal
+
+T2 TSE AXIAL /CORONAL / SAGITAL
+
+2D TOF
+
+T1 VIBE FS AXIAL PRÉ CONTRASTE
+
+BOLUS CONTRASTE
+
+ANGIO - CORONAL (SEM CONTRASTE, FASES ARTERIAL, ARTERIAL TARDIA, VENOSA E VENOSA TARDIA)
+
+* TEMPO DE AQUISIÇÃO EM TORNO DE 15 SEGUNDOS CADA FASE
+
+* INTERVALO DE 3 SEGUNDOS ENTRE AS FASES
+
+* ADICIONAR SUBTRAÇÃO DAS SEQUÊNCIAS
+
+T1 FLASH / 3D CORONAL PRE CONTRASTE
+
+T1 FLASH / 3D CORONAL DINÂMICO
+
+T1 VIBE FS AXIAL POS CONTRASTE
+
+-------------------------------------------------------------------------------------------------------
+
+LINFOGRAFIA
+
+Administração intranodal de contraste em linfonodos inguinais bilaterais
+
+RM tórax
+
+TRUE FISP
+
+3D T2W SPACE
+
+Dinâmico
+
+3d IR FLASH STEADY STATE pos contraste
+
+-------------------------------------------------------------------------------------------------------
+
+AORTA
+
+Contraste - 0.1 mmol/kg em 2ml/s não trigado usar sequências 3D (recomendação sociedade mr cardiovascular)
+
+SSPF -  trigado ecg 
+
+-------------------------------------------------------------------------------------------------------
+
+
+ANGIO MEMBRO SUPERIOR
+
+FOV: tórax superior e extremidade
+
+PRE CONTRASTE
+
+CORONAL ULTRA FAST SPIN ECHO (HASTE) do 
+
+CORONAL T1 FLASH 3D 1 MM
+
+AXIAL T1 VIBE 3D FAT SAT 2 mm
+
+POS CONTRASTE
+
+Bolus dividido de: 5ml mão + 5 ml antebraço/braço distal + restante braço e tórax superior
+
+CORONAL T1 FLASH 3D 1 MM
+
+AXIAL T1 VIBE 3D FAT SAT 2 mm
+
+Taxa de injeção:1-2 ml/s
+
+Flush de salina: 20 ml a 2ml/s
+
+
+-----------------------------------------------------------------------------------------------
+
+ANGIO MEMBRO INFERIOR
+
+PRE CONTRASTE
+
+CORONAL ULTRA FAST SPIN ECHO (HASTE) da pelve + coxa + perna
+
+CORONAL T1 FLASH / 3D 1 MM da pelve + coxa + perna
+
+AXIAL T1 VIBE 3D FAT SAT 2 mm da pelve + coxa + perna
+
+POS CONTRASTE (FASES ARTERIAL, ARTERIAL TARDIA, VENOSA E VENOSA TARDIA)
+	* TEMPO DE AQUISIÇÃO EM TORNO DE 15 SEGUNDOS CADA FASE
+
+* INTERVALO DE 3 SEGUNDOS ENTRE AS FASES
+
+* ADICIONAR SUBTRAÇÃO DAS SEQUÊNCIAS
+
+CORONAL T1 FLASH / 3D 1 MM da pelve + coxa + perna
+
+AXIAL T1 VIBE 3D FAT SAT 2 mm da pelve + coxa + perna
+
+Taxa de injeção:1-2 ml/s
+
+Flush de salina: 20 ml a 2ml/s

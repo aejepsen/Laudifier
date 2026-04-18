@@ -1,0 +1,104 @@
+Perinatal
+ESPAÇO LIQUORICO BENIGNO DA INFÂNCIA
+
+Alargamento do espaço subaracnoide, com predomínio nas regiões frontais, que mede até 7,0 mm de espessura, sem sinais de efeito expansivo associado, compatível com proeminência do espaço liquórico benigno da infância.
+
+
+MIELINIZAÇÃO FISIOLÓGICA
+
+Parênquima cerebral com hipoatenuação difusa da substância branca cerebral, devendo ser compatível com o grau de mielinização do paciente (recem-nascido).
+
+
+HIPOXIA NEONATAL
+
+Áreas de alteração de sinal nas seqüencias T2/FLAIR, que acometem o córtex perirrolândico bilateral, bem como substância branca subcortical da região posterior dos centros semiovais e coroa radiada, na topografia dos tratos corticospinais, estendendo-se as regiões peritrigonais. Notam-se ainda alterações semelhantes na região ventrolateral dos tálamos, nos globos pálidos e putames.
+
+Afilamento na transição entre o istmo e esplênio do corpo caloso, de aspecto sequelar.
+
+ID: Áreas de alteração de sinal corticossubcortical bilateral na topografia dos tratos corticospinais, bem como dos globos pálidos, putames e da região ventrolateral dos tálamos. Tais achados são compatíveis com áreas sequelares secundárias á encefalopatia hipóxico-isquêmica neonatal, de padrão central.
+
+
+HEMORRAGIA PERINATAL + HIDROCEFALIA
+
+Desproporção crânio-facial com predomínio do crânio.
+
+Focos de marcado hipossinal nas sequências SWI, localizados no glomus corióide bilateral, na superfície ependimária, principalmente na região posterior dos cornos occipitais. Nota-se ainda a presença de se gliose superficial caracterizada pelo depósito de hemossiderina na superfície leptomeníngea da cisterna interpeduncular e entre as folias cerebelares.
+
+Sinais de redução volumétrica da substância branca dos hemisférios cerebrais associado a arqueamento e afilamento difuso do corpo caloso.
+
+Fina membrana localizada no terço médio/distal do aqueduto mesencefálico, determinando acentuada dilatação do sistema ventricular supratentorial, principalmente dos cornos temporais e occipitais dos ventrículos laterais.
+
+Nas sequências adicionais sensíveis a fluxo não se observa fluxo liquórico através do aqueduto mesencefálico.
+
+ID: Desproporção crânio-facial com predomínio do crânio.
+
+
+Sinais de hemorragia intraventricular pregressa com siderose ependimária, corióide e leptomeníngea.
+
+Fina membrana localizada no terço médio/distal do aqueduto mesencefálico, determinando acentuada dilatação do sistema ventricular supratentorial, provavelmente secundário a aderência por hemorragia prévia.
+
+Redução volumétrica da substância branca dos hemisférios cerebrais.
+
+Cateter de derivação ventricular com entrada parietal direita e extremidade distal na alta convexidade frontal deste mesmo lado.
+
+Destaca-se no presente exame a marcada ventriculomegalia supra e infratentorial com consequente redução volumétrica da substância branca, havendo importante dilatação cística do IV ventrículo, determinando marcada compressão sobre o dorso do tronco encefálico, o qual se apresenta afilado.
+
+Coleção subdural que acompanha a intensidade de sinal do liquor em todas sequências realizadas, compatível com higroma na convexidade frontotemporoparietal direita, condicionando efeito compressivo sobre o parênquima encefálico adjacente, apresentando espessura máxima de 2,1 cm, apresentando ainda pertuito que se continua em situação extracraniana, formando pequena coleção em ao nível do orifício de trepanação parietal direito que se continua caudalmente com extensão à região cervical.
+
+Existe marcado hipossinal na sequência Gradient Echo relacionado a sangramento previo de matriz germinativa em situação subependimária nos corpos dos ventrículos laterais bem como em plexo coróide e ao nível da fossa posterior.
+
+Cavidade hidrossiringomiélica no segmento cervical visibilizado.
+
+O estudo de fluxo liquórico evidencia certo turbilhonamento ao nível de ventrículos laterais e IV ventrículo.
+
+IMPRESSÃO DIAGNÓSTICA: Avaliação por ressonância magnética do encéfalo e estudo de fluxo liquórico revelando reabsorção parcial dos sinais sangramento prévio em situação intraventricular em relação ao exame de referência de junho de 2012 de outro serviço.
+
+
+Permanecem achados compatíveis com higroma subdural na convexidade frontotemporoparietal direita condicionando efeito compressivo sobre o parênquima encefálico adjacente sem desvio das estruturas centro-medianas para o lado contralateral, ressaltando-se ainda haver pertuito que comunica a coleção com o compartimento extracraniano ao nível do orifício de trepanação com extensão à região cervical ao longo do trajeto da derivação ventriculoperitoneal.
+
+Permanece marcada ventriculomegalia supra e infratentorial com consequente redução volumétrica da substância branca, havendo importante dilatação cística do IV ventrículo, determinando marcada compressão sobre o dorso do tronco encefálico, o qual se apresenta afilado.
+
+
+SEQUELA DE HEMORRAGIA (HEMORRAGIA DA MATRIZ GERMINATIVA)
+
+Foco com hipossinal nas sequências de susceptibilidade magnética no sulco caudotalâmico esquerdo, compatível com sequela de hemorragia (hemorragia da matriz germinativa).
+
+Hipossinal nas sequências de susceptibilidade magnética no córtex da alta convexidade frontoparietal dos hemisférios cerebrais, junto a foice inter-hemisférica, provavelmente relacionado a depósito de hemossiderina cortical (siderose superficial), decorrente de hemorragia subaracnóide.
+
+ID: Exame controle de sequela de hemorragia da matriz germinativa no sulco caudotalâmico esquerdo e hemorragia subaracnóide na alta convexidade frontoparietal bilateral, evidencia evolução da hemorragia subaracnóide para a fase sequelar (siderose superficial).
+
+
+CISTO PORENCEFÁLICO - SEQUELA DE HEMORRAGIA DA MATRIZ GERMINATIVA
+
+Persiste estável a imagem compatível com cisto poroencefáfico no lobo frontal esquerdo, que comunica com o corpo e corno anterior do ventrículo lateral deste lado.
+
+Não houve alteração na área compatível com depósito de hemossiderina (sequela de hemorragia) no sulco caudotalâmico esquerdo, que neste contexto clínico provavelmente esta realcioanada a hemorragia da matriz germinativa.
+
+Também não houve alteração na moderada ectasia do sistema ventricular supratentorial, não associada a transudação liquórica, e o estreitamento do aqueduto cerebral no nível dos colículos inferiores.
+
+Sinais de manipulação cirúrgica caracterizada por trepanação frontal esquerda, descontinuidade do septo pelúcido e descontinuidade do assoalho do III ventrículo (tuber e infundíbulo), associados a turbilhonamento liquórico no III ventrículo e nas cisternas interpeduncular e pré-pontina (ventriculostomia pérvia).
+
+Permanecem as membranas em situação pré-pontina, assim como junto ao forame de Magendie e na cisterna magna, aparentemente sem repercussões significativas na drenagem liquórica do IV ventrículo, porém, formando pequenas formações císticas inferiormente ao cerebelo.
+
+IMPRESSÃO DIAGNÓSTICA: Exame controle de terceiro ventriculostomia sem alterações evolutivas significativas em relação estudo de referência, persistindo cisto porencefálico no lobo frontal esquerdo, a sequela de hemorragia da matriz germinativa no sulco caudotalâmico esquerdo e a moderada ectasia compensada do sistema ventricular supratentorial.
+
+
+TORCH
+
+Múltiplos focos de calcificação esparsos nos hemisférios cerebrais, predominantemente nas regiões corticossubcorticais, observando-se alguns com localização periventricular.
+
+Hipoatenuação difusa da substância branca, predominando nas regiões subcorticais dos lobos temporais e frontais.
+
+Entre os diagnósticos diferenciais, a possibilidade de lesões decorrentes de infecção congênita (TORCH) deve ser considerada.
+
+
+MIELINIZAÇÃO TERMINAL
+
+Áreas de hipersinal nas sequências ponderadas em T2/FLAIR e hipossinal em T1, sem impregnação pelo meio de contraste ou restrição à livre movimentação das moléculas de água na sequência de difusão, acometendo a subtância branca dos centros semiovais e a coroa radiada adjacente ao átrio dos ventrículos laterais e na substância branca adjacente ao corno frontal do ventrículo lateral direito, sem representar efeito expansivo ou atrófico significativo.
+
+O estudo de especroscopia demonstrou discreto aumento dos picos de lactato/lípides. O aspecto é inespecífico, podendo representar áreas de mielinização terminal.
+
+
+LEUCOMALACEA CISTICA
+
+Substituição cística do parênquima dos lobos parietal e occipital direitos, de aspecto sequelar (leucomalácia cística). Nota-se comprometimento semelhante do lobo frontal esquerdo, com menor extensão.

@@ -1,0 +1,89 @@
+=== TC abdome superior figado — Variante 2 ===
+Especialidade: radiologia
+Cenário: esteatose hepática moderada, sem outras alterações
+Fonte: sintético — gerado por Claude
+
+# LAUDO RADIOLÓGICO
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Registro/Prontuário:** [Nº DO PRONTUÁRIO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M / F]  
+**Idade:** [XX] anos  
+
+**Exame:** Tomografia Computadorizada de Abdome Superior com Foco no Fígado  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Local:** [UNIDADE/INSTITUIÇÃO]  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizado estudo tomográfico helicoidal multislice do abdome superior com protocolo específico para avaliação hepática. Foram obtidas imagens nos planos axial e coronal, nas fases pré-contraste, arterial (30 segundos após injeção), portal venosa (60-70 segundos) e tardia (3-5 minutos). Utilizou-se contraste iodado não iônico (concentração 300 mgI/mL) via endovenosa, na dose de 1,5 mL/kg de peso corpóreo. Espessura de corte: 1-2 mm com reconstruções multiplanares. Dose de radiação dentro dos parâmetros de otimização estabelecidos.
+
+---
+
+## ACHADOS E DESCRIÇÃO DETALHADA
+
+### **FÍGADO:**
+O fígado apresenta dimensões normais, com contornos regulares e preservação da arquitetura hepática. Observa-se diminuição difusa e homogênea da atenuação do parênquima hepático nas fases sem contraste e arterial, compatível com esteatose hepática de grau moderado. O fígado apresenta densidade inferior ao baço em todas as fases de captação, confirmando o depósito anormal de gordura intrahepática. Padrão vascular intrahepático preservado com distribuição normal das estruturas vasculares. A veia porta apresenta calibre e fluxo normais, sem sinais de trombose. As veias suprahepáticas encontram-se pérvias e com calibres simétricos.
+
+Não identificam-se lesões focais no parênquima hepático, nódulos ou massas. Ausência de sinais de cirrose hepática, hipertensão portal ou ascite.
+
+### **VIAS BILARES:**
+Vias bilares intra-hepáticas não dilatadas. Vesícula biliar com dimensões normais (aprox. 6 cm), paredes finas e homogêneas. Não há sinais de colecistite, litíase ou outras anormalidades. Colédoco com calibre normal (aproximadamente 4 mm de diâmetro).
+
+### **PÂNCREAS:**
+Pâncreas com dimensões e contornos normais. Parênquima pancreático sem alterações focais. Ducto pancreático não dilatado. Ausência de sinais de pancreatite aguda ou crônica.
+
+### **BAÇO:**
+Baço com tamanho normal (comprimento aproximado 11 cm) e parênquima homogêneo com captação adequada de contraste.
+
+### **RINS:**
+Rins bilateralmente simétricos com dimensões normais. Córtex e medula bem diferenciados. Sistema coletor não dilatado. Sem sinais de litíase, massas ou hidronefrose.
+
+### **CAVIDADE PERITONEAL:**
+Ausência de ascite. Sem infiltração ou espessamento peritoneal. Peritônio visceral e parietal com aspecto habitual.
+
+### **OUTRAS ESTRUTURAS:**
+Glândula adrenal direita com aspecto normal. Glândula adrenal esquerda com aspecto normal, sem lesões ou massas. Musculatura da parede abdominal sem alterações significativas. Sem pneumatose ou sinais obstrutivos.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Esteatose hepática moderada** - caracterizada por diminuição difusa e homogênea da atenuação do parênquima hepático em todas as fases de captação, compatível com infiltração gordurosa do fígado em grau moderado.
+
+2. **Ausência de sinais de cirrose hepática ou hipertensão portal.**
+
+3. **Fígado sem lesões focais detectáveis.**
+
+4. **Estruturas biliares normais.**
+
+5. **Pâncreas, baço, rins e glândulas adrenais sem alterações relevantes.**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A tomografia computadorizada do abdome superior demonstra achados consistentes com **esteatose hepática de grau moderado**, sem evidências de complicações associadas como cirrose, hipertensão portal ou neoplasias. As demais estruturas do abdome superior encontram-se dentro dos limites da normalidade.
+
+**Recomendações:**
+
+- Avaliação bioquímica com dosagem de enzimas hepáticas (AST, ALT, GGT, FA), bilirrubina e albumina;
+- Avaliação metabólica incluindo glicemia em jejum, perfil lipídico e investigação de síndrome metabólica;
+- Esclarecimento de possíveis fatores etiológicos: consumo de álcool, diabetes mellitus, obesidade, dislipidemia;
+- Implementação de mudanças no estilo de vida: redução de peso, alimentação saudável, aumento de atividade física;
+- Seguimento clínico com ultrassonografia hepática em 6-12 meses para avaliação evolutiva;
+- Encaminhamento ao hepatologista para avaliação e conduta adicional, caso indicado.
+
+---
+
+## ASSINATURA E RESPONSABILIDADE
+
+**Médico Radiologista

@@ -1,0 +1,95 @@
+=== Mamografia — Variante 2 ===
+Especialidade: radiologia
+Cenário: calcificações difusas benignas bilaterais, BIRADS 2
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE MAMOGRAFIA
+
+---
+
+## DADOS DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [XX] anos  
+**Sexo:** Feminino  
+**Número do Prontuário:** [XXXXX]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Horário do Exame:** [HH:MM]  
+**Clínica/Instituição:** [NOME DA INSTITUIÇÃO]  
+**Número do Laudo:** [XXXXX/AAAA]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Mamografia digital realizada em sistema completo, com incidências padrão bilaterais em projeções craniocaudal (CC) e oblíqua mediolateral (OML). Compressão adequada para distensão do parênquima mamário. Processamento digital de imagens com tecnologia de detecção de contraste aprimorada. Não foi necessária compressão localizada adicional. Exame realizado com excelente qualidade técnica.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**Glândulas Mamárias:**  
+Parênquima mamário predominantemente fibroglandular bilateralmente, distribuído de forma simétrica. Densidade parenquimatosa correspondente à categoria fibroglandular segundo classificação BI-RADS (Breast Imaging Reporting and Data System).
+
+**Mama Direita:**  
+Observam-se múltiplas calcificações difusas distribuídas por todo o parênquima, de padrão vascular e distróficas, com morfologia benigna. As calcificações apresentam formato fino, linear e ramificado, claramente benignas. Não há agrupamentos suspeitos. Não se identifica massa ou distorção arquitetural. Não há retração de pele ou inversão papilar. Sem assimetrias palpáveis correlatas.
+
+**Mama Esquerda:**  
+Achados similares à mama direita, com presença de calcificações difusas e benígnas distribuídas difusamente pelo tecido mamário. Mesma morfologia das estruturas calcificadas. Ausência de massas, lesões nodulares ou distorções da arquitetura parenquimatosa. Pele íntegra. Sem alterações estruturais.
+
+**Estruturas Axilares e Ganglionares:**  
+Linfonodos axilares normais, sem aspectos suspeitos. Sem adenomegalias.
+
+**Análise Dinâmica:**  
+Não há evidências de áreas de assimetria focal ou densificação focal suspeita.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Achados mamográficos concordes com:
+
+- **Calcificações benignas difusas bilaterais**
+- Padrão vascular e distrófico
+- Características morfológicas típicas de origem vascular/involutiva
+- Ausência de malignidade
+- Classificação **BI-RADS 2** (Achado Benigno)
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Mamografia bilateral demonstra calcificações difusas de características benígnas em ambas as mamas, sem evidências de lesões malignas.
+
+**Classificação Final: BI-RADS 2 – Achado Benigno**
+
+**Recomendações:**
+
+1. Retorno para rastreamento mamográfico de rotina em **2 anos** (ou conforme protocolo institucional/clínico)
+2. Caso haja palpação de nódulos ou alterações clínicas, retorno antes do período programado
+3. Correlação clínica com achados do exame físico realizado
+4. Manutenção de cuidados gerais de saúde mamária e autoexame mensal
+
+---
+
+## ASSINATURA DO RADIOLOGISTA
+
+**Radiologista Responsável:**  
+[NOME DO RADIOLOGISTA]
+
+**Título/Credencial:**  
+Médico Radiologista / Especialista em Radiologia de Mama  
+CREMESP nº [XXXXX] | RQE nº [XXXXX]
+
+**Carimbo:**
+
+---
+
+**Data da Digitação:** [DD/MM/AAAA]  
+**Assinatura Digital:** ____________________________  
+**Data da Assinatura:** [DD/MM/AAAA] às [HH:MM]
+
+---
+
+*Laudo condizente com os padrões BI-RADS da American College of Radiology (ACR) - 5ª edição*

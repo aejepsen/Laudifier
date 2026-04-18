@@ -1,0 +1,112 @@
+=== Cintilografia ossea — Variante 1 ===
+Especialidade: medicina_nuclear
+Cenário: cintilografia óssea sem focos de hipercaptação patológica
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE CINTILOGRAFIA ÓSSEA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Registro:** [NÚMERO RGH/PRONTUÁRIO]  
+**Data de Nascimento:** [DATA]  
+**Idade:** [IDADE] anos  
+**Sexo:** [M/F]  
+
+**Data do Exame:** [DATA]  
+**Hora do Exame:** [HORÁRIO]  
+**Especialidade:** Medicina Nuclear  
+**Tipo de Exame:** Cintilografia Óssea com Tc-99m MDP  
+**Equipamento:** Câmara Gama (Detectores: Dupla cabeça em configuração Low Energy High Resolution)  
+**Médico Solicitante:** [NOME E CRM]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[INDICAÇÃO CLÍNICA - Ex: Avaliação de dor articular, pesquisa de metástases ósseas, avaliação de fratura de estresse, investigação de osteomielite, avaliação de lesão óssea não-específica]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizou-se cintilografia óssea com radiofármaco Tc-99m MDP (Metilenodifosfonato marcado com Tecnécio-99m) conforme protocolo padrão de três fases (fase vascular, fase de pooling sanguíneo e fase de equilíbrio/tardia).
+
+**Dose administrada:** 25-30 mCi (925-1.110 MBq) de Tc-99m MDP, por via intravenosa.
+
+**Intervalo pós-injeção:** Imagens adquiridas aproximadamente 3 horas após administração do radiofármaco.
+
+**Técnica de aquisição:** Cintilografia de corpo inteiro em projeções anterior e posterior, com matrix 256 x 256 píxels. Tempo de aquisição aproximadamente 20-30 minutos.
+
+**Imagens adicionais:** Realizadas imagens localizadas (magnificadas) quando necessário para melhor caracterização de regiões de interesse.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Distribuição Normal do Radiofármaco
+
+Observa-se distribuição fisiológica homogênea e simétrica do radiofármaco em:
+
+- **Esqueleto axial:** Coluna vertebral, costelas, esterno, pelve e sacro com captação uniforme e adequada, sem focos anormais de hipercaptação ou hipocaptação.
+- **Esqueleto apendicular:** Ambos os ombros, úmeros, cotovelos, antebraços, punhos e mãos com simetria preservada e padrão de captação normal.
+- **Membros inferiores:** Articulações coxofemorais, fêmures, joelhos, tíbias, fíbulas, tornozelos e pés apresentam captação simétrica e fisiológica, sem alterações patológicas.
+
+### Análise Específica por Regiões
+
+**Região cervical e torácica:**  
+Coluna cervical e torácica com captação homogênea, sem focos de hipercaptação ou hipocaptação suspeita. Sem evidência de lesões osteolíticas ou osteocondensantes.
+
+**Região lombar e sacra:**  
+Coluna lombar e sacro com perfil de captação normal e simétrico, sem focos hipercaptantes. Sem sinais cintilográficos de espondilólise, espondilolistese ou outras lesões degenerativas significativas.
+
+**Pelve:**  
+Estruturas pélvicas com captação fisiológica simétrica, sem focos de hipercaptação patológica.
+
+**Membros superiores:**  
+Articulações glenoumerais, esternoclaviculares, cotovelos, punhos e pequenas articulações das mãos com padrão de captação normal e simétrico.
+
+**Membros inferiores:**  
+Articulações coxofemorais, joelhos, tornozelos e pés com captação homogênea bilateralmente. Sem evidência de focos hipercaptantes sugestivos de processos inflamatórios ou osteometabólicos.
+
+### Órgãos Não-Esqueléticos
+
+- **Rins:** Demonstram captação bilateral normal e simétrica.
+- **Bexiga:** Atividade vesical esperada.
+- **Tireoide:** Não visualizada, comportamento normal esperado para este radiofármaco.
+- **Fígado e baço:** Sem captação anômala.
+- **Glândulas mamárias:** Sem hipercaptação suspeita.
+
+### Qualidade Técnica do Exame
+
+Exame de qualidade técnica adequada, sem artefatos significativos que comprometam a análise. Imagens com resolução apropriada para avaliação diagnóstica.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Cintilografia óssea de corpo inteiro evidenciando:
+
+✓ **Distribuição normal e simétrica do Tc-99m MDP no esqueleto**
+
+✓ **Ausência de focos de hipercaptação patológica**
+
+✓ **Ausência de focos de hipocaptação significativa**
+
+✓ **Preservação da integridade óssea metabólica**
+
+✓ **Metabolismo ósseo dentro dos padrões normais para o caso**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A cintilografia óssea realizada **não demonstra focos de hipercaptação anômala** sugestivos de:
+
+- Lesões metastáticas
+- Osteomielite aguda ou crônica
+- Fratura de estresse
+- Lesões osteocondensantes
+- Processos inflamatórios articulares de significado pat
