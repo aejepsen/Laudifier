@@ -175,7 +175,7 @@ import { AuthService } from '../core/auth/auth.service';
 
           <!-- Label dinâmico: linha selecionada ou geral -->
           <div class="refinar-label">
-            <span *ngIf="editandoLinha() === 0">📝 Adicionar informações ao laudo</span>
+            <span *ngIf="editandoLinha() === 0">✏️ Editar informações do laudo</span>
             <span *ngIf="editandoLinha() > 0" class="refinar-linha-badge">
               ✏️ Editando linha {{ editandoLinha() }}
               <button class="btn-link-small" (click)="cancelarEdicaoLinha()">× cancelar seleção</button>
@@ -186,7 +186,7 @@ import { AuthService } from '../core/auth/auth.service';
             <textarea
               #refinarTextarea
               [(ngModel)]="achados"
-              [placeholder]="refinarPlaceholder()"
+              [placeholder]="editandoLinha() > 0 ? '🎙️ Dite ou digite a correção para a linha ' + editandoLinha() + '...' : '🎙️ Dite ou digite as informações a adicionar ou corrigir no laudo...'"
               rows="4"
               class="text-input"
               [class.listening]="voice.state() === 'listening' && (editandoLinha() > 0 || adicionandoApos() > 0)"
@@ -209,6 +209,7 @@ import { AuthService } from '../core/auth/auth.service';
 
           <button
             class="btn-refinar"
+            [class.btn-refinar-ativo]="editandoLinha() > 0"
             [disabled]="!achados.trim() || isRefining()"
             (click)="refinarLaudo()">
             <span *ngIf="!isRefining()">
@@ -260,8 +261,11 @@ import { AuthService } from '../core/auth/auth.service';
         <!-- Laudo em streaming / visualização -->
         <div class="laudo-content" *ngIf="!editando()">
 
-          <!-- Toggle modo linhas -->
+          <!-- Toggle modo linhas + instrução -->
           <div class="modo-linhas-bar" *ngIf="laudoGerado() && !isGenerating() && !isRefining()">
+            <span class="instrucao-linhas" *ngIf="modoLinhas()">
+              ☑️ Clique no campo verde para editar a linha
+            </span>
             <button class="btn-link" (click)="modoLinhas.set(!modoLinhas())">
               {{ modoLinhas() ? '👁 Visualização normal' : '🔢 Editar por linha' }}
             </button>
@@ -427,13 +431,6 @@ export class GerarLaudoComponent implements OnDestroy {
     }));
   });
 
-  refinarPlaceholder = computed(() => {
-    const num = this.editandoLinha();
-    if (this.voice.state() === 'listening') return '🎙️ Ouvindo...';
-    if (num > 0) return `Dite ou digite a correção para a linha ${num}. Ex: "fibrose periportal leve"`;
-    return 'Dite o número da linha e o novo texto. Ex: "16 a lesão mede 2 x 2 cm" ou acrescente achados gerais.';
-  });
-
   voicePlaceholder = computed(() => {
     if (this.voice.state() === 'listening')  return '🎙️ Ouvindo... fale os achados do exame';
     if (this.voice.state() === 'processing') return '⏳ Processando...';
@@ -499,7 +496,7 @@ export class GerarLaudoComponent implements OnDestroy {
     let primeiroToken = true;
 
     this.laudoSvc
-      .corrigirLaudo(this.currentLaudoId(), payload)
+      .corrigirLaudo(this.currentLaudoId(), payload, this.laudoGerado())
       .pipe(takeUntil(this.destroy$))
       .subscribe({
         next: (chunk: LaudoGeradoChunk) => {
@@ -512,7 +509,8 @@ export class GerarLaudoComponent implements OnDestroy {
             this.laudoGerado.update(t => t + (chunk.text ?? ''));
           }
           if (chunk.type === 'done') {
-            this.camposFaltando.set(chunk.campos_faltando ?? []);
+            if (chunk.laudo) this.laudoGerado.set(chunk.laudo);
+            this.camposFaltando.set(this._filtrarCamposUI(chunk.campos_faltando ?? []));
             this.laudoEditado = chunk.laudo ?? this.laudoGerado();
             this.achados = '';
             this.isRefining.set(false);
@@ -561,7 +559,9 @@ export class GerarLaudoComponent implements OnDestroy {
             this.laudosRef.set(chunk.laudos_ref ?? []);
           }
           if (chunk.type === 'done') {
-            this.camposFaltando.set(chunk.campos_faltando ?? []);
+            // Sync com laudo pós-processado (assinatura preenchida, metadata removida)
+            if (chunk.laudo) this.laudoGerado.set(chunk.laudo);
+            this.camposFaltando.set(this._filtrarCamposUI(chunk.campos_faltando ?? []));
             this.laudoEditado = chunk.laudo ?? this.laudoGerado();
             this.currentLaudoId.set(chunk.laudo_id ?? '');
             this.isGenerating.set(false);
@@ -678,6 +678,11 @@ export class GerarLaudoComponent implements OnDestroy {
     if (!this.currentLaudoId()) return;
     const url = this.laudoSvc.exportar(this.currentLaudoId(), formato);
     window.open(url, '_blank');
+  }
+
+  private _filtrarCamposUI(campos: string[]): string[] {
+    const ignorar = ['NOME DO MÉDICO', 'CRM DO MÉDICO', 'ASSINATURA DO MÉDICO', 'ASSINATURA'];
+    return campos.filter(c => !ignorar.some(ig => c.toUpperCase().includes(ig)));
   }
 
   novoLaudo() {

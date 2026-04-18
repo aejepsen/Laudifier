@@ -57,9 +57,9 @@ export class LaudoService {
   }
 
   /** Refina laudo existente com achados adicionais (Etapa 3) */
-  corrigirLaudo(laudoId: string, achados: string): Observable<LaudoGeradoChunk> {
+  corrigirLaudo(laudoId: string, achados: string, laudoAtual: string): Observable<LaudoGeradoChunk> {
     const subject = new Subject<LaudoGeradoChunk>();
-    this._fetchCorrigirStream(laudoId, { achados }, subject);
+    this._fetchCorrigirStream(laudoId, { achados, laudo_atual: laudoAtual }, subject);
     return subject.asObservable();
   }
 

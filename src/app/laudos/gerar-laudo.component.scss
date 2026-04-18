@@ -386,13 +386,6 @@ input, .date-input {
   &:focus { border-color: var(--colorBrandStroke1); }
 }
 
-/* ── Toggle modo linhas ─────────────────────────────────────────────────── */
-.modo-linhas-bar {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 4px;
-}
-
 /* ── Laudo numerado ─────────────────────────────────────────────────────── */
 .laudo-numbered {
   font-family: 'Roboto Mono', 'Courier New', monospace;
@@ -439,7 +432,7 @@ input, .date-input {
   width: 14px; height: 14px;
   flex-shrink: 0;
   cursor: pointer;
-  accent-color: #60a5fa;
+  accent-color: #22c55e;
 }
 
 .linha-edit-panel {
@@ -561,8 +554,24 @@ input, .date-input {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  transition: background 0.2s;
   &:hover:not(:disabled) { background: var(--colorBrandBackgroundHover); }
   &:disabled { opacity: 0.5; cursor: not-allowed; }
+  &.btn-refinar-ativo {
+    background: #16a34a;
+    &:hover:not(:disabled) { background: #15803d; }
+  }
+}
+.instrucao-linhas {
+  font-size: 12px;
+  color: #22c55e;
+  font-weight: 500;
+}
+.modo-linhas-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
 }
 
 /* ── Feedback ────────────────────────────────────────────────────────────── */

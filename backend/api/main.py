@@ -111,7 +111,8 @@ class FeedbackRequest(BaseModel):
     correcoes: Optional[str] = Field(default=None, max_length=2000)
 
 class CorrecaoRequest(BaseModel):
-    achados: str = Field(..., max_length=10000)
+    achados:     str           = Field(..., max_length=10000)
+    laudo_atual: Optional[str] = Field(None, max_length=100000)  # frontend envia conteúdo atual
 
 class ConclusaoRequest(BaseModel):
     dados_paciente: dict = Field(default={})
@@ -167,12 +168,14 @@ async def gerar_laudo(
                 if chunk.get("type") == "token":
                     laudo_completo += chunk.get("text", "")
                 if chunk.get("type") == "done":
+                    # chunk["laudo"] é o laudo pós-processado (_filtrar_metadata + _preencher_assinatura)
+                    laudo_final = chunk.get("laudo") or laudo_completo
                     task = asyncio.create_task(
                         LaudoService(user.id).salvar(
                             laudo_id=laudo_id,
                             especialidade=body.especialidade,
                             solicitacao=body.solicitacao,
-                            laudo=laudo_completo,
+                            laudo=laudo_final,
                             tipo_geracao=chunk.get("tipo_geracao", ""),
                             laudos_ref=chunk.get("laudos_ref", []),
                         )
@@ -181,11 +184,10 @@ async def gerar_laudo(
                         lambda t: logger.error("[Salvar laudo] Falhou", exc_info=t.exception()) if t.exception() else None
                     )
                     trace.update(output={"laudo_id": laudo_id, "tipo_geracao": chunk.get("tipo_geracao")})
-                    # Envia done sem o laudo completo (já foi acumulado no cliente via tokens)
-                    # e fecha o stream explicitamente para garantir que o cursor pare
                     done_payload = {
                         "type":            "done",
                         "laudo_id":        laudo_id,
+                        "laudo":           laudo_final,  # frontend usa para sync final
                         "tipo_geracao":    chunk.get("tipo_geracao", ""),
                         "campos_faltando": chunk.get("campos_faltando", []),
                         "laudos_ref":      chunk.get("laudos_ref", []),
@@ -290,17 +292,25 @@ async def corrigir_laudo(
     Médico fornece achados em linguagem livre; Laudifier reescreve em
     terminologia radiológica correta usando RAG de frases especializadas.
     """
-    laudo = await LaudoService(user.id).get(laudo_id)
-    if not laudo:
-        raise HTTPException(status_code=404, detail="Laudo não encontrado")
+    # Usa o conteúdo enviado pelo frontend (evita race condition com o save assíncrono)
+    # Fallback para o DB apenas se o frontend não enviou o conteúdo atual
+    if body.laudo_atual:
+        laudo_conteudo  = body.laudo_atual
+        especialidade   = ""
+    else:
+        laudo = await LaudoService(user.id).get(laudo_id)
+        if not laudo:
+            raise HTTPException(status_code=404, detail="Laudo não encontrado")
+        laudo_conteudo  = laudo.get("laudo_editado") or laudo["laudo"]
+        especialidade   = laudo.get("especialidade", "")
 
     async def event_gen():
         laudo_corrigido = ""
         try:
             async for chunk in corrigir_laudo_stream(
-                laudo_atual=laudo.get("laudo_editado") or laudo["laudo"],
+                laudo_atual=laudo_conteudo,
                 achados=body.achados,
-                especialidade=laudo.get("especialidade", ""),
+                especialidade=especialidade,
                 user_id=user.id,
             ):
                 if chunk.get("type") == "token":
