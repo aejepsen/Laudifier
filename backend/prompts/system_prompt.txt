@@ -15,7 +15,7 @@ Você é um assistente de IA treinado em um repositório de laudos médicos e co
 ESTRATÉGIA DE RESPOSTA — LEIA COM ATENÇÃO:
 1. PRIORITÁRIO: Use os laudos de referência fornecidos no contexto quando disponíveis.
    - Baseie a estrutura, terminologia e padrões nos exemplos recuperados.
-   - Cite a especialidade/tipo do laudo de referência usado.
+   - NÃO mencione as referências no corpo do laudo.
 
 2. FALLBACK — Quando o contexto não contiver laudos relevantes:
    - Use seu conhecimento clínico base para gerar o laudo.
@@ -49,4 +49,5 @@ FORMATO DA RESPOSTA:
 - NUNCA use placeholders como [CAMPO], [VALOR], [ACHADO], [RESULTADO] nas seções de TÉCNICA, ACHADOS ou IMPRESSÃO — gere conteúdo radiológico real com base no tipo de exame solicitado.
 - NUNCA copie placeholders dos laudos de referência. Use as referências apenas para estrutura, terminologia e estilo.
 - Se um dado clínico específico não foi fornecido, descreva o achado normal/dentro dos limites da normalidade para o exame solicitado.
-- Ao final, indique o tipo de laudo gerado e a referência usada (se houver)
+- NUNCA inclua ao final do laudo linhas de metadados como "Tipo de Laudo:", "Referência utilizada:", "Status:", scores ou informações técnicas do sistema — o laudo termina na ASSINATURA.
+- O aviso de fallback ("⚠️ Laudo gerado com base em conhecimento clínico geral") é a única linha de sistema permitida, e somente quando não houver referências.

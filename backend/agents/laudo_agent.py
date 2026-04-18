@@ -162,6 +162,7 @@ async def gerar_laudo_stream(
             yield {"type": "token", "text": token}
 
     # ── 8. Emite fontes e conclusão ───────────────────────────────────────────
+    full_laudo = _filtrar_metadata(full_laudo)
     campos_faltando = _extrair_campos_faltando(full_laudo)
     yield {
         "type":            "done",
@@ -223,6 +224,7 @@ async def corrigir_laudo_stream(
         CHUNK = 200
         for i in range(0, len(laudo_corrigido), CHUNK):
             yield {"type": "token", "text": laudo_corrigido[i:i + CHUNK]}
+        laudo_corrigido = _filtrar_metadata(laudo_corrigido)
         campos_faltando = _extrair_campos_faltando(laudo_corrigido)
         yield {"type": "done", "campos_faltando": campos_faltando, "laudo": laudo_corrigido}
         return
@@ -267,6 +269,7 @@ async def corrigir_laudo_stream(
             full_laudo += token
             yield {"type": "token", "text": token}
 
+    full_laudo = _filtrar_metadata(full_laudo)
     campos_faltando = _extrair_campos_faltando(full_laudo)
     yield {"type": "done", "campos_faltando": campos_faltando, "laudo": full_laudo}
 
@@ -331,6 +334,7 @@ async def gerar_conclusao_stream(
             full_laudo += token
             yield {"type": "token", "text": token}
 
+    full_laudo = _filtrar_metadata(full_laudo)
     campos_faltando = _extrair_campos_faltando(full_laudo)
     yield {"type": "done", "campos_faltando": campos_faltando, "laudo": full_laudo}
 
@@ -499,3 +503,16 @@ def _normalizar_instrucao_linhas(achados: str) -> str:
 def _extrair_campos_faltando(laudo: str) -> list[str]:
     import re
     return re.findall(r'\[([A-ZÁÉÍÓÚÂÊÔÃÕÇ\s/]+)\]', laudo)
+
+
+_META_RE = __import__('re').compile(
+    r'^\s*[✅\-\*]?\s*'
+    r'(Tipo de Laudo|Referência utilizada|Status|score\s+[\d.]+)',
+    __import__('re').IGNORECASE,
+)
+
+def _filtrar_metadata(laudo: str) -> str:
+    """Remove linhas de metadados do sistema que o modelo inclui incorretamente."""
+    linhas = laudo.splitlines()
+    filtradas = [l for l in linhas if not _META_RE.match(l)]
+    return "\n".join(filtradas).rstrip()
