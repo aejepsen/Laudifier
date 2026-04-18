@@ -121,6 +121,25 @@ jobs:
           tenant-id:       ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
+      - name: Aguardar provisionamento anterior (se houver)
+        uses: azure/cli@v2
+        with:
+          azcliversion: latest
+          inlineScript: |
+            echo "Verificando estado do Container App..."
+            for i in $(seq 1 24); do
+              STATE=$(az containerapp show \
+                --name laudifier-production-backend \
+                --resource-group rg-laudifier-production \
+                --query "properties.provisioningState" -o tsv 2>/dev/null || echo "Unknown")
+              echo "Estado atual: $STATE (tentativa $i/24)"
+              if [ "$STATE" = "Succeeded" ] || [ "$STATE" = "Failed" ] || [ "$STATE" = "Canceled" ]; then
+                echo "Container App disponível. Prosseguindo..."
+                break
+              fi
+              sleep 15
+            done
+
       - name: Atualizar imagem no Container App
         uses: azure/cli@v2
         with:
