@@ -343,9 +343,9 @@ export class GerarLaudoComponent implements OnDestroy {
   tocados    = signal<Set<string>>(new Set());
   tentouGerar = signal(false);
 
-  errosDados(): Record<string, string> {
+  errosDados(): { nome?: string; dataNascimento?: string; sexo?: string; indicacao?: string; email?: string } {
     const d = this.dadosPaciente;
-    const e: Record<string, string> = {};
+    const e: { nome?: string; dataNascimento?: string; sexo?: string; indicacao?: string; email?: string } = {};
 
     const nome = d.nome.trim();
     if (!nome)               e['nome'] = 'Campo obrigatório';
@@ -374,10 +374,11 @@ export class GerarLaudoComponent implements OnDestroy {
   }
 
   dadosValidos(): boolean {
-    return Object.keys(this.errosDados()).length === 0;
+    const e = this.errosDados();
+    return !e.nome && !e.dataNascimento && !e.sexo && !e.indicacao && !e.email;
   }
 
-  mostrarErro(campo: string): boolean {
+  mostrarErro(campo: 'nome' | 'dataNascimento' | 'sexo' | 'indicacao' | 'email'): boolean {
     return !!(this.errosDados()[campo] && this.tocadoOuTentou(campo));
   }
 
@@ -533,8 +534,8 @@ export class GerarLaudoComponent implements OnDestroy {
 
     // Dados do médico (autenticado)
     const perfil = this.authSvc.profile();
-    if (perfil?.display_name) dados['medico']     = perfil.display_name;
-    if (perfil?.crm)          dados['medico_crm'] = perfil.crm;
+    if (perfil?.displayName) dados['medico']     = perfil.displayName;
+    if (perfil?.crm)         dados['medico_crm'] = perfil.crm;
 
     this.laudoSvc
       .gerarLaudo(this.solicitacao, this.especialidade, dados)
