@@ -47,7 +47,9 @@ jobs:
       - name: Dependency audit
         run: |
           pip install pip-audit -q
-          pip-audit --requirement requirements.txt --skip-editable
+          pip-audit --requirement requirements.txt --skip-editable \
+            --index-url https://download.pytorch.org/whl/cpu \
+            --extra-index-url https://pypi.org/simple
 
       - name: Run tests
         run: pytest tests/ -v --tb=short
