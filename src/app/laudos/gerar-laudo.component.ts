@@ -124,7 +124,7 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
             <div class="input-voice-wrap">
               <textarea
                 [(ngModel)]="achados"
-                placeholder="Descreva os achados adicionais em linguagem livre. Ex: &quot;Trauma de crânio com edema frontal, sem sangramento ativo&quot;"
+                placeholder="Informe o número da linha e a alteração. Ex: &quot;linha 5: fibrose periportal leve&quot; ou &quot;linha 12 e 13: sem alterações significativas&quot;"
                 rows="3"
                 class="text-input"
                 [class.listening]="voice.state() === 'listening'">
@@ -157,12 +157,18 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
           <span *ngFor="let c of camposFaltando()" class="campo-tag">[{{ c }}]</span>
         </div>
 
-        <!-- Laudo em streaming / visualização -->
+        <!-- Laudo em streaming / visualização com numeração de linhas -->
         <div class="laudo-content" *ngIf="!editando()">
-          <div class="laudo-text markdown-body"
-               [innerHTML]="renderMarkdown(laudoGerado())">
+          <div class="laudo-numbered">
+            <ng-container *ngFor="let linha of laudoLinhas()">
+              <div *ngIf="linha.isEmpty" class="linha-spacer"></div>
+              <div *ngIf="!linha.isEmpty" class="laudo-linha">
+                <span class="linha-num">{{ linha.num }}</span>
+                <span class="linha-text" [innerHTML]="renderLine(linha.text)"></span>
+              </div>
+            </ng-container>
+            <div class="typing-cursor" *ngIf="isGenerating() || isRefining()">▌</div>
           </div>
-          <div class="typing-cursor" *ngIf="isGenerating() || isRefining()">▌</div>
         </div>
 
         <!-- Laudo em edição -->
@@ -211,6 +217,16 @@ export class GerarLaudoComponent implements OnDestroy {
   canGenerate() {
     return !!this.solicitacao.trim() && !this.isGenerating();
   }
+
+  laudoLinhas = computed(() => {
+    const lines = this.laudoGerado().split('\n');
+    let num = 0;
+    return lines.map(line => ({
+      isEmpty: !line.trim(),
+      num:     line.trim() ? ++num : 0,
+      text:    line,
+    }));
+  });
 
   voicePlaceholder = computed(() => {
     if (this.voice.state() === 'listening')  return '🎙️ Ouvindo... fale os achados do exame';
@@ -338,6 +354,14 @@ export class GerarLaudoComponent implements OnDestroy {
 
   renderMarkdown(text: string): string {
     return marked(text) as string;
+  }
+
+  renderLine(text: string): string {
+    return text
+      .replace(/^#{1,6}\s+(.+)/, '<strong>$1</strong>')
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*(.+?)\*/g, '<em>$1</em>')
+      .replace(/`([^`]+)`/g, '<code>$1</code>');
   }
 
   lerLaudo() {

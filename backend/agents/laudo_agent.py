@@ -208,15 +208,30 @@ async def corrigir_laudo_stream(
         for i, l in enumerate(laudos_ref, 1):
             refs_str += f"[Ref {i}]\n{l['content'][:800]}\n\n"
 
+    # Numera as linhas não-vazias para facilitar referências do médico
+    linhas = laudo_atual.split("\n")
+    num = 0
+    linhas_numeradas_parts = []
+    for linha in linhas:
+        if linha.strip():
+            num += 1
+            linhas_numeradas_parts.append(f"{num}: {linha}")
+        else:
+            linhas_numeradas_parts.append(linha)
+    linhas_numeradas = "\n".join(linhas_numeradas_parts)
+
     prompt = (
         f"ESPECIALIDADE: {especialidade.upper()}\n\n"
-        f"── LAUDO ATUAL ──\n{laudo_atual}\n\n"
+        f"── LAUDO ATUAL (com numeração de linhas) ──\n{linhas_numeradas}\n\n"
         f"{refs_str}"
-        f"── ACHADOS DO MÉDICO (linguagem livre) ──\n{achados}\n\n"
-        "Reescreva o laudo incorporando os achados do médico com terminologia radiológica precisa. "
-        "Mantenha a estrutura do laudo atual. "
-        "Use as frases de referência como vocabulário — não copie placeholders. "
-        "Retorne o laudo completo e corrigido."
+        f"── INSTRUÇÃO DO MÉDICO ──\n{achados}\n\n"
+        "REGRAS:\n"
+        "1. Se a instrução referencia linhas (ex: 'linha 5: fibrose leve'), "
+        "substitua APENAS o conteúdo dessas linhas, mantendo todo o resto intacto.\n"
+        "2. Se a instrução é geral (sem referência de linha), incorpore os achados "
+        "na seção correta com terminologia radiológica precisa.\n"
+        "3. Use as frases de referência como vocabulário — não copie placeholders.\n"
+        "4. Retorne o laudo COMPLETO e corrigido, SEM numeração de linhas na saída."
     )
 
     system = load_system_prompt()

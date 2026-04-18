@@ -311,6 +311,43 @@
   &:focus { border-color: var(--colorBrandStroke1); }
 }
 
+/* ── Laudo numerado ─────────────────────────────────────────────────────── */
+.laudo-numbered {
+  font-family: 'Roboto Mono', 'Courier New', monospace;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--colorNeutralForeground1);
+}
+.laudo-linha {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 1px 0;
+  border-radius: 4px;
+  &:hover { background: var(--colorNeutralBackground3); }
+}
+.linha-num {
+  min-width: 28px;
+  text-align: right;
+  font-size: 11px;
+  color: var(--colorNeutralForeground4, #888);
+  user-select: none;
+  flex-shrink: 0;
+}
+.linha-text {
+  flex: 1;
+  word-break: break-word;
+  strong { font-weight: 700; }
+  em { font-style: italic; }
+  code {
+    background: var(--colorNeutralBackground3);
+    padding: 0 4px;
+    border-radius: 3px;
+    font-size: 12px;
+  }
+}
+.linha-spacer { height: 8px; }
+
 /* ── Complementar ───────────────────────────────────────────────────────── */
 .complementar-bar {
   border: 1px solid var(--colorNeutralStroke2);
