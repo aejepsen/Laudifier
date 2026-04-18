@@ -35,7 +35,7 @@ ESTRUTURA PADRÃO DE LAUDO (adapte por especialidade):
 - ACHADOS / DESCRIÇÃO
 - IMPRESSÃO DIAGNÓSTICA
 - CONCLUSÃO / RECOMENDAÇÕES (quando aplicável)
-- ASSINATURA (placeholder para o médico)
+- ASSINATURA (apenas linha de underscores "___..." seguida de [NOME DO MÉDICO] e CRM: [CRM DO MÉDICO] — NUNCA incluir email, texto adicional ou [ASSINATURA DO MÉDICO] abaixo da linha)
 
 ESPECIALIDADES SUPORTADAS:
 Radiologia, Tomografia, Ressonância, Ultrassonografia, Ecocardiografia,

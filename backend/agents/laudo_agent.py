@@ -163,6 +163,11 @@ async def gerar_laudo_stream(
 
     # ── 8. Emite fontes e conclusão ───────────────────────────────────────────
     full_laudo = _filtrar_metadata(full_laudo)
+    full_laudo = _preencher_assinatura(
+        full_laudo,
+        dados_clinicos.get("medico", ""),
+        dados_clinicos.get("medico_crm", ""),
+    )
     campos_faltando = _extrair_campos_faltando(full_laudo)
     yield {
         "type":            "done",
@@ -335,6 +340,11 @@ async def gerar_conclusao_stream(
             yield {"type": "token", "text": token}
 
     full_laudo = _filtrar_metadata(full_laudo)
+    full_laudo = _preencher_assinatura(
+        full_laudo,
+        dados_paciente.get("medico", ""),
+        dados_paciente.get("medico_crm", ""),
+    )
     campos_faltando = _extrair_campos_faltando(full_laudo)
     yield {"type": "done", "campos_faltando": campos_faltando, "laudo": full_laudo}
 
@@ -516,3 +526,46 @@ def _filtrar_metadata(laudo: str) -> str:
     linhas = laudo.splitlines()
     filtradas = [l for l in linhas if not _META_RE.match(l)]
     return "\n".join(filtradas).rstrip()
+
+
+def _preencher_assinatura(laudo: str, medico_nome: str, medico_crm: str) -> str:
+    """
+    Preenche automaticamente o bloco de assinatura com nome e CRM do médico.
+    Remove placeholders incorretos como [ASSINATURA DO MÉDICO — email].
+    """
+    import re
+
+    # Remove linhas "[ASSINATURA DO MÉDICO ...]" com qualquer conteúdo
+    laudo = re.sub(r'^\[ASSINATURA[^\]]*\]\s*$\n?', '', laudo, flags=re.MULTILINE)
+
+    # Substitui placeholders explícitos
+    if medico_nome:
+        laudo = laudo.replace('[NOME DO MÉDICO]', medico_nome)
+    if medico_crm:
+        laudo = re.sub(r'\[CRM DO MÉDICO\]', medico_crm, laudo)
+        # Preenche linha "CRM:" vazia
+        laudo = re.sub(r'^CRM:\s*$', f'CRM: {medico_crm}', laudo, flags=re.MULTILINE)
+
+    # Insere nome/CRM logo após a linha de underscores (se ainda não estiverem)
+    if medico_nome and '___' in laudo:
+        linhas = laudo.splitlines()
+        resultado: list[str] = []
+        i = 0
+        while i < len(linhas):
+            resultado.append(linhas[i])
+            if re.match(r'^_{5,}\s*$', linhas[i]):
+                # Verifica próxima linha não-vazia
+                j = i + 1
+                while j < len(linhas) and not linhas[j].strip():
+                    j += 1
+                next_content = linhas[j].strip() if j < len(linhas) else ''
+                if medico_nome not in next_content:
+                    resultado.append(medico_nome)
+                    if medico_crm:
+                        resultado.append(f'CRM: {medico_crm}')
+            i += 1
+        laudo = '\n'.join(resultado)
+
+    # Remove linhas vazias excessivas
+    laudo = re.sub(r'\n{3,}', '\n\n', laudo)
+    return laudo.rstrip()
