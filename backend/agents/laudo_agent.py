@@ -144,7 +144,7 @@ async def gerar_laudo_stream(
     full_laudo = ""
     async with client.messages.stream(
         model=ANTHROPIC_MODEL,
-        max_tokens=2000,
+        max_tokens=4000,
         system=[{
             "type": "text",
             "text": system,
