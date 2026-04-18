@@ -64,6 +64,11 @@ export class VoiceService {
         const msg = this._errorMsg(e.error);
         this.error.set(msg);
         this.state.set('error');
+        // Auto-limpa o erro e volta ao idle após 3s
+        setTimeout(() => {
+          this.error.set('');
+          if (this.state() === 'error') this.state.set('idle');
+        }, 3000);
         reject(msg);
       };
 
