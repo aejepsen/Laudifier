@@ -1,4 +1,72 @@
-=== TC abdome pâncreas — Variante 2 ===
+.
+
+Realce parenquimal homogêneo na fase arterial e portal-venosa, mantendo-se simétrico entre os diferentes segmentos. Não se identifica áreas de necrose ou regiões hipoatenuantes sugestivas de comprometimento maior da glândula.
+
+Margens pancreáticas discretamente irregularizadas pelo edema, porém sem realce parietal excessivo.
+
+### **Ducto Pancreático:**
+Ducto pancreático principal discretamente dilatado, medindo aproximadamente 4 mm de diâmetro (normal até 3 mm), com transição gradual. Sem evidência de cálculos ou obstrução.
+
+### **Espaço Peripancreático:**
+Discreta quantidade de líquido livre peripancreático, particularmente ao redor do corpo e cauda, sem coleções significativas ou septadas.
+
+Reação inflamatória discreta do tecido adiposo retroperitoneal adjacente.
+
+Sem envolvimento de planos anatômicos profundos.
+
+### **Órgãos Adjacentes:**
+- **Fígado:** Contorno regular, ecotextura homogênea, sem lesões focais. Colédoco com diâmetro normal (até 6 mm).
+- **Vesícula Biliar:** Distensão normal, sem cálculos ou sinais de colecistite.
+- **Baço:** Dimensões normais, parênquima homogêneo.
+- **Rins:** Bilaterais, simétricos, sem hidronefrose, litíase ou lesões focais.
+- **Alças Intestinais:** Calibre normal, sem sinais de obstrução.
+
+### **Retroperitônio e Pelve:**
+Sem adenopatias significativas. Vasos retroperitoneais pérmeáveis, sem trombose. Não se identifica coleções pélvicas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Pancreatite aguda edematosa leve** com as seguintes característic
+sem trombose. Não se identifica coleções pélvicas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Pancreatite aguda edematosa leve** com as seguintes características:
+
+1. Aumento difuso do volume pancreático com edema intersticial;
+2. Ausência de necrose pancreática;
+3. Realce parenquimal preservado;
+4. Discreta reação inflamatória peripancreática;
+5. Sem evidência de complicações locais significativas (coleções, abscessos ou pseudocistos).
+
+**Classificação:** Pancreatite Edematosa (Revised Atlanta Classification)
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Os achados tomográficos são compatíveis com **pancreatite aguda edematosa leve**, apresentando um prognóstico favorável em relação à evolução clínica. A ausência de necrose pancreática, ar extraluminal ou envolvimento vascular significativo representa fatores de bom prognóstico.
+
+### **Recomendações:**
+
+1. Correlação clínica com dosagem de amilase e lipase séricas;
+2. Avaliação do grau de severidade pela escala APACHE II ou SOFA, quando clinicamente indicado;
+3. Seguimento clínico com reavaliação de sintomas;
+4. Investigação etiológica: pesquisa de litíase biliar (ultrassom), abuso de álcool, hipertrigliceridemia e medicações;
+5. Tomografia de seguimento em 7-10 dias se houver piora clínica ou suspeita de evolução para necrose;
+6. Ultrassom de abdome superior pode complementar a avaliação biliar, se não realizado previamente.
+
+---
+
+## ASSINATURA
+
+___________________________________________________  
+**Dr(a). [NOME COMPLETO]**  
+Especialista em
 Especialidade: radiologia
 Cenário: pancreatite aguda edematosa leve, sem necrose
 Fonte: sintético — gerado por Claude
@@ -37,58 +105,8 @@ Janelas e níveis otimizados para análise de parênquima, vasos e retroperitôn
 ### **Pâncreas:**
 Pâncreas apresenta volume global aumentado, com espessura do corpo e cauda medindo aproximadamente 30-32 mm (normal até 25 mm). Observa-se edema intersticial difuso do parênquima pancreático, particularmente evidente em corpo e cauda.
 
-Realce parenquimal homogêneo na fase arterial e portal-venosa, mantendo-se simétrico entre os diferentes segmentos. Não se identifica áreas de necrose ou regiões hipoatenuantes sugestivas de comprometimento maior da glândula.
-
-Margens pancreáticas discretamente irregularizadas pelo edema, porém sem realce parietal excessivo.
-
-### **Ducto Pancreático:**
-Ducto pancreático principal discretamente dilatado, medindo aproximadamente 4 mm de diâmetro (normal até 3 mm), com transição gradual. Sem evidência de cálculos ou obstrução.
-
-### **Espaço Peripancreático:**
-Discreta quantidade de líquido livre peripancreático, particularmente ao redor do corpo e cauda, sem coleções significativas ou septadas.
-
-Reação inflamatória discreta do tecido adiposo retroperitoneal adjacente.
-
-Sem envolvimento de planos anatômicos profundos.
-
-### **Órgãos Adjacentes:**
-- **Fígado:** Contorno regular, ecotextura homogênea, sem lesões focais. Colédoco com diâmetro normal (até 6 mm).
-- **Vesícula Biliar:** Distensão normal, sem cálculos ou sinais de colecistite.
-- **Baço:** Dimensões normais, parênquima homogêneo.
-- **Rins:** Bilaterais, simétricos, sem hidronefrose, litíase ou lesões focais.
-- **Alças Intestinais:** Calibre normal, sem sinais de obstrução.
-
-### **Retroperitônio e Pelve:**
-Sem adenopatias significativas. Vasos retroperitoneais pérmeáveis, sem trombose. Não se identifica coleções pélvicas.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-**Pancreatite aguda edematosa leve** com as seguintes características:
-
-1. Aumento difuso do volume pancreático com edema intersticial;
-2. Ausência de necrose pancreática;
-3. Realce parenquimal preservado;
-4. Discreta reação inflamatória peripancreática;
-5. Sem evidência de complicações locais significativas (coleções, abscessos ou pseudocistos).
-
-**Classificação:** Pancreatite Edematosa (Revised Atlanta Classification)
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-Os achados tomográficos são compatíveis com **pancreatite aguda edematosa leve**, apresentando um prognóstico favorável em relação à evolução clínica. A ausência de necrose pancreática, ar extraluminal ou envolvimento vascular significativo representa fatores de bom prognóstico.
-
-### **Recomendações:**
-
-1. Correlação clínica com dosagem de amilase e lipase séricas;
-2. Avaliação do grau de severidade pela escala APACHE II ou SOFA, quando clinicamente indicado;
-3. Seguimento clínico com reavaliação de sintomas;
-4. Investigação etiológica: pesquisa de litíase biliar (ultrassom), abuso de álcool, hipertrigliceridemia e medicações;
-5. Tomografia de seguimento em 7-10 dias se houver piora clínica ou suspeita de evolução para necrose;
-6. Ultrassom de abdome superior pode complementar a avaliação biliar, se não realizado previamente.
+Realce parenquimal homogêneo na fase arterial e portal-venosa, mantendo-se simétrico entre os diferentes segmentos. Não se identifica áreas de necr
+ se não realizado previamente.
 
 ---
 

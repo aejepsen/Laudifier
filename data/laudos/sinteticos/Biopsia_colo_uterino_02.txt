@@ -1,4 +1,12 @@
-=== Biopsia colo uterino — Variante 2 ===
+os de 3-6 meses durante o primeiro ano pós-tratamento.
+- **Teste de HPV:** Recomenda-se tipagem de HPV se não realizada previamente, dados os achados de NIC III.
+- **Exclusão de invasão:** Embora sem evidência de invasão no material biopsiado, risco de foco invasivo não detectado na amostra. Correlação clínica-colposcópica necessária.
+
+**Observações Adicionais:**
+
+- Lesão de alto risco de progressão para carcinoma invasor se não tratada.
+- Encaminhamento a serviço de referência em patologia cervical recomendado se necessária segunda opinião.
+- Paciente deve ser instruída sobre importância da aderência ao seguimento
 Especialidade: patologia
 Cenário: biópsia de colo uterino — NIC III (displasia grave / carcinoma in situ)
 Fonte: sintético — gerado por Claude
@@ -45,6 +53,11 @@ Processamento de rotina em parafina. Cortes histológicos submetidos à coloraç
 
 **Descrição Detalhada:**
 
+Fragmento de tecido cervical apresentando epitélio estratificado pluriestratificado com acentuada desorganizaç
+OPATOLÓGICOS
+
+**Descrição Detalhada:**
+
 Fragmento de tecido cervical apresentando epitélio estratificado pluriestratificado com acentuada desorganização arquitetural. Observam-se as seguintes alterações:
 
 - **Aumento da relação núcleo-citoplasma:** Proporção significativamente elevada, com núcleos hipercorados e de tamanho irregular.
@@ -69,6 +82,8 @@ Fragmento de tecido cervical apresentando epitélio estratificado pluriestratifi
 
 **Neoplasia Intraepitelial Cervical Grau III (NIC III)**  
 **Equivalente a:** Carcinoma in situ / Displasia Grave do Colo Uterino  
+**Classificação de Bethesda:** High-Grade Squamous Intraepithelial Lesion (HSIL)
+quivalente a:** Carcinoma in situ / Displasia Grave do Colo Uterino  
 **Classificação de Bethesda:** High-Grade Squamous Intraepithelial Lesion (HSIL)  
 **Classificação da OMS:** Neoplasia Cervical Intraepitelial de Alto Grau (CIN 3)
 
@@ -95,11 +110,4 @@ Biópsia de colo uterino com **NEOPLASIA INTRAEPITELIAL CERVICAL GRAU III (NIC I
 - **Complementação:** Avaliar necessidade de ressecção adicional caso as margens se revelem comprometidas.
 - **Seguimento colposcópico:** Após tratamento, realizar colposcopia de controle em 6 semanas.
 - **Citologia cervical:** Realizar Papanicolau ou teste de HPV em intervalos de 3-6 meses durante o primeiro ano pós-tratamento.
-- **Teste de HPV:** Recomenda-se tipagem de HPV se não realizada previamente, dados os achados de NIC III.
-- **Exclusão de invasão:** Embora sem evidência de invasão no material biopsiado, risco de foco invasivo não detectado na amostra. Correlação clínica-colposcópica necessária.
-
-**Observações Adicionais:**
-
-- Lesão de alto risco de progressão para carcinoma invasor se não tratada.
-- Encaminhamento a serviço de referência em patologia cervical recomendado se necessária segunda opinião.
-- Paciente deve ser instruída sobre importância da aderência ao seguimento
+- **Teste de HPV:** Recomenda-se tipagem de HPV se não realizada previamente, dados os achados 

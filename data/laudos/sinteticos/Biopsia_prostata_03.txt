@@ -1,4 +1,3 @@
-=== Biopsia prostata — Variante 3 ===
 Especialidade: patologia
 Cenário: biópsia de próstata — adenocarcinoma Gleason 4+5=9, alto grau
 Fonte: sintético — gerado por Claude
@@ -47,6 +46,22 @@ Foram processados 12 fragmentos de tecido prostático obtidos por biópsia ecogu
 
 Identifica-se **adenocarcinoma acinar de próstata** acometendo **8 dos 12 fragmentos biópsiados** (66,7% de positividade). O adenocarcinoma apresenta os seguintes aspectos:
 
+**Padrão de Gleason:
+terna com braquiterapia
+   - Terapia hormonal neoadjuvante
+
+5. **Seguimento PSA:** Monitoramento rigoroso de PSA sérico conforme protocolo instituído.
+
+---
+
+## OBSERVAÇÕES ADICIONAIS
+
+- Material adequado para diagnóstico
+- Diagnóstico de malignidade confirmado
+- A graduação de Gleason foi realizada de acordo com os critérios da International Society of Urological Pathology (ISUP 2019)
+- Classificação TNM: Para estadiamento completo, aguardar resultados
+stata** acometendo **8 dos 12 fragmentos biópsiados** (66,7% de positividade). O adenocarcinoma apresenta os seguintes aspectos:
+
 **Padrão de Gleason:**
 - **Padrão Primário (Gleason 4):** Predomínio de glândulas com contorno irregular, fusionadas, com distribuição desordenada. Mucosa neoplásica infiltrativa apresentando fusão glandular significativa, perda parcial de arquitetura glandular normal.
 
@@ -78,6 +93,12 @@ Hiperplasia benigna prostática concomitante em focos isolados. Sem evidências 
 **Adenocarcinoma acinar de próstata, padrão Gleason 4+5=9**
 
 - Tipo histológico: Adenocarcinoma convencional
+- Escore de Gleason: 9/10 (Grupo 
+ÓSTICA
+
+**Adenocarcinoma acinar de próstata, padrão Gleason 4+5=9**
+
+- Tipo histológico: Adenocarcinoma convencional
 - Escore de Gleason: 9/10 (Grupo de Risco: MUITO ALTO segundo NCCN 2024)
 - Extensão: Multifocal (8 fragmentos positivos)
 - Invasão perineural: Presente
@@ -103,12 +124,3 @@ Confirma-se diagnóstico de **adenocarcinoma de próstata de alto grau (Gleason 
    - Terapia hormonal neoadjuvante
 
 5. **Seguimento PSA:** Monitoramento rigoroso de PSA sérico conforme protocolo instituído.
-
----
-
-## OBSERVAÇÕES ADICIONAIS
-
-- Material adequado para diagnóstico
-- Diagnóstico de malignidade confirmado
-- A graduação de Gleason foi realizada de acordo com os critérios da International Society of Urological Pathology (ISUP 2019)
-- Classificação TNM: Para estadiamento completo, aguardar resultados

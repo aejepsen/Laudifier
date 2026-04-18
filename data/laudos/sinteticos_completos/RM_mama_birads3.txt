@@ -1,0 +1,62 @@
+# LAUDO DE RESSONÂNCIA MAGNÉTICA DAS MAMAS
+
+**DADOS DO PACIENTE:**
+- Nome: [NOME DO PACIENTE]
+- Data do Exame: [DATA DO EXAME]
+- Idade: 47 anos
+- Sexo: Feminino
+
+**MÉDICO RESPONSÁVEL:**
+- CRM: [CRM]
+- Especialidade: Radiologia e Diagnóstico por Imagem
+
+---
+
+## TÉCNICA
+
+Ressonância magnética das mamas realizada em equipamento 1,5 Tesla com sequências multiplanares, incluindo T1, T2 STIR, T1 com supressão de gordura e sequências dinâmicas com injeção de contraste paramagnético gadolínio 0,1 mmol/kg (Gadopentetato de dimeglumina). Foram adquiridas imagens nos planos sagital, coronal e axial com espessura de corte de 3,5mm e espaço entre cortes de 0,7mm. Análise pós-processamento com reconstrução de subtração dinâmica.
+
+---
+
+## ACHADOS
+
+**Glândula Mamária:**
+Parênquima mamário de densidade heterogênea (tipo B), com distribuição simétrica bilateralmente. Volume glandular preservado. Sem distorção arquitetural evidente.
+
+**Mama Direita:**
+Nódulo sólido localizado no quadrante súpero-medial, próximo ao complexo aréolo-papilar, medindo 14 × 12 × 13 mm no eixo dos maiores diâmetros. Contornos regulares e bem definidos, com margens lobuladas. Sinal isointenso ao parênquima em T1 e levemente hiperintenso em T2. Apresenta realce homogêneo após administração de contraste, com padrão de realce progressivo tipo I (aumento gradual e persistente da intensidade de sinal até 5 minutos pós-injeção). Sem washout ou fenômeno de entrada e saída de contraste. Localização: região retroareolar do quadrante súpero-medial, a aproximadamente 2 cm da papila mamária.
+
+**Mama Esquerda:**
+Sem nódulos, massas ou lesões focais relevantes. Parênquima com arquitetura preservada. Linfonodos intramamários não aumentados.
+
+**Sistema Ductal:**
+Sem evidências de ectasia, estenose ou proliferação ductal. Não há dilatação do ducto lactífero excretório.
+
+**Pele e Parede Torácica:**
+Espessura cutânea normal. Sem edema ou retração. Fáscia muscular íntegra bilateralmente.
+
+**Linfonodos Regionais:**
+Linfonodos axilares não aumentados. Menores linfonodos apresentam eixo curto inferior a 5 mm. Sem evidências de metástases.
+
+---
+
+## CLASSIFICAÇÃO BI-RADS
+
+**BI-RADS 3** — Achado provavelmente benigno
+
+- Nódulo de contornos regulares, bem definidos, com margens lobuladas
+- Sinal homogêneo e realce progressivo sem washout
+- Ausência de sinais de malignidade (irregularidade, margens espiculadas, realce rápido periférico)
+- Padrão consistente com fibroadenoma, adenoma tubular ou lesão benigna similar
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Ressonância magnética das mamas evidencia nódulo sólido benigno no quadrante súpero-medial da mama direita, medindo 14 × 12 × 13 mm, com contornos regulares e bem definidos, realce homogêneo e progressivo. Achado classificado como **BI-RADS 3**, sugestivo de fibroadenoma ou lesão benigna de semelhante natureza.
+
+**Recomendação:** Seguimento clínico-radiológico com ressonância magnética de controle em 6 meses para confirmação de estabilidade da lesão. Caso o padrão se mantenha, próxima avaliação em 12 meses. Correlação clínica com achados ao exame físico é recomendada.
+
+---
+
+**Assinado digitalmente em [DATA DO EXAME]**

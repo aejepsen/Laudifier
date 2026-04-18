@@ -1,0 +1,72 @@
+# LAUDO DE RESSONÂNCIA MAGNÉTICA DE ENCÉFALO
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MÉDICO RESPONSÁVEL:** Dr. [CRM]  
+**MODALIDADE:** Ressonância Magnética  
+**CAMPO:** 3,0 Tesla  
+**PROTOCOLO:** Encéfalo completo com e sem contraste paramagnético
+
+---
+
+## TÉCNICA
+
+Realizada ressonância magnética de encéfalo em equipamento de 3,0 Tesla, utilizando bobina de crânio. Adquiridas sequências ponderadas em T1, T2, FLAIR, T2 gradiente eco, difusão (DWI/ADC), espectroscopia e angiorressonância de forma multiplanar nos planos sagital, coronal e axial. Administrado gadolínio (0,1 mmol/kg) por via intravenosa e obtidas imagens pós-contraste. Sem movimentação ou artefatos que comprometam a análise.
+
+---
+
+## ACHADOS
+
+### **ESTRUTURAS ENCEFÁLICAS**
+
+Os ventrículos laterais apresentam calibre normal, medindo 18 mm na sua maior dimensão transversa. O terceiro ventrículo mede 4 mm em seu maior diâmetro. O quarto ventrículo encontra-se pérvio, com dimensões normais (12 mm x 8 mm). Sem dilatação ventricular. O sistema ventricular não apresenta sinais de hidrocefalia.
+
+A linha média encefálica encontra-se perfeitamente centralizada. Os espaços subaracnóideos apresentam amplitude normal em convexidades, cisternas basais e ângulos pontocerebelares.
+
+### **SUBSTÂNCIA CINZENTA E BRANCA**
+
+A diferenciação corticomedular está bem preservada bilateralmente. A substância branca supratentorial apresenta sinal homogêneo em todas as sequências, sem focos de hipersinal em T2/FLAIR. Não se identificam lesões desmielinizantes, isquêmicas ou inflamatórias.
+
+Os núcleos da base (caudado, putame, globo pálido) apresentam sinal e volume normais bilateralmente, sem evidência de degeneração ou depósito de ferro. Os tálamos encontram-se simétricos e com sinal preservado.
+
+### **LOBO FRONTAL**
+
+Sulcos corticais mantêm padrão normal de profundidade e distribuição. Giros pré-centrais e pós-centrais com arquitetura preservada. Sem lesões focais, edema ou alterações do sinal.
+
+### **LOBO PARIETAL**
+
+Morfologia normal bilateralmente. Lóbulos parietais superiores com sinal homogêneo. Sem focos de hipersinal ou hipossinal patológicos. Sulcos normais em número e distribuição.
+
+### **LOBO TEMPORAL**
+
+Medidas do hipocampo normal à direita: 24 mm de comprimento ântero-posterior, 16 mm em sua maior dimensão transversa. Medidas do hipocampo normal à esquerda: 25 mm de comprimento ântero-posterior, 15 mm em sua maior dimensão transversa. Sinal simétrico e preservado. Amígdalas e córtex entorrinal com aspecto normal bilateralmente. Sem evidência de esclerose temporal mesial.
+
+### **LOBO OCCIPITAL**
+
+Córtex occipital com sinal normal e padrão laminado bem definido. Sem lesões focais. Circulação intracraniana normal nesta região.
+
+### **FOSSA POSTERIOR**
+
+**Cerebelo:** Hemisférios cerebelares simétricos e com volume preservado. Folia cerebelar com padrão normal. Sem atrofia, lesões ou anomalias do desenvolvimento. Medidas normais.
+
+**Tronco encefálico:** Mesencéfalo, ponte e bulbo apresentam morfologia e sinal normais. Sem compressão, deslocamento ou alterações patológicas. Dimensões adequadas.
+
+**Ângulo pontocerebelar:** Cisterna do ângulo pontocerebelar pérvio bilateralmente, sem ocupação de espaço. Nervo coclear-vestibular sem alterações.
+
+### **GLÂNDULA PINEAL**
+
+Glândula pineal localizada na linha média, medindo 7 mm no seu maior diâmetro, sem calcificação. Sinal normal em T1 e T2.
+
+### **GLÂNDULA HIPÓFISE**
+
+Glândula hipófise localizada na sela túrcica com dimensões normais: 8 mm de altura, 11 mm de comprimento transverso, 10 mm de profundidade ântero-posterior. Sinal homogêneo em T1. Sem lesão intrasselar ou suprasselar. Haste hipofisária na linha média. Neurohipófise com hiperintensidade normal em T1. Ausência de hidrocefalia de causa hipofisária.
+
+### **ESTRUTURAS OSSEOMEDULARES**
+
+Calvária sem espessamentos ou lesões. Espaço epidural livre. Não se identifica hemorragia subdural, subaracnóidea ou intraparenquimatosa. Osso esfenoide, etmoide e temporal com densidade e sinal normais.
+
+### **ANGIORESSONÂNCIA**
+
+Artérias carótidas internas apresentam calibre normal e fluxo simétrico bilateralmente (diâmetro carotídeo direito: 5,2 mm; esquerdo: 5,1 mm). Circulação cerebral anterior, média e posterior com padrão de fluxo normal.
+
+Artérias vertebrais de calibre normal e simétrico (diâmetro vertebral direito: 3,8 mm; esquerdo: 3,9 mm). Confluência

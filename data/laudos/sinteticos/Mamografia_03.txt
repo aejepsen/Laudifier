@@ -1,4 +1,66 @@
-=== Mamografia — Variante 3 ===
+do-se do nódulo
+- **Densidade:** Hiperdensa em relação ao parênquima circundante
+- **Padrão:** Denso, sem halo radiolucente periférico
+- **Orientação:** Taller-than-wide (altura maior que a largura)
+
+Não há microcalcificações associadas visíveis. A lesão apresenta características BI-RADS 5, altamente suspeita de malignidade.
+
+**Mama Esquerda:**
+
+Parênquima de densidade heterogênea. Sem nódulos, distorções de arquitetura ou microcalcificações suspeitas. Sem alterações patológicas significativas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Classificação BI-RADS:** **5 - Achado suspeito de malignidade**
+
+Nódulo espiculado em mama direita com características mamográficas altamente sugestivas de carcinoma mamário:
+- Margem espiculada (sinal de alta especificidade para malignidade)
+- Forma irregular
+- Padrão denso homogêneo
+- Ausência de halo radiolucente periférico
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A lesão identificada em mama direita apresenta características BI-RADS 5, com alto grau de suspeição para malignidade. O achado requer investigação urgente com ressonância magnética das mamas ou ultrassom de alta frequência como estudo complementar, visando melhor caracterização e planejamento terapêutico.
+
+**Recomendações:**
+
+1. **Encaminhamento urgente** para mastologia/oncologia para avaliação clínica e possível biópsia diagnóstica (core needle biopsy ou excisional biopsy conforme julgamento clínico)
+2. **Ultrassom de mama** complementar para melhor caracterização de densidade e possível gui
+ biopsy ou excisional biopsy conforme julgamento clínico)
+2. **Ultrassom de mama** complementar para melhor caracterização de densidade e possível guia para procedimento de biópsia
+3. **Ressonância magnética das mamas** pode ser considerada para estadiamento local e avaliação da mama contralateral
+4. Não há achados contralaterais suspeitos no presente estudo
+
+---
+
+## OBSERVAÇÕES ADICIONAIS
+
+- O paciente foi informado dos achados durante o exame
+- Recomenda-se discussão multidisciplinar em reunião de tumor board para melhor definição diagnóstica e terapêutica
+- Acompanhamento clínico e radiológico periódico conforme protocolo oncológico
+
+---
+
+## ASSINATURA
+
+| |
+|---|
+| **Dr(a). [NOME COMPLETO]** |
+| Médico Radiologista |
+| Especialista em Diagnóstico por Imagem |
+| CREMESP/CRM: [NÚMERO] |
+| RQE: [NÚMERO] |
+| Data: [DD/MM/AAAA] |
+| Assinatura: _________________________ |
+
+---
+
+**Nota:** Este laudo foi gerado conforme protocolos técnicos e padrões BI-RADS 2013. A interpretação de qualquer achado mamográfico requer correlação clínica e seguimento adequado conforme diretrizes de manejo de lesões mamárias.
 Especialidade: radiologia
 Cenário: nódulo denso espiculado na mama direita — BIRADS 5
 Fonte: sintético — gerado por Claude
@@ -43,61 +105,4 @@ Identifica-se nódulo sólido, denso, localizado na região [QUADRANTE ESPECÍFI
 - **Margem:** Espiculada, com múltiplos e finos prolongamentos lineares irradiando-se do nódulo
 - **Densidade:** Hiperdensa em relação ao parênquima circundante
 - **Padrão:** Denso, sem halo radiolucente periférico
-- **Orientação:** Taller-than-wide (altura maior que a largura)
-
-Não há microcalcificações associadas visíveis. A lesão apresenta características BI-RADS 5, altamente suspeita de malignidade.
-
-**Mama Esquerda:**
-
-Parênquima de densidade heterogênea. Sem nódulos, distorções de arquitetura ou microcalcificações suspeitas. Sem alterações patológicas significativas.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-**Classificação BI-RADS:** **5 - Achado suspeito de malignidade**
-
-Nódulo espiculado em mama direita com características mamográficas altamente sugestivas de carcinoma mamário:
-- Margem espiculada (sinal de alta especificidade para malignidade)
-- Forma irregular
-- Padrão denso homogêneo
-- Ausência de halo radiolucente periférico
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-A lesão identificada em mama direita apresenta características BI-RADS 5, com alto grau de suspeição para malignidade. O achado requer investigação urgente com ressonância magnética das mamas ou ultrassom de alta frequência como estudo complementar, visando melhor caracterização e planejamento terapêutico.
-
-**Recomendações:**
-
-1. **Encaminhamento urgente** para mastologia/oncologia para avaliação clínica e possível biópsia diagnóstica (core needle biopsy ou excisional biopsy conforme julgamento clínico)
-2. **Ultrassom de mama** complementar para melhor caracterização de densidade e possível guia para procedimento de biópsia
-3. **Ressonância magnética das mamas** pode ser considerada para estadiamento local e avaliação da mama contralateral
-4. Não há achados contralaterais suspeitos no presente estudo
-
----
-
-## OBSERVAÇÕES ADICIONAIS
-
-- O paciente foi informado dos achados durante o exame
-- Recomenda-se discussão multidisciplinar em reunião de tumor board para melhor definição diagnóstica e terapêutica
-- Acompanhamento clínico e radiológico periódico conforme protocolo oncológico
-
----
-
-## ASSINATURA
-
-| |
-|---|
-| **Dr(a). [NOME COMPLETO]** |
-| Médico Radiologista |
-| Especialista em Diagnóstico por Imagem |
-| CREMESP/CRM: [NÚMERO] |
-| RQE: [NÚMERO] |
-| Data: [DD/MM/AAAA] |
-| Assinatura: _________________________ |
-
----
-
-**Nota:** Este laudo foi gerado conforme protocolos técnicos e padrões BI-RADS 2013. A interpretação de qualquer achado mamográfico requer correlação clínica e seguimento adequado conforme diretrizes de manejo de lesões mamárias.
+- **Orientação:

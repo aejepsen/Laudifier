@@ -1,4 +1,3 @@
-=== US tireoide — Variante 1 ===
 Especialidade: radiologia
 Cenário: tireoide com volume e ecotextura normais, sem nódulos
 Fonte: sintético — gerado por Claude
@@ -35,6 +34,30 @@ Realizado exame ultrassonográfico de glândula tireoide com transdutor linear d
 Apresenta dimensões normais. Comprimento de aproximadamente 4,5 cm, largura de 1,5 cm e espessura de 1,2 cm. Ecotextura homogênea e isoecóica em relação ao padrão glandular normal. Ecogenicidade preservada, sem áreas de hipoecogenicidade ou hipercogenicidade focal. Fluxo Doppler presente, simétrico e sem alterações significativas.
 
 **Lobo Esquerdo:**  
+Dimensões simétricas ao lobo contralateral. Comprimento de aproximadamente 4,4 cm, largura de 1,5 cm e espess
+áficas normais, com volume adequado (8 mL) para a idade do paciente, parênquima homogêneo e sem lesões nodulares detectáveis.
+
+**Recomendações:**
+- Seguimento clínico conforme indicação do médico assistente
+- Caso o paciente tenha sintomas thyroideus, solicitar avaliação laboratorial complementar (TSH, T3 e T4 livres) conforme apropriado clinicamente
+- Novo ultrassom apenas se houver mudança clínica significativa ou conforme recomendação médica específica
+- Documento disponível para consulta pelo paciente e equipe clínica
+
+---
+
+## ASSINATURA
+
+_______________________________________________  
+[NOME COMPLETO DO RADIOLOGISTA]  
+CREMESP: [Nº] | RQE: [Nº]  
+Médico Radiologista e Diagnóstico por Imagem
+
+**Data:** ___/___/_______
+
+**Carimbo profissional:**
+es significativas.
+
+**Lobo Esquerdo:**  
 Dimensões simétricas ao lobo contralateral. Comprimento de aproximadamente 4,4 cm, largura de 1,5 cm e espessura de 1,1 cm. Ecotextura homogênea e isoecóica. Ecogenicidade mantida sem heterogeneidade detectável. Vascularização normal ao Doppler colorido, padrão simétrico.
 
 **Istmo:**  
@@ -69,20 +92,4 @@ Cartilagens laríngeas normais. Traqueias sem deslocamento ou compressão. Não 
 A glândula tireoide apresenta características ultrassonográficas normais, com volume adequado (8 mL) para a idade do paciente, parênquima homogêneo e sem lesões nodulares detectáveis.
 
 **Recomendações:**
-- Seguimento clínico conforme indicação do médico assistente
-- Caso o paciente tenha sintomas thyroideus, solicitar avaliação laboratorial complementar (TSH, T3 e T4 livres) conforme apropriado clinicamente
-- Novo ultrassom apenas se houver mudança clínica significativa ou conforme recomendação médica específica
-- Documento disponível para consulta pelo paciente e equipe clínica
-
----
-
-## ASSINATURA
-
-_______________________________________________  
-[NOME COMPLETO DO RADIOLOGISTA]  
-CREMESP: [Nº] | RQE: [Nº]  
-Médico Radiologista e Diagnóstico por Imagem
-
-**Data:** ___/___/_______
-
-**Carimbo profissional:**
+- Se

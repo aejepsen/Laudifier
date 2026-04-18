@@ -1,4 +1,3 @@
-=== Ecocardiograma transtorácico — Variante 4 ===
 Especialidade: cardiologia
 Cenário: estenose aórtica grave — gradiente médio 45 mmHg, área valvar 0,8 cm²
 Fonte: sintético — gerado por Claude
@@ -35,32 +34,8 @@ Realizado ecocardiograma transtorácico (ETT) com incidência do décimo espaço
 
 ### Câmaras Cardíacas
 
-**Átrio Esquerdo (AE):** Dimensão normal, diâmetro anteroposterior 35 mm. Função de bomba mecânica preservada.
-
-**Ventrículo Esquerdo (VE):** Dimensões aumentadas. Diâmetro diastólico final (DDVE) 52 mm; diâmetro sistólico final (DSVE) 38 mm. Relação E/A ligeiramente reduzida. Espessura de parede normal (septo e parede posterior 10 mm). Função sistólica global discretamente reduzida.
-
-**Fração de Ejeção do Ventrículo Esquerdo (FEVE):** 45-50% (método de Simpson biplano).
-
-**Átrio Direito (AD):** Dimensões normais, 32 mm.
-
-**Ventrículo Direito (VD):** Dimensões normais, comprimento basal 32 mm, parede livre normal.
-
-### Valva Aórtica
-
-**Anatomia:** Valva aórtica trifólio, com redução significativa da mobilidade dos folhetos. Espessamento valvar difuso, sem calcificação importante visualizada no modo bidimensional, porém com alterações estruturais sugestivas de doença degenerativa.
-
-**Função:** **Estenose Aórtica Grave**
-
-- **Gradiente de Pressão:**
-  - Gradiente máximo (pico): 68 mmHg
-  - **Gradiente médio: 45 mmHg**
-  - Velocidade máxima (Vmax): 4.2 m/s
-
-- **Área Valvar Aórtica (AVA):**
-  - Cálculo pela equação de continuidade: **0.8 cm²**
-  - Índice de área valvar: 0.45 cm²/m²
-
-- **Padrão Doppler:** Fluxo sistólico contínuo, com pico no terço médio-distal da sístole, padrão característico de obstrução ao fluxo ventricular esquerdo.
+**Átrio Esquerdo (AE):** Dimensão normal, diâmetro anteroposterior 35 mm. Função de
+tole, padrão característico de obstrução ao fluxo ventricular esquerdo.
 
 **Incompetência Aórtica:** Leve (regurgitação diastólica de pequeno diâmetro, largura < 6 mm no nível do anel aórtico).
 
@@ -105,4 +80,40 @@ Intacto, sem comunicação detectada.
 1. **Estenose Aórtica Grave** (Critérios diagnósticos plenamente preenchidos):
    - Gradiente médio transaórtico: 45 mmHg
    - Área valvar aórtica: 0.8 cm² (AVA < 1.0 cm² = grave)
-   - Velocidade máxima: 4.2 
+   - Velocidade máxima: 4.2
+da.
+
+---
+
+## ACHADOS E DESCRIÇÃO DETALHADA
+
+### Câmaras Cardíacas
+
+**Átrio Esquerdo (AE):** Dimensão normal, diâmetro anteroposterior 35 mm. Função de bomba mecânica preservada.
+
+**Ventrículo Esquerdo (VE):** Dimensões aumentadas. Diâmetro diastólico final (DDVE) 52 mm; diâmetro sistólico final (DSVE) 38 mm. Relação E/A ligeiramente reduzida. Espessura de parede normal (septo e parede posterior 10 mm). Função sistólica global discretamente reduzida.
+
+**Fração de Ejeção do Ventrículo Esquerdo (FEVE):** 45-50% (método de Simpson biplano).
+
+**Átrio Direito (AD):** Dimensões normais, 32 mm.
+
+**Ventrículo Direito (VD):** Dimensões normais, comprimento basal 32 mm, parede livre normal.
+
+### Valva Aórtica
+
+**Anatomia:** Valva aórtica trifólio, com redução significativa da mobilidade dos folhetos. Espessamento valvar difuso, sem calcificação importante visualizada no modo bidimensional, porém com alterações estruturais sugestivas de doença degenerativa.
+
+**Função:** **Estenose Aórtica Grave**
+
+- **Gradiente de Pressão:**
+  - Gradiente máximo (pico): 68 mmHg
+  - **Gradiente médio: 45 mmHg**
+  - Velocidade máxima (Vmax): 4.2 m/s
+
+- **Área Valvar Aórtica (AVA):**
+  - Cálculo pela equação de continuidade: **0.8 cm²**
+  - Índice de área valvar: 0.45 cm²/m²
+
+- **Padrão Doppler:** Fluxo sistólico contínuo, com pico no terço médio-distal da sístole, padrão característico de obstrução ao fluxo ventricular esquerdo.
+
+**Incompetência Aórtica:** Leve (regurgitação diastólica de pequeno diâmetro,

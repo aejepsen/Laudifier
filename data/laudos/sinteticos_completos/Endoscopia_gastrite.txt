@@ -1,0 +1,84 @@
+# LAUDO DE ENDOSCOPIA DIGESTIVA ALTA
+
+**Paciente:** [NOME DO PACIENTE]  
+**Data do Exame:** [DATA DO EXAME]  
+**Médico Responsável:** Dr. [CRM]  
+**Equipamento:** Endoscópio de vídeo Olympus GIF-H190  
+**Data do Relatório:** [DATA DO EXAME]
+
+---
+
+## TÉCNICA
+
+Endoscopia digestiva alta realizada sob anestesia tópica com lidocaína spray 10% aplicada na orofaringe. O paciente foi posicionado em decúbito lateral esquerdo. O equipamento foi introduzido sob visão direta, percorrendo esôfago, estômago e porção proximal do duodeno sem dificuldades técnicas. Qualidade de imagem adequada. Paciente colaborativo durante todo o procedimento.
+
+---
+
+## ACHADOS ENDOSCÓPICOS
+
+### Esôfago
+Mucosa esofágica rosada, brilhante, sem sinais de inflamação aguda, úlceras ou metaplasia intestinal. Ausência de lesões erosivas ou estriações. Junção esofagogástrica sem distorções. Relaxamento adequado do esfíncter esofágico inferior.
+
+### Cárdia e Fundo Gástrico
+Mucosa fundal de coloração normal, com padrão vascular fino e uniforme. Ausência de lesões erosivas, hematomas ou varicosidades. Grandes pregas gástricas presentes bilateralmente com espessura aproximada de 4 a 5 mm, de aspecto normal. Sem sinais de inflamação localizada nesta região.
+
+### Corpo Gástrico
+Mucosa com aspecto íntegro, apresentando discreto edema difuso. Padrão vascular preservado. Ausência de úlceras ou erosões neste segmento. Pregas gástricas de amplitude normal.
+
+### Região Antral
+**Achado Principal:** Presença de múltiplas erosões com diâmetros variando de 2 a 6 mm, distribuídas ao longo da mucosa antral. As lesões apresentam fundo avermelhado com bordas bem delimitadas, circundadas por halos eritematosos de 3 a 8 mm de extensão. Aproximadamente 12 a 15 erosões identificadas no total. A maior lesão mede cerca de 6 mm de diâmetro, localizada na parede anterior do antro. Mucosa interlesional apresenta edema moderado e hiperemia difusa de padrão geográfico. Ausência de secreção purulenta ou sangramento ativo no momento do exame.
+
+### Piloro
+Estrutura preservada, sem estenose ou deformidades. Passagem adequada do endoscópio.
+
+### Duodeno Proximal
+Mucosa duodenal íntegra, sem lesões erosivas ou úlceras. Ampola de Vater sem alterações. Ausência de sangramento ou sinais de inflamação.
+
+---
+
+## BIOPSIAS REALIZADAS
+
+Foram coletadas **4 fragmentos de mucosa gástrica antral** para análise histopatológica, especificamente das áreas com maior inflamação e erosão, visando confirmação diagnóstica de gastrite e pesquisa de Helicobacter pylori.
+
+- **Amostra 1:** Borda de erosão (parede anterior)
+- **Amostra 2:** Mucosa hiperêmica interlesional
+- **Amostra 3:** Corpo gástrico (controle)
+- **Amostra 4:** Fundo gástrico (controle)
+
+---
+
+## RESULTADO DE TESTES RÁPIDOS
+
+**Teste da Urease (CLO Test - Campylobacter-like Organism):** **POSITIVO**  
+Mudança de cor de amarelo para rosa observada em 8 minutos de incubação, confirmando presença de Helicobacter pylori.
+
+---
+
+## ACHADOS COMPLEMENTARES
+
+- Hálito característico de halitose leve durante o procedimento
+- Paciente relata epigastralgia crônica há 2 meses
+- Ausência de sinais de sangramento prévio (sem melena ou hematêmese)
+- Sem distensão gástrica significativa ou retenção de secreções
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Endoscopia digestiva alta evidencia:**
+
+1. **Gastrite antral erosiva moderada** — caracterizada por múltiplas erosões superficiais (12-15 lesões) com diâmetros de 2 a 6 mm, circundadas por halos eritematosos, associadas a edema e hiperemia difusa da mucosa antral, padrão compatível com gastrite erosiva ativa.
+
+2. **Infecção por Helicobacter pylori confirmada** — resultado positivo do teste rápido da urease (CLO Test), altamente sugestivo de colonização ativa pela bactéria como agente etiológico principal da inflamação gástrica observada.
+
+3. **Ausência de úlceras pépticas penetrantes** — erosões limitadas à mucosa superficial sem sinais de perfuração ou sangramento ativo.
+
+4. **Esôfago e duodeno próximal normais** — sem lesões associadas.
+
+---
+
+## RECOMENDAÇÕES
+
+1. Confirmar diagnóstico de H. pylori através da histopatologia das biópsias coletadas (coloração com Giemsa ou prata)
+2. Iniciar **terapia de erradicação de H. pylori** com inibidor de bomba de prótons (omeprazol 20 mg/dia), amoxicilina 1 g 2×/dia e claritromicina 500 mg 2×/dia por 10-14 dias
+3. Manutenção com inibidor de bomba de prótons por 4-8 semanas após término

@@ -1,32 +1,3 @@
-=== US tireoide — Variante 2 ===
-Especialidade: radiologia
-Cenário: nódulo sólido hipoecogênico no lobo direito, 1,2 cm — TI-RADS 4
-Fonte: sintético — gerado por Claude
-
-```
-═══════════════════════════════════════════════════════════════════════════════
-                            LAUDO MÉDICO - RADIOLOGIA
-═══════════════════════════════════════════════════════════════════════════════
-
-IDENTIFICAÇÃO DO PACIENTE:
-─────────────────────────────────────────────────────────────────────────────
-Nome: [NOME COMPLETO DO PACIENTE]
-Idade: [IDADE] anos | Sexo: [M/F]
-Data de Nascimento: [__/__/____]
-CPF/RG: [NÚMERO DO DOCUMENTO]
-Leito/Ambulatório: [LOCALIZAÇÃO]
-
-IDENTIFICAÇÃO DO EXAME:
-─────────────────────────────────────────────────────────────────────────────
-Tipo de Exame: ULTRASSONOGRAFIA DE TIREOIDE
-Data do Exame: [__/__/____]
-Horário: [__:__]
-Local: [CLÍNICA/HOSPITAL]
-Aparelho: Ultrassom de alta frequência (7.5-12 MHz)
-Médico Solicitante: [NOME E CRM DO MÉDICO SOLICITANTE]
-Médico Executor: [NOME E CRM DO RADIOLOGISTA]
-
-═══════════════════════════════════════════════════════════════════════════════
 
 TÉCNICA UTILIZADA:
 ─────────────────────────────────────────────────────────────────────────────
@@ -39,46 +10,21 @@ critérios de TI-RADS (Thyroid Imaging Reporting and Data System).
 
 ═══════════════════════════════════════════════════════════════════════════════
 
-ACHADOS:
-─────────────────────────────────────────────────────────────────────────────
-
-LOBO DIREITO:
-Identificado nódulo sólido, hipoecogênico, com contornos irregulares e bem 
-definidos, localizado na porção média do lobo direito. Dimensões aproximadas: 
-12 x 10 x 9 mm (diâmetro transverso x anteroposterior x longitudinal), volume 
-estimado de 0,45 cm³.
-
-Características morfológicas do nódulo:
-  • Ecogenicidade: Hipoecogênica em relação ao parênquima tireoidiano normal
-  • Composição: Sólido, sem componente cístico identificável
-  • Contornos: Irregulares com possível microlobulação
-  • Limites: Bem definidos, com halo ecogênico não visualizado
-  • Vasculação (estudo Doppler colorido): Aumento do fluxo periférico e 
-    intranodular de caráter misto, sugestivo de aumento da vascularização
-
-Demais características do lobo direito:
-Parênquima remanescente com ecotextura heterogênea, sem outras nodulações 
-significativas. Não identificadas microcalcificações grosseiras, porém 
-presença de comet-tail artifacts.
-
-LOBO ESQUERDO:
-Lobo com ecotextura heterogênea. Identificado aumento de volume glandular 
-generalizado, bilateral, compatível com bócio nodular. Presença de pequeno 
-nódulo hipoecoico de aproximadamente 4 mm, sem características de malignidade 
-aparente (TI-RADS 2).
-
-ISTMO:
-Preservado, com espessura normal (aproximadamente 3 mm), sem nodulações.
-
 LINFONODOS REGIONAIS:
 Identificados linfonodos cervicais anteriores bilaterais de características 
 normais (menores de 10 mm em seu maior eixo transverso), com hilo gorduroso 
 preservado. Não há linfonodos com critérios ultrassonográficos suspeitos para 
 metástase.
 
-ESTRUTURAS ADJACENTES:
-Músculos esternocleidomastoídeos e demais estruturas cervicais sem alterações 
-significativas.
+IDENTIFICAÇÃO DO EXAME:
+─────────────────────────────────────────────────────────────────────────────
+Tipo de Exame: ULTRASSONOGRAFIA DE TIREOIDE
+Data do Exame: [__/__/____]
+Horário: [__:__]
+Local: [CLÍNICA/HOSPITAL]
+Aparelho: Ultrassom de alta frequência (7.5-12 MHz)
+Médico Solicitante: [NOME E CRM DO MÉDICO SOLICITANTE]
+Médico Executor: [NOME E CRM DO RADIOLOGISTA]
 
 ═══════════════════════════════════════════════════════════════════════════════
 
@@ -100,6 +46,28 @@ IMPRESSÃO DIAGNÓSTICA:
 
 ═══════════════════════════════════════════════════════════════════════════════
 
+LOBO DIREITO:
+Identificado nódulo sólido, hipoecogênico, com contornos irregulares e bem 
+definidos, localizado na porção média do lobo direito. Dimensões aproximadas: 
+12 x 10 x 9 mm (diâmetro transverso x anteroposterior x longitudinal), volume 
+estimado de 0,45 cm³.
+
+Características morfológicas do nódulo:
+  • Ecogenicidade: Hipoecogênica em relação ao parênquima tireoidiano normal
+  • Composição: Sólido, sem componente cístico identificável
+  • Contornos: Irregulares com possível microlobulação
+  • Limites: Bem definidos, com halo ecogênico não visualizado
+  • Vasculação (estudo Doppler colorido): Aumento do fluxo periférico e 
+    intranodular de caráter misto, sugestivo de aumento da vascularização
+
+Demais características do lobo direito:
+Parênquima remanescente com ecotextura heterogênea, sem outras nodulações 
+significativas. Não identificadas microcalcificações grosseiras, porém 
+presença de comet-tail artifacts.
+
+ISTMO:
+Preservado, com espessura normal (aproximadamente 3 mm), sem nodulações.
+
 CONCLUSÃO E RECOMENDAÇÕES:
 ─────────────────────────────────────────────────────────────────────────────
 
@@ -107,3 +75,26 @@ CONCLUSÃO E RECOMENDAÇÕES:
    para malignidade. Recomenda-se:
    
    ✓ PUNÇÃO BIÓPSIA ASPIRATIVA COM AGULHA FINA (PAAF)
+
+ESTRUTURAS ADJACENTES:
+Músculos esternocleidomastoídeos e demais estruturas cervicais sem alterações 
+significativas.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+IDENTIFICAÇÃO DO PACIENTE:
+─────────────────────────────────────────────────────────────────────────────
+Nome: [NOME COMPLETO DO PACIENTE]
+Idade: [IDADE] anos | Sexo: [M/F]
+Data de Nascimento: [__/__/____]
+CPF/RG: [NÚMERO DO DOCUMENTO]
+Leito/Ambulatório: [LOCALIZAÇÃO]
+
+LOBO ESQUERDO:
+Lobo com ecotextura heterogênea. Identificado aumento de volume glandular 
+generalizado, bilateral, compatível com bócio nodular. Presença de pequeno 
+nódulo hipoecoico de aproximadamente 4 mm, sem características de malignidade 
+aparente (TI-RADS 2).
+
+ACHADOS:
+─────────────────────────────────────────────────────────────────────────────

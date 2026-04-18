@@ -1,0 +1,70 @@
+# LAUDO DE ULTRASSONOGRAFIA OBSTÉTRICA
+
+**DADOS DO PACIENTE:**
+Paciente: [NOME DO PACIENTE]
+Data do Exame: [DATA DO EXAME]
+Médico Responsável: Dr(a). [CRM]
+Modalidade: Ultrassonografia em Tempo Real
+Equipamento: Transdutor convexo multifrequencial 2-5 MHz
+
+---
+
+## HISTÓRIA CLÍNICA
+
+Paciente gestante encaminhada para ultrassonografia obstétrica de segundo trimestre. Apresenta idade gestacional estimada em 21 semanas e 4 dias pela data da última menstruação. Antecedentes sem particularidades. Objetivo: avaliação biométrica fetal, morfológica detalhada e bem-estar materno-fetal.
+
+---
+
+## TÉCNICA
+
+Realizado exame ultrassonográfico via transabdominal com transdutor convexo 3,5 MHz. Avaliação sistemática dos planos padrão do segundo trimestre. Imagens de boa qualidade técnica. Feto em apresentação cefálica. Líquido amniótico presente.
+
+---
+
+## ACHADOS BIOMÉTRICOS
+
+**Medidas Fetais (comparadas com idade gestacional de 21 semanas e 4 dias):**
+
+- **Diâmetro Biparietal (DBP):** 54 mm (concordante, p50)
+- **Circunferência Cefálica (CC):** 188 mm (concordante, p50)
+- **Comprimento Femoral (CF):** 38 mm (concordante, p50)
+- **Diâmetro Transverso Cerebeloso:** 19 mm (normal para idade)
+- **Diâmetro Abdominal Transverso (DAT):** 48 mm
+- **Circunferência Abdominal (CA):** 155 mm (concordante)
+- **Comprimento do Úmero:** 33 mm
+- **Comprimento da Tíbia:** 35 mm
+
+**Avaliação Estimativa de Peso Fetal:** 498 gramas (percentil 50 para 21 semanas)
+
+**Índice de Líquido Amniótico (ILA):** 142 mm (normal, entre 80-240 mm para este trimestre)
+
+---
+
+## ACHADOS MORFOLÓGICOS
+
+### Sistema Nervoso Central
+Ventrículo lateral: 8 mm bilateralmente (normal, <10 mm). Tálamo bem diferenciado bilateralmente. Cerebelo com formato adequado e tamanho concordante. Cisterna magna: 7,2 mm (normal). Cavum do septo pelúcido presente e preservado. Estruturas da fossa posterior harmoniosamente dispostas. Sem sinais de ventriculomegalia ou alterações arquitetônicas.
+
+### Estruturas Craniofaciais
+Osso frontal e parietal simétricos. Sem sinais de assimetria facial. Órbitas simétricas e esféricas com distância interorbitária de 16 mm (normal). Cristalino bilateral bem definido. Nariz e lábio superior integros em corte longitudinal, sem descontinuidade. Mandíbula adequadamente desenvolvida, sem micrognácia.
+
+### Coluna Vertebral
+Avaliadas 32 corpos vertebrais em eixo longitudinal com ecotextura homogênea. Arcos posteriores inteiros e bem visualizados em toda extensão. Sem sinais de espinha bífida ou cifose excessiva. Alinhamento normal.
+
+### Sistema Cardiovascular
+Posicionamento cardíaco no tórax anterior esquerdo (levocardia). Frequência cardíaca: 148 bpm (normal para idade). Quatro câmaras visibilizadas adequadamente com dimensões proporcionais. Septo ventricular íntegro. Septo atrial íntegro, sem comunicação detectável. Valva aórtica e pulmonar com movimentação adequada. Débito cardíaco presente bilateralmente nos arcos. Sem derrame pericárdico. Hiato esofágico normal.
+
+### Sistema Respiratório
+Pulmões bilaterais com ecotextura homogênea, sem consolidações ou derrame pleural. Diâmetro torácico transverso: 52 mm (concordante). Índice cardiotorácico dentro dos limites normais.
+
+### Sistema Gastrointestinal
+Estômago visualizado com bolsa gástrica de 18 mm preenchida com líquido. Intestino delgado com peristaltismo presente. Intestino grosso visualizado em topografia normal. Fígado com ecotextura homogênea, dimensões normais. Vesícula biliar bem diferenciada com paredes finas. Sem sinais de ascite fetal.
+
+### Sistema Urinário
+Rins bilateralmente visualizados com ecotextura córticomedular preservada. Comprimento renal direito: 22 mm. Comprimento renal esquerdo: 21 mm (concordante para idade). Bexiga fetal visibilizada com volume adequado (11 mm de diâmetro longitudinal). Sem hidronefrose ou dilatação pielical. Sem sinais de patologia obstrutiva.
+
+### Sistema Musculoesquelético
+Membros superiores: úmero, rádio e ulna bilateralmente presentes e integros com tamanho concordante. Membros inferiores: fêmur, tíbia e fíbula bilateralmente presentes e integros. Mãos e pés com dedos bem diferenciados. Sem polidactilia ou sindactilia. Sem encurvamento ósseo ou assimetria de comprimento.
+
+### Placenta
+Localização: parede anterior do útero, fundal, implantação normotópica. Espessura: 28 mm (normal para segundo trimestre). Ecotextura homogênea, sem áreas de calcificação pat

@@ -1,43 +1,12 @@
-=== US tireoide — Variante 3 ===
-Especialidade: radiologia
-Cenário: bócio multinodular difuso bilateral
-Fonte: sintético — gerado por Claude
-
-# LAUDO DE ULTRASSONOGRAFIA
+benignidade
+5. Sem evidência de compressão de estruturas adjacentes
 
 ---
 
-## IDENTIFICAÇÃO DO EXAME
+## CONCLUSÃO E RECOMENDAÇÕES
 
-**Paciente:** [NOME COMPLETO]  
-**Data de Nascimento:** [DD/MM/AAAA] | **Idade:** [  ] anos  
-**Sexo:** [  ] M  [  ] F  
-**Registro Hospitalar:** [________________]  
-**Data do Exame:** [DD/MM/AAAA]  
-**Hora:** [HH:MM]  
-
-**ÓRGÃO EXAMINADO:** Glândula Tireoide  
-**TIPO DE EXAME:** Ultrassonografia em Tempo Real  
-**EQUIPAMENTO:** Ecógrafo Modelo [________________], Sonda Linear Multi-frequencial 7-12 MHz  
-
----
-
-## TÉCNICA UTILIZADA
-
-Realizado exame ultrassonográfico da glândula tireoide em seus planos longitudinais, transversais e oblíquos, utilizando sonda linear de alta frequência. Avaliação cuidadosa dos lobos tireoidianos, istmo, espaços cervicais laterais e região supraclavicular bilateralmente. Estudo complementado com manobra de deglutição para melhor caracterização das lesões e dinamismo.
-
----
-
-## ACHADOS / DESCRIÇÃO DETALHADA
-
-### **Dimensões Gerais:**
-- **Lobo Tireoidiano Direito:** 55 x 28 x 35 mm (Volume estimado: 26,6 mL)
-- **Lobo Tireoidiano Esquerdo:** 58 x 30 x 37 mm (Volume estimado: 32,3 mL)
-- **Istmo:** 4 mm de espessura
-- **Volume Tireoidiano Total Estimado:** ~62 mL
-
-### **Padrão de Ecogenicidade:**
-Glândula apresenta ecogenicidade global reduzida e heterogênea, com múltiplos focos de densidades variadas, compatível com padrão difuso multinodular.
+O paciente apresenta bócio multinodular difuso bilateral de aspecto benigno. Os achados ultrassonográficos são típicos de bóc
+eduzida e heterogênea, com múltiplos focos de densidades variadas, compatível com padrão difuso multinodular.
 
 ### **Achados Nodulares:**
 
@@ -85,6 +54,12 @@ Glândula apresenta ecogenicidade global reduzida e heterogênea, com múltiplos
 
 3. **Nódulo 3 (Lower pól):**
    - Dimensões: 12 x 10 x 11 mm
+   - Morf
+zação: Fluxo periférico
+   - Características: Sem microcalcificações aparentes
+
+3. **Nódulo 3 (Lower pól):**
+   - Dimensões: 12 x 10 x 11 mm
    - Morfologia: Ovalado
    - Ecogenicidade: Isoecogênico
    - Características: Sem particularidades
@@ -115,3 +90,46 @@ Ultrassonografia de tireoide revelando:
 2. **Múltiplos nódulos identificados bilateralmente**, sendo:
    - Nódulo dominante no lobo esquerdo (região média) medindo 22 x 17 x 19 mm
    - N
+Especialidade: radiologia
+Cenário: bócio multinodular difuso bilateral
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ULTRASSONOGRAFIA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA] | **Idade:** [  ] anos  
+**Sexo:** [  ] M  [  ] F  
+**Registro Hospitalar:** [________________]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]  
+
+**ÓRGÃO EXAMINADO:** Glândula Tireoide  
+**TIPO DE EXAME:** Ultrassonografia em Tempo Real  
+**EQUIPAMENTO:** Ecógrafo Modelo [________________], Sonda Linear Multi-frequencial 7-12 MHz  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizado exame ultrassonográfico da glândula tireoide em seus planos longitudinais, transversais e oblíquos, utilizando sonda linear de alta frequência. Avaliação cuidadosa dos lobos tireoidianos, istmo, espaços cervicais laterais e região supraclavicular bilateralmente. Estudo complementado com manobra de deglutição para melhor caracterização das lesões e dinamismo.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **Dimensões Gerais:**
+- **Lobo Tireoidiano Direito:** 55 x 28 x 35 mm (Volume estimado: 26,6 mL)
+- **Lobo Tireoidiano Esquerdo:** 58 x 30 x 37 mm (Volume estimado: 32,3 mL)
+- **Istmo:** 4 mm de espessura
+- **Volume Tireoidiano Total Estimado:** ~62 mL
+
+### **Padrão de Ecogenicidade:**
+Glândula apresenta ecogenicidade global reduzida e heterogênea, com múltiplos focos de densidades variadas, compatível com padrão difuso multinodular.
+
+### **Achados Nodulares:**
+
+**LOBO TIRE

@@ -1,0 +1,70 @@
+# LAUDO RADIOLÓGICO — MAMOGRAFIA BILATERAL
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MÉDICO SOLICITANTE:** Clínica de Oncologia e Mama  
+**RADIOLOGISTA:** Dr. [CRM]  
+**MODALIDADE:** Mamografia Digital de Campo Completo (FFDM)  
+**EQUIPAMENTO:** Hologic Selenia Dimensions
+
+---
+
+## TÉCNICA
+Mamografia bilateral com incidências padrão: crânio-caudal (CC) e oblíqua mediolateral (OML) bilaterais, complementadas por incidências adicionais magnificadas no quadrante superoexterno esquerdo.
+
+---
+
+## ACHADOS
+
+### MAMA ESQUERDA
+Glândula de densidade heterogênea, padrão ACR tipo C. Presença de nódulo no quadrante superoexterno, localizado a 14 cm da linha mamilar e 8 cm da borda superior, em posição aproximadamente correspondente às 2 horas.
+
+**Caracterização da lesão:**
+- **Dimensões:** 18 × 15 × 14 mm
+- **Morfologia:** Contornos irregulares, espiculados, com irradiação de densidade focal
+- **Densidade:** Iso a levemente hiperdensa em relação ao tecido glandular adjacente
+- **Margem:** Espiculada com densidade de longa extensão periférica (6 focos de irradiação)
+- **Localização precisa:** 2 horas, 4 cm do mamilo (sistema de clock face)
+
+A lesão apresenta características de malignidade: contorno espiculado bem definido, densidade aumentada e padrão de irradiação em estrela, sugestivo de carcinoma ductal infiltrante.
+
+### MAMA DIREITA
+Glândula de densidade heterogênea, padrão ACR tipo C. Sem achados de densidade focal significativa, nódulos ou distorções arquiteturais. Parênquima simétrico em relação contralateral. Alguns cálculos benignos de aspecto denso, com macrolobulação (características lipomatosas benignas).
+
+### ACHADOS ADICIONAIS
+Sem linfonodomegalia axilar detectável em campo mamográfico.
+
+---
+
+## CLASSIFICAÇÃO BI-RADS
+
+| Categoria | Achado | Risco de Malignidade |
+|-----------|--------|---------------------|
+| **BI-RADS 4A** | Nódulo espiculado superoexterno esquerdo | 10–50% |
+
+---
+
+## COMPARAÇÃO
+Sem exames anteriores disponíveis para comparação.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Mamografia bilateral revelando nódulo espiculado de 18 × 15 mm no quadrante superoexterno da mama esquerda (2 horas, 4 cm do mamilo), com contornos irregulares e irradiação periférica característica. As características morfológicas (espiculação, densidade aumentada, padrão em estrela) são sugestivas de lesão maligna.
+
+**Classificação: BI-RADS 4A** — Anormalidade suspeita, probabilidade intermediária de malignidade (10–50%).
+
+**CONDUTA RECOMENDADA:**
+1. Ressonância Magnética de mama esquerda para melhor caracterização e avaliação de extensão
+2. Avaliação clínica dermatológica da região para exclusão de lesão cutânea
+3. Biópsia guiada por ultrassom ou estereotaxia, conforme disponibilidade e preferência clínica
+4. Encaminhamento para oncologista/mastologista para discussão de plano terapêutico
+
+**Recomendação de seguimento:** Investigação complementar imediata — não recomendado seguimento imaginológico.
+
+---
+
+**Assinado digitalmente por:** Dr. [CRM]  
+**Data:** [DATA DO EXAME]  
+**Local:** Serviço de Radiologia e Diagnóstico por Imagem

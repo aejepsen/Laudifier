@@ -1,4 +1,3 @@
-=== TC abdome superior figado — Variante 2 ===
 Especialidade: radiologia
 Cenário: esteatose hepática moderada, sem outras alterações
 Fonte: sintético — gerado por Claude
@@ -31,7 +30,8 @@ Realizado estudo tomográfico helicoidal multislice do abdome superior com proto
 ## ACHADOS E DESCRIÇÃO DETALHADA
 
 ### **FÍGADO:**
-O fígado apresenta dimensões normais, com contornos regulares e preservação da arquitetura hepática. Observa-se diminuição difusa e homogênea da atenuação do parênquima hepático nas fases sem contraste e arterial, compatível com esteatose hepática de grau moderado. O fígado apresenta densidade inferior ao baço em todas as fases de captação, confirmando o depósito anormal de gordura intrahepática. Padrão vascular intrahepático preservado com distribuição normal das estruturas vasculares. A veia porta apresenta calibre e fluxo normais, sem sinais de trombose. As veias suprahepáticas encontram-se pérvias e com calibres simétricos.
+O fígado apresenta dimensões normais, com contornos regulares e preservação da arquitetura hepática. Observa-se diminuição difusa e homogênea da atenuação do parênquima hepático nas fases sem contraste e arterial, compatível com esteatose hepática de grau moderado. O fígado apresenta densidade inferior ao baço em todas as fases de captação, confirmando o depósito 
+mpatível com esteatose hepática de grau moderado. O fígado apresenta densidade inferior ao baço em todas as fases de captação, confirmando o depósito anormal de gordura intrahepática. Padrão vascular intrahepático preservado com distribuição normal das estruturas vasculares. A veia porta apresenta calibre e fluxo normais, sem sinais de trombose. As veias suprahepáticas encontram-se pérvias e com calibres simétricos.
 
 Não identificam-se lesões focais no parênquima hepático, nódulos ou massas. Ausência de sinais de cirrose hepática, hipertensão portal ou ascite.
 
@@ -48,6 +48,21 @@ Baço com tamanho normal (comprimento aproximado 11 cm) e parênquima homogêneo
 Rins bilateralmente simétricos com dimensões normais. Córtex e medula bem diferenciados. Sistema coletor não dilatado. Sem sinais de litíase, massas ou hidronefrose.
 
 ### **CAVIDADE PERITONEAL:**
+Ausência de ascite. Sem infiltração ou espessamento peritoneal. Peritônio visceral e parietal com aspecto habitual.
+
+### **OU
+indo glicemia em jejum, perfil lipídico e investigação de síndrome metabólica;
+- Esclarecimento de possíveis fatores etiológicos: consumo de álcool, diabetes mellitus, obesidade, dislipidemia;
+- Implementação de mudanças no estilo de vida: redução de peso, alimentação saudável, aumento de atividade física;
+- Seguimento clínico com ultrassonografia hepática em 6-12 meses para avaliação evolutiva;
+- Encaminhamento ao hepatologista para avaliação e conduta adicional, caso indicado.
+
+---
+
+## ASSINATURA E RESPONSABILIDADE
+
+**Médico Radiologista
+**CAVIDADE PERITONEAL:**
 Ausência de ascite. Sem infiltração ou espessamento peritoneal. Peritônio visceral e parietal com aspecto habitual.
 
 ### **OUTRAS ESTRUTURAS:**
@@ -77,13 +92,4 @@ A tomografia computadorizada do abdome superior demonstra achados consistentes c
 
 - Avaliação bioquímica com dosagem de enzimas hepáticas (AST, ALT, GGT, FA), bilirrubina e albumina;
 - Avaliação metabólica incluindo glicemia em jejum, perfil lipídico e investigação de síndrome metabólica;
-- Esclarecimento de possíveis fatores etiológicos: consumo de álcool, diabetes mellitus, obesidade, dislipidemia;
-- Implementação de mudanças no estilo de vida: redução de peso, alimentação saudável, aumento de atividade física;
-- Seguimento clínico com ultrassonografia hepática em 6-12 meses para avaliação evolutiva;
-- Encaminhamento ao hepatologista para avaliação e conduta adicional, caso indicado.
-
----
-
-## ASSINATURA E RESPONSABILIDADE
-
-**Médico Radiologista
+- Esclarecimento de possíveis fatores etiológicos: consumo de álcool, d

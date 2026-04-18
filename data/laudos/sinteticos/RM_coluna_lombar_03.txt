@@ -1,4 +1,37 @@
-=== RM coluna lombar — Variante 3 ===
+o houve necessidade de repetição de sequências.
+
+---
+
+## **ACHADOS / DESCRIÇÃO DETALHADA**
+
+### **Coluna Vertebral - Análise Geral**
+
+Os corpos vertebrais apresentam altura preservada, com intensidade de sinal normal em sequências ponderadas em T1 e T2, sem evidências de cifose, lordose reversa ou listese. Os discos intervertebrais demonstram hidratação adequada, com exceção do nível L4-L5, descrito abaixo.
+
+### **Análise por Segmentos**
+
+**Nível L1-L2:** Disco íntegro, sem protrusão ou extrusão. Foramina vertebral apresenta calibre normal bilateralmente. Não há estenose.
+
+**Nível L2-L3:** Disco sem alterações significativas. Foramina neurais pérvias. Recesso lateral simétrico.
+
+**Nível L3-L4:** Disco com pequena protrusão discal central simétrica, porém sem compressão significativa do saco dural. Foramina neurais com calibre dentro dos limites da normalidade.
+
+**Nível L4-L5:** 
+- **Hérnia Discal Extrusa com Sequestro:** Observa-se solução de continuidade na fibra posterior do disco L4-L5, com material nuclear hernizado extruído para o canal vertebral, caracterizando hérnia extrusa.
+- O fragmento discal migrado apresenta dimensões de aproximadamente **0,9 x 0,7 cm**, localizado predominantemente no aspecto posterolateral esquerdo, com extensão cranial até o nível do disco suprajacente.
+- **Sequestro:** Identificam-se fragmentos de sequestro discal parcialmente separados do disco matriz, sugestivos de processo degenerativo avançado com ruptura das fibras anulofibrosas.
+- **Com
+evidências de atrofia ou infiltração gordurosa significativa. Ligamento amarelo não apresenta hipertrofia relevante.
+
+### **Conus Medular**
+
+O conus medular apresenta localização normal em nível de L1, com sinal normal em todas as sequências. Sem evidências de sirinx ou alterações mielopáticas.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+1. **Hérnia Discal Extrusa com Sequestro em L4-L5** -
 Especialidade: radiologia
 Cenário: hérnia extrusa L4-L5 com sequestro
 Fonte: sintético — gerado por Claude
@@ -45,20 +78,8 @@ Foram adquiridas imagens com espessura de corte de 4mm (gap 0,4mm), com matriz d
 
 ### **Coluna Vertebral - Análise Geral**
 
-Os corpos vertebrais apresentam altura preservada, com intensidade de sinal normal em sequências ponderadas em T1 e T2, sem evidências de cifose, lordose reversa ou listese. Os discos intervertebrais demonstram hidratação adequada, com exceção do nível L4-L5, descrito abaixo.
-
-### **Análise por Segmentos**
-
-**Nível L1-L2:** Disco íntegro, sem protrusão ou extrusão. Foramina vertebral apresenta calibre normal bilateralmente. Não há estenose.
-
-**Nível L2-L3:** Disco sem alterações significativas. Foramina neurais pérvias. Recesso lateral simétrico.
-
-**Nível L3-L4:** Disco com pequena protrusão discal central simétrica, porém sem compressão significativa do saco dural. Foramina neurais com calibre dentro dos limites da normalidade.
-
-**Nível L4-L5:** 
-- **Hérnia Discal Extrusa com Sequestro:** Observa-se solução de continuidade na fibra posterior do disco L4-L5, com material nuclear hernizado extruído para o canal vertebral, caracterizando hérnia extrusa.
-- O fragmento discal migrado apresenta dimensões de aproximadamente **0,9 x 0,7 cm**, localizado predominantemente no aspecto posterolateral esquerdo, com extensão cranial até o nível do disco suprajacente.
-- **Sequestro:** Identificam-se fragmentos de sequestro discal parcialmente separados do disco matriz, sugestivos de processo degenerativo avançado com ruptura das fibras anulofibrosas.
+Os corpos verteb
+de sequestro discal parcialmente separados do disco matriz, sugestivos de processo degenerativo avançado com ruptura das fibras anulofibrosas.
 - **Compressão Neural:** O material hernizado comprime significativamente a raiz nervosa L5 esquerda no recesso lateral, determinando redução importante do espaço disponível. O saco dural é deslocado e comprimido, porém ainda mantém contato com o material hernizado sem ocluir completamente a emergência radicular contralateral.
 - **Sinal Intra-discal:** O disco L4-L5 apresenta sinal heterogêneo em T2, com áreas de hipossinal periférico sugestivas de fibrose e degeneração discal avançada (Thompson IV-V).
 
@@ -77,10 +98,4 @@ Musculatura paravertebral bilateral apresenta volume normal, sem evidências de 
 
 ### **Conus Medular**
 
-O conus medular apresenta localização normal em nível de L1, com sinal normal em todas as sequências. Sem evidências de sirinx ou alterações mielopáticas.
-
----
-
-## **IMPRESSÃO DIAGNÓSTICA**
-
-1. **Hérnia Discal Extrusa com Sequestro em L4-L5** -
+O conus m

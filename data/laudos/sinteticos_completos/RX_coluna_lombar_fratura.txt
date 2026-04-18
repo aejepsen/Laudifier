@@ -1,0 +1,81 @@
+# LAUDO RADIOLÓGICO
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MODALIDADE:** Radiografia Simples  
+**REGIÃO ANALISADA:** Coluna Vertebral Lombar  
+**MÉDICO RESPONSÁVEL:** Dr. [CRM]
+
+---
+
+## TÉCNICA
+
+Radiografias da coluna lombar foram obtidas nas projeções anteroposterior e perfil, em posição ortostática. Qualidade técnica satisfatória com adequada penetração e posicionamento. Aparelhos de síntese ou osteossíntese: ausentes.
+
+---
+
+## ANÁLISE SISTEMÁTICA
+
+### Estrutura Óssea
+
+**Corpos vertebrais:** 
+- L1: Apresenta redução da altura do corpo vertebral em aproximadamente 35%, mensurada na região anterior, de 24 mm na atual avaliação contra 37 mm estimado na altura normal. Contorno anterior das plataformas vertebrais regulares. Margens ósseas bem definidas.
+- L2 a L5: Alturas preservadas, com valores entre 29-31 mm. Contornos normais, sem sinais de fratura, lise ou esclerose.
+- Densidade óssea: Preservada, sem sinais de osteopenia significativa. Índice de Cobb para a cifose torácica: 22 graus (normal).
+
+**Platôs vertebrais:**
+- Platô superior de L1: Discretamente irregular com pequeno degrau anterior de aproximadamente 2 mm, compatível com fratura por compressão.
+- Platôs de L2 a L5: Integros, sem irregularidades.
+
+**Apófises transversas e espinhosas:** Íntegras e simétricas em toda extensão.
+
+### Espaços Intervertebrados
+
+- L1-L2: Espaço de 8 mm, altura normal preservada.
+- L2-L3: Espaço de 9 mm, sem sinais de degeneração discal.
+- L3-L4: Espaço de 9 mm, contorno regular.
+- L4-L5: Espaço de 8 mm, sem estenose evidente.
+- L5-S1: Espaço de 7 mm, altura preservada.
+
+### Alinhamento e Curvatura
+
+- Lordose lombar: Preservada com ângulo de 38 graus (normal: 30-50 graus).
+- Alinhamento anterior: Regular em toda extensão, sem subluxação ou deslocamento.
+- Alinhamento posterior (linha de Chamberlain): Normal.
+
+### Articulações Facetárias
+
+Bilateralmente simétricas e bem alineadas em L2 a L5. Sem sinais de osteoartrose ou esclerose significativa.
+
+### Partes Moles
+
+Sem achados relevantes. Contorno abdominal normal, sem evidência de massas ou opacidades anormais adjacentes.
+
+---
+
+## ACHADOS PRINCIPAIS
+
+**Fratura de L1 do tipo compressão anterior:**
+- Perda de altura corporal anterior em aproximadamente 35%, com corpo vertebral mensurado em 24 mm.
+- Irregularidade do platô superior anterior com degrau cortical de 2 mm.
+- Ausência de cominuição ou fragmentos retropulsionados.
+- Integridade da linha posterior e do canal vertebral preservada.
+- Sem sinais de deslocamento ou instabilidade dinâmica.
+
+**Achados secundários:**
+- Preservação dos espaços discais adjacentes.
+- Alinhamento mantido da coluna vertebral.
+- Sem estenose de canal evidente.
+- Ausência de outras fraturas ou lesões osteolíticas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Radiografia da coluna lombar demonstra **fratura por compressão anterior do corpo vertebral de L1** com redução de altura de aproximadamente 35% e irregularidade do platô superior anterior compatível com mecanismo de compressão axial. Não são evidenciados sinais de cominuição significativa, retropulsão do fragmento ou comprometimento direto do canal medular. Alinhamento vertebral e estrutura dos demais segmentos preservados. Achado radiológico compatível com fratura vertebral tipo Genant II (compressão moderada). Correlação clínica e avaliação complementar conforme protocolos institucionais recomendada.
+
+---
+
+**Data do Relatório:** [DATA DO EXAME]  
+**Assinado digitalmente por:** Radiologista  
+**CRM:** [CRM]

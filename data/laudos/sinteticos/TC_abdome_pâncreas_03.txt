@@ -1,4 +1,67 @@
-=== TC abdome pâncreas — Variante 3 ===
+lculos.
+
+### **Alças Intestinais:**
+Alças do intestino delgado e grosso com calibre normal, sem sinais de obstrução ou isquemia. Sem pneumatose intestinal.
+
+### **Estruturas Vasculares:**
+Aorta abdominal e vasos ilíacos com calibre normal, sem aneurismas. Veia cava inferior pérvea. Tronco celíaco, artéria mesentérica superior e artéria mesentérica inferior com fluxo preservado, sem estenose significativa.
+
+### **Estruturas Ósseas e Partes Moles:**
+Corpos vertebrais sem colapsos ou lesões focais. Sem massas de partes moles.
+
+### **Pelve (se aplicável):**
+Órgãos pélvicos sem alterações relevantes.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Cisto pancreático simples no corpo pancreático, medindo 1,8 cm**, com características radiológicas compatíveis com lesão benigna (Srivastava-Sahani grade 1 - cisto simples, sem critério de risco de malignidade).
+
+2. Pâncreas e estruturas adjacentes sem outras alterações relevantes.
+
+3. Vesícula biliar, vias biliares e fígado sem alterações.
+
+4. Baço, rins e estruturas vasculares abdominais sem anormalidades.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+O achado de cisto pancreático simples, medindo 1,8 cm, é uma lesão benigna, não apresentando critérios de risco de malignidade segundo os critérios internacionais de imagem (Fukuoka guidelines/Srivastava-Sahani).
+
+**Recomendações:**
+
+- **Seguimento:** Não necessário acompanhamento de imagem rotineiro para cistos pancreáticos simples menores que 2 cm, sem características de risco, conforme recomendações das so
+CHADOS
+
+### **Pâncreas:**
+Pâncreas com volume, densidade e contorno normais. Observa-se **lesão cística simples localizada no corpo pancreático**, com as seguintes características:
+
+- **Localização:** Corpo pancreático, região medial
+- **Dimensões:** 1,8 cm de maior eixo
+- **Morfologia:** Redonda, bem delimitada
+- **Densidade:** Atenuação de líquido puro (aproximadamente 0-10 UH)
+- **Paredes:** Finas e regulares, sem realce após administração de contraste iodado
+- **Conteúdo:** Homogêneo, sem septos, sem componentes sólidos ou calcificações
+- **Características de Malignidade:** Ausentes
+
+O pâncreas adjacente não apresenta sinais de inflamação, edema ou alterações em sua ecotextura. Os ductos pancreáticos (ducto pancreático principal e ductos secundários) apresentam calibre normal, sem evidência de dilatação, obstrução ou deslocamento.
+
+### **Vias Biliares:**
+Vesícula biliar distendida, de paredes finas e regulares, sem cálculos. Colédoco com calibre normal.
+
+### **Fígado:**
+Fígado com volume normal, contorno regular e homogeneidade parenquimatosa preservada. Sem lesões focais. Sem sinais de fibrose ou cirrose. Sem ascite perihepática.
+
+### **Baço:**
+Baço com volume e densidade normais, sem lesões focais.
+
+### **Rins:**
+Rins com tamanho, contorno e diferenciação cortico-medular preservados bilateralmente. Sem hidronefrose. Sem cálculos.
+
+### **Alças Intestinais:**
+Alças do intestino delgado e grosso com calibre normal, sem sinais de obstrução ou isquemia. Sem pneumatose intest
 Especialidade: radiologia
 Cenário: cisto pancreático simples no corpo, 1,8 cm
 Fonte: sintético — gerado por Claude
@@ -40,63 +103,8 @@ Tomografia computadorizada multislice do abdome e pelve realizada com protocolo 
 ## ACHADOS
 
 ### **Pâncreas:**
-Pâncreas com volume, densidade e contorno normais. Observa-se **lesão cística simples localizada no corpo pancreático**, com as seguintes características:
-
-- **Localização:** Corpo pancreático, região medial
-- **Dimensões:** 1,8 cm de maior eixo
-- **Morfologia:** Redonda, bem delimitada
-- **Densidade:** Atenuação de líquido puro (aproximadamente 0-10 UH)
-- **Paredes:** Finas e regulares, sem realce após administração de contraste iodado
-- **Conteúdo:** Homogêneo, sem septos, sem componentes sólidos ou calcificações
-- **Características de Malignidade:** Ausentes
-
-O pâncreas adjacente não apresenta sinais de inflamação, edema ou alterações em sua ecotextura. Os ductos pancreáticos (ducto pancreático principal e ductos secundários) apresentam calibre normal, sem evidência de dilatação, obstrução ou deslocamento.
-
-### **Vias Biliares:**
-Vesícula biliar distendida, de paredes finas e regulares, sem cálculos. Colédoco com calibre normal.
-
-### **Fígado:**
-Fígado com volume normal, contorno regular e homogeneidade parenquimatosa preservada. Sem lesões focais. Sem sinais de fibrose ou cirrose. Sem ascite perihepática.
-
-### **Baço:**
-Baço com volume e densidade normais, sem lesões focais.
-
-### **Rins:**
-Rins com tamanho, contorno e diferenciação cortico-medular preservados bilateralmente. Sem hidronefrose. Sem cálculos.
-
-### **Alças Intestinais:**
-Alças do intestino delgado e grosso com calibre normal, sem sinais de obstrução ou isquemia. Sem pneumatose intestinal.
-
-### **Estruturas Vasculares:**
-Aorta abdominal e vasos ilíacos com calibre normal, sem aneurismas. Veia cava inferior pérvea. Tronco celíaco, artéria mesentérica superior e artéria mesentérica inferior com fluxo preservado, sem estenose significativa.
-
-### **Estruturas Ósseas e Partes Moles:**
-Corpos vertebrais sem colapsos ou lesões focais. Sem massas de partes moles.
-
-### **Pelve (se aplicável):**
-Órgãos pélvicos sem alterações relevantes.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Cisto pancreático simples no corpo pancreático, medindo 1,8 cm**, com características radiológicas compatíveis com lesão benigna (Srivastava-Sahani grade 1 - cisto simples, sem critério de risco de malignidade).
-
-2. Pâncreas e estruturas adjacentes sem outras alterações relevantes.
-
-3. Vesícula biliar, vias biliares e fígado sem alterações.
-
-4. Baço, rins e estruturas vasculares abdominais sem anormalidades.
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-O achado de cisto pancreático simples, medindo 1,8 cm, é uma lesão benigna, não apresentando critérios de risco de malignidade segundo os critérios internacionais de imagem (Fukuoka guidelines/Srivastava-Sahani).
-
-**Recomendações:**
-
-- **Seguimento:** Não necessário acompanhamento de imagem rotineiro para cistos pancreáticos simples menores que 2 cm, sem características de risco, conforme recomendações das sociedades internacionais (American Gastroenterological Association, European Society of Gastrointestinal Endoscopy).
+Pâncreas com volume, densidade e contorno normais. Observa-se **lesão cística simples localizada no corpo pancreático**, com
+ário acompanhamento de imagem rotineiro para cistos pancreáticos simples menores que 2 cm, sem características de risco, conforme recomendações das sociedades internacionais (American Gastroenterological Association, European Society of Gastrointestinal Endoscopy).
 
 - Caso haja desenvolvimento de sintomas, orientar novo estudo de imagem.
 

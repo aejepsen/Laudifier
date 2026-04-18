@@ -1,4 +1,3 @@
-=== TC abdome rins vias urinarias — Variante 3 ===
 Especialidade: radiologia
 Cenário: cisto renal simples bilateral (Bosniak I)
 Fonte: sintético — gerado por Claude
@@ -45,6 +44,19 @@ Realizado estudo tomográfico multislice do abdômen e pelve com aquisição vol
 - Densidade parenquimatosa uniforme, sem sinais de hidronefrose, nefrolitíase ou sinais de inflamação aguda.
 
 **Formações Císticas:**
+- Identifica-se cisto renal simples no pólo superior do rim direito, medindo aproximadamente 1,8 cm, de contorno bem definido, paredes
+o paciente sobre o achado incidental e sua benignidade
+- Manter acompanhamento clínico de rotina com nefrologista/urologista, caso indicado pela clínica do paciente
+
+---
+
+## ASSINATURA
+
+**Médico Radiologista:** ___________________________________  
+**Nome:** [NOME COMPLETO]  
+**CRM:** [NÚMERO]/[UF]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem
+ões Císticas:**
 - Identifica-se cisto renal simples no pólo superior do rim direito, medindo aproximadamente 1,8 cm, de contorno bem definido, paredes finas e imperceptíveis, densidade líquida (aproximadamente 8 UH), sem septações, calcificações ou componente sólido. Classificação de Bosniak: I.
 - Identifica-se cisto renal simples no pólo inferior do rim esquerdo, medindo aproximadamente 2,1 cm, de contorno bem definido, paredes finas, densidade líquida (aproximadamente 6 UH), sem septações, calcificações ou realce após injeção de contraste. Classificação de Bosniak: I.
 
@@ -67,6 +79,13 @@ Realizado estudo tomográfico multislice do abdômen e pelve com aquisição vol
 
 **Baço:**
 - Dimensões normais, densidade adequada, sem lesões focais.
+
+**Glândulas Adrenais:**
+- Normais bilateralmente, sem espessamento ou lesões.
+
+**Alças Intestinais:**
+- Alças de delgado e cól
+da, sem lesões focais.
 
 **Glândulas Adrenais:**
 - Normais bilateralmente, sem espessamento ou lesões.
@@ -108,13 +127,4 @@ Os achados tomográficos demonstram cistos renais simples bilaterais, Bosniak I,
 - Nenhuma conduta intervencionista é necessária
 - Não há indicação de seguimento com imagem para essas lesões
 - Orientar o paciente sobre o achado incidental e sua benignidade
-- Manter acompanhamento clínico de rotina com nefrologista/urologista, caso indicado pela clínica do paciente
-
----
-
-## ASSINATURA
-
-**Médico Radiologista:** ___________________________________  
-**Nome:** [NOME COMPLETO]  
-**CRM:** [NÚMERO]/[UF]  
-**Especialidade:** Radiologia e Diagnóstico por Imagem  
+- Manter acompanhamento clínico de rotina com nefrologista/urologista, caso indicado pela clíni

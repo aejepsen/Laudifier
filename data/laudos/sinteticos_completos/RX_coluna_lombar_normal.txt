@@ -1,0 +1,58 @@
+# LAUDO RADIOLÓGICO
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MODALIDADE:** Radiografia  
+**REGIÃO ESTUDADA:** Coluna Lombar  
+**MÉDICO RESPONSÁVEL:** Dr. [CRM]
+
+---
+
+## TÉCNICA
+
+Radiografias da coluna lombar obtidas em incidências anteroposterior (AP) e perfil (P), com paciente em posição ortostática. Qualidade técnica adequada. Colimação apropriada com inclusão de estruturas de interesse. Sem artefatos significativos que comprometam a análise.
+
+---
+
+## ACHADOS
+
+**Alinhamento e Curvatura:**
+A coluna lombar apresenta alinhamento longitudinal preservado, sem desvio do eixo. A lordose fisiológica está mantida, com curvatura regular em toda extensão do segmento. Os platôs vertebrais encontram-se adequadamente alinhados entre si nas projeções frontal e sagital.
+
+**Corpos Vertebrais:**
+Todos os cinco corpos vertebrais lombares (L1, L2, L3, L4 e L5) apresentam altura normal e simétrica, sem sinais de colapso, fratura ou erosão. A densidade óssea é uniforme e apropriada para a faixa etária. Contornos vertebrais bem definidos, sem irregularidades marginais ou osteófitos significativos.
+
+**Discos Intervertebrais:**
+Os espaços discais apresentam altura normal:
+- L1-L2: 11,5 mm
+- L2-L3: 12,0 mm
+- L3-L4: 11,8 mm
+- L4-L5: 12,3 mm
+- L5-S1: 11,7 mm
+
+Não há evidência de protrusão discal, herniação ou desidratação significativa. Contornos dos discos regulares e simétricos.
+
+**Articulações Facetárias:**
+As articulações zigapofisárias encontram-se permeáveis bilateralmente em todos os níveis, sem sinais de artropatia hipertrófica ou estreitamento articular significativo.
+
+**Espaços Foraminas:**
+Os forames intervertebrais encontram-se pérvios bilateralmente, sem sinais de estreitamento de padrão central, lateral ou foraminal que sugerissem compressão radicular.
+
+**Estruturas Ósseas Adjacentes:**
+As apófises transversas apresentam continuidade e simetria normais. Não há lise, hipertrofia ou alterações ósseas focais. O sacro e a articulação lombossacra encontram-se normais. Não há sinais de espondilolístese, espondilólise ou deslocamento vertebral.
+
+**Tecidos Moles:**
+Os espaços paravertebrais encontram-se preservados, sem evidência de massa, coleção ou alteração significativa de partes moles.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Radiografia da coluna lombar sem alterações significativas.** Alinhamento vertebral normal com preservação de lordose fisiológica. Altura discal normal em todos os níveis L1-S1, sem sinais de degeneração discal, protrusão ou herniação. Forames intervertebrais pérvios bilateralmente. Ausência de fraturas, espondilolístese, espondilólise ou artropatia facetária significativa. Densidade óssea adequada. **Conclusão: Coluna lombar normal.**
+
+---
+
+**Assinado digitalmente por:**  
+Dr. [CRM]  
+Radiologista Sênior  
+[DATA DO EXAME]

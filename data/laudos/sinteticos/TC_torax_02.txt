@@ -1,4 +1,26 @@
-=== TC torax — Variante 2 ===
+ção e avaliação de estabilidade
+
+3. Considerar avaliação clínica multidisciplinar caso haja crescimento, mudança de características morfológicas ou outros achados clínicos relevantes
+
+4. Paciente deve ser orientado sobre importância da adesão ao protocolo de seguimento
+
+---
+
+## ASSINATURA
+
+**RADIOLOGISTA RESPONSÁVEL:**
+
+_________________________________________________
+
+**Nome:** [NOME COMPLETO]  
+**CRM:** [Nº CRM/UF]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Data:** _____ / _____ / _______  
+**Hora:** ________
+
+---
+
+**Nota:** Este laudo é de caráter informativo
 Especialidade: radiologia
 Cenário: nódulo pulmonar solitário de 8 mm no lobo superior direito
 Fonte: sintético — gerado por Claude
@@ -38,32 +60,8 @@ Tomografia computadorizada helicoidal multidetetor do tórax realizada em equipa
 Identificado **nódulo pulmonar sólido, arredondado, bem delimitado, medindo 8 mm de diâmetro máximo, localizado no segmento apical do lobo superior direito** (coordenadas aproximadas: 3 cm da pleura visceral, 2,5 cm do hilum).
 
 O nódulo apresenta as seguintes características:
-- **Morfologia:** Arredondada, contornos regulares
-- **Densidade:** Homogênea, sem calcificações visíveis
-- **Atenuação:** Semelhante ao parênquima pulmonar adjacente, sem realce significativo após administração de contraste
-- **Localização:** Lobo superior direito, segmento apical (subsegmental)
-- **Singularidade:** Nódulo solitário, sem outros nódulos detectados nos pulmões bilateralmente
-
-### Avaliação Pleural
-Pleura visceral e parietal íntegras. Sem derrame pleural. Sem espessamento pleural focal ou difuso.
-
-### Espaço Intersticial
-Sem sinais de fibrose pulmonar ou infiltrados intersticiais.
-
-### Vias Aéreas
-Árvore traqueobrônquica pérvea até suas ramificações distais. Sem evidências de estenose ou massas endobrônquicas.
-
-### Hilum Pulmonar
-Estruturas hilares bilateralmente normais, sem linfadenopatia regional.
-
-### Mediastino
-Mediastino de aspecto normal. Sem massas mediastinais. Sem linfadenopatia mediastinal (sem adenomegalias com diâmetro transverso superior a 10 mm).
-
-### Coração e Grandes Vasos
-Silhueta cardíaca de tamanho normal. Aorta torácica de calibre e trajeto normais. Veia cava superior e inferior sem anormalidades. Sem tromboembolismo pulmonar agudo.
-
-### Esqueleto Axial
-Coluna vertebral e arcos costais íntegros, sem lesões líticas ou osteocondensações anormais. Sem fraturas agudas.
+- **Morfologia:** Arredond
+ arcos costais íntegros, sem lesões líticas ou osteocondensações anormais. Sem fraturas agudas.
 
 ### Achados Incidentais
 Pequenos linfonodos hilarais bilateralmente com dimensões dentro dos limites normais.
@@ -92,24 +90,36 @@ Nódulo pulmonar sólido de 8 mm identificado no segmento apical do lobo superio
    - História clínica e fatores de risco (tabagismo, exposições ocupacionais, antecedentes oncológicos pessoais ou familiares)
    - Tomografias prévias, se disponíveis, para comparação e avaliação de estabilidade
 
-3. Considerar avaliação clínica multidisciplinar caso haja crescimento, mudança de características morfológicas ou outros achados clínicos relevantes
+3. Considerar avaliação clínica multidisciplinar caso haja crescimento, mudança de características morfológicas ou ou
+to** (coordenadas aproximadas: 3 cm da pleura visceral, 2,5 cm do hilum).
 
-4. Paciente deve ser orientado sobre importância da adesão ao protocolo de seguimento
+O nódulo apresenta as seguintes características:
+- **Morfologia:** Arredondada, contornos regulares
+- **Densidade:** Homogênea, sem calcificações visíveis
+- **Atenuação:** Semelhante ao parênquima pulmonar adjacente, sem realce significativo após administração de contraste
+- **Localização:** Lobo superior direito, segmento apical (subsegmental)
+- **Singularidade:** Nódulo solitário, sem outros nódulos detectados nos pulmões bilateralmente
 
----
+### Avaliação Pleural
+Pleura visceral e parietal íntegras. Sem derrame pleural. Sem espessamento pleural focal ou difuso.
 
-## ASSINATURA
+### Espaço Intersticial
+Sem sinais de fibrose pulmonar ou infiltrados intersticiais.
 
-**RADIOLOGISTA RESPONSÁVEL:**
+### Vias Aéreas
+Árvore traqueobrônquica pérvea até suas ramificações distais. Sem evidências de estenose ou massas endobrônquicas.
 
-_________________________________________________
+### Hilum Pulmonar
+Estruturas hilares bilateralmente normais, sem linfadenopatia regional.
 
-**Nome:** [NOME COMPLETO]  
-**CRM:** [Nº CRM/UF]  
-**Especialidade:** Radiologia e Diagnóstico por Imagem  
-**Data:** _____ / _____ / _______  
-**Hora:** ________
+### Mediastino
+Mediastino de aspecto normal. Sem massas mediastinais. Sem linfadenopatia mediastinal (sem adenomegalias com diâmetro transverso superior a 10 mm).
 
----
+### Coração e Grandes Vasos
+Silhueta cardíaca de tamanho normal. Aorta torácica de calibre e trajeto normais. Veia cava superior e inferior sem anormalidades. Sem tromboembolismo pulmonar agudo.
 
-**Nota:** Este laudo é de caráter informativo
+### Esqueleto Axial
+Coluna vertebral e arcos costais íntegros, sem lesões líticas ou osteocondensações anormais. Sem fraturas agudas.
+
+### Achados Incidentais
+Pequenos linfonodos hilarais 

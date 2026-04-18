@@ -1,4 +1,35 @@
-=== TC coluna lombar — Variante 4 ===
+diológicas sugestivas de lesão crônica/constitucional
+2. Coluna lombar remanescente dentro dos limites normais
+3. Sem espondilólise em outros níveis
+4. Ausência de espondilolístese associada
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Tomografia computadorizada confirma **espondilólise bilateral em L5** sem evidências de instabilidade vertebral ou deslocamento (espondilolístese) no momento. Estruturas discais e foraminas neurais íntegras. Não há sinais de compressão neurológica.
+
+**Recomendações:**
+- Correlação clínica com sintomatologia do paciente
+- Avaliação de ressonância magnética de coluna lombar se houver sintomas neurológicos ou para melhor caracterização de possível afetamento de estruturas moles
+- Seguimento com médico assistente para orientação conservadora ou intervencionista, conforme indicação clínica
+- Radiografias simples de seguimento se necessário acompanhamento evolutivo
+
+---
+
+## RESPONSÁVEL PELO LAUDO
+
+**Médico Radiologista:** [NOME COMPLETO]  
+**Especialista em:** Radiologia e Diagnóstico por Imagem  
+**Registro no CRM:** [UF - Nº _________]  
+**Registro na ACRB:** [Nº _________]  
+
+**Data:** [__/__/____]  
+**Assinatura:** ________________________
+
+---
+
+*Laudo emitido de acordo com as normas técnicas do Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR) e regulamentações da ANVISA.*
 Especialidade: radiologia
 Cenário: espondilólise bilateral em L5
 Fonte: sintético — gerado por Claude
@@ -38,6 +69,9 @@ Alinhamento sagital adequado da coluna lombar. Altura dos corpos vertebrais pres
 **Espondilólise bilateral em L5:**
 - Visualizam-se solução de continuidade bilateral nas porções istmo-articulares de L5, melhor caracterizadas nas reconstruções multiplanares e nas reformatações 3D
 - As fraturas apresentam aspecto crônico, com bordos suavizados
+- Não há sinais de fratura aguda (au
+econstruções multiplanares e nas reformatações 3D
+- As fraturas apresentam aspecto crônico, com bordos suavizados
 - Não há sinais de fratura aguda (ausência de edema ósseo perilesional)
 - Confirmação bilateral e simétrica, sugestivo de lesão congênita ou de estresse crônico
 
@@ -71,32 +105,28 @@ Musculatura paravertebral simétrica. Sem massas de partes moles. Gordura epidur
 1. **Espondilólise bilateral em L5** – Com características radiológicas sugestivas de lesão crônica/constitucional
 2. Coluna lombar remanescente dentro dos limites normais
 3. Sem espondilólise em outros níveis
-4. Ausência de espondilolístese associada
+4
+3. **Ressonância magnética** caso haja sintomatologia neurológica associada, dor radicular ou para melhor caracterização de partes moles;
+
+4. **Orientação fisioterápica** com restrição de atividades de alto impacto e flexão de coluna;
+
+5. **Seguimento clínico periódico** para monitorar possível progressão ou instabilidade.
 
 ---
 
-## CONCLUSÃO E RECOMENDAÇÕES
+## ASSINATURA
 
-Tomografia computadorizada confirma **espondilólise bilateral em L5** sem evidências de instabilidade vertebral ou deslocamento (espondilolístese) no momento. Estruturas discais e foraminas neurais íntegras. Não há sinais de compressão neurológica.
+**Médico Responsável:** ____________________________________
 
-**Recomendações:**
-- Correlação clínica com sintomatologia do paciente
-- Avaliação de ressonância magnética de coluna lombar se houver sintomas neurológicos ou para melhor caracterização de possível afetamento de estruturas moles
-- Seguimento com médico assistente para orientação conservadora ou intervencionista, conforme indicação clínica
-- Radiografias simples de seguimento se necessário acompanhamento evolutivo
+**Nome (Legível):** ____________________________________
 
----
+**Especialidade:** Radiologia e Diagnóstico por Imagem
 
-## RESPONSÁVEL PELO LAUDO
-
-**Médico Radiologista:** [NOME COMPLETO]  
-**Especialista em:** Radiologia e Diagnóstico por Imagem  
-**Registro no CRM:** [UF - Nº _________]  
-**Registro na ACRB:** [Nº _________]  
+**CREMESP nº:** ____________________________________
 
 **Data:** [__/__/____]  
-**Assinatura:** ________________________
+**Hora:** [__:__]
 
 ---
 
-*Laudo emitido de acordo com as normas técnicas do Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR) e regulamentações da ANVISA.*
+*Laudo emitido conforme normas técnicas da Sociedade Brasileira de Radiologia (SBR) e colegialidades internacionais.*

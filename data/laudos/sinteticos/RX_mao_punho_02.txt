@@ -1,4 +1,3 @@
-=== RX mao punho — Variante 2 ===
 Especialidade: radiologia
 Cenário: fratura do escafóide — traço linear na cintura
 Fonte: sintético — gerado por Claude
@@ -44,6 +43,19 @@ Estruturas ósseas: Análise dos ossos do carpo, metacarpianos e falanges.
 
 **Partes moles:** Discreto edema de partes moles periungueal, compatível com trauma recente. Sem outras alterações relevantes.
 
+**Articulações:** Inter
+logia  
+**RANK:** [REGISTRO, se aplicável]
+
+**Data:** [DD/MM/AAAA] | **Hora:** [HH:MM]
+
+**Assinatura:** ___________________________ 
+
+---
+
+*Laudo gerado em conformidade com as Normas Técnicas da Radiologia Brasileira e Colégio Brasileiro de Radiologia (CBR).*
+*Partes moles:** Discreto edema de partes moles periungueal, compatível com trauma recente. Sem outras alterações relevantes.
+
 **Articulações:** Interlinha articular radiocárpica preservada. Sem sinais de subluxação ou instabilidade.
 
 ---
@@ -84,4 +96,4 @@ Confirma-se fratura aguda do osso escafóide em sua região cintura, apresentand
 
 ---
 
-*Laudo gerado em conformidade com as Normas Técnicas da Radiologia Brasileira e Colégio Brasileiro de Radiologia (CBR).*
+*Laudo gera

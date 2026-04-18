@@ -1,4 +1,3 @@
-=== RM encefalo — Variante 3 ===
 Especialidade: radiologia
 Cenário: glioma de baixo grau no lobo frontal esquerdo, 3 cm
 Fonte: sintético — gerado por Claude
@@ -41,27 +40,20 @@ Realizado exame de ressonância magnética encefálica (RM encéfalo) em equipam
 ## **ACHADOS**
 
 ### **Localização da Lesão**
-Identificada lesão expansiva intra-axial, bem delimitada, localizada no lobo frontal esquerdo, medindo aproximadamente **3,0 cm** em seu maior eixo, com centro localizado próximo à região do córtex pré-motor e giro frontal superior.
+Identificada lesão expansiva intra-axial, bem delimitada, localizada no lobo frontal esquerdo, medindo aproximadamente **3,0 cm** em seu maior eixo, com centro localizado próximo à 
+ diagnóstica principal).
 
-### **Características Morfológicas**
-- **Forma**: Contornos levemente lobulados
-- **Limites**: Parcialmente bem definidos, com plano de clivagem parcialmente preservado em relação ao parênquima adjacente
-- **Dimensões**: 3,0 × 2,6 × 2,8 cm (eixo ântero-posterior × transversal × crânio-caudal)
+**Achados sugestivos:**
+- Sinal heterogêneo em T2/FLAIR com componente de restrição difusional
+- Realce heterogêneo pós-contraste
+- Contornos parcialmente bem definidos
+- Edema vasogênico moderado perilesional
+- Efeito de massa moderado
 
-### **Sinal e Intensidade**
-
-**Sequências não contrastadas:**
-- **T1**: Lesão apresentando sinal intermediário a ligeiramente hipointenso em relação ao córtex cerebral normal, sem focos de hipersinal sugestivos de hemorragia subaguda
-- **T2/FLAIR**: Hipersinal acentuado, compatível com conteúdo líquido ou hipercelularidade
-- **DWI/ADC**: Restrição leve a moderada da difusão, com valores de ADC reduzidos, sugestivo de hipercelularidade
-
-**Sequências pós-contraste:**
-- Realce heterogêneo e progressivo do lesão, predominantemente periférico, com núcleo central não realçado sugestivo de componente cístico ou de necrose
-
-### **Efeito de Massa**
-Edema vasogênico moderado do parênquima adjacente, principalmente em distribuição subcortical perilesional, determinando:
-- Apagamento parcial do sulco adjacente
-- Desvio de estruturas da linha média de aproximadamente **0,5 cm** para a direita
+**Diagnóstico diferencial:**
+- Astrocitoma difuso de baixo grau (Grau II)
+- Oligodendroglioma (menos provável - pela distribuição e padrão de realce)
+proximadamente **0,5 cm** para a direita
 - Sem sinais de herniação encefálica ou hidrocefalia obstrutiva
 - Ventrículos laterais e demais estruturas ventriculares mantêm dimensões e posição normais
 
@@ -91,11 +83,27 @@ Lesão expansiva intra-axial do lobo frontal esquerdo, medindo 3,0 cm, apresenta
 
 **Achados sugestivos:**
 - Sinal heterogêneo em T2/FLAIR com componente de restrição difusional
-- Realce heterogêneo pós-contraste
-- Contornos parcialmente bem definidos
-- Edema vasogênico moderado perilesional
-- Efeito de massa moderado
+- Realce heterogêneo pós-cont
+tra-axial, bem delimitada, localizada no lobo frontal esquerdo, medindo aproximadamente **3,0 cm** em seu maior eixo, com centro localizado próximo à região do córtex pré-motor e giro frontal superior.
 
-**Diagnóstico diferencial:**
-- Astrocitoma difuso de baixo grau (Grau II)
-- Oligodendroglioma (menos provável - pela distribuição e padrão de realce)
+### **Características Morfológicas**
+- **Forma**: Contornos levemente lobulados
+- **Limites**: Parcialmente bem definidos, com plano de clivagem parcialmente preservado em relação ao parênquima adjacente
+- **Dimensões**: 3,0 × 2,6 × 2,8 cm (eixo ântero-posterior × transversal × crânio-caudal)
+
+### **Sinal e Intensidade**
+
+**Sequências não contrastadas:**
+- **T1**: Lesão apresentando sinal intermediário a ligeiramente hipointenso em relação ao córtex cerebral normal, sem focos de hipersinal sugestivos de hemorragia subaguda
+- **T2/FLAIR**: Hipersinal acentuado, compatível com conteúdo líquido ou hipercelularidade
+- **DWI/ADC**: Restrição leve a moderada da difusão, com valores de ADC reduzidos, sugestivo de hipercelularidade
+
+**Sequências pós-contraste:**
+- Realce heterogêneo e progressivo do lesão, predominantemente periférico, com núcleo central não realçado sugestivo de componente cístico ou de necrose
+
+### **Efeito de Massa**
+Edema vasogênico moderado do parênquima adjacente, principalmente em distribuição subcortical perilesional, determinando:
+- Apagamento parcial do sulco adjacente
+- Desvio de estruturas da linha média de aproximadamente **0,5 cm** para a direita
+- Sem sinais de herniação encefálica ou hidrocefalia obstrutiva
+- Ventrículos laterais e demais estruturas ve

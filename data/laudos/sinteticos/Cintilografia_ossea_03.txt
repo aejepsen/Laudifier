@@ -1,4 +1,3 @@
-=== Cintilografia ossea — Variante 3 ===
 Especialidade: medicina_nuclear
 Cenário: hipercaptação focal em L3 — fratura por compressão, sem outras lesões
 Fonte: sintético — gerado por Claude
@@ -42,32 +41,8 @@ Foi realizada cintilografia óssea com injeção intravenosa de 25 mCi (925 MBq)
 Na análise da cintilografia óssea trifásica da coluna vertebral, observa-se:
 
 **Achado Principal:**
-- **Hipercaptação focal moderada em L3**, com padrão de acúmulo agudo compatível com reação osteogênica reparadora. A lesão apresenta-se bem delimitada, em região anterior do corpo vertebral, sugestiva de fratura por compressão vertebral.
-
-**Caracterização:**
-- Contorno irregular, sugestivo de edema perifocal com atividade metabólica aumentada
-- Razão de captação (captação lesional/captação óssea normal cervical) > 1,8
-- Distribuição do radiofármaco simétrica nas fases vasculares, sem evidência de hipervascularização focal significativa
-- Ausência de padrão em "cold spot" (defeito de captação)
-
-**Região Dorsolumbar:**
-- Vértebra D11: padrão de captação normal
-- Vértebra D12: padrão de captação normal
-- Vértebra L1: padrão de captação normal
-- **Vértebra L3:** hipercaptação focal descrita acima
-- Vértebra L4: padrão de captação normal
-- Vértebra L5: padrão de captação normal
-- Sacro: distribuição simétrica, padrão normal
-
-**Avaliação do Esqueleto Apendicular:**
-- Úmeros, rádios, ulnas: simétricos, padrão normal
-- Fêmures, tíbias, fíbulas: simétricos, sem focos anormais
-- Cintilografia de membros superiores e inferiores: sem hipercaptações ou hipocaptações significativas
-- Glândula mamária: captação fisiológica esperada
-- Bexiga: captação normal
-
-**Outras Observações:**
-- Rim direito e esquerdo com função renal adequada (visualização de ambas as estruturas)
+- **Hipercaptação focal moderada em L3**, com padrão de acúmulo agudo compatível com reaçã
+ Rim direito e esquerdo com função renal adequada (visualização de ambas as estruturas)
 - Fígado: distribuição homogênea do radiofármaco
 - Baço: captação fisiológica normal
 - Medula óssea: distribuição simétrica
@@ -97,6 +72,40 @@ A cintilografia óssea evidencia achado único e focal de hipercaptação em L3,
 **Recomendações:**
 
 1. **Correlação clínico-radiológica:** Confirmar com ressonância magnética da coluna dorsolumbar ou tomografia computadorizada, caso não realizada, para melhor caracterização de fragmentos ósseos, deslocamento e envolvimento de estruturas adjacentes.
+
+2. **Acompanhamento clínico:** Monitorar evolução sintomatológica (dor, mobilid
+ica da coluna vertebral, observa-se:
+
+**Achado Principal:**
+- **Hipercaptação focal moderada em L3**, com padrão de acúmulo agudo compatível com reação osteogênica reparadora. A lesão apresenta-se bem delimitada, em região anterior do corpo vertebral, sugestiva de fratura por compressão vertebral.
+
+**Caracterização:**
+- Contorno irregular, sugestivo de edema perifocal com atividade metabólica aumentada
+- Razão de captação (captação lesional/captação óssea normal cervical) > 1,8
+- Distribuição do radiofármaco simétrica nas fases vasculares, sem evidência de hipervascularização focal significativa
+- Ausência de padrão em "cold spot" (defeito de captação)
+
+**Região Dorsolumbar:**
+- Vértebra D11: padrão de captação normal
+- Vértebra D12: padrão de captação normal
+- Vértebra L1: padrão de captação normal
+- **Vértebra L3:** hipercaptação focal descrita acima
+- Vértebra L4: padrão de captação normal
+- Vértebra L5: padrão de captação normal
+- Sacro: distribuição simétrica, padrão normal
+
+**Avaliação do Esqueleto Apendicular:**
+- Úmeros, rádios, ulnas: simétricos, padrão normal
+- Fêmures, tíbias, fíbulas: simétricos, sem focos anormais
+- Cintilografia de membros superiores e inferiores: sem hipercaptações ou hipocaptações significativas
+- Glândula mamária: captação fisiológica esperada
+- Bexiga: captação normal
+
+**Outras Observações:**
+- Rim direito e esquerdo com função renal adequada (visualização de ambas as estruturas)
+- Fígado: distribuição homogênea do radiofármaco
+- Baço: capta
+gmentos ósseos, deslocamento e envolvimento de estruturas adjacentes.
 
 2. **Acompanhamento clínico:** Monitorar evolução sintomatológica (dor, mobilidade). Cintilografia de controle em 3-6 meses, se indicado clinicamente, para avaliar progressão do reparo ósseo.
 

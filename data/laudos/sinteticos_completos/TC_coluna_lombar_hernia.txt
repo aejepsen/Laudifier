@@ -1,0 +1,69 @@
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA — COLUNA LOMBAR
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MÉDICO SOLICITANTE:** Dr. ____________  
+**CRM:** [CRM]  
+**MODALIDADE:** Tomografia Computadorizada Multislice (TCMS)  
+**EQUIPAMENTO:** Tomógrafo de 64 canais  
+**PROTOCOLO:** Espiral helicoidal, reconstruções multiplanares (axial, sagital, coronal)
+
+---
+
+## TÉCNICA
+
+Realizada tomografia computadorizada da coluna lombar após injeção intravenosa de contraste iodado não-iônico (Iopamidol 370 mg I/mL, volume de 80 mL). Foram adquiridas imagens contínuas do espaço discal L1 até a articulação sacroilíaca, com espessura de corte de 1 mm, posteriormente reconstruídas em 3 mm para análise detalhada. Reconstruções multiplanares e tridimensionais foram realizadas para melhor caracterização das estruturas ósseas e de partes moles.
+
+---
+
+## ACHADOS
+
+### VÉRTEBRAS E CORPOS VERTEBRAIS
+
+Os corpos vertebrais de L1 a L5 apresentam densidade adequada (densidade óssea média de 180-200 UH), sem evidência de fraturas, lise ou colapso. O sinal de densidade normal em toda a extensão vertebral, sem lesões líticas ou escleróticas. Altura dos discos intervertebrais dentro dos limites normais em segmentos L1-L2, L2-L3 e L3-L4.
+
+### DISCO INTERVERTEBRAL L4-L5 — ACHADO PRINCIPAL
+
+Em nível L4-L5, identifica-se hérnia discal do tipo protrusão-extrusão mediana-paramediana à esquerda, com dimensão ântero-posterior de 5,2 mm e extensão transversa de 8,7 mm. O material discal herniado apresenta densidade de 62 UH (compatível com núcleo pulposo desidratado) e promove compressão significativa do recesso lateral esquerdo e contato direto com a raiz nervosa L5 em seu trajeto foraminal.
+
+**Detalhes de compressão:**
+- Redução de 68% do diâmetro do recesso lateral esquerdo em comparação ao lado direito
+- Deslocamento ântero-posterior de raiz L5 à esquerda de aproximadamente 3,1 mm
+- Efaçamento parcial da gordura epidural em torno da raiz comprimida
+- Forame de conjugação L4-L5 esquerdo reduzido de 13 mm (normal) para 4,2 mm
+
+### ESPAÇO DISCAL L5-S1
+
+Disco L5-S1 com altura preservada, sem evidência de hérnia discal ou estenose canalicular. Material discal com densidade homogênea de 58 UH. Recesso lateral bilateral patente.
+
+### CANAL MEDULAR
+
+Em segmentos L1 a L3: canal medular com diâmetro ântero-posterior normal (média de 14 mm), sem evidência de estenose canalicular ou compressão medular.
+
+Em segmento L4: discreto estreitamento relativo do canal medular (diâmetro ântero-posterior de 11,8 mm) sem compressão significativa de estruturas neurais.
+
+Em nível L4-L5: compressão do saco dural com redução do diâmetro sagital para 8,5 mm, decorrente da hérnia discal descrita, com deslocamento ântero-posterior do saco dural de 2,4 mm.
+
+### FORAMINA INTERVERTEBRAIS
+
+- **L1-L2 bilateral:** patentes, sem estenose
+- **L2-L3 bilateral:** patentes, sem estenose
+- **L3-L4 bilateral:** patentes, sem estenose
+- **L4-L5 bilateral:** esquerda estenótica (descrita acima); direita patente com diâmetro preservado de 12,5 mm
+- **L5-S1 bilateral:** patentes, sem estenose
+
+### ARTICULAÇÕES ZIGAPOFISÁRIAS
+
+Articulações facetárias L4-L5 bilaterais com discreto grau de hipertrofia osteocartilaginosa, sendo o lado esquerdo discretamente mais acentuado (dimensão transversa de 6,2 mm), contribuindo marginalmente para o estreitamento foraminal esquerdo. Articulações L5-S1 com calibre normal, sem artropa­tia significativa.
+
+### LIGAMENTOS
+
+Ligamento longitudinal anterior integro em toda extensão. Ligamento longitudinal posterior sem espessamento focal. Ligamento amarelo presente, com espessura normal em L1-L3 (média de 2,8 mm). Em nível L4-L5, ligamento amarelo com espessura de 3,5 mm, contribuindo discretamente para o estreitamento do recesso lateral.
+
+### ESPAÇOS PARAVERTEBRAIS
+
+Musculatura paravertebral bilateral (eretores da espinha e transverso abdominal) com densidade normal em tecido mole (35-45 UH), sem evidência de atrofia, edema ou alteração de sinal. Gordura epidural com densidade normal (−50 a −80 UH). Efaçamento focal da gordura epidural adjacente à raiz L5 esquerda comprimida.
+
+### ESTRUTURAS ÓSSEAS ADICIONAIS
+
+Pelve: demonstra densidade óssea normal, sem fraturas ou lesões focais. Coxas femorais apresentam densidade óssea adequada. Articulações sacroilíacas com espaço articular preservado bilateralmente,

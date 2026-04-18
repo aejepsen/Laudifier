@@ -1,0 +1,70 @@
+# LAUDO DE RESSONÂNCIA MAGNÉTICA — COLUNA CERVICAL
+
+---
+
+## DADOS DO EXAME
+
+| Campo | Informação |
+|-------|-----------|
+| **Paciente** | [NOME DO PACIENTE] |
+| **Data do Exame** | [DATA DO EXAME] |
+| **Idade/Sexo** | 54 anos, Masculino |
+| **Clínico Solicitante** | Dr. Carlos Mendes (CRM-SP 98765) |
+| **Médico Executor** | [CRM] |
+| **Equipamento** | Ressonância Magnética 1.5T, campo magnético de 1.5 Tesla |
+| **Sequências Utilizadas** | T1-ponderada, T2-ponderada, FLAIR, Difusão (DWI), T2-FLAIR, Gradiente-eco 3D |
+| **Protocolo** | Coluna cervical — planos axial, sagital e coronal |
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Avaliação de dor cervical crônica sem irradiação radicular. Descartar mielopatia cervical ou compressão neural. Queixa de rigidez matinal discreta há 3 meses.
+
+---
+
+## TÉCNICA
+
+Ressonância magnética de coluna cervical realizada em equipamento de 1.5 Tesla, com protocolo padrão incluindo sequências ponderadas em T1 e T2, FLAIR, DWI e reconstruções multiplanares. Paciente posicionado em supino, com bobina cervical circundante. Não houve necessidade de utilização de gadolínio. Qualidade técnica excelente, sem artefatos que comprometam a análise.
+
+---
+
+## ACHADOS
+
+### **Análise Geral da Medula Espinhal**
+A medula espinhal apresenta sinal normal em todas as sequências, com diâmetro sagital medio de 8,2 mm no nível C3, mantendo homogeneidade na intensidade de sinal. Não há edema medular, cavitações, sirinx ou alterações de sinal sugestivas de desmielinização. As raízes nervosas cervicais apresentam calibre simétrico bilateralmente.
+
+### **Análise Segmentar**
+
+**Segmento C1-C2 (Atlanto-axial):**
+Alinhamento normal. Processo odontóide sem alterações de sinal ou contorno. Ligamento transverso íntegro. Articulações uncinadas simétricas. Espaço subaracnóideo anterior e posterior permáveis. Largura do canal raquídeo sagital: 18 mm. Não há compressão medular ou radicular.
+
+**Segmento C2-C3:**
+Disco intervertebral com altura preservada (4,1 mm). Sinal T2 intermediário do disco, sem desidratação significativa. Pequena proeminência posterior discal simétrica, medindo 2,1 mm, não comprime a medula ou raízes nervosas. Corpos vertebrais com contorno reto, sem espondilólise. Facetas articulares sem sinais de osteoartrose significativa. Largura do canal raquídeo: 17 mm.
+
+**Segmento C3-C4:**
+Disco com altura normal (4,3 mm), sinal T2 preservado. Contorno discal reto. Sem protrusão ou herniação. Canal raquídeo sagital: 18 mm. Foraminas neurais simétricas, sem estenose.
+
+**Segmento C4-C5:**
+Disco íntegro (4,2 mm de altura). Pequena osteófito marginal anterior bilateral, medindo até 1,5 mm, sem significado clínico. Sinal medular normal. Sem compressão. Largura do canal: 17 mm.
+
+**Segmento C5-C6:**
+Disco com altura satisfatória (4,0 mm), sinal T2 normal. Contorno discal reto. Pequena alteração degenerativa facetária bilateral, sem compressão de raízes. Foraminas neurais pérvias. Canal raquídeo: 16 mm.
+
+**Segmento C6-C7:**
+Disco intervertebral com altura adequada (3,9 mm). Sinal T2 preservado. Sem protrusão ou herniação discal. Corpos vertebrais sem alterações. Ligamentos longitudinais anterior e posterior íntegros. Espaço subaracnóideo amplo. Largura do canal: 17 mm.
+
+**Segmento C7-T1:**
+Disco com altura normal (4,0 mm). Sinal T2 intermediário. Sem alterações significativas. Medula em posição normal. Canal raquídeo com amplitude satisfatória (18 mm).
+
+### **Ligamentos**
+Ligamento longitudinal anterior íntegro e de espessura normal em todo trajeto. Ligamento longitudinal posterior sem espessamento. Ligamento amarelo sem hipertrofia significativa. Membrana tectória íntegra.
+
+### **Estruturas Ósseas**
+Corpos vertebrais de altura preservada, sem fraturas, deformidades ou lesões líticas/blásticas. Sinais de marfim compacto normal em todos os níveis. Endplates íntegros. Sem cifose ou lordose anormal (lordose cervical preservada, ângulo em torno de 18°).
+
+### **Musculatura Paravertebral**
+Musculatura cervical (esternocleidomastóideo, trapézio, paraespinhais) simétrica e sem alterações de sinal. Volume e tonicidade preservados bilateralmente.
+
+### **Estruturas Adjacentes**
+Laringe, faringe e esôfago cervical sem alterações. Tireóide com tamanho normal. Va

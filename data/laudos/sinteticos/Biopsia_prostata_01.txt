@@ -1,4 +1,37 @@
-=== Biopsia prostata — Variante 1 ===
+ 1 a 12, com comprimento variando entre 0,8 a 1,5 cm cada
+- Sem áreas de necrose, hemorragia ou aspecto suspeito macroscópico
+
+### Descrição Microscópica:
+
+**Todos os 12 fragmentos apresentam:**
+
+1. **Glândulas Prostáticas:** Estruturas acinares e ductais normais, com epitélio colunar estratificado, bem preservadas. Citoplasma abundante e basófilo. Núcleos centrais com cromatina dispersa, sem atipias.
+
+2. **Epitélio:** Dupla camada epitelial íntegra em toda a extensão examinada, compatível com acinos e ductos normais. Ausência de perda da camada basal (imunofenótipo normal).
+
+3. **Estroma:** Tecido conjuntivo fibroso e muscular liso adequado, sem infiltrados inflamatórios significativos. Algumas áreas com pequenos focos de inflamação crônica leve e discreta, compatível com inflamação banal.
+
+4. **Glândulas Parauretrais e Mucosas:** Presentes, normais.
+
+5. **Achados Secundários:** 
+   - Pequena quantidade de gordura periprostática
+   - Ausência de calcificações ou concreções prostáticas relevantes
+   - Sem evidência de hiperplasia prostática benigna significativa nos fragmentos analisados
+
+6. **Avaliação de Malignidade:**
+   - Ausência absoluta de padrão glandular anormal
+   - Sem núcleos de tamanho aumentado ou irregulares
+   - Sem hipercromatismo nuclear focal ou difuso
+   - Sem aumento de atividade mitótica anormal
+   - Sem padrão de fusão acinar ou perda arquitetural
+   - Sem infiltração ou invasão estromal
+   - Sem necrose glandular
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**BIOPS
 Especialidade: patologia
 Cenário: biópsia de próstata — sem evidência de malignidade (12 fragmentos)
 Fonte: sintético — gerado por Claude
@@ -45,29 +78,8 @@ Inclusão em parafina, seccionamento seriado com micrótomo, coloração por hem
 - Fragmentos numerados de 1 a 12, com comprimento variando entre 0,8 a 1,5 cm cada
 - Sem áreas de necrose, hemorragia ou aspecto suspeito macroscópico
 
-### Descrição Microscópica:
-
-**Todos os 12 fragmentos apresentam:**
-
-1. **Glândulas Prostáticas:** Estruturas acinares e ductais normais, com epitélio colunar estratificado, bem preservadas. Citoplasma abundante e basófilo. Núcleos centrais com cromatina dispersa, sem atipias.
-
-2. **Epitélio:** Dupla camada epitelial íntegra em toda a extensão examinada, compatível com acinos e ductos normais. Ausência de perda da camada basal (imunofenótipo normal).
-
-3. **Estroma:** Tecido conjuntivo fibroso e muscular liso adequado, sem infiltrados inflamatórios significativos. Algumas áreas com pequenos focos de inflamação crônica leve e discreta, compatível com inflamação banal.
-
-4. **Glândulas Parauretrais e Mucosas:** Presentes, normais.
-
-5. **Achados Secundários:** 
-   - Pequena quantidade de gordura periprostática
-   - Ausência de calcificações ou concreções prostáticas relevantes
-   - Sem evidência de hiperplasia prostática benigna significativa nos fragmentos analisados
-
-6. **Avaliação de Malignidade:**
-   - Ausência absoluta de padrão glandular anormal
-   - Sem núcleos de tamanho aumentado ou irregulares
-   - Sem hipercromatismo nuclear focal ou difuso
-   - Sem aumento de atividade mitótica anormal
-   - Sem padrão de fusão acinar ou perda arquitetural
+### Descrição Microscóp
+drão de fusão acinar ou perda arquitetural
    - Sem infiltração ou invasão estromal
    - Sem necrose glandular
 
@@ -99,6 +111,13 @@ Não há evidência histológica de malignidade nos fragmentos de próstata exam
 ---
 
 ## ASSINATURA E VALIDAÇÃO
+
+**Médico Patologista Responsável:**
+
+_________________________________  
+Dra./Dr. [NOME COMPLETO]  
+CREMESP [Nº DO REGISTRO] / CRM [UF] [NÚMER
+IDAÇÃO
 
 **Médico Patologista Responsável:**
 

@@ -1,4 +1,72 @@
-=== TC abdome superior figado — Variante 4 ===
+o VII (posterior direito), medindo aproximadamente **2,1 x 1,8 cm** em seus maiores diâmetros
+- **Morfologia:** Arredondada, bem delimitada, com margens nítidas e regulares
+- **Característica de atenuação:**
+  - Fase pré-contraste: Isodensa em relação ao parênquima hepático adjacente
+  - Fase arterial: Apresenta realce homogêneo precoce que se inicia na periferia da lesão, seguido de preenchimento centripetal característico
+  - Fase portal: Lesão se torna isodensa ao parênquima hepático normal
+  - Fase tardia: Mantém discreto realce residual, permanecendo isodensa
+
+- **Características adicionais:** Sem septo interno, sem componente gorduroso, sem calcificações. Sem efeito de massa significativo sobre estruturas vasculares adjacentes.
+
+### Veia Porta e Hepaticamente:
+Permeáveis, sem evidências de trombose. Calibre normal. Fluxo hepatofugal não identificado.
+
+### Vesícula Biliar:
+Normotensa, sem imagens sugestivas de litíase. Sem espessamento parietal. Via biliar intra-hepática não dilatada.
+
+### Pâncreas:
+Dimensões normais. Parênquima com atenuação homogênea. Ducto pancreático não dilatado. Sem massas ou alterações focais.
+
+### Vias Biliares Extrahepáticas:
+Diâmetro normal (<6mm). Sem dilatação ou imagens obstrutivas.
+
+### Baço:
+Dimensões normais (aproximadamente 10 cm de eixo maior). Homogêneo, sem lesões focais.
+
+### Rins:
+Bilateralmente simétricos, com diferencação córticomedullar preservada. Sem hidronefroses, ureterectasia ou litiase. Sem lesões focais significativas.
+
+##
+teralmente simétricos, com diferencação córticomedullar preservada. Sem hidronefroses, ureterectasia ou litiase. Sem lesões focais significativas.
+
+### Supra-renais:
+Dimensões normais, sem alterações focais.
+
+### Estruturas Ósseas:
+Corpos vertebrais íntegros e com densidade adequada para a idade. Sem sinais de lise ou colapso vertebral. Costelas íntegras.
+
+### Paredes Abdominais:
+Sem anormalidades. Sem coleções ou massas de partes moles.
+
+### Outros achados:
+Sem ascite. Sem linfadenomegalia significativa. Sem outras alterações relevantes.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Lesão hepática focal no segmento VII com características radiológicas típicas de hemangioma hepático cavernoso.** 
+
+O diagnóstico é baseado nos seguintes critérios:
+- Morfologia esférica/ovalada com margens bem definidas
+- Realce homogêneo na fase arterial iniciando-se perifericamente
+- Preenchimento centripetal na fase portal venosa
+- Manutenção de realce na fase tardia (em geral superior ao parênquima normal)
+- Ausência de características malignas (septo interno, necrose, efeito de massa)
+- Homogeneidade da lesão sem componentes heterogêneos
+
+Trata-se de achado compatível com hemangioma hepático típico, lesão benígna de natureza vascular com excelente prognóstico.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+1. **Diagnóstico:** Hemangioma hepático cavernoso típico no segmento VII hepático, medindo 2,1 x 1,8 cm.
+
+2. **Caracterização:** Lesão benígna, não maligna.
+
+3. **Implicações Clínicas:**
+   - Não apresenta risc
 Especialidade: radiologia
 Cenário: hemangioma hepático típico no segmento VII
 Fonte: sintético — gerado por Claude
@@ -34,66 +102,8 @@ Fígado apresenta volume e densidade habituais. Contornos regulares sem evidênc
 
 **Lesão identificada no segmento VII:**
 - **Localização:** Segmento hepático VII (posterior direito), medindo aproximadamente **2,1 x 1,8 cm** em seus maiores diâmetros
-- **Morfologia:** Arredondada, bem delimitada, com margens nítidas e regulares
-- **Característica de atenuação:**
-  - Fase pré-contraste: Isodensa em relação ao parênquima hepático adjacente
-  - Fase arterial: Apresenta realce homogêneo precoce que se inicia na periferia da lesão, seguido de preenchimento centripetal característico
-  - Fase portal: Lesão se torna isodensa ao parênquima hepático normal
-  - Fase tardia: Mantém discreto realce residual, permanecendo isodensa
-
-- **Características adicionais:** Sem septo interno, sem componente gorduroso, sem calcificações. Sem efeito de massa significativo sobre estruturas vasculares adjacentes.
-
-### Veia Porta e Hepaticamente:
-Permeáveis, sem evidências de trombose. Calibre normal. Fluxo hepatofugal não identificado.
-
-### Vesícula Biliar:
-Normotensa, sem imagens sugestivas de litíase. Sem espessamento parietal. Via biliar intra-hepática não dilatada.
-
-### Pâncreas:
-Dimensões normais. Parênquima com atenuação homogênea. Ducto pancreático não dilatado. Sem massas ou alterações focais.
-
-### Vias Biliares Extrahepáticas:
-Diâmetro normal (<6mm). Sem dilatação ou imagens obstrutivas.
-
-### Baço:
-Dimensões normais (aproximadamente 10 cm de eixo maior). Homogêneo, sem lesões focais.
-
-### Rins:
-Bilateralmente simétricos, com diferencação córticomedullar preservada. Sem hidronefroses, ureterectasia ou litiase. Sem lesões focais significativas.
-
-### Supra-renais:
-Dimensões normais, sem alterações focais.
-
-### Estruturas Ósseas:
-Corpos vertebrais íntegros e com densidade adequada para a idade. Sem sinais de lise ou colapso vertebral. Costelas íntegras.
-
-### Paredes Abdominais:
-Sem anormalidades. Sem coleções ou massas de partes moles.
-
-### Outros achados:
-Sem ascite. Sem linfadenomegalia significativa. Sem outras alterações relevantes.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-**Lesão hepática focal no segmento VII com características radiológicas típicas de hemangioma hepático cavernoso.** 
-
-O diagnóstico é baseado nos seguintes critérios:
-- Morfologia esférica/ovalada com margens bem definidas
-- Realce homogêneo na fase arterial iniciando-se perifericamente
-- Preenchimento centripetal na fase portal venosa
-- Manutenção de realce na fase tardia (em geral superior ao parênquima normal)
-- Ausência de características malignas (septo interno, necrose, efeito de massa)
-- Homogeneidade da lesão sem componentes heterogêneos
-
-Trata-se de achado compatível com hemangioma hepático típico, lesão benígna de natureza vascular com excelente prognóstico.
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-1. **Diagnóstico:** Hemangioma hepático cavernoso típico no segmento VII hepático, medindo 2,1 x 1,8 cm.
+- **Morfologia:** Arredondada, bem delimitada, com marge
+segmento VII hepático, medindo 2,1 x 1,8 cm.
 
 2. **Caracterização:** Lesão benígna, não maligna.
 

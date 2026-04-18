@@ -1,4 +1,8 @@
-=== Biopsia colo uterino — Variante 1 ===
+ínica:** Evitar fatores de risco (tabagismo, imunossupressão, infecções concomitantes); reforçar profilaxia com vacinação anti-HPV quando indicada
+
+5. **Intervalo de Reavaliação:** Colposcopia de repetição recomendada após 3-6 meses. Em caso de persistência, considerar abordagem terapêutica (conização, laser, electrocirurgia)
+
+6. **Exclusão de Les
 Especialidade: patologia
 Cenário: biópsia de colo uterino — NIC I (displasia leve)
 Fonte: sintético — gerado por Claude
@@ -52,6 +56,10 @@ Processamento técnico padrão de biópsia cervical:
 - Fixação em formol a 10% por 6-24 horas
 - Desidratação progressiva
 - Inclusão em parafina
+- Confecção de cortes histológicos com espessura de 3-4 micrômet
+ação em formol a 10% por 6-24 horas
+- Desidratação progressiva
+- Inclusão em parafina
 - Confecção de cortes histológicos com espessura de 3-4 micrômetros
 - Coloração com Hematoxilina-Eosina (HE)
 - Análise ao microscópio óptico em aumentos de 40x, 100x, 200x e 400x
@@ -90,6 +98,15 @@ O epitélio cervical apresenta espessura normal, com manutenção da estratifica
 
 ## IMPRESSÃO DIAGNÓSTICA
 
+**Neopl
+tensidade leve
+- Ausência de ulceração ou necrose
+- Margens de ressecção não apresentam alterações displásicas
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
 **Neoplasia Intraepitelial Cervical Grau I (NIC I) – Displasia Leve do Colo Uterino**
 
 Compatível com alterações citológicas e histológicas consistentes com lesão precancerosa de baixo grau.
@@ -119,6 +136,4 @@ A análise histopatológica evidencia **Neoplasia Intraepitelial Cervical Grau I
 
 4. **Orientação Clínica:** Evitar fatores de risco (tabagismo, imunossupressão, infecções concomitantes); reforçar profilaxia com vacinação anti-HPV quando indicada
 
-5. **Intervalo de Reavaliação:** Colposcopia de repetição recomendada após 3-6 meses. Em caso de persistência, considerar abordagem terapêutica (conização, laser, electrocirurgia)
-
-6. **Exclusão de Les
+5.

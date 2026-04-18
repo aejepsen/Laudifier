@@ -1,4 +1,16 @@
-=== RM encefalo — Variante 4 ===
+empo de evolução
+
+**3. Sem evidência de:**
+   - Transformação hemorrágica
+   - Hemorragia parenquimatosa ou subaracnóidea
+   - Outras lesões estruturais explanatórias
+   - Oclusão de grandes vasos proximais
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Este paciente apresenta achados de ressonância magnética compatíveis com **acidente v
 Especialidade: radiologia
 Cenário: acidente vascular cerebral isquêmico subagudo em território da ACM
 Fonte: sintético — gerado por Claude
@@ -44,31 +56,8 @@ Foram obtidas imagens nos planos sagital, coronal e axial, com análise subseque
 ## ACHADOS / DESCRIÇÃO DETALHADA
 
 ### **Morfologia Encefálica:**
-- Simetria encefálica preservada
-- Sistema ventricular de dimensões normais
-- Espaços subaracnóides sem alterações significativas
-- Sem desviação de linha média
 
-### **Achados Principais:**
-
-**Regiões de Restrição à Difusão:**
-Identificam-se múltiplas áreas de hipersinal em sequências DWI com correspondente hipossinal em mapas ADC, localizadas no território de distribuição da **artéria cerebral média (ACM) esquerda**, caracterizando restrição à difusão (true diffusion restriction).
-
-**Topografia específica dos infartos:**
-- Núcleo de infarto agudo envolvendo porção do **putamen e cápsula interna à esquerda**
-- Extensão para região **subcortical frontal superior**
-- Envolvimento parcial da **ínsula esquerda**
-- Penumbra isquêmica identificada em región peritalesional adjacente
-
-**Volume estimado:** aproximadamente 18-22 cm³
-
-### **Sequências Ponderadas:**
-
-- **T2/FLAIR:** Hipersinal moderado nas áreas infartadas com edema citotóxico e vasogênico associado
-- **T1:** Discreto hipossinal compatível com edema isquêmico
-- **Perfusão:** Aumento do tempo de trânsito médio (MTT) e redução do fluxo sanguíneo cerebral (FSC) nas áreas peri-infarto, indicando zona de hipoperfusão
-
-### **Avaliação Vascular (Angio-RM):**
+ão Vascular (Angio-RM):**
 - **Sistema carotídeo:** sem estenose significativa
 - **Artéria cerebral média (ACM) esquerda:** redução discreta do calibre e fluxo comparado à direita, sugestivo de compromisso hemodinâmico
 - **Polígono de Willis:** visualizado, sem evidência de hipoplasia significativa
@@ -109,11 +98,38 @@ Identificam-se múltiplas áreas de hipersinal em sequências DWI com correspond
 **3. Sem evidência de:**
    - Transformação hemorrágica
    - Hemorragia parenquimatosa ou subaracnóidea
-   - Outras lesões estruturais explanatórias
-   - Oclusão de grandes vasos proximais
+   - Outras lesões estrutura
+ sagital, coronal e axial, com análise subsequente em múltiplas reconstruções.
 
 ---
 
-## CONCLUSÃO E RECOMENDAÇÕES
+## ACHADOS / DESCRIÇÃO DETALHADA
 
-Este paciente apresenta achados de ressonância magnética compatíveis com **acidente v
+### **Morfologia Encefálica:**
+- Simetria encefálica preservada
+- Sistema ventricular de dimensões normais
+- Espaços subaracnóides sem alterações significativas
+- Sem desviação de linha média
+
+### **Achados Principais:**
+
+**Regiões de Restrição à Difusão:**
+Identificam-se múltiplas áreas de hipersinal em sequências DWI com correspondente hipossinal em mapas ADC, localizadas no território de distribuição da **artéria cerebral média (ACM) esquerda**, caracterizando restrição à difusão (true diffusion restriction).
+
+**Topografia específica dos infartos:**
+- Núcleo de infarto agudo envolvendo porção do **putamen e cápsula interna à esquerda**
+- Extensão para região **subcortical frontal superior**
+- Envolvimento parcial da **ínsula esquerda**
+- Penumbra isquêmica identificada em región peritalesional adjacente
+
+**Volume estimado:** aproximadamente 18-22 cm³
+
+### **Sequências Ponderadas:**
+
+- **T2/FLAIR:** Hipersinal moderado nas áreas infartadas com edema citotóxico e vasogênico associado
+- **T1:** Discreto hipossinal compatível com edema isquêmico
+- **Perfusão:** Aumento do tempo de trânsito médio (MTT) e redução do fluxo sanguíneo cerebral (FSC) nas áreas peri-infarto, indicando zona de hipoperfusão
+
+### **Avaliação Vascular (Angio-RM):**
+- **Sistema carotídeo:** sem estenose significativa
+- **Artéria cerebral média (ACM) esquerda:** redução discreta do calibre

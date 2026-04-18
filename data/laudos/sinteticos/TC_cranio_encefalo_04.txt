@@ -1,4 +1,63 @@
-=== TC cranio encefalo — Variante 4 ===
+pital
+- **Dimensões:** 1,5 cm de diâmetro maior (aproximadamente)
+- **Morfologia:** Lesão bem delimitada, de contornos irregulares, com área central de hiperdensidade
+- **Densidade:** Hiperdensa em fase não contrastada (aproximadamente 45-55 UH), com realce heterogêneo homogêneo em fase arterial/portal, sugestivo de captação significativa do contraste
+- **Edema Perilesional:** Presente edema vasogênico moderado circunjacente (efecto de massa leve)
+- **Efeito de Massa:** Discreto desvio da linha média (aproximadamente 2-3 mm), sem compressão significativa dos ventrículos laterais nesse nível
+- **Halo de Hipodensidade:** Evidente ao redor da lesão, compatível com edema cerebral
+
+### Achados Complementares:
+
+- **Ventrículos Cerebrais:** Sistema ventricular de dimensões normais, sem sinais de hidrocefalia obstrutiva
+- **Espaços Subaracnoides:** Pérvios bilateralmente, sem aumento anormal
+- **Substância Branca e Substância Cinzenta:** Relação normal, sem outras lesões focais adicionais identificadas
+- **Fossa Posterior:** Sem particularidades. Quarto ventrículo de dimensões normais
+- **Cerebelo:** Sem alterações
+- **Tronco Encefálico:** Sem sinais de compressão ou deslocamento
+- **Estruturas Ósseas:** Calvária íntegra, sem fraturas ou lise óssea
+- **Seios Paranasais:** Permeáveis, sem sinais de sinusite
+- **Órbitas:** Simétricas, sem alterações
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Lesão nodular sólida no lobo parietal direito, com 1,5 cm de diâmetro, apresentando características de rea
+ alterações
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Lesão nodular sólida no lobo parietal direito, com 1,5 cm de diâmetro, apresentando características de realce significativo ao contraste iodado intravenoso, associada a edema vasogênico perilesional moderado.
+
+**Diagnóstico Diferencial:**
+1. **Metástase encefálica** (PRINCIPAL HIPÓTESE) - achados imagenológicos compatíveis com lesão secundária, com realce heterogêneo característico
+2. Lesão expansiva primária (glioma de baixo grau, menos provável pelo padrão de realce)
+3. Lesão inflamatória/infecciosa (menos provável pela apresentação imagenológica)
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Identifica-se **lesão expansiva sólida no lobo parietal direito com características sugestivas de metástase encefálica**, medindo 1,5 cm, com edema perilesional moderado e discreto efeito de massa.
+
+### Recomendações:
+
+1. **Correlação Clínica Imediata:** Sugerimos correlação com história oncológica pregressa do paciente, sítio primário conhecido e protocolo de estadiamento
+2. **Ressonância Magnética (RM) de Crânio:** Recomenda-se realização de RM de encéfalo com e sem contraste para:
+   - Melhor caracterização da lesão e padrão de realce
+   - Pesquisa de outras lesões metastáticas não identificadas na TC
+   - Avaliação mais precisa do edema perilesional
+   - Melhor definição para planejamento terapêutico
+3. **Discussão Multidisciplinar:** Encaminhamento a equipe multidisciplinar (Oncologia, Neurocirurgia, Radioterapia) para definição de conduta (cirurg
+3. **Discussão Multidisciplinar:** Encaminhamento a equipe multidisciplinar (Oncologia, Neurocirurgia, Radioterapia) para definição de conduta (cirurgia, radioterapia estereotáxica, quimioterapia ou monitoramento)
+4. **Seguimento Imagenológico:** Acompanhamento periódico conforme protocolo oncológico estabelecido
+5. **Avaliação Neurológica Clínica:** Avaliação neurológica complementar para pesquisa de sintomas focais relacionados à lesão
+
+---
+
+## ASSIN
 Especialidade: radiologia
 Cenário: metástase única no lobo parietal direito, 1,5 cm
 Fonte: sintético — gerado por Claude
@@ -43,53 +102,4 @@ Realizada tomografia computadorizada de crânio-encéfalo com aquisição de cor
 
 - **Localização:** Lobo parietal direito, região posterior, próxima ao sulco parieto-occipital
 - **Dimensões:** 1,5 cm de diâmetro maior (aproximadamente)
-- **Morfologia:** Lesão bem delimitada, de contornos irregulares, com área central de hiperdensidade
-- **Densidade:** Hiperdensa em fase não contrastada (aproximadamente 45-55 UH), com realce heterogêneo homogêneo em fase arterial/portal, sugestivo de captação significativa do contraste
-- **Edema Perilesional:** Presente edema vasogênico moderado circunjacente (efecto de massa leve)
-- **Efeito de Massa:** Discreto desvio da linha média (aproximadamente 2-3 mm), sem compressão significativa dos ventrículos laterais nesse nível
-- **Halo de Hipodensidade:** Evidente ao redor da lesão, compatível com edema cerebral
-
-### Achados Complementares:
-
-- **Ventrículos Cerebrais:** Sistema ventricular de dimensões normais, sem sinais de hidrocefalia obstrutiva
-- **Espaços Subaracnoides:** Pérvios bilateralmente, sem aumento anormal
-- **Substância Branca e Substância Cinzenta:** Relação normal, sem outras lesões focais adicionais identificadas
-- **Fossa Posterior:** Sem particularidades. Quarto ventrículo de dimensões normais
-- **Cerebelo:** Sem alterações
-- **Tronco Encefálico:** Sem sinais de compressão ou deslocamento
-- **Estruturas Ósseas:** Calvária íntegra, sem fraturas ou lise óssea
-- **Seios Paranasais:** Permeáveis, sem sinais de sinusite
-- **Órbitas:** Simétricas, sem alterações
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-Lesão nodular sólida no lobo parietal direito, com 1,5 cm de diâmetro, apresentando características de realce significativo ao contraste iodado intravenoso, associada a edema vasogênico perilesional moderado.
-
-**Diagnóstico Diferencial:**
-1. **Metástase encefálica** (PRINCIPAL HIPÓTESE) - achados imagenológicos compatíveis com lesão secundária, com realce heterogêneo característico
-2. Lesão expansiva primária (glioma de baixo grau, menos provável pelo padrão de realce)
-3. Lesão inflamatória/infecciosa (menos provável pela apresentação imagenológica)
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-Identifica-se **lesão expansiva sólida no lobo parietal direito com características sugestivas de metástase encefálica**, medindo 1,5 cm, com edema perilesional moderado e discreto efeito de massa.
-
-### Recomendações:
-
-1. **Correlação Clínica Imediata:** Sugerimos correlação com história oncológica pregressa do paciente, sítio primário conhecido e protocolo de estadiamento
-2. **Ressonância Magnética (RM) de Crânio:** Recomenda-se realização de RM de encéfalo com e sem contraste para:
-   - Melhor caracterização da lesão e padrão de realce
-   - Pesquisa de outras lesões metastáticas não identificadas na TC
-   - Avaliação mais precisa do edema perilesional
-   - Melhor definição para planejamento terapêutico
-3. **Discussão Multidisciplinar:** Encaminhamento a equipe multidisciplinar (Oncologia, Neurocirurgia, Radioterapia) para definição de conduta (cirurgia, radioterapia estereotáxica, quimioterapia ou monitoramento)
-4. **Seguimento Imagenológico:** Acompanhamento periódico conforme protocolo oncológico estabelecido
-5. **Avaliação Neurológica Clínica:** Avaliação neurológica complementar para pesquisa de sintomas focais relacionados à lesão
-
----
-
-## ASSIN
+- **Morfologia:** Lesão bem delimitada, de contornos irregulares, com área central d

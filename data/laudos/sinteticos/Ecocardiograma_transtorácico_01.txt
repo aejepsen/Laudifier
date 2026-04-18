@@ -1,4 +1,3 @@
-=== Ecocardiograma transtorácico — Variante 1 ===
 Especialidade: cardiologia
 Cenário: ecocardiograma dentro dos limites da normalidade
 Fonte: sintético — gerado por Claude
@@ -41,6 +40,9 @@ Ecocardiograma transtorácico em escala de cinza bidimensional associado a Doppl
 - Tamanho: Normal, com dimensão diastólica final de 48 mm e dimensão sistólica final de 30 mm
 - Forma: Normal, com mantimento apropriado da geometria
 - Função sistólica: Preservada globalmente, sem detectar alterações na contratilidade regional
+- Fração de ejeção do 
+ntimento apropriado da geometria
+- Função sistólica: Preservada globalmente, sem detectar alterações na contratilidade regional
 - Fração de ejeção do VE: 64% (método de Simpson bidimensional)
 - Espessura da parede: Normal, com septo interventricular de 9 mm e parede posterior de 9 mm
 
@@ -75,6 +77,10 @@ Ecocardiograma transtorácico em escala de cinza bidimensional associado a Doppl
 **Valva Tricúspide:**
 - Estrutura: Normal
 - Regurgitação tricúspide: Mínima, fisiológica, permitindo estimativa de pressão sistólica do ventrículo direito de 22 mmHg (estimativa conservadora)
+- Função: Preservada
+
+
+ide: Mínima, fisiológica, permitindo estimativa de pressão sistólica do ventrículo direito de 22 mmHg (estimativa conservadora)
 - Função: Preservada
 
 **Valva Pulmonar:**

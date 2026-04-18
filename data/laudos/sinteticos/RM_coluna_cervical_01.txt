@@ -1,4 +1,3 @@
-=== RM coluna cervical — Variante 1 ===
 Especialidade: radiologia
 Cenário: coluna cervical sem alterações
 Fonte: sintético — gerado por Claude
@@ -47,6 +46,10 @@ Adequado alinhamento da coluna cervical. Curvatura cervical com lordose fisioló
 Os corpos vertebrais de C1 a C7 apresentam altura e sinal de intensidade normais. Sem sinais de colapso, compressão ou fraturas. Espaços discais mantêm altura apropriada. Sem evidências de lesões ósseas destrutivas.
 
 ### **Espaços Discais**
+- **C2-C3, C3
+ compressão ou fraturas. Espaços discais mantêm altura apropriada. Sem evidências de lesões ósseas destrutivas.
+
+### **Espaços Discais**
 - **C2-C3, C3-C4, C4-C5, C5-C6, C6-C7:** Discos cervicais hidratados, com sinal hiperintenso em T2, sem sinais de desidratação discal. Sem protrusões, herniações ou extrusões discais. Sem estenose foraminal.
 
 ### **Canal Medular**
@@ -68,6 +71,19 @@ Musculatura paravertebral apresenta volume e sinal normais, sem alterações sug
 
 ### **Estruturas Vasculares**
 As artérias carótidas internas e vertebrais demonstram fluxo arterial preservado, sem estenose ou dissecção.
+
+### **Espaço Epidural**
+Sem alterações. Espaço epidural 
+ 
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**RQE:** [NÚMERO DO RQE]
+
+**Data:** [DD/MM/YYYY]
+
+---
+
+*Laudo elaborado em conformidade com as normas técnicas da Sociedade Brasileira de Radiologia (SBR) e Colégio Brasileiro de Radiologia (CBR).*
+tidas internas e vertebrais demonstram fluxo arterial preservado, sem estenose ou dissecção.
 
 ### **Espaço Epidural**
 Sem alterações. Espaço epidural adiposo normal.
@@ -108,4 +124,4 @@ A ressonância magnética da coluna cervical demonstra **ausência de alteraçõ
 
 ---
 
-*Laudo elaborado em conformidade com as normas técnicas da Sociedade Brasileira de Radiologia (SBR) e Colégio Brasileiro de Radiologia (CBR).*
+*Laudo elaborado em conformidade com

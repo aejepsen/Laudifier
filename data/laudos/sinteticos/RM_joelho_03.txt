@@ -1,4 +1,3 @@
-=== RM joelho — Variante 3 ===
 Especialidade: radiologia
 Cenário: lesão do ligamento cruzado anterior — ruptura completa
 Fonte: sintético — gerado por Claude
@@ -45,31 +44,26 @@ Ressonância magnética de joelho direito/esquerdo [ESPECIFICAR] realizada em eq
 
 ### Ligamento Cruzado Anterior (LCA)
 
-Descontinuidade completa das fibras do ligamento cruzado anterior, visualizada particularmente nas sequências sagitais ponderadas em T2 e DP. O ligamento apresenta-se fragmentado com interrupção total da sua continuidade fibrosa, não havendo continuidade de sinal entre os segmentos proximal e distal. Há edema nas adjacências (hipersinal em T2) indicativo de processo inflamatório agudo. O padrão e localização da lesão são compatíveis com ruptura completa de origem traumática.
+Descontinuidade completa das fibras do ligamento cruzado anterior, visualizada particularment
+erior da gaveta)
+- Avaliação ortopédica especializada para discussão de opções terapêuticas (conservadora *versus* cirúrgica)
+- Fisioterapia imediata para redução do edema e manutenção da amplitude de movimento
+- Repouso relativo e proteção da articulação
+- Eventual realização de ressonância contralateral para fins comparativos, se clinicamente indicado
 
-### Ligamento Cruzado Posterior (LCP)
+---
 
-Íntegro, apresentando aspecto morfológico normal e sinal homogêneo.
+## ASSINATURA
 
-### Ligamentos Colaterais
+**Médico Radiologista Responsável:**
 
-**Ligamento colateral medial (LCM):** Visualizado em sua totalidade, com integridade preservada e sinal normal.
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Ligamento colateral lateral (LCL):** Íntegro, sem sinais de lesão.
-
-### Meniscos
-
-**Menisco medial:** Morfologia normal, triangular, sem sinais de degeneração ou rotura.
-
-**Menisco lateral:** Morfologia normal, sem lesão associada.
-
-### Superfícies Articulares
-
-Cartilagem articular da patela, côndilo femoral medial, côndilo femoral lateral e planalto tibial sem alterações degenerativas significativas. Espessura adequada. Sem sinais de condromalácia.
-
-### Cápsula Articular e Sinovial
-
-Derrame articular de moderada quantidade (aproximadamente 40-50 mL), com características inflamatórias agudas. Sem presença de corpos soltos intra-articulares.
+**Nome:** [NOME COMPLETO]  
+**CREMESP:** [Nº DE REGISTRO]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Data:** [DD/
+características inflamatórias agudas. Sem presença de corpos soltos intra-articulares.
 
 ### Tendões e Estruturas Periarticulares
 
@@ -109,19 +103,37 @@ A ressonância magnética confirma **ruptura completa do ligamento cruzado anter
 
 - Correlação clínica obrigatória e testes de estabilidade articular (teste de Lachman, teste anterior da gaveta)
 - Avaliação ortopédica especializada para discussão de opções terapêuticas (conservadora *versus* cirúrgica)
-- Fisioterapia imediata para redução do edema e manutenção da amplitude de movimento
-- Repouso relativo e proteção da articulação
-- Eventual realização de ressonância contralateral para fins comparativos, se clinicamente indicado
+- Fisioterapia imediata 
+SCRIÇÃO DETALHADA
 
----
+### Ligamento Cruzado Anterior (LCA)
 
-## ASSINATURA
+Descontinuidade completa das fibras do ligamento cruzado anterior, visualizada particularmente nas sequências sagitais ponderadas em T2 e DP. O ligamento apresenta-se fragmentado com interrupção total da sua continuidade fibrosa, não havendo continuidade de sinal entre os segmentos proximal e distal. Há edema nas adjacências (hipersinal em T2) indicativo de processo inflamatório agudo. O padrão e localização da lesão são compatíveis com ruptura completa de origem traumática.
 
-**Médico Radiologista Responsável:**
+### Ligamento Cruzado Posterior (LCP)
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Íntegro, apresentando aspecto morfológico normal e sinal homogêneo.
 
-**Nome:** [NOME COMPLETO]  
-**CREMESP:** [Nº DE REGISTRO]  
-**Especialidade:** Radiologia e Diagnóstico por Imagem  
-**Data:** [DD/
+### Ligamentos Colaterais
+
+**Ligamento colateral medial (LCM):** Visualizado em sua totalidade, com integridade preservada e sinal normal.
+
+**Ligamento colateral lateral (LCL):** Íntegro, sem sinais de lesão.
+
+### Meniscos
+
+**Menisco medial:** Morfologia normal, triangular, sem sinais de degeneração ou rotura.
+
+**Menisco lateral:** Morfologia normal, sem lesão associada.
+
+### Superfícies Articulares
+
+Cartilagem articular da patela, côndilo femoral medial, côndilo femoral lateral e planalto tibial sem alterações degenerativas significativas. Espessura adequada. Sem sinais de condromalácia.
+
+### Cápsula Articular e Sinovial
+
+Derrame articular de moderada quantidade (aproximadamente 40-50 mL), com características inflamatórias agudas. Sem presença de corpos soltos intra-articulares.
+
+### Tendões e Estruturas Periarticulares
+
+**Tendão patelar:** 

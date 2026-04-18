@@ -1,5 +1,0 @@
-TITLE: ULTRASSONOGRAFIA ARTERIAL DO MEMBRO SUPERIOR DIREITO / ESQUERDO
-URL: https://www.compendioradiologia.com/us/doppler-arterial
-SOURCE_SLUG: us__doppler-arterial
-============================================================
-TÉCNICA:Estudo arterial com transdutor linear de alta frequência nas modalidades bidimensional, Doppler espectral, Color e Power Doppler.Qualidade técnica do estudo: Adequada.RELATÓRIO:Artérias subclávia, axilar, braquial, radial e ulnar pérvias, com calibres normais, sem sinais de irregularidades parietais.Avaliação espectral ao Doppler evidencia fluxo trifásico com velocidades sistólicas adequadas.PARÂMETROS VELOCIMÉTRICOSArtéria subclávia 	_ cm/sArtéria axilar		_ cm/sArtéria braquial	_ cm/sArtéria radial		_ cm/sArtéria ulnar		_ cm/sCONCLUSÃONão há sinais de estenose arterial hemodinamicamente expressiva.Com os cumprimentos,

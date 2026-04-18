@@ -1,0 +1,62 @@
+# LAUDO RADIOLÓGICO
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**TIPO DE EXAME:** Radiografia de Tórax (PA e Perfil)  
+**MÉDICO SOLICITANTE:** [CRM]  
+**RADIOLOGISTA:** Dr. Fernando Carvalho CRM 123456/SP
+
+---
+
+## TÉCNICA
+
+Radiografias do tórax em incidência posteroanterior e perfil direito realizadas em equipamento de radiologia digital (DR), com técnica padrão de 120 kVp e 3,2 mAs. Posicionamento adequado com simetria de clavículas e expansão pulmonar simétrica bilateralmente. Inspiração suficiente evidenciada pela visualização de 10 espaços intercostais posteriores.
+
+---
+
+## ACHADOS
+
+**CAMPOS PULMONARES:**
+Campos pulmonares bilateralmente simétricos, bem expandidos e com transparência normal. Parênquima pulmonar apresenta padrão alveolar homogêneo sem opacidades focais, infiltrados ou consolidações. Sem evidência de nódulos ou lesões expansivas. Ausência de padrão reticulo-nodular. Hilum pulmonar bilateral sem alargamento, com densidade vascular normal e contorno nítido.
+
+**PLEURA E ESPAÇOS PLEURAIS:**
+Seios costofrênicos bilateralmente agudos e nítidos. Não há derrame pleural de qualquer volume. Espaços pleurais livres. Parede torácica sem alterações.
+
+**MEDIASTINO:**
+Mediastino de largura normal, com dimensão transversal de 7,2 cm ao nível da câmara média do coração. Contorno mediastinal suave e simétrico. Silhueta cardíaca com dimensão normal, índice cardiotorácico de 48% (medida máxima horizontal de 14,5 cm em tórax com diâmetro de 30,2 cm). Não há desvio de mediastino. Sem evidência de linfadenopatia hilar ou paratraqueal.
+
+**CORAÇÃO:**
+Silhueta cardíaca de tamanho normal. Arcos cardíacos regulares. Ângulos cardiofrênicos agudos bilateralmente. Sem cardiomegalia. Configuração normal do perfil cardíaco.
+
+**ESTRUTURAS ÓSSEAS:**
+Clavículas, escápulas e costelas visualizadas sem fraturas agudas ou anormalidades osteodensitométricas. Arcos costais apresentam contornuidade normal. Coluna torácica visualizada em perfil apresenta alinhamento normal, sem escoliose, lordose exagerada ou deformidades. Corpos vertebrais com densidade óssea preservada. Espaços discais mantêm altura normal.
+
+**DIAFRAGMA:**
+Ambas as cúpulas diafragmáticas apresentam contorno suave e normal. Movimento diafragmático esperado em incidência de perfil. Sem elevação anormal do diafragma.
+
+**TECIDOS MOLES:**
+Tecidos moles de parede torácica anterior, lateral e posterior sem alterações. Não há enfisema subcutâneo. Linhas de identificação de linfonodos normais.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Radiografia de tórax dentro dos limites normais, sem evidências de:**
+- Opacidades parenquimatosas pleuropulmonares
+- Derrame pleural ou alterações pleurais
+- Cardiomegalia
+- Alterações ósseas agudas
+- Linfadenopatia hilar ou mediastinal
+- Desvio de mediastino
+- Anormalidades diafragmáticas
+
+Silhueta cardíaca normal com índice cardiotorácico de 48%. Campos pulmonares simétricos e bem ventilados bilateralmente.
+
+**CONCLUSÃO:** Tórax normal.
+
+---
+
+**Assinado digitalmente em [DATA DO EXAME]**  
+**Dr. Fernando Carvalho**  
+**Radiologista**  
+**CRM 123456/SP**

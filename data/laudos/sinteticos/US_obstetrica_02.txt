@@ -1,4 +1,63 @@
-=== US obstetrica — Variante 2 ===
+rticularidades
+
+### **Anexos:**
+- **Bolsa Gestacional:** Ecogênica, compatível com a idade gestacional
+- **Saco Gestacional:** Diâmetro médio compatível
+- **Espaço Subcorial:** Normal
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Gestação única intrauterina com 12 semanas e 3 dias de idade gestacional**, confirmada pela biometria fetal (comprimento craniocaudal de 60 mm).
+
+2. **Translucência nucal aumentada: 3,5 mm** - Valor acima do percentil 95 (ponto de corte: ≤2,4 mm para 12 semanas segundo critérios ISUOG).
+
+3. **Marcador de risco para aneuploidias** - O aumento da medida de translucência nucal está associado a risco aumentado para síndrome de Down (trissomia 21), síndrome de Edwards (trissomia 18) e outras cromossomopatias.
+
+4. Demais estruturas fetais examinadas apresentam aspectos morfológicos preservados nos limites da resolução do método ultrassonográfico em primeiro trimestre.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+**CONCLUSÃO:**
+
+Gestação única intrauterina em primeiro trimestre com translucência nucal significativamente aumentada (3,5 mm), caracterizando marcador de risco para aneuploidias. O achado não é diagnóstico, mas requer investigação complementar para avaliação de risco cromossômico.
+
+**RECOMENDAÇÕES:**
+
+1. **Aconselhamento Genético:** Recomenda-se consulta com especialista em medicina materno-fetal ou geneticista para discussão dos achados e opcões de investigação complementar.
+
+2. **Testes de Rastreamento:**
+   - Considerado **Teste Combinado de Primeiro Trimestre*
+pessura da decídua adequada para a idade gestacional
+
+### **Feto:**
+- **Biometria:**
+  - Comprimento Craniocaudal (CCN): 60 mm (concordante com 12 semanas e 3 dias)
+  - Frequência Cardíaca Fetal: 168 bpm (normal)
+  - Movimentação fetal presente e adequada
+
+### **Translucência Nucal (TN):**
+- **MEDIDA: 3,5 mm** (mensurada no eixo transversal, na altura da entrada torácica)
+- **AVALIAÇÃO:** Espessura aumentada
+- Técnica adequada de mensuração respeitando os critérios de qualidade (visualização clara da membrana nucal, diferenciação do edema da pele fetal do líquido amniótico)
+
+### **Estruturas Fetais:**
+- **Cabeça:** Forma ovoide simétrica, sem anormalidades aparentes
+- **Face:** Frontal retrógrado normal, perfil fetal bem definido
+- **Coluna Vertebral:** Alinhamento e segmentação normais nos segmentos avaliados
+- **Tórax:** Simetria preservada, arcos costais íntegros, coração no ato de bater normalmente
+- **Abdômen:** Circunferência abdominal compatível com idade, alças intestinais com ecotextura normal
+- **Extremidades:** Membros superiores e inferiores com comprimento apropriado, ossos longos íntegros
+- **Placenta:** Localização fúndica, ecotextura grau 0 (esperado para primeiro trimestre)
+- **Cordão Umbilical:** Inserção correta, duas artérias e uma veia visualizadas
+- **Líquido Amniótico:** Quantidade adequada, bolsões sem particularidades
+
+### **Anexos:**
+- **Bolsa Gestacional:** Ecogênica, compatível com a idade gestacional
+- **Saco Gestacional:** Diâmetro médio compatív
 Especialidade: radiologia
 Cenário: gestação de 12 semanas com translucência nucal aumentada (3,5 mm)
 Fonte: sintético — gerado por Claude
@@ -35,54 +94,8 @@ Realizado exame ultrassonográfico obstétrico do primeiro trimestre em escala d
 
 ### **Feto:**
 - **Biometria:**
-  - Comprimento Craniocaudal (CCN): 60 mm (concordante com 12 semanas e 3 dias)
-  - Frequência Cardíaca Fetal: 168 bpm (normal)
-  - Movimentação fetal presente e adequada
-
-### **Translucência Nucal (TN):**
-- **MEDIDA: 3,5 mm** (mensurada no eixo transversal, na altura da entrada torácica)
-- **AVALIAÇÃO:** Espessura aumentada
-- Técnica adequada de mensuração respeitando os critérios de qualidade (visualização clara da membrana nucal, diferenciação do edema da pele fetal do líquido amniótico)
-
-### **Estruturas Fetais:**
-- **Cabeça:** Forma ovoide simétrica, sem anormalidades aparentes
-- **Face:** Frontal retrógrado normal, perfil fetal bem definido
-- **Coluna Vertebral:** Alinhamento e segmentação normais nos segmentos avaliados
-- **Tórax:** Simetria preservada, arcos costais íntegros, coração no ato de bater normalmente
-- **Abdômen:** Circunferência abdominal compatível com idade, alças intestinais com ecotextura normal
-- **Extremidades:** Membros superiores e inferiores com comprimento apropriado, ossos longos íntegros
-- **Placenta:** Localização fúndica, ecotextura grau 0 (esperado para primeiro trimestre)
-- **Cordão Umbilical:** Inserção correta, duas artérias e uma veia visualizadas
-- **Líquido Amniótico:** Quantidade adequada, bolsões sem particularidades
-
-### **Anexos:**
-- **Bolsa Gestacional:** Ecogênica, compatível com a idade gestacional
-- **Saco Gestacional:** Diâmetro médio compatível
-- **Espaço Subcorial:** Normal
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Gestação única intrauterina com 12 semanas e 3 dias de idade gestacional**, confirmada pela biometria fetal (comprimento craniocaudal de 60 mm).
-
-2. **Translucência nucal aumentada: 3,5 mm** - Valor acima do percentil 95 (ponto de corte: ≤2,4 mm para 12 semanas segundo critérios ISUOG).
-
-3. **Marcador de risco para aneuploidias** - O aumento da medida de translucência nucal está associado a risco aumentado para síndrome de Down (trissomia 21), síndrome de Edwards (trissomia 18) e outras cromossomopatias.
-
-4. Demais estruturas fetais examinadas apresentam aspectos morfológicos preservados nos limites da resolução do método ultrassonográfico em primeiro trimestre.
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-**CONCLUSÃO:**
-
-Gestação única intrauterina em primeiro trimestre com translucência nucal significativamente aumentada (3,5 mm), caracterizando marcador de risco para aneuploidias. O achado não é diagnóstico, mas requer investigação complementar para avaliação de risco cromossômico.
-
-**RECOMENDAÇÕES:**
-
-1. **Aconselhamento Genético:** Recomenda-se consulta com especialista em medicina materno-fetal ou geneticista para discussão dos achados e opcões de investigação complementar.
+  - Comprimento Craniocaudal (CCN): 60 mm (concordante com 12 sem
+discussão dos achados e opcões de investigação complementar.
 
 2. **Testes de Rastreamento:**
    - Considerado **Teste Combinado de Primeiro Trimestre** (primeira escolha):

@@ -1,0 +1,69 @@
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA DE CRÂNIO
+
+---
+
+## DADOS DO PACIENTE
+**Paciente:** [NOME DO PACIENTE]  
+**Data do Exame:** [DATA DO EXAME]  
+**Médico Solicitante:** CRM [CRM]  
+**Modalidade:** Tomografia Computadorizada Multidetectora de Crânio  
+**Protocolo:** Sem contraste iodado  
+**Equipamento:** Tomógrafo 128 canais — janelas óssea e de partes moles
+
+---
+
+## TÉCNICA
+Realizada tomografia computadorizada de crânio em cortes axiais de 2mm de espessura, do forame magno até o vértex, sem administração de contraste iodado intravenoso. Foram geradas reconstruções coronais e sagitais. Boa qualidade técnica do exame.
+
+---
+
+## ACHADOS
+
+### CALVÁRIA E OSSO TEMPORAL
+Calvária simétrica, sem solução de continuidade do arcabouço ósseo. Tabua externa e interna sem alterações. Espessura de ambas as tábuas em torno de 5 a 7mm, dentro dos limites normais. Ossos temporais bilateralmente simétricos. Mastoides arejadas bilateralmente. Rochedos íntegros. Condutos auditivos externos e internos pérmeáveis e simétricos. Não se identificam opacidades em seios da face.
+
+### VENTRÍCULO LATERAL E III VENTRÍCULO
+Sistemas ventricular e subaracnoideo apresentam amplitude normal. Ventrículos laterais simétricos com índice bicaudado de 2,8cm. Terceiro ventrículo com diâmetro de 6mm. Quarto ventrículo com dimensões normais, medindo 1,2 x 0,9cm. Não há evidências de hidrocefalia obstrutiva ou não comunicante.
+
+### PARÊNQUIMA ENCEFÁLICO
+Substância cinzenta e branca apresentam diferenciação normal. Não se identificam focos hipodensas ou hiperdensas sugestivos de lesão ocupativa de espaço, hemorragia ou infarto agudo. Cornos temporais simétricos, sem sinais de atrofia. Fissuras interhemisférica e lateral com calibre normal. Espaco subaracnoideo simétrico e de calibre normal.
+
+### SEIOS PARANASAIS
+Seios maxilares arejados bilateralmente. Células etmoidais arejadas. Seios esfenoidais pneumáticos e simétricos. Seio frontal arejado bilateramente. Sem espessamento de mucosa ou níveis hidro-aéreos. Naso e orofaringe sem alterações.
+
+### FOSSA POSTERIOR
+Cerebelo simétrico e de volume normal. Sem deslocamento de estruturas da linha média. Ângulos cerebelopontinos simétricos e livres. Tronco cerebral com contornos normais e sem compressão. Fossas posterior apresenta relação normal com adjacências.
+
+### ARTICULAÇÕES E ESTRUTURAS ÓSSEAS
+Articulações temporomandibulares bem congruentes, sem sinais de osteoartrose avançada. Processos articulares com espaço articular preservado bilateralmente. Columela nasal integra. Septo nasal na linha média.
+
+### ESTRUTURAS VASCULARES
+Territórios de distribuição das artérias cerebrais anterior, média e posterior mantêm simetria normal. Não há sinais de oclusão vascular de grande calibre. Não se visualizam aneurismas saculares de significativo tamanho. Sifões cavernosos e artérias oftálmicas pérmeáveis bilateralmente.
+
+---
+
+## ACHADOS COMPLEMENTARES
+Não se identificam calcificações patológicas em região de gânglios da base ou tálamo. Glândula pineal sem desvio de linha média, com densidade homogênea. Adenohipófise e neurohipófise com dimensões normais, medindo 6 x 5mm no seu maior diâmetro.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Tomografia computadorizada de crânio NORMAL.**
+
+Não há evidências de:**
+- Lesões expansivas intracranianas
+- Hemorragia intracraniana
+- Infarto cerebral agudo
+- Hidrocefalia
+- Deslocamento de estruturas da linha média
+- Opacidades paranasais significativas
+- Alterações ósseas da calvária
+
+Achados compatíveis com exame intracraniano dentro dos limites da normalidade para a idade.
+
+---
+
+**Assinado digitalmente em [DATA DO EXAME]**  
+**Dr. [CRM]**  
+*Radiologista — ESPECIALISTA EM NEURORRADIOLOGIA*

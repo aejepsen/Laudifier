@@ -1,5 +1,0 @@
-TITLE: ULTRASSONOGRAFIA DOPPLER ARTERIAL DO MEMBRO INFERIOR DIREITO / ESQUERDO
-URL: https://www.compendioradiologia.com/us/doppler-arterial
-SOURCE_SLUG: us__doppler-arterial
-============================================================
-TÉCNICA:Estudo arterial com transdutor linear de alta frequência nas modalidades bidimensional, Doppler espectral, Color e Power Doppler.Qualidade técnica do estudo: Adequada.RELATÓRIO:Artérias com  trajeto e calibre normais, sem sinais de espessamento parietal ou irregularidades intraluminais.Curvas espectrais registradas de padrão trifásico de alta resistência, com velocidades normais, sem evidências de turbulência ou amortecimento.PARÂMETROS VELOCIMÉTRICOSArtéria femoral comum	_ cm/sArtéria femoral superficial	_ cm/sArtéria femoral profunda	_ cm/sArtéria poplítea		_ cm/sArtéria tibial posterior		_ cm/sArtéria tibial anterior		_ cm/sArtéria fibular			_ cm/sTempo de aceleração sistólica (TAS) em artéria plantar: <> ms20-120 ms: ausência de isquemia121-180 ms: isquemia leve181-224 ms: isquemia moderada> 225 ms: isquemia graveCONCLUSÃO:Não há sinais de estenose hemodinamicamente expressiva.Com os cumprimentos,

@@ -1,0 +1,92 @@
+# LAUDO DE ECOCARDIOGRAMA
+
+**Paciente:** [NOME DO PACIENTE]
+**Data do Exame:** [DATA DO EXAME]
+**CRM do Médico:** [CRM]
+**Modalidade:** Ecocardiograma Transtorácico 2D/Doppler
+**Equipamento:** Philips iE33, transdutor 2,5 MHz
+
+---
+
+## TÉCNICA
+
+Ecocardiograma transtorácico realizado em decúbito lateral esquerdo, com análise das janelas paraesternal longitudinal e transversal, apical de 2 câmaras, 3 câmaras e 4 câmaras. Utilizadas técnicas de Doppler contínuo, Doppler pulsátil e Doppler colorido para avaliação da dinâmica valvular e fluxos intracardíacos.
+
+---
+
+## ESTRUTURAS CARDÍACAS
+
+**Átrio Direito (AD):** Dimensão basal de 42 mm, volume estimado dentro dos limites da normalidade.
+
+**Ventrículo Direito (VD):** Diâmetro basal de 34 mm, espessura de parede de 4 mm. Função sistólica preservada, com TAPSE (Tricuspid Annular Plane Systolic Excursion) de 22 mm, sugestivo de boa função ventricular direita.
+
+**Septo Interventricular:** Espessura diastólica de 9 mm, movimentação paradoxal discreta. Ausência de defeitos septais visibilizados.
+
+**Átrio Esquerdo (AE):** Diâmetro anteroposterior de 48 mm, volume indexado de 38 mL/m². Paredes normais, sem trombos visualizados. Septo interatrial íntegro.
+
+**Ventrículo Esquerdo (VE):**
+- Diâmetro diastólico: 62 mm (aumentado)
+- Diâmetro sistólico: 48 mm (aumentado)
+- Espessura de parede (diastólica): 10 mm
+- Volume diastólico (Simpson biplane): 158 mL/m²
+- Volume sistólico (Simpson biplane): 102 mL/m²
+- **Fração de Ejeção: 35%** (severamente reduzida)
+- Encurtamento miocárdico: 23% (reduzido)
+
+**Cinemática Segmentar:** Hipocinesia global discreta com padrão mais acentuado em parede anterior e septo apical. Ausência de sincronismo segmentar. Deformação longitudinal (strain) global 2D em repouso: -13% (reduzida; normal > -20%).
+
+**Pericárdio:** Sem derrame significativo. Espessura normal.
+
+---
+
+## AVALIAÇÃO VALVULAR
+
+**Válvula Aórtica:**
+- Estrutura: Trivalvular, mobilidade normal
+- Área valvular: 3,2 cm² (normal)
+- Fluxo: Laminar, Doppler máximo: 1,1 m/s
+- Insuficiência aórtica: Discreta, com colorido diastólico fino no tracto de saída do VE
+- Gradiente máximo: 18 mmHg, gradiente médio: 10 mmHg
+
+**Válvula Mitral:**
+- Estrutura: Folhetos preservados, sem calcificação significativa
+- Motilidade: Normal
+- Separação E-F: 58 mm
+- **Insuficiência mitral: Moderada a severa**
+  - Jato de regurgitação: Extensão anterógrada de 45 mm no AE
+  - Largura do colar na base: 12 mm
+  - Área do orifício de regurgitação efetivo (PISA): 0,68 cm²
+  - Volume de regurgitação: 68 mL
+  - Fração regurgitante: 58%
+- Doppler contínuo: Pico de velocidade de regurgitação 4,2 m/s, indicativo de pressão ventricular elevada
+
+**Válvula Tricúspide:**
+- Estrutura: Normal, trivalvular
+- **Insuficiência tricúspide: Moderada**
+  - Jato de regurgitação: Extensão sistólica até terço proximal da veia cava inferior
+  - Velocidade máxima de regurgitação: 3,8 m/s
+  - Gradiente sistólico VD-AD estimado: 58 mmHg
+  - Estimativa de pressão ventricular direita sistólica: 63 mmHg (assumindo pressão atrial direita de 5 mmHg)
+
+**Válvula Pulmonar:**
+- Estrutura: Normal
+- Fluxo: Laminar, ausência de insuficiência significativa
+- Doppler máximo: 0,9 m/s
+
+---
+
+## AVALIAÇÃO HEMODINÂMICA
+
+**Pressão Arterial Pulmonar:** Estimada em 63 mmHg (sistólica) baseada no gradiente tricúspide, sugestivo de hipertensão pulmonar moderada.
+
+**Veia Cava Inferior:** Diâmetro de 21 mm com colapsibilidade reduzida (15%) durante inspiração profunda, indicativo de elevação da pressão atrial direita (estimada em 8-10 mmHg).
+
+**Fluxo Pulmonar:** Pico de velocidade na artéria pulmonar: 0,85 m/s, integral de velocidade-tempo: 18 cm.
+
+**Débito Cardíaco:** Estimado em 3,8 L/min (reduzido).
+
+---
+
+## AVALIAÇÃO DIASTÓLICA
+
+**Pa

@@ -1,0 +1,96 @@
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA DE TÓRAX
+
+**IDENTIFICAÇÃO DO PACIENTE**
+- Nome: [NOME DO PACIENTE]
+- Data do Exame: [DATA DO EXAME]
+- Médico Responsável: CRM [CRM]
+- Modalidade: TC Helicoidal Multidetetor
+- Equipamento: 128 canais
+- Protocolo: Arterial e Venoso Portal (com contraste iodado)
+- Reconstruções: Axial, coronal e sagital (espessura 1,25mm e 5mm)
+
+---
+
+## TÉCNICA
+
+Tomografia computadorizada de tórax realizada em espiral contínua após injeção de contraste iodado não-iônico (Iohexol 350mgI/mL) em volume de 80mL, via acesso venoso periférico em membro superior direito, com velocidade de infusão de 4mL/s. Aquisição realizada em fases arterial pulmonar (delay: 20 segundos) e venosa portal (delay: 60 segundos). Campo de visão (FOV) 350x350mm. Dose efetiva: 3,8 mSv.
+
+---
+
+## ACHADOS
+
+### Pulmões e Pleura
+
+**Parênquima Pulmonar:**
+- Arquitectura parenquimatosa preservada bilateralmente, sem opacidades consolidativas, atelectasias segmentares ou subsegmentares.
+- Distribuição normal dos vasos pulmonares nos ápices (diâmetro da artéria pulmonar direita: 22mm; esquerda: 20mm) sem sinais de hipertensão pulmonar.
+- Campos pulmonares com densidade média de 40 UH (pulmão normal); ausência de vidro fosco, nódulos ou padrão de pavimentação em mosaico.
+- Brônquios principais permeáveis: diâmetro do brônquio principal direito 16mm, esquerdo 14mm, com bifurcação aórtica normal.
+- Hilares pulmonares com contornos preservados, sem linfadenopatia. Linfonodos hiliares com dimensão máxima: direito 11mm (eixo curto), esquerdo 9mm (eixo curto).
+- Ausência de bronquiectasias ou bronquiolites.
+
+**Pleura:**
+- Superfícies pleurais bilaterais lisas e bem definidas.
+- Ausência de derrame pleural.
+- Espaço pleural com densidade de 30 UH (normal).
+- Seios costofrênicos agudos bilateralmente.
+- Ausência de pneumotórax espontâneo ou iatrogênico.
+
+### Mediastino
+
+**Coração e Grandes Vasos:**
+- Silhueta cardíaca dentro dos limites normais (índice cardiotorácico: 0,48).
+- Átrios e ventrículos com volumes habituais.
+- Aorta torácica com calibre normal: raiz aórtica 32mm, aorta ascendente 28mm, aorta descendente 25mm.
+- Arco aórtico com trajeto e calibre normais, sem ectasia ou dissecção.
+- Artéria pulmonar principal com diâmetro de 21mm.
+- Veia cava superior com diâmetro de 18mm na altura do seio venoso.
+- Ausência de trombose venosa profunda.
+
+**Esôfago:**
+- Diâmetro dentro dos limites normais (máximo 12mm).
+- Ausência de espessamento parietal.
+- Sem nível hidro-aéreo.
+
+**Linfonodos Mediastinais:**
+- Cadeia anterior (1R): ausente ou até 5mm.
+- Cadeia paratráqueal direita (2R): 8mm.
+- Cadeia paratráqueal esquerda (2L): 7mm.
+- Cadeia central (7): 6mm.
+- Cadeia esofágica (8): não visualizada.
+- Cadeia pulmonar (11): não alterada (até 8mm bilateralmente).
+
+Todos os linfonodos mediastinais com dimensão no eixo curto abaixo de 1cm, critério de normalidade.
+
+### Estruturas Ósseas
+
+**Coluna Torácica:**
+- Corpos vertebrais T1-T12 com altura normal e densidade adequada (média 180 UH em osso trabecular).
+- Ausência de fraturas, colapsos ou lesões líticas/blásticas.
+- Espaços discais preservados (altura média de 8-9mm).
+- Desfiladeiro torácico pérvio.
+- Sem estenose ou mielopatia óbvia.
+
+**Costelas, Esterno e Escápulas:**
+- Costelas (1-12) bilaterais íntegras, sem fraturas ou callos.
+- Esterno com fusão adequada, sem deformidades.
+- Escápulas com contornos normais.
+- Articulações esternoclaviculares e acromioclaviculares com espaçamento preservado.
+
+### Partes Moles
+
+**Musculatura Torácica:**
+- Músculos peitoral maior, peitoral menor, serrátil anterior e dorsal largo com simetria bilateral e sem atrofia.
+- Espessura média do tecido adiposo subcutâneo compatível com índice de massa corporal normal (aproximadamente 8mm).
+
+**Pele e Tecido Adiposo:**
+- Ausência de edema subcutâneo.
+- Sem lesões cutâneas ou massas de partes moles.
+
+---
+
+## ACHADOS ADICIONAIS
+
+- Sem evidência de corpo estranho intrabronquial.
+- Ausência de enfisema subcutâneo ou mediastinal.
+- Sem

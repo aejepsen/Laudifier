@@ -1,4 +1,3 @@
-=== RX mao punho — Variante 1 ===
 Especialidade: radiologia
 Cenário: mão e punho sem fraturas ou luxações
 Fonte: sintético — gerado por Claude
@@ -39,6 +38,18 @@ Foram realizadas radiografias digitais da mão e punho em projeções posteroant
 **Falanges:** As falanges proximais, mediais e distais de todos os dedos encontram-se íntegras, com contornos normais e densidade uniforme.
 
 **Rádio e Ulna Distal:** Apresentam densidade normal, com cortical bem preservada. Epífises fechadas. Superfícies articulares íntegras.
+
+### Espaços Articulares:
+
+Os espaços 
+* __________________
+
+**Data:** [DD/MM/AAAA] **Hora:** [HH:MM]
+
+---
+
+*Este laudo foi emitido em conformidade com as normas técnicas da Radiologia brasileira e regulamentações vigentes da ANVISA e CFM.*
+ Apresentam densidade normal, com cortical bem preservada. Epífises fechadas. Superfícies articulares íntegras.
 
 ### Espaços Articulares:
 
@@ -84,4 +95,4 @@ Seguimento clínico conforme indicado pelo médico assistente.
 
 ---
 
-*Este laudo foi emitido em conformidade com as normas técnicas da Radiologia brasileira e regulamentações vigentes da ANVISA e CFM.*
+*Este laudo foi emitido em conformidade com as normas técnicas da Radiologia bras

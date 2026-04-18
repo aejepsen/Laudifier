@@ -1,4 +1,90 @@
-=== US doppler membros inferiores — Variante 1 ===
+CRIÇÃO DETALHADA
+
+### MEMBRO INFERIOR DIREITO:
+
+**Veia Cava Inferior:**  
+Calibre normal, preservado (diâmetro máximo aproximadamente 18 mm), sem sinais de trombose. Fluxo espontâneo presente, respeitando as variações respiratórias fisiológicas.
+
+**Veias Ilíacas:**  
+Veias ilíacas comuns, externas e internas bilateralmente apresentam-se pérvias, com calibres normais. Compressibilidade presente. Fluxo Doppler espontâneo, pulsátil, sem sinais de obstrução.
+
+**Veias Femorais (Comum e Superficial):**  
+Pérvias, com calibres dentro dos limites normais (veia femoral comum: aproximadamente 8-9 mm; veia femoral superficial: aproximadamente 6-7 mm). Compressibilidade completa demonstrada. Fluxo espontâneo presente ao Doppler colorido, espectro bifásico com variação respiratória preservada.
+
+**Veia Poplítea:**  
+Pérvia, calibre normal (aproximadamente 6 mm), compressível. Fluxo espontâneo presente.
+
+**Veias Distais (Tibial Anterior, Tibial Posterior e Fibular):**  
+Pérvias, calibres normais. Fluxo presente ao Doppler, sem evidências de trombose.
+
+**Veia Safena Magna:**  
+Pérvia, com calibre normal, sem sinais de insuficiência valvular significativa.
+
+---
+
+### MEMBRO INFERIOR ESQUERDO:
+
+**Veia Cava Inferior:**  
+(Avaliação similar ao lado direito) Calibre normal, pérvia, sem sinais de trombose.
+
+**Veias Ilíacas:**  
+Pérvias bilateralmente com calibres normais, compressibilidade preservada, fluxo Doppler espontâneo e pulsátil.
+
+**Veias Femorais (Comum e Superficial):**  
+Pérvias, calibre
+com calibres normais, compressibilidade preservada, fluxo Doppler espontâneo e pulsátil.
+
+**Veias Femorais (Comum e Superficial):**  
+Pérvias, calibres normais. Compressibilidade completa demonstrada em todos os segmentos. Fluxo espontâneo, bifásico, com variação respiratória adequada.
+
+**Veia Poplítea:**  
+Pérvia, calibre normal, compressível, com fluxo espontâneo presente.
+
+**Veias Distais:**  
+Pérvias, calibres normais, sem evidências de trombose.
+
+**Veia Safena Magna:**  
+Pérvia, calibre normal, sem insuficiência valvular significativa.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Sistema venoso profundo dos membros inferiores:** Sem evidências de trombose venosa profunda (TVP) aguda ou crônica.
+
+2. **Permeabilidade vascular:** Todas as veias avaliadas encontram-se pérvias, com fluxo espontâneo presente e adequada compressibilidade.
+
+3. **Diâmetros venosos:** Dentro dos limites normais bilateralmente.
+
+4. **Fluxo Doppler:** Padrão normal, com variação respiratória fisiológica preservada e espectro bifásico nas veias proximais.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+✓ **Não há evidências ultrassonográficas de trombose venosa profunda nos membros inferiores.**
+
+O exame Doppler realizado demonstra permeabilidade completa do sistema venoso profundo bilateral, com fluxo espontâneo preservado e compressibilidade adequada em todos os segmentos avaliados.
+
+**Recomendações:**
+- Resultado negativo para TVP aguda;
+- Acompanhamento clínico conforme orientação médica;
+- Caso haja persistência de
+s avaliados.
+
+**Recomendações:**
+- Resultado negativo para TVP aguda;
+- Acompanhamento clínico conforme orientação médica;
+- Caso haja persistência de sintomatologia sugestiva de trombose venosa, considerar novas investigações mediante avaliação clínica;
+- Medidas preventivas gerais: deambulação precoce, hidratação adequada e evitar imobilização prolongada.
+
+---
+
+## ASSINATURA
+
+**Médico Responsável:** ___________________________________________
+
+**Especialista em Radiologia e Diagnóstico por Im
 Especialidade: radiologia
 Cenário: sistema venoso profundo sem trombose
 Fonte: sintético — gerado por Claude
@@ -40,75 +126,4 @@ O paciente foi examinado em posição supina e, quando necessário, em posição
 ### MEMBRO INFERIOR DIREITO:
 
 **Veia Cava Inferior:**  
-Calibre normal, preservado (diâmetro máximo aproximadamente 18 mm), sem sinais de trombose. Fluxo espontâneo presente, respeitando as variações respiratórias fisiológicas.
-
-**Veias Ilíacas:**  
-Veias ilíacas comuns, externas e internas bilateralmente apresentam-se pérvias, com calibres normais. Compressibilidade presente. Fluxo Doppler espontâneo, pulsátil, sem sinais de obstrução.
-
-**Veias Femorais (Comum e Superficial):**  
-Pérvias, com calibres dentro dos limites normais (veia femoral comum: aproximadamente 8-9 mm; veia femoral superficial: aproximadamente 6-7 mm). Compressibilidade completa demonstrada. Fluxo espontâneo presente ao Doppler colorido, espectro bifásico com variação respiratória preservada.
-
-**Veia Poplítea:**  
-Pérvia, calibre normal (aproximadamente 6 mm), compressível. Fluxo espontâneo presente.
-
-**Veias Distais (Tibial Anterior, Tibial Posterior e Fibular):**  
-Pérvias, calibres normais. Fluxo presente ao Doppler, sem evidências de trombose.
-
-**Veia Safena Magna:**  
-Pérvia, com calibre normal, sem sinais de insuficiência valvular significativa.
-
----
-
-### MEMBRO INFERIOR ESQUERDO:
-
-**Veia Cava Inferior:**  
-(Avaliação similar ao lado direito) Calibre normal, pérvia, sem sinais de trombose.
-
-**Veias Ilíacas:**  
-Pérvias bilateralmente com calibres normais, compressibilidade preservada, fluxo Doppler espontâneo e pulsátil.
-
-**Veias Femorais (Comum e Superficial):**  
-Pérvias, calibres normais. Compressibilidade completa demonstrada em todos os segmentos. Fluxo espontâneo, bifásico, com variação respiratória adequada.
-
-**Veia Poplítea:**  
-Pérvia, calibre normal, compressível, com fluxo espontâneo presente.
-
-**Veias Distais:**  
-Pérvias, calibres normais, sem evidências de trombose.
-
-**Veia Safena Magna:**  
-Pérvia, calibre normal, sem insuficiência valvular significativa.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Sistema venoso profundo dos membros inferiores:** Sem evidências de trombose venosa profunda (TVP) aguda ou crônica.
-
-2. **Permeabilidade vascular:** Todas as veias avaliadas encontram-se pérvias, com fluxo espontâneo presente e adequada compressibilidade.
-
-3. **Diâmetros venosos:** Dentro dos limites normais bilateralmente.
-
-4. **Fluxo Doppler:** Padrão normal, com variação respiratória fisiológica preservada e espectro bifásico nas veias proximais.
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-✓ **Não há evidências ultrassonográficas de trombose venosa profunda nos membros inferiores.**
-
-O exame Doppler realizado demonstra permeabilidade completa do sistema venoso profundo bilateral, com fluxo espontâneo preservado e compressibilidade adequada em todos os segmentos avaliados.
-
-**Recomendações:**
-- Resultado negativo para TVP aguda;
-- Acompanhamento clínico conforme orientação médica;
-- Caso haja persistência de sintomatologia sugestiva de trombose venosa, considerar novas investigações mediante avaliação clínica;
-- Medidas preventivas gerais: deambulação precoce, hidratação adequada e evitar imobilização prolongada.
-
----
-
-## ASSINATURA
-
-**Médico Responsável:** ___________________________________________
-
-**Especialista em Radiologia e Diagnóstico por Im
+Calibre normal, preservado (diâmetro máximo aproximadamente 18 mm), sem sina

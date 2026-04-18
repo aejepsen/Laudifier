@@ -1,4 +1,39 @@
-=== US obstetrica — Variante 3 ===
+etamente sobre o orifício cervical interno, consistindo em **placenta prévia total**. A distância entre a borda placentária e o orifício cervical é de 0 mm (zero), caracterizando cobertura completa do canal cervical.
+
+### ESTRUTURAS MATERNAS
+
+**Colo uterino:** Comprimento = 28 mm, sem sinais de insuficiência cervical  
+**Corpo uterino:** Espessura normal, sem contrações uterinas no período de observação  
+**Anexos uterinos:** Ovários com aspecto normal  
+**Líquido livre pelvi:** Ausente
+
+### DOPPLER OBSTÉTRICO
+
+**Artéria Umbilical:** Índice de resistência (IR) = 0,62 (normal para IG)  
+**Artéria Cerebral Média:** IR = 0,58 (normal)  
+**Razão Cerebral-Placentária:** 1,07 (normal, sem Doppler anormal)
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Gestação de 28 semanas + 3 dias** (compatível com história clínica)
+
+2. **Placenta prévia total** — A placenta situa-se completamente sobre o orifício cervical interno, recobrindo totalmente o canal, com zero espaço entre a margem placentária e o orifício.
+
+3. **Feto único, vivo, com biometria adequada para idade gestacional e dinâmica normal**
+
+4. **Líquido amniótico em volume aumentado com meconialização** — Sugestivo de hipóxia fetal e comprometimento do bem-estar fetal
+
+5. **Doppler obstétrico normal** — Sem sinais de insuficiência placentária no presente momento, porém com ressalva quanto à presença de mecônio
+
+6. **Colo uterino com comprimento preservado**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A ultrassonografia obstétrica evidencia **place
 Especialidade: radiologia
 Cenário: placenta prévia total em gestação de 28 semanas
 Fonte: sintético — gerado por Claude
@@ -40,6 +75,19 @@ Realizado estudo ultrassonográfico obstétrico em tempo real utilizando equipam
 | Comprimento Fêmur (CF) | 54 mm | 27 + 4 a 28 + 3 semanas |
 | Circunferência Abdominal (CA) | 233 mm | 28 + 0 a 28 + 4 semanas |
 
+**Idade Gestacional Estimada:** 28 semanas ± 3 dias (compatível c
+resença de mecônio
+
+6. **Colo uterino com comprimento preservado**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A ultrassonografia obstétrica evidencia **placenta prévia total em gestação de 28 semanas**, situação que contraindicada absolutamente parto vaginal e requer seguimento próximo para avaliação de complicações hemorrágicas.
+ + 3 semanas |
+| Circunferência Abdominal (CA) | 233 mm | 28 + 0 a 28 + 4 semanas |
+
 **Idade Gestacional Estimada:** 28 semanas ± 3 dias (compatível com dados clínicos)  
 **Peso Estimado:** 1.165g (Percentil 50)
 
@@ -69,39 +117,4 @@ Realizado estudo ultrassonográfico obstétrico em tempo real utilizando equipam
 **ECOTEXTURA:** Homogênea, sem sinais de sofrimento placentário  
 **VASCULARIZAÇÃO:** Doppler normal com fluxo nutricional adequado
 
-**Achado crítico:** A borda inferior da placenta situa-se completamente sobre o orifício cervical interno, consistindo em **placenta prévia total**. A distância entre a borda placentária e o orifício cervical é de 0 mm (zero), caracterizando cobertura completa do canal cervical.
-
-### ESTRUTURAS MATERNAS
-
-**Colo uterino:** Comprimento = 28 mm, sem sinais de insuficiência cervical  
-**Corpo uterino:** Espessura normal, sem contrações uterinas no período de observação  
-**Anexos uterinos:** Ovários com aspecto normal  
-**Líquido livre pelvi:** Ausente
-
-### DOPPLER OBSTÉTRICO
-
-**Artéria Umbilical:** Índice de resistência (IR) = 0,62 (normal para IG)  
-**Artéria Cerebral Média:** IR = 0,58 (normal)  
-**Razão Cerebral-Placentária:** 1,07 (normal, sem Doppler anormal)
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Gestação de 28 semanas + 3 dias** (compatível com história clínica)
-
-2. **Placenta prévia total** — A placenta situa-se completamente sobre o orifício cervical interno, recobrindo totalmente o canal, com zero espaço entre a margem placentária e o orifício.
-
-3. **Feto único, vivo, com biometria adequada para idade gestacional e dinâmica normal**
-
-4. **Líquido amniótico em volume aumentado com meconialização** — Sugestivo de hipóxia fetal e comprometimento do bem-estar fetal
-
-5. **Doppler obstétrico normal** — Sem sinais de insuficiência placentária no presente momento, porém com ressalva quanto à presença de mecônio
-
-6. **Colo uterino com comprimento preservado**
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-A ultrassonografia obstétrica evidencia **placenta prévia total em gestação de 28 semanas**, situação que contraindicada absolutamente parto vaginal e requer seguimento próximo para avaliação de complicações hemorrágicas.
+**Achado crítico:** A borda inferior da placenta situa-se completamente sobre o orifício cervical interno, consistindo em **placenta prévia total**. A distância entre a borda placentária e o orifício cervical é de

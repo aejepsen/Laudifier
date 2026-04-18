@@ -1,4 +1,81 @@
-=== US pelvica feminina — Variante 4 ===
+mprimento: 7,2 cm, espessura do miométrio: 2,1 cm). Cavidade endometrial apresenta espessura adequada de 8 mm. Ecotextura miometrial homogênea, sem alterações focais. Sem sinais de adenomiose.
+
+### **Ovário Direito:**
+Ovário direito localizado em topografia normal, medindo aproximadamente 2,8 x 1,9 cm, com volume estimado em 2,6 cm³. Apresenta ecotextura normal com folículos ovarianos em desenvolvimento (folículo dominante medindo 0,9 cm). Ausência de nódulos, cistos ou massas.
+
+### **Ovário Esquerdo:**
+Ovário esquerdo apresenta dimensões aumentadas, medindo 3,8 x 2,9 cm, com volume estimado em 5,2 cm³. Visualiza-se lesão cística bem definida, localmente expansiva, medindo **3,8 cm de maior diâmetro**, com paredes irregulares e conteúdo heterogêneo apresentando ecos internos de baixa amplitude (material hemorrágico/debris). 
+
+A lesão demonstra característica ecotextura característica de endometrioma com múltiplos septos finos e ecos internos homogêneos em toda sua extensão. Avaliação com Doppler colorido não demonstra vascularização significativa no interior da lesão, descartando componentes sólidos neoplásicos. Não há achados de torção ovariana.
+
+### **Trompa de Falópio:**
+Trompas uterinas com calibre e contorno normais, sem dilatações ou massas asociadas.
+
+### **Peritônio/Pelve:**
+Não há evidência de líquido livre significativo. Sem sinais de endometriose peritoneal. Não há achados sugestivos de processos inflamatórios ou neoplásicos.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+1. 
+
+**Registro Profissional (CRM):** [UF] - [NÚMERO]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+
+**Data:** _____/_____/_________  
+**Hora:** ___:___ h
+
+---
+
+**Carimbo/Assinatura Digital:**
+
+```
+[CARIMBO COM IDENTIFICAÇÃO PROFISSIONAL 
+E ASSINATURA ELETRÔNICA/DIGITAL]
+```
+
+---
+
+*Documento confidencial - Informação privilegiada de saúde. Para uso exclusivo do paciente e seu médico assistente.*
+o. Sem sinais de endometriose peritoneal. Não há achados sugestivos de processos inflamatórios ou neoplásicos.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+1. **Endometrioma de ovário esquerdo com 3,8 cm** - Lesão cística ovariana esquerda com características ultrassonográficas típicas de endometrioma (cisto hemorrágico), apresentando paredes irregulares, ecos internos homogêneos e ausência de vascularização ao Doppler.
+
+2. Ovário direito e útero sem alterações significativas.
+
+3. Ausência de líquido livre pélvico.
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+A ultrassonografia pélvica evidencia lesão ovariana esquerda compatível com endometrioma, medindo 3,8 cm. O achado corrobora a suspeita clínica de endometriose ovariana.
+
+**Recomendações:**
+
+- Correlação com manifestações clínicas (dismenorreia, dispareunia, infertilidade)
+- Avaliação conjunta com o serviço de Ginecologia para definição de conduta terapêutica
+- Consideração de ressonância magnética pélvica caso haja necessidade de melhor caracterização ou estadiamento da doença endometriótica
+- Seguimento ultrassonográfico em 6 meses se conduta conservadora for mantida
+- Orientação quanto aos sinais de alerta (dor aguda, alterações do padrão menstrual)
+
+---
+
+## **ASSINATURA**
+
+**Médico Responsável:** _________________________________
+
+**Nome (legível):** [NOME COMPLETO DO RADIOLOGISTA]  
+**Registro Profissional (CRM):** [UF] - [NÚMERO]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+
+**Data:** _____/_____/_________  
+**Hora
 Especialidade: radiologia
 Cenário: endometrioma no ovário esquerdo, 3,8 cm
 Fonte: sintético — gerado por Claude
@@ -36,68 +113,4 @@ Foram realizados exames ultrassonográficos da pelve feminina em planos transver
 ## **ACHADOS**
 
 ### **Útero:**
-Útero normotópico, em anteversoflexão, com dimensões normais (comprimento: 7,2 cm, espessura do miométrio: 2,1 cm). Cavidade endometrial apresenta espessura adequada de 8 mm. Ecotextura miometrial homogênea, sem alterações focais. Sem sinais de adenomiose.
-
-### **Ovário Direito:**
-Ovário direito localizado em topografia normal, medindo aproximadamente 2,8 x 1,9 cm, com volume estimado em 2,6 cm³. Apresenta ecotextura normal com folículos ovarianos em desenvolvimento (folículo dominante medindo 0,9 cm). Ausência de nódulos, cistos ou massas.
-
-### **Ovário Esquerdo:**
-Ovário esquerdo apresenta dimensões aumentadas, medindo 3,8 x 2,9 cm, com volume estimado em 5,2 cm³. Visualiza-se lesão cística bem definida, localmente expansiva, medindo **3,8 cm de maior diâmetro**, com paredes irregulares e conteúdo heterogêneo apresentando ecos internos de baixa amplitude (material hemorrágico/debris). 
-
-A lesão demonstra característica ecotextura característica de endometrioma com múltiplos septos finos e ecos internos homogêneos em toda sua extensão. Avaliação com Doppler colorido não demonstra vascularização significativa no interior da lesão, descartando componentes sólidos neoplásicos. Não há achados de torção ovariana.
-
-### **Trompa de Falópio:**
-Trompas uterinas com calibre e contorno normais, sem dilatações ou massas asociadas.
-
-### **Peritônio/Pelve:**
-Não há evidência de líquido livre significativo. Sem sinais de endometriose peritoneal. Não há achados sugestivos de processos inflamatórios ou neoplásicos.
-
----
-
-## **IMPRESSÃO DIAGNÓSTICA**
-
-1. **Endometrioma de ovário esquerdo com 3,8 cm** - Lesão cística ovariana esquerda com características ultrassonográficas típicas de endometrioma (cisto hemorrágico), apresentando paredes irregulares, ecos internos homogêneos e ausência de vascularização ao Doppler.
-
-2. Ovário direito e útero sem alterações significativas.
-
-3. Ausência de líquido livre pélvico.
-
----
-
-## **CONCLUSÃO E RECOMENDAÇÕES**
-
-A ultrassonografia pélvica evidencia lesão ovariana esquerda compatível com endometrioma, medindo 3,8 cm. O achado corrobora a suspeita clínica de endometriose ovariana.
-
-**Recomendações:**
-
-- Correlação com manifestações clínicas (dismenorreia, dispareunia, infertilidade)
-- Avaliação conjunta com o serviço de Ginecologia para definição de conduta terapêutica
-- Consideração de ressonância magnética pélvica caso haja necessidade de melhor caracterização ou estadiamento da doença endometriótica
-- Seguimento ultrassonográfico em 6 meses se conduta conservadora for mantida
-- Orientação quanto aos sinais de alerta (dor aguda, alterações do padrão menstrual)
-
----
-
-## **ASSINATURA**
-
-**Médico Responsável:** _________________________________
-
-**Nome (legível):** [NOME COMPLETO DO RADIOLOGISTA]  
-**Registro Profissional (CRM):** [UF] - [NÚMERO]  
-**Especialidade:** Radiologia e Diagnóstico por Imagem  
-
-**Data:** _____/_____/_________  
-**Hora:** ___:___ h
-
----
-
-**Carimbo/Assinatura Digital:**
-
-```
-[CARIMBO COM IDENTIFICAÇÃO PROFISSIONAL 
-E ASSINATURA ELETRÔNICA/DIGITAL]
-```
-
----
-
-*Documento confidencial - Informação privilegiada de saúde. Para uso exclusivo do paciente e seu médico assistente.*
+Útero normotópico, em anteversoflexão, com dimensões normais (comprimento: 7,2 cm, espessura do miométrio: 2,1 cm). Cavidade endometrial apresenta espessura adequada de 8 mm. Ecotextura miometrial homogênea, sem al

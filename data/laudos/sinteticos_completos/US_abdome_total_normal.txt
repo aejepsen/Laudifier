@@ -1,0 +1,57 @@
+# LAUDO DE ULTRASSONOGRAFIA DO ABDOME TOTAL
+
+**DADOS DO PACIENTE**
+- Nome: [NOME DO PACIENTE]
+- Data do Exame: [DATA DO EXAME]
+- Médico Responsável: CRM [CRM]
+
+---
+
+## TÉCNICA
+Ultrassonografia realizada com aparelho Philips iU22, utilizando transdutor convexo multifrequencial (2-5 MHz). Paciente em decúbito dorsal e oblíquo anterior bilateral. Avaliação completa dos órgãos parenquimatosos e estruturas vasculares abdominais. Boa janela acústica. Sem limitações técnicas significativas.
+
+---
+
+## ACHADOS
+
+### FÍGADO
+Fígado com ecotextura homogênea e apresentando padrão ecográfico habitual. Dimensões preservadas: maior eixo longitudinal de 15,2 cm no plano sagital. Contornos regulares e bem definidos. Bordas cortantes. Sem lesões focais detectáveis. Sem evidência de cirrose ou esteatose hepática. Calibre da veia porta: 10 mm com fluxo hepatófugo fisiológico. Fluxo presente na veia hepática direita, esquerda e média.
+
+### VESÍCULA BILIAR
+Vesícula biliar normodimensionada, medindo 6,8 cm de comprimento por 2,5 cm em seu maior diâmetro transverso. Paredes regulares e íntegras, medindo 2 mm. Conteúdo anecóico homogêneo. Sem cálculos, lama biliar ou sinais de colecistite. Permeabilidade ductal biliar mantida, com colédoco medindo 4 mm de diâmetro.
+
+### PÂNCREAS
+Pâncreas com ecotextura homogênea e isoecogênico ao fígado. Cabeça pancreática medindo 20 mm, corpo 18 mm e cauda 15 mm, todos dentro dos limites de normalidade. Contornos regulares. Sem dilatação do ducto pancreático (diâmetro máximo de 3 mm). Sem focos hipoecoicos sugestivos de lesão focal.
+
+### BAÇO
+Baço com ecotextura homogênea e normodimensionado. Maior eixo longitudinal de 10,5 cm. Contornos regulares. Sem lesões focais. Sem calcificações. Sem aumento de volume.
+
+### RINS
+**Rim direito:** Dimensões normais (10,8 cm de comprimento). Ecotextura preservada com córtex homogêneo medindo 8 mm. Sistema pielocaliceal não dilatado. Seio renal ecogênico habitual. Sem cálculos ou litíase. Sem hidronefrose. Sem lesões parenquimatosas focais.
+
+**Rim esquerdo:** Dimensões normais (11,2 cm de comprimento). Ecotextura preservada com córtex homogêneo medindo 9 mm. Sistema pielocaliceal pérvio, não dilatado. Seio renal ecogênico de aspecto habitual. Sem cálculos. Sem sinais de hidronefrose. Sem lesões focais parenquimatosas.
+
+Ambas as artérias renais apresentam fluxo diastólico mantido.
+
+### SUPRARRENAIS
+Suprarrenais bilaterais com contornos regulares e dimensões normais, medindo aproximadamente 28 mm de comprimento (glândula direita) e 25 mm (glândula esquerda). Sem nódulos ou alterações de ecogenicidade.
+
+### PRÓSTATA (aplicável a pacientes do sexo masculino)
+Próstata normodimensionada com volume aproximado de 18 mL. Ecotextura homogênea. Ausência de nódulos ou áreas hipoecogênicas sugestivas de lesão. Sem calcificações. Resíduo pós-miccional não evidenciado.
+
+### ÚTERO E OVÁRIOS (aplicável a pacientes do sexo feminino)
+Útero em anteversoflexão, com dimensões normais (comprimento de 7,5 cm, largura de 4,2 cm). Miométrio homogêneo. Endométrio com espessura de 5 mm, de aspecto habitual. Ausência de lesões intracavitárias. Ovário direito medindo 2,8 × 1,9 cm com folículos antrais de 8 mm e 6 mm. Ovário esquerdo medindo 3,1 × 2,0 cm com folículos de 7 mm. Sem sinais de patologia adnexal.
+
+### BEXIGA
+Bexiga repleta, com contorno regular e paredes normais medindo 2 mm. Sem lesões intramurais. Ausência de dilatação de Sistema coletor. Sem resíduo pós-miccional significativo.
+
+### AORTA ABDOMINAL
+Aorta abdominal com calibre normal, medindo 18 mm de diâmetro máximo na sua porção suprarenal. Paredes regulares e íntegras. Sem placas arterioscleróticas significativas. Fluxo diastólico mantido. Ausência de aneurisma.
+
+### VEIA CAVA INFERIOR
+Veia cava inferior com calibre normal, aproximadamente 15 mm. Trabeculado venoso habitual. Sem sinais de trombose. Fluxo hepatófugo preservado. Sem dilatação secundária.
+
+### ESPAÇO PERITONEAL
+Ausência de líquido livre peritoneal. Ausência de massas abdominais. Sem adenomegalias regionais ou retroperitoneais detectáveis. Sem sinais de ascite.
+
+---

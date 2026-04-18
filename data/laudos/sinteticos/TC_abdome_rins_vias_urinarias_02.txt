@@ -1,4 +1,37 @@
-=== TC abdome rins vias urinarias — Variante 2 ===
+s:
+- **Ureter direito proximal e médio:** Sem dilatação significativa.
+
+- **Ureter direito distal:** Visualiza-se cálculo radiopaco, com densidade aproximada de 800-900 unidades Hounsfield, medindo 6 mm de maior eixo, localizado no ureter distal direito, aproximadamente 5 cm acima da sua junção com a bexiga. Observa-se leve dilatação do sistema pielocaliceal ipsilateral e discreto espessamento da parede ureteral adjacente ao cálculo, compatível com processo inflamatório reacional.
+
+- **Ureter esquerdo:** Calibre normal, sem alterações.
+
+- **Bexiga:** Bem distendida, com paredes lisas e contornos regulares. Sem alterações na sua mucosa. Sem cálculos intravesicais.
+
+### Estruturas Adjacentes:
+- **Fígado:** Contornos regulares, densidade homogênea, sem lesões focais detectadas.
+
+- **Pâncreas:** Morfologia normal, sem dilatação do ducto pancreático.
+
+- **Baço:** Normotópico e com dimensões normais.
+
+- **Estômago e alças intestinais:** Sem dilatação. Sem sinais de obstrução ou inflamação aguda.
+
+- **Aorta abdominal e vasos ilíacos:** Calibre normal, sem aneurismas.
+
+- **Glândulas adrenais:** Simétricas, sem massas.
+
+- **Linfonodos:** Sem linfonodomegalia significativa.
+
+- **Cavidade peritoneal:** Sem coleção líquida.
+
+### Coluna e Parede Abdominal:
+- Corpos vertebrais com altura normal, sem alterações degenerativas significativas. Parede abdominal sem alterações.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Urolitíase no ureter distal direito** - Cálculo renal radiopaco medindo 6 mm, loca
 Especialidade: radiologia
 Cenário: urolitíase no ureter distal direito, 6 mm
 Fonte: sintético — gerado por Claude
@@ -39,31 +72,8 @@ Tomografia computadorizada de abdome e pelve realizada em aparelho de 64 canais,
 ### Vias Urinárias:
 - **Ureter direito proximal e médio:** Sem dilatação significativa.
 
-- **Ureter direito distal:** Visualiza-se cálculo radiopaco, com densidade aproximada de 800-900 unidades Hounsfield, medindo 6 mm de maior eixo, localizado no ureter distal direito, aproximadamente 5 cm acima da sua junção com a bexiga. Observa-se leve dilatação do sistema pielocaliceal ipsilateral e discreto espessamento da parede ureteral adjacente ao cálculo, compatível com processo inflamatório reacional.
-
-- **Ureter esquerdo:** Calibre normal, sem alterações.
-
-- **Bexiga:** Bem distendida, com paredes lisas e contornos regulares. Sem alterações na sua mucosa. Sem cálculos intravesicais.
-
-### Estruturas Adjacentes:
-- **Fígado:** Contornos regulares, densidade homogênea, sem lesões focais detectadas.
-
-- **Pâncreas:** Morfologia normal, sem dilatação do ducto pancreático.
-
-- **Baço:** Normotópico e com dimensões normais.
-
-- **Estômago e alças intestinais:** Sem dilatação. Sem sinais de obstrução ou inflamação aguda.
-
-- **Aorta abdominal e vasos ilíacos:** Calibre normal, sem aneurismas.
-
-- **Glândulas adrenais:** Simétricas, sem massas.
-
-- **Linfonodos:** Sem linfonodomegalia significativa.
-
-- **Cavidade peritoneal:** Sem coleção líquida.
-
-### Coluna e Parede Abdominal:
-- Corpos vertebrais com altura normal, sem alterações degenerativas significativas. Parede abdominal sem alterações.
+- **Ureter direito distal:** Visualiza-se cálculo radiopaco, com densidade apr
+rede abdominal sem alterações.
 
 ---
 
@@ -98,6 +108,12 @@ Laudo de TC de abdome e pelve evidencia cálculo ureteral direito de pequeno vol
 ## ASSINATURA
 
 **Médico Radiologista:** _______________________________________________
+
+**CREMESP nº:** ________________  
+**RQE/Radiologia:** ________________
+
+**Data:** ___/___/
+ogista:** _______________________________________________
 
 **CREMESP nº:** ________________  
 **RQE/Radiologia:** ________________

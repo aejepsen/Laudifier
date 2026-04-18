@@ -1,0 +1,50 @@
+# LAUDO DE ULTRASSONOGRAFIA DA TIREOIDE
+
+**DADOS DO PACIENTE:**
+- Nome: [NOME DO PACIENTE]
+- Data do Exame: [DATA DO EXAME]
+- Médico Solicitante: [CRM]
+
+---
+
+## TÉCNICA
+
+Ultrassonografia em modo B e Doppler colorido realizada com transdutor linear de alta frequência (7,5 a 12 MHz). Avaliação comparativa dos lobos tireoidianos, istmo, região cervical anterior e cadeias de linfonodos cervicais regionais.
+
+---
+
+## ACHADOS
+
+**Glândula Tireoide:**
+- **Dimensões:** Lobo direito mede 4,2 cm de comprimento × 1,8 cm de espessura × 1,5 cm de anteroposterior. Lobo esquerdo mede 4,0 cm de comprimento × 1,7 cm de espessura × 1,4 cm de anteroposterior. Volume total estimado em aproximadamente 15 mL (dentro dos limites normais).
+- **Simetria:** Mantida bilateralmente.
+- **Ecogenicidade:** Parênquima difusamente homogêneo, isoecóico em relação aos músculos cervicais adjacentes, sem áreas de hipoecogenicidade ou hiperenhancement focal.
+- **Ecotextura:** Homogênea, sem alterações de padrão arquitetural.
+- **Nódulos:** Ausentes bilateralmente.
+- **Cistos:** Não identificados.
+
+**Istmo Tireoideo:**
+- Medindo 3,0 mm de espessura, sem alterações estruturais ou nodulações.
+
+**Vascularização (Doppler Colorido e Pulsado):**
+- Fluxo sanguíneo periférico normal e simétrico nos dois lobos.
+- Padrão Doppler normal, sem hipervascularização focal ou periférica.
+- Resistência vascular preservada bilateralmente.
+
+**Linfonodos Cervicais Regionais:**
+- Cadeias laterais e medial: Sem linfomegalia. Linfonodos menores que 1,0 cm no maior diâmetro, com hilum gordo preservado e sem alterações morfológicas.
+- Região submentoniana: Sem achados significativos.
+
+**Estruturas Adjacentes:**
+- Musculatura cervical anterior: Normal, sem alterações.
+- Espaço supraestenal: Pérvio, sem massas ou compressão.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Ultrassonografia de tireoide normal.** Glândula tireoide com dimensões normais (volume estimado em 15 mL), parênquima homogêneo e isoecóico, sem nódulos, cistos ou alterações focais. Vascularização ao Doppler normal e simétrica. Linfonodos cervicais regionais sem linfomegalia. **Ausência de achados patológicos sugestivos de tiroidopatia.**
+
+---
+
+**Assinado em [DATA DO EXAME]**

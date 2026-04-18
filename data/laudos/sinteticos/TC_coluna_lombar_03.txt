@@ -1,4 +1,24 @@
-=== TC coluna lombar — Variante 3 ===
+cussão de possibilidade de intervenção cirúrgica, especialmente se refratário ao tratamento conservador ou com piora clínica.
+
+---
+
+## ASSINATURA
+
+**Dr(a). [NOME COMPLETO DO RADIOLOGISTA]**  
+**CREMESP nº [NÚMERO DO REGISTRO]**  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Certificação:** RQE nº [NÚMERO]
+
+_______________________________
+
+**Assinatura**
+
+**Data:** [DD/MM/AAAA]  
+**Horário:** [HH:MM]
+
+---
+
+**Observações:** Este laudo foi elaborado com base nos achados imagenológicos e deve ser
 Especialidade: radiologia
 Cenário: hérnia de disco extrusa L5-S1 com compressão do saco dural
 Fonte: sintético — gerado por Claude
@@ -40,32 +60,8 @@ Realizada tomografia computadorizada de alta resolução da coluna lombar com co
 ### **Discos Intervertebrais:**
 - **L1-L2, L2-L3, L3-L4:** Altura normal. Sem herniação discal.
 - **L4-L5:** Discreta protrusão discal central, sem compressão significativa do saco dural.
-- **L5-S1:** **Hérnia de disco extrusa**, com componente discal migrado dorsalmente em direção à linha média e para o lado direito. O material discal determina **compressão significativa do saco dural** com redução de sua calibre. Há contacto direto com as raízes nervosas S1 bilateralmente, com maior acentuação à direita.
-
-### **Espaço Epidural:**
-- Redução do espaço epidural posterior em L5-S1 secundária à herniação discal.
-- Gordura epidural comprimida.
-
-### **Ligamentos:**
-- Ligamento amarelo sem espessamento significativo.
-- Ligamento longitudinal posterior íntegro.
-
-### **Musculatura:**
-- Músculos paravertebrais simétricos, sem atrofia focal.
-- Musculatura psoas bilateral sem alterações.
-
-### **Canais:**
-- **Canal central:** Ocupado em L5-S1 pela hérnia extrusa discal.
-- **Forames de conjugação:** Permeáveis em L1-L4. Em L5-S1, discreto comprometimento à direita pelo material discal.
-
-### **Outras Estruturas:**
-- Visualização parcial de órgãos pélvicos sem alterações relevantes ao estudo.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Hérnia de disco extrusa em L5-S1** com migração cranial do fragmento discal, determinando **compressão significativa do saco dural** e das raízes nervosas S1 bilateralmente, mais evidente à direita.
+- **L5-S1:** **Hé
+e, mais evidente à direita.
 
 2. Alterações degenerativas discretas em L4-L5.
 
@@ -107,3 +103,37 @@ _________________________________
 ---
 
 **Nota:** Este laudo é um documento médico confidencial destinado exclusivamente ao médico requisitante e ao paciente.
+:** Altura normal. Sem herniação discal.
+- **L4-L5:** Discreta protrusão discal central, sem compressão significativa do saco dural.
+- **L5-S1:** **Hérnia de disco extrusa**, com componente discal migrado dorsalmente em direção à linha média e para o lado direito. O material discal determina **compressão significativa do saco dural** com redução de sua calibre. Há contacto direto com as raízes nervosas S1 bilateralmente, com maior acentuação à direita.
+
+### **Espaço Epidural:**
+- Redução do espaço epidural posterior em L5-S1 secundária à herniação discal.
+- Gordura epidural comprimida.
+
+### **Ligamentos:**
+- Ligamento amarelo sem espessamento significativo.
+- Ligamento longitudinal posterior íntegro.
+
+### **Musculatura:**
+- Músculos paravertebrais simétricos, sem atrofia focal.
+- Musculatura psoas bilateral sem alterações.
+
+### **Canais:**
+- **Canal central:** Ocupado em L5-S1 pela hérnia extrusa discal.
+- **Forames de conjugação:** Permeáveis em L1-L4. Em L5-S1, discreto comprometimento à direita pelo material discal.
+
+### **Outras Estruturas:**
+- Visualização parcial de órgãos pélvicos sem alterações relevantes ao estudo.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Hérnia de disco extrusa em L5-S1** com migração cranial do fragmento discal, determinando **compressão significativa do saco dural** e das raízes nervosas S1 bilateralmente, mais evidente à direita.
+
+2. Alterações degenerativas discretas em L4-L5.
+
+3. Protrusão discal em L4-L5 sem compressão relevante.
+
+4. Sem evidência

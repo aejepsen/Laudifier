@@ -1,4 +1,3 @@
-=== TC torax — Variante 1 ===
 Especialidade: radiologia
 Cenário: pulmões sem alterações, sem derrame pleural
 Fonte: sintético — gerado por Claude
@@ -33,21 +32,27 @@ Tomografia computadorizada de alta definição de tórax realizada em equipament
 Coluna torácica com corpos vertebrais íntegros, sem sinais de fratura, colapso ou lesão osteolítica. Arcos costais simétricos e sem solução de continuidade. Escápulas e úmeros proximais sem anormalidades. Alinhamento sagital adequado da coluna.
 
 ### **Pulmões:**
-Ambos os pulmões apresentam padrão parenquimatoso homogêneo, sem opacidades nodulares, consolidativas ou em vidro fosco. Não são visualizadas imagens sugestivas de nódulos pulmonares. A árvore traqueobrônquica é pérvia e sem estenoses. Brônquios segmentares e subsegmentares pérvios bilateralmente. Não há evidência de bronquiectasia, aprisionamento aéreo ou enfisema.
+Ambos os pulmões apresentam padrão parenquimatoso homogêneo, sem opacidades nodulares, consolidativas ou em vidro fosco. Não são visua
+ntrole conforme necessidade clínica
 
-Declividade pulmonar adequada em ambos os lados, com volume pulmonar normal.
+---
 
-### **Mediastino:**
-Mediastino de dimensões normais. Não há alargamento mediastinal, desvio do eixo ou deslocamento estrutural. Tráquea pérvias em toda sua extensão, com diâmetro dentro dos limites da normalidade (aproximadamente 18 mm).
+## ASSINATURA E RESPONSABILIDADE
 
-**Coração e Grandes Vasos:**
-Silhueta cardíaca com dimensões normais (índice cardiotorácico < 50%). Câmaras cardíacas não dilatadas. Aorta torácica com calibre normal (diâmetro máximo da aorta ascendente: 35 mm). Artérias pulmonares direita e esquerda com calibre normal após realce homogêneo com contraste, sem evidência de tromboembolismo pulmonar.
+**Médico Radiologista Responsável:** ________________________________
 
-### **Pleura:**
-Folhetos pleurais com espessura normal, sem irregularidades ou nódulos. **Não há derrame pleural bilateral ou unilateral**. Espaços costofrênicos livres e afiados bilateralmente.
+**Nome:** [NOME COMPLETO]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**CRM:** [NÚMERO] UF: [UF]  
+**RQE:** [NÚMERO]  
 
-### **Diafragma:**
-Cúpulas diafragmáticas elevadas simétrica e regularmente, com contorno liso e contínuo. Não há sinais de paresia ou herniação diafragmática.
+**Data:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]
+
+---
+
+*Este laudo foi elaborado conforme prot
+ntínuo. Não há sinais de paresia ou herniação diafragmática.
 
 ### **Paredes Torácicas:**
 Musculatura da parede torácica simétrica, sem atrofias focais. Não há lesões em partes moles, cicatrizes cirúrgicas ou implantes metálicos.
@@ -87,14 +92,23 @@ O presente exame de tomografia computadorizada de tórax não evidencia alteraç
 
 **Médico Radiologista Responsável:** ________________________________
 
-**Nome:** [NOME COMPLETO]  
-**Especialidade:** Radiologia e Diagnóstico por Imagem  
-**CRM:** [NÚMERO] UF: [UF]  
-**RQE:** [NÚMERO]  
+**N
+## **Pulmões:**
+Ambos os pulmões apresentam padrão parenquimatoso homogêneo, sem opacidades nodulares, consolidativas ou em vidro fosco. Não são visualizadas imagens sugestivas de nódulos pulmonares. A árvore traqueobrônquica é pérvia e sem estenoses. Brônquios segmentares e subsegmentares pérvios bilateralmente. Não há evidência de bronquiectasia, aprisionamento aéreo ou enfisema.
 
-**Data:** [DD/MM/AAAA]  
-**Hora:** [HH:MM]
+Declividade pulmonar adequada em ambos os lados, com volume pulmonar normal.
 
----
+### **Mediastino:**
+Mediastino de dimensões normais. Não há alargamento mediastinal, desvio do eixo ou deslocamento estrutural. Tráquea pérvias em toda sua extensão, com diâmetro dentro dos limites da normalidade (aproximadamente 18 mm).
 
-*Este laudo foi elaborado conforme prot
+**Coração e Grandes Vasos:**
+Silhueta cardíaca com dimensões normais (índice cardiotorácico < 50%). Câmaras cardíacas não dilatadas. Aorta torácica com calibre normal (diâmetro máximo da aorta ascendente: 35 mm). Artérias pulmonares direita e esquerda com calibre normal após realce homogêneo com contraste, sem evidência de tromboembolismo pulmonar.
+
+### **Pleura:**
+Folhetos pleurais com espessura normal, sem irregularidades ou nódulos. **Não há derrame pleural bilateral ou unilateral**. Espaços costofrênicos livres e afiados bilateralmente.
+
+### **Diafragma:**
+Cúpulas diafragmáticas elevadas simétrica e regularmente, com contorno liso e contínuo. Não há sinais de paresia ou herniação diafragmática.
+
+### **Paredes Torácicas:**
+Musculatura da parede torácica simétrica, sem atrofias focais

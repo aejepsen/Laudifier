@@ -1,0 +1,33 @@
+# LAUDO RADIOLÓGICO
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MODALIDADE:** Radiografia simples  
+**REGIÃO:** Mão esquerda  
+**MÉDICO RESPONSÁVEL:** [CRM]
+
+---
+
+## TÉCNICA
+
+Radiografias da mão esquerda obtidas em incidências posteroanterior (PA), perfil (lateral) e oblíqua. Técnica adequada com excelente qualidade de imagem, sem artefatos que comprometam a análise.
+
+---
+
+## ACHADOS
+
+Estrutura óssea: Ossos do carpo, metacarpianos e falanges apresentam trabeculado ósseo preservado. Cortical normal.
+
+**Achado principal:** Fratura linear do quinto metacarpo (5º MCO) localizada no terço médio da diáfise, com traço nítido e bem definido, sem desvio entre os fragmentos. O deslocamento lateral é inferior a 1 mm. O alinhamento das superfícies articulares mantém-se preservado nas articulações metacarpofalangeanas e interfalangeanas.
+
+Partes moles: Discreto edema de partes moles periosteal compatível com trauma agudo. Sem sinais de enfisema subcutâneo.
+
+Espaços articulares: Preservados em toda a extensão da mão.
+
+Densitometria óssea: Sem achados de osteopenia ou osteoporose.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Fratura linear do quinto metacarpo em terço médio de diáfise, sem desvio ou angulação significativa, compatível com fratura simples fechada.** Recomenda-se imobilização segundo protocolo de trauma da mão. Seguimento clínico e radiológico conforme orientação do serviço de Cirurgia da Mão ou Ortopedia.

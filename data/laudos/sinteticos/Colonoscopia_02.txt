@@ -1,4 +1,3 @@
-=== Colonoscopia — Variante 2 ===
 Especialidade: gastroenterologia
 Cenário: pólipo tubular no cólon sigmoide, 8 mm, ressecado com pinça
 Fonte: sintético — gerado por Claude
@@ -36,7 +35,8 @@ Colonoscopia convencional realizada sob anestesia local com sedação consciente
 
 - **Reto:** Mucosa normal, sem ulcerações, lesões ou estenoses. Tônus preservado.
 
-- **Sigmóide:** Apresenta lesão polipóide séssil, de coloração normal com vasos superficiais não dilatados. Dimensões aproximadas de **8 mm de diâmetro maior**. Localização: terço superior da alça sigmóidea. A lesão foi ressecada integralmente utilizando **pinça de biopsia apropriada**, com múltiplas capturas até completa retirada da base de implantação. Não foram observados sinais de sangramento após a ressecção.
+- **Sigmóide:** Apresenta lesão polipóide séssil, de coloração normal com vasos superficiais não dilatados. Dimensões aproximadas de **8 mm de diâmetro maior**. Localização: terço superior da alça sigmóidea. A lesão foi ressecada integralmente utilizando **pinça de biopsia apropriada**, com múltiplas capturas até completa retirada da base de implantação. Não foram observados sinais de sangramento após a ressecç
+e biopsia apropriada**, com múltiplas capturas até completa retirada da base de implantação. Não foram observados sinais de sangramento após a ressecção.
 
 - **Cólon descendente:** Mucosa normal, sem lesões focais.
 
@@ -67,6 +67,9 @@ Colonoscopia convencional realizada sob anestesia local com sedação consciente
   - Se adenoma de baixo risco: Repetir colonoscopia em **5-10 anos**
   - Se adenoma de risco intermediário: Repetir em **3-5 anos**
   - Se adenoma de alto risco ou lesões múltiplas: Avaliação mais precoce conforme recomendações vigentes
+
+- Paciente foi orientado quanto aos cuidados pós-procedimento e sin
+risco ou lesões múltiplas: Avaliação mais precoce conforme recomendações vigentes
 
 - Paciente foi orientado quanto aos cuidados pós-procedimento e sinais de alerta (sangramento persistente, perfuração, febre).
 

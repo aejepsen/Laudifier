@@ -1,4 +1,3 @@
-=== RM abdome figado — Variante 2 ===
 Especialidade: radiologia
 Cenário: hemangioma típico segmento VI, 3,2 cm, com realce centrífugo
 Fonte: sintético — gerado por Claude
@@ -43,6 +42,9 @@ Ressonância magnética de abdome superior realizada em equipamento de 1.5T, com
 **Lesão Focal Hepática:**  
 Identificada lesão nodular bem delimitada no segmento VI hepático, com dimensões de aproximadamente **3,2 x 2,8 cm**. A lesão exibe:
 
+- **Sinal em T1:** Levemente hipointenso em relação ao parênquima
+ento VI hepático, com dimensões de aproximadamente **3,2 x 2,8 cm**. A lesão exibe:
+
 - **Sinal em T1:** Levemente hipointenso em relação ao parênquima hepático normal
 - **Sinal em T2:** Marcadamente hiperintensa
 - **Comportamento Dinâmico (Padrão de Realce):**
@@ -71,6 +73,9 @@ Identificada lesão nodular bem delimitada no segmento VI hepático, com dimens�
 ## IMPRESSÃO DIAGNÓSTICA
 
 Lesão nodular hepatática no segmento VI com características imagenológicas **compatíveis com HEMANGIOMA TÍPICO (Hemangioma Cavernoso)**, medindo 3,2 cm de maior diâmetro.
+
+O padrão de realce centrífugo (c
+ticas imagenológicas **compatíveis com HEMANGIOMA TÍPICO (Hemangioma Cavernoso)**, medindo 3,2 cm de maior diâmetro.
 
 O padrão de realce centrífugo (centro para periferia) após opacificação inicial periférica, aliado à hiperntensidade em T2 e às margens bem definidas, constitui achado típico dessa entidade benigna.
 
@@ -104,6 +109,14 @@ Este laudo foi elaborado de acordo com os critérios internacionais de classific
 
 **Dr(a). [NOME COMPLETO DO RADIOLOGISTA]**  
 **Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Registro no Conselho Regional de Medicina:** CRM - [UF] / [Nº REGISTRO]  
+**Telefone:** [TELEFONE]  
+**Email:** [EMAIL]
+
+---
+
+*Este documento é 
+m  
 **Registro no Conselho Regional de Medicina:** CRM - [UF] / [Nº REGISTRO]  
 **Telefone:** [TELEFONE]  
 **Email:** [EMAIL]

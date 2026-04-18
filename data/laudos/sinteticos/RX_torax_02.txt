@@ -1,4 +1,33 @@
-=== RX torax — Variante 2 ===
+** [DD/MM/AAAA]  
+**Hora:** [HH:MM]
+
+**Assinatura digital/eletrônica** ☐ Autorizado pelo sistema PACS
+
+---
+
+*Este laudo foi gerado conforme Resolução CFM nº 2.109/2021 e segue normas de nomenclatura radiológica internacional.*
+* para avaliação detalhada da função ventricular e estimativa de fração de ejeção
+- **Eletrocardiograma** de repouso
+- Controle de fatores de risco cardiovascular (pressão arterial, diabetes, dislipidemia)
+- **Radiografia de controle** em 4-6 semanas para monitorização da resposta terapêutica
+- Orientação para repouso relativo, restrição de sódio e controle hídrico conforme prescrição médica
+
+---
+
+## ASSINATURA
+
+**Médico Responsável:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+**Nome (legível):** [NOME COMPLETO]  
+**Especialidade:** Radiologia  
+**CREMESP/Conselho Regional:** [NÚMERO]  
+**Carimbo:**
+
+Data: \_\_\_/\_\_\_/\_\_\_\_\_\_  
+Hora: \_\_\_:\_\_\_
+
+---
+
+**Nota:** Este laudo é um documento médico legalmente vinculativo. As recomendações devem ser avaliadas e adaptadas pelo médico assistente conforme o contexto clínico completo do paciente.
 Especialidade: radiologia
 Cenário: cardiomegalia grau II, congestão pulmonar
 Fonte: sintético — gerado por Claude
@@ -36,6 +65,9 @@ A silhueta cardíaca apresenta-se aumentada, com índice cardiotorácico de apro
 ### Campos Pulmonares
 Presença de **opacidades intersticiais bilaterais**, com predominância nas bases pulmonares e regiões hiloares, compatível com padrão de congestão pulmonar. Observam-se linhas de Kerley B horizontais nas bases pulmonares bilateralmente, com distribuição periférica.
 
+O hilo pulmonar apresenta-se aumentado bi
+bservam-se linhas de Kerley B horizontais nas bases pulmonares bilateralmente, com distribuição periférica.
+
 O hilo pulmonar apresenta-se aumentado bilateralmente, com ingurgitamento de vasos pulmonares. Padrão vascular compatível com redistribuição do fluxo sanguíneo para os ápices pulmonares.
 
 Ausência de consolidações focais, derrame pleural ou pneumotórax. Os ápices e seios costofrênicos encontram-se preservados.
@@ -63,23 +95,4 @@ Os achados radiológicos são compatíveis com **insuficiência cardíaca conges
 - **Seguimento clínico** com médico assistente para otimização do tratamento clínico
 - **Ecocardiograma transtorácico** para avaliação detalhada da função ventricular e estimativa de fração de ejeção
 - **Eletrocardiograma** de repouso
-- Controle de fatores de risco cardiovascular (pressão arterial, diabetes, dislipidemia)
-- **Radiografia de controle** em 4-6 semanas para monitorização da resposta terapêutica
-- Orientação para repouso relativo, restrição de sódio e controle hídrico conforme prescrição médica
-
----
-
-## ASSINATURA
-
-**Médico Responsável:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
-**Nome (legível):** [NOME COMPLETO]  
-**Especialidade:** Radiologia  
-**CREMESP/Conselho Regional:** [NÚMERO]  
-**Carimbo:**
-
-Data: \_\_\_/\_\_\_/\_\_\_\_\_\_  
-Hora: \_\_\_:\_\_\_
-
----
-
-**Nota:** Este laudo é um documento médico legalmente vinculativo. As recomendações devem ser avaliadas e adaptadas pelo médico assistente conforme o contexto clínico completo do paciente.
+- Controle de fatores de risco ca

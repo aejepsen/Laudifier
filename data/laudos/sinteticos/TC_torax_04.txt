@@ -1,4 +1,43 @@
-=== TC torax — Variante 4 ===
+tivos.
+
+- **Coluna vertebral:** Corpos vertebrais com altura e densidade normais para a idade. Ausência de fraturas ou desalinhamentos. Espaços discais mantidos. Sem estenose de canal.
+
+- **Arcos costais:** Íntegros, sem fraturas agudas ou antigas.
+
+- **Escápulas e clavículas:** Sem alterações focais.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Enfisema pulmonar difuso bilateral** – padrão centrílobular predominante, sem lesões focais associadas
+2. **Ausência de:**
+   - Nódulos pulmonares
+   - Consolidações parenquimatosas
+   - Derrame pleural
+   - Pneumotórax
+   - Linfadenopatia mediastinal
+   - Lesões ósseas agudas
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Estudo tomográfico que confirma enfisema pulmonar difuso e bilateral em padrão centrílobular, sem evidência de complicações agudas ou lesões focais estruturadas. Alterações compatíveis com doença pulmonar obstrutiva crônica (DPOC) em estágio avançado.
+
+**Recomendações:**
+
+1. Correlação com parecer clínico e funcionalidade respiratória (espirometria)
+2. Rastreamento de malignidade se antecedentes de tabagismo ativo ou prolongado
+3. Seguimento radiológico conforme indicação clínica, particularmente se novo surgimento de sintomas ou alteração da função respiratória
+4. Consideração de encaminhamento a especialista em pneumologia para otimização de terapêutica e possível candidatura a procedimentos de redução de volume pulmonar
+
+---
+
+## RADIOLOGISTA
+
+**Nome:** [NOME COMPLETO DO RADIOLOGISTA]  
+**Registro:** [CRM/ESTADO - Nº ESPECIALIDADE] 
 Especialidade: radiologia
 Cenário: enfisema pulmonar difuso, sem lesões focais
 Fonte: sintético — gerado por Claude
@@ -42,6 +81,9 @@ Tomografia computadorizada helicoidal do tórax, realizada em cortes axiais cont
   - Terços superiores e médios dos campos pulmonares (padrão centrílobular)
   - Distribuição heterogênea com áreas de maior rarefação alternadas a áreas de menor acometimento
   
+- **Padrão vascular:** Redução difusa da trama vascular pulmonar, compatível com enfisema de
+ior rarefação alternadas a áreas de menor acometimento
+  
 - **Padrão vascular:** Redução difusa da trama vascular pulmonar, compatível com enfisema de predomínio centrílobular.
 
 - **Brônquios:** Ausência de dilatação brônquica significativa. Calibre e paredes brônquicas normais bilateralmente.
@@ -70,37 +112,8 @@ Tomografia computadorizada helicoidal do tórax, realizada em cortes axiais cont
 
 - **Músculos:** Simetria preservada, sem infiltração ou colapsos significativos.
 
-- **Coluna vertebral:** Corpos vertebrais com altura e densidade normais para a idade. Ausência de fraturas ou desalinhamentos. Espaços discais mantidos. Sem estenose de canal.
-
-- **Arcos costais:** Íntegros, sem fraturas agudas ou antigas.
-
-- **Escápulas e clavículas:** Sem alterações focais.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Enfisema pulmonar difuso bilateral** – padrão centrílobular predominante, sem lesões focais associadas
-2. **Ausência de:**
-   - Nódulos pulmonares
-   - Consolidações parenquimatosas
-   - Derrame pleural
-   - Pneumotórax
-   - Linfadenopatia mediastinal
-   - Lesões ósseas agudas
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-Estudo tomográfico que confirma enfisema pulmonar difuso e bilateral em padrão centrílobular, sem evidência de complicações agudas ou lesões focais estruturadas. Alterações compatíveis com doença pulmonar obstrutiva crônica (DPOC) em estágio avançado.
-
-**Recomendações:**
-
-1. Correlação com parecer clínico e funcionalidade respiratória (espirometria)
-2. Rastreamento de malignidade se antecedentes de tabagismo ativo ou prolongado
-3. Seguimento radiológico conforme indicação clínica, particularmente se novo surgimento de sintomas ou alteração da função respiratória
-4. Consideração de encaminhamento a especialista em pneumologia para otimização de terapêutica e possível candidatura a procedimentos de redução de volume pulmonar
+- **Coluna vertebral:** Corpos vertebrais com altura e densidade normais para a idade. Ausência de fraturas ou desalinhamentos. Espaços discai
+mentos de redução de volume pulmonar
 
 ---
 

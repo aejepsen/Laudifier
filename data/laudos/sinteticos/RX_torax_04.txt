@@ -1,4 +1,42 @@
-=== RX torax — Variante 4 ===
+ndo menisco lateral caracterísitco junto à parede torácica. Estimativa de volume aproximado: 500-800 mL. 
+
+A cavidade pleural direita apresenta-se sem alterações, sem evidência de derrame pleural.
+
+### Mediastino
+Mediastino de contornos normais e dentro dos limites de normalidade. Silhueta cardíaca preservada, sem alterações de dimensões. Não há deslocamento mediastinal.
+
+### Diafragma
+Cúpulas diafragmáticas com contornos íntegros bilateralmente. Ângulos costofrênicos com aspecto habitual, exceto à esquerda onde o derrame pleural ocupa parcialmente este espaço.
+
+### Estruturas Ósseas
+Arcos costais íntegros, sem evidência de fraturas, lesões osteolíticas ou osteoscleróticas. Corpos vertebrais visibilizados apresentam densidade normal, sem colapsos ou deformidades relevantes.
+
+### Tecidos Moles
+Silhueta de partes moles do tórax dentro dos limites normais, sem edema ou enfisema subcutâneo.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Derrame pleural esquerdo de médio volume** (aproximadamente 500-800 mL)
+   - Aspecto homogêneo
+   - Sem sinais de loculação evidente
+
+2. Campos pulmonares bilateralmente sem infiltrados ou consolidações.
+
+3. Structures cardiomediastinais dentro dos limites de normalidade.
+
+4. Ausência de pneumotórax.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Radiografia de tórax demonstra derrame pleural esquerdo de médio volume, homogêneo, sem achados sugestivos de pneumonia ou outras alterações parenquimatosas significativas.
+
+**Recomendações:**
+
+- Correlação clínica com aprese
 Especialidade: radiologia
 Cenário: derrame pleural esquerdo de médio volume
 Fonte: sintético — gerado por Claude
@@ -38,39 +76,8 @@ Os campos pulmonares superiores apresentam transparência mantida, sem evidênci
 ### Pleura e Cavidades Pleurais
 **Achado principal:** Presença de coleção líquida pleural no espaço pleural esquerdo, de médio volume, com aspecto homogêneo. A opacidade pleural estende-se desde a base até o nível aproximado do hilo pulmonar esquerdo, apresentando menisco lateral caracterísitco junto à parede torácica. Estimativa de volume aproximado: 500-800 mL. 
 
-A cavidade pleural direita apresenta-se sem alterações, sem evidência de derrame pleural.
-
-### Mediastino
-Mediastino de contornos normais e dentro dos limites de normalidade. Silhueta cardíaca preservada, sem alterações de dimensões. Não há deslocamento mediastinal.
-
-### Diafragma
-Cúpulas diafragmáticas com contornos íntegros bilateralmente. Ângulos costofrênicos com aspecto habitual, exceto à esquerda onde o derrame pleural ocupa parcialmente este espaço.
-
-### Estruturas Ósseas
-Arcos costais íntegros, sem evidência de fraturas, lesões osteolíticas ou osteoscleróticas. Corpos vertebrais visibilizados apresentam densidade normal, sem colapsos ou deformidades relevantes.
-
-### Tecidos Moles
-Silhueta de partes moles do tórax dentro dos limites normais, sem edema ou enfisema subcutâneo.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Derrame pleural esquerdo de médio volume** (aproximadamente 500-800 mL)
-   - Aspecto homogêneo
-   - Sem sinais de loculação evidente
-
-2. Campos pulmonares bilateralmente sem infiltrados ou consolidações.
-
-3. Structures cardiomediastinais dentro dos limites de normalidade.
-
-4. Ausência de pneumotórax.
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-Radiografia de tórax demonstra derrame pleural esquerdo de médio volume, homogêneo, sem achados sugestivos de pneumonia ou outras alterações parenquimatosas significativas.
+A cavidade pleural direita apresenta-se sem
+mogêneo, sem achados sugestivos de pneumonia ou outras alterações parenquimatosas significativas.
 
 **Recomendações:**
 

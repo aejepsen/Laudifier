@@ -1,4 +1,30 @@
-=== RM joelho — Variante 1 ===
+ alteração de intensidade de sinal ou linhas de fratura. A tíbia proximal exibe morfologia normal com manutenção da altura do platô tibial. A patela apresenta posicionamento e contorno normais, sem evidências de condromalácia. Não há derrame articular.
+
+### ARTICULAÇÃO FEMOROTIBIAL:
+Os meniscos medial e lateral demonstram sinal homogêneo em todas as sequências, com forma de "C" (menisco lateral) e de "O" (menisco medial) mantidas, sem sinais de degeneração, rotura ou deslocamento. Não identificadas lesões meniscais.
+
+### LIGAMENTOS:
+- **Ligamento cruzado anterior (LCA):** Íntegro, com calibre normal e curso habitual, demonstrando continuidade fibrilar completa em toda sua extensão do côndilo femoral lateral até a tíbia proximal anterior.
+- **Ligamento cruzado posterior (LCP):** Mantém suas características anatômicas normais, sem sinais de ruptura ou degeneração.
+- **Ligamento colateral medial (LCM):** Íntegro, com sinal homogêneo.
+- **Ligamento colateral lateral (LCL):** Sem alterações, com morfologia preservada.
+- **Ligamento patelofemoral (retináculo medial e lateral):** Estruturas intactas.
+
+### CARTILAGEM ARTICULAR:
+A cartilagem articular recobre adequadamente os côndilos femorais, o platô tibial e a superfície patelar, apresentando espessura e sinal normais, sem sinais de degeneração ou condropatia.
+
+### ESTRUTURAS TENDÍNEAS E MUSCULARES:
+Os tendões patelar e quadricipital apresentam sinal homogêneo e calibre normal. Não se observam sinais de tendinite ou ruptura. A musc
+co Radiologista  
+CRM: [NÚMERO] | CBCRJ: [NÚMERO]  
+Especialista em Radiologia e Diagnóstico por Imagem  
+
+**Data:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]
+
+---
+
+*Laudo gerado em conformidade com as normas da Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR) e Conselho Federal de Medicina (CFM).*
 Especialidade: radiologia
 Cenário: joelho direito sem lesões ligamentares ou meniscais
 Fonte: sintético — gerado por Claude
@@ -39,22 +65,8 @@ Não foi utilizado contraste paramagnético. Exame realizado sem intercorrência
 ## ACHADOS
 
 ### ESTRUTURAS ÓSSEAS:
-Os côndilos femorais medial e lateral apresentam contornos regulares e sinal medular homogêneo, sem focos de alteração de intensidade de sinal ou linhas de fratura. A tíbia proximal exibe morfologia normal com manutenção da altura do platô tibial. A patela apresenta posicionamento e contorno normais, sem evidências de condromalácia. Não há derrame articular.
-
-### ARTICULAÇÃO FEMOROTIBIAL:
-Os meniscos medial e lateral demonstram sinal homogêneo em todas as sequências, com forma de "C" (menisco lateral) e de "O" (menisco medial) mantidas, sem sinais de degeneração, rotura ou deslocamento. Não identificadas lesões meniscais.
-
-### LIGAMENTOS:
-- **Ligamento cruzado anterior (LCA):** Íntegro, com calibre normal e curso habitual, demonstrando continuidade fibrilar completa em toda sua extensão do côndilo femoral lateral até a tíbia proximal anterior.
-- **Ligamento cruzado posterior (LCP):** Mantém suas características anatômicas normais, sem sinais de ruptura ou degeneração.
-- **Ligamento colateral medial (LCM):** Íntegro, com sinal homogêneo.
-- **Ligamento colateral lateral (LCL):** Sem alterações, com morfologia preservada.
-- **Ligamento patelofemoral (retináculo medial e lateral):** Estruturas intactas.
-
-### CARTILAGEM ARTICULAR:
-A cartilagem articular recobre adequadamente os côndilos femorais, o platô tibial e a superfície patelar, apresentando espessura e sinal normais, sem sinais de degeneração ou condropatia.
-
-### ESTRUTURAS TENDÍNEAS E MUSCULARES:
+Os côndilos femorais medial e lateral apresentam contornos regulares e sinal medular homogêneo, sem focos de alteração de intensidade de sinal ou linhas de fratura. A tíbia proximal exibe morfologia normal com manutenção da altura do platô tibial. A patela a
+S E MUSCULARES:
 Os tendões patelar e quadricipital apresentam sinal homogêneo e calibre normal. Não se observam sinais de tendinite ou ruptura. A musculatura periarticular exibe sinal normal, sem edema ou hematoma.
 
 ### BURSA E ESTRUTURAS PERIARTICULARES:
@@ -97,7 +109,3 @@ Especialista em Radiologia e Diagnóstico por Imagem
 
 **Data:** [DD/MM/AAAA]  
 **Hora:** [HH:MM]
-
----
-
-*Laudo gerado em conformidade com as normas da Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR) e Conselho Federal de Medicina (CFM).*

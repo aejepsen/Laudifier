@@ -1,4 +1,62 @@
-=== RX torax — Variante 3 ===
+trado pulmonar, derrame pleural ou pneumotórax.
+
+**Pleura:**
+Sem evídência de derrame pleural bilateral. Seios costofrênicos íntegros e bem pneumatizados.
+
+**Mediastino:**
+Estruturas mediastinais centralizadas. Silhueta cardíaca com contornos normais, sem cardiomegalia. Densidade em limites normais.
+
+**Coluna Vertebral:**
+Segmentos torácicos mostram alinhamento normal.
+
+**Ossos e Partes Moles:**
+Sem achados relevantes. Cápsula suprarenal direita dentro dos limites normais.
+
+**Campos Pulmonares Superiores:**
+Preservados, sem alterações parenquimatosas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Consolidação parenquimatosa no lobo inferior direito**, com características radiológicas compatíveis com **pneumonia bacteriana** (consolidação alveolar com broncograma aéreo).
+
+2. Ausência de sinais de complicação pleural (derrame ou empiema) no momento.
+
+3. Pulmão esquerdo sem alterações significativas.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Os achados radiológicos são compatíveis com **pneumonia adquirida na comunidade (PAC) em lobo inferior direito**, em fase de consolidação. A correlação clínica com sintomas do paciente (tosse, febre, dispneia) é importante para orientar a conduta terapêutica.
+
+**Recomendações:**
+
+- Correlacionar com achados clínicos, laboratoriais (hemograma, proteína C reativa, procalcitonina) e oximetria.
+- Considerar investigação etiológica adicional se houver falha terapêutica ou progressão das lesões.
+- Tomografia de alta resolução (TCAR) de tórax pode ser indicada em
+tigação etiológica adicional se houver falha terapêutica ou progressão das lesões.
+- Tomografia de alta resolução (TCAR) de tórax pode ser indicada em caso de: consolidação não resolutiva após 4-6 semanas de tratamento adequado, ou para melhor caracterização se suspeita de complicações.
+- Radiografia de controle recomendada em 4-6 semanas para documenter resolução completa.
+- Investigação de fatores de risco para infecção por germes atípicos ou oportunistas se clinicamente indicado.
+
+---
+
+## ASSINATURA
+
+```
+_____________________________________________
+Dr(a). [NOME COMPLETO]
+Médico Radiologista
+CRM: [NÚMERO] | ESPECIALIDADE: Radiologia e Diagnóstico por Imagem
+Data: [DD/MM/YYYY]
+Hora: [HH:MM]
+```
+
+---
+
+**Observação:** Este laudo é confidencial e destinado exclusivamente ao paciente e ao médico solicitante.
 Especialidade: radiologia
 Cenário: consolidação pneumônica em lobo inferior direito
 Fonte: sintético — gerado por Claude
@@ -36,57 +94,4 @@ Presença de opacidade consolidativa com distribuição parenquimatosa, localiza
 Pulmão esquerdo dentro dos limites normais, sem sinais de infiltrado pulmonar, derrame pleural ou pneumotórax.
 
 **Pleura:**
-Sem evídência de derrame pleural bilateral. Seios costofrênicos íntegros e bem pneumatizados.
-
-**Mediastino:**
-Estruturas mediastinais centralizadas. Silhueta cardíaca com contornos normais, sem cardiomegalia. Densidade em limites normais.
-
-**Coluna Vertebral:**
-Segmentos torácicos mostram alinhamento normal.
-
-**Ossos e Partes Moles:**
-Sem achados relevantes. Cápsula suprarenal direita dentro dos limites normais.
-
-**Campos Pulmonares Superiores:**
-Preservados, sem alterações parenquimatosas.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Consolidação parenquimatosa no lobo inferior direito**, com características radiológicas compatíveis com **pneumonia bacteriana** (consolidação alveolar com broncograma aéreo).
-
-2. Ausência de sinais de complicação pleural (derrame ou empiema) no momento.
-
-3. Pulmão esquerdo sem alterações significativas.
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-Os achados radiológicos são compatíveis com **pneumonia adquirida na comunidade (PAC) em lobo inferior direito**, em fase de consolidação. A correlação clínica com sintomas do paciente (tosse, febre, dispneia) é importante para orientar a conduta terapêutica.
-
-**Recomendações:**
-
-- Correlacionar com achados clínicos, laboratoriais (hemograma, proteína C reativa, procalcitonina) e oximetria.
-- Considerar investigação etiológica adicional se houver falha terapêutica ou progressão das lesões.
-- Tomografia de alta resolução (TCAR) de tórax pode ser indicada em caso de: consolidação não resolutiva após 4-6 semanas de tratamento adequado, ou para melhor caracterização se suspeita de complicações.
-- Radiografia de controle recomendada em 4-6 semanas para documenter resolução completa.
-- Investigação de fatores de risco para infecção por germes atípicos ou oportunistas se clinicamente indicado.
-
----
-
-## ASSINATURA
-
-```
-_____________________________________________
-Dr(a). [NOME COMPLETO]
-Médico Radiologista
-CRM: [NÚMERO] | ESPECIALIDADE: Radiologia e Diagnóstico por Imagem
-Data: [DD/MM/YYYY]
-Hora: [HH:MM]
-```
-
----
-
-**Observação:** Este laudo é confidencial e destinado exclusivamente ao paciente e ao médico solicitante.
+Sem evídência de derrame pleural bilateral. Seios costofrênicos íntegros e bem pneumatiza

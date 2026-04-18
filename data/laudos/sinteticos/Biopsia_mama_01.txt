@@ -1,4 +1,67 @@
-=== Biopsia mama — Variante 1 ===
+identes.
+
+### Descrição Microscópica
+
+Examina-se tecido mamário constituído por proliferação nodular bem delimitada, composta por epitélio ductal e lóbular envolvido por estroma fibroso denso e edemaciado. 
+
+**Características observadas:**
+
+- **Componente epitelial:** Ductos e ácinos mamários regulares, revestidos por epitélio cúbico a cilíndrico simples, sem atipias citológicas. Núcleos com cromatina fina, nucléolos inconspícuos. Figuras de mitose ausentes ou raras (< 1/10 campos de grande aumento).
+
+- **Componente estromal:** Tecido conjuntivo fibroso proeminente, circundando os elementos epiteliais. Colágeno bem organizado. Ausência de necrose ou infiltrado inflamatório significativo. Vasos sanguíneos intralesionais presentes, sem proliferação anormal.
+
+- **Limites lesionais:** Margens bem definidas, sem infiltração do tecido adiposo circunjacente. Pseudocápsula fibrosa observada.
+
+- **Achados adicionais:** Sem evidência de necrose central, hiperplasia atípica, micrometástases ou infiltração adiposa. Ausência de calcificações ou corpos estranhos.
+
+**Não se observam:**
+- Atipias citológicas
+- Mitoses aberrantes
+- Necrose
+- Infiltrado inflamatório crônico significativo
+- Características de malignidade
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Diagnóstico Histopatológico: FIBROADENOMA CLÁSSICO (TÍPICO) DE MAMA**
+
+Lesão benigna da mama, de origem mista (epitelial e mesenquimal), apresentando as características morfológicas clássicas de fibroadenoma, sem sinais de malignidade ou transf
+de origem mista (epitelial e mesenquimal), apresentando as características morfológicas clássicas de fibroadenoma, sem sinais de malignidade ou transformação.
+
+---
+
+## CLASSIFICAÇÃO BI-RADS (se aplicável)
+
+**BI-RADS: 2 - Achado benigno**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+O estudo histopatológico confirma diagnóstico de **fibroadenoma clássico de mama**, lesão benigna caracterizada por proliferação bem circunscrita de epitélio mamário normal envolvido por estroma fibroso. Não há evidência histológica de malignidade.
+
+### Recomendações:
+
+1. **Seguimento clínico:** O fibroadenoma é uma lesão benigna que não necessita tratamento obrigatório. Recomenda-se avaliação clínica periódica (a cada 6-12 meses) com o mastologista para monitoramento do tamanho e características da lesão.
+
+2. **Imaginologia:** Ultrassonografia ou mamografia de controle em 12 meses para documentação das dimensões basais, caso não tenha sido realizada recentemente.
+
+3. **Conduta:** Na ausência de sintomas ou crescimento significativo, pode ser mantida conduta conservadora (observação clínica). Excisão cirúrgica está indicada em caso de:
+   - Crescimento progressivo
+   - Desconforto ou sintomas relacionados
+   - Incerteza diagnóstica clínico-radiológica
+   - Preferência da paciente
+
+4. **Vigilância:** Alertar a paciente para autopalpação mensal e procurar atendimento em caso de crescimento rápido ou alterações clínicas.
+
+---
+
+## OBSERVAÇÕES ADICIONAIS
+
+- Amostra adequada para avaliação diagnóstica
+- Processam
 Especialidade: patologia
 Cenário: biópsia de mama — fibroadenoma com características típicas
 Fonte: sintético — gerado por Claude
@@ -41,58 +104,8 @@ Fragmento de tecido mamário com coloração branco-rosada, consistência firme,
 
 ### Descrição Microscópica
 
-Examina-se tecido mamário constituído por proliferação nodular bem delimitada, composta por epitélio ductal e lóbular envolvido por estroma fibroso denso e edemaciado. 
-
-**Características observadas:**
-
-- **Componente epitelial:** Ductos e ácinos mamários regulares, revestidos por epitélio cúbico a cilíndrico simples, sem atipias citológicas. Núcleos com cromatina fina, nucléolos inconspícuos. Figuras de mitose ausentes ou raras (< 1/10 campos de grande aumento).
-
-- **Componente estromal:** Tecido conjuntivo fibroso proeminente, circundando os elementos epiteliais. Colágeno bem organizado. Ausência de necrose ou infiltrado inflamatório significativo. Vasos sanguíneos intralesionais presentes, sem proliferação anormal.
-
-- **Limites lesionais:** Margens bem definidas, sem infiltração do tecido adiposo circunjacente. Pseudocápsula fibrosa observada.
-
-- **Achados adicionais:** Sem evidência de necrose central, hiperplasia atípica, micrometástases ou infiltração adiposa. Ausência de calcificações ou corpos estranhos.
-
-**Não se observam:**
-- Atipias citológicas
-- Mitoses aberrantes
-- Necrose
-- Infiltrado inflamatório crônico significativo
-- Características de malignidade
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-**Diagnóstico Histopatológico: FIBROADENOMA CLÁSSICO (TÍPICO) DE MAMA**
-
-Lesão benigna da mama, de origem mista (epitelial e mesenquimal), apresentando as características morfológicas clássicas de fibroadenoma, sem sinais de malignidade ou transformação.
-
----
-
-## CLASSIFICAÇÃO BI-RADS (se aplicável)
-
-**BI-RADS: 2 - Achado benigno**
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-O estudo histopatológico confirma diagnóstico de **fibroadenoma clássico de mama**, lesão benigna caracterizada por proliferação bem circunscrita de epitélio mamário normal envolvido por estroma fibroso. Não há evidência histológica de malignidade.
-
-### Recomendações:
-
-1. **Seguimento clínico:** O fibroadenoma é uma lesão benigna que não necessita tratamento obrigatório. Recomenda-se avaliação clínica periódica (a cada 6-12 meses) com o mastologista para monitoramento do tamanho e características da lesão.
-
-2. **Imaginologia:** Ultrassonografia ou mamografia de controle em 12 meses para documentação das dimensões basais, caso não tenha sido realizada recentemente.
-
-3. **Conduta:** Na ausência de sintomas ou crescimento significativo, pode ser mantida conduta conservadora (observação clínica). Excisão cirúrgica está indicada em caso de:
-   - Crescimento progressivo
-   - Desconforto ou sintomas relacionados
-   - Incerteza diagnóstica clínico-radiológica
-   - Preferência da paciente
-
-4. **Vigilância:** Alertar a paciente para autopalpação mensal e procurar atendimento em caso de crescimento rápido ou alterações clínicas.
+Examina-se tecido mamário constituído por proliferação nodular bem delimitada, composta por epitélio ductal e ló
+mento em caso de crescimento rápido ou alterações clínicas.
 
 ---
 

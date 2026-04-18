@@ -1,4 +1,37 @@
-=== US abdome total — Variante 4 ===
+enicidade parenquimatosa em relação ao córtex renal ipsilateral, sugestivo de esteatose hepática. Identificam-se áreas hipoecóicas focal e multifocais dispersas pelo parênquima, compatíveis com regiões de fibrose ou necrose.
+
+O contorno hepático apresenta-se **discretamente irregular**, particularmente nas margens anteriores dos lobos direito e esquerdo. As estruturas vasculares intra-hepáticas (ramos das veias porta e suprahepáticas) encontram-se **comprimidas e atenuadas**, com inversão do fluxo doppler em segmentos específicos.
+
+**Veia porta:** Calibre aumentado, medindo 14 mm (normal: até 12 mm), com fluxo hepatófugo em algumas vertentes, sugestivo de hipertensão portal.
+
+**Veias suprahepáticas:** Calibradas e com padrão de fluxo reverso parcial na inspiração.
+
+### **VIAS BILIARES**
+
+Ducto biliar principal sem dilatação (diâmetro máximo: 4 mm). Vesícula biliar visualizada com parede fina, sem sinais de colecistite. Ausência de cálculos ou lama biliar.
+
+### **PÂNCREAS**
+
+Pâncreas com ecotextura heterogênea, apresentando áreas de ecogenicidade aumentada alternadas com regiões de isoecogenicidade. Sem sinais definidos de atrofia ou aumento de volume significativo. Ducto pancreático não dilatado.
+
+### **BAÇO**
+
+Baço com volume aumentado, medindo **15 cm** no eixo longitudinal (normal: até 12 cm). Ecotextura homogênea, de ecogenicidade normal. Não há focos de hipodensidade ou consolidações.
+
+### **RINS**
+
+**Rim Direito:** Comprimento de 11 cm, ecotextura preservada, com difere
+ hipertensão portal.
+
+4. **Contorno hepático irregular**, sugestivo de fibrose ou cirrose.
+
+5. Ausência de sinais ultrassonográficos definitivos de **hepatocarcinoma** no presente estudo, embora o risco permaneça elevado dada a hepatopatia crônica identificada.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+O presente estudo revela achados compatíveis com **hepatopatia crônica avançada**, com forte suspicão de **cirrose hepática** em estágio compensado, associada a **hipertensão portal**. A ecotextura heterogênea e as alterações vasculares document
 Especialidade: radiologia
 Cenário: hepatomegalia difusa com ecotextura heterogênea, sugestiva de hepatopatia crônica
 Fonte: sintético — gerado por Claude
@@ -39,25 +72,8 @@ Estudo ultrassonográfico do abdome total realizado com aparelho marca [MARCA DO
 
 ### **FÍGADO**
 
-O fígado encontra-se **aumentado de volume**, com o lobo direito medindo aproximadamente **18 cm** no eixo craniocaudal (normal: até 15 cm) e lobo esquerdo em dimensões preservadas. Nota-se ecotextura **heterogênea e grosseiramente granular**, com aumento difuso da ecogenicidade parenquimatosa em relação ao córtex renal ipsilateral, sugestivo de esteatose hepática. Identificam-se áreas hipoecóicas focal e multifocais dispersas pelo parênquima, compatíveis com regiões de fibrose ou necrose.
-
-O contorno hepático apresenta-se **discretamente irregular**, particularmente nas margens anteriores dos lobos direito e esquerdo. As estruturas vasculares intra-hepáticas (ramos das veias porta e suprahepáticas) encontram-se **comprimidas e atenuadas**, com inversão do fluxo doppler em segmentos específicos.
-
-**Veia porta:** Calibre aumentado, medindo 14 mm (normal: até 12 mm), com fluxo hepatófugo em algumas vertentes, sugestivo de hipertensão portal.
-
-**Veias suprahepáticas:** Calibradas e com padrão de fluxo reverso parcial na inspiração.
-
-### **VIAS BILIARES**
-
-Ducto biliar principal sem dilatação (diâmetro máximo: 4 mm). Vesícula biliar visualizada com parede fina, sem sinais de colecistite. Ausência de cálculos ou lama biliar.
-
-### **PÂNCREAS**
-
-Pâncreas com ecotextura heterogênea, apresentando áreas de ecogenicidade aumentada alternadas com regiões de isoecogenicidade. Sem sinais definidos de atrofia ou aumento de volume significativo. Ducto pancreático não dilatado.
-
-### **BAÇO**
-
-Baço com volume aumentado, medindo **15 cm** no eixo longitudinal (normal: até 12 cm). Ecotextura homogênea, de ecogenicidade normal. Não há focos de hipodensidade ou consolidações.
+O fígado encontra-se **aumentado de volume**, com o lobo direito medindo aproximadamente **18 cm** no eixo craniocaudal (normal: até 15 cm) e lobo esquerdo em dimensões preservadas. Nota-se ecotextura **heterogênea e grosseiramente granular**, com aumento difuso da ecogenicidade parenquimatosa em relação ao córtex renal ipsilateral, sugestivo de esteatose hepática. Identificam-se áreas hipoecóicas focal e multifocais
+cidade normal. Não há focos de hipodensidade ou consolidações.
 
 ### **RINS**
 
@@ -90,10 +106,4 @@ Estômago, alças de delgado e cólon visualizados sem alterações significativ
 
 4. **Contorno hepático irregular**, sugestivo de fibrose ou cirrose.
 
-5. Ausência de sinais ultrassonográficos definitivos de **hepatocarcinoma** no presente estudo, embora o risco permaneça elevado dada a hepatopatia crônica identificada.
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-O presente estudo revela achados compatíveis com **hepatopatia crônica avançada**, com forte suspicão de **cirrose hepática** em estágio compensado, associada a **hipertensão portal**. A ecotextura heterogênea e as alterações vasculares document
+5. Ausência de sinais ultrassonográficos definitivos de **

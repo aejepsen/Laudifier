@@ -1,0 +1,87 @@
+# LAUDOULTRASSONOGRÁFICO COM DOPPLER DE ARTÉRIAS CARÓTIDAS
+
+**Paciente:** [NOME DO PACIENTE]  
+**Data do Exame:** [DATA DO EXAME]  
+**Médico Responsável:** Dr. [CRM]  
+**Modalidade:** Ultrassonografia com Doppler colorido  
+**Equipamento:** Aparelho de ultrassom Philips iU22 com transdutor linear 5-12 MHz
+
+---
+
+## TÉCNICA
+
+Estudo ultrassonográfico realizado em modo B, Doppler colorido e espectral das artérias carótidas primitivas bilaterais, carótidas internas e externas, em cortes longitudinais e transversais. Foram obtidos espectrogramas Doppler pulsátil com medidas de velocidade de pico sistólica, velocidade diastólica final e cálculo de índice de resistência (IR) bilateralmente. Manobra compressiva realizada para confirmação diagnóstica.
+
+---
+
+## ACHADOS
+
+### Artéria Carótida Primitiva Direita
+
+Calibre normal, medindo 6,8 mm no seu segmento proximal. Presença de placa aterosclerótica heterogênea na região de bifurcação, apresentando componente ecogênico (fibroso) predominante com pequena área hipoecóica central (componente lipídico), medindo 8,2 mm de espessura em seu ponto máximo e extensão longitudinal de 12,5 mm. A lesão ocupa aproximadamente 58% da luz vascular no corte transversal (redução de diâmetro de 5,8 mm para 2,4 mm). A placa adere intimamente à parede posterior-lateral, com contornos regulares e sem sinais de ulceração ou superfície irregular detectável.
+
+**Doppler espectral da carótida interna direita:**
+- Velocidade de pico sistólico (VPS): 142 cm/s
+- Velocidade diastólica final (VDF): 48 cm/s
+- Índice de resistência (IR): 0,66
+- Fluxo mantém padrão normal trifásico com leve espessamento espectral na região de estenose
+
+**Doppler espectral da carótida externa direita:**
+- VPS: 118 cm/s
+- VDF: 38 cm/s
+- IR: 0,68
+
+### Artéria Carótida Primitiva Esquerda
+
+Calibre normal, medindo 6,5 mm. Sem placas ateroscleróticas identificadas. Paredes arteriais simétricas, com complexo íntima-média medindo 0,9 mm bilateralmente, dentro dos limites da normalidade.
+
+**Doppler espectral da carótida interna esquerda:**
+- VPS: 98 cm/s
+- VDF: 28 cm/s
+- IR: 0,71
+- Fluxo normal, simétrico
+
+**Doppler espectral da carótida externa esquerda:**
+- VPS: 102 cm/s
+- VDF: 32 cm/s
+- IR: 0,69
+
+### Artérias Vertebrais
+
+**Direita:** Fluxo hepatopetal normal, VPS 52 cm/s, diâmetro 4,2 mm.
+
+**Esquerda:** Fluxo hepatopetal normal, VPS 48 cm/s, diâmetro 4,0 mm.
+
+Sem sinais de roubo de fluxo (steal syndrome).
+
+---
+
+## ANÁLISE DINÂMICA
+
+À manobra compressiva sobre a placa aterosclerótica direita, não há alteração significativa da velocidade espectral, sugerindo lesão não-compressível. A morfologia da placa permanece estável ao repouso. Não há evidências de descamação, trombose in situ ou dissecção. Fluxo diastólico preservado sugere estenose não-hemodinamicamente significativa no momento.
+
+---
+
+## OBSERVAÇÕES TÉCNICAS
+
+Exame adequadamente realizado. Janela acústica satisfatória. Paciente colaborativo. Sem interferências técnicas que prejudiquem a interpretação diagnóstica.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Placa aterosclerótica heterogênea na bifurcação da artéria carótida primitiva direita**, com componente predominantemente fibroso (ecogênico) e pequeno centro lipídico, medindo 8,2 mm × 12,5 mm, causando estenose moderada de aproximadamente 58% da luz vascular.
+
+2. **Velocidades doppler elevadas na carótida interna direita** (VPS 142 cm/s, VDF 48 cm/s), compatíveis com fluxo turbulento secundário à estenose, porém sem critérios hemodinâmicos de estenose crítica (≥70% de redução luminal).
+
+3. **Artérias carótidas esquerdas e vertebrais sem alterações detectáveis.** Complexo íntima-média bilateral normal.
+
+4. **Classificação conforme critérios NASCET:** Estenose moderada (50-69% de redução de diâmetro).
+
+**Recomendações:** Considerar avaliação clínica complementar com neurologista, otimização de fatores de risco cardiovasculares e controle ultrassonográfico seriado em 6 meses para monitoramento de progressão da placa. Necessidade de antiagregação plaquetária conforme orientação clínica.
+
+---
+
+**Data do Relatório:** [DATA DO EXAME]  
+**Assinatura do Médico Responsável:** _______________  
+**CRM:** [CRM]

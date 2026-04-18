@@ -1,4 +1,37 @@
-=== Colonoscopia — Variante 3 ===
+da a mucosa.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### **Reto e Sigmoide:**
+Mucosa eritematosa com edema significativo e perda parcial do padrão vascular normal. Presença de pseudopólipos inflamatórios esparsos. Exsudato fibrinossanguinolento aderido à mucosa. Friabilidade moderada, com sangramento à passagem do aparelho. Ausência de úlceras profundas neste segmento.
+
+### **Cólon Descendente:**
+Mucosa inflamada com eritema franco, edema acentuado e granularidade difusa. Múltiplas áreas de ulceração superficial com bases fibrinosas. Pseudopólipos inflamatórios de pequeno tamanho distribuídos de forma irregular. Exsudato fibrinossanguinolento em extensão. Friabilidade moderada a intensa. Sangramento espontâneo presente.
+
+### **Cólon Transverso:**
+Inflamação difusa com padrão similar aos segmentos anteriores. Mucosa gravemente edemaciada com perda completa da vascularização normal. Pseudopólipos inflamatórios mais volumosos neste segmento. Ulcerações superficiais a moderadamente profundas alternando com áreas de mucosa preservada. Friabilidade intensa com sangramento à passagem do aparelho.
+
+### **Cólon Ascendente:**
+Inflamação contínua com características inflamatórias semelhantes aos demais segmentos. Mucosa eritematosa, edematosa e granular. Presença de pseudopólipos inflamatórios. Ulcerações superficiais. Exsudato fibrinossanguinolento. Friabilidade moderada.
+
+### **Cecum e Válvula Ileocecal:**
+Mucosa cecal apresentando inflamação ativa com eritema e edema. Válvula ileocec
+egacólon
+3. Ausência de malignidade aparente no momento
+4. Ausência de estenoses significativas
+
+### **Recomendações:**
+
+1. **Terapêutica:**
+   - Revisão e otimização do esquema terapêutico atual com gastroenterologista
+   - Considerar intensificação da terapia, incluindo análogos de ácido 5-aminossalicílico (5-ASA) em dose otimizada
+   - Avaliação para possível terapia biológica (anti-TNF ou inibidores de integrina) caso não haja resposta adequada
+   - Terapia corticosteroide sistêmica conforme protocolo institucional
+
+2. **Vigilância:**
+   - Bióp
 Especialidade: gastroenterologia
 Cenário: colite ulcerativa em atividade moderada — pancolite
 Fonte: sintético — gerado por Claude
@@ -36,16 +69,8 @@ Realizada colonoscopia completa sob sedação consciente com midazolam e fentani
 ## ACHADOS / DESCRIÇÃO DETALHADA
 
 ### **Reto e Sigmoide:**
-Mucosa eritematosa com edema significativo e perda parcial do padrão vascular normal. Presença de pseudopólipos inflamatórios esparsos. Exsudato fibrinossanguinolento aderido à mucosa. Friabilidade moderada, com sangramento à passagem do aparelho. Ausência de úlceras profundas neste segmento.
-
-### **Cólon Descendente:**
-Mucosa inflamada com eritema franco, edema acentuado e granularidade difusa. Múltiplas áreas de ulceração superficial com bases fibrinosas. Pseudopólipos inflamatórios de pequeno tamanho distribuídos de forma irregular. Exsudato fibrinossanguinolento em extensão. Friabilidade moderada a intensa. Sangramento espontâneo presente.
-
-### **Cólon Transverso:**
-Inflamação difusa com padrão similar aos segmentos anteriores. Mucosa gravemente edemaciada com perda completa da vascularização normal. Pseudopólipos inflamatórios mais volumosos neste segmento. Ulcerações superficiais a moderadamente profundas alternando com áreas de mucosa preservada. Friabilidade intensa com sangramento à passagem do aparelho.
-
-### **Cólon Ascendente:**
-Inflamação contínua com características inflamatórias semelhantes aos demais segmentos. Mucosa eritematosa, edematosa e granular. Presença de pseudopólipos inflamatórios. Ulcerações superficiais. Exsudato fibrinossanguinolento. Friabilidade moderada.
+Mucosa eritematosa com edema significativo e perda parcial do padrão vas
+guinolento. Friabilidade moderada.
 
 ### **Cecum e Válvula Ileocecal:**
 Mucosa cecal apresentando inflamação ativa com eritema e edema. Válvula ileocecal preservada estruturalmente, porém com mucosa inflamada e eritematosa em seus bordos. Não há evidência de afecção do íleo terminal visualizado.
@@ -84,10 +109,4 @@ Os achados são compatíveis com colite ulcerativa em atividade, com envolviment
 ### **Recomendações:**
 
 1. **Terapêutica:**
-   - Revisão e otimização do esquema terapêutico atual com gastroenterologista
-   - Considerar intensificação da terapia, incluindo análogos de ácido 5-aminossalicílico (5-ASA) em dose otimizada
-   - Avaliação para possível terapia biológica (anti-TNF ou inibidores de integrina) caso não haja resposta adequada
-   - Terapia corticosteroide sistêmica conforme protocolo institucional
-
-2. **Vigilância:**
-   - Bióp
+   - Revi

@@ -1,0 +1,67 @@
+# LAUDO DE RESSONÂNCIA MAGNÉTICA DO ENCÉFALO
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MODALIDADE:** Ressonância Magnética de Encéfalo  
+**MÉDICO RESPONSÁVEL:** Dr. [CRM]  
+**EQUIPAMENTO:** 3.0 Tesla (Siemens Magnetom Skyra)
+
+---
+
+## TÉCNICA
+
+Realizada ressonância magnética de encéfalo com protocolo completo incluindo sequências ponderadas em T1, T2, FLAIR, DWI/ADC, GRE, SWI e avaliação pós-contraste gadolíneo (Gadopentetato 0,1 mmol/kg, intravenoso). Espessura de corte: 5 mm (sequências axiais) e 3 mm (sequências coronais). Campo de visão: 220 × 220 mm. Tempo total de aquisição: 45 minutos.
+
+---
+
+## ACHADOS
+
+### Estruturas Intracranianas - Linhas Médias
+As estruturas da linha média encontram-se preservadas. Septo pelúcido íntegro. Corpo caloso com morfologia normal, sem sinais de agenesia ou hipoplasia. Terceiro ventrículo com dimensão normal (7 mm de espessura máxima). Quarto ventrículo pérvio com cavidade normal (12 × 8 mm no seu maior diâmetro). Aqueduto mesencefálico patente.
+
+### Ventrículos Laterais
+Ventrículos laterais simétricos com dimensões normais. Corno frontal: 14 mm de largura bilateralmente. Corno temporal esquerdo: 8 mm. Corno temporal direito: 11 mm. Atrium bilateral: 16 mm de espessura. Corno occipital: dentro dos limites normais bilateralmente.
+
+### Cisterna Subaracnóidea
+Espaços subaracnóideos basais, silviana e convexa com calibre normal. Sem evidência de hidrocefalia comunicante. Cisterna suprasselar com estruturas normais. Sem deslocamento significativo das estruturas da linha média.
+
+### Lobo Temporal Direito - Lesão Focal
+**Lesão expansiva localizada no lobo temporal direito, com epicentro na região ínfero-medial (próximo ao polo temporal e hipocampo), com dimensões aproximadas de 3,2 cm × 2,8 cm × 2,6 cm (maior eixo no sentido ântero-posterior).**
+
+**Características morfológicas:**
+- Contornos parcialmente delimitados, com margens irregulares;
+- Morfologia lobulada;
+- Sinal heterogêneo nas sequências ponderadas em T2 e FLAIR, com componente predominantemente hiperintenso (similar a líquido) e áreas de isointensidade em relação ao córtex cerebral;
+- Em T1, apresenta-se como lesão hipointensa com múltiplos septos e estruturas internas;
+- Sequência DWI: restrição de difusão focal (valores de ADC reduzido estimado em 0,6 × 10⁻³ mm²/s nas áreas sólidas), sugestivo de componente celular;
+- Sequência SWI: ausência de hemossiderina perilesional significativa; presença de pequenos vasos intratumoral responsivos ao estímulo paramagnético;
+- **Realce heterogêneo após administração de gadolíneo:** a lesão demonstra realce heterogêneo, com regiões de realce intenso moderado (substância cinzenta-like) intercaladas a áreas de pouco ou nenhum realce (sugestivo de necrose ou degeneração cística); curva de realce compatível com tecido tumoral; sem realce dural periférico significativo.
+
+**Edema vasogênico associado:**
+- Edema perilesional bilateral, mais pronunciado no lado ipsilateral, estendendo-se pelo lobo temporal direito, ínsula e substância branca adjacente;
+- Espessura máxima de edema: aproximadamente 8 mm;
+- Sinal hiperintenso em T2/FLAIR em padrão de distribuição radial;
+
+**Efeito de massa:**
+- Compressão leve da cisterna subaracnóidea temporal direita;
+- Desvio do corno temporal direito medialmente (aproximadamente 5 mm);
+- Leve deslocamento anterior do lobo temporal direito;
+- Sem deslocamento significativo das estruturas da linha média (linha média preservada, sem desvio mensurável);
+
+### Lobo Temporal Esquerdo
+Sem particularidades. Córtex e substância branca com sinal normal. Hipocampo esquerdo com volume e sinal normais.
+
+### Região Hipocampal
+Hipocampo direito: comprimido pela lesão, com redução parcial do seu volume, mas ainda identificável, sinal interno preservado sem alterações de intensidade sugestivas de esclerose mesial.
+
+### Lobos Frontais
+Simetria preservada. Córtex e substância branca com sinal normal. Ventrículos frontais com calibre normal. Sem alterações de sinal focais.
+
+### Lobos Parietais
+Simetria preservada. Córtex e substância branca com sinal normal. Sem lesões focais.
+
+### Lobos Occipitais
+Simetria preservada. Córtex visual e substância branca com sinal normal. Ausência de lesões.
+
+### Tálamo, Núcleos da Base e Tronco Encefálico
+Núcleos da base com morfologia e sinal normais bilateralmente. Tálamo simétrico sem alterações. Mesencéfalo, ponte

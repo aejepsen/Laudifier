@@ -1,5 +1,0 @@
-TITLE: ULTRASSONOGRAFIA DOPPLER DAS ARTÉRIAS SUBCLÁVIAS
-URL: https://www.compendioradiologia.com/us/doppler-arterial
-SOURCE_SLUG: us__doppler-arterial
-============================================================
-TÉCNICA:Estudo arterial com transdutor linear de alta frequência nas modalidades bidimensional, Doppler espectral, Color e Power Doppler.Qualidade técnica do estudo: Adequada.RELATÓRIO:Artéria subclávia direita com origem no tronco braquiocefálico direito, de calibre normal, sem sinais de irregularidades parietais. Avaliação espectral ao Doppler evidencia fluxo trifásico com velocidades sistólicas adequadas.Artéria vertebral direita não demonstra sinais de inversão de fluxo.Artéria subclávia esquerda com origem não acessível ao método, de calibre normal, sem sinais de irregularidades parietais. Avaliação espectral ao Doppler evidencia fluxo trifásico com velocidades sistólicas adequadas.Artéria vertebral esquerda não demonstra sinais de inversão de fluxo.PARÂMETROS VELOCIMÉTRICOSArtéria subclávia direita: _ cm/s.Artéria subclávia esquerda: _ cm/s.CONCLUSÃO:Não há sinais de estenose hemodinamicamente expressiva.Com os cumprimentos,

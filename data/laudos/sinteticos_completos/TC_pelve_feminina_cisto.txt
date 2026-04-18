@@ -1,0 +1,74 @@
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA DE PELVE
+
+---
+
+## DADOS DO PACIENTE
+
+**Paciente:** [NOME DO PACIENTE]  
+**Data do Exame:** [DATA DO EXAME]  
+**Médico Solicitante:** ___________________________________  
+**CRM Radiologista:** [CRM]  
+**Modalidade:** Tomografia Computadorizada Multidetectora (TCMD)  
+**Local do Exame:** Pelve  
+
+---
+
+## TÉCNICA
+
+Realizada tomografia computadorizada de pelve sem contraste, com cortes axiais contíguas de 2 mm de espessura, com reconstruções multiplanares nos planos sagital e coronal. Foram avaliados os planos de varredura do mesorretocolon até o assoalho pélvico. Não houve necessidade de contraste venoso para esclarecimento diagnóstico.
+
+---
+
+## ACHADOS
+
+### Útero
+Útero com dimensões normais, medindo aproximadamente 8,5 cm de comprimento, com ecogenicidade e atenuação homogênea. Espessura endometrial dentro dos limites normais, estimada em 6 mm. Sem sinais de fibrose ou malformação. Posição em anteversoflexão.
+
+### Ovário Esquerdo
+Ovário esquerdo com contornos regulares, medindo 3,1 × 2,4 × 2,8 cm, volume aproximado de 9,2 cm³. Densidade homogênea, sem formações císticas significativas. Localizado na fossa ovárica esquerda, em posição habitual.
+
+### Ovário Direito
+Ovário direito apresenta formação cística simples, unilocular, bem delimitada, de paredes lisas e regulares, medindo 4,2 × 3,9 cm em seus maiores eixos (volume aproximado de 34 cm³). A densidade do conteúdo é homogênea, variando entre 5 a 12 UH, compatível com líquido seroso puro. Sem septos internos, nódulos murais, calcificações ou componente sólido. O remanescente do parênquima ovariano apresenta densidade normal. Sem sinais de torção vascular ou comprometimento da vascularização ovariana.
+
+### Peritônio e Cavidade Pélvica
+Não há ascite. Parede pélvica sem alterações. Espaço de Douglas livre.
+
+### Bexiga
+Bexiga com paredes regulares e espessura normal (aproximadamente 2 mm em grau de repleção moderado). Sem lesões murais, dilatação do trígono ou sinais de cistite. Conteúdo heterogêneo por presença de urina.
+
+### Reto e Sigmoide
+Segmentos retossigmoidianos com calibre preservado, sem estenose, dilatação ou espessamento parietal. Mucosa de aspecto normal, sem massas.
+
+### Estruturas Adjacentes
+Músculos obturadores e elevador do ânus com densidade e volumetria normais. Articulações sacroilíacas simétricas, sem sinais de degeneração ou inflamação. Sínfise púbica com aspecto habitual.
+
+### Vasos
+Aorta abdominal infrarenal com calibre normal, medindo aproximadamente 1,8 cm. Veias ilíacas comuns simétricas, sem evidência de trombose. Sem adenomegalia significativa.
+
+### Linfonodos
+Linfonodos pélvicos com dimensões preservadas, menores que 1 cm no eixo curto.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Cisto ovariano simples direito**, medindo 4,2 × 3,9 cm, unilocular, sem características de malignidade, compatível com cisto funcional (provável cisto folicular ou corpo lúteo involuto).
+
+2. Ovário esquerdo **sem alterações**.
+
+3. Útero com **dimensões e características normais**.
+
+4. **Sem ascite** ou outras alterações da cavidade pélvica.
+
+5. **Sem adenomegalia significativa**.
+
+---
+
+## CONCLUSÃO
+
+Tomografia de pelve demonstra formação cística simples do ovário direito, com características benignas, não requerendo investigação adicional urgente. Recomenda-se seguimento ultrassonográfico em 6 a 8 semanas para confirmar involução, conforme protocolo de lesões ovarianas simples em mulheres em idade reprodutiva.
+
+---
+
+**Radiologista Responsável:** _________________________________  
+**Data do Relatório:** [DATA DO EXAME]

@@ -1,4 +1,3 @@
-=== RM mama — Variante 3 ===
 Especialidade: radiologia
 Cenário: realce assimétrico na mama esquerda — BIRADS 3, seguimento recomendado
 Fonte: sintético — gerado por Claude
@@ -40,6 +39,10 @@ Tempo total de exame: aproximadamente 30 minutos. Paciente em decúbito ventral.
 ## **ACHADOS**
 
 ### **Morfologia Mamária:**
+Mamas de volume e densidade usual. Não há alterações de volume ou contorno que sugiram massas focais ou de
+## **ACHADOS**
+
+### **Morfologia Mamária:**
 Mamas de volume e densidade usual. Não há alterações de volume ou contorno que sugiram massas focais ou deformidades. Simetria aproximadamente adequada entre as glândulas.
 
 ### **Parênquima Mamário:**
@@ -54,6 +57,10 @@ O realce em questão apresenta as seguintes características:
 - **Morfologia:** foco de realce focal bem delimitado, sem distorção de arquitetura associada
 - **Padrão de realce:** realce gradual/persistente nas curvas dinâmicas, sem padrão de "wash-out" rápido (tipo 1-2)
 - **Simetria:** assimétrico em relação ao parênquima contralateral
+- **ADC:** não apresenta restrição difusional significativa (ADC não reduzido)
+
+Não se observam outras áreas de realce
+ção ao parênquima contralateral
 - **ADC:** não apresenta restrição difusional significativa (ADC não reduzido)
 
 Não se observam outras áreas de realce focal ou segmentar associadas. Não há achados de lesão de massa com bordas espiculadas, irregulares ou distorção arquitetural.
@@ -84,6 +91,11 @@ Trata-se de pequeno foco de realce bem delimitado, com dinâmica de realce persi
 ## **CONCLUSÃO E RECOMENDAÇÕES**
 
 A Ressonância Magnética de mama não demonstra sinais imagiológicos de malignidade. O realce assimétrico identificado em mama esquerda apresenta características morfológicas e dinâmicas compatíveis com achado benigno.
+
+**Recomendações:**
+
+1. **Seguimento Imagiológico:** Realizar controle imagiológico em **6 meses** com RM de mama bilateral
+tíveis com achado benigno.
 
 **Recomendações:**
 

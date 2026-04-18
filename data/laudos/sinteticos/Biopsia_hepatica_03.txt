@@ -1,4 +1,8 @@
-=== Biopsia hepatica — Variante 3 ===
+AVIR)
+2. **Ausência de displasia hepatocelular** – sem alterações displásicas de baixo ou alto grau
+3. **Inflamação portal crônica** – intensidade leve a moderada
+4. **Arquitetura desorganizada** – com nódulos regenerativos e septos fibrosos espessos
+5. **Compatível com cirrose de diferentes etiologias** – avaliação sorológica e clínica complementar re
 Especialidade: patologia
 Cenário: biópsia hepática — cirrose hepática, sem displasia
 Fonte: sintético — gerado por Claude
@@ -43,6 +47,10 @@ Paciente encaminhado para avaliação histopatológica de fragmento hepático. I
 Biopsia hepática percutânea obtida por punção com agulha de 16-18G (técnica de Menghini modificada ou agulha automática). O fragmento foi fixado em formol tamponado a 10%, processado por técnica histológica de rotina e incluído em parafina. Cortes histológicos com 4 micrômetros foram submetidos às seguintes colorações:
 
 - **HE (Hematoxilina e Eosina)** – avaliação geral de arquitetura e alterações parenquimais
+- **T
+crômetros foram submetidos às seguintes colorações:
+
+- **HE (Hematoxilina e Eosina)** – avaliação geral de arquitetura e alterações parenquimais
 - **Tricrômio de Masson** – visualização de fibras colágenas e fibrose
 - **Reticulina de Gordon** – avaliação da arquitetura portal
 - **PAS (Ácido Periódico de Schiff)** – depósitos de glicogênio e inclusões
@@ -73,6 +81,11 @@ Biopsia hepática percutânea obtida por punção com agulha de 16-18G (técnica
 **Componente Inflamatório:**
 - Inflamação portal crônica de intensidade LEVE a MODERADA
 - Infiltrado linfomonocitário intersticial discreto
+- Ausência de inflamação lobar ativa significativa
+- Raros focos de necrose hepatocelular
+
+**Alteraçõ
+nfiltrado linfomonocitário intersticial discreto
 - Ausência de inflamação lobar ativa significativa
 - Raros focos de necrose hepatocelular
 
@@ -108,6 +121,4 @@ Biopsia hepática revelando:
 
 1. **Cirrose hepática estabelecida** – Estadio F4 (METAVIR)
 2. **Ausência de displasia hepatocelular** – sem alterações displásicas de baixo ou alto grau
-3. **Inflamação portal crônica** – intensidade leve a moderada
-4. **Arquitetura desorganizada** – com nódulos regenerativos e septos fibrosos espessos
-5. **Compatível com cirrose de diferentes etiologias** – avaliação sorológica e clínica complementar re
+3. **Inflamação portal crônica** – intensidade lev

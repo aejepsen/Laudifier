@@ -1,4 +1,85 @@
-=== Biopsia mama — Variante 2 ===
+. **Recomendações:**
+   - Correlação clínica e radiológica para determinação do tamanho tumoral final e estadiamento TNM
+   - Avaliação de margens cirúrgicas conforme protocolo institucional
+   - Encaminhamento para oncologia clínica para discussão multidisciplinar (conferência de mama)
+   - Consider
+CHADOS / DESCRIÇÃO DETALHADA
+
+### Achados Microscópicos Gerais
+
+Observa-se proliferação neoplásica epitelial maligna infiltrativa, caracterizada por arranjos sólidos, alveolares e em túbulos incompletamente formados, com destruição da arquitetura mamária normal e invasão do estroma adiposo adjacente.
+
+### Características Histológicas
+
+**Padrão de Crescimento:**
+- Tumor de aproximadamente [X] mm de diâmetro maior
+- Arranjos celulares predominantemente sólidos com focos de diferenciação tubular
+- Invasão de estroma fibroadiposo circunjacente com desmoplasia associada
+
+**Características Nucleares e Citoplasmáticas:**
+- Núcleos de tamanho intermediário a aumentado, com cromatina granular e nucléolos proeminentes
+- Citoplasma basófilo e abundante
+- Figuras mitóticas presentes (aproximadamente [X] mitoses em 10 campos de grande aumento)
+- Ausência de necrose maciça
+
+**Padrão de Diferenciação:**
+- Formação incompleta de túbulos (menos de 10% das células)
+- Grau moderado de pleomorfismo nuclear
+- Arquitetura desordenada
+
+### Graduação de Nottingham (Scarff-Bloom-Richardson modificado)
+
+- **Pontuação de Tubulação:** 2 pontos (< 10% em formação tubular)
+- **Pontuação Nuclear:** 2 pontos (tamanho nuclear intermediário, cromatina granular)
+- **Pontuação Mitótica:** 2 pontos (índice mitótico moderado)
+- **Escore Total:** 6 pontos → **GRAU HISTOLÓGICO II (intermediário)**
+
+### Estudo Imunohistoquímico
+
+| Marcador | Resultado | Interpretação |
+|----------|-----------|---------------|
+| **RE
+STOLÓGICO II (intermediário)**
+
+### Estudo Imunohistoquímico
+
+| Marcador | Resultado | Interpretação |
+|----------|-----------|---------------|
+| **RE (Receptor de Estrogênio)** | Positivo (80-90% de células) | Positivo |
+| **RP (Receptor de Progesterona)** | Positivo (70-80% de células) | Positivo |
+| **HER2/neu** | Negativo (Score 0-1+) | Negativo |
+| **Ki-67 (índice proliferativo)** | 20-25% | Proliferação moderada |
+
+### Outros Achados
+
+- Invasão linfática: Não identificada
+- Invasão vascular: Não identificada
+- Margens cirúrgicas: [COMPROMETIDAS/LIVRES de neoplasia] a [DISTÂNCIA mínima]
+- Tecido mamário não-neoplásico adjacente: Sem alterações significativas / Presença de alterações proliferativas benignas
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Carcinoma Ductal Invasivo (CDI), Grau Histológico II (Nottingham)**
+
+### Características:
+- Fenótipo: Luminal A (RE+, RP+, HER2-)
+- Índice proliferativo moderado (Ki-67: 20-25%)
+- Sem evidências atuais de invasão linfática ou vascular
+- Sem necrose maciça
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+1. **Diagnóstico Confirmado:** Carcinoma Ductal Invasivo de mama, grau II (intermediário), com positividade para receptores hormonais (RE+ e RP+) e HER2 negativo.
+
+2. **Estadiamento:** Compatível com fenótipo Luminal A, tendo implicações para prognóstico e terapêutica (candidata a terapia hormonal).
+
+3. **Recomendações:**
+   - Correlação clínica e radiológica para determinação do tamanho tumoral final e estadiamento TNM
+   - Avaliação de margens cir
 Especialidade: patologia
 Cenário: biópsia de mama — carcinoma ductal invasivo grau II, receptores hormonais positivos
 Fonte: sintético — gerado por Claude
@@ -54,71 +135,4 @@ Fonte: sintético — gerado por Claude
 
 ### Achados Microscópicos Gerais
 
-Observa-se proliferação neoplásica epitelial maligna infiltrativa, caracterizada por arranjos sólidos, alveolares e em túbulos incompletamente formados, com destruição da arquitetura mamária normal e invasão do estroma adiposo adjacente.
-
-### Características Histológicas
-
-**Padrão de Crescimento:**
-- Tumor de aproximadamente [X] mm de diâmetro maior
-- Arranjos celulares predominantemente sólidos com focos de diferenciação tubular
-- Invasão de estroma fibroadiposo circunjacente com desmoplasia associada
-
-**Características Nucleares e Citoplasmáticas:**
-- Núcleos de tamanho intermediário a aumentado, com cromatina granular e nucléolos proeminentes
-- Citoplasma basófilo e abundante
-- Figuras mitóticas presentes (aproximadamente [X] mitoses em 10 campos de grande aumento)
-- Ausência de necrose maciça
-
-**Padrão de Diferenciação:**
-- Formação incompleta de túbulos (menos de 10% das células)
-- Grau moderado de pleomorfismo nuclear
-- Arquitetura desordenada
-
-### Graduação de Nottingham (Scarff-Bloom-Richardson modificado)
-
-- **Pontuação de Tubulação:** 2 pontos (< 10% em formação tubular)
-- **Pontuação Nuclear:** 2 pontos (tamanho nuclear intermediário, cromatina granular)
-- **Pontuação Mitótica:** 2 pontos (índice mitótico moderado)
-- **Escore Total:** 6 pontos → **GRAU HISTOLÓGICO II (intermediário)**
-
-### Estudo Imunohistoquímico
-
-| Marcador | Resultado | Interpretação |
-|----------|-----------|---------------|
-| **RE (Receptor de Estrogênio)** | Positivo (80-90% de células) | Positivo |
-| **RP (Receptor de Progesterona)** | Positivo (70-80% de células) | Positivo |
-| **HER2/neu** | Negativo (Score 0-1+) | Negativo |
-| **Ki-67 (índice proliferativo)** | 20-25% | Proliferação moderada |
-
-### Outros Achados
-
-- Invasão linfática: Não identificada
-- Invasão vascular: Não identificada
-- Margens cirúrgicas: [COMPROMETIDAS/LIVRES de neoplasia] a [DISTÂNCIA mínima]
-- Tecido mamário não-neoplásico adjacente: Sem alterações significativas / Presença de alterações proliferativas benignas
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-**Carcinoma Ductal Invasivo (CDI), Grau Histológico II (Nottingham)**
-
-### Características:
-- Fenótipo: Luminal A (RE+, RP+, HER2-)
-- Índice proliferativo moderado (Ki-67: 20-25%)
-- Sem evidências atuais de invasão linfática ou vascular
-- Sem necrose maciça
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-1. **Diagnóstico Confirmado:** Carcinoma Ductal Invasivo de mama, grau II (intermediário), com positividade para receptores hormonais (RE+ e RP+) e HER2 negativo.
-
-2. **Estadiamento:** Compatível com fenótipo Luminal A, tendo implicações para prognóstico e terapêutica (candidata a terapia hormonal).
-
-3. **Recomendações:**
-   - Correlação clínica e radiológica para determinação do tamanho tumoral final e estadiamento TNM
-   - Avaliação de margens cirúrgicas conforme protocolo institucional
-   - Encaminhamento para oncologia clínica para discussão multidisciplinar (conferência de mama)
-   - Consider
+Observa-se proliferação neoplásica epitelial maligna infiltrativa, caracterizada por a

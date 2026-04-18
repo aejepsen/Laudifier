@@ -1,0 +1,94 @@
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA DE TÓRAX
+
+**DADOS DO PACIENTE**
+- Paciente: [NOME DO PACIENTE]
+- Data do Exame: [DATA DO EXAME]
+- Médico Solicitante: [CRM]
+- Modalidade: Tomografia Computadorizada Helicoidal de Tórax
+- Protocolo: Cortes axiais de 1mm de espessura, com reconstruções coronais e sagitais
+- Equipamento: Tomógrafo 64 canais
+
+---
+
+## TÉCNICA
+
+Realizado exame de tomografia computadorizada do tórax em cortes contínuos de 1 milímetro de espessura, adquiridos em inspiração profunda, com escaneamento de 150 mm acima da apófise mastóide até a base pulmonar. Foram obtidas reconstruções multiplanares nos planos coronal e sagital. Não foi utilizado meio de contraste intravenoso.
+
+---
+
+## ACHADOS
+
+### Pulmões e Vias Aéreas Centrais
+
+**Nódulo Pulmonar Sólido:**
+Identificado nódulo pulmonar sólido bem definido no lobo superior direito, localizado no segmento apical anterior (B1+B2), medindo 8,2 milímetros de maior diâmetro no eixo transversal (eixo sagital: 7,9 mm; eixo coronal: 8,1 mm). Morfologia arredondada, contornos regulares. Densidade aproximada de 52 unidades Hounsfield (UH), compatível com lesão sólida parenquimatosa. Sem halo inflammatório periférico. Sem padrão de vidro fosco periférico associado.
+
+A traqueia apresenta calibre normal e permeável em toda sua extensão. Os brônquios lobares principais e segmentares encontram-se pérvios, sem estenose ou dilatação significativa.
+
+### Parênquima Pulmonar
+
+Parênquima pulmonar bilateral apresenta atenuação normal, sem opacidades, consolidações ou infiltrados. Sem evidência de doença difusa. Sem sinais de enfisema pulmonar centrolobular ou panlobular. Sem padrão de vidro fosco difuso.
+
+Ausência de derrame pleural bilateral.
+
+### Pleura e Espaço Pleural
+
+Folhetos pleurais não espessados. Seios costofrênicos livres bilateralmente. Sem efusão pleural. Sem lesões pleurais focais.
+
+### Mediastino
+
+Mediastino de volume normal. Tráquea e brônquios principais com calibre normal e sem estenose. Sem adenomegalia mediastinal ou hilar significativa. Linfonodos menores de 10 milímetros no maior diâmetro transversal.
+
+Coração: silhueta cardíaca normal, sem dilatação das cavidades. Sem derrame pericárdico. Eixo cardíaco normal.
+
+Grandes vasos: aorta torácica com calibre normal, sem dilatação ou dissecção. Artérias pulmonares não dilatadas. Sem tromboembolismo pulmonar.
+
+### Parede Torácica
+
+Costelas sem fraturas agudas. Esterno íntegro. Músculos pectorais e paravertebrais com volume normal. Sem lesões de partes moles significativas.
+
+### Coluna Vertebral
+
+Corpos vertebrais apresentam altura normal, sem colapso. Disco intervertebral sem protrusão ou hérnia significativa. Espaço discal preservado. Sem espondilólise ou espondilolistese. Sem anomalias ósseas vertebrais detectáveis neste estudo limitado.
+
+---
+
+## CLASSIFICAÇÃO BI-RADS PARA NÓDULOS PULMONARES
+
+**Categoria: BI-RADS 2 (Achado benigno)**
+
+Critérios aplicados:
+- Nódulo sólido puro, sem halo sign
+- Tamanho: 8 mm (menor que 10 mm)
+- Morfologia regular e arredondada
+- Densidade homogênea
+- Sem características sugestivas de malignidade
+
+---
+
+## RECOMENDAÇÕES
+
+1. Novo estudo tomográfico de tórax (controle tomográfico sem contraste) em 12 meses para avaliação da estabilidade da lesão nodular.
+2. Se houver fatores de risco clínico significativos (histórico de tabagismo importante, exposição ocupacional, história pessoal de câncer), considerar seguimento em 6 meses.
+3. Mantém-se critério de seguimento não invasivo, sem necessidade de biopsia ou abordagem intervencionista no momento.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Tomografia computadorizada de tórax evidenciando:
+
+1. **Nódulo pulmonar sólido no lobo superior direito, segmento apical anterior (B1+B2), medindo 8,2 mm**, com morphologia regular, contornos definidos e densidade homogênea (52 UH), apresentando características BI-RADS 2 (achado benigno), recomendando-se seguimento tomográfico em 12 meses.
+
+2. Ausência de outras lesões pulmonares detectáveis.
+
+3. Pulmões, mediastino, pleura e estruturas cardíacas dentro dos limites da normalidade.
+
+4. Sem achados sugestivos de malignidade ou doença aguda.
+
+---
+
+**Assinado digitalmente por:**
+[CRM]
+Radiologista Especialista em Tomografia Torácica
+Data: [DATA DO EXAME]

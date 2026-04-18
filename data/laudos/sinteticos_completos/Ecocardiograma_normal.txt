@@ -1,0 +1,94 @@
+# LAUDO ECOCARDIOGRÁFICO
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MÉDICO RESPONSÁVEL:** Dr. [CRM]  
+**MODALIDADE:** Ecocardiografia Transtorácica  
+**EQUIPAMENTO:** Ecocardiógrafo de alta resolução com Doppler pulsátil e contínuo
+
+---
+
+## TÉCNICA
+
+Realizado ecocardiograma transtorácico com transdutor de 2,5 MHz, em modo bidimensional, modo M e análise Doppler. Qualidade de imagem adequada. Foram obtidas imagens nos planos paraesternal eixo longo, eixo curto, apical (4 câmaras, 2 câmaras e 3 câmaras) e supraesternal.
+
+---
+
+## ANATOMIA CARDÍACA
+
+**Átrio esquerdo:** Dimensão normal de 3,8 cm em diâmetro anteroposterior (ref: até 4,0 cm). Volume indexado: 28 mL/m².
+
+**Ventrículo esquerdo:** Dimensão diastólica de 4,9 cm (ref: 3,7-5,3 cm), dimensão sistólica de 3,1 cm (ref: 2,4-3,5 cm). Espessura da parede anterior: 9 mm. Espessura do septo interventricular: 9 mm. Espessura da parede posterior: 8 mm. Geometria normal sem hipertrofia miocárdica.
+
+**Ventrículo direito:** Dimensão basal normal de 2,7 cm (ref: até 2,8 cm). Função sistólica preservada. TAPSE (excursão sistólica do plano do anel tricúspide): 24 mm (ref: >16 mm).
+
+**Átrio direito:** Dimensão normal de 3,5 cm × 3,8 cm.
+
+**Aorta ascendente:** Diâmetro de 3,2 cm em sístole (ref: até 3,8 cm). Parede íntegra, sem sinais de dissecção ou aneurisma.
+
+**Artéria pulmonar:** Diâmetro de 2,4 cm (ref: até 2,6 cm). Normalidade.
+
+---
+
+## FUNÇÃO SISTÓLICA VENTRICULAR ESQUERDA
+
+**Fração de ejeção:** 64% (método de Simpson bidimensional – ref: ≥50%, normal >55%).
+
+**Avaliação Visual:** Motilidade segmentar normal em todos os segmentos miocárdicos. Sem evidência de discinesia ou acinesia regional. Contratilidade global preservada.
+
+**Strain longitudinal global:** -19,5% (técnica de speckle tracking, valor normal <-18%).
+
+**Velocidade de encurtamento fracional:** 37% (ref: >25%).
+
+---
+
+## FUNÇÃO DIASTÓLICA VENTRICULAR ESQUERDA
+
+**Padrão de enchimento mitral (Doppler pulsátil):**
+- Onda E: 78 cm/s
+- Onda A: 62 cm/s
+- Razão E/A: 1,26 (padrão normal, ref: 1,0-1,5)
+- Tempo de desaceleração: 218 ms (ref: 160-220 ms – limite superior normal)
+
+**Doppler Tecidual do anel mitral (região septal):**
+- Velocidade E': 11 cm/s
+- Velocidade A': 7 cm/s
+- Razão E/E': 7,1 (ref: <8, normal)
+
+**Volume do átrio esquerdo indexado:** 28 mL/m² (ref: <34 mL/m² – normal).
+
+**Pressão diastólica final do ventrículo esquerdo estimada:** Normal (baseada em E/E' e volume atrial).
+
+**Interpretação:** Função diastólica preservada, padrão pseudonormal borderline sem disfunção significativa.
+
+---
+
+## VALVAS CARDÍACAS
+
+**Válvula Mitral:**
+- Folíolos finos e móveis, sem alterações estruturais.
+- Sem estenose mitral (gradiente transmitral <5 mmHg).
+- Regurgitação mitral trivial (jato sistólico de 1,2 cm²), fisiológica, sem repercussão hemodinâmica.
+- Área valvar normal.
+
+**Válvula Aórtica:**
+- Três folíolos de aspecto normal, sem calcificação ou degeneração.
+- Sem estenose aórtica (pico de gradiente: 8 mmHg, média: 4 mmHg, área valvar: 3,5 cm²).
+- Regurgitação aórtica trivial (jato mesodiastólico de 0,8 cm), fisiológica, sem relevância clínica.
+
+**Válvula Tricúspide:**
+- Folíolos normais, móveis.
+- Regurgitação tricúspide leve (jato sistólico de 2,1 cm²). Pressão sistólica do ventrículo direito estimada em 32 mmHg (ref: <35 mmHg – normal).
+
+**Válvula Pulmonar:**
+- Normal, sem estenose ou insuficiência significativa.
+
+---
+
+## SEPTO INTERATRIAL E INTERVENTRICULAR
+
+**Septo interventricular:** Íntegro, sem defeito. Espessura normal de 9 mm. Sem movimento paradoxal.
+
+**Septo interatrial:** Íntegro, sem solução de continuidade. Sem evidência de forame oval patente em plano apical com aplicação de manobra de Valsalva (teste de bolha negativo).
+
+---

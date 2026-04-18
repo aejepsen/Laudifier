@@ -1,4 +1,49 @@
-=== US abdome total — Variante 1 ===
+estigação complementar conforme orientação clínica.
+- Acompanhamento clínico conforme indicação do médico assistente.
+- Não há achados que requeiram seguimento ultrassonográfico programado neste momento.
+
+---
+
+## **ASSINATURA E RESPONSABILIDADE**
+
+| | |
+|---|---|
+| **Médico Radiologista** | _________________________ |
+| **Nome (Legível)** | [
+RENAIS**
+Glândulas adrenais com aspecto normal bilateralmente, sem massas ou alterações morfológicas.
+
+### **AORTA ABDOMINAL**
+Aorta abdominal com calibre normal (diâmetro ~2,0 cm), sem sinais de ectasia ou aneurisma. Fluxo Doppler normal.
+
+### **VEIA CAVA INFERIOR**
+Veia cava inferior com calibre normal, sem trombose ou alterações do fluxo Doppler.
+
+### **ALÇAS INTESTINAIS**
+Alças de delgado e cólon apresentam calibres normais, sem evidência de distensão, obstrução ou outras alterações morfológicas. Padrão peristáltico normal.
+
+### **CAVIDADE PERITONEAL**
+Ausência de coleção líquida livre na cavidade peritoneal. Peritoneo com aspecto normal.
+
+### **PAREDE ABDOMINAL**
+Tecidos de partes moles da parede abdominal sem alterações significativas.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+Ultrassom de abdome total **sem alterações ecográficas significativas**. Estruturas hepatobiliares, pâncreas, baço, rins, adrenais e grandes vasos apresentam aspecto normal. Ausência de coleções, dilatações ou lesões focais. Cavidade peritoneal sem líquido livre.
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+O exame ultrassonográfico do abdome total não evidencia alterações ecográficas relevantes no momento. Estruturas avaliadas apresentam-se morfologicamente normais e funcionalmente preservadas.
+
+**Recomendações:**
+- Caso persista quadro clínico, considerar investigação complementar conforme orientação clínica.
+- Acompanhamento clínico conforme indicação do médico assistente.
+- Não há achados que requeiram s
 Especialidade: radiologia
 Cenário: abdome superior e inferior sem alterações ecográficas
 Fonte: sintético — gerado por Claude
@@ -40,7 +85,8 @@ Realizado exame ultrassonográfico de abdome total com transdutor convexo de 3,5
 ## **ACHADOS / DESCRIÇÃO DETALHADA**
 
 ### **FÍGADO**
-Lobo hepático direito e lobo hepático esquerdo apresentam ecogenicidade homogênea, sem evidência de lesões focais, calcificações ou alterações de textura. Dimensões normais (diâmetro craniocaudal do lobo direito: ~12 cm). Contornos regulares. Ecotextura sem esteatose aparente.
+Lobo hepático direito e lobo hepático esquerdo apresentam ecogenicidade homogênea, sem evidência de lesões focais, calcificações ou alterações de textura. Dimensões n
+reito e lobo hepático esquerdo apresentam ecogenicidade homogênea, sem evidência de lesões focais, calcificações ou alterações de textura. Dimensões normais (diâmetro craniocaudal do lobo direito: ~12 cm). Contornos regulares. Ecotextura sem esteatose aparente.
 
 ### **VIAS BILIARES INTRA-HEPÁTICAS**
 Não dilatadas. Padrão ramificado normal.
@@ -64,42 +110,4 @@ Ambos os rins com ecogenicidade cortical normal, sem dilatação da via excretor
 Glândulas adrenais com aspecto normal bilateralmente, sem massas ou alterações morfológicas.
 
 ### **AORTA ABDOMINAL**
-Aorta abdominal com calibre normal (diâmetro ~2,0 cm), sem sinais de ectasia ou aneurisma. Fluxo Doppler normal.
-
-### **VEIA CAVA INFERIOR**
-Veia cava inferior com calibre normal, sem trombose ou alterações do fluxo Doppler.
-
-### **ALÇAS INTESTINAIS**
-Alças de delgado e cólon apresentam calibres normais, sem evidência de distensão, obstrução ou outras alterações morfológicas. Padrão peristáltico normal.
-
-### **CAVIDADE PERITONEAL**
-Ausência de coleção líquida livre na cavidade peritoneal. Peritoneo com aspecto normal.
-
-### **PAREDE ABDOMINAL**
-Tecidos de partes moles da parede abdominal sem alterações significativas.
-
----
-
-## **IMPRESSÃO DIAGNÓSTICA**
-
-Ultrassom de abdome total **sem alterações ecográficas significativas**. Estruturas hepatobiliares, pâncreas, baço, rins, adrenais e grandes vasos apresentam aspecto normal. Ausência de coleções, dilatações ou lesões focais. Cavidade peritoneal sem líquido livre.
-
----
-
-## **CONCLUSÃO E RECOMENDAÇÕES**
-
-O exame ultrassonográfico do abdome total não evidencia alterações ecográficas relevantes no momento. Estruturas avaliadas apresentam-se morfologicamente normais e funcionalmente preservadas.
-
-**Recomendações:**
-- Caso persista quadro clínico, considerar investigação complementar conforme orientação clínica.
-- Acompanhamento clínico conforme indicação do médico assistente.
-- Não há achados que requeiram seguimento ultrassonográfico programado neste momento.
-
----
-
-## **ASSINATURA E RESPONSABILIDADE**
-
-| | |
-|---|---|
-| **Médico Radiologista** | _________________________ |
-| **Nome (Legível)** | [
+Aorta abdominal com cal

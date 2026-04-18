@@ -1,0 +1,70 @@
+# LAUDO DE ULTRASSONOGRAFIA — TIREOIDE
+
+**Paciente:** [NOME DO PACIENTE]  
+**Data do Exame:** [DATA DO EXAME]  
+**Médico Solicitante:** ___________________  
+**CRM do Radiologista:** [CRM]  
+**Equipamento:** Ultrassom Philips EPIQ 7G, transdutor linear de 5-13 MHz
+
+---
+
+## TÉCNICA
+
+Exame ultrassonográfico da glândula tireoide realizado com transdutor linear de alta frequência em posição do paciente supino com hiperextensão cervical discreta. Foram obtidas imagens nos planos longitudinal e transversal bilateralmente, incluindo avaliação Doppler colorido e pulsátil dos fluxos vasculares regionais.
+
+---
+
+## ACHADOS
+
+**Dimensões da glândula:**
+- Lobo direito: 47 × 24 × 18 mm
+- Lobo esquerdo: 45 × 23 × 17 mm
+- Istmo: 5 mm de espessura
+
+**Ecogenicidade glandular:** Padrão ecográfico homogêneo, normoecogênico, com textura fibroglandular habitual. Vascularização intraglandular presente ao Doppler colorido, padrão central discretamente proeminente, consistente com fluxo venoso normal.
+
+**Nódulo no lobo direito:**
+- Localização: Lobo direito, região central, aproximadamente à altura do nível de C4-C5
+- Dimensões: 12 × 9 × 10 mm (maior eixo = 12 mm)
+- Ecotextura: Sólida, hipoecoica em relação ao parênquima glandular adjacente
+- Margens: Bem definidas, regulares, sem halo hipoecogênico
+- Composição: Sem componente cístico associado
+- Vasculatura: Fluxo Doppler presente periférico e discretamente central, padrão tipo II-III (discreto aporte vascular central)
+- Forma: Ovalada, ligeiramente mais larga que alta em seu eixo longitudinal
+- Rigidez elástica: Compatível com elastografia de strain ligeiramente endurecida (padrão intermediário)
+
+**Demais achados:**
+- Lobo esquerdo: Sem nódulos detectados
+- Linfonodos cervicais regionais (cadeia nível VI): Sem linfadenomegalia; nódulos anormais ou com alterações morfológicas em série
+- Estruturas cervicais adjacentes: Normais
+- Não há evidência de invasão extratiroidiana
+
+---
+
+## CLASSIFICAÇÃO TI-RADS
+
+**Pontuação:** 4 pontos (TI-RADS 3)
+
+- Composição: Sólido (1 ponto)
+- Ecogenicidade: Hipoecoica (1 ponto)
+- Forma: Ovalada/paralela (0 pontos)
+- Margens: Regulares (0 pontos)
+- Echogenicity (segundo padrão): Nódulo hipoecoico, uniforme, sem calcificações (1 ponto)
+
+**Categoria TI-RADS:** 3 (nódulo intermediário)  
+**Risco estimado de malignidade:** 5-20%
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Ultrassonografia da glândula tireoide revelando glândula de dimensões normais, com ecogenicidade e vascularização habituais. Presença de **nódulo sólido hipoecoico de 12 mm no lobo direito**, com margens regulares, sem halo hipoecogênico e vasculatura periférica discreta. Achado compatível com **nódulo tireoidiano classificado como TI-RADS 3 (intermediário)**.
+
+Recomenda-se acompanhamento ultrassonográfico em 6 a 12 meses para avaliação de estabilidade dimensional e morfológica. Caso haja clínica sugestiva de disfunção tiroidiana ou dados laboratoriais relevantes, considerar correlação com dosagem de TSH e anticorpos antitireóideos. Não há critérios ultrassonográficos indicativos de malignidade no presente exame; porém, a conduta segue protocolos internacionais de vigilância baseados na classificação TI-RADS.
+
+---
+
+**Assinado digitalmente por:**  
+Dr./Dra. ___________________  
+Especialista em Radiologia e Diagnóstico por Imagem  
+CREMESP/CFM nº [CRM]

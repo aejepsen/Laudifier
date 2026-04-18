@@ -1,4 +1,3 @@
-=== TC coluna lombar — Variante 2 ===
 Especialidade: radiologia
 Cenário: protrusão discal L4-L5 com compressão radicular
 Fonte: sintético — gerado por Claude
@@ -43,19 +42,8 @@ A coluna lombar apresenta lordose fisiológica adequada. Visualizam-se os corpos
 
 ### **Espaços Intervertebrais**
 
-- **L3-L4:** Disco intervertebral com altura preservada. Contornos regularmente convexos. Não visualizam-se protrusões, hérnias ou abaulamentos significativos.
-
-- **L4-L5:** **Disco intervertebral com redução da altura discal.** Detecta-se **protrusão discal centroposteromedial** do material nuclear, de aspecto fibroso, medindo aproximadamente **6-8 mm** de extensão craniocaudal. Observa-se **compressão das raízes nervosas** bilateralmente, mais pronunciada à **direita**, com **obliteração parcial dos recésos laterais**. O saco dural apresenta-se comprimido pelo material discal. A protrusão exerce efeito compressivo significativo sobre a raiz de L4 à direita e, em menor grau, sobre a raiz de L5.
-
-- **L5-S1:** Disco com altura preservada. Contornos regulares sem deformidades. Pequeno abaulamento difuso do anel fibroso, não configurando protrusão significativa. Saco dural e recésos laterais pérviosos.
-
-### **Análise de Partes Moles**
-
-Espaço epidural com redução focal em L4-L5 secundária ao material discal. Ligamento amarelo apresenta-se sem hipertrofia significativa. Articulações facetárias com orientação apropriada e cartilagem preservada.
-
-### **Análise Óssea**
-
-Corpos vertebrais: densidade mineral óssea normal para a idade. Apófises transversas e espinhosas íntegras. Ausência de lesões escleróticas ou líticas. Lâminas e pilares integros.
+- **L3-L4:** Disco intervertebral com altura preservad
+ transversas e espinhosas íntegras. Ausência de lesões escleróticas ou líticas. Lâminas e pilares integros.
 
 ### **Medula Espinhal**
 
@@ -86,6 +74,29 @@ Presentes achados tomográficos compatíveis com **protrusão discal L4-L5 com c
 ### Recomendações:
 
 1. **Correlação clínica** com o padrão de irradiação (raiz L4-L5) e intensidade dos sintomas
+2. **Ressonância magnética da coluna lombar** para melhor caracterização de tecidos moles, avaliação mais precisa
+ais apresentam-se íntegros, sem aspecto irregular ou colapso.
+
+### **Espaços Intervertebrais**
+
+- **L3-L4:** Disco intervertebral com altura preservada. Contornos regularmente convexos. Não visualizam-se protrusões, hérnias ou abaulamentos significativos.
+
+- **L4-L5:** **Disco intervertebral com redução da altura discal.** Detecta-se **protrusão discal centroposteromedial** do material nuclear, de aspecto fibroso, medindo aproximadamente **6-8 mm** de extensão craniocaudal. Observa-se **compressão das raízes nervosas** bilateralmente, mais pronunciada à **direita**, com **obliteração parcial dos recésos laterais**. O saco dural apresenta-se comprimido pelo material discal. A protrusão exerce efeito compressivo significativo sobre a raiz de L4 à direita e, em menor grau, sobre a raiz de L5.
+
+- **L5-S1:** Disco com altura preservada. Contornos regulares sem deformidades. Pequeno abaulamento difuso do anel fibroso, não configurando protrusão significativa. Saco dural e recésos laterais pérviosos.
+
+### **Análise de Partes Moles**
+
+Espaço epidural com redução focal em L4-L5 secundária ao material discal. Ligamento amarelo apresenta-se sem hipertrofia significativa. Articulações facetárias com orientação apropriada e cartilagem preservada.
+
+### **Análise Óssea**
+
+Corpos vertebrais: densidade mineral óssea normal para a idade. Apófises transversas e espinhosas íntegras. Ausência de lesões escleróticas ou líticas. Lâminas e pilares integros.
+
+### **Medula Espinhal**
+
+Não visualizada 
+iz L4-L5) e intensidade dos sintomas
 2. **Ressonância magnética da coluna lombar** para melhor caracterização de tecidos moles, avaliação mais precisa do saco dural e raízes nervosas, particularmente se considerado tratamento invasivo
 3. **Avaliação fisioterapêutica** e tratamento conservador com anti-inflamatórios, analgésicos e reabilitação motora
 4. **Avaliação do neurocirurgião ou médico da dor** em caso de sintomas refratários ao tratamento clí

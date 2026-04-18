@@ -1,4 +1,39 @@
-=== RM coluna cervical — Variante 2 ===
+ ao nível de C5-C6
+
+3. **Estenose foraminal bilateral** em C5-C6, com predomínio à direita, secundária à protrusão discal
+
+4. **Pequenos osteófitos** em C2-C3, C6-C7 e C7-T1 sem repercussão significativa
+
+5. **Preservação da lordose cervical** fisiológica
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Os achados de ressonância
+rvical preservada. O espaço subaracnóide cervical encontra-se pérvio em seus limites normais, porém com discreta redução da amplitude do sinal de LCR (líquido cefalorraquidiano) ao nível de C5-C6.
+
+### **Análise por Nível Vertebral**
+
+**C2-C3:** Disco intervertebral íntegro. Pequeno osteófito anterior direito sem significância clínica. Foraminas neurais pérvias bilateralmente.
+
+**C3-C4:** Disco intervertebral mantém altura normal. Facetas articulares sem sinais de artropatia. Medula cervical com sinal habitual.
+
+**C4-C5:** Disco intervertebral com altura preservada. Ligamento amarelo sem hipertrofia significativa. Espaço foraminal normopérvio bilateralmente.
+
+**C5-C6 (Nível Principal de Interesse):**
+- Presença de **protrusão discal posteriormediana**, com componentes posterolaterais bilaterais
+- Aproximadamente 4 mm de anterolistese discal
+- O material discal protruído apresenta contato com a dura-máter anterior
+- Redução moderada do espaço epidural anterior
+- Compressão suave da medula cervical com acentuação das depressões laterais medulares
+- Foraminas neurais levemente reduzidas bilateralmente, com maior componente à direita (aproximadamente 30% de redução)
+- Presença de **edema medular cervical focal** (hiperintensidade em T2-STIR) compatível com mielopatia
+- Sinais de mielomalácia discreta na sequência T1
+
+**C6-C7:** Disco intervertebral com pequeno osteófito anterior esquerdo. Foraminas neurais pérvias. Medula cervical com sinal habitual neste nível.
+
+**C7-T1:** Estru
 Especialidade: radiologia
 Cenário: protrusão discal C5-C6 com mielopatia leve
 Fonte: sintético — gerado por Claude
@@ -44,27 +79,8 @@ Não foi utilizado contraste paramagnético endovenoso. Tempo de exame: aproxima
 
 ### **Análise Geral da Coluna Cervical**
 
-A coluna cervical apresenta curvatura lordótica cervical preservada. O espaço subaracnóide cervical encontra-se pérvio em seus limites normais, porém com discreta redução da amplitude do sinal de LCR (líquido cefalorraquidiano) ao nível de C5-C6.
-
-### **Análise por Nível Vertebral**
-
-**C2-C3:** Disco intervertebral íntegro. Pequeno osteófito anterior direito sem significância clínica. Foraminas neurais pérvias bilateralmente.
-
-**C3-C4:** Disco intervertebral mantém altura normal. Facetas articulares sem sinais de artropatia. Medula cervical com sinal habitual.
-
-**C4-C5:** Disco intervertebral com altura preservada. Ligamento amarelo sem hipertrofia significativa. Espaço foraminal normopérvio bilateralmente.
-
-**C5-C6 (Nível Principal de Interesse):**
-- Presença de **protrusão discal posteriormediana**, com componentes posterolaterais bilaterais
-- Aproximadamente 4 mm de anterolistese discal
-- O material discal protruído apresenta contato com a dura-máter anterior
-- Redução moderada do espaço epidural anterior
-- Compressão suave da medula cervical com acentuação das depressões laterais medulares
-- Foraminas neurais levemente reduzidas bilateralmente, com maior componente à direita (aproximadamente 30% de redução)
-- Presença de **edema medular cervical focal** (hiperintensidade em T2-STIR) compatível com mielopatia
-- Sinais de mielomalácia discreta na sequência T1
-
-**C6-C7:** Disco intervertebral com pequeno osteófito anterior esquerdo. Foraminas neurais pérvias. Medula cervical com sinal habitual neste nível.
+A coluna cervical apresenta curvatura lordótica cervical preservada. O espaço subaracnóide cervical encontra-se pérvio em seus limites normais, porém com discreta redução da amplitude do sinal de LCR 
+o intervertebral com pequeno osteófito anterior esquerdo. Foraminas neurais pérvias. Medula cervical com sinal habitual neste nível.
 
 **C7-T1:** Estrutura e sinais normais. Disco íntegro.
 
@@ -90,12 +106,4 @@ A coluna cervical apresenta curvatura lordótica cervical preservada. O espaço 
 
 3. **Estenose foraminal bilateral** em C5-C6, com predomínio à direita, secundária à protrusão discal
 
-4. **Pequenos osteófitos** em C2-C3, C6-C7 e C7-T1 sem repercussão significativa
-
-5. **Preservação da lordose cervical** fisiológica
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-Os achados de ressonância
+4. **Pequenos osteófitos** 

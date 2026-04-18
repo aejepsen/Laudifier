@@ -1,0 +1,80 @@
+# LAUDO DE PET-CT
+
+**DADOS DE IDENTIFICAÇÃO**
+
+Paciente: [NOME DO PACIENTE]  
+Data do Exame: [DATA DO EXAME]  
+Idade: 58 anos | Sexo: Masculino  
+Médico Solicitante: Dr. Carlos Mendes  
+CRM: [CRM]  
+Modalidade: PET-CT (Tomografia por Emissão de Pósitrons acoplada a Tomografia Computadorizada)  
+Radiofármaco: 18F-FDG (Fluordeoxiglicose F-18)  
+Data de Injeção: [DATA DO EXAME] às 08:45h  
+Hora de Aquisição: 10:30h  
+Tempo de Decaimento: 105 minutos
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Paciente com diagnóstico prévio de neoplasia pulmonar estadiamento oncológico/avaliação de disseminação metastática e carga tumoral.
+
+---
+
+## TÉCNICA
+
+Realizado PET-CT com equipamento híbrido (GE Discovery ST). Administração de 7,8 mCi (288 MBq) de 18F-FDG por via intravenosa. Imagens obtidas com campo de visão de vértex até região proximal de tíbia, em décubito dorsal. Reconstrução iterativa com correção de atenuação baseada em dados de CT. Protocolo de aquisição: 3 minutos por leito.
+
+---
+
+## ACHADOS
+
+### TÓRAX
+
+**Mediastino:**
+- Linfonodo pré-traqueal direito com dimensões de 15 × 12 mm, apresentando captação intensa de 18F-FDG com SUVmax de 8,7.
+- Linfonodo subcarinal com dimensões de 18 × 14 mm, SUVmax de 9,2.
+- Linfonodos hilares bilaterais: à direita medindo 16 × 13 mm (SUVmax 7,9) e à esquerda medindo 14 × 11 mm (SUVmax 6,4).
+- Conglomerado linfonodal paratraqueal esquerdo medindo aproximadamente 22 × 18 mm com captação heterogênea de 18F-FDG (SUVmax 8,1).
+- Linfonodos no espaço interlobar com dimensões de 12 × 10 mm (SUVmax 5,8).
+
+**Pulmões:**
+- Opacidade nodular no lobo superior direito, próximo à periferia, medindo 28 × 25 mm, com densidade de 65 UH (componente partes moles) e captação intensa de 18F-FDG (SUVmax 12,3), sugestivo de lesão tumoral primária.
+- Pequenos nódulos satélites no segmento apical direito: o maior medindo 8 × 7 mm (SUVmax 4,2).
+- Opacidades em vidro fosco com distribuição periférica bilateral, sugestivas de disseminação linfangítica, com captação leve de 18F-FDG (SUVmax 2,1 em regiões focais).
+- Sem derrame pleural.
+
+**Parede Torácica e Ossos:**
+- Pequena condensação focal na musculatura paravertebral esquerda em T4, medindo 8 × 7 mm, com captação moderada de 18F-FDG (SUVmax 4,5), sugestivo de envolvimento extrapleural.
+
+### ABDOME SUPERIOR
+
+**Fígado:**
+- Lesão hipodensa no segmento VIII, medindo 21 × 19 mm, com densidade de 38 UH na fase portal, apresentando captação intensa de 18F-FDG (SUVmax 9,8), compatible com metástase.
+- Lesão adicional no segmento VII, medindo 15 × 13 mm (SUVmax 8,1), com características similares.
+- Lesão no segmento VI, medindo 12 × 10 mm (SUVmax 5,9).
+- Lesão de 9 × 8 mm no segmento II (SUVmax 4,6).
+- Densidade hepática homogênea de 56 UH. Volume hepático preservado. Sem cirrose aparente.
+
+**Linfonodos abdominais:**
+- Linfonodos hepatoduodenais medindo 13 × 11 mm (SUVmax 7,2) e 11 × 9 mm (SUVmax 6,8).
+- Linfonodos perigástricos com diâmetro máximo de 14 × 12 mm (SUVmax 6,1).
+- Linfonodos para-aórticos em D12-L1 medindo 16 × 13 mm (SUVmax 7,4).
+- Linfonodo mesentérico superior medindo 12 × 10 mm (SUVmax 3,7).
+
+**Pâncreas:**
+- Glândula com dimensões e perfusão normais. Densidade de 62 UH. Sem alterações focais ou captação anômala.
+
+**Baço:**
+- Dimensões normais (comprimento 10,8 cm). Densidade homogênea de 58 UH. Sem lesões focais ou captação patológica de 18F-FDG.
+
+**Adrenais:**
+- Ambas normais em tamanho (diâmetro máximo 12 mm). Sem captação anômala de 18F-FDG.
+
+**Rins:**
+- Simétricos e com perfusão normal. Densidade cortical de 48 UH. Excreção adequada de radiofármaco.
+
+**Estômago:**
+- Sem captação focal anômala.
+
+**Alças intestinais:**

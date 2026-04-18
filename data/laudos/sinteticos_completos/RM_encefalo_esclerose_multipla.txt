@@ -1,0 +1,66 @@
+# LAUDO DE RESSONÂNCIA MAGNÉTICA DE ENCÉFALO
+
+**DADOS DO PACIENTE:**
+- Nome: [NOME DO PACIENTE]
+- Data do Exame: [DATA DO EXAME]
+- Registro: [CRM]
+- Idade: 34 anos
+- Sexo: Feminino
+
+---
+
+## TÉCNICA:
+Ressonância magnética do encéfalo realizada em equipamento de 3.0 Tesla. Sequências adquiridas: T1, T2, FLAIR, T2-GRE, DP e difusão nos três planos ortogonais. Administrado contraste gadolínio IV (Gd-DTPA) na dose de 0,1 mmol/kg. Campo de visão: 230 x 230 mm, matriz 256 x 256, espessura de corte 3 mm com gap de 0 mm.
+
+---
+
+## ACHADOS:
+
+### **SUBSTÂNCIA BRANCA:**
+Múltiplas lesões focais de hipersinal em T2 e FLAIR, distribuídas predominantemente em localização periventricular, com orientação radial em relação aos cornos frontais bilateralmente.
+
+**Lesão 1:** Localizada na substância branca periventricular anterior direita, medindo 8 x 6 mm, sem captação de contraste, de aspecto crônico.
+
+**Lesão 2:** Lesão periventricular esquerda anterior, dimensões 12 x 9 mm, com margem bem definida, T1 isointensa, T2 e FLAIR hipersinal, sem realce.
+
+**Lesão 3:** Lesão paraventricular direita temporal posterior, medindo 7 x 5 mm, T2 hipersinal, sem realce pós-contraste.
+
+**Lesão 4:** Lesão justa-ventricular esquerda frontal, 10 x 8 mm, FLAIR hipersinal, T1 isointensa, sem captação de gadolínio.
+
+**Lesão 5:** Lesão de substância branca em região periventricular bilateral a nível dos trigônios, 15 x 11 mm à direita e 9 x 7 mm à esquerda, com padrão de "dedo de Dawson" (orientação radial perpendicular ao ventrículo), não realçada.
+
+**Lesão 6:** Lesão infratentorial discreta em fossa posterior esquerda junto ao tronco encefálico, 6 x 4 mm, hipersinal em FLAIR, sem realce.
+
+Contagem total: 6 lesões desmielinizantes bem caracterizadas. Padrão de distribuição altamente sugestivo de atividade inflamatória crônica.
+
+### **VENTRICULI E ESPAÇOS SUBARACNOIDES:**
+Ventrículos laterais simétricos e normalmente posicionados. Terceiro ventrículo com eixo médio, sem dilatação. Quarto ventrículo pérvio. Cisternas da base preservadas. Espaço subaracnoideo supratentorial sem alterações significativas.
+
+### **ESTRUTURAS IMPLANTADAS:**
+Não identificadas.
+
+### **SUBSTÂNCIA CINZENTA CENTRAL:**
+Núcleos da base simétricos, sem alterações de sinal. Tálamo, hipotálamo e midbrain sem anormalidades. Hipocampos simétricos, sem atrofia ou anormalidades.
+
+### **FOSSA POSTERIOR:**
+Cerebelo com volume preservado, simetria mantida entre os hemisférios cerebelares. Hemisférios cerebelares sem lesões. Tronco encefálico com morfologia habitual, sinal homogêneo. Artérias vertebrais bilateralmente pérvias e simétricas.
+
+### **AVALIAÇÃO VASCULAR:**
+Seios venosos dural: seio sagital superior, retos e seios cavernosos pérvios e simétricos. Círculo de Willis íntegro. Ausência de área de estenose ou trombose.
+
+### **SINAIS MENÍNGEOS:**
+Sem captação anômala de contraste nas membranas meníngeas. Sem realce leptomeníngeo focal ou difuso.
+
+### **SELA TÚRCICA E HIPÓFISE:**
+Hipófise com dimensões normais (altura anteroposterior 5 mm), signal homogêneo, sem expansão selar. Sem deslocamento do infundíbulo.
+
+### **ÓRBITAS:**
+Nervos ópticos simétricos e sem espessamento. Órbitas sem alterações relevantes.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA:
+
+Ressonância magnética do encéfalo demonstrando múltiplas lesões desmielinizantes periventriculares bilaterais (total de 6 lesões), com distribuição clássica sugestiva de esclerose múltipla. As lesões apresentam características cronológicas variadas, predominantemente hipersinal em T2 e FLAIR, sem realce pós-contraste em sua maioria, indicando lesões em fase não aguda. Observa-se padrão radiológico típico de atividade desmielinizante, com orientação perpendicular aos ventrículos e envolvimento da junção juxtacortical. Não há evidência de lesão inflamatória aguda realçada ao momento do estudo. Infratentorium acometido focalmente. Ventriculomegalia, efeito de massa ou hemorragia não documentados. Achados compatíveis com o critério de Barkhof para RM de encéfalo na avaliação de esclerose múltipla, na qual a presença de pelo menos 3 das 4 seguintes características está satisfeita: lesões infratentoriais, lesões juxtacorticais, lesões periventriculares e lesões realçadas (não documentado neste estudo).
+
+**Recomenda-se correlação

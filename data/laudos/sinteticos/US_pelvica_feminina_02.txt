@@ -1,4 +1,3 @@
-=== US pelvica feminina — Variante 2 ===
 Especialidade: radiologia
 Cenário: mioma uterino intramural de 3,5 cm
 Fonte: sintético — gerado por Claude
@@ -41,27 +40,8 @@ Ultrassonografia pélvica transvaginal e transabdominal realizada com equipament
 - **Espessura (parede anterior):** 2,3 cm
 - **Espessura (parede posterior):** 2,5 cm
 
-Dentro da miometrial, precisamente na parede anterior-lateral direita, identifica-se lesão nodular sólida, hipoecogênica, bem delimitada, medindo aproximadamente **3,5 cm × 3,2 cm × 3,0 cm** (maior eixo), com características ecográficas típicas de **leiomioma (mioma) intramural**. A lesão determina leve abaulamento da cavidade endometrial, sem distorção significativa desta.
-
-O endométrio apresenta espessura adequada, com visualização de linha endometrial clara. Sem imagens sugestivas de hiperplasia endometrial ou pólipos.
-
-### **Ovários:**
-- **Ovário Direito:** Volume aproximadamente 6,5 mL, contendo 5-6 folículos antrais de distribuição normal, maior medindo 8 mm. Ecotextura homogênea.
-- **Ovário Esquerdo:** Volume aproximadamente 7,2 mL, com 4-5 folículos antrais de distribuição normal, maior medindo 9 mm. Ecotextura homogênea.
-
-Sem imagens sugestivas de cistos complexos ou lesões nodulares ovarianas.
-
-### **Cavidade Pélvica:**
-Pequena quantidade de líquido livre pélvico, medindo aproximadamente 2 cm em declive, sem características de sangramento agudo. Sem evidência de coleções, abscessos ou outras lesões focais.
-
-### **Estruturas Adjacentes:**
-Bexiga em repleção parcial, de paredes regulares. Alças intestinais sem dilatação ou sinais de obstrução. Sem linfonodomegalias pélvicas.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Leiomioma (Mioma) Uterino Intramural** de aproximadamente 3,5 cm, localizado na parede anterior-lateral direita do útero, com leve abaulamento endometrial;
+Dentro da miometrial, precisamente na parede anterior-lateral direita, identifica-se lesão nodular sólida, hipoecogênica, bem delimitada, medindo aproximadamente **3,5 cm × 3,2 cm × 3,0 cm** (maior eixo), com características ecográficas típicas de
+reita do útero, com leve abaulamento endometrial;
 
 2. Útero com volume normal, sem outros achados miomatosos detectados;
 
@@ -96,6 +76,11 @@ Foram confirmadas as alterações sugestivas de **mioma intramural único**, com
 **Nome (Legível):** _________________________________
 
 **Número de Registro/CRM:** [__________]
+ico Radiologista:** _________________________________
+
+**Nome (Legível):** _________________________________
+
+**Número de Registro/CRM:** [__________]
 
 **Especialidade:** Radiologia e Diagnóstico por Imagem
 
@@ -108,3 +93,28 @@ Foram confirmadas as alterações sugestivas de **mioma intramural único**, com
 ---
 
 **Observação:** Este laudo foi gerado em caráter ilustrativo. Laudos reais devem incluir identificação completa do paciente e do médico executante, bem como conformidade com protocolos institucionais e regulamentações vigentes.
+r sólida, hipoecogênica, bem delimitada, medindo aproximadamente **3,5 cm × 3,2 cm × 3,0 cm** (maior eixo), com características ecográficas típicas de **leiomioma (mioma) intramural**. A lesão determina leve abaulamento da cavidade endometrial, sem distorção significativa desta.
+
+O endométrio apresenta espessura adequada, com visualização de linha endometrial clara. Sem imagens sugestivas de hiperplasia endometrial ou pólipos.
+
+### **Ovários:**
+- **Ovário Direito:** Volume aproximadamente 6,5 mL, contendo 5-6 folículos antrais de distribuição normal, maior medindo 8 mm. Ecotextura homogênea.
+- **Ovário Esquerdo:** Volume aproximadamente 7,2 mL, com 4-5 folículos antrais de distribuição normal, maior medindo 9 mm. Ecotextura homogênea.
+
+Sem imagens sugestivas de cistos complexos ou lesões nodulares ovarianas.
+
+### **Cavidade Pélvica:**
+Pequena quantidade de líquido livre pélvico, medindo aproximadamente 2 cm em declive, sem características de sangramento agudo. Sem evidência de coleções, abscessos ou outras lesões focais.
+
+### **Estruturas Adjacentes:**
+Bexiga em repleção parcial, de paredes regulares. Alças intestinais sem dilatação ou sinais de obstrução. Sem linfonodomegalias pélvicas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Leiomioma (Mioma) Uterino Intramural** de aproximadamente 3,5 cm, localizado na parede anterior-lateral direita do útero, com leve abaulamento endometrial;
+
+2. Útero com volume normal, sem outros achados miomatosos detectados;
+
+3. Ovários com característic

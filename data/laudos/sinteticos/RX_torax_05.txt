@@ -1,42 +1,4 @@
-=== RX torax — Variante 5 ===
-Especialidade: radiologia
-Cenário: pneumotórax direito espontâneo
-Fonte: sintético — gerado por Claude
-
-# LAUDO DE RADIOGRAFIA DE TÓRAX
-
----
-
-## IDENTIFICAÇÃO
-
-**Paciente:** [NOME COMPLETO]  
-**Registro/Prontuário:** [Nº REGISTRO]  
-**Data de Nascimento:** [DD/MM/AAAA]  
-**Idade:** [IDADE] anos | **Sexo:** [M/F]  
-**Data do Exame:** [DD/MM/AAAA]  
-**Horário:** [HH:MM]  
-**Solicitante:** [NOME DO MÉDICO]  
-**Especialidade do Solicitante:** [ESPECIALIDADE]
-
----
-
-## TÉCNICA
-
-Radiografia digital de tórax em incidência posteroanterior (PA) e perfil direito (PD), realizada em equipamento de raios-x digital de alta resolução, com distância foco-filme de 180 cm e paciente em posição ortostática.
-
----
-
-## ACHADOS
-
-**Estruturas ósseas:**
-- Coluna vertebral integra, sem desvios ou deformidades visíveis
-- Caixa torácica simétrica
-- Omoplatas, clavículas e úmeros sem alterações focais
-
-**Pulmões e pleura:**
-Visibiliza-se colapso volumétrico acentuado do pulmão direito, estimado em aproximadamente 60% de seu volume. Observa-se radiolucência pleural bem demarcada, sem padrão vascular pulmonar, caracterizando **ar intrapleurais sem identificação de vascularização pulmonar associada**. A linha pleural visceral é bem visualizada no terço médio e inferior de hemitórax direito, definindo o pneumotórax.
-
-Pulmão esquerdo apresenta expansão preservada com padrão broncovascular normal. Seios costofrênicos bilateral permeáveis. Silhueta cardiomediastinal dentro dos limites normais, sem desvio de mediastino evidenciado.
+ com padrão broncovascular normal. Seios costofrênicos bilateral permeáveis. Silhueta cardiomediastinal dentro dos limites normais, sem desvio de mediastino evidenciado.
 
 **Diafragma:**
 Perfil diafragmático bilateral suave e integro, sem sinais de hernias.
@@ -75,6 +37,53 @@ Radiografia de tórax compatível com **pneumotórax espontâneo direito de volu
 Nome: ___________________________________  
 CRM: _________________ | Estado: _______  
 Especialidade: Radiologia e Diagnóstico por Imagem  
+
+Data: ____/____/________ | Hora: _______
+
+Assinatura: _____________________________
+
+---
+
+**Nota:** Este
+Especialidade: radiologia
+Cenário: pneumotórax direito espontâneo
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE RADIOGRAFIA DE TÓRAX
+
+---
+
+## IDENTIFICAÇÃO
+
+**Paciente:** [NOME COMPLETO]  
+**Registro/Prontuário:** [Nº REGISTRO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Idade:** [IDADE] anos | **Sexo:** [M/F]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Horário:** [HH:MM]  
+**Solicitante:** [NOME DO MÉDICO]  
+**Especialidade do Solicitante:** [ESPECIALIDADE]
+
+---
+
+## TÉCNICA
+
+Radiografia digital de tórax em incidência posteroanterior (PA) e perfil direito (PD), realizada em equipamento de raios-x digital de alta resolução, com distância foco-filme de 180 cm e paciente em posição ortostática.
+
+---
+
+## ACHADOS
+
+**Estruturas ósseas:**
+- Coluna vertebral integra, sem desvios ou deformidades visíveis
+- Caixa torácica simétrica
+- Omoplatas, clavículas e úmeros sem alterações focais
+
+**Pulmões e pleura:**
+Visibiliza-se colapso volumétrico acentuado do pulmão direito, estimado em aproximadamente 60% de seu volume. Observa-se radiolucência pleural bem demarcada, sem padrão vascular pulmonar, caracterizando **ar intrapleurais sem identificação de vascularização pulmonar associada**. A linha pleural visceral é bem visualizada no terço médio e inferior de hemitórax direito, definindo o pneumotórax.
+
+Pulmão esquerdo apresenta expansão preservada com padrão broncovascular normal. Seios costofrênicos bilateral permeáveis. Silhueta cardiomediastinal dentro dos limites normais, sem desvio de medi
+idade: Radiologia e Diagnóstico por Imagem  
 
 Data: ____/____/________ | Hora: _______
 

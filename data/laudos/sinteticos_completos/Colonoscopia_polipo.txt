@@ -1,0 +1,81 @@
+# LAUDO DE COLONOSCOPIA
+
+---
+
+**DADOS DO PACIENTE**
+
+| Campo | Conteúdo |
+|-------|----------|
+| **Nome** | [NOME DO PACIENTE] |
+| **Data do Exame** | [DATA DO EXAME] |
+| **Médico Responsável** | Dr. [CRM] |
+| **Médico Assistente** | Enfermeira Endoscópica Certificada |
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Rastreamento de câncer colorretal em paciente com antecedente de neoplasia colônica e história familiar de câncer de cólon. Paciente assintomático, sem queixa de sangramento retal ou alteração do hábito intestinal.
+
+---
+
+## TÉCNICA E MÉTODO
+
+Colonoscopia completa realizada sob sedação consciente com propofol (200 mg IV). Colonoscópio Pentax EC-3890Fi utilizado, com visualização adequada após limpeza satisfatória da mucosa colônica com solução de polietilenoglicol (PEG 3350). Paciente em posição supina inicial, rotacionado conforme necessário para otimizar visibilidade. Nível de sedação mantido com monitorização contínua de sinais vitais (frequência cardíaca, pressão arterial, saturação de oxigênio, capnografia). Tempo total de procedimento: 22 minutos. Tempo de retirada: 8 minutos.
+
+---
+
+## PREPARO INTESTINAL
+
+Preparo intestinal de excelente qualidade (Escala de Boston = 9). Resíduos mínimos, sem necessidade de limpeza adicional. Visualização panorâmica completa de toda a mucosa colônica mantida durante todo o procedimento.
+
+---
+
+## ACHADOS ENDOSCÓPICOS
+
+**Reto:**
+Mucosa normocrômia, pregueada, sem lesões, estenose ou sinais de inflamação. Válvula de Houston esquerda identificada. Ampola retal com calibre normal.
+
+**Cólon Sigmóide:**
+Identificada lesão polipóide séssil de morfologia regular, superfície suave, coloração iscrômica em relação à mucosa adjacente, medindo 8 mm de diâmetro longitudinal e 7 mm de diâmetro transversal. Lesão localizada na parede anterior do cólon sigmóide, a aproximadamente 22 cm da margem anal (mensuração por marcação com clipe de referência). Classificação Paris: 0-Ina. Padrão vascular de Kudo: II (arborizante fina). Ausência de sinais de malignidade (depressão, ulceração ou irregularidade de contornos). Nenhuma outra lesão polipóide adicional identificada neste segmento.
+
+**Cólon Descendente:**
+Mucosa normal, sem lesões, edema ou estenose. Presença de divertículos pequenos (< 5 mm), múltiplos, sem sinais de diverticulite. Padrão haustrável conservado.
+
+**Cólon Transverso:**
+Mucosa rosada, sem alterações. Flexura esplênica tresposta sem dificuldade. Sem anomalias estruturais ou lesões.
+
+**Cólon Ascendente:**
+Mucosa de aspecto normal. Sem lesões, inflamação ou estreitamentos. Transição para ceco sem particularidades.
+
+**Ceco:**
+Identificação clara da válvula íleocecal com aspecto normal. Óstio íleo normal, permeável. Nenhuma lesão ou anomalia identificada. Apêndice cecal visualizado, com aspecto normal.
+
+---
+
+## PROCEDIMENTOS REALIZADOS
+
+**Polipectomia por eletrocauterização:**
+Pólipo séssil do cólon sigmóide submetido a ressecção completa sob eletrocauterização com corrente de corte moderada (50 W) e coagulação (30 W) associada. Técnica: injeção submucosa prévia com 2 mL de solução de adrenalina 1:10.000 em soro fisiológico para elevação e isolamento da lesão. Captura com alça de polipectomia (diâmetro 15 mm) sem resistência significativa. Completa ressecção da lesão em fragmento único, confirmada por visualização da base de ressecção que apresentou aspecto esbranquiçado com hemostasia adequada. Sem sangramento ativo no leito de ressecção pós-procedimento. Coagulação adicional profilática realizada em base ampla (30 segundos, 25 W) para minimizar risco de sangramento tardio. Mucosa adjacente preservada.
+
+---
+
+## ESPÉCIMES COLETADOS
+
+- **1 pólipo séssil do cólon sigmóide**, 8 mm, ressecado em totalidade
+  - Encaminhado para análise histopatológica completa
+  - Solicitação de: avaliação de malignidade, grau de displasia, margem de ressecção, presença de componente vascular/mucoso
+
+---
+
+## COMPLICAÇÕES
+
+Nenhuma complicação imediata observada. Procedimento tolerado bem pelo paciente. Paciente acordado, lúcido e orientado ao final do exame com ausência de dor, sangramento ativo ou instabilidade hemodinâmica. Sinais vitais estáveis (FC: 68 bpm, PA: 125/78 mmHg, SpO₂: 97% em ar ambiente).
+
+---
+
+## RECOMENDAÇÕES PÓS-PROCEDIMENTO
+
+1. **Repouso relativo** por 24 horas
+2. **Alimentação branda** nas primeiras 4-6 horas
+3. **Vigilância** para sangramento retal profuso, dor abdominal intensa ou febre (

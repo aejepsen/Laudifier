@@ -1,4 +1,68 @@
-=== Ecocardiograma transtorácico — Variante 2 ===
+- **Ventrículo Esquerdo (VE):** Apresenta espessamento concêntrico das paredes com hipertrofia discreta. Espessura da parede posterior em diástole: [__] mm (ligeiramente elevada). Espessura do septo interventricular em diástole: [__] mm (ligeiramente elevada). Índice de massa ventricular esquerda: [__] g/m² (sugestivo de hipertrofia leve). Dimensão diastólica do VE: [__] mm (normal). Dimensão sistólica do VE: [__] mm (normal).
+
+### **Função Sistólica Ventricular Esquerda**
+
+- **Fração de Ejeção (Simpson Biplano):** [__]% (preservada, > 50%)
+- **Fração de Encurtamento:** [__]% (normal)
+- Motilidade segmentar: Normal em todos os segmentos. Não evidencia áreas de hipocinesia ou acinesia.
+- Análise de strain longitudinal global (2D Speckle Tracking): [__]% (normal)
+
+### **Função Diastólica Ventricular Esquerda**
+
+**Padrão de Enchimento Mitral (Doppler Pulsátil):**
+- Velocidade da onda E (transmitral): [__] cm/s
+- Velocidade da onda A (transmitral): [__] cm/s
+- Relação E/A: [__]
+- Tempo de desaceleração da onda E: [__] ms
+- Tempo de relaxamento isovolumétrico: [__] ms
+
+**Doppler Tecidual da Parede Septal:**
+- Onda E' (septal): [__] cm/s
+- Onda A' (septal): [__] cm/s
+- Relação E/E': [__]
+
+**Avaliação do Volume de Diástase:**
+- Strain Rate Longitudinal: reduzido na fase inicial de enchimento, sugestivo de relaxamento diastólico prejudicado.
+
+**Conclusão da análise diastólica:** Disfunção diastólica Grau I (relaxamento prejudicado), compatível com padrão pseudonormal inicial.
+
+### **
+cado.
+
+**Conclusão da análise diastólica:** Disfunção diastólica Grau I (relaxamento prejudicado), compatível com padrão pseudonormal inicial.
+
+### **Valvas Cardíacas**
+
+- **Mitral:** Aberturas máximas normais. Amplitude de movimento adequado. Sem evidência de estenose (área valvular > 4 cm²). Sem insuficiência mitral significativa ou apenas traços.
+- **Aórtica:** Cúspides com motilidade normal. Sem estenose aórtica (velocidade máxima < 1.0 m/s). Sem insuficiência aórtica significativa.
+- **Tricúspide:** Coaptação adequada. Traços de insuficiência tricúspide fisiológica (velocidade máxima: [__] m/s). Pressão sistólica de VD estimada: [__] mmHg (normal/levemente elevada).
+- **Pulmonar:** Aspecto e motilidade normais.
+
+### **Pericárdio**
+
+Ausência de derrame pericárdico. Espessura pericárdica normal.
+
+### **Aorta**
+
+- **Raiz aórtica:** [__] mm (normal)
+- **Aorta ascendente:** [__] mm (normal)
+- **Aorta descendente torácica:** Calibre e fluxo normais.
+
+### **Septo Interatrial**
+
+Íntegro, sem evidência de comunicação interatrial. Sem aneurisma do septo interatrial.
+
+### **Estudo Doppler Adicional**
+
+- Velocidade máxima do fluxo aórtico: [__] m/s
+- Integral velocidade-tempo aórtico: [__] cm
+- Débito cardíaco estimado: [__] L/min (normal)
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Hipertrofia Ventricular Esquer
 Especialidade: cardiologia
 Cenário: disfunção diastólica grau I, hipertrofia ventricular esquerda leve
 Fonte: sintético — gerado por Claude
@@ -39,63 +103,4 @@ Ecocardiograma bidimensional com Doppler pulsátil, contínuo e colorido, realiz
 - **Átrio Direito (AD):** Dimensões normais, sem dilatação. Parede de espessura habitual.
 - **Ventrículo Direito (VD):** Função sistólica preservada. Dimensão basal de [__] mm (normal). Excursão sistólica do anel tricúspide (TAPSE): [__] mm (normal).
 - **Átrio Esquerdo (AE):** Dimensão preservada, medindo [__] mm no final da sístole ventricular. Volume indexado: [__] mL/m² (normal).
-- **Ventrículo Esquerdo (VE):** Apresenta espessamento concêntrico das paredes com hipertrofia discreta. Espessura da parede posterior em diástole: [__] mm (ligeiramente elevada). Espessura do septo interventricular em diástole: [__] mm (ligeiramente elevada). Índice de massa ventricular esquerda: [__] g/m² (sugestivo de hipertrofia leve). Dimensão diastólica do VE: [__] mm (normal). Dimensão sistólica do VE: [__] mm (normal).
-
-### **Função Sistólica Ventricular Esquerda**
-
-- **Fração de Ejeção (Simpson Biplano):** [__]% (preservada, > 50%)
-- **Fração de Encurtamento:** [__]% (normal)
-- Motilidade segmentar: Normal em todos os segmentos. Não evidencia áreas de hipocinesia ou acinesia.
-- Análise de strain longitudinal global (2D Speckle Tracking): [__]% (normal)
-
-### **Função Diastólica Ventricular Esquerda**
-
-**Padrão de Enchimento Mitral (Doppler Pulsátil):**
-- Velocidade da onda E (transmitral): [__] cm/s
-- Velocidade da onda A (transmitral): [__] cm/s
-- Relação E/A: [__]
-- Tempo de desaceleração da onda E: [__] ms
-- Tempo de relaxamento isovolumétrico: [__] ms
-
-**Doppler Tecidual da Parede Septal:**
-- Onda E' (septal): [__] cm/s
-- Onda A' (septal): [__] cm/s
-- Relação E/E': [__]
-
-**Avaliação do Volume de Diástase:**
-- Strain Rate Longitudinal: reduzido na fase inicial de enchimento, sugestivo de relaxamento diastólico prejudicado.
-
-**Conclusão da análise diastólica:** Disfunção diastólica Grau I (relaxamento prejudicado), compatível com padrão pseudonormal inicial.
-
-### **Valvas Cardíacas**
-
-- **Mitral:** Aberturas máximas normais. Amplitude de movimento adequado. Sem evidência de estenose (área valvular > 4 cm²). Sem insuficiência mitral significativa ou apenas traços.
-- **Aórtica:** Cúspides com motilidade normal. Sem estenose aórtica (velocidade máxima < 1.0 m/s). Sem insuficiência aórtica significativa.
-- **Tricúspide:** Coaptação adequada. Traços de insuficiência tricúspide fisiológica (velocidade máxima: [__] m/s). Pressão sistólica de VD estimada: [__] mmHg (normal/levemente elevada).
-- **Pulmonar:** Aspecto e motilidade normais.
-
-### **Pericárdio**
-
-Ausência de derrame pericárdico. Espessura pericárdica normal.
-
-### **Aorta**
-
-- **Raiz aórtica:** [__] mm (normal)
-- **Aorta ascendente:** [__] mm (normal)
-- **Aorta descendente torácica:** Calibre e fluxo normais.
-
-### **Septo Interatrial**
-
-Íntegro, sem evidência de comunicação interatrial. Sem aneurisma do septo interatrial.
-
-### **Estudo Doppler Adicional**
-
-- Velocidade máxima do fluxo aórtico: [__] m/s
-- Integral velocidade-tempo aórtico: [__] cm
-- Débito cardíaco estimado: [__] L/min (normal)
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Hipertrofia Ventricular Esquer
+- **Ventrículo Esquerdo (VE):** Apresenta espessamento concêntrico das paredes com hipertrofia discreta. Espessura da parede posterior em diástole: [_

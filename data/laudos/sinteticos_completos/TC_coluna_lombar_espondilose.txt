@@ -1,0 +1,73 @@
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA DA COLUNA LOMBAR
+
+---
+
+## DADOS DO EXAME
+
+**Paciente:** [NOME DO PACIENTE]  
+**Data do Exame:** [DATA DO EXAME]  
+**Médico Solicitante:** [CRM]  
+**Modalidade:** Tomografia Computadorizada Multislice  
+**Protocolo:** Helicoidal com cortes axiais de 1,0 mm, reconstruções sagitais e coronais  
+**Equipamento:** Tomógrafo 64 canais  
+
+---
+
+## TÉCNICA
+
+Realizada tomografia computadorizada da coluna lombar do nível de L1 até S1, com aquisição de cortes contínuos de 1,0 mm de espessura. Foram obtidas reconstruções multiplanares nos planos sagital e coronal. Injeção intravenosa de contraste iodado não-iônico. Não foram identificadas contraindicações ao procedimento.
+
+---
+
+## ACHADOS
+
+### **COLUNA VERTEBRAL - SEGMENTOS AVALIADOS**
+
+**Vértebra L1:**
+Corpo vertebral com altura normal (aproximadamente 25 mm). Presença de osteófitos marginais anteriores medindo até 3,2 mm, principalmente no aspecto ventral. Sem colapso vertebral. Platôs vertebrais íntegros. Espaço discal L1-L2 com altura preservada em 9,5 mm. Densidade do corpo vertebral: 85 UH em janela óssea.
+
+**Vértebra L2:**
+Altura do corpo vertebral normal, aproximadamente 26 mm. Osteófitos marginais anteriores e laterais medindo até 4,1 mm, com formação de "osteófito em bico" no bordo ventral. Espaço discal L2-L3 com altura de 8,8 mm, discretamente reduzido. Presença de calcificação discal central medindo 2,1 mm.
+
+**Disco Intervertebral L2-L3:**
+Protrusão discal difusa anterior-posteriormente medindo até 3,8 mm, com boa relação com o canal vertebral. Redução leve do espaço discal. Densidade do núcleo pulposo: 52 UH.
+
+**Vértebra L3:**
+Corpo vertebral íntegro, altura de 26 mm. Osteófitos marginais anteriores e laterais medindo até 4,5 mm bilateralmente. Espaço discal L3-L4 com altura de 9,2 mm, parcialmente preservado.
+
+**Disco Intervertebral L3-L4:**
+Protrusão discal difusa com predomínio posterior, medindo 4,2 mm no eixo sagital. Redução moderada do espaço discal. Infiltração lipomatosa do disco. Densidade central: 48 UH. Não há compressão significativa de raízes nervosas.
+
+**Vértebra L4:**
+Altura do corpo vertebral de 25 mm. Osteófitos marginais anteriores proeminentes medindo até 5,1 mm, com componente de esclerose óssea adjacente. Presença de osteófito lateral direito medindo 3,7 mm. Espaço discal L4-L5 com altura reduzida de 7,8 mm.
+
+**Disco Intervertebral L4-L5:**
+Protrusão discal centro-lateral predominantemente à direita, medindo 4,8 mm. Redução moderada a importante do espaço discal. Presença de calcificação discal anular periférica. Densidade discal: 45 UH. Contato com raiz nervosa direita sem estenose significativa.
+
+**Vértebra L5:**
+Altura do corpo vertebral de 24 mm, levemente reduzida. Osteófitos marginais anteriores e laterais medindo até 5,5 mm, sendo os mais proeminentes de toda a série. Espaço discal L5-S1 com altura de 8,1 mm.
+
+**Disco Intervertebral L5-S1:**
+Protrusão discal difusa anterior-posteriormente medindo 4,1 mm. Redução leve a moderada do espaço discal. Densidade: 50 UH. Livre circulação de líquor ao redor das raízes.
+
+---
+
+### **CANAL VERTEBRAL E FORÂMEN**
+
+**Nível L1-L2:** Canal vertebral pérfio, com diâmetro ântero-posterior de 12,5 mm. Forâmen de conjunção normais bilateralmente, medindo 11 mm.
+
+**Nível L2-L3:** Canal vertebral pérfio com diâmetro de 11,8 mm. Estenose foraminal leve bilateral associada aos osteófitos, sem compressão radicular.
+
+**Nível L3-L4:** Canal vertebral com diâmetro de 10,9 mm, com discreta estenose relativa. Forâmen bilateral medindo 10,2 mm, com redução leve do espaço disponível para as raízes.
+
+**Nível L4-L5:** Canal vertebral com diâmetro de 10,3 mm, configurando estenose relativa do canal. Estenose foraminal direita moderada (8,5 mm) associada a osteófito lateral. Forame esquerdo com 10,1 mm, parcialmente preservado.
+
+**Nível L5-S1:** Canal vertebral com diâmetro ântero-posterior de 11,2 mm. Forâmen bilaterais normais, medindo 10,8 mm.
+
+---
+
+### **LIGAMENTOS E ESTRUTURAS ADJACENTES**
+
+**Ligamento Longitudinal Anterior:** Integro em todos os níveis, sem calcificações significativas.
+
+**Lig

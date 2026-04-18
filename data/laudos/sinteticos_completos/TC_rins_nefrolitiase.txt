@@ -1,0 +1,65 @@
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MODALIDADE:** Tomografia Computadorizada Helicoidal Multidetetores  
+**REGIÃO ESTUDADA:** Rins e vias urinárias  
+**MÉDICO RESPONSÁVEL:** Dr. [CRM]
+
+---
+
+## TÉCNICA
+
+Realizada tomografia computadorizada helicoidal do abdômen e pelve com aquisição volumétrica contínua de 120 kVp e 200 mAs efetivos. Foram obtidas imagens no plano axial com reconstruções multiplanares (coronais e sagitais) em matriz 512x512 com espessura de corte de 1,5 mm e incremento de 1,0 mm. Estudadas as fases pré-contraste, arterial (15-20 segundos após injeção), venosa (70 segundos) e excretória (3-5 minutos). Foram utilizados 90 mL de contraste iodado não-iônico (ioversol 350 mgI/mL) injetado via endovenosa com velocidade de infusão de 3,5 mL/seg.
+
+---
+
+## ACHADOS
+
+**RINS:**
+
+Ambos os rins apresentam contornos regulares e simétricos. Dimensões renais normais, sendo o rim direito medindo 11,2 cm de comprimento e o rim esquerdo medindo 11,5 cm de comprimento. Cortical bilateral sem alterações significativas, com densidade em fase basal de 38 UH e realce homogêneo em fase arterial (110 UH) e venosa (95 UH). Ausência de hipodensidades focais, cistos ou lesões expansivas. Padrão piramidal normal. Seios renais normais.
+
+**RIM DIREITO:**
+
+Sistema pielocaliceal direito com calibre normal, sem dilatação. Cálculo renal visualizado em topografia do ureter distal direito, medindo 6,0 mm de diâmetro máximo, com densidade de 1240 UH (hiperdensa em janela óssea), caracterizando cálculo de composição cálcica (densidade radioulária compatível com urato de cálcio ou oxalato de cálcio). O cálculo encontra-se fixo na parede ureteral distal, aproximadamente 3 cm acima da junção ureterovesical, sem mobilidade documentada entre as fases pré-contraste e pós-contraste. Leve dilatação ureteral proximal ao cálculo, medindo até 7,2 mm em diâmetro transverso, com transição abrupta para calibre normal distalmente.
+
+**RIM ESQUERDO:**
+
+Sistema pielocaliceal esquerdo íntegro, com calibre normal e sem dilatação. Ureter esquerdo com calibre e trajeto normais, não identificadas calcificações ou cálculos. Ausência de sinais de obstrução.
+
+**VIAS URINÁRIAS:**
+
+Ureteropélvis bilateral normal. Bexiga com contorno regular, paredes normais, espessura adequada (3 mm), conteúdo de densidade líquida (40-50 UH). Próstata com volume normal (18 cm³), sem áreas de endurecimento ou nódulos suspeitos. Vesículas seminais normais.
+
+**RETROPERITÔNIO:**
+
+Aorta abdominal com diâmetro de 19 mm, com aterosclerose calcificada leve. Veia cava inferior sem trombose, calibre normal. Cadeias ganglionares abdominais de tamanho normal (linfonodos menores que 10 mm em eixo curto).
+
+**ABDÔMEN:**
+
+Fígado com contorno regular, densidades homogêneas, realce simétrico pós-contraste. Volume normal. Ausência de lesões focais. Vesícula biliar com paredes normais, sem cálculos. Vias biliares intra-hepáticas não-dilatadas. Baço com volume normal (120 mm de eixo longitudinal), padrão de realce homogêneo. Pâncreas com contorno regular, padrão atenuação normal. Estômago e alças de delgado com calibre normal, sem distenção. Cólon com calibre normal.
+
+**PELVE:**
+
+Não identificadas coleções, abscessos ou massas. Ossos da pelve sem focos líticos ou blásticos. Sem achados de interesse nos ossos estudados.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Nefrolitíase à direita** — Cálculo ureteral distal direito medindo 6,0 mm de diâmetro, com densidade radioulária compatível com cálculo cálcico (provável oxalato/fosfato de cálcio). Posicionamento fixo em ureter distal direito, 3 cm acima da junção ureterovesical.
+
+2. **Leve dilatação ureteral direita proximal** — Consequente ao cálculo obstrutivo, com transição abrupta de calibre (7,2 mm proximal vs. normal distal), sugestivo de obstrução parcial ou intermitente.
+
+3. **Sistema coletor esquerdo íntegro** — Sem evidências de patologia obstrutiva ou litíase.
+
+4. **Rim direito e esquerdo** — Sem sinais de hidronefrose, cicatrizes parenquimatosas, ou alterações isquêmicas. Função renal radiológica preservada bilateralmente.
+
+5. **Visceras abdominais normais** — Fígado, baço, pâncreas e vias biliares sem particularidades.
+
+---
+
+**RECOMENDAÇÕES CLÍNICAS:**
+
+- Conduta expectante inicial recomendada

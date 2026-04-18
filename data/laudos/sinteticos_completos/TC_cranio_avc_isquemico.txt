@@ -1,0 +1,70 @@
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA DE CRÂNIO
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MODALIDADE:** Tomografia Computadorizada de Crânio  
+**MÉDICO RESPONSÁVEL:** [CRM]  
+**PROTOCOLO:** Helicoidal multicorte com reconstruções multiplanares
+
+---
+
+## TÉCNICA
+
+Tomografia computadorizada do crânio realizada em aparelho de 64 canais, sem injeção de contraste iodado endovenoso. Aquisição de cortes axiais de 5mm de espessura, com reconstruções coronais e sagitais. Análise de estruturas ósseas, parenquimatosas e ventrículares.
+
+---
+
+## ACHADOS
+
+**ESTRUTURAS PARENQUIMATOSAS:**
+
+Presença de área de hipodensidade na região frontal superior esquerda, medindo aproximadamente 2,8 cm no seu maior eixo transversal, com densidade média de 38 a 42 UH, inserida no território vascular da artéria cerebral média (MCA) esquerda, segmento M1-M2. A lesão apresenta limites pouco definidos e distribuição cortical-subcortical, compatível com processo isquêmico agudo. Não se identificam sinais de hipodensidade nas demais regiões encefálicas.
+
+**VENTRÍCULOS LATERAIS:**
+
+Simétricos, com diâmetro anteroposterior de 28 mm à direita e 27 mm à esquerda, sem sinais de deslocamento da linha média. Terceiro ventrículo com diâmetro de 8 mm. Quarto ventrículo tópico e de contornos normais.
+
+**CISTERNAS SUBARACNOIDES:**
+
+Cisternas peri-insulares preservadas bilateralmente. Cisternas da base normais. Sem evidências de hemorragia subaracnoidea ou epidural.
+
+**ESTRUTURAS ÓSSEAS:**
+
+Calvária íntegra, sem fraturas ou lesões focais. Seios paranasais pétreos e mastoides normais. Forame magno preservado. Sem achados ósseos de relevância clínica.
+
+**ESPAÇOS EXTRAPARENQUIMATOSOS:**
+
+Sem coleções subdurais ou epidurais. Espaços subaracnoides normais. Sem sinais de edema cerebral difuso. Não há desvio de linha média significativo.
+
+**SISTEMA VENTRICULAR PROFUNDO:**
+
+Núcleos da base com simetria preservada, sem hipodensidades adicionais. Tálamo bilateral sem alterações. Cápsula interna íntegra bilateralmente.
+
+**FOSSA POSTERIOR:**
+
+Cerebelo com simetria preservada. Sem sinais de hemorragia ou infartos em território vertebrobasilar. Tronco encefálico com contornos normais.
+
+**OBSERVAÇÕES ADICIONAIS:**
+
+Não há evidências de hemorragia intracraniana associada. Não há sinais de herniação cerebral ou efeito de massa. Os achados são compatíveis com AVC isquêmico agudo em fase precoce (primeiras horas).
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Tomografia computadorizada de crânio evidencia:**
+
+1. **Hipodensidade cortical-subcortical frontal superior esquerda medindo 2,8 cm**, com densidade média de 38-42 UH, localizada no território de distribuição da artéria cerebral média esquerda, **compatível com acidente vascular cerebral isquêmico agudo** em fase precoce;
+
+2. **Ausência de hemorragia intracraniana**, descartando processo hemorrágico como etiologia do evento neurológico agudo;
+
+3. **Ventricularidade simétrica e sem sinais de edema cerebral difuso** no momento do exame;
+
+4. **Demais estruturas encefálicas preservadas**, sem outras áreas de hipodensidade sugestivas de isquemia.
+
+**RECOMENDAÇÃO:** Considerando o padrão temporal do evento, recomenda-se urgente avaliação clínica para possível trombólise endovenosa ou trombectomia mecânica, de acordo com protocolo institucional de AVC agudo. Ressonância magnética com sequência de difusão (DWI) pode ser solicitada para confirmação diagnóstica e avaliação de penumbra isquêmica, caso disponível.
+
+---
+
+**Assinado digitalmente por:** [CRM]  
+**Data e Hora:** [DATA DO EXAME] às [HORÁRIO]

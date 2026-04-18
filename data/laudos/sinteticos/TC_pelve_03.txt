@@ -1,4 +1,27 @@
-=== TC pelve — Variante 3 ===
+
+O útero apresenta dimensões normais (comprimento aproximado de 7,0 cm, transverso de 4,5 cm). O endométrio encontra-se **espessado, medindo aproximadamente 14 mm** na sua maior dimensão, avaliado em corte sagital. A camada basal mantém seus limites bem definidos em relação ao miométrio subjacente. Não há sinais de descontinuidade ou invasão do endométrio.
+
+**Sinal de realce:** O endométrio demonstra realce homogêneo e uniforme na fase dinâmica arterial pós-injeção de contraste, sem áreas focais de hipocaptação sugestivas de lesão expansiva.
+
+### **Miométrio:**
+O miométrio apresenta densidade e características de realce normais, sem evidências de adenomiose ou espessamento segmentar. Não há focos de calcificação dentro da camada muscular uterina.
+
+### **Adnexa:**
+- **Ovários:** Bilateralmente apresentam dimensões normais (eixo maior menor que 3,0 cm). Apresentam densidade heterogênea habitual, compatível com sua natureza folicular. Sem sinais de lesão expansiva ovariana.
+- **Trompas:** Não dilatadas. Trajeto habitual.
+- **Ligamentos uterinos:** Sem alterações.
+
+### **Bexiga:**
+Adequadamente replecionada. Parede sem espessamento. Sem lesões endoluminais.
+
+### **Reto e Sigmoide:**
+Calibre normal. Paredes sem espessamento focal. Sem evidências de divertículos complicados.
+
+### **Coxofemoral:**
+Articulações coxofemorais mantêm seus espaços articulares preservados, sem sinais de osteoartrite avançada.
+
+### **Osso Pélvico:**
+Estrutura óssea da pelve sem focos de lise ou esclerose f
 Especialidade: radiologia
 Cenário: espessamento endometrial de 14 mm
 Fonte: sintético — gerado por Claude
@@ -46,26 +69,8 @@ Realizada tomografia computadorizada da pelve menor com aquisição de cortes ax
 ## **ACHADOS**
 
 ### **Útero e Endométrio:**
-O útero apresenta dimensões normais (comprimento aproximado de 7,0 cm, transverso de 4,5 cm). O endométrio encontra-se **espessado, medindo aproximadamente 14 mm** na sua maior dimensão, avaliado em corte sagital. A camada basal mantém seus limites bem definidos em relação ao miométrio subjacente. Não há sinais de descontinuidade ou invasão do endométrio.
-
-**Sinal de realce:** O endométrio demonstra realce homogêneo e uniforme na fase dinâmica arterial pós-injeção de contraste, sem áreas focais de hipocaptação sugestivas de lesão expansiva.
-
-### **Miométrio:**
-O miométrio apresenta densidade e características de realce normais, sem evidências de adenomiose ou espessamento segmentar. Não há focos de calcificação dentro da camada muscular uterina.
-
-### **Adnexa:**
-- **Ovários:** Bilateralmente apresentam dimensões normais (eixo maior menor que 3,0 cm). Apresentam densidade heterogênea habitual, compatível com sua natureza folicular. Sem sinais de lesão expansiva ovariana.
-- **Trompas:** Não dilatadas. Trajeto habitual.
-- **Ligamentos uterinos:** Sem alterações.
-
-### **Bexiga:**
-Adequadamente replecionada. Parede sem espessamento. Sem lesões endoluminais.
-
-### **Reto e Sigmoide:**
-Calibre normal. Paredes sem espessamento focal. Sem evidências de divertículos complicados.
-
-### **Coxofemoral:**
-Articulações coxofemorais mantêm seus espaços articulares preservados, sem sinais de osteoartrite avançada.
+O útero apresenta dimensões normais (comprimento aproximado de 7,0 cm, transverso de 4,5 cm). O endométrio encontra-se **espessado, medindo aproximad
+espaços articulares preservados, sem sinais de osteoartrite avançada.
 
 ### **Osso Pélvico:**
 Estrutura óssea da pelve sem focos de lise ou esclerose focal suspeita. Sacro-iliíacas sem alterações degenerativas significativas.
@@ -98,6 +103,9 @@ Alças intestinais de calibre normal. Sem ascite. Sem pneumoperiônio.
 ---
 
 ## **CONCLUSÃO E RECOMENDAÇÕES**
+
+A tomografia computadorizada demonstra **espessamento endometrial de 14 mm com características benignas neste estudo**, 
+*CONCLUSÃO E RECOMENDAÇÕES**
 
 A tomografia computadorizada demonstra **espessamento endometrial de 14 mm com características benignas neste estudo**, porém sem possibilidade de caracterização específica quanto à etiologia.
 

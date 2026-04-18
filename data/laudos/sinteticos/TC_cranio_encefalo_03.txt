@@ -1,4 +1,72 @@
-=== TC cranio encefalo — Variante 3 ===
+retamente desvio à esquerda, sem impedimento significativo.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Hemorragia subaracnóidea de pequeno volume**, predominantemente em distribuição basal, envolvendo cisternas basais e recessos ambientais.
+
+2. Ausência de sinais tomográficos de:
+   - Hidrocefalia aguda
+   - Infarto isquêmico agudo
+   - Lesão expansiva
+   - Fratura craniana
+   - Coleção subdural ou epidural
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Tomografia de crânio e encéfalo demonstra **hemorragia subaracnóidea de pequeno volume** com distribuição característica em cisternas basais.
+
+### Recomendações:
+
+1. **Correlação clínica urgente** com apresentação clínica do paciente (cefaleia súbita, rigidez de nuca, etc.)
+
+2. **Angio-TC craniana** para investigação de possível fonte hemorrágica (aneurisma, malformação vascular), a ser realizada conforme protocolos institucionais e avaliação clínica.
+
+3. **Ressonância magnética de encéfalo** pode ser considerada para melhor avaliação de pequenas lesões vasculares, se clinicamente indicado.
+
+4. **Punção lombar** pode ser considerada se houver forte suspeita clínica com TC negativa (hemoglobina-sensitiva negativa), conforme julgamento clínico.
+
+5. Acompanhamento clínico próximo e vigilância quanto a sinais de deterioração neurológica ou complicações (vasospasmo, rehemorragia).
+
+6. Discussão multidisciplinar com Neurologia/Neurocirurgia para avaliação complementar e planejamento terapêutico.
+
+---
+
+## ASSINATURA E RESPONSABILIDADE
+
+**Radiologista
+ ambientais bilateralmente**, com extensão discretamente maior à esquerda.
+
+A distribuição do sangue segue padrão esperado para hemorragia subaracnóidea não traumática, respeitando os espaços do líquor naturais.
+
+**Ventrículos cerebrais:** Sistema ventricular apresenta-se **simétrico e pérvio**, sem sinais de hidrocefalia obstructiva aguda. Atenuação ventricular dentro dos limites normais.
+
+**Parênquima encefálico:** Apresenta densidade habitual e simétrica. Não são identificadas áreas de hipodensidade aguda sugestivas de infarto isquêmico. Diferenciação cortico-subcortical preservada.
+
+**Estruturas da fossa posterior:** Tronco encefálico e cerebelo com densidade normal, sem efeito expansivo. Ângulos pontocerebelares pérvios bilateralmente.
+
+**Seios paranasais:** Arejamento normal dos seios frontais, maxilares, etmoidais e esfenoidais. Sem evidências de sinusite aguda.
+
+**Mastoides:** Células mastoides com pneumatização adequada bilateralmente.
+
+**Órbitas:** Estruturas orbitárias simétricas, sem alterações relevantes. Nervos ópticos e músculos extraoculares sem particularidades.
+
+### Estruturas Ósseas:
+
+**Calvária craniana:** Integridade estrutural preservada, sem fraturas evidentes. Espessura corticomedular dentro dos padrões normais.
+
+**Base craniana:** Sem alterações significativas. Forame magno pérvio.
+
+**Septo nasal:** Discretamente desvio à esquerda, sem impedimento significativo.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Hemorragia subaracnóidea de pequeno volume**, predomi
 Especialidade: radiologia
 Cenário: hemorragia subaracnóidea de pequeno volume
 Fonte: sintético — gerado por Claude
@@ -33,60 +101,8 @@ Realizada tomografia computadorizada helicoidal de crânio e encéfalo com aquis
 
 **Espaços subaracnóideos:** Visualiza-se discreta densidade de permeio aos espaços subaracnóideos, compatível com hemorragia subaracnóidea de pequeno volume. A hiperatenuação sanguínea é observada predominantemente ao longo das **cisternas basais**, envolvendo os **recessos supraselares e ambientais bilateralmente**, com extensão discretamente maior à esquerda.
 
-A distribuição do sangue segue padrão esperado para hemorragia subaracnóidea não traumática, respeitando os espaços do líquor naturais.
-
-**Ventrículos cerebrais:** Sistema ventricular apresenta-se **simétrico e pérvio**, sem sinais de hidrocefalia obstructiva aguda. Atenuação ventricular dentro dos limites normais.
-
-**Parênquima encefálico:** Apresenta densidade habitual e simétrica. Não são identificadas áreas de hipodensidade aguda sugestivas de infarto isquêmico. Diferenciação cortico-subcortical preservada.
-
-**Estruturas da fossa posterior:** Tronco encefálico e cerebelo com densidade normal, sem efeito expansivo. Ângulos pontocerebelares pérvios bilateralmente.
-
-**Seios paranasais:** Arejamento normal dos seios frontais, maxilares, etmoidais e esfenoidais. Sem evidências de sinusite aguda.
-
-**Mastoides:** Células mastoides com pneumatização adequada bilateralmente.
-
-**Órbitas:** Estruturas orbitárias simétricas, sem alterações relevantes. Nervos ópticos e músculos extraoculares sem particularidades.
-
-### Estruturas Ósseas:
-
-**Calvária craniana:** Integridade estrutural preservada, sem fraturas evidentes. Espessura corticomedular dentro dos padrões normais.
-
-**Base craniana:** Sem alterações significativas. Forame magno pérvio.
-
-**Septo nasal:** Discretamente desvio à esquerda, sem impedimento significativo.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Hemorragia subaracnóidea de pequeno volume**, predominantemente em distribuição basal, envolvendo cisternas basais e recessos ambientais.
-
-2. Ausência de sinais tomográficos de:
-   - Hidrocefalia aguda
-   - Infarto isquêmico agudo
-   - Lesão expansiva
-   - Fratura craniana
-   - Coleção subdural ou epidural
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-Tomografia de crânio e encéfalo demonstra **hemorragia subaracnóidea de pequeno volume** com distribuição característica em cisternas basais.
-
-### Recomendações:
-
-1. **Correlação clínica urgente** com apresentação clínica do paciente (cefaleia súbita, rigidez de nuca, etc.)
-
-2. **Angio-TC craniana** para investigação de possível fonte hemorrágica (aneurisma, malformação vascular), a ser realizada conforme protocolos institucionais e avaliação clínica.
-
-3. **Ressonância magnética de encéfalo** pode ser considerada para melhor avaliação de pequenas lesões vasculares, se clinicamente indicado.
-
-4. **Punção lombar** pode ser considerada se houver forte suspeita clínica com TC negativa (hemoglobina-sensitiva negativa), conforme julgamento clínico.
-
-5. Acompanhamento clínico próximo e vigilância quanto a sinais de deterioração neurológica ou complicações (vasospasmo, rehemorragia).
-
-6. Discussão multidisciplinar com Neurologia/Neurocirurgia para avaliação complementar e planejamento terapêutico.
+A distribuição do sangue segue padrão esperado para hemorragia subaracnóid
+isciplinar com Neurologia/Neurocirurgia para avaliação complementar e planejamento terapêutico.
 
 ---
 

@@ -1,0 +1,55 @@
+# LAUDO RADIOLÓGICO
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MODALIDADE:** Radiografia de Tórax (PA e Perfil)  
+**MÉDICO RESPONSÁVEL:** [CRM]
+
+---
+
+## TÉCNICA
+
+Radiografias de tórax em projeções posteroanterior e perfil direito obtidas com técnica adequada. Boa inspiração e posicionamento. Sem artefatos limitantes.
+
+---
+
+## ACHADOS
+
+**Pulmões e Pleura:**
+- Consolidação alveolar de aspecto lobar localizada no lobo inferior direito, envolvendo segmentos basal anterior e basílateral, medindo aproximadamente 5,2 cm em seu maior eixo no plano sagital.
+- Opacidade homogênea, com densidade aumentada compatível com preenchimento alveolar por exsudato.
+- Broncograma aéreo discreto visualizado no interior da área consolidada.
+- Ausência de abaulamento das cisuras, sugerindo processo sem derrame pleural significativo.
+- Silhueta cardiomediastinal preservada, sem comprometimento da silhueta do coração.
+- Pulmão esquerdo com parênquima preservado, sem opacidades focais ou difusas.
+- Hilos pulmonares simétricos e sem particularidades.
+- Sem evidência de pneumotórax ou enfisema subcutâneo.
+
+**Mediastino e Coração:**
+- Silhueta cardiomediastinal dentro dos limites normais.
+- Índice cardiotorácico de 0,48 (normal).
+- Aorta torácica sem dilatação, com calibre preservado (diâmetro transverso de 3,1 cm).
+- Tráqueia centrada, sem desvio.
+
+**Parede Torácica e Estruturas Ósseas:**
+- Costelas e coluna dorsal sem lesões ósseas ou fraturas.
+- Clavículas e escápulas simétricas, sem particularidades.
+- Músculos paravertebrais sem alterações.
+
+**Diafragma:**
+- Diafragma direito íntegro, posicionado normalmente. Óperculos diafragmáticos sem alterações.
+- Diafragma esquerdo com contorno regular.
+- Ângulos cardiofrênicos livres bilateralmente.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Consolidação alveolar no lobo inferior direito, compatível com pneumonia comunitária. Ausência de complicações pleurais ou mediastinais no presente estudo radiográfico.**
+
+Sugerem-se considerações clínicas para investigação de agente etiológico e evolução clínico-radiológica conforme protocolo institucional.
+
+---
+
+**Assinado digitalmente**  
+Data: [DATA DO EXAME]

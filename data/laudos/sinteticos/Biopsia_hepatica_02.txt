@@ -1,4 +1,3 @@
-=== Biopsia hepatica — Variante 2 ===
 Especialidade: patologia
 Cenário: biópsia hepática — esteatohepatite não alcoólica (NASH), fibrose F1
 Fonte: sintético — gerado por Claude
@@ -40,6 +39,12 @@ O material consistiu em fragmento de tecido hepático com aproximadamente 15 mm 
 - Limite entre espaço porta e hepatócitos adjacentes bem definido
 
 ### **Esteatose:**
+Presente em aproxi
+minentes
+- Espaço porta-porta não visualizado
+- Limite entre espaço porta e hepatócitos adjacentes bem definido
+
+### **Esteatose:**
 Presente em aproximadamente 25-30% dos hepatócitos, predominantemente macrovesicular. Distribuição difusa nos diferentes acinos. Hepatócitos esteatóticos demonstram deslocamento basal do núcleo, compatível com esteatose simples.
 
 ### **Inflamação:**
@@ -60,6 +65,24 @@ Fibrose portal presente com padrão de expansão do espaço porta. Não há pont
 ### **Esteatose Hepática Não Alcoólica (EHNA/NASH):**
 Achados compatíveis com Esteatohepatite Não Alcoólica, caracterizada pela combinação de:
 - Esteatose hepatocelular (> 5% de hepatócitos)
+- Inflamação lobular
+- Dano hepatocelular
+- Fibrose portal incipiente
+
+**NAS (NAFLD Activity Score) estimado: 5/8** (compatível co
+tica.
+
+### **Recomendações:**
+
+1. **Manejo Clínico:**
+   - Implementar mudanças no estilo de vida com perda de peso progressiva (7-10% do peso corporal)
+   - Adequação dietética com redução de lipídios simples e carboidratos refinados
+   - Programa de atividade física regular (150 minutos/semana de exercício moderado)
+
+2. **Avaliação Metabólica:**
+   - Investigação e tratamento de síndrome metabólica associada
+   - Controle glicêmico e pressão arterial
+ 5% de hepatócitos)
 - Inflamação lobular
 - Dano hepatocelular
 - Fibrose portal incipiente
@@ -101,10 +124,4 @@ Biópsia hepática evidencia esteatohepatite não alcoólica em estágio inicial
 ### **Recomendações:**
 
 1. **Manejo Clínico:**
-   - Implementar mudanças no estilo de vida com perda de peso progressiva (7-10% do peso corporal)
-   - Adequação dietética com redução de lipídios simples e carboidratos refinados
-   - Programa de atividade física regular (150 minutos/semana de exercício moderado)
-
-2. **Avaliação Metabólica:**
-   - Investigação e tratamento de síndrome metabólica associada
-   - Controle glicêmico e pressão arterial
+   - Implementar mudanças no estilo de vida com perda de peso progressiva (7-10% do peso corpora

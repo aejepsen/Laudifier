@@ -1,35 +1,4 @@
-=== Endoscopia digestiva alta — Variante 2 ===
-Especialidade: gastroenterologia
-Cenário: gastrite crônica antral com teste de urease positivo para H. pylori
-Fonte: sintético — gerado por Claude
-
-# LAUDO DE ENDOSCOPIA DIGESTIVA ALTA
-
----
-
-## IDENTIFICAÇÃO DO PACIENTE
-
-| Campo | Informação |
-|-------|-----------|
-| **Nome completo** | [NOME DO PACIENTE] |
-| **Número do prontuário** | [PRONTUÁRIO] |
-| **Data de nascimento** | [DATA] |
-| **Idade** | [IDADE] anos |
-| **Sexo** | [SEXO] |
-| **Data do exame** | [DIA/MÊS/ANO] |
-| **Médico solicitante** | [NOME E ESPECIALIDADE] |
-
----
-
-## INDICAÇÃO CLÍNICA
-
-Paciente apresentando sintomatologia dispéptica crônica com epigastralgia, saciedade precoce e queixa de náuseas recorrentes. Solicitado investigação endoscópica para avaliação de estruturas da porção superior do trato digestivo e esclarecimento diagnóstico.
-
----
-
-## TÉCNICA UTILIZADA
-
-Procedimento realizado sob sedação profunda com propofol (2 mg/kg), sob supervisão anestesiológica contínua. Monitorização de frequência cardíaca, pressão arterial e saturação de oxigênio durante todo o procedimento. Utilizado endoscópio de videoendoscopia de alta definição (Pentax/Olympus®), com visibilização direta e sistemática de esôfago, estômago e duodeno. Foram realizadas **biópsias múltiplas** para investigação histopatológica e **teste rápido de urease** (CLO - Campylobacter-Like Organism test) na mucosa antral.
+st) na mucosa antral.
 
 ---
 
@@ -77,6 +46,14 @@ Abertura pilórica pérvea, permitindo passagem facilitada do endoscópio para a
 ## BIÓPSIAS REALIZADAS
 
 | Local | Número de fragmentos | Objetivo |
+|-------|-------------------
+patível com presença de *Helicobacter pylori* |
+
+---
+
+## BIÓPSIAS REALIZADAS
+
+| Local | Número de fragmentos | Objetivo |
 |-------|---------------------|----------|
 | Antro gástrico | 4 | Histopatologia e pesquisa de H. pylori |
 
@@ -110,6 +87,47 @@ Endoscopia digestiva alta revelando **gastrite crônica antral com comprovação
 ### **Recomendações:**
 
 1. **Terapia de Erradicação de H. pylori:**
+   - Iniciar esquema tríplice ou quádruplo conforme protocolo institucional:
+     - Omeprazol (20 mg) ou Lanso
+Especialidade: gastroenterologia
+Cenário: gastrite crônica antral com teste de urease positivo para H. pylori
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE ENDOSCOPIA DIGESTIVA ALTA
+
+---
+
+## IDENTIFICAÇÃO DO PACIENTE
+
+| Campo | Informação |
+|-------|-----------|
+| **Nome completo** | [NOME DO PACIENTE] |
+| **Número do prontuário** | [PRONTUÁRIO] |
+| **Data de nascimento** | [DATA] |
+| **Idade** | [IDADE] anos |
+| **Sexo** | [SEXO] |
+| **Data do exame** | [DIA/MÊS/ANO] |
+| **Médico solicitante** | [NOME E ESPECIALIDADE] |
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Paciente apresentando sintomatologia dispéptica crônica com epigastralgia, saciedade precoce e queixa de náuseas recorrentes. Solicitado investigação endoscópica para avaliação de estruturas da porção superior do trato digestivo e esclarecimento diagnóstico.
+
+---
+
+## TÉCNICA UTILIZADA
+
+Procedimento realizado sob sedação profunda com propofol (2 mg/kg), sob supervisão anestesiológica contínua. Monitorização de frequência cardíaca, pressão arterial e saturação de oxigênio durante todo o procedimento. Utilizado endoscópio de videoendoscopia de alta definição (Pentax/Olympus®), com visibilização direta e sistemática de esôfago, estômago e duodeno. Foram realizadas **biópsias múltiplas** para investigação histopatológica e **teste rápido de urease** (CLO - Campylobacter-Like Organism test) na mucosa antral.
+
+---
+
+## ACHADOS ENDOSCÓPICOS
+
+### **Esôfago**
+Mucosa esofágica de aspecto normal, com calibre preservado e ausência de lesões, 
+*Terapia de Erradicação de H. pylori:**
    - Iniciar esquema tríplice ou quádruplo conforme protocolo institucional:
      - Omeprazol (20 mg) ou Lansoprazol (30 mg) - 2x/dia
      - Amoxicilina (1 g) - 2x/dia

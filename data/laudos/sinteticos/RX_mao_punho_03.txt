@@ -1,4 +1,63 @@
-=== RX mao punho — Variante 3 ===
+roplastia).
+- Implementação de **medidas conservadoras**: repouso, crioterapia, anti-inflamatórios não-esteroides e terapia ocupacional com órteses personalizadas.
+- Acompanhamento radiológico periódico conforme necessidade clínica.
+
+---
+
+## ASSINATURA
+
+**Médico Responsável:** _______________________________________________
+
+**Especialidade:** Radiologia  
+**CREMESP/CFM:** [______________]  
+**Data:** [___/___/______]  
+**Carimbo e Assinatura:**
+
+---
+
+*Laudo emitido eletronicamente ou em [data/local]. Cópias enviadas ao solicitante e arquivadas conforme protocolo institucional.*
+r significativo
+- Sem subluxação
+
+**Lado Esquerdo:**
+- Achados semelhantes ao lado direito
+- Osteófitos marginais discretos nas articulações CMC-I e CMC-II
+- Redução moderada do espaço articular CMC-I
+- Esclerose subcondral
+- Preservação relativa do alinhamento articular
+
+**Avaliação Complementar:**
+- Articulações interfalangianas: sem alterações degenerativas significativas
+- Articulações metacarpofalangianas: sem alterações significativas
+- Articulações radiocárpicas: preservadas
+- Estruturas ósseas: sem fraturas, lise ou lesões líticas
+- Partes moles: normais, sem edema ou derrame articular
+- Densidade óssea: preservada
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Osteoartrose Carpometacárpica Bilateral**, com maior acometimento das articulações CMC-I e CMC-II bilateralmente, caracterizada por:
+
+1. Presença de osteófitos marginais
+2. Redução do espaço articular
+3. Esclerose de subcondrais
+4. Alterações degenerativas típicas da doença articular degenerativa
+
+Não há evidências de instabilidade articular significativa, desalinhamento grosseiro ou complicações agudas associadas.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Os achados radiológicos são compatíveis com **osteoartrose carpometacárpica bilateral em estágio moderado**, clinicamente relevante, particularmente nas articulações policarpometacárpicas.
+
+**Recomendações:**
+
+1. Correlação clínica com sintomas do paciente (dor, limitação funcional, deformidade)
+2. Avaliação fisioterápica para orientações de proteção articular
+3. Consideração d
 Especialidade: radiologia
 Cenário: osteoartrose carpometacárpica bilateral
 Fonte: sintético — gerado por Claude
@@ -50,41 +109,8 @@ Observam-se alterações degenerativas bilaterais nas articulações carpometac�
 
 **Lado Esquerdo:**
 - Achados semelhantes ao lado direito
-- Osteófitos marginais discretos nas articulações CMC-I e CMC-II
-- Redução moderada do espaço articular CMC-I
-- Esclerose subcondral
-- Preservação relativa do alinhamento articular
-
-**Avaliação Complementar:**
-- Articulações interfalangianas: sem alterações degenerativas significativas
-- Articulações metacarpofalangianas: sem alterações significativas
-- Articulações radiocárpicas: preservadas
-- Estruturas ósseas: sem fraturas, lise ou lesões líticas
-- Partes moles: normais, sem edema ou derrame articular
-- Densidade óssea: preservada
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-**Osteoartrose Carpometacárpica Bilateral**, com maior acometimento das articulações CMC-I e CMC-II bilateralmente, caracterizada por:
-
-1. Presença de osteófitos marginais
-2. Redução do espaço articular
-3. Esclerose de subcondrais
-4. Alterações degenerativas típicas da doença articular degenerativa
-
-Não há evidências de instabilidade articular significativa, desalinhamento grosseiro ou complicações agudas associadas.
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-Os achados radiológicos são compatíveis com **osteoartrose carpometacárpica bilateral em estágio moderado**, clinicamente relevante, particularmente nas articulações policarpometacárpicas.
-
-**Recomendações:**
-
-1. Correlação clínica com sintomas do paciente (dor, limitação funcional, deformidade)
+- Osteófitos marginais discretos nas articulações CMC-I e C
+a com sintomas do paciente (dor, limitação funcional, deformidade)
 2. Avaliação fisioterápica para orientações de proteção articular
 3. Consideração de tratamento conservador com anti-inflamatórios não esteroidais, se necessário
 4. Repouso relativo das atividades que exacerbem os sintomas

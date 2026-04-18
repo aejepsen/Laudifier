@@ -1,4 +1,36 @@
-=== Biopsia mama — Variante 3 ===
+ina-Eosina (HE). Análise microscópica foi realizada em microscópio óptico de luz com objetivas 4x, 10x, 20x e 40x.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Aspecto Macroscópico
+Fragmentos teciduais mamários medindo aproximadamente [__] mm de maior dimensão, com consistência fibrosa e coloração branco-rosada, preservando a configuração tecidual.
+
+### Aspecto Microscópico
+
+#### Estruturas Vasculares e Adiposas
+Presença de tecido adiposo mamário com vascularização discreta. Ductos mamários e lóbulos glandulares presentes.
+
+#### Achado Principal
+**Carcinoma Lobular in Situ (CLIS):** Observam-se células neoplásicas de tamanho pequeno a médio, com núcleos aproximadamente uniformes e citoplasma escasso, dispostas em padrão discohesivo e singelo no interior dos ácinos lobulares. As células tumorais apresentam distribuição característica "em arquivo indiano" com perda focal de adesão celular. Os ácinos acometidos encontram-se discretamente dilatados pelas células neoplásicas.
+
+#### Padrão de Crescimento
+- **Extensão:** Lesão ocupando aproximadamente [__]% da área biópsiada
+- **Distribuição:** [___ monocêntrica / ___ multicêntrica]
+- **Limites:** [___ bem delimitada / ___ mal definida]
+
+#### Citologia
+Células com:
+- Núcleos redondos a ovalados, de tamanho pequeno
+- Cromatina fina e dispersa
+- Nucléolos inconspícuos
+- Índice mitótico baixo
+- Ausência de mitoses atípicas
+
+#### Estruturas Adjacentes
+- Tecido fibroadiposo: sem alterações significativas
+- Epitélio ductal não envolvido: í
 Especialidade: patologia
 Cenário: biópsia de mama — carcinoma lobular in situ (CLIS)
 Fonte: sintético — gerado por Claude
@@ -45,30 +77,19 @@ Foram processados fragmentos teciduais mamários de forma convencional. Os espé
 
 ---
 
-## ACHADOS / DESCRIÇÃO DETALHADA
+## ACHADOS / DESCRIÇÃO DETALH
+rimário não pode ser avaliado clinicamente (lesão in situ)
+- **N0** - Sem metástases linfonodais documentadas
+- **M0** - Sem metástases distantes documentadas
 
-### Aspecto Macroscópico
-Fragmentos teciduais mamários medindo aproximadamente [__] mm de maior dimensão, com consistência fibrosa e coloração branco-rosada, preservando a configuração tecidual.
+---
 
-### Aspecto Microscópico
+## **CONCLUSÃO E RECOMENDAÇÕES**
 
-#### Estruturas Vasculares e Adiposas
-Presença de tecido adiposo mamário com vascularização discreta. Ductos mamários e lóbulos glandulares presentes.
+1. **Diagnóstico Confirmado:** Carcinoma Lobular In Situ (CLIS), variante clássica
 
-#### Achado Principal
-**Carcinoma Lobular in Situ (CLIS):** Observam-se células neoplásicas de tamanho pequeno a médio, com núcleos aproximadamente uniformes e citoplasma escasso, dispostas em padrão discohesivo e singelo no interior dos ácinos lobulares. As células tumorais apresentam distribuição característica "em arquivo indiano" com perda focal de adesão celular. Os ácinos acometidos encontram-se discretamente dilatados pelas células neoplásicas.
-
-#### Padrão de Crescimento
-- **Extensão:** Lesão ocupando aproximadamente [__]% da área biópsiada
-- **Distribuição:** [___ monocêntrica / ___ multicêntrica]
-- **Limites:** [___ bem delimitada / ___ mal definida]
-
-#### Citologia
-Células com:
-- Núcleos redondos a ovalados, de tamanho pequeno
-- Cromatina fina e dispersa
-- Nucléolos inconspícuos
-- Índice mitótico baixo
+2.
+ixo
 - Ausência de mitoses atípicas
 
 #### Estruturas Adjacentes

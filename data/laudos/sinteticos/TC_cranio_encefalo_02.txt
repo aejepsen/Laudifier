@@ -1,4 +1,10 @@
-=== TC cranio encefalo — Variante 2 ===
+ência de oclusão vascular ou aneurisma sacular detectável à TC**.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Estudo tomográfico com achados confirmando infarto isquêmico agudo no leito vascular da artéria cerebral média esquerda, em fase hiperaguda (edema citotóxico precoce), sem sinais de transformação hemorrágica secundária
 Especialidade: radiologia
 Cenário: infarto isquêmico agudo no território da ACM esquerda
 Fonte: sintético — gerado por Claude
@@ -43,34 +49,8 @@ Realizado estudo tomográfico de crânio e encéfalo utilizando protocolo de eme
 
 ### FASE PRÉ-CONTRASTE
 
-**Atenuação Parenquimatosa:**
-- Área hipodensa mal definida com aspecto "obscuro", localizada na região insular esquerda, estendendo-se pelo córtex frontal inferior e temporal da ínsula de Reil, compatível com edema citotóxico no território de perfusão da artéria cerebral média (ACM) esquerda.
-- Dimensões aproximadas: 35mm x 28mm de extensão máxima.
-- Limites não completamente nítidos, sugestivos de lesão em fase aguda.
-
-**Ventrículos Laterais:**
-- Simétricos e normotensor, com dimensões dentro dos limites normais.
-- Ausência de desvio de linha média.
-
-**Cisternas da Base:**
-- Pérvias e sem sinais de compressão.
-- Cisterna suprasselar com anatomia preservada.
-
-**Espaço Subaracnoide:**
-- Sem evidência de hemácia subaracnoideia.
-- Sulcos cerebrais preservados bilateralmente.
-
-**Substância Branca:**
-- Apresenta alterações hipodensas crônicas compatíveis com leucoaraiose leve a moderada, distribuídas periventricularmente e em região subcortical, sugestivas de mudanças vasculares crônicas.
-
-**Fossa Posterior:**
-- Cerebelo com contornos preservados.
-- Medulablongata sem alterações.
-- Ponte sem particularidades.
-- IV ventrículo pérvio.
-
-**Seios Paranasais:**
-- Seios maxilares aéricos, sem nível líquido.
+**
+ível líquido.
 - Etmoides com septos preservados, sem opacificação.
 - Seios esfenoidais aéricos.
 - Seios frontais sem particularidades.
@@ -108,4 +88,46 @@ Realizado estudo tomográfico de crânio e encéfalo utilizando protocolo de eme
 
 ## CONCLUSÃO E RECOMENDAÇÕES
 
-Estudo tomográfico com achados confirmando infarto isquêmico agudo no leito vascular da artéria cerebral média esquerda, em fase hiperaguda (edema citotóxico precoce), sem sinais de transformação hemorrágica secundária
+Estudo tomográfico com achados confirmando infar
+multi-planares (sagitais e coronais) foram geradas. Dose de radiação controlada conforme protocolo ALARA.
+
+---
+
+## ACHADOS
+
+### FASE PRÉ-CONTRASTE
+
+**Atenuação Parenquimatosa:**
+- Área hipodensa mal definida com aspecto "obscuro", localizada na região insular esquerda, estendendo-se pelo córtex frontal inferior e temporal da ínsula de Reil, compatível com edema citotóxico no território de perfusão da artéria cerebral média (ACM) esquerda.
+- Dimensões aproximadas: 35mm x 28mm de extensão máxima.
+- Limites não completamente nítidos, sugestivos de lesão em fase aguda.
+
+**Ventrículos Laterais:**
+- Simétricos e normotensor, com dimensões dentro dos limites normais.
+- Ausência de desvio de linha média.
+
+**Cisternas da Base:**
+- Pérvias e sem sinais de compressão.
+- Cisterna suprasselar com anatomia preservada.
+
+**Espaço Subaracnoide:**
+- Sem evidência de hemácia subaracnoideia.
+- Sulcos cerebrais preservados bilateralmente.
+
+**Substância Branca:**
+- Apresenta alterações hipodensas crônicas compatíveis com leucoaraiose leve a moderada, distribuídas periventricularmente e em região subcortical, sugestivas de mudanças vasculares crônicas.
+
+**Fossa Posterior:**
+- Cerebelo com contornos preservados.
+- Medulablongata sem alterações.
+- Ponte sem particularidades.
+- IV ventrículo pérvio.
+
+**Seios Paranasais:**
+- Seios maxilares aéricos, sem nível líquido.
+- Etmoides com septos preservados, sem opacificação.
+- Seios esfenoidais aéricos.
+- Seios frontais sem particularidades.
+
+**Órbitas:**
+-

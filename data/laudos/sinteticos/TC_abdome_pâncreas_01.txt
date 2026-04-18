@@ -1,4 +1,32 @@
-=== TC abdome pâncreas — Variante 1 ===
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A tomografia computadorizada do abdome realizada apresenta achados tomográficos **dentro dos limites da normalidade**, com destaque para o pâncreas que se mostra estruturalmente íntegro, sem evidência de processos patológicos agudos ou crônicos no momento do estudo.
+
+**Recomendações:**
+- Correlação clínica com sintomatologia apresentada
+- Seguimento de acordo com protocolo clínico instituído
+- Retorno para novas imagens apenas se indicado clinicamente
+
+---
+
+## ASSINATURA
+
+**Médico Radiologista Responsável:**
+
+_________________________________
+
+**Nome:** [NOME COMPLETO DO RADIOLOGISTA]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Registro Profissional (CRM):** [UF] Nº [NÚMERO]  
+**CNPQ/Certificação:** [NÚMERO DA CERTIFICAÇÃO]  
+**Data:** ___/___/_____  
+**Assinatura Digital/Manuscrita:**
+
+---
+
+*Laudo emitido em conformidade com as normas técnicas da CBIR (Colégio Brasileiro de Radiologia e Diagnóstico por Imagem) e legislação vigente.*
 Especialidade: radiologia
 Cenário: pâncreas de aspecto normal
 Fonte: sintético — gerado por Claude
@@ -37,7 +65,8 @@ Realizada tomografia computadorizada do abdome em cortes contínuos de 2-3 mm de
 ## ACHADOS
 
 ### **PÂNCREAS:**
-O pâncreas apresenta volume e contorno normais. Nota-se ausência de dilatação do ducto pancreático principal, que se mostra pérvio com calibre normal (aproximadamente 2 mm). A cabeça, corpo e cauda pancreáticos apresentam densidade homogênea, com realce uniforme após administração do contraste venoso, sem evidência de lesões focais, coleções ou alterações de sinal. Os limites anatômicos do órgão encontram-se bem preservados.
+O pâncreas apresenta volume e contorno normais. Nota-se ausência de dilatação do ducto pancreático principal, que se mostra pérvio com calibre normal (aproximadamente 2 mm). A cabeça, corpo e cauda pancreáticos apresentam densidade homogênea, com realce uniforme após administração do contraste venoso, sem evidência de lesões focais, coleções ou alterações de 
+apresentam densidade homogênea, com realce uniforme após administração do contraste venoso, sem evidência de lesões focais, coleções ou alterações de sinal. Os limites anatômicos do órgão encontram-se bem preservados.
 
 ### **ESTRUTURAS ADJACENTES:**
 - **Estômago:** Parede adequada, sem espessamento
@@ -75,28 +104,4 @@ Tomografia computadorizada do abdome com enfoque pancreático evidenciando:
 
 ## CONCLUSÃO E RECOMENDAÇÕES
 
-A tomografia computadorizada do abdome realizada apresenta achados tomográficos **dentro dos limites da normalidade**, com destaque para o pâncreas que se mostra estruturalmente íntegro, sem evidência de processos patológicos agudos ou crônicos no momento do estudo.
-
-**Recomendações:**
-- Correlação clínica com sintomatologia apresentada
-- Seguimento de acordo com protocolo clínico instituído
-- Retorno para novas imagens apenas se indicado clinicamente
-
----
-
-## ASSINATURA
-
-**Médico Radiologista Responsável:**
-
-_________________________________
-
-**Nome:** [NOME COMPLETO DO RADIOLOGISTA]  
-**Especialidade:** Radiologia e Diagnóstico por Imagem  
-**Registro Profissional (CRM):** [UF] Nº [NÚMERO]  
-**CNPQ/Certificação:** [NÚMERO DA CERTIFICAÇÃO]  
-**Data:** ___/___/_____  
-**Assinatura Digital/Manuscrita:**
-
----
-
-*Laudo emitido em conformidade com as normas técnicas da CBIR (Colégio Brasileiro de Radiologia e Diagnóstico por Imagem) e legislação vigente.*
+A tomografia computadorizada do abdome realizada apresenta achados tomográficos **dentro dos limites da normalidade

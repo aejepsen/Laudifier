@@ -1,4 +1,93 @@
-=== Biopsia hepatica — Variante 1 ===
+ecessário)
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Arquitetura Lobular
+Preservação da arquitetura lobular com distorção leve do padrão. Observa-se fibrose portal moderada com septação incompleta, não atingindo a zona central.
+
+### Inflamação
+- **Infiltrado inflamatório portal:** moderado, composto predominantemente por linfócitos T, linfócitos B e macrófagos ativados
+- **Hepatite de interface (interface hepatitis):** presente, com discreta atividade na zona limite acino-portal
+- **Hepatite lobular:** leve, com raros hepatócitos apoptóticos isolados no parênquima
+
+### Hepatócitos
+Hepatócitos com aspecto geral preservado. Discreto grau de esteatose macrogoticular (< 5% do parênquima). Sem depósito significativo de hemossiderina. Citoplasma com aspecto normal, sem aglomerados de proteína viral.
+
+### Fibrose
+Fibrose portal e perivascular moderada, com formação de septos fibrosos interlobulares **incompletos**. Observa-se deposição de colágeno nas regiões periportais com extensão parcial em direção ao centro lobular, **sem pontes fibróticas ou circulação capilar sinusoidal distorcida**.
+
+A classificação de fibrose segundo **escala METAVIR** é: **F2 (Fibrose Portal e Perivascular)**
+
+### Outros Achados
+- Ausência de corpos de inclusão viral
+- Ausência de focos de necrose hepatocelular extensa
+- Ausência de trombose vascular
+- Sem evidências de colangite ou alterações das vias biliares
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Hepatite Crônica por Vírus da Hepatite C**, com:
+   - Gra
+evidências de colangite ou alterações das vias biliares
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Hepatite Crônica por Vírus da Hepatite C**, com:
+   - Grau de atividade inflamatória: **A1** (discreta atividade segundo escala METAVIR)
+   - Grau de fibrose: **F2** (Fibrose Portal e Perivascular - METAVIR)
+   - Arquitetura lobular parcialmente preservada
+
+2. **Ausência de características cirróticas** no presente espécime
+
+3. **Compatível com doença hepática crônica em fase de progressão moderada**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+### Conclusão
+
+A análise histopatológica confirma **Hepatite Crônica por VHC em estadio F2 (fibrose moderada)** conforme classificação METAVIR, com atividade inflamatória discreta (A1). O padrão de fibrose indica progressão da doença fibrótica, porém sem evidências de cirrose hepática no presente espécime.
+
+### Recomendações Clínicas
+
+1. **Indicação de tratamento antiviral:** O estádio de fibrose F2 é uma indicação bem estabelecida para início de terapia antiviral com antivirais de ação direta (DAA), visando prevenir progressão para cirrose.
+
+2. **Monitoramento clínico:** Avaliação periódica com testes sorológicos (carga viral, anti-VHC) e marcadores de função hepática.
+
+3. **Rastreamento de varizes esofagianas:** Embora sem cirrose no presente espécime, recomenda-se avaliação endoscópica basal.
+
+4. **Correlação clínica:** O diagnóstico final deve considerar achados clínicos, laboratoriais e de imagem associados.
+
+5. **Pesquisa de coinfecções:** Descarta
+lação clínica:** O diagnóstico final deve considerar achados clínicos, laboratoriais e de imagem associados.
+
+5. **Pesquisa de coinfecções:** Descartar coinfecção por VIH ou VHB caso ainda não realizado.
+
+---
+
+## CAMPO DE ASSINATURA
+
+**Patologista Responsável:**
+
+_____________________________________________  
+**Dr(a).** [NOME DO PATOLOGISTA]  
+**CRM:** [__________] | **CREMEC:** [__________]  
+**Especialidade:** Patologia / Anatomia Patológica  
+**Data:** [__/__/____]
+
+---
+
+**Supervisão/Assinatura Adicional (se aplicável):**
+
+_____________________________________________  
+**Dr(a).** [NOME DO
 Especialidade: patologia
 Cenário: biópsia hepática — hepatite crônica por VHC, fibrose grau F2 (METAVIR)
 Fonte: sintético — gerado por Claude
@@ -48,75 +137,4 @@ A biópsia hepática foi processada pela técnica convencional de inclusão em p
 ## ACHADOS / DESCRIÇÃO DETALHADA
 
 ### Arquitetura Lobular
-Preservação da arquitetura lobular com distorção leve do padrão. Observa-se fibrose portal moderada com septação incompleta, não atingindo a zona central.
-
-### Inflamação
-- **Infiltrado inflamatório portal:** moderado, composto predominantemente por linfócitos T, linfócitos B e macrófagos ativados
-- **Hepatite de interface (interface hepatitis):** presente, com discreta atividade na zona limite acino-portal
-- **Hepatite lobular:** leve, com raros hepatócitos apoptóticos isolados no parênquima
-
-### Hepatócitos
-Hepatócitos com aspecto geral preservado. Discreto grau de esteatose macrogoticular (< 5% do parênquima). Sem depósito significativo de hemossiderina. Citoplasma com aspecto normal, sem aglomerados de proteína viral.
-
-### Fibrose
-Fibrose portal e perivascular moderada, com formação de septos fibrosos interlobulares **incompletos**. Observa-se deposição de colágeno nas regiões periportais com extensão parcial em direção ao centro lobular, **sem pontes fibróticas ou circulação capilar sinusoidal distorcida**.
-
-A classificação de fibrose segundo **escala METAVIR** é: **F2 (Fibrose Portal e Perivascular)**
-
-### Outros Achados
-- Ausência de corpos de inclusão viral
-- Ausência de focos de necrose hepatocelular extensa
-- Ausência de trombose vascular
-- Sem evidências de colangite ou alterações das vias biliares
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Hepatite Crônica por Vírus da Hepatite C**, com:
-   - Grau de atividade inflamatória: **A1** (discreta atividade segundo escala METAVIR)
-   - Grau de fibrose: **F2** (Fibrose Portal e Perivascular - METAVIR)
-   - Arquitetura lobular parcialmente preservada
-
-2. **Ausência de características cirróticas** no presente espécime
-
-3. **Compatível com doença hepática crônica em fase de progressão moderada**
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-### Conclusão
-
-A análise histopatológica confirma **Hepatite Crônica por VHC em estadio F2 (fibrose moderada)** conforme classificação METAVIR, com atividade inflamatória discreta (A1). O padrão de fibrose indica progressão da doença fibrótica, porém sem evidências de cirrose hepática no presente espécime.
-
-### Recomendações Clínicas
-
-1. **Indicação de tratamento antiviral:** O estádio de fibrose F2 é uma indicação bem estabelecida para início de terapia antiviral com antivirais de ação direta (DAA), visando prevenir progressão para cirrose.
-
-2. **Monitoramento clínico:** Avaliação periódica com testes sorológicos (carga viral, anti-VHC) e marcadores de função hepática.
-
-3. **Rastreamento de varizes esofagianas:** Embora sem cirrose no presente espécime, recomenda-se avaliação endoscópica basal.
-
-4. **Correlação clínica:** O diagnóstico final deve considerar achados clínicos, laboratoriais e de imagem associados.
-
-5. **Pesquisa de coinfecções:** Descartar coinfecção por VIH ou VHB caso ainda não realizado.
-
----
-
-## CAMPO DE ASSINATURA
-
-**Patologista Responsável:**
-
-_____________________________________________  
-**Dr(a).** [NOME DO PATOLOGISTA]  
-**CRM:** [__________] | **CREMEC:** [__________]  
-**Especialidade:** Patologia / Anatomia Patológica  
-**Data:** [__/__/____]
-
----
-
-**Supervisão/Assinatura Adicional (se aplicável):**
-
-_____________________________________________  
-**Dr(a).** [NOME DO
+Preservação da arquitetura lobular com distorção leve do padrão. Observa-se

@@ -1,4 +1,14 @@
-=== TC pelve — Variante 2 ===
+lvicas remanescentes sem alterações detectáveis.**
+
+3. **Abdômen sem achados significativos que alterem a impressão acima descrita.**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+**Conclusão:**
+
+A tomografia computadorizada da pelve evidencia massas císticas ovarianas bilaterais com características radiológicas consistentes com **cistadenoma seroso bilateral**. As lesões apresentam aspecto benigno, caracterizadas por paredes finas, conteú
 Especialidade: radiologia
 Cenário: tumor ovariano bilateral sugestivo de cistoadenoma seroso
 Fonte: sintético — gerado por Claude
@@ -41,6 +51,10 @@ Tomografia computadorizada hélicoidal da pelve foi realizada em equipamento de 
 - Vias biliares intra-hepáticas não dilatadas.
 - Pâncreas com atenuação simétrica, sem alterações significativas.
 - Baço com dimensões e densidade normais.
+- Rins com corticais preservadas, sem 
+s.
+- Pâncreas com atenuação simétrica, sem alterações significativas.
+- Baço com dimensões e densidade normais.
 - Rins com corticais preservadas, sem dilatação do sistema pielocalicinal. Sem litíase.
 - Adrenais de aspecto normal bilateralmente.
 
@@ -72,6 +86,9 @@ Tomografia computadorizada hélicoidal da pelve foi realizada em equipamento de 
 
 **Ovário Esquerdo:**
 - Formação cística bem delimitada, com dimensões aproximadas de 5,5 cm × 5,0 cm × 4,7 cm.
+- Contorno liso e regular.
+- Conteúdo de atenuação compatível com fluido simples (8-12 UH), h
+, com dimensões aproximadas de 5,5 cm × 5,0 cm × 4,7 cm.
 - Contorno liso e regular.
 - Conteúdo de atenuação compatível com fluido simples (8-12 UH), homogêneo.
 - Parede fina, sem realce após contraste.
@@ -113,8 +130,4 @@ Tomografia computadorizada hélicoidal da pelve foi realizada em equipamento de 
 
 ---
 
-## CONCLUSÃO E RECOMENDAÇÕES
-
-**Conclusão:**
-
-A tomografia computadorizada da pelve evidencia massas císticas ovarianas bilaterais com características radiológicas consistentes com **cistadenoma seroso bilateral**. As lesões apresentam aspecto benigno, caracterizadas por paredes finas, conteú
+## CONCLUS

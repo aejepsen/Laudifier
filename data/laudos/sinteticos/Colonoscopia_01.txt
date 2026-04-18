@@ -1,4 +1,93 @@
-=== Colonoscopia — Variante 1 ===
+iliar com acompanhante.
+
+---
+
+## ASSINATURA
+
+**Data:** [DD/MM/AAAA]
+
+**Médico Responsável:** _________________________________  
+**Dr(a). [NOME COMPLETO]**  
+**Especialista em Gastroenterologia**  
+**CREMESP nº [NÚMERO]** | **RQE nº [NÚMERO]**
+
+---
+
+*Este laudo foi elaborado conforme normas técnicas da Sociedade Brasileira de Endoscopia Digestiva (SOBED) e segue as recomendações internacionais para relatórios de colonoscopia diagnóstica.*
+.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**Reto:** Mucosa de aspecto normal, com padrão vascular preservado, sem lesões, úlceras, estenoses ou sinais de inflamação.
+
+**Cólon Sigmóide:** Mucosa íntegra, de coloração normal e brilho característico. Ductus arteriosus ausente. Sem evidência de pólipos, neoplasias, divertículos, estenoses ou outras alterações da mucosa.
+
+**Cólon Descendente:** Apresenta mucosa de aspecto normal, com pregas haustrais preservadas. Padrão vascular íntegro. Ausência de lesões focais ou difusas.
+
+**Ângulo Esplênico:** Transição adequada da luz intestinal, mucosa íntegra e sem sinais de patologia.
+
+**Cólon Transverso:** Mucosa lisa, rosada e homogênea. Visualização clara sem obstáculos. Sem evidência de alterações da mucosa ou da parede intestinal.
+
+**Flexura Hepática:** Anatomia preservada, mucosa normal.
+
+**Cólon Ascendente/Direito:** Mucosa de aspecto normal, sem alterações inflamatórias, neoplásicas ou vasculares.
+
+**Válvula Ileocecal:** Estrutura íntegra, orifício pérvio, mucosa normal.
+
+**Ceco:** Visualização completa e adequada. Mucosa íntegra, sem lesões, pólipos, úlceras ou sinais de inflamação. Ausência de divertículos.
+
+**Resumo Geral:** Não foram observadas lesões neoplásicas, inflamatórias ou outras alterações patológicas no trajeto examinado.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Colonoscopia com visualização adequada até a válvula ileocecal e região cecal. 
+
+**Achado Principal:** Cólon íntegro sem alterações patológicas visíveis.
+
+---
+
+## CONC
+visualização adequada até a válvula ileocecal e região cecal. 
+
+**Achado Principal:** Cólon íntegro sem alterações patológicas visíveis.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+1. **Diagnóstico:** Colonoscopia normal. Mucosa cólica sem alterações.
+
+2. **Conduta:** 
+   - Próximo rastreamento conforme diretrizes de prevenção de câncer colorretal para população de risco médio: **a cada 10 anos** (caso rastreamento inicial normal).
+   - Manutenção de hábitos de vida saudáveis, incluindo alimentação balanceada, atividade física regular e evitar tabagismo.
+   - Investigação de sintomas adicionais conforme clínica.
+
+3. **Observações:** Paciente recebeu alta em boas condições. Orientado sobre repouso relativo pelo restante do dia e abstinência de alimentos até 2 horas após término da sedação.
+
+---
+
+## ASSINATURA
+
+**Médico Responsável**
+
+Dr(a). ___________________________________  
+Nome: [NOME COMPLETO]  
+CREMESP: [Nº] | CPF: [Nº]  
+Especialidade: Gastroenterologia  
+
+Data: ____/____/________
+
+Carimbo e assinatura do médico:
+
+________________________________
+
+---
+
+**Observação:** Este laudo segue os critérios de qualidade e terminologia recomendados pela Sociedade Brasileira de Endoscopia Digestiva (SOBED) e Colégio Brasileiro de Cirurgiões.
 Especialidade: gastroenterologia
 Cenário: colonoscopia até o ceco — mucosa cólica sem alterações
 Fonte: sintético — gerado por Claude
@@ -39,64 +128,4 @@ Colonoscópio de [TAMANHO - ex: 12mm de diâmetro] foi introduzido por via trans
 
 ## ACHADOS / DESCRIÇÃO DETALHADA
 
-**Reto:** Mucosa de aspecto normal, com padrão vascular preservado, sem lesões, úlceras, estenoses ou sinais de inflamação.
-
-**Cólon Sigmóide:** Mucosa íntegra, de coloração normal e brilho característico. Ductus arteriosus ausente. Sem evidência de pólipos, neoplasias, divertículos, estenoses ou outras alterações da mucosa.
-
-**Cólon Descendente:** Apresenta mucosa de aspecto normal, com pregas haustrais preservadas. Padrão vascular íntegro. Ausência de lesões focais ou difusas.
-
-**Ângulo Esplênico:** Transição adequada da luz intestinal, mucosa íntegra e sem sinais de patologia.
-
-**Cólon Transverso:** Mucosa lisa, rosada e homogênea. Visualização clara sem obstáculos. Sem evidência de alterações da mucosa ou da parede intestinal.
-
-**Flexura Hepática:** Anatomia preservada, mucosa normal.
-
-**Cólon Ascendente/Direito:** Mucosa de aspecto normal, sem alterações inflamatórias, neoplásicas ou vasculares.
-
-**Válvula Ileocecal:** Estrutura íntegra, orifício pérvio, mucosa normal.
-
-**Ceco:** Visualização completa e adequada. Mucosa íntegra, sem lesões, pólipos, úlceras ou sinais de inflamação. Ausência de divertículos.
-
-**Resumo Geral:** Não foram observadas lesões neoplásicas, inflamatórias ou outras alterações patológicas no trajeto examinado.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-Colonoscopia com visualização adequada até a válvula ileocecal e região cecal. 
-
-**Achado Principal:** Cólon íntegro sem alterações patológicas visíveis.
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-1. **Diagnóstico:** Colonoscopia normal. Mucosa cólica sem alterações.
-
-2. **Conduta:** 
-   - Próximo rastreamento conforme diretrizes de prevenção de câncer colorretal para população de risco médio: **a cada 10 anos** (caso rastreamento inicial normal).
-   - Manutenção de hábitos de vida saudáveis, incluindo alimentação balanceada, atividade física regular e evitar tabagismo.
-   - Investigação de sintomas adicionais conforme clínica.
-
-3. **Observações:** Paciente recebeu alta em boas condições. Orientado sobre repouso relativo pelo restante do dia e abstinência de alimentos até 2 horas após término da sedação.
-
----
-
-## ASSINATURA
-
-**Médico Responsável**
-
-Dr(a). ___________________________________  
-Nome: [NOME COMPLETO]  
-CREMESP: [Nº] | CPF: [Nº]  
-Especialidade: Gastroenterologia  
-
-Data: ____/____/________
-
-Carimbo e assinatura do médico:
-
-________________________________
-
----
-
-**Observação:** Este laudo segue os critérios de qualidade e terminologia recomendados pela Sociedade Brasileira de Endoscopia Digestiva (SOBED) e Colégio Brasileiro de Cirurgiões.
+**Reto:** Mucosa de aspecto normal, com padrão vascular preservado, sem lesões, úlceras, estenoses ou sinais

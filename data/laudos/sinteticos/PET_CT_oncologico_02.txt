@@ -1,4 +1,32 @@
-=== PET CT oncologico — Variante 2 ===
+erso x eixo crânio-caudal), sem captação significativa de FDG (SUV < 2,0) — compatível com reatividade inflamatória
+- Linfonodos mediastinais múltiplos, todos com dimensões inferiores a 10 mm de menor eixo, sem captação patológica de radiofármaco
+
+**Pleura e Espaços Pleurai:** Sem evidência de derrame pleural. Parênquima pulmonar adjacente apresenta pequenas opacidades em vidro despolido, sugestivas de inflamação perilesional ou atelectasia.
+
+### Avaliação Corporal Sistêmica:
+
+**Fígado:** Homogêneo. Metabolismo basal normal. Sem lesões focais com captação aumentada.
+
+**Pâncreas:** Tamanho e morfologia normais, com padrão de distribuição de FDG fisiológico.
+
+**Baço:** Dimensões normais (comprimento < 12 cm). Ausência de captação anômala.
+
+**Rins:** Simétricos com eliminação adequada de radiofármaco e padrão de captação renal fisiológico.
+
+**Ossos:** Sem evidência de lesões líticas ou escleróticas com hipermetabolismo. Densidade óssea compatível com idade.
+
+**Encéfalo:** Captação fisiológica simétrica, sem focos anômalos de hipermetabolismo.
+
+**Estômago e Alças Intestinais:** Atividade gástrica e intestinal normal.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Lesão hipermetabólica no lobo inferior direito com SUVmax de 8,4**, altamente sugestiva de **neoplasia pulmonar primária maligna**. O padrão de captação intenso e a morfologia imaging (nódulo espiculado com densificação centro-periférica) são compatíveis com carcinoma pulmonar não-pequenas células (NSCLC), sendo também considerada
+g (nódulo espiculado com densificação centro-periférica) são compatíveis com carcinoma pulmonar não-pequenas células (NSCLC), sendo também consideradas outras possibilidades como carcinoma de pequenas células ou adenocarcinoma, conforme confirmação histopatológica.
+
+2. **Ausência de captação patológica em linfonodos hilares e mediastinais**, sugerindo ausência de metastização linfonodal detectável neste momento (provável N0 ou
 Especialidade: medicina_nuclear
 Cenário: lesão hipermetabólica no lobo inferior direito — SUVmax 8,4, sugestiva de neoplasia primária
 Fonte: sintético — gerado por Claude
@@ -36,6 +64,13 @@ Parâmetros técnicos:
 
 ---
 
+## ACHADOS E DESCRIÇÃ
+te: 3,27 mm
+- **CT:** 120 kVp; corrente modulada; espessura: 3 mm
+- **Fusão:** Algoritmo de deformação não-rígida aplicado
+
+---
+
 ## ACHADOS E DESCRIÇÃO DETALHADA
 
 ### Componente PET:
@@ -57,30 +92,4 @@ Nódulo pulmonar sólido no segmento basilar (S10) do lobo inferior direito, com
 
 **Linfonodos Mediastinais e Hilares:**
 - Linfonodo hilar direito medindo **12 x 9 mm** (eixo transverso x eixo crânio-caudal), sem captação significativa de FDG (SUV < 2,0) — compatível com reatividade inflamatória
-- Linfonodos mediastinais múltiplos, todos com dimensões inferiores a 10 mm de menor eixo, sem captação patológica de radiofármaco
-
-**Pleura e Espaços Pleurai:** Sem evidência de derrame pleural. Parênquima pulmonar adjacente apresenta pequenas opacidades em vidro despolido, sugestivas de inflamação perilesional ou atelectasia.
-
-### Avaliação Corporal Sistêmica:
-
-**Fígado:** Homogêneo. Metabolismo basal normal. Sem lesões focais com captação aumentada.
-
-**Pâncreas:** Tamanho e morfologia normais, com padrão de distribuição de FDG fisiológico.
-
-**Baço:** Dimensões normais (comprimento < 12 cm). Ausência de captação anômala.
-
-**Rins:** Simétricos com eliminação adequada de radiofármaco e padrão de captação renal fisiológico.
-
-**Ossos:** Sem evidência de lesões líticas ou escleróticas com hipermetabolismo. Densidade óssea compatível com idade.
-
-**Encéfalo:** Captação fisiológica simétrica, sem focos anômalos de hipermetabolismo.
-
-**Estômago e Alças Intestinais:** Atividade gástrica e intestinal normal.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Lesão hipermetabólica no lobo inferior direito com SUVmax de 8,4**, altamente sugestiva de **neoplasia pulmonar primária maligna**. O padrão de captação intenso e a morfologia imaging (nódulo espiculado com densificação centro-periférica) são compatíveis com carcinoma pulmonar não-pequenas células (NSCLC), sendo também consideradas outras possibilidades como carcinoma de pequenas células ou adenocarcinoma, conforme confirmação histopatológica.
-
-2. **Ausência de captação patológica em linfonodos hilares e mediastinais**, sugerindo ausência de metastização linfonodal detectável neste momento (provável N0 ou
+- Linfonodos mediastinais múltiplo

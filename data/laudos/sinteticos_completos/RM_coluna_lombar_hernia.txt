@@ -1,0 +1,73 @@
+# LAUDO DE RESSONÂNCIA MAGNÉTICA — COLUNA LOMBAR
+
+---
+
+**IDENTIFICAÇÃO DO PACIENTE**
+- Nome: [NOME DO PACIENTE]
+- Data do Exame: [DATA DO EXAME]
+- Registro: [CRM]
+- Idade: 54 anos | Sexo: Masculino
+- Protocolo: RM Coluna Lombar (3T)
+
+---
+
+## TÉCNICA
+
+Ressonância magnética realizada em aparelho de 3.0 Tesla com bobina de coluna. Sequências adquiridas:
+- T1 ponderada nos planos sagital e axial
+- T2 ponderada nos planos sagital, coronal e axial
+- STIR sagital
+- Gradiente eco (GRE) sagital
+- Difusão (DWI) com mapa ADC
+
+Foram obtidas imagens de excelente qualidade técnica, sem artefatos significativos.
+
+---
+
+## ACHADOS
+
+### **Segmentação Vertebral e Alinhamento**
+Alinhamento sagital normal da coluna lombar. Não há escoliose, cifose ou lordose excessiva. A lordose fisiológica está preservada, com ângulo de aproximadamente 48 graus.
+
+### **Corpos Vertebrais e Medula Espinhal**
+
+**L1-L2 a L4-L5:**
+Corpos vertebrais apresentam altura normal com sinal T1 e T2 homogêneo. Não há evidência de fracturas, deformidades ou lesões ósteolíticas. A medula espinhal atravessa esses segmentos sem compressão. Não há edema intramedular.
+
+**L5-S1:**
+Corpo vertebral de L5 apresenta altura normal (27 mm na altura anterior). Corpo de S1 mantém dimensões preservadas. Sinal medular normal, sem hiperintensidade em T2 sugestiva de mielopatia.
+
+### **Discos Intervertebrais**
+
+**L1-L2:** Disco com sinal T2 preservado (escore de Pfirmann 2), altura normal, sem herniação discal.
+
+**L2-L3:** Disco com sinal T2 intermediário-preservado (escore de Pfirmann 2), altura mantida em 10,2 mm, sem protrusão ou extrusão discal.
+
+**L3-L4:** Disco com hidratação adequada (T2 hiperintenso), escore Pfirmann 2, altura de 10,8 mm, sem déficit de espaço discal. Não há hernia discal.
+
+**L4-L5:** Disco com discreto sinal hipointenso em T2 (escore Pfirmann 3), altura de 9,4 mm. Pequena protrusão discal central e paracentral bilateral que reduz em aproximadamente 2,1 mm o diâmetro anteroposterior do canal vertebral. Não há compressão significativa das raízes nervosas. Forâmens intervertebrais pérvios.
+
+**L5-S1 — HÉRNIA DISCAL EXTRUSA:**
+Disco L5-S1 apresenta sinal T2 reduzido (escore Pfirmann 4), compatível com degeneração discal. Altura reduzida em 7,6 mm. **Volumosa hérnia discal extrusa, predominantemente para o lado direito com componente central-paracentral**, medindo **7,3 mm de altura axial x 4,8 mm de profundidade sagital**, com fragmento de tecido discal herniado estendendo-se 11,2 mm caudalmente em relação ao nível discal.
+
+O fragmento herniado apresenta sinal T2 hipointenso, sem alteração significativa em T1, compatível com tecido fibrocartilaginoso desidratado. Não há sinal sugestivo de sequestro completamente separado.
+
+**Compressão radicular:** A hérnia comprime significativamente a raiz nervosa S1 direita, com redução estimada de 67% do espaço disponível no recesso lateral direito. A raiz S1 direita apresenta contato franco com o fragmento herniado, com sinais de compressão. Há discreto edema periradicular em T2 associado à compressão.
+
+A raiz S1 esquerda sofre compressão moderada (redução de aproximadamente 45% do espaço disponível), deslocada medialmente pelo fragmento herniado.
+
+Forâmen L5-S1 direito é reduzido (diâmetro de 6,2 mm), com compressão da raiz emergente. Forâmen esquerdo mantém patência relativa (diâmetro de 8,4 mm), porém com deslocamento medial da raiz.
+
+### **Canal Vertebral e Saco Dural**
+
+Estenose do canal vertebral em nível L5-S1 secundária à hérnia discal extrusa, com redução do diâmetro sagital do canal de 11,3 mm (normal: > 13 mm), caracterizando estenose moderada a moderada-grave. O saco dural é deslocado posteriormente, com compressão anterior evidente.
+
+Diâmetro transverso do canal em L5-S1: 12,8 mm (reduzido). Não há compressão significativa em outros níveis da coluna lombar.
+
+### **Facetas Articulares e Ligamentos**
+
+**L1-L2 a L4-L5:** Articulações facetárias sem hipertrofia ou degeneração significativa. Ligamento amarelo sem espessamento relevante.
+
+**L5-S1:** Pequena hipertrofia degenerativa bilateral das facetas articulares (escore de degeneração 2). Ligamento amarelo discretamente espessado (2,1 mm), contribuindo marginalmente para a estenose.
+
+Ligamento longitud

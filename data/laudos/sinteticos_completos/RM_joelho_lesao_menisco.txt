@@ -1,0 +1,83 @@
+# LAUDO DE RESSONÂNCIA MAGNÉTICA — ARTICULAÇÃO DO JOELHO
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MODALIDADE:** Ressonância Magnética  
+**REGIÃO:** Joelho direito  
+**MÉDICO RESPONSÁVEL:** Dr. [CRM]
+
+---
+
+## TÉCNICA
+
+Ressonância magnética da articulação do joelho direito realizada em equipamento de 3.0 Tesla, com bobina dedicada. Sequências adquiridas: T1 (TR/TE 600/20 ms), T2 (TR/TE 3200/90 ms), T2 STIR (TR/TE 4200/60 ms), e gradiente eco 3D (DESS). Cortes axiais, sagitais e coronais com espessura de 3,5 mm. Sem administração de contraste paramagnético. Exame de qualidade diagnóstica, sem artefatos significativos.
+
+---
+
+## ACHADOS
+
+### MENISCOS
+
+**Menisco medial:** Observa-se solução de continuidade em seu corpo e corno posterior, caracterizando lesão em alça de balde. O fragmento caudal encontra-se deslocado medialmente na articulação tibiofemoral, com dimensões aproximadas de 18 mm × 12 mm. A lesão apresenta sinal intermediário em T1 e hipertenso em T2, compatível com lesão traumática aguda. O corno anterior permanece íntegro. O menisco medial apresenta redução significativa de sua altura, estimada em 4,2 mm na região de transição entre corpo e corno posterior (normal: 8-10 mm).
+
+**Menisco lateral:** Estrutura mantém sua forma de "C", sem evidências de rotura ou degeneração. Sinal homogêneo em todas as sequências. Sem deslocamentos ou fragmentação.
+
+### LIGAMENTOS
+
+**Ligamento cruzado anterior:** Íntegro, com espessura de 7,5 mm, sem edema ou descontinuidade. Tração normal.
+
+**Ligamento cruzado posterior:** Íntegro, aspecto normal, espessura de 6,8 mm.
+
+**Ligamentos colaterais:** 
+- Ligamento colateral medial (tibial): Íntegro, sem edema periligamentar.
+- Ligamento colateral lateral (fibular): Íntegro. Tendão do bíceps femoral em posição habitual.
+
+**Cápsula articular:** Integra, sem rotura.
+
+### CARTILAGEM ARTICULAR
+
+Cartilagem da tróclea femoral com espessura de 2,8 mm bilateralmente, sinal homogêneo. Cartilagem tibial (platô medial e lateral) íntegra, com espessura média de 2,6 mm. Superfície patelar com cartilagem espessura 3,1 mm, sem fibrilação ou erosão. Sem evidências de condromalácia significativa.
+
+### OSSO SUBCONDRAL
+
+Edema ósseo focal no platô tibial medial, adjacente à lesão meniscal, com volume aproximado de 2,4 cm³, apresentando sinal hiperintenso em T2 STIR. Espaço medular femoral e tibial sem alterações degenerativas significativas. Sem fraturas ocultas.
+
+### BOLSAS SINOVIAIS
+
+**Bursa suprapatelar:** Não distendida, sem coleção.  
+**Bursa infrapatelar profunda:** Aspecto normal.  
+**Bolsa Baker:** Não identificada.
+
+### SINÓVIA
+
+Sutil espessamento sinovial com discreto derrame articular (volume estimado em 18 mL), predominantemente na recesso posterior lateral, compatível com reação inflamatória secundária à lesão meniscal. Sem hiperenhancimento avaliável (exame sem contraste).
+
+### ESTRUTURAS PERIARTICULARES
+
+Tendão patelar íntegro, espessura de 5,2 mm. Borda patelar inferior sem calcificações. Quadríceps, isquiotibiais e gastrocnêmio sem edema significativo. Sem hematoma periarticular relevante.
+
+### DISTRIBUIÇÃO DE GORDURA
+
+Espaço de Hoffa com sinal homogêneo, sem edema ou infiltração. Sem alterações significativas em gordura adjacente.
+
+### ARTICULAÇÕES TÍBIO-FIBULAR E PATELO-FEMORAL
+
+Articulação tíbio-fibular superior sem alterações. Alinhamento patelo-femoral normal, ângulo Q de aproximadamente 14°. Sem subluxação patelar.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Rotura traumática aguda de menisco medial em configuração de alça de balde**, com deslocamento do fragmento meniscal caudal para o espaço articular medial.
+
+2. **Edema ósseo subcondral** no platô tibial medial (zona de impacção), volume de aproximadamente 2,4 cm³.
+
+3. **Derrame articular** discreto (aproximadamente 18 mL) com espessamento sinovial compatível com inflamação secundária.
+
+4. **Ligamentos cruzados anterior e posterior íntegros**, assim como ligamentos colaterais.
+
+5. **Cartilagem articular íntegra**, sem condromalácia ou erosão em fase inicial.
+
+6. **Menisco lateral sem alterações.**
+
+**RECOMENDAÇÃO:** Correlação clínica com sintomatologia de bloqueio articular, dor na interlinha articular medial e limitação funcional. A apresentação é compatível com lesão aguda que pode beneficiar-se de intervenção artroscópica para meniscectomia ou sutura meniscal, dependendo da avaliação clínica e do padrão de fragmentação intra-articular

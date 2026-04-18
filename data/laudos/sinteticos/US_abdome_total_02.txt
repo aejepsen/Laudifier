@@ -1,4 +1,50 @@
-=== US abdome total — Variante 2 ===
+ sem evidência de aneurisma ou trombose. Fluxo Doppler presente e pulsátil.
+
+### **LÍQUIDO LIVRE**
+Não identificado ascite ou derrame peritoneal.
+
+### **REGIÃO PÉLVICA**
+Exame limitado nesta região pela técnica (sonda abdominal), mas não evidenciou achados relevantes no terço superior.
+
+---
+
+## **IMPRESSÃO DIAGNÓSTICA**
+
+✓ **COLECISTOLITÍASE COM MÚLTIPLOS CÁLCULOS BILIARES**
+
+Características:
+- Múltiplos cálculos de variados tamanhos;
+- Paredes vesiculares preservadas, sem sinais de inflamação;
+- Ausência de colecistite aguda ou crônica;
+- Ductos biliares sem obstrução.
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+1. **Diagnóstico:** Paciente apresenta colecistolitíase (múltiplos cálculos biliares) com características ultrassonográficas típicas. A vesícula biliar encontra-se ligeiramente dilatada, mas com paredes normais e sem sinais de inflamação.
+
+2. **Achados Secundários:** Demais órgãos abdominais apresentam-se dentro dos padrões de normalidade para a idade e constituição do paciente.
+
+3. **Recomendações Clínicas:**
+   - Orientar paciente sobre sintomatologia de alerta (dor em hipocôndrio direito, colecistite, colangite);
+   - Acompanhamento clínico com especialista em Hepatologia/Cirurgia Geral, conforme indicação clínica;
+   - Avaliação para possível tratamento cirúrgico (colecistectomia), especialmente se sintomático;
+   - Evitar refeições gordurosas e alimentos irritantes;
+   - Retorno periódico para acompanhamento ultrassonográfico, conforme orientação médica.
+
+4. **Obser
+tar refeições gordurosas e alimentos irritantes;
+   - Retorno periódico para acompanhamento ultrassonográfico, conforme orientação médica.
+
+4. **Observações Técnicas:** Exame bem técnico, com boa qualidade de imagem. Não houve limitações relevantes na avaliação.
+
+---
+
+## **ASSINATURA E RESPONSABILIDADE**
+
+| Campo | Informação |
+|-------|--------
 Especialidade: radiologia
 Cenário: colecistolitíase — múltiplos cálculos, vesícula com paredes normais
 Fonte: sintético — gerado por Claude
@@ -45,6 +91,9 @@ A vesícula biliar encontra-se **dilatada**, apresentando dimensões aumentadas 
 
 Identificam-se **múltiplos cálculos** (litíase), com diâmetros variando de 0,5 cm a 2,8 cm, que apresentam:
 - Ecos intensos e bem definidos (densidade aumentada);
+- Sombra acústica pos
+s** (litíase), com diâmetros variando de 0,5 cm a 2,8 cm, que apresentam:
+- Ecos intensos e bem definidos (densidade aumentada);
 - Sombra acústica posterior característica;
 - Mobilidade livre nos diferentes decúbitos testados.
 
@@ -76,41 +125,4 @@ Calibre normal, aproximadamente 2,0 cm, sem evidência de aneurisma ou trombose.
 ### **LÍQUIDO LIVRE**
 Não identificado ascite ou derrame peritoneal.
 
-### **REGIÃO PÉLVICA**
-Exame limitado nesta região pela técnica (sonda abdominal), mas não evidenciou achados relevantes no terço superior.
-
----
-
-## **IMPRESSÃO DIAGNÓSTICA**
-
-✓ **COLECISTOLITÍASE COM MÚLTIPLOS CÁLCULOS BILIARES**
-
-Características:
-- Múltiplos cálculos de variados tamanhos;
-- Paredes vesiculares preservadas, sem sinais de inflamação;
-- Ausência de colecistite aguda ou crônica;
-- Ductos biliares sem obstrução.
-
----
-
-## **CONCLUSÃO E RECOMENDAÇÕES**
-
-1. **Diagnóstico:** Paciente apresenta colecistolitíase (múltiplos cálculos biliares) com características ultrassonográficas típicas. A vesícula biliar encontra-se ligeiramente dilatada, mas com paredes normais e sem sinais de inflamação.
-
-2. **Achados Secundários:** Demais órgãos abdominais apresentam-se dentro dos padrões de normalidade para a idade e constituição do paciente.
-
-3. **Recomendações Clínicas:**
-   - Orientar paciente sobre sintomatologia de alerta (dor em hipocôndrio direito, colecistite, colangite);
-   - Acompanhamento clínico com especialista em Hepatologia/Cirurgia Geral, conforme indicação clínica;
-   - Avaliação para possível tratamento cirúrgico (colecistectomia), especialmente se sintomático;
-   - Evitar refeições gordurosas e alimentos irritantes;
-   - Retorno periódico para acompanhamento ultrassonográfico, conforme orientação médica.
-
-4. **Observações Técnicas:** Exame bem técnico, com boa qualidade de imagem. Não houve limitações relevantes na avaliação.
-
----
-
-## **ASSINATURA E RESPONSABILIDADE**
-
-| Campo | Informação |
-|-------|--------
+###

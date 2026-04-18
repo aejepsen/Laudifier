@@ -1,4 +1,3 @@
-=== Endoscopia digestiva alta — Variante 4 ===
 Especialidade: gastroenterologia
 Cenário: esôfago de Barrett — segmento curto 2 cm, biópsia sem displasia
 Fonte: sintético — gerado por Claude
@@ -39,6 +38,21 @@ Procedimento realizado sob sedação consciente com monitoramento contínuo de s
 ## ACHADOS / DESCRIÇÃO DETALHADA
 
 **ESÔFAGO:**
+- Esôfago proximal e médio co
+2 meses (dentro de um ano)
+   - Colher biópsias a cada 2 cm do segmento de Barrett e da transição esofagogástrica
+   - Caso não haja displasia em vigilância inicial, considerar intervalos de 2-3 anos após confirmação
+
+3. **Modificações do Estilo de Vida:**
+   - Evitar alimentos ácidos e gordurosos
+   -
+segmento alterado, sendo encaminhadas para análise histopatológica.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+**ESÔFAGO:**
 - Esôfago proximal e médio com mucosa estratificada escamosa de aspecto normal, sem lesões, úlceras ou áreas de estenose.
 - Esôfago distal: Identificado segmento com mucosa de aspecto avermelhado, aterciopelado, de características colunar, estendendo-se por aproximadamente **2 cm acima da junção esofagogástrica**.
 - A transição entre a mucosa escamosa normal e a mucosa colunar é bem demarcada.
@@ -63,6 +77,15 @@ Procedimento realizado sob sedação consciente com monitoramento contínuo de s
 
 **OBSERVAÇÕES ADICIONAIS:**
 - Presença de refluxo biliar mínimo ao nível gástrico.
+- Sem sangramento ativo.
+- Sem varizes esofágicas.
+
+---
+
+## BIÓPSIA
+
+**Material colhido:** Fragmentos de mucosa do segmento columnar do esôfa
+ástrico.
 - Sem sangramento ativo.
 - Sem varizes esofágicas.
 
@@ -107,8 +130,4 @@ Presença de esôfago de Barrett com segmento curto de 2 cm, confirmado por bió
 2. **Vigilância Endoscópica:**
    - **Próxima endoscopia:** em 12 meses (dentro de um ano)
    - Colher biópsias a cada 2 cm do segmento de Barrett e da transição esofagogástrica
-   - Caso não haja displasia em vigilância inicial, considerar intervalos de 2-3 anos após confirmação
-
-3. **Modificações do Estilo de Vida:**
-   - Evitar alimentos ácidos e gordurosos
-   -
+   - Caso não haja displasia em vigi

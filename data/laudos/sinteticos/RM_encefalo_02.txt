@@ -1,4 +1,3 @@
-=== RM encefalo — Variante 2 ===
 Especialidade: radiologia
 Cenário: lesões desmielinizantes periventriculares sugestivas de esclerose múltipla
 Fonte: sintético — gerado por Claude
@@ -50,6 +49,15 @@ Cortes axiais, coronais e sagitais foram obtidos com espessura de 5 mm e anális
 
 ### Lesões Desmielinizantes:
 
+**Padrão Ovóide Periventricula
+ com espessura de 5 mm e análise multiplanar nos três eixos ortogonais.
+
+---
+
+## ACHADOS
+
+### Lesões Desmielinizantes:
+
 **Padrão Ovóide Periventricular:**
 Identificam-se múltiplas lesões hipointensas em T1 e hiperintensas em T2/FLAIR, distribuídas predominantemente na substância branca periventricular, com orientação perpendicular ao eixo longitudinal dos ventrículos laterais (padrão "Dawson fingers" clássico). Aproximadamente 12-15 focos lesionais demonstram este padrão característico.
 
@@ -74,6 +82,15 @@ Duas lesões (região periventricular direita anterior e lobo parietal esquerdo)
 ### Estruturas Ventriculares:
 
 Sistema ventricular de dimensões normais. Sem deslocamento de linha média. Sem hidrocefalia. Terceiro ventrículo com dimensão normal.
+
+### Estruturas Supratentoriais:
+
+Núcleos da base e tálamo sem alterações estruturais. Córtex cerebral sem focos de atrofia focal. L
+s ventrículos)
+✓ **Presença de lesões com realce pós-contraste** (indicando atividade inflamatória)
+
+A distribuição anatômica e as características morfológicas das lesões, associadas ao padrão de realce heterogêneo em algumas delas, são altamente sugestivas de
+ dimensão normal.
 
 ### Estruturas Supratentoriais:
 
@@ -107,4 +124,4 @@ Exame de Ressonância Magnética do Encéfalo com achados compatíveis com **doe
 ✓ **Padrão de orientação "Dawson fingers"** (lesões perpendiculares aos ventrículos)
 ✓ **Presença de lesões com realce pós-contraste** (indicando atividade inflamatória)
 
-A distribuição anatômica e as características morfológicas das lesões, associadas ao padrão de realce heterogêneo em algumas delas, são altamente sugestivas de
+A distribuição anatômica e as características mor

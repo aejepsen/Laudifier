@@ -1,4 +1,66 @@
-=== TC torax — Variante 3 ===
+HU) e mediastinal (largura 350 HU, nível 40 HU).
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### Parênquima Pulmonar:
+
+**Pulmão Direito:**
+- Identificado consolidação do espaço aéreo localizada na região basal direita (segmento basal anterior e/ou posterior), apresentando densidade heterogênea com interface mal definida em relação ao tecido pulmonar adjacente.
+- A consolidação mede aproximadamente 3,5 x 2,8 cm em seus maiores diâmetros axial e craniocaudal.
+- Presença de broncograma aéreo no interior da área de consolidação.
+- Não se identificam calcificações, cavitações ou ar trapping associado.
+
+**Pulmão Esquerdo:**
+- Parênquima pulmonar com transparência preservada.
+- Não há áreas de consolidação, atelectasia ou opacidades nodulares.
+- Arquitetura vascular normal.
+
+### Pleura e Espaço Pleural:
+
+- **Derrame pleural bilateral pequeno:**
+  - Direito: Camada de efusão pleural medindo aproximadamente 8-10mm de espessura máxima, localizada em bases e recesso costo-frenicano.
+  - Esquerdo: Camada de efusão pleural medindo aproximadamente 7-9mm de espessura máxima, predominantemente em região basilar.
+- Ambos os derrames apresentam densidade próxima à água (densidade homogênea), compatível com transudato.
+- Não há septações, locules ou características que sugiram empiema.
+
+### Mediastino:
+
+- **Coração:** Silhueta cardíaca dentro dos limites normais de tamanho. Câmaras cardíacas com dimensões habituais.
+- **Grandes Vasos:** Aorta torácica com calibre preservado e paredes sem irregulari
+tes normais de tamanho. Câmaras cardíacas com dimensões habituais.
+- **Grandes Vasos:** Aorta torácica com calibre preservado e paredes sem irregularidades. Sem dilatação de veias cavas.
+- **Tráqueia:** Pérvea, sem estenose.
+- **Brônquios principais:** Pérvios bilateralmente. Sem evidência de obstrução.
+- **Linfonodos:** Não há linfonodomegalia mediastinal ou hilar. Linfonodos mediastinais e hilares com tamanho normal.
+- **Esôfago:** Sem dilatação.
+
+### Estruturas Ósseas e de Partes Moles:
+
+- **Coluna vertebral torácica:** Corpos vertebrais com densidade normal, sem sinais de compressão ou colapso. Espaços discais com altura preservada.
+- **Arcos costais:** Íntegros, sem fraturas ou lesões líticas.
+- **Escápulas:** Simetricamente posicionadas e integras.
+- **Musculatura torácica:** Espessura normal, sem atrofia significativa.
+- **Paredes torácicas:** Sem achados significativos.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Consolidação do espaço aéreo em base pulmonar direita** (segmento basal), medindo aproximadamente 3,5 x 2,8 cm, com broncograma aéreo, sugestiva de processo pneumônico/inflamação aguda.
+
+2. **Derrame pleural bilateral pequeno**, de natureza transuditiva, sem evidência de complicações (empiema, loculação).
+
+3. **Coração e grandes vasos:** Sem alterações significativas detectadas nos limites deste estudo.
+
+4. **Linfonodos mediastinais e hilares:** Sem evidência de linfadenomegalia.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A tomografia computadorizada de tórax evidencia con
 Especialidade: radiologia
 Cenário: derrame pleural bilateral pequeno, consolidação em base direita
 Fonte: sintético — gerado por Claude
@@ -42,52 +104,8 @@ Foram adquiridas imagens tomográficas do tórax no sentido craniocaudal, com o 
 ### Parênquima Pulmonar:
 
 **Pulmão Direito:**
-- Identificado consolidação do espaço aéreo localizada na região basal direita (segmento basal anterior e/ou posterior), apresentando densidade heterogênea com interface mal definida em relação ao tecido pulmonar adjacente.
-- A consolidação mede aproximadamente 3,5 x 2,8 cm em seus maiores diâmetros axial e craniocaudal.
-- Presença de broncograma aéreo no interior da área de consolidação.
-- Não se identificam calcificações, cavitações ou ar trapping associado.
-
-**Pulmão Esquerdo:**
-- Parênquima pulmonar com transparência preservada.
-- Não há áreas de consolidação, atelectasia ou opacidades nodulares.
-- Arquitetura vascular normal.
-
-### Pleura e Espaço Pleural:
-
-- **Derrame pleural bilateral pequeno:**
-  - Direito: Camada de efusão pleural medindo aproximadamente 8-10mm de espessura máxima, localizada em bases e recesso costo-frenicano.
-  - Esquerdo: Camada de efusão pleural medindo aproximadamente 7-9mm de espessura máxima, predominantemente em região basilar.
-- Ambos os derrames apresentam densidade próxima à água (densidade homogênea), compatível com transudato.
-- Não há septações, locules ou características que sugiram empiema.
-
-### Mediastino:
-
-- **Coração:** Silhueta cardíaca dentro dos limites normais de tamanho. Câmaras cardíacas com dimensões habituais.
-- **Grandes Vasos:** Aorta torácica com calibre preservado e paredes sem irregularidades. Sem dilatação de veias cavas.
-- **Tráqueia:** Pérvea, sem estenose.
-- **Brônquios principais:** Pérvios bilateralmente. Sem evidência de obstrução.
-- **Linfonodos:** Não há linfonodomegalia mediastinal ou hilar. Linfonodos mediastinais e hilares com tamanho normal.
-- **Esôfago:** Sem dilatação.
-
-### Estruturas Ósseas e de Partes Moles:
-
-- **Coluna vertebral torácica:** Corpos vertebrais com densidade normal, sem sinais de compressão ou colapso. Espaços discais com altura preservada.
-- **Arcos costais:** Íntegros, sem fraturas ou lesões líticas.
-- **Escápulas:** Simetricamente posicionadas e integras.
-- **Musculatura torácica:** Espessura normal, sem atrofia significativa.
-- **Paredes torácicas:** Sem achados significativos.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Consolidação do espaço aéreo em base pulmonar direita** (segmento basal), medindo aproximadamente 3,5 x 2,8 cm, com broncograma aéreo, sugestiva de processo pneumônico/inflamação aguda.
-
-2. **Derrame pleural bilateral pequeno**, de natureza transuditiva, sem evidência de complicações (empiema, loculação).
-
-3. **Coração e grandes vasos:** Sem alterações significativas detectadas nos limites deste estudo.
-
-4. **Linfonodos mediastinais e hilares:** Sem evidência de linfadenomegalia.
+- Identificado 
+s mediastinais e hilares:** Sem evidência de linfadenomegalia.
 
 ---
 

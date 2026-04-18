@@ -1,4 +1,3 @@
-=== PET CT oncologico — Variante 1 ===
 Especialidade: medicina_nuclear
 Cenário: PET-CT sem evidência de doença metabólica ativa
 Fonte: sintético — gerado por Claude
@@ -37,6 +36,9 @@ Imagens adquiridas em modo 3D do corpo inteiro (do vértex aos pés), seguidas d
 
 ### Análise PET
 
+**Encéfalo:** Captação fisiológica simétrica de 18F-FDG no córtex cerebral, núcleos da base, cerebelo e tronco encefálico. Sem focos de hipercapta
+ET
+
 **Encéfalo:** Captação fisiológica simétrica de 18F-FDG no córtex cerebral, núcleos da base, cerebelo e tronco encefálico. Sem focos de hipercaptação anormal.
 
 **Mediastino e Hilares Pulmonares:** Captação fisiológica moderada de 18F-FDG em linfonodos mediastinais e hilares, de dimensões normais (menores que 1 cm de diâmetro). Sem hipercaptação patológica sugestiva de acometimento metastático.
@@ -56,6 +58,23 @@ Imagens adquiridas em modo 3D do corpo inteiro (do vértex aos pés), seguidas d
 **Cadeia Ganglionar Abdominal e Pelviana:** Linfonodos abdominais e pélvicos com captação fisiológica e dimensões normais. Sem evidência de acometimento linfonodal metastático.
 
 **Osso:** Captação óssea fisiológica com distribuição simétrica. Sem focos de hipercaptação osteoblástica ou osteolítica sugestivos de metástases ósseas.
+
+**Musculatura e Partes Moles:** Captação fisiológica simétrica. Sem lesões de partes moles com hipercaptação anormal.
+
+### Análise CT
+
+Avaliaç
+erior e resposta clínica ao tratamento.
+
+3. **Recomendações:**
+   - Seguimento clínico conforme protocolo oncológico instituído
+   - Reavaliação em [___] meses (conforme direcionamento clínico)
+   - Novos exames de imagem (CT/RM) conforme indicação clínica
+   - Monitoramento de marcadores tumorais séricos
+
+4. **Limitações:**
+   - Lesões de pequ
+sseas.
 
 **Musculatura e Partes Moles:** Captação fisiológica simétrica. Sem lesões de partes moles com hipercaptação anormal.
 
@@ -93,9 +112,4 @@ Achados compatíveis com:
 
 3. **Recomendações:**
    - Seguimento clínico conforme protocolo oncológico instituído
-   - Reavaliação em [___] meses (conforme direcionamento clínico)
-   - Novos exames de imagem (CT/RM) conforme indicação clínica
-   - Monitoramento de marcadores tumorais séricos
-
-4. **Limitações:**
-   - Lesões de pequ
+   - Reavaliação em [_

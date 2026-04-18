@@ -1,0 +1,70 @@
+# LAUDO DE RESSONÂNCIA MAGNÉTICA - ARTICULAÇÃO DO JOELHO
+
+**IDENTIFICAÇÃO:**
+- Paciente: [NOME DO PACIENTE]
+- Data do Exame: [DATA DO EXAME]
+- Médico Solicitante: [ESPECIALIDADE]
+- CRM: [CRM]
+- Modalidade: Ressonância Magnética
+- Equipamento: RM 3.0 Tesla
+- Data do Laudo: [DATA DO LAUDO]
+
+---
+
+## TÉCNICA:
+
+Realizada ressonância magnética da articulação do joelho direito em aparelho de 3.0 Tesla com sequências ponderadas em T1, T2, DP com e sem supressão de gordura. Obtidas imagens nos planos sagital, coronal e axial com espessura de corte de 3,5 mm. Não foi utilizado meio de contraste. Estudo de qualidade adequada para análise diagnóstica.
+
+---
+
+## ACHADOS:
+
+### ESTRUTURAS ÓSSEAS:
+
+Estrutura óssea do fêmur, tíbia e fíbula íntegra, sem focos de fratura ou edema ósseo focal. Integridade corticomedular preservada. Espaços articulares com manutenção adequada da altura articular. Não identificados focos de osteonecrose. Não há edema de medula óssea de distribuição focal suspeita. Alinhamento mecânico preservado.
+
+### LIGAMENTOS:
+
+**Ligamento Cruzado Anterior (LCA):** Apresenta descontinuidade completa com interrupção e fragmentação da fibras ligamentares. O segmento proximal visualiza-se edemaciado medindo aproximadamente 8 mm de espessura na inserção femoral (correspondente a edema intersticial). O segmento distal ligamentoso encontra-se retraído, medindo aproximadamente 5 mm no seu ponto de máxima espessura, localizado no terço médio tibial anterior. Espaço entre os fragmentos proximal e distal: aproximadamente 18 mm, compatível com rotura aguda/subaguda. Não se identifica continuidade das fibras ligamentares em nenhum plano de corte analisado. Sinal T2 elevado difuso ao longo de ambos os segmentos, sugestivo de edema intralesional acentuado.
+
+**Ligamento Cruzado Posterior (LCP):** Íntegro, com curso normal, medindo 6 mm de espessura máxima. Sem evidência de edema intersticial ou sinais de laceração parcial ou completa.
+
+**Ligamentos Colaterais:** 
+- Ligamento colateral medial: íntegro, com espessura preservada (3,5 mm na região de máxima amplitude). 
+- Ligamento colateral lateral: íntegro, com curso normal, medindo 2,8 mm.
+
+**Ligamento Poplíteo Arqueado:** Íntegro, sem sinais de edema ou descontinuidade.
+
+### MENISCOS:
+
+**Menisco Medial:** Estrutura íntegra, morfologia normal de "C". Sinal homogêneo em todas as sequências. Sem evidência de rotura ou degeneração. Corno anterior e posterior sem alterações.
+
+**Menisco Lateral:** Estrutura íntegra, com morfologia em "C" normal. Sinal homogêneo. Sem focos de rotura ou sinais de ressecção prévia. Corno anterior e posterior íntegros.
+
+### CARTILAGEM ARTICULAR:
+
+Cartilagem articular das superfícies femorais, tibiais e patelares com espessura e sinal preservados. Não identificadas erosões focais ou lesões osteocondrites. Integridade condral mantida. Sem evidência de condromalácia significativa.
+
+### MEMBRANA SINOVIAL E DERRAME ARTICULAR:
+
+Derrame articular presente, estimado em aproximadamente 35-40 mL. Distribuição suprapatelar, intracapsular. Aspecto seroso. Sem evidência de hemartrose (não há camadas de sedimentação). Espessura da membrana sinovial: até 3,2 mm na região suprapatelar, consistente com sinovite reativa secundária à lesão traumática aguda.
+
+### ARTICULAÇÃO PATELOFEMORAL:
+
+Alinhamento patelar preservado. Índice de congruência normal. Sem subluxação ou luxação. Troclea femoral com profundidade adequada (profundidade de 4,8 mm). Não há edema ósseo peripatelar.
+
+### TENDÃO QUADRICIPTAL E PATELAR:
+
+Tendão quadriciptal íntegro, medindo 5,2 mm de espessura máxima. Tendão patelar sem alterações, com espessura de 3,8 mm. Ambos os tendões com sinal normal, sem edema ou degeneração.
+
+### ESTRUTURAS MUSCULARES:
+
+Musculatura periarticular (quadríceps, isquiotibiais, gastrocnêmio, sóleo) com sinal e volume preservados. Não identificados focos de rotura, edema ou hematoma muscular. Músculos com aspecto simétrico em relação ao lado contralateral.
+
+### REGIÃO INFRAPATELAR E BURSAS:
+
+Bursa infrapatelar anterior sem derrame significativo. Bursa infrapatelar posterior sem alterações. Corpo adiposo infrapatelar sem edema focal. Plica sinovial medial sem hipertrofia.
+
+### ESTRUTURAS VASCULARES E NERVOSAS:
+
+Vasos poplíteos apresentam calibre normal, sem estenose ou dilatação focal. Sem evidência de trombose venosa profunda nos vasos avaliados. Nervo tibial posterior e fibular comum em posição anatômica normal, sem sinais de compressão ou neuropatia.

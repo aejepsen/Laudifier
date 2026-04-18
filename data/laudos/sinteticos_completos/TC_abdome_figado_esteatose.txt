@@ -1,0 +1,78 @@
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA DE ABDOME
+
+---
+
+## DADOS DE IDENTIFICAÇÃO
+
+**Paciente:** [NOME DO PACIENTE]  
+**Data do Exame:** [DATA DO EXAME]  
+**Médico Solicitante:** [CRM]  
+**Modalidade:** Tomografia Computadorizada de Abdome e Pelve  
+**Equipamento:** Tomógrafo Multicamadas — 64 canais  
+**Protocolo:** Estudo com dupla fase (arterial e portal venosa) com contraste iodado endovenoso
+
+---
+
+## TÉCNICA
+
+Realizado estudo tomográfico do abdome e pelve com ingestão de contraste oral e administração de 100 mL de contraste iodado não-iônico (concentração 370 mgI/mL) via endovenosa em bolus. Imagens obtidas em inspiração profunda. Reconstruções multiplanares (axial, coronal e sagital) com espessura de corte de 1,25 mm em fase arterial e portal venosa. Janela de visualização ajustada conforme protocolo institucional para parênquima e mediastino.
+
+---
+
+## ACHADOS
+
+### **FÍGADO**
+
+O fígado apresenta aumentado discretamente em volume, com dimensões aproximadas de 16,2 cm no maior eixo crânio-caudal (medida do segmento V ao pólo inferior). Observa-se esteatose hepática difusa moderada, caracterizada por redução global da atenuação do parênquima, com densidade média mensurada em 38 unidades Hounsfield (UH) na fase portal venosa, em comparação com a densidade do baço que mede 48 UH — índice fígado-baço de 0,79. Não há alteração significativa de sinal entre as sequências, sugestivo de esteatose macrovesicular pura sem fibrose difusa relevante.
+
+Contornos hepáticos regulares, mantendo sua morfologia característica. Não se identificam lesões focais sólidas, líquidas ou císticas. Sem evidência de cirrose hepática ou sinais de hipertensão portal (calibre normal do tronco da veia porta, medindo 12 mm; ausência de varizes esofagianas ou gástricas; sem ascite).
+
+Vias biliares intra-hepáticas não dilatadas, calibre preservado. Ducto colédoco com dimensões normais (4,8 mm de diâmetro externo). Vesícula biliar com conteúdo homogêneo, paredes finas e regulares, sem cálculos ou sinais de colecistite. Não há espessamento parietal.
+
+---
+
+### **PÂNCREAS**
+
+Pâncreas com volume e sinal normais. Corpo pancreático mede 2,1 cm de espessura, cabeça 2,7 cm. Ausência de lipomatose significativa. Ducto pancreático principal não dilatado (calibre de 2,2 mm). Sem lesões focais. Sem evidência de pancreatite aguda ou crônica. Glândula homogênea, sem área de hipoatenuação sugestiva de necrose.
+
+---
+
+### **BAÇO**
+
+Baço de volume normal, medindo 11,8 cm no maior eixo longitudinal. Contornos regulares, parênquima homogêneo com densidade de 48 UH na fase portal venosa. Ausência de lesões focais. Sem infartos segmentares. Sem esplenomegalia.
+
+---
+
+### **RINS E VIAS URINÁRIAS**
+
+Ambos os rins apresentam volume, forma e contornos normais. Rim direito mede 11,3 cm, rim esquerdo 11,1 cm. Corticais bilateralmente com espessura preservada (14-15 mm). Sem dilatação das coleções pielo-caliciais. Sem cálculos renais detectáveis. Sem lesões renais focais. Cálices e pelves renais com calibre normal. Ureteres não dilatados bilateralmente.
+
+---
+
+### **BEXIGA**
+
+Bexiga com paredes regulares e finas, repleção normal. Sem espessamento parietal. Ausência de lesões intraluminais. Sem dilatação das estruturas vesicais.
+
+---
+
+### **SUPRARRENAIS**
+
+Glândulas suprarrenais bilaterais com tamanho e forma normais. Limbo direito mede 8 mm, limbo esquerdo mede 7,5 mm. Sem lesões focais identificáveis. Sem sinais de hemorragia ou inflamação.
+
+---
+
+### **ESTRUTURAS VASCULARES**
+
+Aorta abdominal com calibre normal (20 mm de diâmetro ântero-posterior no nível do troco celíaco), paredes regulares e finas. Sem aterosclerose significativa. Sem aneurisma. Ausência de dissecção aórtica.
+
+Artérias ilíacas e femorais comuns com calibre preservado bilateralmente, sem estenose luminal significativa. Sem trombose aparente.
+
+Veia cava inferior com diâmetro normal (16 mm ao nível infra-renal), sem trombo endoluminal. Sistema venoso portal preservado, sem estenose. Tronco da veia porta medindo 12 mm, sem sinais de hipertensão portal. Veias supra-hepáticas pérvias e com calibre normal.
+
+---
+
+### **ALÇAS INTESTINAIS**
+
+Alças de delgado com calibre e sinal normais, distribuição habitual, paredes finas e regulares. Ausência de níveis hidroaéreos. Sem evidência de obstrução intestinal. Sem volvo ou invaginação.
+
+Cólon com calibre preservado em todos os segmentos, paredes regulares

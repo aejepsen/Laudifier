@@ -1,4 +1,43 @@
-=== TC coluna lombar — Variante 1 ===
+am lesões de partes moles, coleções ou alterações inflamatórias significativas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Coluna lombar **sem alterações significativas** na presente data.
+
+- Ausência de hérnias discais
+- Ausência de estenose vertebral central
+- Ausência de estenose foraminal
+- Espaços discais intervertebrais preservados
+- Estruturas ósseas íntegras
+- Sem sinais de compressão neural
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A tomografia computadorizada da coluna lombar não evidencia alterações patológicas significativas. Os achados são compatíveis com coluna dentro dos limites normais para a idade do paciente.
+
+**Recomendações:**
+- Seguimento clínico conforme orientação médica
+- Se sintomas persistirem, correlação clínica é fundamental
+- Caso haja indicação de investigação adicional de componente medular, considerar ressonância magnética da coluna lombar
+
+---
+
+## ASSINATURA
+
+**Dr(a).** [NOME DO RADIOLOGISTA]  
+**CRM:** [____________]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+
+**Data da Assinatura:** [DD/MM/AAAA]  
+**Hora:** [__:__]  
+
+---
+
+*Este laudo foi gerado em conformidade com os padrões técnicos da Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR).*
 Especialidade: radiologia
 Cenário: coluna lombar sem alterações significativas
 Fonte: sintético — gerado por Claude
@@ -39,6 +78,11 @@ Os corpos vertebrais de L1 a L5 apresentam altura normal e integridade morfológ
 
 ### Espaços Discais Intervertebrais
 
+**L1-L2:** Disco intervertebral com hidratação preservada, sem sinais de protusão, extrusão ou migraçã
+ralmente.
+
+### Espaços Discais Intervertebrais
+
 **L1-L2:** Disco intervertebral com hidratação preservada, sem sinais de protusão, extrusão ou migração discal. Estenose foraminal ausente.
 
 **L2-L3:** Disco sem alterações significativas. Altura do espaço discal normal. Ausência de abaulamento discal.
@@ -69,37 +113,13 @@ A musculatura paravertebral apresenta simetria e volume normais, sem sinais de a
 
 ## IMPRESSÃO DIAGNÓSTICA
 
-Coluna lombar **sem alterações significativas** na presente data.
-
-- Ausência de hérnias discais
-- Ausência de estenose vertebral central
-- Ausência de estenose foraminal
-- Espaços discais intervertebrais preservados
-- Estruturas ósseas íntegras
-- Sem sinais de compressão neural
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-A tomografia computadorizada da coluna lombar não evidencia alterações patológicas significativas. Os achados são compatíveis com coluna dentro dos limites normais para a idade do paciente.
-
-**Recomendações:**
-- Seguimento clínico conforme orientação médica
-- Se sintomas persistirem, correlação clínica é fundamental
-- Caso haja indicação de investigação adicional de componente medular, considerar ressonância magnética da coluna lombar
-
----
-
-## ASSINATURA
-
-**Dr(a).** [NOME DO RADIOLOGISTA]  
-**CRM:** [____________]  
+Coluna lombar **sem alterações signifi
+SP/CRM:** [NÚMERO DO REGISTRO]  
 **Especialidade:** Radiologia e Diagnóstico por Imagem  
+**RQE:** [NÚMERO RQE]  
 
-**Data da Assinatura:** [DD/MM/AAAA]  
-**Hora:** [__:__]  
+Assinado digitalmente em [DATA] às [HORÁRIO]
 
 ---
 
-*Este laudo foi gerado em conformidade com os padrões técnicos da Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR).*
+*Laudo gerado em conformidade com as normas do Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR) e Conselho Federal de Medicina (CFM).*

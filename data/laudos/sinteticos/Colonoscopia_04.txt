@@ -1,4 +1,3 @@
-=== Colonoscopia — Variante 4 ===
 Especialidade: gastroenterologia
 Cenário: adenocarcinoma no cólon ascendente, lesão circunferencial, biópsia positiva
 Fonte: sintético — gerado por Claude
@@ -37,37 +36,8 @@ Colonoscopia total realizada sob sedação consciente com propofol ([DOSE] mg IV
 **Características da Lesão:**
 - Aspecto: Ulcerado, com borda elevada e endurecida
 - Morfologia: Tipo Brinton III (circunferencial com estenose)
-- Cor: Avermelhada com áreas de necrose central
-- Consistência: Dura à palpação com pinça de biópsia
-- Sangramento: Presente, com gotejamento discreto ao toque instrumental
-
-**Lúmen Residual:** Redução importante da luz intestinal, estimada em aproximadamente 50% do calibre original, permitindo passagem limitada do aparelho.
-
-### Demais Segmentos
-- **Cólon Transverso:** Mucosa normal, sem lesões focais
-- **Cólon Descendente:** Mucosa normal, padrão vascular preservado
-- **Cólon Sigmóide:** Sem alterações relevantes
-- **Reto:** Mucosa íntegra, sem estenose ou lesões
-
----
-
-## BIÓPSIA
-
-**Procedimento:** Realizada biópsia múltipla (4 fragmentos) da lesão, com pinça de biópsia adequada. Material obtido com dificuldade discreta devido à consistência endurecida da lesão. Colhidas amostras das margens e centro da lesão.
-
-**Resultado Histopatológico:**
-- **Diagnóstico:** Adenocarcinoma invasivo do cólon
-- **Tipo Histológico:** Adenocarcinoma tubular
-- **Grau de Diferenciação:** Moderadamente diferenciado (Grau II de Broders)
-- **Infiltração:** Presente em submucosa
-- **Margens:** Lesão atinge camada muscular própria na biópsia
-- **Presença de Mucina:** Sem componente mucinoso significativo
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Lesão maligna do cólon ascendente** – Adenocarcinoma invasivo, tipo circunferencial, com estenose luminal;
+- Cor: Avermelhada com áreas de necrose c
+o maligna do cólon ascendente** – Adenocarcinoma invasivo, tipo circunferencial, com estenose luminal;
 
 2. **Confirmação histopatológica** – Adenocarcinoma tubular, moderadamente diferenciado;
 
@@ -103,6 +73,13 @@ Paciente apresenta adenocarcinoma primário do cólon ascendente com morfologia 
 
 ## COMPLICAÇÕES
 
+Nenhuma complicação imediata identificada. Pacien
+ nova endoscopia diagnóstica até resolução da lesão, pelo risco de perfuração
+
+---
+
+## COMPLICAÇÕES
+
 Nenhuma complicação imediata identificada. Paciente apresentou recuperação adequada da sedação. Orientado sobre achados e encaminhamento para seguimento especializado.
 
 ---
@@ -114,4 +91,39 @@ Nenhuma complicação imediata identificada. Paciente apresentou recuperação a
 **Especialidade:** Gastroenterologia  
 **Subespecialidade:** Endoscopia Digestiva  
 
-**Assinatura:** 
+**Assinatura:**
+ecto: Ulcerado, com borda elevada e endurecida
+- Morfologia: Tipo Brinton III (circunferencial com estenose)
+- Cor: Avermelhada com áreas de necrose central
+- Consistência: Dura à palpação com pinça de biópsia
+- Sangramento: Presente, com gotejamento discreto ao toque instrumental
+
+**Lúmen Residual:** Redução importante da luz intestinal, estimada em aproximadamente 50% do calibre original, permitindo passagem limitada do aparelho.
+
+### Demais Segmentos
+- **Cólon Transverso:** Mucosa normal, sem lesões focais
+- **Cólon Descendente:** Mucosa normal, padrão vascular preservado
+- **Cólon Sigmóide:** Sem alterações relevantes
+- **Reto:** Mucosa íntegra, sem estenose ou lesões
+
+---
+
+## BIÓPSIA
+
+**Procedimento:** Realizada biópsia múltipla (4 fragmentos) da lesão, com pinça de biópsia adequada. Material obtido com dificuldade discreta devido à consistência endurecida da lesão. Colhidas amostras das margens e centro da lesão.
+
+**Resultado Histopatológico:**
+- **Diagnóstico:** Adenocarcinoma invasivo do cólon
+- **Tipo Histológico:** Adenocarcinoma tubular
+- **Grau de Diferenciação:** Moderadamente diferenciado (Grau II de Broders)
+- **Infiltração:** Presente em submucosa
+- **Margens:** Lesão atinge camada muscular própria na biópsia
+- **Presença de Mucina:** Sem componente mucinoso significativo
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Lesão maligna do cólon ascendente** – Adenocarcinoma invasivo, tipo circunferencial, com estenose luminal;
+
+2. **Confirmação histopatológica** – Adenocarc

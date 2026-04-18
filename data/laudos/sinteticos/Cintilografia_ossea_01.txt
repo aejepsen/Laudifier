@@ -1,44 +1,4 @@
-=== Cintilografia ossea — Variante 1 ===
-Especialidade: medicina_nuclear
-Cenário: cintilografia óssea sem focos de hipercaptação patológica
-Fonte: sintético — gerado por Claude
-
-# LAUDO DE CINTILOGRAFIA ÓSSEA
-
----
-
-## IDENTIFICAÇÃO DO EXAME
-
-**Paciente:** [NOME COMPLETO]  
-**Registro:** [NÚMERO RGH/PRONTUÁRIO]  
-**Data de Nascimento:** [DATA]  
-**Idade:** [IDADE] anos  
-**Sexo:** [M/F]  
-
-**Data do Exame:** [DATA]  
-**Hora do Exame:** [HORÁRIO]  
-**Especialidade:** Medicina Nuclear  
-**Tipo de Exame:** Cintilografia Óssea com Tc-99m MDP  
-**Equipamento:** Câmara Gama (Detectores: Dupla cabeça em configuração Low Energy High Resolution)  
-**Médico Solicitante:** [NOME E CRM]  
-
----
-
-## INDICAÇÃO CLÍNICA
-
-[INDICAÇÃO CLÍNICA - Ex: Avaliação de dor articular, pesquisa de metástases ósseas, avaliação de fratura de estresse, investigação de osteomielite, avaliação de lesão óssea não-específica]
-
----
-
-## TÉCNICA UTILIZADA
-
-Realizou-se cintilografia óssea com radiofármaco Tc-99m MDP (Metilenodifosfonato marcado com Tecnécio-99m) conforme protocolo padrão de três fases (fase vascular, fase de pooling sanguíneo e fase de equilíbrio/tardia).
-
-**Dose administrada:** 25-30 mCi (925-1.110 MBq) de Tc-99m MDP, por via intravenosa.
-
-**Intervalo pós-injeção:** Imagens adquiridas aproximadamente 3 horas após administração do radiofármaco.
-
-**Técnica de aquisição:** Cintilografia de corpo inteiro em projeções anterior e posterior, com matrix 256 x 256 píxels. Tempo de aquisição aproximadamente 20-30 minutos.
+ inteiro em projeções anterior e posterior, com matrix 256 x 256 píxels. Tempo de aquisição aproximadamente 20-30 minutos.
 
 **Imagens adicionais:** Realizadas imagens localizadas (magnificadas) quando necessário para melhor caracterização de regiões de interesse.
 
@@ -61,6 +21,25 @@ Coluna cervical e torácica com captação homogênea, sem focos de hipercaptaç
 
 **Região lombar e sacra:**  
 Coluna lombar e sacro com perfil de captação normal e simétrico, sem focos hipercaptantes. Sem sinais cintilográficos de espondilólise, espondilolistese ou outras lesões degenerativas significativas.
+
+**Pelve:**  
+Estruturas pélvicas com captação fisiológica simétrica, sem focos de hipercaptação patológica.
+
+**Membros superiore
+ dentro dos padrões normais para o caso**
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A cintilografia óssea realizada **não demonstra focos de hipercaptação anômala** sugestivos de:
+
+- Lesões metastáticas
+- Osteomielite aguda ou crônica
+- Fratura de estresse
+- Lesões osteocondensantes
+- Processos inflamatórios articulares de significado pat
+ivas significativas.
 
 **Pelve:**  
 Estruturas pélvicas com captação fisiológica simétrica, sem focos de hipercaptação patológica.
@@ -103,10 +82,46 @@ Cintilografia óssea de corpo inteiro evidenciando:
 
 ## CONCLUSÃO E RECOMENDAÇÕES
 
-A cintilografia óssea realizada **não demonstra focos de hipercaptação anômala** sugestivos de:
+A cintilografia óssea realizada **não demonstra focos de hipercaptação a
+Especialidade: medicina_nuclear
+Cenário: cintilografia óssea sem focos de hipercaptação patológica
+Fonte: sintético — gerado por Claude
 
-- Lesões metastáticas
-- Osteomielite aguda ou crônica
-- Fratura de estresse
-- Lesões osteocondensantes
-- Processos inflamatórios articulares de significado pat
+# LAUDO DE CINTILOGRAFIA ÓSSEA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Registro:** [NÚMERO RGH/PRONTUÁRIO]  
+**Data de Nascimento:** [DATA]  
+**Idade:** [IDADE] anos  
+**Sexo:** [M/F]  
+
+**Data do Exame:** [DATA]  
+**Hora do Exame:** [HORÁRIO]  
+**Especialidade:** Medicina Nuclear  
+**Tipo de Exame:** Cintilografia Óssea com Tc-99m MDP  
+**Equipamento:** Câmara Gama (Detectores: Dupla cabeça em configuração Low Energy High Resolution)  
+**Médico Solicitante:** [NOME E CRM]  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+[INDICAÇÃO CLÍNICA - Ex: Avaliação de dor articular, pesquisa de metástases ósseas, avaliação de fratura de estresse, investigação de osteomielite, avaliação de lesão óssea não-específica]
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizou-se cintilografia óssea com radiofármaco Tc-99m MDP (Metilenodifosfonato marcado com Tecnécio-99m) conforme protocolo padrão de três fases (fase vascular, fase de pooling sanguíneo e fase de equilíbrio/tardia).
+
+**Dose administrada:** 25-30 mCi (925-1.110 MBq) de Tc-99m MDP, por via intravenosa.
+
+**Intervalo pós-injeção:** Imagens adquiridas aproximadamente 3 horas após administração do radiofármaco.
+
+**Técnica de aquisição:** Cintilografia de corpo inteiro em projeções anterior e posterior, com matrix 256 x 256 píxels. Tempo de aquisição aproximadamente 20-30 minutos.
+
+**Imagens adicionais:** Re

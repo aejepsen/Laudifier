@@ -1,4 +1,3 @@
-=== US obstetrica — Variante 1 ===
 Especialidade: radiologia
 Cenário: gestação tópica de 20 semanas, morfologia fetal normal
 Fonte: sintético — gerado por Claude
@@ -45,6 +44,9 @@ Realizado exame de ultrassonografia em tempo real em modo B, com avaliação Dop
 
 **Localização:** Gestação tópica intrauterina, em cavidade endometrial.
 
+**Vitalidade Fetal:** Feto único, vivo, com batimentos cardíacos presentes e rítmi
+alização:** Gestação tópica intrauterina, em cavidade endometrial.
+
 **Vitalidade Fetal:** Feto único, vivo, com batimentos cardíacos presentes e rítmicos à frequência de aproximadamente 145 bpm.
 
 **Membranas Ovulares:** Íntegras, sem sinais de descoleamento.
@@ -77,6 +79,11 @@ Realizado exame de ultrassonografia em tempo real em modo B, com avaliação Dop
 - Distância interorbitária normal
 - Nariz com perfil normal
 - Lábios íntegros, sem fissura
+- Maxila e mandíbula com simetria e proporções adequadas
+
+**Coluna Vertebral:**
+- Alinhamento normal em todos os segmentos (cervical, to
+, sem fissura
 - Maxila e mandíbula com simetria e proporções adequadas
 
 **Coluna Vertebral:**

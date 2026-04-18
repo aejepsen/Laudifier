@@ -1,0 +1,63 @@
+# LAUDO DE RESSONÂNCIA MAGNÉTICA — COLUNA CERVICAL
+
+---
+
+## IDENTIFICAÇÃO
+
+**Paciente:** [NOME DO PACIENTE]  
+**Data do Exame:** [DATA DO EXAME]  
+**Modalidade:** Ressonância Magnética de Coluna Cervical  
+**CRM do Radiologista:** [CRM]  
+**Equipamento:** Ressonância Magnética 3.0 Tesla  
+**Tempo de Exame:** 28 minutos
+
+---
+
+## TÉCNICA
+
+Foram adquiridas sequências sagitais ponderadas em T1 (TR 650 ms / TE 12 ms), T2 (TR 3500 ms / TE 96 ms) e STIR (TR 4200 ms / TE 60 ms), além de sequências axiais em T1 e T2 nos níveis C3 a C7. Espessura de corte de 3,5 mm com intervalo de 0,35 mm. Campo de visão de 200 mm com matriz 256 x 256 pixels. Foram utilizados agentes de supressão de gordura sem necessidade de contraste paramagnético endovenoso.
+
+---
+
+## ACHADOS
+
+### Segmento C3-C4
+Disco vertebral com sinal homogêneo em T2, sem evidência de desidratação. Não há protrusão ou herniação discal. Espaço subaracnoideo anterior preservado. Platô vertebral íntegro. Foraminas de conjugação pérvias bilateralmente.
+
+### Segmento C4-C5
+Disco apresenta sinal T2 discretamente reduzido, compatível com leve desidratação. Contorno discal regular. Espaço subaracnoideo anterior com dimensão normal (medindo 6,8 mm no diâmetro anteroposterior). Foraminas de conjugação sem estenose. Ausência de hipertrofia articular facetária.
+
+### **Segmento C5-C6** — ACHADO PRINCIPAL
+Hérnia discal postero-central com componente posterolateral à direita, medindo 6,8 mm de extensão craniocaudal e 4,2 mm de protrusão no diâmetro anteroposterior. O disco apresenta redução significativa do sinal em T2 (degeneração discal grau III), sugestivo de desidratação importante. A herniação causa compressão do saco dural anterior, reduzindo o espaço subaracnoideo para 3,1 mm (redução de aproximadamente 55% em relação ao nível suprajacente). Evidencia-se contato do material discal com a medula espinal, com alteração do sinal medular adjacente em sequência T2, apresentando hipersinal focal medindo 8,4 mm de extensão craniocaudal, compatível com edema/mielopatia por compressão. Foramina de conjugação direita: estreitamento moderado (diâmetro de 5,2 mm). Foramina de conjugação esquerda: permeável (diâmetro de 7,1 mm). Raízes nervosas C6 direita e esquerda: contato compressivo à direita pelo material discal.
+
+### Segmento C6-C7
+Disco vertebral apresenta sinal T2 discretamente reduzido. Contorno discal regular. Espaço subaracnoideo anterior normal medindo 7,2 mm. Foraminas de conjugação pérvias bilateralmente. Raízes nervosas sem sinais de compressão ou estenose foraminal.
+
+### Segmento C7-T1
+Segmento não visualizado no campo de visão otimizado para coluna cervical. Recomenda-se extensão de protocolo se investigação de transição cervicotorácica for clinicamente indicada.
+
+### Medula Espinal
+- Calibre: Normal nos segmentos C3 a C5 (diâmetro médio 8,9 mm)
+- Intensidade de sinal T1/T2: Homogênea até o nível C5
+- **Nível C5-C6:** Hipersinal focal em T2 (edema medular), dimensões 8,4 mm craniocaudal x 6,1 mm no diâmetro transverso, com limite bem definido
+- Cone medular: Posicionado em nível normal (aproximadamente T1-T2)
+- Filamento terminal: Normal
+
+### Estruturas Ósseas
+**Corpos vertebrais:** Alturas normais, sem sinais de fraturas agudas ou crônicas. Pequenos osteófitos marginais em C5 e C6 (espondilose cervical leve). Sinais normais de medula óssea, sem lesões focais hipointensas ou hiperteresa sugestivas de metástases ou mieloma.
+
+**Platôs vertebrais:** Íntegros, sem edema subcondral ou sinais de espondilite.
+
+**Processos espinhosos:** Alinhamento normal em posição neutra.
+
+**Alinhamento cervical:** Preservado, sem cifose, lordose exagerada ou subluxação.
+
+### Articulações Facetárias
+- **C3-C4 à C4-C5:** Pequena hipertrofia articular, sem estenose canalicular significativa
+- **C5-C6:** Hipertrofia facetária bilateral modesta, contribuindo para estenose lateral à direita (foramina direita de 5,2 mm)
+- **C6-C7:** Mínima alteração degenerativa
+
+### Ligamentos
+**Ligamento longitudinal anterior:** Normal, sem espessamento.
+**Ligamento longitudinal posterior:** Espessado em C5-C6 (medindo 2,1 mm), associado à herniação discal.
+**Ligamento amarelo:** Discreto espessamento em C5-C6

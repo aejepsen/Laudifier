@@ -1,4 +1,3 @@
-=== Mamografia — Variante 1 ===
 Especialidade: radiologia
 Cenário: mamas sem alterações, BIRADS 1
 Fonte: sintético — gerado por Claude
@@ -49,6 +48,16 @@ Qualidade técnica: adequada, com posicionamento satisfatório e exposição oti
 - Ausência de nódulos, distorção arquitetural ou microcalcificações
 - Sem achados sugestivos de lesão de massa
 - Sem dilatação ductal
+
+**Glândula Mamária Esquerda:**
+- Contornos regulares, sem retração cutânea ou do complexo areolar
+- Parênquima apresenta aspecto homogêneo, sem área
+/AAAA]
+
+---
+
+**Nota:** Este laudo é confidencial e destina-se ao uso exclusivo do paciente e de seu médico solicitante. Reprodução parcial ou total sem autorização é proibida.
+
 
 **Glândula Mamária Esquerda:**
 - Contornos regulares, sem retração cutânea ou do complexo areolar
@@ -105,4 +114,4 @@ Data: [DD/MM/AAAA]
 
 ---
 
-**Nota:** Este laudo é confidencial e destina-se ao uso exclusivo do paciente e de seu médico solicitante. Reprodução parcial ou total sem autorização é proibida.
+**Nota:** Este laudo é confidencial e destina-se ao uso exclusivo do paciente e de seu médico solicitante. Reprodução parcial ou total se

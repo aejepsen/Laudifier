@@ -1,0 +1,63 @@
+# LAUDO DE PET-CT DE CORPO INTEIRO
+
+---
+
+## DADOS DO PACIENTE
+**Paciente:** [NOME DO PACIENTE]  
+**Data do Exame:** [DATA DO EXAME]  
+**Idade:** 58 anos  
+**Sexo:** Masculino  
+**Médico Solicitante:** Dr. Carlos Eduardo Mendes  
+**CRM:** [CRM]
+
+---
+
+## INDICAÇÃO CLÍNICA
+Estadiamento oncológico pós-tratamento de carcinoma de células escamosas de orofaringe. Investigação de possível recorrência locoregional e à distância.
+
+---
+
+## TÉCNICA E MÉTODO
+Realizado PET-CT de corpo inteiro com injeção intravenosa de 7,2 mCi (266 MBq) de fluordesoxiglicose marcada com F-18 (18F-FDG). Aquisição iniciada 65 minutos após a injeção do radiofármaco. Imagens de CT de baixa dose para correção de atenuação foram obtidas antes das imagens de PET. Foram adquiridas imagens axiais, coronais e sagitais. Estudo realizado em aparelho PET-CT de 64 detectores.
+
+---
+
+## ACHADOS
+
+### Região Cervical e Orofaringe
+Não há evidência de focos hipermetabólicos nos sítios de primário e drenagem linfática cervical. A laringe apresenta captação fisiológica simétrica de 18F-FDG (SUVmáx 2,1 bilateralmente). Não se observam linfonodos cervicais suspeitos. Menor eixo transverso dos linfonodos cervicais anteriores direitos mede 7 mm (3,8 mm em 2013). Cadeias jugulares, espinhais e supraclaviculares sem alterações significativas.
+
+### Tórax
+Os pulmões apresentam simetria de captação fisiológica de 18F-FDG. Não há focos nodulares hipercaptantes. Parênquima pulmonar sem opacidades ou lesões sugestivas de malignidade. Hilo pulmonares sem adenomegalia. Mediastino com captação fisiológica normal. Cadeia paraesternal direita com linfonodo de 6 mm, sem hipercaptação anormal (SUVmáx 1,9). Coração com captação fisiológica esperada. Derrame pleural bilateral mínimo (anterior direito medindo 8 mm em maior eixo). Parede torácica sem lesões hipercaptantes.
+
+### Abdome Superior
+Fígado apresenta distribuição homogênea de captação (SUVmáx 3,2), compatível com padrão normal. Não há lesões hipodensas ou hipercaptantes. Vesícula biliar colapsada, sem alterações. Via biliar intra-hepática não dilatada. Pâncreas com captação fisiológica uniforme (SUVmáx 2,4). Baço com captação dentro dos limites normais (SUVmáx 3,1). Rins com captação simétrica e homogênea.
+
+### Abdome Inferior
+Estômago com padrão de captação fisiológico. Alças de delgado sem alterações. Cólon com motilidade preservada e captação fisiológica. Ceco e apêndice cecal sem anomalias. Bexiga com captação esperada compatível com esvaziamento adequado. Próstata com volume normal e sem captação patológica anormal (SUVmáx 2,3).
+
+### Pelve e Retroperitônio
+Útero e adnexa não avaliados (paciente masculino). Espaço retroperitoneal sem evidência de adenomegalia. Aorta abdominal com calibre normal (diâmetro 17 mm). Sem trombos evidentes. Cadeia ganglionar aórtica sem linfonodos suspeitos. Cadeias ilíacas bilateralmente sem alterações significativas.
+
+### Esqueleto Axial e Apendicular
+Captação óssea fisiológica uniforme em vertebras cervicais, torácicas, lombares e sacro. Ilíacos com distribuição normal de traçador. Costelas, esterno e clavículas sem focos de hipercaptação patológica. Fêmures, tíbias, fíbulas e ossos pélvicos com padrão normal. Úmeros com captação simétrica. Sem evidência de metástases ósseas. Cartilagem articular das grandes articulações (ombros, cotovelos, joelhos) com captação fisiológica. Pequenos ossos de mãos e pés com distribuição esperada de 18F-FDG.
+
+### Drenagem Linfática
+Cadeias ganglionares mediastinais, mesentéricas, paraórticas, pélvicas e inguinais sem linfonodos hipercaptantes. Maior linfonodo identificado na cadeia mesentérica inferior mede 8 mm em menor eixo, sem captação patológica (SUVmáx 1,7).
+
+---
+
+## DADOS TÉCNICOS ADICIONAIS
+- **SUVmáx máximo no corpo inteiro:** 3,2 (fígado fisiológico)
+- **Nível de ruído de fundo:** adequado
+- **Qualidade da correção de atenuação:** excelente
+- **Artefatos:** nenhum significativo identificado
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Estudo PET-CT de corpo inteiro com 18F-FDG **NEGATIVO PARA FOCOS HIPERMETABÓLICOS PATOLÓGICOS**. Não há evidência de:
+
+1. Recorrência locoregional no leito de primário orofaríngeo
+2. Adenomegalia cervical suspe

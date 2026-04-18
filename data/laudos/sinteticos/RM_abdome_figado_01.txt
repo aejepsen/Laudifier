@@ -1,4 +1,92 @@
-=== RM abdome figado — Variante 1 ===
+nacionais (AASLD/EASL/ACR).
+
+---
+
+## ACHADOS
+
+### **FÍGADO:**
+
+O fígado apresenta volume normal, sem sinais de atrofia ou hipertrofia. A glândula demonstra **sinal homogêneo em todas as sequências**, sem alterações de intensidade que sugiram fibrose, esteatose ou cirrose. 
+
+**Não são identificadas lesões focais** em nenhum dos lobos hepáticos, nem em subcápsula. A arquitetura parenquimatosa encontra-se preservada, com padrão trabecular normal. O sinal de T2 é homogêneo sem realce anômalo após administração de contraste paramagnético.
+
+A intensidade de sinal no T1 é compatível com fígado de características normais. Não há evídência de esteatose macroscópica ou microvesicular.
+
+### **VIAS BILIARES INTRAHEPÁTICAS:**
+
+Discretas e sem dilatação. Não há evidências de coledocolitíase ou coledocopatia.
+
+### **VESÍCULA BILIAR:**
+
+Pálida, de forma e tamanho normais. Sem cálculos, lama biliar, ou sinais inflamatórios. Parede sem espessamento.
+
+### **VIAS BILIARES EXTRAHEPÁTICAS:**
+
+Colédoco com calibre normal (aproximadamente 4-5 mm), sem obstrução.
+
+### **PÂNCREAS:**
+
+Pâncreas com volume normal, sinal homogêneo. Contornos regulares. Sem lesões focais ou sinais de pancreatite.
+
+### **BAÇO:**
+
+Baço com volume normal, sinal homogêneo, sem lesões focais ou sinais de congestão.
+
+### **RINS E ADRENAIS:**
+
+Ambos os rins com volume e altura normal. Cortical simétrica e de sinal homogêneo. Sem cálculos, dilatação calicial ou pelves renais. Glândulas suprarrenais de volume normal, sem nódulos su
+________________________________________
+
+**CRM:** _________________ **Especialidade:** Radiologia e Diagnóstico por Imagem  
+**CREA Médica:** _________________
+
+**Data:** [___/___/_____]  
+**Hora:** [___:___]
+
+---
+
+*Laudo gerado em conformidade com as normas da Sociedade Brasileira de Radiologia (SBR) e Colégio Brasileiro de Radiologia (CBR
+l. Cortical simétrica e de sinal homogêneo. Sem cálculos, dilatação calicial ou pelves renais. Glândulas suprarrenais de volume normal, sem nódulos suspeitos.
+
+### **CAVIDADE PERITONEAL:**
+
+Sem ascite. Alças intestinais de calibre normal. Sem sinais de obstrução ou inflamação.
+
+### **ESTRUTURAS ÓSSEAS E MUSCULARES:**
+
+Corpos vertebrais de sinal normal, sem alterações degenerativas significativas. Musculatura paravertebral simétrica.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Fígado de aspecto completamente normal**, com sinal homogêneo em todas as sequências.
+2. **Ausência de lesões focais** hepáticas, cistos ou hemangiomas.
+3. **Vias biliares de calibre normal** sem obstrução.
+4. **Vesícula biliar sem alterações** patológicas.
+5. **Pâncreas, baço, rins e adrenais sem alterações**.
+6. **Cavidade peritoneal livre de ascite**.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+A ressonância magnética do abdome com protocolo hepático não demonstra alterações significativas. O fígado apresenta sinal homogêneo e parenquimatoso preservado, sem evidências de cirrose, fibrose, esteatose, ou lesões focais suspeitas.
+
+**Recomendações:**
+
+- Acompanhamento clínico conforme indicado
+- [Se aplicável: Controle clínico e laboratorial periódico]
+- [Se aplicável: Retorno para ressonância em 6-12 meses caso haja suspeita prévia]
+
+---
+
+## ASSINATURA
+
+**Dr(a).** _______________________________________________
+
+**CRM:** _________________ **Especialidade:** Radiologia e Diagnóstico por Imagem  
+**CREA Médica:** _______
 Especialidade: radiologia
 Cenário: fígado de sinal homogêneo, sem lesões focais
 Fonte: sintético — gerado por Claude
@@ -49,79 +137,4 @@ Protocolo realizado de acordo com recomendações internacionais (AASLD/EASL/ACR
 
 ### **FÍGADO:**
 
-O fígado apresenta volume normal, sem sinais de atrofia ou hipertrofia. A glândula demonstra **sinal homogêneo em todas as sequências**, sem alterações de intensidade que sugiram fibrose, esteatose ou cirrose. 
-
-**Não são identificadas lesões focais** em nenhum dos lobos hepáticos, nem em subcápsula. A arquitetura parenquimatosa encontra-se preservada, com padrão trabecular normal. O sinal de T2 é homogêneo sem realce anômalo após administração de contraste paramagnético.
-
-A intensidade de sinal no T1 é compatível com fígado de características normais. Não há evídência de esteatose macroscópica ou microvesicular.
-
-### **VIAS BILIARES INTRAHEPÁTICAS:**
-
-Discretas e sem dilatação. Não há evidências de coledocolitíase ou coledocopatia.
-
-### **VESÍCULA BILIAR:**
-
-Pálida, de forma e tamanho normais. Sem cálculos, lama biliar, ou sinais inflamatórios. Parede sem espessamento.
-
-### **VIAS BILIARES EXTRAHEPÁTICAS:**
-
-Colédoco com calibre normal (aproximadamente 4-5 mm), sem obstrução.
-
-### **PÂNCREAS:**
-
-Pâncreas com volume normal, sinal homogêneo. Contornos regulares. Sem lesões focais ou sinais de pancreatite.
-
-### **BAÇO:**
-
-Baço com volume normal, sinal homogêneo, sem lesões focais ou sinais de congestão.
-
-### **RINS E ADRENAIS:**
-
-Ambos os rins com volume e altura normal. Cortical simétrica e de sinal homogêneo. Sem cálculos, dilatação calicial ou pelves renais. Glândulas suprarrenais de volume normal, sem nódulos suspeitos.
-
-### **CAVIDADE PERITONEAL:**
-
-Sem ascite. Alças intestinais de calibre normal. Sem sinais de obstrução ou inflamação.
-
-### **ESTRUTURAS ÓSSEAS E MUSCULARES:**
-
-Corpos vertebrais de sinal normal, sem alterações degenerativas significativas. Musculatura paravertebral simétrica.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-1. **Fígado de aspecto completamente normal**, com sinal homogêneo em todas as sequências.
-2. **Ausência de lesões focais** hepáticas, cistos ou hemangiomas.
-3. **Vias biliares de calibre normal** sem obstrução.
-4. **Vesícula biliar sem alterações** patológicas.
-5. **Pâncreas, baço, rins e adrenais sem alterações**.
-6. **Cavidade peritoneal livre de ascite**.
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-A ressonância magnética do abdome com protocolo hepático não demonstra alterações significativas. O fígado apresenta sinal homogêneo e parenquimatoso preservado, sem evidências de cirrose, fibrose, esteatose, ou lesões focais suspeitas.
-
-**Recomendações:**
-
-- Acompanhamento clínico conforme indicado
-- [Se aplicável: Controle clínico e laboratorial periódico]
-- [Se aplicável: Retorno para ressonância em 6-12 meses caso haja suspeita prévia]
-
----
-
-## ASSINATURA
-
-**Dr(a).** _______________________________________________
-
-**CRM:** _________________ **Especialidade:** Radiologia e Diagnóstico por Imagem  
-**CREA Médica:** _________________
-
-**Data:** [___/___/_____]  
-**Hora:** [___:___]
-
----
-
-*Laudo gerado em conformidade com as normas da Sociedade Brasileira de Radiologia (SBR) e Colégio Brasileiro de Radiologia (CBR
+O fígado apresenta volume normal, sem sinais de atrofia ou hipertrofia. A glândula demo

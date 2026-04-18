@@ -1,4 +1,44 @@
-=== RX coluna lombar — Variante 1 ===
+pondilólise ou outras lesões traumáticas
+
+---
+
+## **CONCLUSÃO E RECOMENDAÇÕES**
+
+O estudo radiológico da coluna lombar não revela alterações patológicas nos limites da resolução técnica da radiografia simples.
+
+**Recomendações:**
+
+1. Correlação clínica com apresentação do paciente
+2. Persistindo sintomatologia, considerar avaliação complementar com **Ressonância Magnética da coluna lombar** para melhor análise de estruturas de partes moles, disco intervertebral e medula espinal
+3. Seguimento clínico conforme orientação do médico assistente
+
+---
+
+## **ASSINATURA E VALIDAÇÃO**
+
+---
+
+**Dr(a). [NOME DO RADIOLOGISTA]**
+
+CRM: [NÚMERO CRM] - [UF]
+
+Especialista em Radiologia e Diagnóstico por Imagem
+
+Certificação CBIR: [NÚMERO, se aplicável]
+
+Data: [DIA]/[MÊS]/[ANO]
+
+Hora: [HORÁRIO]
+
+---
+
+**Assinatura:** ________________________________
+
+**Carimbo/Assinatura Digital** (conforme regulamentação)
+
+---
+
+*Este laudo foi gerado em conformidade com as normas técnicas da Sociedade Brasileira de Radiologia (SBR) e segue os padrões de qualidade exigidos pelos órgãos reguladores.*
 Especialidade: radiologia
 Cenário: coluna lombar sem alterações
 Fonte: sintético — gerado por Claude
@@ -35,6 +75,11 @@ Radiografias da coluna lombar em incidências **ântero-posterior (AP)** e **per
 ### **Corpos Vertebrais e Discos Intervertebrais**
 
 Os corpos vertebrais de L1 a L5 apresentam altura adequada, com morfologia e densidade óssea normais. Não se identificam sinais de colapso, acunhamento ou fraturas. Os espaços discais de L1-L2, L2-L3, L3-L4, L4-L5 e L5-S1 encontram-se preservados, sem evidência de protusão, extrusão ou redução significativa da altura discal.
+
+### **Pedículos e Istmos**
+
+Pedículos bilaterais íntegros e simétricos em todos os níveis. Ist
+o, extrusão ou redução significativa da altura discal.
 
 ### **Pedículos e Istmos**
 
@@ -80,38 +125,4 @@ Achados compatíveis com coluna lombar normal:
 
 ## **CONCLUSÃO E RECOMENDAÇÕES**
 
-O estudo radiológico da coluna lombar não revela alterações patológicas nos limites da resolução técnica da radiografia simples.
-
-**Recomendações:**
-
-1. Correlação clínica com apresentação do paciente
-2. Persistindo sintomatologia, considerar avaliação complementar com **Ressonância Magnética da coluna lombar** para melhor análise de estruturas de partes moles, disco intervertebral e medula espinal
-3. Seguimento clínico conforme orientação do médico assistente
-
----
-
-## **ASSINATURA E VALIDAÇÃO**
-
----
-
-**Dr(a). [NOME DO RADIOLOGISTA]**
-
-CRM: [NÚMERO CRM] - [UF]
-
-Especialista em Radiologia e Diagnóstico por Imagem
-
-Certificação CBIR: [NÚMERO, se aplicável]
-
-Data: [DIA]/[MÊS]/[ANO]
-
-Hora: [HORÁRIO]
-
----
-
-**Assinatura:** ________________________________
-
-**Carimbo/Assinatura Digital** (conforme regulamentação)
-
----
-
-*Este laudo foi gerado em conformidade com as normas técnicas da Sociedade Brasileira de Radiologia (SBR) e segue os padrões de qualidade exigidos pelos órgãos reguladores.*
+O estudo radiológico da coluna lombar não revela alterações patológic

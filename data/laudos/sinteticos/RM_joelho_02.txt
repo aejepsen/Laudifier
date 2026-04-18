@@ -1,4 +1,49 @@
-=== RM joelho — Variante 2 ===
+ntornos regulares, sem alterações na densidade óssea. Sem evidência de fraturas agudas ou degenerativas. Ausência de edema ósseo significativo.
+
+### Meniscos:
+**Menisco Medial:** 
+- Visualiza-se solução de continuidade (*gap*) bem definida no corno posterior do menisco medial, com extensão superior a 8mm no sentido longitudinal
+- Sinal hiperintenso em T2 dentro da lesão, compatível com ruptura traumática
+- O fragmento meniscal distal apresenta deslocamento anterior, consistente com mecanismo de rotação
+- A raiz meniscal medial posterior encontra-se íntegra
+
+**Menisco Lateral:** 
+Morfologia preservada, sem alterações sinais ou contornos. Estrutura íntegra sem evidência de lesão.
+
+### Ligamentos:
+**Ligamento Cruzado Anterior (LCA):** Íntegro, sem sinais de ruptura ou degeneração. Traço contínuo em todas as sequências.
+
+**Ligamento Cruzado Posterior (LCP):** Preservado, sem alterações estruturais.
+
+**Ligamentos Colaterais:** 
+- Ligamento colateral medial (LCM): estrutura contínua, sem descontinuidades
+- Ligamento colateral lateral (LCL): íntegro e sem sinais de sofrimento
+
+**Complexo Posterolateral:** Sem alterações associadas.
+
+### Cartilagem Articular:
+Superfícies cartilagíneas femorais e tibiais com espessura preservada. Ausência de fissuras, ulcerações ou degeneração cartilaginosa focal. Cartilagem patelar íntegra.
+
+### Derrame Articular:
+Pequena quantidade de líquido sinovial dentro dos limites normais (< 10mm no recesso suprapatelar), consistente com reação pós-traumática 
+s meniscectomia artroscópica
+- Repouso relativo e proteção articular na fase aguda
+- Seguimento clínico em 7-10 dias para reavaliação
+- Em caso de sintomas persistentes ou bloqueio articular, considerar arthroscopia diagnóstica e terapêutica
+
+---
+
+## OBSERVAÇÕES ADICIONAIS
+
+Exame realizado com excelente qualidade técnica e colaboração do paciente. Imagens adequadas para diagnóstico.
+
+---
+
+## ASSINATURA
+
+**Dr(a). [NOME COMPLETO DO RADIOLOGISTA]**  
+**Registro de Especialista - Radiologia:** [NÚMERO]  
+**Conselho Regional de Medicina - CREMESP (ou UF):**
 Especialidade: radiologia
 Cenário: ruptura do menisco medial, corno posterior
 Fonte: sintético — gerado por Claude
@@ -43,31 +88,8 @@ Foram utilizados parâmetros otimizados com FOV apropriado e espessura de corte 
 ### Estruturas Ósseas:
 Os côndilos femorais, platô tibial e patela apresentam contornos regulares, sem alterações na densidade óssea. Sem evidência de fraturas agudas ou degenerativas. Ausência de edema ósseo significativo.
 
-### Meniscos:
-**Menisco Medial:** 
-- Visualiza-se solução de continuidade (*gap*) bem definida no corno posterior do menisco medial, com extensão superior a 8mm no sentido longitudinal
-- Sinal hiperintenso em T2 dentro da lesão, compatível com ruptura traumática
-- O fragmento meniscal distal apresenta deslocamento anterior, consistente com mecanismo de rotação
-- A raiz meniscal medial posterior encontra-se íntegra
-
-**Menisco Lateral:** 
-Morfologia preservada, sem alterações sinais ou contornos. Estrutura íntegra sem evidência de lesão.
-
-### Ligamentos:
-**Ligamento Cruzado Anterior (LCA):** Íntegro, sem sinais de ruptura ou degeneração. Traço contínuo em todas as sequências.
-
-**Ligamento Cruzado Posterior (LCP):** Preservado, sem alterações estruturais.
-
-**Ligamentos Colaterais:** 
-- Ligamento colateral medial (LCM): estrutura contínua, sem descontinuidades
-- Ligamento colateral lateral (LCL): íntegro e sem sinais de sofrimento
-
-**Complexo Posterolateral:** Sem alterações associadas.
-
-### Cartilagem Articular:
-Superfícies cartilagíneas femorais e tibiais com espessura preservada. Ausência de fissuras, ulcerações ou degeneração cartilaginosa focal. Cartilagem patelar íntegra.
-
-### Derrame Articular:
+### M
+ Articular:
 Pequena quantidade de líquido sinovial dentro dos limites normais (< 10mm no recesso suprapatelar), consistente com reação pós-traumática leve.
 
 ### Bolsas Sinoviais:
@@ -99,18 +121,4 @@ A ressonância magnética do joelho confirma **ruptura do menisco medial, especi
 - Avaliação ortopédica para discussão de tratamento conservador versus meniscectomia artroscópica
 - Repouso relativo e proteção articular na fase aguda
 - Seguimento clínico em 7-10 dias para reavaliação
-- Em caso de sintomas persistentes ou bloqueio articular, considerar arthroscopia diagnóstica e terapêutica
-
----
-
-## OBSERVAÇÕES ADICIONAIS
-
-Exame realizado com excelente qualidade técnica e colaboração do paciente. Imagens adequadas para diagnóstico.
-
----
-
-## ASSINATURA
-
-**Dr(a). [NOME COMPLETO DO RADIOLOGISTA]**  
-**Registro de Especialista - Radiologia:** [NÚMERO]  
-**Conselho Regional de Medicina - CREMESP (ou UF):**
+- Em caso de sin

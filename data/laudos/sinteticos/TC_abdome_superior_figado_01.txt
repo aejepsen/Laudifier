@@ -1,61 +1,4 @@
-=== TC abdome superior figado — Variante 1 ===
-Especialidade: radiologia
-Cenário: exame normal, fígado homogêneo sem lesões focais
-Fonte: sintético — gerado por Claude
-
-# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
-
----
-
-## IDENTIFICAÇÃO DO EXAME
-
-**Paciente:** [NOME COMPLETO]  
-**Data de Nascimento:** [DD/MM/AAAA]  
-**Sexo:** [M/F]  
-**Idade:** [XX] anos  
-**Registro/Prontuário:** [Nº PRONTUÁRIO]  
-
-**Solicitante:** [NOME DO MÉDICO SOLICITANTE]  
-**Data do Exame:** [DD/MM/AAAA]  
-**Hora do Exame:** [HH:MM]  
-**Equipamento:** Tomógrafo Helicoidal Multidetetor  
-
----
-
-## TÉCNICA UTILIZADA
-
-Realizado estudo tomográfico do abdômen superior com aquisição de cortes axiais contíguo contígua com espessura de 2mm, seguido de reformatações multiplanares (sagital e coronal). Realizado sem administração de contraste iodado endovenoso. Os achados foram documentados em série de imagens no formato DICOM, com análise em workstation dedicada.
-
----
-
-## ACHADOS
-
-### **FÍGADO**
-Fígado normodimensionado, ocupando seus espaços anatômicos habituais. Contorno hepatobiliar bem delimitado e regular. O parênquima hepático demonstra densidade homogênea, com atenuação radiológica compatível com parênquima normal. Não se identificam lesões focais, áreas de alteração de densidade, focos de hipodensidade ou hiperdensidade que sugiram processos expansivos, inflamatórios ou hemorrágicos. O padrão vascular intrahepático encontra-se preservado, sem evidências de dilatação das veias intrahepáticas ou sinais de hipertensão portal.
-
-### **VIAS BILIARES**
-Vesícula biliar tópica, com paredes finas e regulares. Colédoco com calibre normal. Não se identifica colelitíase, colecistite ou outras alterações das vias biliares.
-
-### **PÂNCREAS**
-Pâncreas com contorno regular e densidade homogênea. Volume dentro dos limites normais. Não se observam lesões focais ou dilatação do ducto pancreático principal.
-
-### **BAÇO**
-Baço normodimensionado, com atenuação radiológica homogênea. Ausência de lesões focais ou áreas de alteração de densidade.
-
-### **RINS**
-Ambos os rins apresentam tamanho e contorno normais, com corticais preservadas e diferenciação corticomedular adequada. Não se identificam lesões parenquimatosas, calcificações ou dilatação do sistema coletor.
-
-### **SUPRRENAIS**
-Glândulas suprarrenais simétricas e com aspecto normal. Ausência de lesões focais.
-
-### **GRANDES VASOS**
-Aorta abdominal com calibre normal e paredes regulares. Veia cava inferior patente, sem sinais de trombose. Demais vasos abdomais sem alterações significativas.
-
-### **ESPAÇO EXTRAPERITONEAL**
-Ausência de coleções líquidas, teciduais ou gasosas no espaço peritoneal. Gordura de permeio sem alterações relevantes.
-
-### **ESTRUTURAS ÓSSEAS VISUALIZADAS**
-Corpos vertebrais visualizados demonstram densidade óssea apropriada. Ausência de fraturas agudas, lesões líticas ou escleróticas significativas.
+izados demonstram densidade óssea apropriada. Ausência de fraturas agudas, lesões líticas ou escleróticas significativas.
 
 ---
 
@@ -98,3 +41,79 @@ Exame tomográfico de abdômen superior sem alterações detectáveis. Especific
 ---
 
 *Documento gerado em conformidade com as normas da Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR)*
+tico encontra-se preservado, sem evidências de dilatação das veias intrahepáticas ou sinais de hipertensão portal.
+
+### **VIAS BILIARES**
+Vesícula biliar tópica, com paredes finas e regulares. Colédoco com calibre normal. Não se identifica colelitíase, colecistite ou outras alterações das vias biliares.
+
+### **PÂNCREAS**
+Pâncreas com contorno regular e densidade homogênea. Volume dentro dos limites normais. Não se observam lesões focais ou dilatação do ducto pancreático principal.
+
+### **BAÇO**
+Baço normodimensionado, com atenuação radiológica homogênea. Ausência de lesões focais ou áreas de alteração de densidade.
+
+### **RINS**
+Ambos os rins apresentam tamanho e contorno normais, com corticais preservadas e diferenciação corticomedular adequada. Não se identificam lesões parenquimatosas, calcificações ou dilatação do sistema coletor.
+
+### **SUPRRENAIS**
+Glândulas suprarrenais simétricas e com aspecto normal. Ausência de lesões focais.
+
+### **GRANDES VASOS**
+Aorta abdominal com calibre normal e paredes regulares. Veia cava inferior patente, sem sinais de trombose. Demais vasos abdomais sem alterações significativas.
+
+### **ESPAÇO EXTRAPERITONEAL**
+Ausência de coleções líquidas, teciduais ou gasosas no espaço peritoneal. Gordura de permeio sem alterações relevantes.
+
+### **ESTRUTURAS ÓSSEAS VISUALIZADAS**
+Corpos vertebrais visualizados demonstram densidade óssea apropriada. Ausência de fraturas agudas, lesões líticas ou escleróticas significativas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTI
+Especialidade: radiologia
+Cenário: exame normal, fígado homogêneo sem lesões focais
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Data de Nascimento:** [DD/MM/AAAA]  
+**Sexo:** [M/F]  
+**Idade:** [XX] anos  
+**Registro/Prontuário:** [Nº PRONTUÁRIO]  
+
+**Solicitante:** [NOME DO MÉDICO SOLICITANTE]  
+**Data do Exame:** [DD/MM/AAAA]  
+**Hora do Exame:** [HH:MM]  
+**Equipamento:** Tomógrafo Helicoidal Multidetetor  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizado estudo tomográfico do abdômen superior com aquisição de cortes axiais contíguo contígua com espessura de 2mm, seguido de reformatações multiplanares (sagital e coronal). Realizado sem administração de contraste iodado endovenoso. Os achados foram documentados em série de imagens no formato DICOM, com análise em workstation dedicada.
+
+---
+
+## ACHADOS
+
+### **FÍGADO**
+Fígado normodimensionado, ocupando seus espaços anatômicos habituais. Contorno hepatobiliar bem delimitado e regular. O parênquima hepático demonstra densidade homogênea, com atenuação radiológica compatível com parênquima normal. Não se identificam lesões focais, áreas de alteração de densidade, focos de hipodensidade ou hiperdensidade que sugiram processos expansivos, inflamatórios ou hemorrágicos. O padrão vascular intrahepático encontra-se preservado, sem evidências de dilatação das veias intrahepáticas ou sinais de hipertensão portal.
+
+### **VIAS BILIARES**
+Vesícula bil
+OLOGISTA]
+Crédito de Especialista (CREMESP): [Nº]
+Radiologia e Diagnóstico por Imagem
+Data: [DD/MM/AAAA]
+Hora: [HH:MM]
+```
+
+---
+
+**Número do Laudo:** [XXXX-XXXX]  
+**Status:** ☑ ASSINADO DIGITALMENTE

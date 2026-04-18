@@ -1,0 +1,76 @@
+# LAUDO DE ULTRASSONOGRAFIA DO ABDOME
+
+**Dados do Exame:**
+- **Paciente:** [NOME DO PACIENTE]
+- **Data do Exame:** [DATA DO EXAME]
+- **Médico Solicitante:** [CRM]
+- **Aparelho:** Ultrassom Philips HD11 XE com transdutor convexo 3,5 MHz
+- **Tempo de Exame:** 28 minutos
+
+---
+
+## TÉCNICA
+
+Ultrassonografia em tempo real do abdome total, realizada com paciente em decúbito dorsal e oblíquo, em apneia inspiratória e expiratória. Avaliação sistemática de fígado, vias biliares, pâncreas, baço, rins, aorta abdominal e órgãos pélvicos.
+
+---
+
+## ACHADOS
+
+### **FÍGADO**
+
+O fígado apresenta dimensões normais, com comprimento do lobo direito medindo 14,8 cm e lobo esquerdo 7,2 cm. Contornos hepáticos regulares e lisos. Ecotextura difusamente heterogênea, com aumento difuso da ecogenicidade em relação ao cortex renal direito e ao baço, caracterizando esteatose hepática.
+
+A avaliação pelo índice de atenuação controlada (CAP) demonstra valor de 312 dB/m, compatível com esteatose hepática grau II (moderada). O padrão de aumento de ecogenicidade intrahepático é uniforme, sem áreas de poupança.
+
+Não há evidência de lesões focais sólidas ou císticas. Sem dilatação de ramos portais intrahepáticos. Calibre da veia porta medindo 11 mm, dentro dos limites normais. Fluxo portal hepatófugo presente, com velocidade de 28 cm/s, preservado.
+
+Análise elastográfica por ultrassom de cisalhamento (SWE) revela valores de elasticidade média de 6,2 kPa, sugestivo de ausência de fibrose significativa.
+
+### **VIAS BILIARES**
+
+Colédoco com calibre de 4,1 mm. Vesícula biliar de volume normal (27 mm x 18 mm), paredes finas e regulares, sem sinais de colecistite aguda. Conteúdo ecolucente homogêneo, sem cálculos, lama biliar ou debris. Sem sinais de impedimento ao trato de saída.
+
+### **PÂNCREAS**
+
+Pâncreas com dimensões normais: cabeça medindo 24 mm, corpo 19 mm e cauda 21 mm. Ecotextura homogênea e ecogenicidade apropriada para a idade. Ducto pancreático de calibre normal, medindo 2,8 mm.
+
+Sem evidência de lesões focais, calcificações ou dilatação ductal. Região peripancreática livre de coleções ou linfonodos suspeitos.
+
+### **BAÇO**
+
+Baço de volume normal, medindo 9,8 cm no maior eixo. Ecotextura homogênea, ecogenicidade normal. Sem esplenomegalia. Sem lesões focais identificadas. Hilo esplênico sem particularidades.
+
+### **RINS**
+
+**Rim Direito:** Comprimento de 10,9 cm, contornos regulares, ecotextura corticomedular preservada com diferenciação normal entre córtex (ecogenicidade de 54 UH) e medula. Sem sinais de dilatação das coleções intrarrenais. Sem cálculos, cistos ou lesões focais. Seio renal de aspecto normal.
+
+**Rim Esquerdo:** Comprimento de 11,2 cm, contornos regulares. Ecotextura corticomedular bem diferenciada. Ausência de sinais de hidronefrose. Sem cálculos ou lesões. Aspecto ultrassonográfico normal.
+
+Ambos os rins com parênquima de espessura adequada (aproximadamente 16 mm).
+
+### **AORTA ABDOMINAL**
+
+Aorta abdominal de calibre normal, medindo 18 mm no seu maior diâmetro transversal ao nível do hilo renal. Paredes ecogênicas regulares, sem sinais de aneurisma, dissecção ou aterosclerose severa. Fluxo arterial presente e simétrico bilateralmente.
+
+### **ÓRGÃOS PÉLVICOS (avaliação limitada ao suprapúbico)**
+
+Bexiga urinária com paredes finas e regulares, parcialmente preenchida. Conteúdo ecolucente homogêneo, sem cálculos ou lesões.
+
+### **ACHADOS SECUNDÁRIOS**
+
+- Pequeno volume de líquido livre perihepático, de aspecto anecoico, medindo aproximadamente 40 mL
+- Linfonodos mesentéricos discretos, maiores em dimensão de 6 mm x 4 mm, de aspecto reacional
+- Ausência de ascite significativa
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Esteatose hepática grau II (moderada)** — caracterizada por aumento difuso da ecogenicidade parenquimatosa hepática com CAP de 312 dB/m, na ausência de sinais de fibrose avançada (elasticidade de 6,2 kPa) ou cirrose.
+
+2. **Fígado com tamanho e contornos normais** — sem evidência de lesões focais sólidas ou císticas.
+
+3. **Vias biliares intrahepáticas e extrahepáticas pérvias** — colédoco com calibre normal (4,1 mm).
+
+4. **Vesícula biliar normal** — sem cálculos, colecistite ou sinais de

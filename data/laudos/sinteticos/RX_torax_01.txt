@@ -1,4 +1,3 @@
-=== RX torax — Variante 1 ===
 Especialidade: radiologia
 Cenário: radiografia de tórax sem alterações
 Fonte: sintético — gerado por Claude
@@ -40,6 +39,24 @@ Radiografia de tórax realizada em incidência posteroanterior e perfil (lateral
 
 **Mediastino:** Contorno mediastinal dentro dos limites normais. Silhueta cardíaca com dimensões normais (índice cardiotorácico preservado, inferior a 50%). Coração em posição anatômica habitual. Sem sinais de cardiomegalia ou desvios do eixo mediastinal.
 
+**Estruturas ósseas:
+_________________________
+
+**Nome (legível):** ___________________________________________
+
+**Especialidade:** Radiologia
+
+**CRM:** ______________________ **CNPJ (clínica):** ______________________
+
+**Data:** ____/____/______  |  **Horário:** __________
+
+**Assinatura:** ___________________________________________
+
+---
+
+*Laudo em conformidade com a Resolução CFM nº 1.734/2016 e Código de Ética Médica*
+ preservado, inferior a 50%). Coração em posição anatômica habitual. Sem sinais de cardiomegalia ou desvios do eixo mediastinal.
+
 **Estruturas ósseas:** Coluna dorsal com curvatura fisiológica preservada. Corpos vertebrais íntegros com altura normal. Arcos costais íntegros bilateralmente. Clavículas e escápulas sem alterações. Sem sinais de lise, condensação ou fraturas.
 
 **Diafragma:** Cúpulas diafragmáticas simétricas e com contornos nítidos. Ângulos costofrênicos agudos bilateralmente. Seio costofrênico sem derrame.
@@ -75,12 +92,4 @@ Radiografia de tórax **sem alterações agudas**. Campos pulmonares, mediastino
 
 **Especialidade:** Radiologia
 
-**CRM:** ______________________ **CNPJ (clínica):** ______________________
-
-**Data:** ____/____/______  |  **Horário:** __________
-
-**Assinatura:** ___________________________________________
-
----
-
-*Laudo em conformidade com a Resolução CFM nº 1.734/2016 e Código de Ética Médica*
+**CRM:** __________________

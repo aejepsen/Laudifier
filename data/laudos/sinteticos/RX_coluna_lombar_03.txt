@@ -1,4 +1,3 @@
-=== RX coluna lombar — Variante 3 ===
 Especialidade: radiologia
 Cenário: escoliose lombar de 18 graus, Cobb
 Fonte: sintético — gerado por Claude
@@ -44,6 +43,57 @@ Realizado exame radiográfico da coluna lombar em incidências anteroposterior e
 - Os espaços discais demonstram altura preservada de L1 a L5, com discreta redução em L4-L5.
 
 **Análise do Alinhamento Sagital:**
+- A lordose
+omas neurológicos associados, considerar investigação complementar com ressonância magnética.
+
+---
+
+## RESPONSABILIDADE TÉCNICA
+
+**Tecnólogo em Radiologia:** [NOME - CREFITO Nº]
+
+---
+
+## ASSINATURA DO RADIOLOGISTA
+
+**Médico Radiologista:**  
+**Nome:** [NOME COMPLETO]  
+**CRM:** [NÚMERO/UF]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Registro no CREMESP/Conselho Regional:** [NÚMERO]
+ombar.
+
+2. **Lordose Fisiológica Mantida** – Alinhamento sagital preservado sem sinais de cifose anormal.
+
+3. **Discreta Redução de Altura Discal em L4-L5** – Compatível com degeneração discal incipiente, sem colapso vertebral associado.
+
+4. **Forame Intervertebrais Pérvios** – Sem estenose significativa em qualquer nível.
+
+5. **Sem Outras Alterações Significativas** – Não há evidência de fraturas, lispondese, síndrome espondilolítica ou afecções ósseas secundárias.
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+Exame radiográfico da coluna lombar revelando **escoliose de grau leve (18° de Cobb)** com padrão típico de deformidade lombar. A magnitude da curvatura situa-se dentro do grupo de escoliose leve (10-25°), não requerendo intervenção cirúrgica no momento. As alterações degenerativas discais são mínimas e compatíveis com o padrão etário.
+
+**Recomendações:**
+
+- Seguimento clínico periódico com reavaliação radiográfica em **6 a 12 meses** para monitorar progressão da deformidade, particularmente se paciente encontra-se em fase de crescimento.
+- Reforço de medidas de higiene postural, fisioterapia e fortalecimento da musculatura paravertebral.
+- Evitar atividades que sobrecarreguem excessivamente a coluna lombar.
+- Avaliação clínica seriada quanto ao aparecimento de sintomatologia ou alterações do padrão de crescimento.
+- Caso haja sintomas neurológicos associados, considerar investigação complementar com ressonância magnética.
+
+---
+
+## RESPONSABILIDADE TÉCNICA
+
+**Tecnólogo em Radiol
+cativos.
+- Os espaços discais demonstram altura preservada de L1 a L5, com discreta redução em L4-L5.
+
+**Análise do Alinhamento Sagital:**
 - A lordose fisiológica lombar encontra-se mantida.
 - Não há anterolistese ou retrolistese significativa em nível algum.
 
@@ -72,38 +122,4 @@ Realizado exame radiográfico da coluna lombar em incidências anteroposterior e
 
 2. **Lordose Fisiológica Mantida** – Alinhamento sagital preservado sem sinais de cifose anormal.
 
-3. **Discreta Redução de Altura Discal em L4-L5** – Compatível com degeneração discal incipiente, sem colapso vertebral associado.
-
-4. **Forame Intervertebrais Pérvios** – Sem estenose significativa em qualquer nível.
-
-5. **Sem Outras Alterações Significativas** – Não há evidência de fraturas, lispondese, síndrome espondilolítica ou afecções ósseas secundárias.
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-Exame radiográfico da coluna lombar revelando **escoliose de grau leve (18° de Cobb)** com padrão típico de deformidade lombar. A magnitude da curvatura situa-se dentro do grupo de escoliose leve (10-25°), não requerendo intervenção cirúrgica no momento. As alterações degenerativas discais são mínimas e compatíveis com o padrão etário.
-
-**Recomendações:**
-
-- Seguimento clínico periódico com reavaliação radiográfica em **6 a 12 meses** para monitorar progressão da deformidade, particularmente se paciente encontra-se em fase de crescimento.
-- Reforço de medidas de higiene postural, fisioterapia e fortalecimento da musculatura paravertebral.
-- Evitar atividades que sobrecarreguem excessivamente a coluna lombar.
-- Avaliação clínica seriada quanto ao aparecimento de sintomatologia ou alterações do padrão de crescimento.
-- Caso haja sintomas neurológicos associados, considerar investigação complementar com ressonância magnética.
-
----
-
-## RESPONSABILIDADE TÉCNICA
-
-**Tecnólogo em Radiologia:** [NOME - CREFITO Nº]
-
----
-
-## ASSINATURA DO RADIOLOGISTA
-
-**Médico Radiologista:**  
-**Nome:** [NOME COMPLETO]  
-**CRM:** [NÚMERO/UF]  
-**Especialidade:** Radiologia e Diagnóstico por Imagem  
-**Registro no CREMESP/Conselho Regional:** [NÚMERO]
+3. **Discreta Redução de Altura Discal em L

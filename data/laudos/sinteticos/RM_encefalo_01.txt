@@ -1,4 +1,3 @@
-=== RM encefalo — Variante 1 ===
 Especialidade: radiologia
 Cenário: encéfalo sem alterações de sinal ou morfologia
 Fonte: sintético — gerado por Claude
@@ -46,25 +45,8 @@ Campo de visão adequado com boa relação sinal-ruído.
 
 O parênquima encefálico apresenta sinal normal nas sequências ponderadas em T1 e T2. Não são identificadas alterações focais de sinal que sugiram lesões isquêmicas, hemorrágicas, expansivas ou inflamatórias. A substância branca e cinzenta apresentam diferenciação adequada em todos os níveis.
 
-### **Ventrículos e Espaços Subaracnóideos**
-
-Os ventrículos laterais, terceiro e quarto ventrículos encontram-se normais em tamanho e forma, sem sinais de hidrocefalia. O sistema ventricular apresenta circulação liquórica preservada. Os espaços subaracnóideos encontram-se pérvios e sem sinais de espessamento meníngeo ou acúmulo de líquor anormal.
-
-### **Estruturas da Linha Média**
-
-O corpo caloso apresenta aspecto normal com espessura e morfologia adequadas. A glândula pineal não apresenta calcificação relevante e não há alterações de sinal. A hipófise apresenta dimensões normais (altura aproximada de [X] mm), com intensidade de sinal normal e sem imagem expansiva associada.
-
-### **Tronco Encefálico e Cerebelo**
-
-O tronco encefálico apresenta sinal e morfologia normais em todas as sequências. O cerebelo exibe volume adequado sem atrofia ou lesões focais. Os pedúnculos cerebelares mantêm relações anatômicas normais.
-
-### **Estruturas Profundas**
-
-Os gânglios da base, tálamo e estruturas temporais internas apresentam sinal normal, sem alterações de densidade ou morfologia.
-
-### **Angiorressonância (ARM) - Artérias Intracranianas**
-
-As artérias cerebrais anterior, média e posterior bilateralmente apresentam calibre normal e fluxo preservado, sem estenose, oclusão ou aneurismas detectáveis. Artérias carótidas internas com trajeto e calibre normais. Artéria basilar pérvio com fluxo normal.
+### **Ventrí
+e apresentam calibre normal e fluxo preservado, sem estenose, oclusão ou aneurismas detectáveis. Artérias carótidas internas com trajeto e calibre normais. Artéria basilar pérvio com fluxo normal.
 
 ### **Venografia (VRM) - Seios Venosos**
 
@@ -103,6 +85,33 @@ Exame de qualidade técnica adequada. Não há limitações significativas que p
 
 **Dr(a). [NOME COMPLETO DO RADIOLOGISTA]**  
 **CRM:** [NÚMERO DO CRM]/[UF]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**RQE:** [NÚMERO DA RQE]  
+
+**Data:** [DD/MM/AAAA]  
+**Assinatur
+uêmicas, hemorrágicas, expansivas ou inflamatórias. A substância branca e cinzenta apresentam diferenciação adequada em todos os níveis.
+
+### **Ventrículos e Espaços Subaracnóideos**
+
+Os ventrículos laterais, terceiro e quarto ventrículos encontram-se normais em tamanho e forma, sem sinais de hidrocefalia. O sistema ventricular apresenta circulação liquórica preservada. Os espaços subaracnóideos encontram-se pérvios e sem sinais de espessamento meníngeo ou acúmulo de líquor anormal.
+
+### **Estruturas da Linha Média**
+
+O corpo caloso apresenta aspecto normal com espessura e morfologia adequadas. A glândula pineal não apresenta calcificação relevante e não há alterações de sinal. A hipófise apresenta dimensões normais (altura aproximada de [X] mm), com intensidade de sinal normal e sem imagem expansiva associada.
+
+### **Tronco Encefálico e Cerebelo**
+
+O tronco encefálico apresenta sinal e morfologia normais em todas as sequências. O cerebelo exibe volume adequado sem atrofia ou lesões focais. Os pedúnculos cerebelares mantêm relações anatômicas normais.
+
+### **Estruturas Profundas**
+
+Os gânglios da base, tálamo e estruturas temporais internas apresentam sinal normal, sem alterações de densidade ou morfologia.
+
+### **Angiorressonância (ARM) - Artérias Intracranianas**
+
+As artérias cerebrais anterior, média e posterior bilateralmente apresentam calibre normal e fluxo preservado, sem estenose, oclusão ou aneurismas detectáveis. Artérias carótidas internas com trajeto e calibre nor
+RM:** [NÚMERO DO CRM]/[UF]  
 **Especialidade:** Radiologia e Diagnóstico por Imagem  
 **RQE:** [NÚMERO DA RQE]  
 

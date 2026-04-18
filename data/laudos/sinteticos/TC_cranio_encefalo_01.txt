@@ -1,4 +1,63 @@
-=== TC cranio encefalo — Variante 1 ===
+. Sem evidências de espessamento meníngeo ou coleção subdural.
+
+**Estruturas Vasculares:**  
+Não há evidências de hiperdensidade espontânea nos territórios vasculares que sugira hemorragia. As principais estruturas vasculares apresentam calibre normal ao nível dos voxels avaliados.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Tomografia computadorizada do crânio e encéfalo **SEM ALTERAÇÕES SIGNIFICATIVAS**.
+
+Não se identificam:
+- Lesões intracranianas focais ou difusas
+- Sinais de infarto cerebral agudo ou crônico
+- Hemorragia intracraniana ou epidural
+- Lesões expansivas (neoplasias, cistos, hematomas)
+- Hidrocefalia ou deslocamento de estruturas da linha média
+- Inflamação ou infecção meníngea
+- Traumatismo cranioencefálico agudo
+- Anomalias vasculares aparentes
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+O estudo apresenta resultado **NORMAL**, sem evidências de patologia intracraniana aguda ou crônica que explique a sintomatologia clínica.
+
+**Recomendações:**
+- Resultado compatível com exame normal para a faixa etária do paciente
+- Correlação clínica recomendada conforme protocolo do médico assistente
+- Caso persista a sintomatologia, considerar investigação complementar com Ressonância Magnética de Crânio ou outros métodos de imagem conforme julgamento clínico
+- Arquivamento dos dados digitais em sistema PACS para eventual comparação com futuras investigações
+- Seguimento clínico conforme protocolo do serviço solicitante
+
+---
+
+## ASSINATURA
+
+**Médico Radiologista:** _________________________
+s investigações
+- Seguimento clínico conforme protocolo do serviço solicitante
+
+---
+
+## ASSINATURA
+
+**Médico Radiologista:** _________________________________
+
+**Nome:** [NOME COMPLETO]  
+**CRM/CREMESP:** [NÚMERO DO REGISTRO]  
+**Especialidade:** Radiologia e Diagnóstico por Imagem  
+**Data:** [DD/MM/AAAA]  
+**Hora:** [HH:MM]  
+
+**Carimbo:**  
+[CARIMBO COM DADOS DO MÉDICO E DA INSTITUIÇÃO]
+
+---
+
+**Nota:** Este laudo é de caráter confidencial e destina-se exclusivamente ao médico solicitante e ao
 Especialidade: radiologia
 Cenário: exame normal, sem lesões intracranianas
 Fonte: sintético — gerado por Claude
@@ -39,6 +98,8 @@ Realizado estudo tomográfico helicoidal do crânio e encéfalo com espessura de
 Os ventrículos cerebrais (laterais, terceiro e quarto ventrículos) apresentam dimensões e morfologia normais, sem evidências de dilatação ou deslocamento. O sistema de circulação liquórica encontra-se pérvio.
 
 **Parênquima Encefálico:**  
+O tecido cerebral demonstra aspecto homogêneo e simétrico, com preservação adequada da diferenciação entre substância cinzenta e b
+ima Encefálico:**  
 O tecido cerebral demonstra aspecto homogêneo e simétrico, com preservação adequada da diferenciação entre substância cinzenta e branca. Não se identificam áreas de hipoatenuação, hiperfibrância, calcificações intraparenquimatosas ou lesões focais sugestivas de isquemia, hemorragia ou processo expansivo.
 
 **Córtex e Estruturas Profundas:**  
@@ -60,52 +121,4 @@ Calvária apresenta integridade estrutural com contornos lisos, sem solução de
 Espaços subaracnoides de amplitude normal. Cisternas basais pérvias e simétricas. Sem evidências de espessamento meníngeo ou coleção subdural.
 
 **Estruturas Vasculares:**  
-Não há evidências de hiperdensidade espontânea nos territórios vasculares que sugira hemorragia. As principais estruturas vasculares apresentam calibre normal ao nível dos voxels avaliados.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-Tomografia computadorizada do crânio e encéfalo **SEM ALTERAÇÕES SIGNIFICATIVAS**.
-
-Não se identificam:
-- Lesões intracranianas focais ou difusas
-- Sinais de infarto cerebral agudo ou crônico
-- Hemorragia intracraniana ou epidural
-- Lesões expansivas (neoplasias, cistos, hematomas)
-- Hidrocefalia ou deslocamento de estruturas da linha média
-- Inflamação ou infecção meníngea
-- Traumatismo cranioencefálico agudo
-- Anomalias vasculares aparentes
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-O estudo apresenta resultado **NORMAL**, sem evidências de patologia intracraniana aguda ou crônica que explique a sintomatologia clínica.
-
-**Recomendações:**
-- Resultado compatível com exame normal para a faixa etária do paciente
-- Correlação clínica recomendada conforme protocolo do médico assistente
-- Caso persista a sintomatologia, considerar investigação complementar com Ressonância Magnética de Crânio ou outros métodos de imagem conforme julgamento clínico
-- Arquivamento dos dados digitais em sistema PACS para eventual comparação com futuras investigações
-- Seguimento clínico conforme protocolo do serviço solicitante
-
----
-
-## ASSINATURA
-
-**Médico Radiologista:** _________________________________
-
-**Nome:** [NOME COMPLETO]  
-**CRM/CREMESP:** [NÚMERO DO REGISTRO]  
-**Especialidade:** Radiologia e Diagnóstico por Imagem  
-**Data:** [DD/MM/AAAA]  
-**Hora:** [HH:MM]  
-
-**Carimbo:**  
-[CARIMBO COM DADOS DO MÉDICO E DA INSTITUIÇÃO]
-
----
-
-**Nota:** Este laudo é de caráter confidencial e destina-se exclusivamente ao médico solicitante e ao
+Não há evidências de hiperdensidade espontânea nos territ

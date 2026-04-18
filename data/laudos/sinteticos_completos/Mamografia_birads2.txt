@@ -1,0 +1,68 @@
+# LAUDO MÉDICO — MAMOGRAFIA BILATERAL
+
+---
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**IDADE:** 52 anos | **SEXO:** Feminino  
+**MÉDICO SOLICITANTE:** Clínica de Mastologia  
+**RADIOLOGISTA:** Dr. [CRM]  
+**EQUIPAMENTO:** Mamógrafo Digital de Campo Completo (FFDM) — Marca Hologic Selenia
+
+---
+
+## TÉCNICA
+
+Mamografia digital bilateral em incidências craniocaudal (CC) e oblíqua mediolateral (MLO) realizadas sob compressão adequada. Qualidade técnica satisfatória. Não visualizadas artefatos significativos.
+
+---
+
+## ACHADOS
+
+### Lado Direito (OD):
+
+**Densidade Mamária:** Moderadamente densa — aproximadamente 45% do tecido glandular distribuído uniformemente.
+
+**Estruturas Normais:** Parênquima de densidade fibroglandular regular, sem distorção arquitetural. Complexo areolar-papilar dentro dos limites normais, medindo 8 mm de diâmetro. Visualizadas estruturas vasculares e ligamentares próprias da mama sem alterações.
+
+**Achados Benignos:** 
+- Nódulo sólido bem delimitado em quadrante superolateral (QSL), região 10-11 horas, medindo 6 mm × 5 mm, de contornos ovalados e limites precisos, sem halo denso. Densidade isodensa ao parênquima adjacente. Consistente com fibroadenoma involução ou nódulo fibroso benigno. 
+- Microcalcificações verrucosas dispersas em quadrante supermedial (QSM), agrupadas em área de 8 mm, sem tendência linear, morfologia benigna (tipo vascular e involução gordurosa). Sem características de alta suspeição.
+
+### Lado Esquerdo (OE):
+
+**Densidade Mamária:** Moderadamente densa — aproximadamente 42% do tecido glandular com distribuição homogênea.
+
+**Estruturas Normais:** Parênquima simétrico e sem distorções. Complexo areolar-papilar mede 7 mm. Arquitetura preservada.
+
+**Achados Benignos:**
+- Pequena área de densificação focal em quadrante inferomedial (QIM), região 4-5 horas, medindo 4 mm × 3 mm, bem circunscrita, correspondente a nódulo de alta densidade (aproximadamente 120 UH em escala de equivalência densitométrica). Sem captação em imagem com compressão. Sugestivo de fibroadenoma involuído ou cicatriz focal benigna.
+- Múltiplas microcalcificações serpiginosas compatíveis com involução gordurosa, distribuídas no parênquima superior, sem agrupamento focal que desperte suspeita.
+- Raras microcalcificações vasovasais em região de complexo areolar.
+
+---
+
+## ANÁLISE COMPARATIVA
+
+Mamografia prévia de 24 meses atrás (quando disponível para comparação) mostra estabilidade dos achados descritos. Nódulos mantêm tamanho e morfologia. Não há novos achados significativos.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**CLASSIFICAÇÃO BI-RADS: 2** (Achados Benignos)
+
+Mamografia bilateral evidencia mama de densidade fibroglandular moderada, com presença de **achados benignos caracterizados**:
+1. Pequeno nódulo sólido bem delimitado em mama direita (QSL, 6 × 5 mm), morfologicamente compatível com fibroadenoma involução ou nódulo fibroso benigno.
+2. Nódulo denso em mama esquerda (QIM, 4 × 3 mm), estável, de aspecto cicatricial ou fibroadenoma involuído.
+3. Microcalcificações benignas dispersas bilateralmente (tipo vascular e involução gordurosa).
+
+**Ausência de:** distorção arquitetural, assimetria de densidade focal com características suspeitas, microcalcificações com padrão linear ou agrupadas com características de alta suspeição, nódulos com contornos irregulares ou indistintos.
+
+**Recomendação:** Seguimento mamográfico de rotina em 12 meses ou conforme protocolo institucional para rastreamento.
+
+---
+
+**Radiologista Responsável:** Dr. [CRM]  
+**Data do Laudo:** [DATA DO EXAME]  
+**Assinado Digitalmente**

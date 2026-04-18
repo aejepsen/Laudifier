@@ -1,0 +1,75 @@
+# ULTRASSONOGRAFIA COM DOPPLER VENOSO DOS MEMBROS INFERIORES
+
+---
+
+## DADOS DO EXAME
+
+**Paciente:** [NOME DO PACIENTE]  
+**Data do Exame:** [DATA DO EXAME]  
+**Médico Solicitante:** CRM [CRM]  
+**Equipamento:** Ultrassom Doppler colorido, transdutor linear 7-12 MHz  
+**Técnica:** Avaliação bilateral das veias profundas e superficiais dos membros inferiores com análise espectral Doppler pulsado  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Avaliação ultrassonográfica com Doppler venoso dos membros inferiores para investigação de trombose venosa profunda, tendo em vista quadro clínico compatível com suspeita de TVP.
+
+---
+
+## TÉCNICA E METODOLOGIA
+
+Realizado exame ultrassonográfico bidimensional associado a estudo Doppler colorido e espectral das veias dos membros inferiores em posição supina e ortostática. Avaliadas as veias femorais comuns, femorais superficiais, femorais profundas, poplíteas, tibiais anteriores, tibiais posteriores e fibulares bilateralmente. Analisados os critérios de compressibilidade, fluxo Doppler e padrão espectral.
+
+---
+
+## ACHADOS
+
+### MEMBRO INFERIOR DIREITO
+
+**Veia Femoral Comum:** Calibre normal, medindo 0,9 cm em diâmetro longitudinal na inguinal. Completamente compressível ao exame de compressão seriada. Fluxo Doppler espectral trifásico com velocidade pico sistólica de 62 cm/s e índice de resistência de 0,82. Ausência de trombose.
+
+**Veia Femoral Superficial:** Diâmetro de 0,8 cm. Compressível em toda sua extensão. Fluxo Doppler normal, trifásico, com VPS de 58 cm/s. Sem sinais de trombose.
+
+**Veia Femoral Profunda:** Calibre normal, 0,6 cm. Completamente compressível. Fluxo Doppler presente e espontâneo com VPS de 45 cm/s. Sem alterações.
+
+**Veia Poplítea:** Calibre de 0,7 cm. Compressível. Fluxo Doppler trifásico presente, VPS de 52 cm/s. Sem trombose.
+
+**Veias Tibiais (anteriores e posteriores) e Fibular:** Calibre normal bilateral, ambas com diâmetro de 0,4-0,5 cm. Compressíveis. Fluxo Doppler espectral presente. Sem alterações.
+
+---
+
+### MEMBRO INFERIOR ESQUERDO
+
+**Veia Femoral Comum:** Calibre aumentado, medindo 1,8 cm em diâmetro longitudinal. **NÃO COMPRESSÍVEL ao exame de compressão seriada.** Presença de material ecogênico intraluminal com característica fibrinoide, ocupando aproximadamente 85% da luz vascular.
+
+**Doppler Espectral:** Ausência de fluxo Doppler em torno do trombo. Fluxo presente apenas na periferia do vaso com velocidade reduzida de 12 cm/s. Ausência de padrão trifásico característico. Sinais compatíveis com trombose oclusiva.
+
+**Veia Femoral Superficial:** Calibre de 1,4 cm (aumentado). Material trombótico ocupando 70% da luz vascular. Parcialmente compressível. Fluxo Doppler reduzido, 15 cm/s. Característica sugestiva de trombose parcial com manutenção de fluxo periférico.
+
+**Veia Femoral Profunda:** Calibre de 0,9 cm. Completamente ocupada por material ecogênico com características de trombo recente (isoecóico a hipoecóico). Não compressível. Ausência de fluxo Doppler. Trombose oclusiva.
+
+**Veia Poplítea:** Calibre de 1,1 cm. Material trombótico ocupando 60% da luz vascular. Fluxo residual de 18 cm/s ao Doppler. Sugestivo de trombose parcial.
+
+**Veias Tibiais e Fibular:** Calibres mantidos dentro dos limites normais. Fluxo Doppler presente, porém com velocidades reduzidas (30-35 cm/s). Sem material trombótico evidente no lúmen.
+
+---
+
+## ACHADOS COMPLEMENTARES
+
+- **Aumento simétrico de partes moles** na região anteromedial de coxa esquerda, compatível com edema periférico associado à TVP.
+- **Veias colaterais dilatadas** em terço proximal de coxa esquerda, sugerindo mecanismo de compensação hemodinâmica.
+- **Sem sinais de inflamação da parede venosa** (espessamento intimal não significativo).
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Trombose Venosa Profunda em membro inferior esquerdo**, caracterizada por:
+
+1. **Trombose oclusiva de veia femoral comum esquerda** com calibre de 1,8 cm, material ecogênico fibrinoide ocupando 85% da luz vascular, ausência de compressibilidade e fluxo Doppler abolido.
+
+2. **Trombose oclusiva de veia femoral profunda esquerda** com ocupação completa do lúmen por material trombótico recente e ausência total de fluxo ao Doppler.
+
+3. **Trombose parcial de veia femoral superficial esquerda** com ocupação

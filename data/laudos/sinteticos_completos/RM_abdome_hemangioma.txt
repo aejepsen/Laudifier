@@ -1,0 +1,76 @@
+# LAUDO DE RESSONÂNCIA MAGNÉTICA DE ABDOME
+
+---
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MODALIDADE:** Ressonância Magnética de Abdome  
+**APARELHO:** Ressonância Magnética 1,5T  
+**MÉDICO RESPONSÁVEL:** CRM [CRM]
+
+---
+
+## TÉCNICA
+
+Realizada ressonância magnética do abdome em aparelho de 1,5 Tesla com bobina de corpo. Foram adquiridas sequências ponderadas em T1, T2, STIR, FLAIR e após injeção de contraste paramagnético gadolínio (gadopentetato de dimeglumina, 0,2 mmol/kg). Sequências de difusão com b=800s/mm² foram obtidas. Imagens multiplanares e reconstruções sagitais foram realizadas. Paciente apresentou boa cooperação. Sem artefatos significativos que prejudiquem a análise.
+
+---
+
+## ACHADOS
+
+### FÍGADO
+Dimensões normais (eixo craniocaudal 16,8 cm), contorno regular. Sem alterações parenquimatosas difusas. Densidade hepática homogênea em T1 e T2 (sem sinais de fibrose ou cirrose).
+
+**ACHADO PRINCIPAL:**
+Lesão nodular bem delimitada localizada no segmento VI hepático, medindo 2,3 cm de maior diâmetro. A lesão apresenta:
+- Sinal isointenso em T1 antes do contraste
+- Hipersinal intenso em T2 (relação T2 lesão/fígado = 1,8)
+- Padrão de realce dinâmico típico com preenchimento centrípeto em fase arterial (início aos 35 segundos) e realce homogêneo completo na fase portal (2 minutos pós-injeção)
+- Persistência do realce nas fases tardias (5 minutos), sem "wash-out"
+- Padrão de difusão normal (b=800), ADC calculado = 1.820 mm²/s
+- Sem cápsula fibrótica perceptível
+
+Achado compatível com hemangioma cavernoso típico.
+
+### VIAS BILIARES
+Sistema biliar sem dilatação. Colédoco com calibre normal (3,2 mm). Sem sinais de litíase ou obstrução.
+
+### PÂNCREAS
+Pâncreas com dimensões e sinal normais. Cabeça 2,4 cm, corpo 1,8 cm, cauda 2,1 cm. Canal pancreático patente (2,1 mm), sem dilatação. Parênquima homogêneo, sem lesões.
+
+### BAÇO
+Dimensões normais (eixo maior 11,2 cm), parênquima homogêneo com sinal normal. Sem esplenomegalia.
+
+### RINS E VIAS URINÁRIAS
+Ambos os rins com dimensões simétricas (rim direito 10,8 cm, rim esquerdo 11,0 cm). Contornos regulares, parênquima com diferenciação corticomedular preservada. Sem hidronefrose, litíase ou massas. Vias urinárias pérvias.
+
+### ADRENAIS
+Glândulas adrenais bilaterais com dimensões normais, sinal homogêneo, sem nódulos.
+
+### CAVIDADE PERITONEAL E RETROPERITÔNIO
+Peritoneu sem sinais de ascite. Retroperitônio sem alterações. Aorta abdominal com diâmetro normal (17 mm), sem aneurisma ou dissecção. Veia cava inferior patente (16 mm), sem trombose.
+
+### PAREDE ABDOMINAL
+Musculatura da parede abdominal íntegra, sem hérnias detectáveis.
+
+### ESTRUTURAS ÓSSEAS
+Corpos vertebrais com altura normal, sem alterações degenerativas significativas. Sem sinais de metástases ósseas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+1. **Hemangioma cavernoso hepático típico de 2,3 cm localizado no segmento VI**, caracterizado por padrão de realce dinâmico clássico com preenchimento centrípeto em fase arterial e persistência nas fases portal e tardia, sem restição na difusão. Aspecto imaginológico é patognomônico, não necessitando seguimento.
+
+2. Fígado sem cirrose ou fibrose aparente.
+
+3. Vias biliares, pâncreas, baço, rins bilaterais e adrenais sem alterações significativas.
+
+4. Aorta abdominal e veia cava inferior sem particularidades.
+
+5. Sem ascite ou adenopatias.
+
+---
+
+**Data da Assinatura:** [DATA DO EXAME]  
+**Assinado digitalmente por CRM [CRM]**

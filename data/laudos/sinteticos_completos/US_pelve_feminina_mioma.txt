@@ -1,0 +1,57 @@
+# LAUDO DE ULTRASSONOGRAFIA PÉLVICA
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MÉDICO RESPONSÁVEL:** [CRM]  
+**MODALIDADE:** Ultrassonografia em tempo real  
+**EQUIPAMENTO:** Transdutor convexo multifrequencial 2-5 MHz e transdutor transvaginal 5-9 MHz
+
+---
+
+## TÉCNICA
+
+Realizado exame ultrassonográfico da pelve feminina com transdutor abdominal e transvaginal, em incidências longitudinais e transversais, com avaliação do útero, adnexa bilaterais, poço de Douglas e bexiga.
+
+---
+
+## ACHADOS
+
+**ÚTERO:**
+Útero em anteversoflexão, com dimensões aumentadas. Comprimento ântero-posterior: 8,2 cm (normal até 8,0 cm). Diâmetro transverso: 6,5 cm. Diâmetro ântero-posterior do corpo: 5,1 cm.
+
+Mioma intramural localizado na parede anterior do corpo uterino, medindo 3,1 cm de diâmetro máximo. A lesão apresenta ecogenicidade heterogênea, com predominância de componentes hipoecóicos e áreas focais isoecóicas. Pequenos pontos de calcificação periférica. Ausência de sinal Doppler significativo no interior da lesão, sugestivo de degeneração hialina. Não há prolapso miomatoso através do canal cervical. Não há protrusão ou submucosa significativa.
+
+Miometrio circundante apresenta ecotextura heterogênea, sugestivo de miomatose uterina difusa. Endométrio com espessura de 4,2 mm, homogêneo e regular. Linha de clivagem clara entre a lesão miomatosa e o endométrio.
+
+**OVÁRIO DIREITO:**
+Ovário de dimensões normais, medindo 3,1 cm × 2,2 cm. Ecoestrutura homogênea. Folículos antrais pequenos visibilizados (até 4 mm). Ausência de massas ou cistos anormais.
+
+**OVÁRIO ESQUERDO:**
+Ovário de dimensões normais, medindo 3,3 cm × 2,4 cm. Ecoestrutura homogênea. Folículos antrais pequenos visibilizados (até 5 mm). Ausência de massas ou cistos anormais.
+
+**ADNEXA BILATERAIS:**
+Trompa de Falópio direita: não visualizada com características anormais.  
+Trompa de Falópio esquerda: não visualizada com características anormais.  
+Ausência de coleção líquida nas goteiras paracólicas.
+
+**BEXIGA:**
+Bexiga distendida, com volume estimado de 180 mL. Parede regular, sem espessamento. Ausência de massa intraluminal ou cálculo.
+
+**POÇO DE DOUGLAS:**
+Sem derrame livre ou coleção anormal.
+
+**ACHADOS SECUNDÁRIOS:**
+Aorta abdominal com diâmetro normal de 1,8 cm. Veia cava inferior de calibre normal.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Útero miomatoso com mioma intramural de 3,1 cm localizado em parede anterior do corpo uterino, apresentando características de degeneração hialina. Miomatose uterina difusa subjacente. Ovários bilaterais com morfologia normal e sem alterações. Endométrio de espessura normal. Ausência de derrame pélvico ou achados adicionais significativos. 
+
+Recomenda-se correlação clínica e acompanhamento conforme protocolo de mioma uterino, com possível ressonância magnética pélvica para melhor estadiamento e planejamento terapêutico caso sintomas justifiquem investigação adicional.
+
+---
+
+**ASSINADO EM:** [DATA DO EXAME]  
+**MÉDICO:** [CRM]

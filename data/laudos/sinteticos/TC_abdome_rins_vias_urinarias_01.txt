@@ -1,69 +1,4 @@
-=== TC abdome rins vias urinarias — Variante 1 ===
-Especialidade: radiologia
-Cenário: rins de aspecto normal, sem litíase
-Fonte: sintético — gerado por Claude
-
-# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
-
----
-
-## IDENTIFICAÇÃO DO EXAME
-
-**Paciente:** [NOME COMPLETO]  
-**Nº Prontuário:** [NÚMERO DO PRONTUÁRIO]  
-**Data de Nascimento:** [DATA]  
-**Sexo:** [MASCULINO/FEMININO]  
-**Idade:** [IDADE] anos  
-
-**Exame:** Tomografia Computadorizada de Abdome e Pelve com Ênfase em Rins e Vias Urinárias  
-**Data do Exame:** [DATA/HORA]  
-**Equipamento:** Tomógrafo Helicoidal 64 canais  
-**Radiologista:** [NOME E CRM]  
-
----
-
-## TÉCNICA UTILIZADA
-
-Realizada tomografia computadorizada helicoidal de abdome e pelve, com aquisição de cortes axiais contínuos de 2mm de espessura, desde o diafragma até a sínfise púbica. Foram obtidas imagens nas fases pré-contraste, arterial, nefrográfica (fase renal) e excretora, após injeção intravenosa de 100ml de contraste iodado não-iônico (Iopamidol 300mg/ml), administrado em velocidade de 3-4ml/s. Reconstruções multiplanares (coronais e sagitais) foram realizadas. Janelas para análise de estruturas ósseas, parênquima renal e vias urinárias foram aplicadas.
-
----
-
-## ACHADOS E DESCRIÇÃO DETALHADA
-
-### **RIM DIREITO:**
-- Contorno regular e simétrico
-- Tamanho dentro dos limites normais, medindo aproximadamente 11,5cm em seu maior eixo longitudinal
-- Parênquima renal homogêneo e bem diferenciado em relação ao sistema coletor
-- Realce adequado e simétrico do parênquima na fase nefrográfica
-- Sem evidência de cistos, nódulos, massas ou alterações focais
-- Sem litíase renal
-- Óstio ureteral direito pérvio
-
-### **RIM ESQUERDO:**
-- Contorno regular e simétrico
-- Tamanho dentro dos limites normais, medindo aproximadamente 11,3cm em seu maior eixo longitudinal
-- Parênquima renal homogêneo com diferenciação córtico-medular preservada
-- Realce simétrico e proporcionado na fase arterial e nefrográfica
-- Sem evidência de lesões focais, cistos simples ou complexos
-- Sem litíase renal
-- Óstio ureteral esquerdo pérvio
-
-### **VIAS URINÁRIAS:**
-- Cálices renais bilaterais com anatomia preservada, sem sinais de hidronefrose
-- Bacias renais de aspecto normal, sem dilatação
-- Ureteres abdomino-pélvicos pérvios bilateralmente, sem estenoses, trombose ou dilatação
-- Sem evidência de litíase ureteral
-
-### **BEXIGA URINÁRIA:**
-- Contorno regular e simétrico
-- Paredes uniformes, sem espessamento anormal
-- Conteúdo anecóico compatível com urina clara
-- Sem achados sugestivos de lesões intraluminais, litiase vesical ou divertículos
-
-### **ESTRUTURAS ADJACENTES:**
-- Fígado: contorno regular, parênquima homogêneo, sem lesões focais detectadas
-- Vesícula biliar: sem cálculos, sem espessamento de parede
-- Pâncreas: corpo e cauda de aspecto normal, sem dilatação de ducto pancreático
+o e cauda de aspecto normal, sem dilatação de ducto pancreático
 - Baço: homogêneo, tamanho normal
 - Glândulas suprarrenais: bilateralmente de aspecto normal
 - Alças intestinais: sem sinais de obstrução, distribuição normal
@@ -105,4 +40,84 @@ Data: [DATA] | Horário: [HORA]
 
 ---
 
+**Observaç
+\_\_\_\_\_\_\_
+
+**Dr(a). [NOME COMPLETO]**  
+Médico Radiologista  
+CRM: [NÚMERO] | CREMESP: [NÚMERO]  
+Data: [DATA] | Horário: [HORA]
+
+---
+
 **Observação:** Este laudo é um documento médico confidencial, destinado exclusivamente ao profissional solicitante e ao paciente.
+Especialidade: radiologia
+Cenário: rins de aspecto normal, sem litíase
+Fonte: sintético — gerado por Claude
+
+# LAUDO DE TOMOGRAFIA COMPUTADORIZADA
+
+---
+
+## IDENTIFICAÇÃO DO EXAME
+
+**Paciente:** [NOME COMPLETO]  
+**Nº Prontuário:** [NÚMERO DO PRONTUÁRIO]  
+**Data de Nascimento:** [DATA]  
+**Sexo:** [MASCULINO/FEMININO]  
+**Idade:** [IDADE] anos  
+
+**Exame:** Tomografia Computadorizada de Abdome e Pelve com Ênfase em Rins e Vias Urinárias  
+**Data do Exame:** [DATA/HORA]  
+**Equipamento:** Tomógrafo Helicoidal 64 canais  
+**Radiologista:** [NOME E CRM]  
+
+---
+
+## TÉCNICA UTILIZADA
+
+Realizada tomografia computadorizada helicoidal de abdome e pelve, com aquisição de cortes axiais contínuos de 2mm de espessura, desde o diafragma até a sínfise púbica. Foram obtidas imagens nas fases pré-contraste, arterial, nefrográfica (fase renal) e excretora, após injeção intravenosa de 100ml de contraste iodado não-iônico (Iopamidol 300mg/ml), administrado em velocidade de 3-4ml/s. Reconstruções multiplanares (coronais e sagitais) foram realizadas. Janelas para análise de estruturas ósseas, parênquima renal e vias urinárias foram aplicadas.
+
+---
+
+## ACHADOS E DESCRIÇÃO DETALHADA
+
+### **RIM DIREITO:**
+- Contorno regular e simétrico
+- Tamanho dentro dos limites normais, medindo aproximadamente 11,5cm em seu maior eixo longitudinal
+- Parênquima renal homogêneo e bem diferenciado em relação ao sistema coletor
+- Realce adequado e simétrico do parênquima na fase nefrográfica
+- Sem evidência de cistos
+ homogêneo e bem diferenciado em relação ao sistema coletor
+- Realce adequado e simétrico do parênquima na fase nefrográfica
+- Sem evidência de cistos, nódulos, massas ou alterações focais
+- Sem litíase renal
+- Óstio ureteral direito pérvio
+
+### **RIM ESQUERDO:**
+- Contorno regular e simétrico
+- Tamanho dentro dos limites normais, medindo aproximadamente 11,3cm em seu maior eixo longitudinal
+- Parênquima renal homogêneo com diferenciação córtico-medular preservada
+- Realce simétrico e proporcionado na fase arterial e nefrográfica
+- Sem evidência de lesões focais, cistos simples ou complexos
+- Sem litíase renal
+- Óstio ureteral esquerdo pérvio
+
+### **VIAS URINÁRIAS:**
+- Cálices renais bilaterais com anatomia preservada, sem sinais de hidronefrose
+- Bacias renais de aspecto normal, sem dilatação
+- Ureteres abdomino-pélvicos pérvios bilateralmente, sem estenoses, trombose ou dilatação
+- Sem evidência de litíase ureteral
+
+### **BEXIGA URINÁRIA:**
+- Contorno regular e simétrico
+- Paredes uniformes, sem espessamento anormal
+- Conteúdo anecóico compatível com urina clara
+- Sem achados sugestivos de lesões intraluminais, litiase vesical ou divertículos
+
+### **ESTRUTURAS ADJACENTES:**
+- Fígado: contorno regular, parênquima homogêneo, sem lesões focais detectadas
+- Vesícula biliar: sem cálculos, sem espessamento de parede
+- Pâncreas: corpo e cauda de aspecto normal, sem dilatação de ducto pancreático
+- Baço: homogêneo, tamanho normal
+- Glândulas suprarrenais: bilateralmente de aspecto 

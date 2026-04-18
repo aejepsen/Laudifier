@@ -1,0 +1,67 @@
+# LAUDO DE ULTRASSONOGRAFIA PÉLVICA FEMININA
+
+---
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MÉDICO RESPONSÁVEL:** Dr. [CRM]  
+**MODALIDADE:** Ultrassonografia em modo B e Doppler colorido  
+**EQUIPAMENTO:** Transdutor convexo 3,5 MHz e transdutor endocavitário 7,5 MHz
+
+---
+
+## TÉCNICA
+
+Realizado estudo ultrassonográfico da pelve feminina em dois planos (longitudinal e transversal), utilizando transdutor convexo via abdominal e transdutor endocavitário intravaginal, sem intercorrências técnicas. Paciente em repouso vesical adequado.
+
+---
+
+## ACHADOS
+
+### ÚTERO
+Útero em anteflexão, com contornos regulares e parede homogênea. Dimensões: comprimento de 7,8 cm, espessura anteroposterior de 2,9 cm, largura máxima de 5,1 cm. Espessura endometrial de 3,2 mm em fase lútea. Miométrio apresenta ecogenicidade uniforme, sem focos de fibromatose ou alterações estruturais. Cavity endometrial não dilatada.
+
+### OVÁRIOS
+**Ovário direito:** Volume 8,2 cm³ (3,5 × 2,4 × 1,8 cm), contendo 8 folículos antrais com dimensões variando de 3 mm a 7 mm. Ecogenicidade normal do parênquima ovariano.
+
+**Ovário esquerdo:** Volume 7,6 cm³ (3,2 × 2,3 × 1,7 cm), contendo 9 folículos antrais mensurados entre 2 mm e 6 mm. Estroma ovariano sem heterogeneidade. Ausência de formações sólidas ou cistos.
+
+Ambos os ovários apresentam vascularização periférica ao estudo Doppler colorido, caracterizando boa perfusão.
+
+### ESPAÇO POULDOUCHE
+Sem coleção livre ou efusão pélvica significativa. Fundo de saco posterior da pelve com dimensão de 8 mm de profundidade.
+
+### BEXIGA URINÁRIA
+Bexiga apresenta repleção adequada com volume aproximado de 185 mL. Paredes com espessura de 2,8 mm (no vértice em diástole), sem irregularidades. Interface vesical-endometrial nítida. Sem imagens sugestivas de cálculos ou massas.
+
+### ESTRUTURAS ADJACENTES
+Alças intestinais presentes na cavidade pélvica com padrão de peristalse preservado e calibre normal (diâmetro máximo de 2,8 cm). Linhas peritoniais sem evidência de ascite. Sem adenomegalias pélvicas significativas.
+
+### ACHADOS SECUNDÁRIOS
+Não há alterações significativas nas cadeias ilíacas internas (dimensão transversal máxima de 6 mm). Sem visibilização de varizes pélvicas.
+
+---
+
+## DOPPLER
+Estudo Doppler colorido realizado evidenciando fluxo arterial regular nas artérias ovarianas bilateralmente, com índice de pulsatilidade (IP) de 1,9 à direita e 1,8 à esquerda. Ausência de fluxo diastólico zero ou reverso. Padrão de fluxo normal nas artérias uterinas.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Ultrassonografia pélvica feminina sem alterações ecográficas.**
+
+- Útero de dimensões e morfologia normais, em anteflexão, com endométrio finamente ecogênico adequado para o período do ciclo;
+- Ovários bilaterais de volume normal, com múltiplos folículos antrais de distribuição compatível com fase folicular inicial do ciclo;
+- Ausência de massas, cistos complexos ou focos de fibromatose;
+- Espaço pouldouche sem coleção livre significativa;
+- Bexiga urinária repleta, sem alterações estruturais;
+- Estudo Doppler com padrão de vascularização normal;
+- Sem achados sugestivos de patologia pélvica aguda ou crônica.
+
+**Recomendação:** Retorno para novo exame em caso de sintomas ou conforme protocolo clínico.
+
+---
+
+**Data do laudo:** [DATA DO EXAME]  
+**Assinado digitalmente por:** Dr. [CRM]

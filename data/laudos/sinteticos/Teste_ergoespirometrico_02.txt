@@ -1,4 +1,63 @@
-=== Teste ergoespirometrico — Variante 2 ===
+uração Total do Teste:** [___] minutos
+
+**Frequência Cardíaca no Pico do Esforço:** [___] bpm ([___]% da frequência cardíaca máxima prevista para a idade)
+
+**Pressão Arterial no Pico do Esforço:**
+- Sistólica: [___] mmHg
+- Diastólica: [___] mmHg
+
+**Duplo Produto Máximo:** [_______]
+
+**Resposta Cronotrópica:** Adequada / Inadequada
+
+### **Alterações Eletrocardiográficas Durante o Exercício:**
+
+**ACHADO PRINCIPAL - INFRADESNIVELAMENTO DO SEGMENTO ST:**
+
+Observou-se **infradesnivelamento horizontal do segmento ST de aproximadamente 2,0 mm em V5** no **pico do esforço** (aos [___] minutos / watts de carga). O infradesnivelamento apresentava-se em padrão **horizontal**, iniciando-se já no final do complexo QRS, indicando **provável origem isquêmica**.
+
+Infradesnivelamento também evidenciado em **V4 e V6** (em menor magnitude), sugestivo de isquemia da **parede anterolateral do ventrículo esquerdo**, compatível com distribuição territorial da **artéria descendente anterior (ADA)**.
+
+O infradesnivelamento **persistiu durante os primeiros 2-3 minutos da fase de recuperação**, apresentando **normalização gradual** aos [___] minutos de recuperação.
+
+**Não houve elevação do segmento ST em outras derivações.**
+
+### **Sintomatologia Durante o Teste:**
+
+[  ] Assintomático durante todo o teste
+[  ] Dispneia leve/moderada/severa (descrever em qual momento)
+[  ] Dor torácica típica / atípica (especificar localização, irradiação e intensidade)
+[  ] Fadiga muscular limitante
+[  ] Tonturas ou pr
+ 3 km/h a 0% de inclinação), com incrementos de **25 watts** (ou **1 km/h de velocidade**) a cada minuto até a exaustão do paciente ou interrupção por critérios de parada.
+
+Realizou-se **monitorização contínua do ritmo cardíaco** por eletrocardiograma de 12 derivações, com leituras a cada minuto durante o esforço e a cada 2 minutos durante o período de recuperação. **Aferição de pressão arterial** realizada a cada 2 minutos durante o esforço e a cada minuto na recuperação. **Avaliação clínica contínua** quanto à presença de sintomas (dispneia, dor torácica, tontura).
+
+Mensuração de **gases expirados** com determinação de VO₂ máximo, VCO₂, quociente respiratório (QR) e limiar anaeróbio quando aplicável.
+
+---
+
+## **ACHADOS / DESCRIÇÃO DETALHADA**
+
+### **Parâmetros Hemodinâmicos Basais:**
+
+| Parâmetro | Basal |
+|-----------|-------|
+| **Frequência Cardíaca** | [___] bpm |
+| **Pressão Arterial Sistólica** | [___] mmHg |
+| **Pressão Arterial Diastólica** | [___] mmHg |
+| **Duplo Produto (FC × PAS)** | [_______] |
+
+### **Eletrocardiograma Basal:**
+Ritmo sinusal regular. Sem alterações de segmento ST ou onda T em repouso. [Descrever qualquer achado prévio relevante - bloqueios, hipertrofia ventricular, etc.]
+
+### **Resposta ao Exercício:**
+
+**Carga Máxima Atingida:** [___] watts (ou velocidade de [___] km/h a [___]% de inclinação)
+
+**Duração Total do Teste:** [___] minutos
+
+**Frequência Cardíaca no Pico do Esforço:** [___] bpm ([___]% da frequência cardíaca máxima prevista para a id
 Especialidade: cardiologia
 Cenário: teste ergométrico positivo — infradesnivelamento 2 mm em V5 no pico do esforço
 Fonte: sintético — gerado por Claude
@@ -35,60 +94,8 @@ Fonte: sintético — gerado por Claude
 
 ## **TÉCNICA UTILIZADA**
 
-O teste ergométrico foi realizado em **cicloergômetro** (ou **esteira rolante**) com **protocolo de rampa** adaptado às condições clínicas do paciente. Iniciou-se com carga de **25 watts** (ou velocidade de 3 km/h a 0% de inclinação), com incrementos de **25 watts** (ou **1 km/h de velocidade**) a cada minuto até a exaustão do paciente ou interrupção por critérios de parada.
-
-Realizou-se **monitorização contínua do ritmo cardíaco** por eletrocardiograma de 12 derivações, com leituras a cada minuto durante o esforço e a cada 2 minutos durante o período de recuperação. **Aferição de pressão arterial** realizada a cada 2 minutos durante o esforço e a cada minuto na recuperação. **Avaliação clínica contínua** quanto à presença de sintomas (dispneia, dor torácica, tontura).
-
-Mensuração de **gases expirados** com determinação de VO₂ máximo, VCO₂, quociente respiratório (QR) e limiar anaeróbio quando aplicável.
-
----
-
-## **ACHADOS / DESCRIÇÃO DETALHADA**
-
-### **Parâmetros Hemodinâmicos Basais:**
-
-| Parâmetro | Basal |
-|-----------|-------|
-| **Frequência Cardíaca** | [___] bpm |
-| **Pressão Arterial Sistólica** | [___] mmHg |
-| **Pressão Arterial Diastólica** | [___] mmHg |
-| **Duplo Produto (FC × PAS)** | [_______] |
-
-### **Eletrocardiograma Basal:**
-Ritmo sinusal regular. Sem alterações de segmento ST ou onda T em repouso. [Descrever qualquer achado prévio relevante - bloqueios, hipertrofia ventricular, etc.]
-
-### **Resposta ao Exercício:**
-
-**Carga Máxima Atingida:** [___] watts (ou velocidade de [___] km/h a [___]% de inclinação)
-
-**Duração Total do Teste:** [___] minutos
-
-**Frequência Cardíaca no Pico do Esforço:** [___] bpm ([___]% da frequência cardíaca máxima prevista para a idade)
-
-**Pressão Arterial no Pico do Esforço:**
-- Sistólica: [___] mmHg
-- Diastólica: [___] mmHg
-
-**Duplo Produto Máximo:** [_______]
-
-**Resposta Cronotrópica:** Adequada / Inadequada
-
-### **Alterações Eletrocardiográficas Durante o Exercício:**
-
-**ACHADO PRINCIPAL - INFRADESNIVELAMENTO DO SEGMENTO ST:**
-
-Observou-se **infradesnivelamento horizontal do segmento ST de aproximadamente 2,0 mm em V5** no **pico do esforço** (aos [___] minutos / watts de carga). O infradesnivelamento apresentava-se em padrão **horizontal**, iniciando-se já no final do complexo QRS, indicando **provável origem isquêmica**.
-
-Infradesnivelamento também evidenciado em **V4 e V6** (em menor magnitude), sugestivo de isquemia da **parede anterolateral do ventrículo esquerdo**, compatível com distribuição territorial da **artéria descendente anterior (ADA)**.
-
-O infradesnivelamento **persistiu durante os primeiros 2-3 minutos da fase de recuperação**, apresentando **normalização gradual** aos [___] minutos de recuperação.
-
-**Não houve elevação do segmento ST em outras derivações.**
-
-### **Sintomatologia Durante o Teste:**
-
-[  ] Assintomático durante todo o teste
-[  ] Dispneia leve/moderada/severa (descrever em qual momento)
+O teste ergométrico foi realizado em **cicloergômetro** (ou **esteira rolante**) com **protocolo de rampa** adaptado às condições clínicas do paciente. Iniciou-se com carga de **25 watts** (ou velocidade de 3 km/h a 0% de inclinação), com incrementos de **25 watts** (ou **1 km/h de velocidade**) a cada minuto até a exaustão do paciente ou interrupção por
+ual momento)
 [  ] Dor torácica típica / atípica (especificar localização, irradiação e intensidade)
 [  ] Fadiga muscular limitante
 [  ] Tonturas ou pré-sincope

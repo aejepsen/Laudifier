@@ -1,4 +1,3 @@
-=== US pelvica feminina — Variante 1 ===
 Especialidade: radiologia
 Cenário: útero e anexos sem alterações
 Fonte: sintético — gerado por Claude
@@ -41,34 +40,8 @@ Ultrassonografia pélvica realizada com aparelho de ultrassom bidimensional, uti
 Miométrio homogêneo, sem focos de ecogenicidade alterada, sem sinais de adenomiose. Contratilidade miometrial fisiológica presente.
 
 ### ENDOMÉTRIO
-Endométrio com espessura de 7,5 mm, ecotextura homogênea e uniforme. Linha endometrial bem definida. Aspecto morfológico condizente com fase do ciclo menstrual relatado.
-
-### CAVIDADE UTERINA
-Cavidade endometrial com contornos bem delimitados, sem presença de imagens compatíveis com lesões ocupantes de espaço, septações ou deformidades. Visualização adequada em planos longitudinal e transversal.
-
-### OVÁRIO DIREITO
-Localizado em topografia normal, dimensões:
-- **Comprimento:** 3,1 cm
-- **Altura:** 2,2 cm
-- **Espessura:** 2,0 cm
-- **Volume aproximado:** 6,8 cm³
-
-Ecotextura homogênea com folículos antrais pequenos (2-5 mm), compatíveis com folículos primordiais. Sem cistos complexos ou massas. Vascularização normal ao Doppler.
-
-### OVÁRIO ESQUERDO
-Localizado em topografia normal, dimensões:
-- **Comprimento:** 3,0 cm
-- **Altura:** 2,3 cm
-- **Espessura:** 2,1 cm
-- **Volume aproximado:** 7,1 cm³
-
-Ecotextura homogênea com folículos antrais pequenos (2-6 mm). Sem cistos complexos ou massas. Vascularização normal ao Doppler.
-
-### ESTRUTURAS ANEXIAIS BILATERAIS
-Trompas não dilatadas. Ausência de coleções peritoniais. Sem sinais ecográficos de inflamação das estruturas anexiais.
-
-### BEXIGA URINÁRIA
-Bexiga adequadamente preenchida, com paredes uniformes, sem sinais de lesões intraluminais. Conteúdo anecóico.
+Endométrio com espessura de 7,5 mm, ecotextura homogênea e uniforme. 
+sinais de lesões intraluminais. Conteúdo anecóico.
 
 ### ESTRUTURAS ADJACENTES
 Sem líquido livre na pelve. Sigmóide e alças do intestino delgado visualizadas sem alterações relevantes.
@@ -120,3 +93,37 @@ Sem líquido livre na pelve. Sigmóide e alças do intestino delgado visualizada
 
 **DOCUMENTO CONFIDENCIAL - SIGILO PROFISSIONAL**  
 *Este laudo é de propriedade do paciente e deve ser entregue ao mesmo ou ao médico solicitante.*
+s de adenomiose. Contratilidade miometrial fisiológica presente.
+
+### ENDOMÉTRIO
+Endométrio com espessura de 7,5 mm, ecotextura homogênea e uniforme. Linha endometrial bem definida. Aspecto morfológico condizente com fase do ciclo menstrual relatado.
+
+### CAVIDADE UTERINA
+Cavidade endometrial com contornos bem delimitados, sem presença de imagens compatíveis com lesões ocupantes de espaço, septações ou deformidades. Visualização adequada em planos longitudinal e transversal.
+
+### OVÁRIO DIREITO
+Localizado em topografia normal, dimensões:
+- **Comprimento:** 3,1 cm
+- **Altura:** 2,2 cm
+- **Espessura:** 2,0 cm
+- **Volume aproximado:** 6,8 cm³
+
+Ecotextura homogênea com folículos antrais pequenos (2-5 mm), compatíveis com folículos primordiais. Sem cistos complexos ou massas. Vascularização normal ao Doppler.
+
+### OVÁRIO ESQUERDO
+Localizado em topografia normal, dimensões:
+- **Comprimento:** 3,0 cm
+- **Altura:** 2,3 cm
+- **Espessura:** 2,1 cm
+- **Volume aproximado:** 7,1 cm³
+
+Ecotextura homogênea com folículos antrais pequenos (2-6 mm). Sem cistos complexos ou massas. Vascularização normal ao Doppler.
+
+### ESTRUTURAS ANEXIAIS BILATERAIS
+Trompas não dilatadas. Ausência de coleções peritoniais. Sem sinais ecográficos de inflamação das estruturas anexiais.
+
+### BEXIGA URINÁRIA
+Bexiga adequadamente preenchida, com paredes uniformes, sem sinais de lesões intraluminais. Conteúdo anecóico.
+
+### ESTRUTURAS ADJACENTES
+Sem líquido livre na pelve. Sigmóide e alças do intestino delgado visual

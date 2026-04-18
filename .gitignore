@@ -49,6 +49,13 @@ Thumbs.db
 *.log
 logs/
 
+# Avaliações do modelo (artefatos locais)
+avaliacao_*.json
+avaliacao_*.md
+
+# Scripts com credenciais — não commitar
+get_token.py
+
 # Terraform
 *.tfstate
 *.tfstate.backup

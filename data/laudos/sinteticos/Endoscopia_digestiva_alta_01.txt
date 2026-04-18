@@ -1,4 +1,93 @@
-=== Endoscopia digestiva alta — Variante 1 ===
+ção de mucosa em toda extensão, região da cárdia e junção esofagogástrica
+- **Estômago:** Fundos, corpo, antro e piloro bilateralmente
+- **Duodeno:** Primeira e segunda porção duodenal
+
+O exame foi completo, tolerado satisfatoriamente pelo paciente, sem intercorrências.
+
+---
+
+## ACHADOS / DESCRIÇÃO DETALHADA
+
+### ESÔFAGO
+Mucosa lisa, rosada, com peristaltismo preservado. Sem estenoses, úlceras, erosões ou lesões proliferativas visibilizadas. Sem varicosidades. Sem sinais de gastrite refluxiva. Junção esofagogástrica normalmente posicionada.
+
+### ESTÔMAGO
+Mucosa gástrica rosada, com padrão vascular preservado. Pregas gástricas normais, compressíveis e com amplitude adequada. 
+
+- **Fundo gástrico:** Normal, sem alterações
+- **Corpo gástrico:** Hígido, sem úlceras ou lesões
+- **Antro gástrico:** Mucosa íntegra, sem estenose pilórica
+- **Piloro:** Pérvio, com aberturas e fechamentos adequados
+
+Sem presença de resíduos alimentares, sangue ou bile. Sem áreas de deformidade.
+
+### DUODENO
+Primeira porção duodenal: Mucosa rosada, sem alterações. Papila duodenal maior (papila de Vater) normalmente localizada, com bom aspecto.
+
+Segunda porção duodenal: Mucosa íntegra, sem úlceras, erosões ou lesões visibilizadas. Sem estenose duodenal.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Endoscopia digestiva alta **sem alterações relevantes**. 
+
+Mucosa esofagiana, gástrica e duodenal normais, sem evidências de:
+- Lesões erosivas ou ulcerativas
+- Neoplasias ou lesões proliferativas
+- Varizes esofageanas
+- Ga
+ana, gástrica e duodenal normais, sem evidências de:
+- Lesões erosivas ou ulcerativas
+- Neoplasias ou lesões proliferativas
+- Varizes esofageanas
+- Gastrite ou duodenite
+- Estenoses
+- Corpos estranhos
+
+---
+
+## CONCLUSÃO E RECOMENDAÇÕES
+
+1. **Diagnóstico:** EDA normal (esôfago, estômago e duodeno sem alterações)
+
+2. **Recomendações:**
+   - Orientação de dieta fracionada, evitando alimentos gordurosos, condimentados e bebidas gasosas/alcoólicas
+   - Repouso de 2 horas pós-procedimento; aguardar recuperação completa da sedação antes de dirigir
+   - Continuar medicações em uso conforme orientação do médico assistente
+   - Retorno ao médico solicitante para discussão clínica se necessário
+   - Não há indicação de nova endoscopia em curto prazo, salvo mudança clínica significativa
+
+3. **Seguimento:** Conforme avaliação clínica do médico assistente
+
+---
+
+## ASSINATURA E REGISTRO
+
+**Médico Responsável:**  
+[NOME COMPLETO]  
+CREMESP nº [__________]  
+Especialidade: Gastroenterologia  
+
+Data: _____ / _____ / _______
+
+Assinatura: ________________________
+
+---
+
+**Observações:**
+- Cópia deste laudo foi fornecida ao paciente
+- Paciente recebeu orientações verbais pós-procedimento
+- Contato para dúvidas: [TELEFONE/EMAIL DA INSTITUIÇÃO]
+ horas
+   - Ingestão de alimentos apenas após recuperação completa da sedação
+   - Possível desconforto leve na garganta (transitório)
+
+3. **Abordagem Terapêutica:** Não há indicação de intervenções endoscópicas no momento.
+
+4. **Profilaxia:** Não há necessidade de prescrição de medicamentos específicos baseada apenas neste achado.
+
+5.
 Especialidade: gastroenterologia
 Cenário: EDA sem alterações — esôfago, estômago e duodeno normais
 Fonte: sintético — gerado por Claude
@@ -44,77 +133,4 @@ Monitorização contínua de saturação de oxigênio (SpO₂), frequência card
 Endoscópio fibróptico de alta definição (marca/modelo: [__________]) foi introduzido pela cavidade oral sob sedação. Foram realizadas inspeção sistemática e cuidadosa de:
 - **Esôfago:** Avaliação de mucosa em toda extensão, região da cárdia e junção esofagogástrica
 - **Estômago:** Fundos, corpo, antro e piloro bilateralmente
-- **Duodeno:** Primeira e segunda porção duodenal
-
-O exame foi completo, tolerado satisfatoriamente pelo paciente, sem intercorrências.
-
----
-
-## ACHADOS / DESCRIÇÃO DETALHADA
-
-### ESÔFAGO
-Mucosa lisa, rosada, com peristaltismo preservado. Sem estenoses, úlceras, erosões ou lesões proliferativas visibilizadas. Sem varicosidades. Sem sinais de gastrite refluxiva. Junção esofagogástrica normalmente posicionada.
-
-### ESTÔMAGO
-Mucosa gástrica rosada, com padrão vascular preservado. Pregas gástricas normais, compressíveis e com amplitude adequada. 
-
-- **Fundo gástrico:** Normal, sem alterações
-- **Corpo gástrico:** Hígido, sem úlceras ou lesões
-- **Antro gástrico:** Mucosa íntegra, sem estenose pilórica
-- **Piloro:** Pérvio, com aberturas e fechamentos adequados
-
-Sem presença de resíduos alimentares, sangue ou bile. Sem áreas de deformidade.
-
-### DUODENO
-Primeira porção duodenal: Mucosa rosada, sem alterações. Papila duodenal maior (papila de Vater) normalmente localizada, com bom aspecto.
-
-Segunda porção duodenal: Mucosa íntegra, sem úlceras, erosões ou lesões visibilizadas. Sem estenose duodenal.
-
----
-
-## IMPRESSÃO DIAGNÓSTICA
-
-Endoscopia digestiva alta **sem alterações relevantes**. 
-
-Mucosa esofagiana, gástrica e duodenal normais, sem evidências de:
-- Lesões erosivas ou ulcerativas
-- Neoplasias ou lesões proliferativas
-- Varizes esofageanas
-- Gastrite ou duodenite
-- Estenoses
-- Corpos estranhos
-
----
-
-## CONCLUSÃO E RECOMENDAÇÕES
-
-1. **Diagnóstico:** EDA normal (esôfago, estômago e duodeno sem alterações)
-
-2. **Recomendações:**
-   - Orientação de dieta fracionada, evitando alimentos gordurosos, condimentados e bebidas gasosas/alcoólicas
-   - Repouso de 2 horas pós-procedimento; aguardar recuperação completa da sedação antes de dirigir
-   - Continuar medicações em uso conforme orientação do médico assistente
-   - Retorno ao médico solicitante para discussão clínica se necessário
-   - Não há indicação de nova endoscopia em curto prazo, salvo mudança clínica significativa
-
-3. **Seguimento:** Conforme avaliação clínica do médico assistente
-
----
-
-## ASSINATURA E REGISTRO
-
-**Médico Responsável:**  
-[NOME COMPLETO]  
-CREMESP nº [__________]  
-Especialidade: Gastroenterologia  
-
-Data: _____ / _____ / _______
-
-Assinatura: ________________________
-
----
-
-**Observações:**
-- Cópia deste laudo foi fornecida ao paciente
-- Paciente recebeu orientações verbais pós-procedimento
-- Contato para dúvidas: [TELEFONE/EMAIL DA INSTITUIÇÃO]
+- **Duodeno:** 

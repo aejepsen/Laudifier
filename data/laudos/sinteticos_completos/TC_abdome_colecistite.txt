@@ -1,0 +1,66 @@
+# LAUDO RADIOLÓGICO — TOMOGRAFIA COMPUTADORIZADA DE ABDOME E PELVE
+
+---
+
+## DADOS DE IDENTIFICAÇÃO
+
+**Paciente:** [NOME DO PACIENTE]  
+**Data do Exame:** [DATA DO EXAME]  
+**Modalidade:** Tomografia Computadorizada Multidetectora (TCMD)  
+**Protocolo:** Abdome e Pelve com contraste IV (fase portal)  
+**Médico Solicitante:** [CRM] — Clínica de Emergência  
+**Radiologista:** Dr./Dra. [NOME RADIOLOGISTA] — CRM [CRM]  
+
+---
+
+## TÉCNICA
+
+Realizada tomografia computadorizada de abdome e pelve em aparelho multidetector de 64 canais. Aquisição após injeção intravenosa de 100 mL de contraste iodado não-iônico (concentração 370 mg I/mL), com delay de 70 segundos. Cortes contínuos com espessura de 1,25 mm, reconstruções a cada 5 mm nos planos axial, coronal e sagital. Imagens de boa qualidade técnica, sem artefatos significativos.
+
+---
+
+## ACHADOS
+
+### FÍGADO
+Fígado de dimensões normais, contorno regular. Sem lesões focais detectáveis. Parênquima homogêneo com densidade média de 52 UH na fase portal. Não há hepatomegalia. Veia cava inferior pérvea com calibre normal (16 mm ao nível do hiato diafragmático).
+
+### VESÍCULA BILIAR E VIAS BILIARES
+**Achado Principal:** Vesícula biliar aumentada de volume, medindo 42 × 28 mm de diâmetro transverso e 85 mm de comprimento crânio-caudal (superior aos limites da normalidade). Parede vesicular espessada, com espessura média de 4,2 mm, apresentando realce homogêneo pelo contraste. A parede exibe padrão edematoso com densidade aumentada (68 UH). Presença de duas imagens de cálculos biliares, sendo o maior medindo 18 × 14 mm, com densidade de 92 UH (cálculo calcificado), situado no fundo vesicular. Cálculo secundário medindo 8 × 6 mm em região do infundíbulo. 
+
+Não há dilatação das vias biliares intra-hepáticas. Ducto colédoco pérvio, medindo 5,8 mm de diâmetro, sem sinais de dilatação ou obstrução. Ducto hepático comum normal.
+
+**Líquido perivesicular:** Pequeno volume de líquido livre (espessura máxima de 3 mm) circunscrevendo a vesícula biliar, com densidade de 22 UH, compatível com derrame inflamatório.
+
+### PÂNCREAS
+Pâncreas com dimensões normais. Cabeça medindo 28 mm, corpo 22 mm e cauda 20 mm. Parênquima homogêneo sem sinais de edema, necrose ou coleções. Ducto pancreático normal, não dilatado. Sem lesões focais.
+
+### BAÇO
+Baço de volume normal (comprimento máximo 108 mm). Parênquima homogêneo com densidade de 48 UH na fase portal. Sem lesões ou infartos esplênicos.
+
+### RINS E VIAS URINÁRIAS
+Ambos os rins com dimensões e morfologia normal. Rim direito medindo 105 mm de comprimento, rim esquerdo 107 mm. Córtex diferenciado da medula. Ambas as vias urinárias colabadas, sem sinais de urolitíase ou hidronefrose. Densidades renais apropriad as (medula 30 UH, córtex 72 UH na fase portal).
+
+### SUPRARRENAIS
+Glândulas suprarrenais bilaterais de aspecto normal, sem nódulos ou espessamento.
+
+### ALÇAS INTESTINAIS
+Espessura parietal dos segmentos gástrico, delgado e cólico dentro dos limites da normalidade (máximo 3 mm). Sem dilatação do lume. Sem ascite. Distribuição normal das alças, sem sinais de obstrução ou isquemia. Ceco, cólon ascendente, transverso e sigmóide pérveos.
+
+### PERITONEO E ESPAÇO RETROPERITONEAL
+Pequena quantidade de líquido livre na goteira parietocólica direita e fundo de saco pélvico anterior, com volume estimado em 80 mL e densidade de 20 UH, sugestivo de reação inflamatória. Sem coleções flutuantes ou abscesso delimitado. Sem adenomegalia significativa (linfonodos com eixo curto < 10 mm).
+
+### PAREDE ABDOMINAL
+Musculatura abdominal simétrica e normovolumetrizad a. Sem hérnias detectáveis. Tecido adiposo subcutâneo com distribuição normal.
+
+### PELVE
+**Estruturas Pélvicas Femininas (se aplicável)** ou **Estruturas Pélvicas Masculinas:**
+Próstata (se paciente masculino) com volume normal (22 cm³), sem nódulos ou focos hipodensosagem ncia. Vesículas seminais simétricas.
+
+Útero (se paciente feminino) com dimensões normais (comprimento total 68 mm), miométrio homogêneo, endométrio normal. Ovários de volume e sinal normais, sem cistos ou massas.
+
+### OSSO
+Arcabouço ósseo com densidade adequada. Sem lesões focais, fraturas ou espaçamento articular anormal.
+
+---
+
+## MEDIDAS

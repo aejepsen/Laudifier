@@ -1,0 +1,115 @@
+# LAUDO DE COLONOSCOPIA
+
+---
+
+## DADOS DE IDENTIFICAÇÃO
+
+| Campo | Informação |
+|-------|-----------|
+| **Paciente** | [NOME DO PACIENTE] |
+| **Data do Exame** | [DATA DO EXAME] |
+| **Médico Responsável** | Dr. [CRM] |
+| **Tipo de Exame** | Colonoscopia Diagnóstica |
+| **Local do Exame** | Centro de Endoscopia Digestiva |
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Rastreamento de câncer colorretal em paciente assintomático com idade superior a 50 anos.
+
+---
+
+## PREPARAÇÃO E TÉCNICA
+
+**Preparo Intestinal:** Excelente. Ingestão de 2 litros de solução de polietilenoglicol (PEG) 4L no dia anterior ao exame, com adequada limpeza da mucosa colônica permitindo ótima visualização de todas as estruturas.
+
+**Sedação:** Propofol 2,5 mg/kg em infusão venosa contínua monitorizada.
+
+**Equipamento:** Colonoscópio de alta definição com varredura em banda larga (HD-WLI), inserção total até ceco com identificação clara de válvula ileocecal e apêndice.
+
+**Tempo Total do Procedimento:** 18 minutos
+- Tempo de inserção: 10 minutos
+- Tempo de retirada e inspeção: 8 minutos
+
+---
+
+## ACHADOS
+
+### **Reto**
+Mucosa rosada, brilhante e com padrão vascular normal. Sem lesões, úlceras, estenoses ou sinais de inflamação. Sem fezes residuais.
+
+### **Cólon Sigmóide**
+Calibre normal. Mucosa íntegra com vascularização preservada. Ausência de alterações inflamatórias, erosivas ou neoplásicas. Tênias e haustras visualizadas normalmente. Sem pólipos.
+
+### **Cólon Descendente**
+Parede colônica sem irregularidades. Mucosa com cor e textura normais. Ausência de nódulos, elevações ou depressões mucosas. Sem divertículos. Sem sinais de sangramento ou varizes.
+
+### **Cólon Transverso**
+Segmento íntegro com calibre adequado. Mucosa em perfeito estado. Sem alterações da harmonia mucosa. Ausência de congestão, edema ou sinais de inflamação.
+
+### **Cólon Ascendente**
+Mucosa normocrômica, brilhante e com padrão vascular característico bem visualizado. Tônus e mobilidade normais. Sem lesões ocupantes de espaço. Sem úlceras ou erosões.
+
+### **Válvula Ileocecal**
+Estrutura claramente identificada, com relevo discreto e sem edema. Sem aspecto infiltrativo ou neoplásico. Orifício ileocecal pérvio com mucosa íntegra.
+
+### **Apêndice**
+Visualizado em seu óstio com aberturas normais. Sem inflamação ou endurecimento periostial.
+
+---
+
+## CRITÉRIOS DE QUALIDADE (Boston Bowel Preparation Scale - BBPS)
+
+| Segmento | BBPS Score |
+|----------|-----------|
+| Reto | 3 |
+| Cólon Descendente/Sigmóide | 3 |
+| Cólon Transverso | 3 |
+| Cólon Ascendente/Ceco | 3 |
+| **Score Total** | **9/9** |
+
+**Interpretação:** Preparo excelente com visualização ótima de toda a mucosa colônica.
+
+---
+
+## ACHADOS QUANTIFICÁVEIS
+
+- **Número de pólipos identificados:** 0
+- **Comprimento total de inserção:** 140 cm (até ceco)
+- **Biopsias coletadas:** Nenhuma
+- **Fragmentos removidos:** Nenhum
+- **Complicações:** Nenhuma
+- **Necessidade de reintervalo:** Não (rastreamento negativo - próximo em 10 anos)
+
+---
+
+## OBSERVAÇÕES COMPLEMENTARES
+
+Exame realizado sob sedação profunda com monitorização contínua de sinais vitais. Paciente manteve estabilidade hemodinâmica durante todo o procedimento. Recuperação pós-sedação sem intercorrências. Tolerância excelente ao procedimento.
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+**Colonoscopia total normal.**
+
+Mucosa colônica íntegra, de aparência normocrômica, sem úlceras, erosões, estenoses ou lesões ocupantes de espaço. Ausência de pólipos e formações neoplásicas em toda extensão do cólon explorado até nível do ceco e válvula ileocecal. Padrão vascular normal em todos os segmentos. Preparo intestinal excelente (BBPS 9/9). Sem achados que contraindiquem ingestão imediata de alimentos normais.
+
+**Recomendações:**
+- Próxima colonoscopia de rastreamento em 10 anos
+- Orientações gerais de prevenção de câncer colorretal (dieta rica em fibras, atividade física, evitar alcoolismo e tabagismo)
+- Retorno ao gastroenterologista conforme indicação clínica
+
+---
+
+## ASSINATURA
+
+Dr. [CRM]  
+Médico Responsável  
+Especialista em Endoscopia Digestiva  
+Data: [DATA DO EXAME]
+
+---
+
+*Laudo compatível com os critérios de qualidade estabelecidos pela Sociedade Brasileira de Endoscopia Digestiva (SOBED) e diretrizes de rastreamento do

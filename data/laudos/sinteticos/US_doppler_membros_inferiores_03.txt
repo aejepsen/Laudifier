@@ -1,4 +1,3 @@
-=== US doppler membros inferiores — Variante 3 ===
 Especialidade: radiologia
 Cenário: insuficiência venosa superficial bilateral, varizes safena magna
 Fonte: sintético — gerado por Claude
@@ -43,24 +42,8 @@ Estudo ultrassonográfico bidimensional com análise espectral Doppler pulsátil
 - Veia femoral comum: Diâmetro de 8 mm, permevel, sem trombo intraluminal.
 - Veia femoral superficial: Pérvea em toda sua extensão, colapsável.
 - Veia poplítea: Pérvea, compressível, sem alterações.
-- Veias tibiais anteriores e posteriores: Pérveas bilateralmente.
-
-**Avaliação de Competência Valvular Profunda:** Válvulas competentes ao teste de Valsalva. Sem sinais de refluxo venoso profundo.
-
-**Sistema Venoso Superficial:**
-- **Veia Safena Magna:** Apresenta calibre aumentado medindo 6,5 mm (critério de insuficiência >5,5 mm). Visualiza-se ectasia progressiva desde a região inguinal até o terço médio da coxa. À avaliação Doppler com teste de Valsalva, documenta-se refluxo venoso com duração de 2,8 segundos, confirmando insuficiência da válvula safeno-femoral. Visualiza-se segmento varicoso com dilatação fusiforme atingindo 9,2 mm de diâmetro em terço médio de coxa.
-
-- **Veia Safena Parva:** Calibre preservado, padrão Doppler normal, sem sinais de insuficiência.
-
-- **Tributárias:** Presença de tributárias dilatadas em região inguinal e medial da coxa, sugestivas de drenagem inadequada.
-
-### **MEMBRO INFERIOR ESQUERDO:**
-
-**Sistema Venoso Profundo:**
-- Veia ilíaca comum: Pérvea, colapsável, sem trombose.
-- Veia ilíaca externa: Calibre normal, fluxo hepatopetal preservado.
-- Veia femoral comum: Diâmetro de 8,5 mm, permevel, sem material trombótico.
-- Veia femoral superficial: Pérvea, colapsível em toda extensão.
+- Veias tibiais anteriores e pos
+o.
 - Veia poplítea: Pérvea e compressível.
 - Veias tibiais: Pérveas bilateralmente.
 
@@ -86,6 +69,33 @@ Estudo ultrassonográfico bidimensional com análise espectral Doppler pulsátil
 4. **Refluxo Venoso Superficial Patológico** com duração de 2,8 segundos à direita e 3,4 segundos à esquerda.
 
 5. **Sistema Venoso Profundo Íntegro** bilateralmente, sem sinais de trombose venosa profunda ou insuficiência valvular profunda.
+
+6. **Tributárias Varicosas** secundárias ao comprometimento da drenagem 
+ femoral superficial: Pérvea em toda sua extensão, colapsável.
+- Veia poplítea: Pérvea, compressível, sem alterações.
+- Veias tibiais anteriores e posteriores: Pérveas bilateralmente.
+
+**Avaliação de Competência Valvular Profunda:** Válvulas competentes ao teste de Valsalva. Sem sinais de refluxo venoso profundo.
+
+**Sistema Venoso Superficial:**
+- **Veia Safena Magna:** Apresenta calibre aumentado medindo 6,5 mm (critério de insuficiência >5,5 mm). Visualiza-se ectasia progressiva desde a região inguinal até o terço médio da coxa. À avaliação Doppler com teste de Valsalva, documenta-se refluxo venoso com duração de 2,8 segundos, confirmando insuficiência da válvula safeno-femoral. Visualiza-se segmento varicoso com dilatação fusiforme atingindo 9,2 mm de diâmetro em terço médio de coxa.
+
+- **Veia Safena Parva:** Calibre preservado, padrão Doppler normal, sem sinais de insuficiência.
+
+- **Tributárias:** Presença de tributárias dilatadas em região inguinal e medial da coxa, sugestivas de drenagem inadequada.
+
+### **MEMBRO INFERIOR ESQUERDO:**
+
+**Sistema Venoso Profundo:**
+- Veia ilíaca comum: Pérvea, colapsável, sem trombose.
+- Veia ilíaca externa: Calibre normal, fluxo hepatopetal preservado.
+- Veia femoral comum: Diâmetro de 8,5 mm, permevel, sem material trombótico.
+- Veia femoral superficial: Pérvea, colapsível em toda extensão.
+- Veia poplítea: Pérvea e compressível.
+- Veias tibiais: Pérveas bilateralmente.
+
+**Avaliação de Competência Valvular Profunda:** Válvulas competen
+, sem sinais de trombose venosa profunda ou insuficiência valvular profunda.
 
 6. **Tributárias Varicosas** secundárias ao comprometimento da drenagem superficial.
 
