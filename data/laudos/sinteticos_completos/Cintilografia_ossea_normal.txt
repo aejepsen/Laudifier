@@ -1,0 +1,81 @@
+# LAUDO DE CINTILOGRAFIA ÓSSEA
+
+**DADOS DO EXAME**
+- Paciente: [NOME DO PACIENTE]
+- Data do Exame: [DATA DO EXAME]
+- Médico Solicitante: [CRM]
+- Modalidade: Cintilografia Óssea de Corpo Inteiro
+- Radiofármaco: Tecnécio-99m MDP (Metilenodifosfato)
+- Atividade Injetada: 740 MBq (20 mCi)
+- Tempo de Aquisição: 180 minutos pós-injeção
+- Equipamento: Câmara Gama (SPECT/Planar)
+
+---
+
+## TÉCNICA
+
+Cintilografia óssea planar de corpo inteiro realizada em projeções anterior e posterior, 3 horas após injeção intravenosa de Tecnécio-99m MDP. Foram adquiridas imagens estáticas em alta resolução com matriz 256x1024 e janela de energia centrada em 140 keV (20%). Imagens de boa qualidade técnica, sem artefatos significativos.
+
+---
+
+## ACHADOS
+
+### Esqueleto Axial
+
+**Coluna Vertebral:** Distribuição uniforme da atividade do radiofármaco ao longo de toda a coluna cervical, torácica e lombar. Não há focos de hipercaptação focal ou área de hipocaptação significativa. Intensidade de captação simétrica entre os corpos vertebrais (índice de captação relativa: 1,0). Aumento fisiológico discreto de atividade em L4-L5 compatível com degeneração discal mínima relacionada à idade.
+
+**Pelve:** Captação simétrica bilateral em ambas as cristas ilíacas e ísquio-púbis. Densidade de captação uniforme com padrão trabeculado preservado. Razão captação pélvica/fêmur: 2,3:1. Sem evidência de fraturas, lise ou esclerose focal.
+
+**Costelas:** Captação homogênea bilateralmente, com padrão linear e contínuo. Arcos costais íntegros sem descontinuidade da atividade. Não há focos de concentração anormal.
+
+**Esterno:** Captação uniforme com intensidade moderada, sem alterações focais.
+
+### Esqueleto Apendicular
+
+**Membros Superiores (Bilateral):**
+- Úmeros: Captação uniforme e simétrica. Difusão normal nas epífises e diáfises.
+- Rádios e Ulnas: Distribuição homogênea de atividade. Articulação radioulnar distal sem alterações.
+- Carpos: Captação fisiológica normal de todos os oito ossos carpais bilateralmente.
+- Metacarpos: Padrão de captação linear e contínuo. Índice de simetria direita/esquerda: 0,98.
+- Falanges: Uptake uniforme em primeira a quinta falanges, sem focos de hipercaptação.
+
+**Membros Inferiores (Bilateral):**
+- Fêmures: Captação simétrica e homogênea. Comprimento aproximado 43 cm cada. Padrão trabeculado preservado sem lesões osteoblásticas ou osteolíticas.
+- Tíbias e Fíbulas: Distribuição uniforme de atividade com padrão de cortical bem definido. Ausência de hipercaptação focal.
+- Tálus, Calcâneos e Tarso: Uptake fisiológico normal. Raiz talus com captação compatível com a idade.
+- Metatarsos e Falanges: Distribuição linear e contínua em ambos os pés.
+- Razão captação fêmur proximal/distal: 1,7:1 (normal para idade).
+
+### Crânio e Coluna Cervical
+
+**Calvária:** Captação óssea uniforme com padrão diplocé preservado. Sem focos de hipercaptação ou hipocaptação patológica. Integridade do arcabouço craniano mantida.
+
+**Base do Crânio:** Padrão de captação simétrico e homogêneo.
+
+### Órgãos Vizinhos (Análise Incidental)
+
+**Bexiga:** Visualização esperada do pool vesical com densidade de atividade compatível com a faixa etária (aproximadamente 3-4% da atividade injetada retida).
+
+**Rins:** Captação normal e bilateral com relação de atividade renal/óssea dentro dos limites normais (índice renal: 0,6:1 em relação à captação óssea).
+
+**Fígado:** Hipocaptação fisiológica esperada, sem acúmulo anormal de atividade.
+
+---
+
+## ÍNDICES QUANTITATIVOS
+
+- **Razão Captação Óssea Total/Background:** 8,2:1
+- **Índice de Simetria Corporal:** 0,97 (1,0 = perfeitamente simétrico)
+- **Clearance Renal (inferido):** Normal
+- **Razão Captação Vertebral (L4/L1):** 1,08 (fisiológica)
+- **Turnover Ósseo Aparente:** Normal para faixa etária
+- **Tempo de trânsito vascular:** Normal, sem desvios
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Cintilografia óssea de corpo inteiro que demonstra **padrão completamente normal** com:
+
+1. Distribuição uniforme e simétrica do radiofármaco em todo o esqueleto;
+2. Ausência de focos de hipercaptação patológica sugestivos de metástases, infecção, inflamação ou fr

@@ -1,0 +1,58 @@
+# LAUDO DE CINTILOGRAFIA ÓSSEA
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MÉDICO SOLICITANTE:** [CRM]  
+**MODALIDADE:** Cintilografia Óssea de Corpo Inteiro  
+**RADIOFÁRMACO:** Tecnécio-99m Metilenodifosfonato (MDP) - 25 mCi  
+**EQUIPAMENTO:** Câmara Gama de Dupla Cabeça (LEHR)
+
+---
+
+## TÉCNICA
+
+Paciente submetido a cintilografia óssea de corpo inteiro com injeção intravenosa de Tecnécio-99m MDP. Aquisição realizada 3 horas após a injeção do radiofármaco. Imagens obtidas em projeções anterior, posterior e laterais do corpo inteiro, com aquisição adicional de imagens de alta resolução nas regiões de interesse. Cintilometria dinâmica não foi necessária. Qualidade técnica satisfatória com radiofármaco bem distribuído.
+
+---
+
+## ACHADOS
+
+### **Coluna Vertebral**
+Múltiplos focos de hipercaptação do radiofármaco concentrados na região cervical inferior (vértebras C5, C6) com intensidade aumentada em relação ao background ósseo normal. Na região torácica, observam-se hipercaptações em corpos vertebrais de T2, T5, T8, T10 e T12, com intensidade variável entre discreta e moderada. A lesão em T8 apresenta captação máxima de 245% em relação ao córtex femoral contralateral (referência).
+
+Na coluna lombar, identifica-se hipercaptação em L1, L3 e L5, com captação máxima de 198% em L3. Não há evidência de colapso vertebral nas imagens. A região sacral (S1-S2) apresenta hipercaptação de padrão focal de 210% da intensidade normal.
+
+### **Arcos Costais e Tórax**
+Focos bilaterais de hipercaptação nas costelas 2ª, 4ª e 6ª bilateralmente, com padrão focal bem delimitado. A lesão da 4ª costela direita apresenta dimensão estimada de 3,8 cm em seu maior eixo com captação máxima de 225%. Hipercaptação também identificada na 3ª costela esquerda com captação de 188% e dimensões aproximadas de 2,9 cm. Padrão de distribuição sugestivo de múltiplas lesões focais metastáticas.
+
+### **Pelve**
+Hipercaptação focal na região de ísquio direito com captação de 205% e dimensão aproximada de 2,1 cm. Área focal no ramo isquiático esquerdo com captação de 192%. Sem alterações significativas na região do acetábulo bilateralmente.
+
+### **Extremidades**
+Captação normal e simétrica em úmeros, rádios, ulnas, fêmures e tíbias bilateralmente. Ligeira hipercaptação nas articulações dos joelhos direito e esquerdo, possivelmente relacionada a artropatia degenerativa leve (captação de 115-120% em relação ao background).
+
+### **Outras Regiões**
+Captação normal do radiofármaco em crânio, esterno, bacia (exceto ísquios bilaterais conforme descrito) e articulações esternoclaviculares. Não há hipercaptação significativa em partes moles. Clearance renal simétrico preservado. Bexiga sem achados significativos.
+
+### **Dados Quantitativos Complementares**
+- **Razão de Captação Lesão/Osso Normal (máxima):** 2,45 (T8)
+- **Número de Focos Identificados:** 17 lesões hipercaptantes
+- **Distribuição Anatômica:** 9 em coluna vertebral, 4 em arcos costais, 2 em pelve, 2 em extremidades proximais
+- **Padrão de Distribuição:** Multifocal compatível com metastização óssea
+- **Captação Hepática:** Normal (3,2% da dose injetada)
+- **Captação Renal:** Normal e simétrica
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Cintilografia óssea evidencia **múltiplos focos de hipercaptação do Tecnécio-99m MDP compatíveis com metástases ósseas disseminadas**, envolvendo principalmente coluna vertebral (cervical, torácica e lombar), arcos costais bilaterais e ossos pélvicos. O padrão de distribuição multifocal associado às intensidades de captação aumentadas sugere doença metastática óssea estabelecida.
+
+**Achados sugestivos de comprometimento ósseo com risco potencial de instabilidade vertebral, particularmente nas regiões torácica média (T8) e lombar (L3), recomendando-se correlação clínica e avaliação por ressonância magnética de coluna para melhor caracterização e avaliação de acometimento de partes moles e medula espinhal.**
+
+---
+
+**Assinado digitalmente por:**  
+[CRM]  
+Médico Radiologista/Medicina Nuclear  
+Data: [DATA DO EXAME]

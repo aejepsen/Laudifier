@@ -31,9 +31,6 @@ def detectar_especialidade(fname: str) -> str:
     # Cardiologia
     if any(x in n for x in ["CARDÍ","CARDIA","ECOCARDIO","ERGOM","ERGOESPIRO","ERGOESP"]):
         return "cardiologia"
-    # Patologia / procedimento
-    if any(x in n for x in ["BIOPSIA","BIO PSIA","HISTOL","CITOL"]):
-        return "patologia"
     # Gastroenterologia
     if any(x in n for x in ["EED","ENEMA","ESOFAGO","COLONOSCOP","ENDOSCOP",
                              "TGI","TRÂNSITO","TRANSITO","DEFECOGRAMA","DEGLUTOGRAMA"]):

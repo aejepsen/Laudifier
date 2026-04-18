@@ -1,0 +1,93 @@
+# LAUDO DE ENDOSCOPIA DIGESTIVA ALTA
+
+**PACIENTE:** [NOME DO PACIENTE]  
+**DATA DO EXAME:** [DATA DO EXAME]  
+**MÉDICO RESPONSÁVEL (CRM):** [CRM]  
+**MODALIDADE:** Endoscopia Digestiva Alta  
+**EQUIPAMENTO:** Videoendoscópio Olympus GIF-H190  
+**SEDAÇÃO:** Propofol 2% - dose total 80 mg IV  
+
+---
+
+## INDICAÇÃO CLÍNICA
+
+Avaliação de epigastralgia crônica intermitente há 18 meses, sem sintomas de alarme. Pesquisa de Helicobacter pylori em paciente com antecedente de úlcera péptica há 5 anos tratada clinicamente.
+
+---
+
+## TÉCNICA
+
+Procedimento realizado sob sedação consciente com monitorização contínua de saturação de oxigênio, frequência cardíaca e pressão arterial. Videoendoscópio inserido pela cavidade oral, com progressão sistemática através do esôfago, cárdia, câmara gástrica e primeira e segunda porções do duodeno. Ar insuflado sob visualização direta. Retirada do equipamento realizada sob visão direta com avaliação meticulosa da mucosa.
+
+---
+
+## ACHADOS
+
+**ESÔFAGO:**
+Mucosa íntegra, rosada e brilhante. Calibre preservado em toda a extensão. Sem sinais de esofagite erosiva. Ausência de lesões, ulcerações ou áreas de estreitamento. Presença de peristalse fisiológica eficaz. Junção esofagogástrica visualizada em posição normal, aproximadamente 40 cm da arcada dentária superior.
+
+**CÁRDIA:**
+Cárdia pérvio, com fechamento competente. Sem hérnias hiataL Mucosa preservada com aspecto normal.
+
+**CÂMARA GÁSTRICA:**
+Parede anterior: mucosa avermelhada, pregueada, com padrão vascular normal. Sem erosões ou ulcerações visíveis.
+
+Parede posterior: aspecto preservado, sem alterações macroscópicas. Mucosa pregueada regularmente.
+
+Grande curvatura: visualizada sem irregularidades. Mucosa de aspecto normal em toda a extensão.
+
+Pequena curvatura: sem gastrite focal ou disseminada. Sem úlceras cicatrizadas ou ativas.
+
+Fundo gástrico: mucosa íntegra, com padrão vascular fisiológico. Sem hérnias de mucosa.
+
+Corpo gástrico: amplo e distensível adequadamente com ar. Pregueamento normal. Sem lesões focais. Visualização da linha de transição corpo-antro preservada.
+
+Antro: mucosa de aspecto normal, rosada. Sem hipertrofia de pregas. Peristaltismo eficaz.
+
+Píloro: visual aberto, com calibre normal (aproximadamente 12 mm de diâmetro). Sem estenose. Passagem fácil do endoscópio.
+
+**DUODENO:**
+
+Primeira porção (D1): mucosa lisa, rosada. Sem erosões ou úlceras. Ausência de cicatrizes. Papila duodenal maior visualizada em posição normal, sem edema, sem sangramento.
+
+Segunda porção (D2): mucosa pregueada normalmente. Ampola de Vater visualizada sem dilatação. Sem lesões focais visíveis. Ducto biliar e de wirsung sem sinais de obstrução.
+
+Visualização até aproximadamente 15 cm da ponta do endoscópio sem alterações adicionais.
+
+---
+
+## ACHADOS ADICIONAIS
+
+Não foi observada presença de gastropatia portal, gastrite auto-imune ou gastrite atrófica. Não evidenciadas alterações sugestivas de doença de Crohn, Zollinger-Ellison ou outras enteropatias inflamatórias. Coloration normal sem palidez mucosa sugestiva de anemia importante.
+
+---
+
+## PROCEDIMENTOS REALIZADOS
+
+Realizada coleta de 4 fragmentos de mucosa gástrica para teste de urease rápido (TUR) e histopatologia:
+- 1 fragmento de mucosa do antro menor
+- 1 fragmento de mucosa do corpo
+- 1 fragmento de mucosa do fundo
+- 1 fragmento de mucosa da pequena curvatura
+
+Todos os fragmentos obtidos adequadamente sob visão direta.
+
+---
+
+## RESULTADO DO TESTE DE UREASE RÁPIDO
+
+Negativo para Helicobacter pylori (leitura após 24 horas).
+
+---
+
+## IMPRESSÃO DIAGNÓSTICA
+
+Endoscopia digestiva alta sem alterações macroscópicas relevantes. Esôfago, estômago (câmaras gástrica, fundo, corpo, antro) e duodeno (D1 e D2) apresentam mucosas íntegras, com calibre e aspecto normal. Ausência de lesões erosivas, ulcerativas, neoplásicas ou inflamatórias significativas. Junção esofagogástrica, cárdia e píloro pérvios e funcionais. Teste de urease rápido negativo. Achados compatíveis com endoscópio normal. Recomenda-se correlação clínica com sintomatologia do paciente e possível investigação de etiologias funcionais para epigastralgia referida. Acompanhamento clínico com gastroenterologista solicitado. Amostras para histopatologia encaminhadas para análise complementar.
+
+---
+
+**Assinado digitalmente por:**  
+Endoscopista responsável  
+Especialista em Gastroenterologia Clínica e Endoscopia Digestiva  
+Registro profissional: [CRM]  
+Data: [DATA DO EXAME]
