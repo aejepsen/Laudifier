@@ -25,6 +25,19 @@ EMB_DIM     = 1024
 
 _model: SentenceTransformer | None = None
 _model_error: Exception | None = None
+_qdrant_client: AsyncQdrantClient | None = None
+
+
+def _get_qdrant_client() -> AsyncQdrantClient:
+    """Singleton do AsyncQdrantClient — reutiliza conexão entre requests."""
+    global _qdrant_client
+    if _qdrant_client is None:
+        _qdrant_client = AsyncQdrantClient(
+            url=QDRANT_URL,
+            api_key=QDRANT_KEY or None,
+            timeout=30,  # cross-region: Azure BR → Qdrant US East
+        )
+    return _qdrant_client
 
 
 def _get_model() -> SentenceTransformer:
@@ -44,7 +57,7 @@ def _get_model() -> SentenceTransformer:
 
 class LaudoSearchAgent:
     def __init__(self):
-        self.qdrant = AsyncQdrantClient(url=QDRANT_URL, api_key=QDRANT_KEY or None)
+        self.qdrant = _get_qdrant_client()
 
     async def buscar_laudos_similares(
         self,
@@ -120,7 +133,7 @@ async def create_laudos_collection():
     Cria a coleção Qdrant para laudos médicos.
     Execute uma vez: python -c "import asyncio; from backend.agents.search_agent import create_laudos_collection; asyncio.run(create_laudos_collection())"
     """
-    client = AsyncQdrantClient(url=QDRANT_URL, api_key=QDRANT_KEY or None)
+    client = AsyncQdrantClient(url=QDRANT_URL, api_key=QDRANT_KEY or None, timeout=30)
 
     await client.recreate_collection(
         collection_name=COLLECTION,

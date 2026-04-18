@@ -7,12 +7,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /build
 COPY requirements.txt .
-# Instala torch CPU-only PRIMEIRO — evita que sentence-transformers puxe torch+CUDA (~5.5 GB)
+# --extra-index-url aplica a TODA resolução — torch+CUDA nunca entra
 RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir \
-        torch==2.5.1+cpu \
         --extra-index-url https://download.pytorch.org/whl/cpu \
-    && pip install --no-cache-dir -r requirements.txt
+        -r requirements.txt
 
 # Pré-baixa o modelo de embedding no build — evita download em runtime e erro de permissão
 RUN HF_HOME=/tmp/hf_model_cache python -c \
@@ -57,4 +56,4 @@ HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
     CMD curl -f http://localhost:8000/health/live || exit 1
 
 EXPOSE 8000
-CMD ["uvicorn", "backend.api.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
+CMD ["uvicorn", "backend.api.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1", "--log-level", "warning", "--no-access-log"]

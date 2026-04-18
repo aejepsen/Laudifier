@@ -6,6 +6,10 @@ Geração de laudos médicos com RAG + Claude knowledge fallback.
 
 import logging
 import os
+
+# Silencia libs ruidosas — reduz volume de ingestão no Log Analytics
+for _noisy in ("httpx", "httpcore", "sentence_transformers", "langfuse", "qdrant_client", "urllib3"):
+    logging.getLogger(_noisy).setLevel(logging.WARNING)
 import json
 import uuid
 import asyncio
