@@ -79,25 +79,27 @@ class LaudoSearchAgent:
         filtro = self._build_filter(especialidade, tipo_laudo)
 
         try:
-            results = await self.qdrant.search(
+            response = await self.qdrant.query_points(
                 collection_name=COLLECTION,
-                query_vector=embedding,
+                query=embedding,
                 query_filter=filtro,
                 limit=top,
                 with_payload=True,
                 score_threshold=0.45,
             )
+            results = response.points
             # Fallback sem filtro de especialidade se retornar vazio
             if not results and filtro is not None:
                 logger.info("[SearchAgent] Busca filtrada vazia — tentando sem filtro de especialidade")
-                results = await self.qdrant.search(
+                response = await self.qdrant.query_points(
                     collection_name=COLLECTION,
-                    query_vector=embedding,
+                    query=embedding,
                     query_filter=None,
                     limit=top,
                     with_payload=True,
                     score_threshold=0.45,
                 )
+                results = response.points
             return [self._to_dict(r) for r in results]
         except Exception as e:
             logger.warning(f"[SearchAgent] Qdrant search falhou: {e}")

@@ -13,7 +13,7 @@ python-multipart>=0.0.9
 anthropic>=0.40.0
 
 # ── Vector DB ─────────────────────────────────────────────────────────────────
-qdrant-client>=1.9.0
+qdrant-client>=2.0.0
 sentence-transformers>=2.7.0  # embeddings locais intfloat/multilingual-e5-large
 
 # ── Transcrição de voz ────────────────────────────────────────────────────────
