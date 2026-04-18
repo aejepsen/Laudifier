@@ -113,34 +113,11 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
           </div>
         </div>
 
-        <!-- Campos faltando -->
-        <div class="campos-alert" *ngIf="camposFaltando().length > 0">
-          <strong>📝 Preencha antes de finalizar:</strong>
-          <span *ngFor="let c of camposFaltando()" class="campo-tag">[{{ c }}]</span>
-        </div>
-
-        <!-- Laudo em streaming / visualização -->
-        <div class="laudo-content" *ngIf="!editando()">
-          <div class="laudo-text markdown-body"
-               [innerHTML]="renderMarkdown(laudoGerado())">
-          </div>
-          <div class="typing-cursor" *ngIf="isGenerating()">▌</div>
-        </div>
-
-        <!-- Laudo em edição -->
-        <textarea
-          *ngIf="editando()"
-          [(ngModel)]="laudoEditado"
-          class="laudo-editor"
-          rows="30">
-        </textarea>
-
-        <!-- Complementar laudo com achados adicionais -->
-        <div class="complementar-bar" *ngIf="laudoGerado() && !isGenerating() && currentLaudoId()">
+        <!-- Complementar laudo com achados adicionais (topo) -->
+        <div class="complementar-bar" *ngIf="!isGenerating() && currentLaudoId()">
           <div class="complementar-header">
-            <span class="complementar-label">📝 Complementar com achados</span>
             <button class="btn-link" (click)="showComplementar = !showComplementar">
-              {{ showComplementar ? '▲ Fechar' : '▼ Adicionar informações ao laudo' }}
+              {{ showComplementar ? '▲ Fechar' : '📝 Adicionar informações ao laudo' }}
             </button>
           </div>
           <div class="complementar-body" *ngIf="showComplementar">
@@ -162,8 +139,7 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
               </button>
             </div>
             <button
-              class="btn-gerar"
-              style="margin-top: 0.5rem"
+              class="btn-refinar"
               [disabled]="!achados.trim() || isRefining()"
               (click)="refinarLaudo()">
               <span *ngIf="!isRefining()">Refinar Laudo</span>
@@ -174,6 +150,28 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
             </button>
           </div>
         </div>
+
+        <!-- Campos faltando -->
+        <div class="campos-alert" *ngIf="camposFaltando().length > 0">
+          <strong>📝 Preencha antes de finalizar:</strong>
+          <span *ngFor="let c of camposFaltando()" class="campo-tag">[{{ c }}]</span>
+        </div>
+
+        <!-- Laudo em streaming / visualização -->
+        <div class="laudo-content" *ngIf="!editando()">
+          <div class="laudo-text markdown-body"
+               [innerHTML]="renderMarkdown(laudoGerado())">
+          </div>
+          <div class="typing-cursor" *ngIf="isGenerating() || isRefining()">▌</div>
+        </div>
+
+        <!-- Laudo em edição -->
+        <textarea
+          *ngIf="editando()"
+          [(ngModel)]="laudoEditado"
+          class="laudo-editor"
+          rows="30">
+        </textarea>
 
         <!-- Feedback do médico -->
         <div class="feedback-bar" *ngIf="laudoGerado() && !isGenerating() && !isRefining()">
@@ -267,12 +265,19 @@ export class GerarLaudoComponent implements OnDestroy {
     this.isRefining.set(true);
     this.editando.set(false);
 
+    let primeiroToken = true;
+
     this.laudoSvc
       .corrigirLaudo(this.currentLaudoId(), this.achados)
       .pipe(takeUntil(this.destroy$))
       .subscribe({
         next: (chunk: LaudoGeradoChunk) => {
           if (chunk.type === 'token') {
+            // Só apaga o laudo anterior quando o primeiro token chega
+            if (primeiroToken) {
+              this.laudoGerado.set('');
+              primeiroToken = false;
+            }
             this.laudoGerado.update(t => t + (chunk.text ?? ''));
           }
           if (chunk.type === 'done') {
@@ -288,9 +293,6 @@ export class GerarLaudoComponent implements OnDestroy {
         },
         complete: () => this.isRefining.set(false),
       });
-
-    // Limpa o laudo atual para mostrar o refinado em streaming
-    this.laudoGerado.set('');
   }
 
   gerarLaudo() {

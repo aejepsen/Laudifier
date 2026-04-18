@@ -311,6 +311,47 @@
   &:focus { border-color: var(--colorBrandStroke1); }
 }
 
+/* ── Complementar ───────────────────────────────────────────────────────── */
+.complementar-bar {
+  border: 1px solid var(--colorNeutralStroke2);
+  border-radius: 8px;
+  padding: 10px 14px;
+  background: var(--colorNeutralBackground3);
+}
+.complementar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.complementar-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--colorNeutralForeground2);
+}
+.complementar-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+.btn-refinar {
+  width: 100%;
+  padding: 10px;
+  background: var(--colorBrandBackground);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  &:hover:not(:disabled) { background: var(--colorBrandBackgroundHover); }
+  &:disabled { opacity: 0.5; cursor: not-allowed; }
+}
+
 /* ── Feedback ────────────────────────────────────────────────────────────── */
 .feedback-bar {
   display: flex;
