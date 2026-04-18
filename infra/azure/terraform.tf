@@ -9,8 +9,8 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "rg-aiprofessor-tfstate"
-    storage_account_name = "aiprofessortfstate"
+    resource_group_name  = "rg-laudifier-tfstate"
+    storage_account_name = "laudifiertfstate"
     container_name       = "tfstate"
     key                  = "laudifier.tfstate"
   }
