@@ -243,7 +243,7 @@ import { AuthService } from '../core/auth/auth.service';
             <button class="btn-action" (click)="lerLaudo()" [disabled]="voice.isSpeaking()">
               {{ voice.isSpeaking() ? '🔊 Lendo...' : '🔊 Ouvir' }}
             </button>
-            <button class="btn-action" (click)="editando.set(!editando())">
+            <button class="btn-action" (click)="toggleEdicao()">
               {{ editando() ? '👁 Visualizar' : '✏️ Editar' }}
             </button>
             <button class="btn-action primary" (click)="exportar('pdf')">⬇️ PDF</button>
@@ -481,6 +481,18 @@ export class GerarLaudoComponent implements OnDestroy {
       const texto = await this.voice.startListening();
       this.achados = texto;
     } catch (e) { /* erro já em voice.error() */ }
+  }
+
+  toggleEdicao() {
+    if (this.editando()) {
+      // Saindo do modo edição: aplica o texto editado no laudo
+      this.laudoGerado.set(this.laudoEditado);
+      this.editando.set(false);
+    } else {
+      // Entrando no modo edição: copia o laudo atual para o editor
+      this.laudoEditado = this.laudoGerado();
+      this.editando.set(true);
+    }
   }
 
   refinarLaudo() {
