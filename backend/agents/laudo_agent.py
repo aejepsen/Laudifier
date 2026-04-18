@@ -208,6 +208,9 @@ async def corrigir_laudo_stream(
         for i, l in enumerate(laudos_ref, 1):
             refs_str += f"[Ref {i}]\n{l['content'][:800]}\n\n"
 
+    # Normaliza instrução: "16 texto" → "linha 16: texto"
+    achados = _normalizar_instrucao_linhas(achados)
+
     # Numera as linhas não-vazias para facilitar referências do médico
     linhas = laudo_atual.split("\n")
     num = 0
@@ -377,6 +380,24 @@ def _formatar_dados(dados: dict) -> str:
 
 
 _formatar_dados_clinicos = _formatar_dados
+
+
+def _normalizar_instrucao_linhas(achados: str) -> str:
+    """
+    Normaliza referências de linha para formato canônico 'linha N: texto'.
+    Aceita fala natural sem keyword 'linha' ou sem dois-pontos:
+      "16 a lesão..."          → "linha 16: a lesão..."
+      "16: a lesão..."         → "linha 16: a lesão..."
+      "linha 16 a lesão..."    → "linha 16: a lesão..."
+      "linha 16: a lesão..."   → sem mudança
+    """
+    import re
+    # Detecta início: (opcional "linha ") + dígitos + (opcional ":") + espaço + texto
+    pattern = r'^(?:linha\s+)?(\d+)\s*:?\s+(.+)'
+    m = re.match(pattern, achados.strip(), re.IGNORECASE | re.DOTALL)
+    if m:
+        return f"linha {m.group(1)}: {m.group(2).strip()}"
+    return achados
 
 
 def _extrair_campos_faltando(laudo: str) -> list[str]:

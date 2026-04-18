@@ -124,7 +124,7 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
             <div class="input-voice-wrap">
               <textarea
                 [(ngModel)]="achados"
-                placeholder="Informe o número da linha e a alteração. Ex: &quot;linha 5: fibrose periportal leve&quot; ou &quot;linha 12 e 13: sem alterações significativas&quot;"
+                placeholder="Diga o número da linha e o novo texto. Ex: &quot;16 a lesão mede 2 x 2 cm&quot; ou &quot;linha 5: fibrose periportal leve&quot;"
                 rows="3"
                 class="text-input"
                 [class.listening]="voice.state() === 'listening'">
