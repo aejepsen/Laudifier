@@ -4,8 +4,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   padding: 24px;
-  height: 100%;
-  overflow-y: auto;
+  min-height: 100%;
+  align-items: start;
 
   @media (max-width: 900px) {
     grid-template-columns: 1fr;

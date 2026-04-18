@@ -108,7 +108,7 @@ import { AuthService } from '../core/auth/auth.service';
     .btn-logout { background: none; border: none; cursor: pointer; color: rgba(255,255,255,0.35); padding: 4px; border-radius: 4px; display: flex; align-items: center; transition: color 0.12s; }
     .btn-logout:hover { color: rgba(255,255,255,0.8); }
 
-    .main-content { flex: 1; overflow: hidden; display: flex; flex-direction: column; background: var(--colorNeutralBackground1); }
+    .main-content { flex: 1; overflow-y: auto; display: flex; flex-direction: column; background: var(--colorNeutralBackground1); }
 
     @media (max-width: 768px) {
       .sidebar { width: 56px; }
