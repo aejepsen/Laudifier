@@ -172,34 +172,63 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
                [innerHTML]="renderMarkdown(laudoGerado())">
           </div>
 
-          <!-- Modo linhas: numerado com × e + -->
+          <!-- Modo linhas: checkbox para editar, + para inserir, × para deletar -->
           <div *ngIf="modoLinhas()" class="laudo-numbered">
             <ng-container *ngFor="let linha of laudoLinhas()">
               <div *ngIf="linha.isEmpty" class="linha-spacer"></div>
-              <div *ngIf="!linha.isEmpty" class="laudo-linha">
-                <span class="linha-num">{{ linha.num }}</span>
-                <span class="linha-text" [innerHTML]="renderLine(linha.text)"></span>
-                <span class="linha-acoes">
-                  <button class="btn-linha-add" (click)="iniciarAdicao(linha.num)" title="Inserir linha após">+</button>
-                  <button class="btn-linha-del" (click)="deletarLinha(linha.num)" title="Remover linha">×</button>
-                </span>
-              </div>
-              <!-- Input inline para nova linha -->
-              <div *ngIf="!linha.isEmpty && adicionandoApos() === linha.num" class="linha-nova">
-                <span class="linha-num">{{ linha.num + 1 }}</span>
-                <input
-                  class="linha-nova-input"
-                  [(ngModel)]="novaLinhaTexto"
-                  [placeholder]="voice.state() === 'listening' ? '🎙️ Ouvindo...' : 'Digite ou dite o texto da nova linha...'"
-                  (keydown.enter)="confirmarAdicao()"
-                  (keydown.escape)="cancelarAdicao()" />
-                <button class="btn-linha-voice" [class.recording]="voice.state() === 'listening'"
-                  (click)="toggleVoiceNovaLinha()" title="Ditar linha">
-                  {{ voice.state() === 'listening' ? '⏹' : '🎙️' }}
-                </button>
-                <button class="btn-linha-ok"     (click)="confirmarAdicao()">✓</button>
-                <button class="btn-linha-cancel" (click)="cancelarAdicao()">×</button>
-              </div>
+              <ng-container *ngIf="!linha.isEmpty">
+
+                <!-- Linha normal -->
+                <div class="laudo-linha">
+                  <input type="checkbox" class="linha-check"
+                    [checked]="editandoLinha() === linha.num"
+                    (change)="toggleEditarLinha(linha.num, linha.text)"
+                    title="Selecionar para editar" />
+                  <span class="linha-num">{{ linha.num }}</span>
+                  <span class="linha-text" [innerHTML]="renderLine(linha.text)"></span>
+                  <span class="linha-acoes">
+                    <button class="btn-linha-add" (click)="iniciarAdicao(linha.num)" title="Inserir linha após">+</button>
+                    <button class="btn-linha-del" (click)="deletarLinha(linha.num)" title="Remover linha">×</button>
+                  </span>
+                </div>
+
+                <!-- Painel de edição da linha (checkbox marcado) -->
+                <div *ngIf="editandoLinha() === linha.num" class="linha-edit-panel">
+                  <span class="linha-edit-label">Linha {{ linha.num }}</span>
+                  <div class="linha-edit-row">
+                    <input
+                      class="linha-nova-input"
+                      [(ngModel)]="textoEdicaoLinha"
+                      [placeholder]="voice.state() === 'listening' ? '🎙️ Ouvindo...' : 'Dite ou digite a correção para esta linha...'"
+                      (keydown.enter)="confirmarEdicaoLinha(linha.num)"
+                      (keydown.escape)="cancelarEdicaoLinha()" />
+                    <button class="btn-linha-voice" [class.recording]="voice.state() === 'listening'"
+                      (click)="toggleVoiceEdicaoLinha()" title="Ditar">
+                      {{ voice.state() === 'listening' ? '⏹' : '🎙️' }}
+                    </button>
+                    <button class="btn-linha-ok"     (click)="confirmarEdicaoLinha(linha.num)" title="Confirmar">✓</button>
+                    <button class="btn-linha-cancel" (click)="cancelarEdicaoLinha()" title="Cancelar">×</button>
+                  </div>
+                </div>
+
+                <!-- Input inline para nova linha -->
+                <div *ngIf="adicionandoApos() === linha.num" class="linha-nova">
+                  <span class="linha-num">{{ linha.num + 1 }}</span>
+                  <input
+                    class="linha-nova-input"
+                    [(ngModel)]="novaLinhaTexto"
+                    [placeholder]="voice.state() === 'listening' ? '🎙️ Ouvindo...' : 'Digite ou dite o texto da nova linha...'"
+                    (keydown.enter)="confirmarAdicao()"
+                    (keydown.escape)="cancelarAdicao()" />
+                  <button class="btn-linha-voice" [class.recording]="voice.state() === 'listening'"
+                    (click)="toggleVoiceNovaLinha()" title="Ditar">
+                    {{ voice.state() === 'listening' ? '⏹' : '🎙️' }}
+                  </button>
+                  <button class="btn-linha-ok"     (click)="confirmarAdicao()">✓</button>
+                  <button class="btn-linha-cancel" (click)="cancelarAdicao()">×</button>
+                </div>
+
+              </ng-container>
             </ng-container>
           </div>
 
@@ -248,9 +277,11 @@ export class GerarLaudoComponent implements OnDestroy {
   isRefining     = signal(false);
   editando       = signal(false);
   currentLaudoId = signal('');
-  adicionandoApos = signal(0);
-  modoLinhas      = signal(false);
-  novaLinhaTexto  = '';
+  adicionandoApos   = signal(0);
+  modoLinhas        = signal(false);
+  editandoLinha     = signal(0);
+  novaLinhaTexto    = '';
+  textoEdicaoLinha  = '';
 
   canGenerate() {
     return !!this.solicitacao.trim() && !this.isGenerating();
@@ -444,6 +475,40 @@ export class GerarLaudoComponent implements OnDestroy {
     this.voice.stopListening();
   }
 
+  toggleEditarLinha(num: number, textoAtual: string) {
+    if (this.editandoLinha() === num) {
+      this.cancelarEdicaoLinha();
+    } else {
+      this.editandoLinha.set(num);
+      this.textoEdicaoLinha = '';
+      this.voice.stopListening();
+    }
+  }
+
+  confirmarEdicaoLinha(num: number) {
+    if (!this.textoEdicaoLinha.trim() || !this.currentLaudoId() || this.isRefining()) return;
+    this.achados = `${num} ${this.textoEdicaoLinha.trim()}`;
+    this.cancelarEdicaoLinha();
+    this.refinarLaudo();
+  }
+
+  cancelarEdicaoLinha() {
+    this.editandoLinha.set(0);
+    this.textoEdicaoLinha = '';
+    this.voice.stopListening();
+  }
+
+  async toggleVoiceEdicaoLinha() {
+    if (this.voice.state() === 'listening') {
+      this.voice.stopListening();
+      return;
+    }
+    try {
+      const texto = await this.voice.startListening();
+      this.textoEdicaoLinha = texto;
+    } catch (e) { /* erro já em voice.error() */ }
+  }
+
   async toggleVoiceNovaLinha() {
     if (this.voice.state() === 'listening') {
       this.voice.stopListening();
@@ -487,6 +552,7 @@ export class GerarLaudoComponent implements OnDestroy {
     this.showComplementar = false;
     this.currentLaudoId.set('');
     this.modoLinhas.set(false);
+    this.editandoLinha.set(0);
   }
 
   ngOnDestroy() {
