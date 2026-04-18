@@ -63,3 +63,4 @@ get_token.py
 *.tfvars
 !*.tfvars.example
 .env.ci
+laudifier/
