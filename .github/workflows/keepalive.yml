@@ -1,0 +1,40 @@
+name: Laudifier — Keepalive
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # a cada 5 minutos — evita cold start no Container App
+  workflow_dispatch:
+
+jobs:
+  ping:
+    name: Ping Backend
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - name: Login Azure via OIDC
+        uses: azure/login@v2
+        with:
+          client-id:       ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id:       ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Obter URL do Container App e fazer ping
+        uses: azure/cli@v2
+        with:
+          azcliversion: latest
+          inlineScript: |
+            FQDN=$(az containerapp show \
+              --name laudifier-production-backend \
+              --resource-group rg-laudifier-production \
+              --query "properties.configuration.ingress.fqdn" -o tsv)
+
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://${FQDN}/health/live" --max-time 10)
+            echo "Ping → https://${FQDN}/health/live — HTTP ${STATUS}"
+
+            if [ "$STATUS" != "200" ]; then
+              echo "⚠️ Container respondeu HTTP ${STATUS}"
+              exit 1
+            fi
+            echo "✅ Container ativo"

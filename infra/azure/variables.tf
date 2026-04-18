@@ -13,7 +13,7 @@ variable "environment" {
 variable "location" {
   type        = string
   description = "Região Azure (ex: brazilsouth, eastus)"
-  default     = "brazilsouth"
+  default     = "eastus2"
 }
 
 variable "app_name" {
