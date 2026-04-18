@@ -157,20 +157,34 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
           <span *ngFor="let c of camposFaltando()" class="campo-tag">[{{ c }}]</span>
         </div>
 
-        <!-- Laudo em streaming / visualização com numeração de linhas -->
+        <!-- Laudo em streaming / visualização -->
         <div class="laudo-content" *ngIf="!editando()">
-          <div class="laudo-numbered">
+
+          <!-- Toggle modo linhas -->
+          <div class="modo-linhas-bar" *ngIf="laudoGerado() && !isGenerating() && !isRefining()">
+            <button class="btn-link" (click)="modoLinhas.set(!modoLinhas())">
+              {{ modoLinhas() ? '👁 Visualização normal' : '🔢 Editar por linha' }}
+            </button>
+          </div>
+
+          <!-- Modo normal: markdown renderizado (tabelas, bold, headers) -->
+          <div *ngIf="!modoLinhas()" class="laudo-text markdown-body"
+               [innerHTML]="renderMarkdown(laudoGerado())">
+          </div>
+
+          <!-- Modo linhas: numerado com × e + -->
+          <div *ngIf="modoLinhas()" class="laudo-numbered">
             <ng-container *ngFor="let linha of laudoLinhas()">
               <div *ngIf="linha.isEmpty" class="linha-spacer"></div>
               <div *ngIf="!linha.isEmpty" class="laudo-linha">
                 <span class="linha-num">{{ linha.num }}</span>
                 <span class="linha-text" [innerHTML]="renderLine(linha.text)"></span>
-                <span class="linha-acoes" *ngIf="!isGenerating() && !isRefining()">
+                <span class="linha-acoes">
                   <button class="btn-linha-add" (click)="iniciarAdicao(linha.num)" title="Inserir linha após">+</button>
                   <button class="btn-linha-del" (click)="deletarLinha(linha.num)" title="Remover linha">×</button>
                 </span>
               </div>
-              <!-- Input inline para nova linha (após linha.num) -->
+              <!-- Input inline para nova linha -->
               <div *ngIf="!linha.isEmpty && adicionandoApos() === linha.num" class="linha-nova">
                 <span class="linha-num">{{ linha.num + 1 }}</span>
                 <input
@@ -179,19 +193,17 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
                   [placeholder]="voice.state() === 'listening' ? '🎙️ Ouvindo...' : 'Digite ou dite o texto da nova linha...'"
                   (keydown.enter)="confirmarAdicao()"
                   (keydown.escape)="cancelarAdicao()" />
-                <button
-                  class="btn-linha-voice"
-                  [class.recording]="voice.state() === 'listening'"
-                  (click)="toggleVoiceNovaLinha()"
-                  title="Ditar linha">
+                <button class="btn-linha-voice" [class.recording]="voice.state() === 'listening'"
+                  (click)="toggleVoiceNovaLinha()" title="Ditar linha">
                   {{ voice.state() === 'listening' ? '⏹' : '🎙️' }}
                 </button>
                 <button class="btn-linha-ok"     (click)="confirmarAdicao()">✓</button>
                 <button class="btn-linha-cancel" (click)="cancelarAdicao()">×</button>
               </div>
             </ng-container>
-            <div class="typing-cursor" *ngIf="isGenerating() || isRefining()">▌</div>
           </div>
+
+          <div class="typing-cursor" *ngIf="isGenerating() || isRefining()">▌</div>
         </div>
 
         <!-- Laudo em edição -->
@@ -237,6 +249,7 @@ export class GerarLaudoComponent implements OnDestroy {
   editando       = signal(false);
   currentLaudoId = signal('');
   adicionandoApos = signal(0);
+  modoLinhas      = signal(false);
   novaLinhaTexto  = '';
 
   canGenerate() {
@@ -473,6 +486,7 @@ export class GerarLaudoComponent implements OnDestroy {
     this.achados = '';
     this.showComplementar = false;
     this.currentLaudoId.set('');
+    this.modoLinhas.set(false);
   }
 
   ngOnDestroy() {

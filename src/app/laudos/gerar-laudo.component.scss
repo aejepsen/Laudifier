@@ -311,6 +311,13 @@
   &:focus { border-color: var(--colorBrandStroke1); }
 }
 
+/* ── Toggle modo linhas ─────────────────────────────────────────────────── */
+.modo-linhas-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 4px;
+}
+
 /* ── Laudo numerado ─────────────────────────────────────────────────────── */
 .laudo-numbered {
   font-family: 'Roboto Mono', 'Courier New', monospace;
