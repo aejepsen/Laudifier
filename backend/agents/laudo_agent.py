@@ -193,6 +193,23 @@ async def corrigir_laudo_stream(
     Recebe o laudo atual + achados do médico em linguagem livre.
     Usa RAG de frases especializadas para reescrever em terminologia radiológica.
     """
+    # Normaliza instrução: "16 texto" → "linha 16: texto"
+    achados = _normalizar_instrucao_linhas(achados)
+
+    # ── Substituição determinística de linha ──────────────────────────────────
+    # Se o médico referenciou uma linha específica, substituímos diretamente
+    # sem passar pelo Claude (evita que ele reescreva o laudo inteiro).
+    laudo_direto = _substituir_linha(laudo_atual, achados)
+    if laudo_direto is not None:
+        # Emite o laudo corrigido em chunks para manter a UX de streaming
+        CHUNK = 200
+        for i in range(0, len(laudo_direto), CHUNK):
+            yield {"type": "token", "text": laudo_direto[i:i + CHUNK]}
+        campos_faltando = _extrair_campos_faltando(laudo_direto)
+        yield {"type": "done", "campos_faltando": campos_faltando, "laudo": laudo_direto}
+        return
+
+    # ── Instrução geral: usa Claude + RAG ─────────────────────────────────────
     client = anthropic.AsyncAnthropic()
     search = LaudoSearchAgent()
 
@@ -208,33 +225,15 @@ async def corrigir_laudo_stream(
         for i, l in enumerate(laudos_ref, 1):
             refs_str += f"[Ref {i}]\n{l['content'][:800]}\n\n"
 
-    # Normaliza instrução: "16 texto" → "linha 16: texto"
-    achados = _normalizar_instrucao_linhas(achados)
-
-    # Numera as linhas não-vazias para facilitar referências do médico
-    linhas = laudo_atual.split("\n")
-    num = 0
-    linhas_numeradas_parts = []
-    for linha in linhas:
-        if linha.strip():
-            num += 1
-            linhas_numeradas_parts.append(f"{num}: {linha}")
-        else:
-            linhas_numeradas_parts.append(linha)
-    linhas_numeradas = "\n".join(linhas_numeradas_parts)
-
     prompt = (
         f"ESPECIALIDADE: {especialidade.upper()}\n\n"
-        f"── LAUDO ATUAL (com numeração de linhas) ──\n{linhas_numeradas}\n\n"
+        f"── LAUDO ATUAL ──\n{laudo_atual}\n\n"
         f"{refs_str}"
         f"── INSTRUÇÃO DO MÉDICO ──\n{achados}\n\n"
-        "REGRAS:\n"
-        "1. Se a instrução referencia linhas (ex: 'linha 5: fibrose leve'), "
-        "substitua APENAS o conteúdo dessas linhas, mantendo todo o resto intacto.\n"
-        "2. Se a instrução é geral (sem referência de linha), incorpore os achados "
-        "na seção correta com terminologia radiológica precisa.\n"
-        "3. Use as frases de referência como vocabulário — não copie placeholders.\n"
-        "4. Retorne o laudo COMPLETO e corrigido, SEM numeração de linhas na saída."
+        "Incorpore os achados do médico com terminologia radiológica precisa. "
+        "Mantenha a estrutura do laudo atual. "
+        "Use as frases de referência como vocabulário — não copie placeholders. "
+        "Retorne o laudo COMPLETO e corrigido."
     )
 
     system = load_system_prompt()
@@ -380,6 +379,30 @@ def _formatar_dados(dados: dict) -> str:
 
 
 _formatar_dados_clinicos = _formatar_dados
+
+
+def _substituir_linha(laudo: str, achados_normalizado: str) -> str | None:
+    """
+    Se achados_normalizado é 'linha N: novo texto', substitui a N-ésima linha
+    não-vazia do laudo de forma determinística e retorna o laudo modificado.
+    Retorna None se não for uma referência de linha.
+    """
+    import re
+    m = re.match(r'^linha\s+(\d+):\s+(.+)', achados_normalizado.strip(), re.IGNORECASE | re.DOTALL)
+    if not m:
+        return None
+    num_alvo = int(m.group(1))
+    novo_texto = m.group(2).strip()
+
+    linhas = laudo.split('\n')
+    contador = 0
+    for i, linha in enumerate(linhas):
+        if linha.strip():
+            contador += 1
+            if contador == num_alvo:
+                linhas[i] = novo_texto
+                return '\n'.join(linhas)
+    return None  # número de linha fora do intervalo
 
 
 def _normalizar_instrucao_linhas(achados: str) -> str:
