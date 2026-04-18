@@ -87,6 +87,17 @@ class LaudoSearchAgent:
                 with_payload=True,
                 score_threshold=0.45,
             )
+            # Fallback sem filtro de especialidade se retornar vazio
+            if not results and filtro is not None:
+                logger.info("[SearchAgent] Busca filtrada vazia — tentando sem filtro de especialidade")
+                results = await self.qdrant.search(
+                    collection_name=COLLECTION,
+                    query_vector=embedding,
+                    query_filter=None,
+                    limit=top,
+                    with_payload=True,
+                    score_threshold=0.45,
+                )
             return [self._to_dict(r) for r in results]
         except Exception as e:
             logger.warning(f"[SearchAgent] Qdrant search falhou: {e}")
