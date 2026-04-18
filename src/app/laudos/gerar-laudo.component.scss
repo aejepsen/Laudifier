@@ -332,6 +332,11 @@
   padding: 1px 0;
   border-radius: 4px;
   &:hover { background: var(--colorNeutralBackground3); }
+  &.linha-ativa {
+    background: rgba(96,165,250,0.08);
+    border-left: 2px solid #60a5fa;
+    padding-left: 4px;
+  }
 }
 .linha-num {
   min-width: 28px;
@@ -429,28 +434,43 @@
   &:focus { border-color: #60a5fa; }
 }
 
-/* ── Complementar ───────────────────────────────────────────────────────── */
-.complementar-bar {
-  border: 1px solid var(--colorNeutralStroke2);
-  border-radius: 8px;
-  padding: 10px 14px;
-  background: var(--colorNeutralBackground3);
-}
-.complementar-header {
+/* ── Refinar section (painel esquerdo, abaixo de Gerar Laudo) ─────────── */
+.refinar-section {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
 }
-.complementar-label {
+.refinar-divider {
+  height: 1px;
+  background: var(--colorNeutralStroke2);
+  margin: 0;
+}
+.refinar-label {
   font-size: 13px;
   font-weight: 600;
   color: var(--colorNeutralForeground2);
-}
-.complementar-body {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   gap: 8px;
-  margin-top: 10px;
+}
+.refinar-linha-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #60a5fa;
+}
+.btn-link-small {
+  background: none;
+  border: none;
+  font-size: 12px;
+  color: var(--colorNeutralForeground3);
+  cursor: pointer;
+  padding: 0;
+  &:hover { color: var(--colorNeutralForeground1); }
+}
+.text-input.linha-selecionada {
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 3px rgba(96,165,250,0.15);
 }
 .btn-refinar {
   width: 100%;

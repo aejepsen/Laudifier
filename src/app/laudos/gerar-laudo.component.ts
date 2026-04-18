@@ -4,7 +4,7 @@
  * Médico dita ou digita → IA gera o laudo → médico revisa e exporta.
  */
 import {
-  Component, signal, inject, computed, OnDestroy
+  Component, signal, inject, computed, OnDestroy, ViewChild, ElementRef
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -21,7 +21,7 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
     <div class="laudo-page">
 
       <!-- ── Painel de Entrada ─────────────────────────────────────────────── -->
-      <div class="input-panel" [class.collapsed]="laudoGerado()">
+      <div class="input-panel" [class.collapsed]="isGenerating() && !laudoGerado()">
 
         <h2 class="panel-title">Novo Laudo</h2>
 
@@ -48,13 +48,13 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
               [placeholder]="voicePlaceholder()"
               rows="5"
               class="text-input"
-              [class.listening]="voice.state() === 'listening'">
+              [class.listening]="voice.state() === 'listening' && editandoLinha() === 0 && adicionandoApos() === 0">
             </textarea>
 
             <!-- Botão de Voz -->
             <button
               class="btn-voice"
-              [class.recording]="voice.state() === 'listening'"
+              [class.recording]="voice.state() === 'listening' && editandoLinha() === 0 && adicionandoApos() === 0"
               [class.processing]="voice.state() === 'processing'"
               [disabled]="isGenerating()"
               (click)="toggleVoice()"
@@ -65,7 +65,7 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
           </div>
 
           <!-- Transcrição em tempo real -->
-          <p class="live-transcript" *ngIf="voice.state() === 'listening' && voice.transcript()">
+          <p class="live-transcript" *ngIf="voice.state() === 'listening' && voice.transcript() && editandoLinha() === 0">
             <span class="dot"></span>{{ voice.transcript() }}
           </p>
           <p class="voice-error" *ngIf="voice.error()">⚠️ {{ voice.error() }}</p>
@@ -82,6 +82,58 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
             Gerando...
           </span>
         </button>
+
+        <!-- ── Refinar / Editar linha (aparece após gerar laudo) ──────────── -->
+        <div class="refinar-section" *ngIf="currentLaudoId() && !isGenerating()">
+          <div class="refinar-divider"></div>
+
+          <!-- Label dinâmico: linha selecionada ou geral -->
+          <div class="refinar-label">
+            <span *ngIf="editandoLinha() === 0">📝 Adicionar informações ao laudo</span>
+            <span *ngIf="editandoLinha() > 0" class="refinar-linha-badge">
+              ✏️ Editando linha {{ editandoLinha() }}
+              <button class="btn-link-small" (click)="cancelarEdicaoLinha()">× cancelar seleção</button>
+            </span>
+          </div>
+
+          <div class="input-voice-wrap">
+            <textarea
+              #refinarTextarea
+              [(ngModel)]="achados"
+              [placeholder]="refinarPlaceholder()"
+              rows="4"
+              class="text-input"
+              [class.listening]="voice.state() === 'listening' && (editandoLinha() > 0 || adicionandoApos() > 0)"
+              [class.linha-selecionada]="editandoLinha() > 0">
+            </textarea>
+            <button
+              class="btn-voice"
+              [class.recording]="voice.state() === 'listening' && editandoLinha() >= 0"
+              [disabled]="isRefining()"
+              (click)="toggleVoiceAchados()"
+              title="Ditar">
+              <span class="voice-icon">{{ voice.state() === 'listening' ? '⏹' : '🎙️' }}</span>
+            </button>
+          </div>
+
+          <!-- Live transcript para ditar no refinar -->
+          <p class="live-transcript" *ngIf="voice.state() === 'listening' && voice.transcript() && editandoLinha() > 0">
+            <span class="dot"></span>{{ voice.transcript() }}
+          </p>
+
+          <button
+            class="btn-refinar"
+            [disabled]="!achados.trim() || isRefining()"
+            (click)="refinarLaudo()">
+            <span *ngIf="!isRefining()">
+              {{ editandoLinha() > 0 ? 'Aplicar na linha ' + editandoLinha() : 'Refinar Laudo' }}
+            </span>
+            <span *ngIf="isRefining()" class="generating">
+              <span class="dots"><span></span><span></span><span></span></span>
+              Refinando...
+            </span>
+          </button>
+        </div>
 
       </div>
 
@@ -113,44 +165,6 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
           </div>
         </div>
 
-        <!-- Complementar laudo com achados adicionais (topo) -->
-        <div class="complementar-bar" *ngIf="!isGenerating() && currentLaudoId()">
-          <div class="complementar-header">
-            <button class="btn-link" (click)="showComplementar = !showComplementar">
-              {{ showComplementar ? '▲ Fechar' : '📝 Adicionar informações ao laudo' }}
-            </button>
-          </div>
-          <div class="complementar-body" *ngIf="showComplementar">
-            <div class="input-voice-wrap">
-              <textarea
-                [(ngModel)]="achados"
-                placeholder="Diga o número da linha e o novo texto. Ex: &quot;16 a lesão mede 2 x 2 cm&quot; ou &quot;linha 5: fibrose periportal leve&quot;"
-                rows="3"
-                class="text-input"
-                [class.listening]="voice.state() === 'listening'">
-              </textarea>
-              <button
-                class="btn-voice"
-                [class.recording]="voice.state() === 'listening'"
-                [disabled]="isRefining()"
-                (click)="toggleVoiceAchados()"
-                title="Ditar achados">
-                <span class="voice-icon">{{ voice.state() === 'listening' ? '⏹' : '🎙️' }}</span>
-              </button>
-            </div>
-            <button
-              class="btn-refinar"
-              [disabled]="!achados.trim() || isRefining()"
-              (click)="refinarLaudo()">
-              <span *ngIf="!isRefining()">Refinar Laudo</span>
-              <span *ngIf="isRefining()" class="generating">
-                <span class="dots"><span></span><span></span><span></span></span>
-                Refinando...
-              </span>
-            </button>
-          </div>
-        </div>
-
         <!-- Campos faltando -->
         <div class="campos-alert" *ngIf="camposFaltando().length > 0">
           <strong>📝 Preencha antes de finalizar:</strong>
@@ -172,14 +186,13 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
                [innerHTML]="renderMarkdown(laudoGerado())">
           </div>
 
-          <!-- Modo linhas: checkbox para editar, + para inserir, × para deletar -->
+          <!-- Modo linhas: checkbox para selecionar (edita no painel esquerdo), + para inserir, × para deletar -->
           <div *ngIf="modoLinhas()" class="laudo-numbered">
             <ng-container *ngFor="let linha of laudoLinhas()">
               <div *ngIf="linha.isEmpty" class="linha-spacer"></div>
               <ng-container *ngIf="!linha.isEmpty">
 
-                <!-- Linha normal -->
-                <div class="laudo-linha">
+                <div class="laudo-linha" [class.linha-ativa]="editandoLinha() === linha.num">
                   <input type="checkbox" class="linha-check"
                     [checked]="editandoLinha() === linha.num"
                     (change)="toggleEditarLinha(linha.num, linha.text)"
@@ -192,26 +205,7 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
                   </span>
                 </div>
 
-                <!-- Painel de edição da linha (checkbox marcado) -->
-                <div *ngIf="editandoLinha() === linha.num" class="linha-edit-panel">
-                  <span class="linha-edit-label">Linha {{ linha.num }}</span>
-                  <div class="linha-edit-row">
-                    <input
-                      class="linha-nova-input"
-                      [(ngModel)]="textoEdicaoLinha"
-                      [placeholder]="voice.state() === 'listening' ? '🎙️ Ouvindo...' : 'Dite ou digite a correção para esta linha...'"
-                      (keydown.enter)="confirmarEdicaoLinha(linha.num)"
-                      (keydown.escape)="cancelarEdicaoLinha()" />
-                    <button class="btn-linha-voice" [class.recording]="voice.state() === 'listening'"
-                      (click)="toggleVoiceEdicaoLinha()" title="Ditar">
-                      {{ voice.state() === 'listening' ? '⏹' : '🎙️' }}
-                    </button>
-                    <button class="btn-linha-ok"     (click)="confirmarEdicaoLinha(linha.num)" title="Confirmar">✓</button>
-                    <button class="btn-linha-cancel" (click)="cancelarEdicaoLinha()" title="Cancelar">×</button>
-                  </div>
-                </div>
-
-                <!-- Input inline para nova linha -->
+                <!-- Input inline apenas para nova linha -->
                 <div *ngIf="adicionandoApos() === linha.num" class="linha-nova">
                   <span class="linha-num">{{ linha.num + 1 }}</span>
                   <input
@@ -261,11 +255,12 @@ export class GerarLaudoComponent implements OnDestroy {
   private  laudoSvc = inject(LaudoService);
   private  destroy$ = new Subject<void>();
 
-  especialidade    = 'Geral';
-  solicitacao      = '';
-  showDados        = false;
-  showComplementar = false;
-  achados          = '';
+  @ViewChild('refinarTextarea') refinarTextareaRef?: ElementRef<HTMLTextAreaElement>;
+
+  especialidade = 'Geral';
+  solicitacao   = '';
+  showDados     = false;
+  achados       = '';
   dadosPaciente  = { nome: '', idade: '', sexo: '', indicacao: '' };
   laudoEditado   = '';
 
@@ -280,8 +275,7 @@ export class GerarLaudoComponent implements OnDestroy {
   adicionandoApos   = signal(0);
   modoLinhas        = signal(false);
   editandoLinha     = signal(0);
-  novaLinhaTexto    = '';
-  textoEdicaoLinha  = '';
+  novaLinhaTexto = '';
 
   canGenerate() {
     return !!this.solicitacao.trim() && !this.isGenerating();
@@ -295,6 +289,13 @@ export class GerarLaudoComponent implements OnDestroy {
       num:     line.trim() ? ++num : 0,
       text:    line,
     }));
+  });
+
+  refinarPlaceholder = computed(() => {
+    const num = this.editandoLinha();
+    if (this.voice.state() === 'listening') return '🎙️ Ouvindo...';
+    if (num > 0) return `Dite ou digite a correção para a linha ${num}. Ex: "fibrose periportal leve"`;
+    return 'Dite o número da linha e o novo texto. Ex: "16 a lesão mede 2 x 2 cm" ou acrescente achados gerais.';
   });
 
   voicePlaceholder = computed(() => {
@@ -347,13 +348,18 @@ export class GerarLaudoComponent implements OnDestroy {
 
   refinarLaudo() {
     if (!this.achados.trim() || !this.currentLaudoId() || this.isRefining()) return;
+    // Se uma linha estiver selecionada, prepend o número para o backend resolver
+    const payload = this.editandoLinha() > 0
+      ? `${this.editandoLinha()} ${this.achados.trim()}`
+      : this.achados.trim();
     this.isRefining.set(true);
     this.editando.set(false);
+    this.cancelarEdicaoLinha();
 
     let primeiroToken = true;
 
     this.laudoSvc
-      .corrigirLaudo(this.currentLaudoId(), this.achados)
+      .corrigirLaudo(this.currentLaudoId(), payload)
       .pipe(takeUntil(this.destroy$))
       .subscribe({
         next: (chunk: LaudoGeradoChunk) => {
@@ -369,7 +375,6 @@ export class GerarLaudoComponent implements OnDestroy {
             this.camposFaltando.set(chunk.campos_faltando ?? []);
             this.laudoEditado = chunk.laudo ?? this.laudoGerado();
             this.achados = '';
-            this.showComplementar = false;
             this.isRefining.set(false);
           }
           if (chunk.type === 'error') {
@@ -475,38 +480,24 @@ export class GerarLaudoComponent implements OnDestroy {
     this.voice.stopListening();
   }
 
-  toggleEditarLinha(num: number, textoAtual: string) {
+  toggleEditarLinha(num: number, _textoAtual: string) {
     if (this.editandoLinha() === num) {
       this.cancelarEdicaoLinha();
     } else {
       this.editandoLinha.set(num);
-      this.textoEdicaoLinha = '';
+      this.achados = '';
       this.voice.stopListening();
+      // Redireciona foco para o textarea no painel esquerdo
+      setTimeout(() => {
+        this.refinarTextareaRef?.nativeElement?.focus();
+        this.refinarTextareaRef?.nativeElement?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 50);
     }
-  }
-
-  confirmarEdicaoLinha(num: number) {
-    if (!this.textoEdicaoLinha.trim() || !this.currentLaudoId() || this.isRefining()) return;
-    this.achados = `${num} ${this.textoEdicaoLinha.trim()}`;
-    this.cancelarEdicaoLinha();
-    this.refinarLaudo();
   }
 
   cancelarEdicaoLinha() {
     this.editandoLinha.set(0);
-    this.textoEdicaoLinha = '';
     this.voice.stopListening();
-  }
-
-  async toggleVoiceEdicaoLinha() {
-    if (this.voice.state() === 'listening') {
-      this.voice.stopListening();
-      return;
-    }
-    try {
-      const texto = await this.voice.startListening();
-      this.textoEdicaoLinha = texto;
-    } catch (e) { /* erro já em voice.error() */ }
   }
 
   async toggleVoiceNovaLinha() {
@@ -549,7 +540,6 @@ export class GerarLaudoComponent implements OnDestroy {
     this.camposFaltando.set([]);
     this.editando.set(false);
     this.achados = '';
-    this.showComplementar = false;
     this.currentLaudoId.set('');
     this.modoLinhas.set(false);
     this.editandoLinha.set(0);
