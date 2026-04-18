@@ -68,7 +68,6 @@ import { AuthService } from '../core/auth/auth.service';
                 <option value="">Selecione...</option>
                 <option value="Masculino">Masculino</option>
                 <option value="Feminino">Feminino</option>
-                <option value="Outro">Outro</option>
               </select>
               <span class="erro-msg" *ngIf="mostrarErro('sexo')">{{ errosDados().sexo }}</span>
             </div>
