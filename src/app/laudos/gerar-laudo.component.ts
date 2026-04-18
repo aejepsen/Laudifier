@@ -176,9 +176,16 @@ import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services
                 <input
                   class="linha-nova-input"
                   [(ngModel)]="novaLinhaTexto"
-                  placeholder="Digite o texto da nova linha..."
+                  [placeholder]="voice.state() === 'listening' ? '🎙️ Ouvindo...' : 'Digite ou dite o texto da nova linha...'"
                   (keydown.enter)="confirmarAdicao()"
                   (keydown.escape)="cancelarAdicao()" />
+                <button
+                  class="btn-linha-voice"
+                  [class.recording]="voice.state() === 'listening'"
+                  (click)="toggleVoiceNovaLinha()"
+                  title="Ditar linha">
+                  {{ voice.state() === 'listening' ? '⏹' : '🎙️' }}
+                </button>
                 <button class="btn-linha-ok"     (click)="confirmarAdicao()">✓</button>
                 <button class="btn-linha-cancel" (click)="cancelarAdicao()">×</button>
               </div>
@@ -421,6 +428,18 @@ export class GerarLaudoComponent implements OnDestroy {
   cancelarAdicao() {
     this.adicionandoApos.set(0);
     this.novaLinhaTexto = '';
+    this.voice.stopListening();
+  }
+
+  async toggleVoiceNovaLinha() {
+    if (this.voice.state() === 'listening') {
+      this.voice.stopListening();
+      return;
+    }
+    try {
+      const texto = await this.voice.startListening();
+      this.novaLinhaTexto = texto;
+    } catch (e) { /* erro já em voice.error() */ }
   }
 
   lerLaudo() {

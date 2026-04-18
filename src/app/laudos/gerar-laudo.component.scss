@@ -356,7 +356,7 @@
 }
 .laudo-linha:hover .linha-acoes { display: flex; }
 
-.btn-linha-add, .btn-linha-del, .btn-linha-ok, .btn-linha-cancel {
+.btn-linha-add, .btn-linha-del, .btn-linha-ok, .btn-linha-cancel, .btn-linha-voice {
   width: 20px; height: 20px;
   border: none; border-radius: 4px;
   font-size: 14px; line-height: 1;
@@ -367,6 +367,10 @@
 .btn-linha-del    { background: rgba(239,68,68,0.12);  color: #f87171; &:hover { background: rgba(239,68,68,0.25); } }
 .btn-linha-ok     { background: rgba(52,211,153,0.15); color: #34d399; &:hover { background: rgba(52,211,153,0.3); } }
 .btn-linha-cancel { background: rgba(239,68,68,0.12);  color: #f87171; &:hover { background: rgba(239,68,68,0.25); } }
+.btn-linha-voice  { background: rgba(167,139,250,0.15); color: #a78bfa; font-size: 12px;
+  &:hover { background: rgba(167,139,250,0.3); }
+  &.recording { background: rgba(239,68,68,0.2); color: #f87171; animation: pulse 1s infinite; }
+}
 
 .linha-nova {
   display: flex;
