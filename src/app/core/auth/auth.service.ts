@@ -1,5 +1,5 @@
 // src/app/core/auth/auth.service.ts
-import { Injectable, signal } from '@angular/core';
+import { Injectable, signal, computed } from '@angular/core';
 import { Router } from '@angular/router';
 import { inject } from '@angular/core';
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
@@ -18,6 +18,7 @@ export class AuthService {
   readonly profile    = signal<UserProfile | null>(null);
   readonly isLoggedIn = signal(false);
   readonly loading    = signal(false);
+  readonly isAdmin    = computed(() => this.profile()?.role === 'admin');
 
   constructor() {
     this.sb = createClient(environment.supabaseUrl, environment.supabaseKey, {

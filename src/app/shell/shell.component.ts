@@ -39,7 +39,7 @@ import { AuthService } from '../core/auth/auth.service';
               <span class="nav-label">Histórico</span>
             </a>
           </li>
-          <li>
+          <li *ngIf="auth.isAdmin()">
             <a routerLink="/repositorio" routerLinkActive="active" class="nav-item">
               <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
@@ -47,7 +47,7 @@ import { AuthService } from '../core/auth/auth.service';
               <span class="nav-label">Repositório</span>
             </a>
           </li>
-          <li>
+          <li *ngIf="auth.isAdmin()">
             <a routerLink="/dashboard" routerLinkActive="active" class="nav-item">
               <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                 <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
