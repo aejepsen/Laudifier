@@ -21,7 +21,7 @@ from .search_agent             import LaudoSearchAgent
 from ..services.prompt_service import load_system_prompt
 from ..services.memory_service import LaudifierMemory
 
-ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
+ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
 CONTEXT_RELEVANCE_THRESHOLD = 0.60
 
 
