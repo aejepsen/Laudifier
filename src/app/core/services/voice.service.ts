@@ -31,7 +31,7 @@ export class VoiceService {
     if (API) {
       this.isSupported.set(true);
       this.recognition = new API();
-      this.recognition.continuous     = false;
+      this.recognition.continuous     = true;   // não encerra em pausa
       this.recognition.interimResults = true;
       this.recognition.lang           = 'pt-BR';
     }
@@ -41,7 +41,6 @@ export class VoiceService {
 
   startListening(): Promise<string> {
     if (!this.recognition) {
-      // Fallback: grava áudio e envia para Whisper server-side
       return this._recordAndTranscribe();
     }
 
@@ -50,30 +49,48 @@ export class VoiceService {
       this.error.set('');
       this.state.set('listening');
 
+      let accumulated = '';          // texto final acumulado entre pausas
+      let pendingResolve: ((t: string) => void) | null = resolve;
+
       this.recognition.onresult = (event: any) => {
-        let final = '', interim = '';
+        let interim = '';
         for (let i = event.resultIndex; i < event.results.length; i++) {
           const t = event.results[i][0].transcript;
-          event.results[i].isFinal ? (final += t) : (interim += t);
+          if (event.results[i].isFinal) {
+            accumulated += (accumulated ? ' ' : '') + t.trim();
+          } else {
+            interim += t;
+          }
         }
-        this.transcript.set(final || interim);
-        if (final) { this.state.set('idle'); resolve(final.trim()); }
+        // Exibe acumulado + trecho em andamento
+        this.transcript.set(accumulated + (interim ? ' ' + interim : ''));
       };
 
       this.recognition.onerror = (e: any) => {
+        // 'no-speech' dispara em pausa silenciosa no modo contínuo — ignorar
+        if (e.error === 'no-speech') return;
         const msg = this._errorMsg(e.error);
         this.error.set(msg);
         this.state.set('error');
-        // Auto-limpa o erro e volta ao idle após 3s
         setTimeout(() => {
           this.error.set('');
           if (this.state() === 'error') this.state.set('idle');
         }, 3000);
+        pendingResolve = null;
         reject(msg);
       };
 
       this.recognition.onend = () => {
-        if (this.state() === 'listening') this.state.set('idle');
+        if (this.state() === 'listening') {
+          // Browser encerrou por pausa — reinicia para continuar ouvindo
+          try { this.recognition.start(); } catch { /* já iniciando */ }
+          return;
+        }
+        // Usuário clicou Parar (state foi setado para 'idle' antes do stop())
+        if (pendingResolve) {
+          pendingResolve(accumulated.trim());
+          pendingResolve = null;
+        }
       };
 
       this.recognition.start();
@@ -81,8 +98,10 @@ export class VoiceService {
   }
 
   stopListening() {
-    this.recognition?.stop();
+    // Muda estado ANTES de stop() para que onend saiba que foi intencional
     this.state.set('idle');
+    this.transcript.set('');
+    this.recognition?.stop();
   }
 
   // ── TTS: lê o laudo gerado ─────────────────────────────────────────────────
