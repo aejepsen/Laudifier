@@ -76,16 +76,30 @@ import { AuthService } from '../core/auth/auth.service';
           <!-- Indicação Clínica -->
           <div class="field">
             <label>Indicação Clínica <span class="required">*</span></label>
-            <textarea
-              [(ngModel)]="dadosPaciente.indicacao"
-              placeholder="Descreva a indicação clínica. Ex: dor abdominal crônica, investigação de hepatopatia, suspeita de neoplasia..."
-              rows="3"
-              maxlength="300"
-              class="text-input"
-              (blur)="marcarTocado('indicacao')"
-              [class.field-error]="mostrarErro('indicacao')"
-              [class.field-valid]="!errosDados().indicacao && tocadoOuTentou('indicacao')">
-            </textarea>
+            <div class="input-voice-wrap">
+              <textarea
+                [(ngModel)]="dadosPaciente.indicacao"
+                placeholder="Descreva a indicação clínica. Ex: dor abdominal crônica, investigação de hepatopatia, suspeita de neoplasia..."
+                rows="3"
+                maxlength="300"
+                class="text-input"
+                (blur)="marcarTocado('indicacao')"
+                [class.field-error]="mostrarErro('indicacao')"
+                [class.field-valid]="!errosDados().indicacao && tocadoOuTentou('indicacao')"
+                [class.listening]="voice.state() === 'listening' && campoOuvindo() === 'indicacao'">
+              </textarea>
+              <button
+                class="btn-voice"
+                [class.recording]="voice.state() === 'listening' && campoOuvindo() === 'indicacao'"
+                [class.processing]="voice.state() === 'processing' && campoOuvindo() === 'indicacao'"
+                (click)="toggleVoiceIndicacao()"
+                title="Ditar indicação clínica">
+                <span class="voice-icon">{{ campoOuvindo() === 'indicacao' && voice.state() === 'listening' ? '⏹' : '🎙️' }}</span>
+              </button>
+            </div>
+            <p class="live-transcript" *ngIf="voice.state() === 'listening' && voice.transcript() && campoOuvindo() === 'indicacao'">
+              <span class="dot"></span>{{ voice.transcript() }}
+            </p>
             <div class="field-footer">
               <span class="erro-msg" *ngIf="mostrarErro('indicacao')">{{ errosDados().indicacao }}</span>
               <span class="char-count" [class.over]="dadosPaciente.indicacao.length > 270">
@@ -129,13 +143,13 @@ import { AuthService } from '../core/auth/auth.service';
               rows="4"
               class="text-input"
               [disabled]="!dadosValidos()"
-              [class.listening]="voice.state() === 'listening' && editandoLinha() === 0 && adicionandoApos() === 0">
+              [class.listening]="voice.state() === 'listening' && campoOuvindo() === 'solicitacao'">
             </textarea>
 
             <!-- Botão de Voz -->
             <button
               class="btn-voice"
-              [class.recording]="voice.state() === 'listening' && editandoLinha() === 0 && adicionandoApos() === 0"
+              [class.recording]="voice.state() === 'listening' && campoOuvindo() === 'solicitacao'"
               [class.processing]="voice.state() === 'processing'"
               [disabled]="isGenerating() || !dadosValidos()"
               (click)="toggleVoice()"
@@ -151,7 +165,7 @@ import { AuthService } from '../core/auth/auth.service';
           </p>
 
           <!-- Transcrição em tempo real -->
-          <p class="live-transcript" *ngIf="voice.state() === 'listening' && voice.transcript() && editandoLinha() === 0">
+          <p class="live-transcript" *ngIf="voice.state() === 'listening' && voice.transcript() && campoOuvindo() === 'solicitacao'">
             <span class="dot"></span>{{ voice.transcript() }}
           </p>
           <p class="voice-error" *ngIf="voice.error()">⚠️ {{ voice.error() }}</p>
@@ -189,12 +203,12 @@ import { AuthService } from '../core/auth/auth.service';
               [placeholder]="editandoLinha() > 0 ? '🎙️ Dite ou digite a correção para a linha ' + editandoLinha() + '...' : '🎙️ Dite ou digite as informações a adicionar ou corrigir no laudo...'"
               rows="4"
               class="text-input"
-              [class.listening]="voice.state() === 'listening' && (editandoLinha() > 0 || adicionandoApos() > 0)"
+              [class.listening]="voice.state() === 'listening' && campoOuvindo() === 'achados'"
               [class.linha-selecionada]="editandoLinha() > 0">
             </textarea>
             <button
               class="btn-voice"
-              [class.recording]="voice.state() === 'listening' && editandoLinha() >= 0"
+              [class.recording]="voice.state() === 'listening' && campoOuvindo() === 'achados'"
               [disabled]="isRefining()"
               (click)="toggleVoiceAchados()"
               title="Ditar">
@@ -203,7 +217,7 @@ import { AuthService } from '../core/auth/auth.service';
           </div>
 
           <!-- Live transcript para ditar no refinar -->
-          <p class="live-transcript" *ngIf="voice.state() === 'listening' && voice.transcript() && editandoLinha() > 0">
+          <p class="live-transcript" *ngIf="voice.state() === 'listening' && voice.transcript() && campoOuvindo() === 'achados'">
             <span class="dot"></span>{{ voice.transcript() }}
           </p>
 
@@ -415,7 +429,8 @@ export class GerarLaudoComponent implements OnDestroy {
   adicionandoApos   = signal(0);
   modoLinhas        = signal(true);
   editandoLinha     = signal(0);
-  novaLinhaTexto = '';
+  novaLinhaTexto    = '';
+  campoOuvindo      = signal<string>('');
 
   canGenerate() {
     return this.dadosValidos() && !!this.solicitacao.trim() && !this.isGenerating();
@@ -467,9 +482,25 @@ export class GerarLaudoComponent implements OnDestroy {
       return;
     }
     try {
+      this.campoOuvindo.set('solicitacao');
       const texto = await this.voice.startListening();
       this.solicitacao = texto;
     } catch (e) { /* erro já em voice.error() */ }
+    finally { this.campoOuvindo.set(''); }
+  }
+
+  async toggleVoiceIndicacao() {
+    if (this.voice.state() === 'listening') {
+      this.voice.stopListening();
+      return;
+    }
+    try {
+      this.campoOuvindo.set('indicacao');
+      const texto = await this.voice.startListening();
+      this.dadosPaciente.indicacao = texto.slice(0, 300);
+      this.marcarTocado('indicacao');
+    } catch (e) { /* erro já em voice.error() */ }
+    finally { this.campoOuvindo.set(''); }
   }
 
   async toggleVoiceAchados() {
@@ -478,9 +509,11 @@ export class GerarLaudoComponent implements OnDestroy {
       return;
     }
     try {
+      this.campoOuvindo.set('achados');
       const texto = await this.voice.startListening();
       this.achados = texto;
     } catch (e) { /* erro já em voice.error() */ }
+    finally { this.campoOuvindo.set(''); }
   }
 
   toggleEdicao() {
@@ -666,9 +699,11 @@ export class GerarLaudoComponent implements OnDestroy {
       return;
     }
     try {
+      this.campoOuvindo.set('novaLinha');
       const texto = await this.voice.startListening();
       this.novaLinhaTexto = texto;
     } catch (e) { /* erro já em voice.error() */ }
+    finally { this.campoOuvindo.set(''); }
   }
 
   lerLaudo() {
