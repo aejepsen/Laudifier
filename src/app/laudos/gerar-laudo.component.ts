@@ -4,7 +4,7 @@
  * Médico dita ou digita → IA gera o laudo → médico revisa e exporta.
  */
 import {
-  Component, signal, inject, computed, OnDestroy, ViewChild, ElementRef
+  Component, signal, inject, computed, effect, OnDestroy, ViewChild, ElementRef
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -97,9 +97,6 @@ import { AuthService } from '../core/auth/auth.service';
                 <span class="voice-icon">{{ campoOuvindo() === 'indicacao' && voice.state() === 'listening' ? '⏹' : '🎙️' }}</span>
               </button>
             </div>
-            <p class="live-transcript" *ngIf="voice.state() === 'listening' && voice.transcript() && campoOuvindo() === 'indicacao'">
-              <span class="dot"></span>{{ voice.transcript() }}
-            </p>
             <div class="field-footer">
               <span class="erro-msg" *ngIf="mostrarErro('indicacao')">{{ errosDados().indicacao }}</span>
               <span class="char-count" [class.over]="dadosPaciente.indicacao.length > 270">
@@ -359,6 +356,17 @@ export class GerarLaudoComponent implements OnDestroy {
   private  laudoSvc = inject(LaudoService);
   private  authSvc  = inject(AuthService);
   private  destroy$ = new Subject<void>();
+
+  constructor() {
+    // Sincroniza transcript em tempo real → campo sendo ditado
+    effect(() => {
+      const campo = this.campoOuvindo();
+      const t     = this.voice.transcript();
+      if (this.voice.state() !== 'listening' || !campo || !t) return;
+      if (campo === 'indicacao')   this.dadosPaciente.indicacao = t.slice(0, 300);
+      if (campo === 'solicitacao') this.solicitacao = t;
+    });
+  }
 
   @ViewChild('refinarTextarea') refinarTextareaRef?: ElementRef<HTMLTextAreaElement>;
 
