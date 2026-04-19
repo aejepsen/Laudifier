@@ -42,3 +42,22 @@ class StorageService:
         bucket = os.getenv("S3_BUCKET_LAUDOS", "laudifier-laudos")
         self._s3.put_object(Bucket=bucket, Key=key, Body=content)
         return f"{os.getenv('S3_ENDPOINT_URL')}/{bucket}/{key}"
+
+    def delete_document(self, url: str) -> None:
+        """
+        Remove o arquivo original do storage após ingestão no Qdrant.
+        LGPD: o laudo com dados pessoais não deve persistir após anonimização e indexação.
+        """
+        if _USE_LOCAL:
+            path = Path(url)
+            if path.exists():
+                path.unlink()
+            return
+        # S3: extrai bucket e key da URL
+        endpoint = os.getenv("S3_ENDPOINT_URL", "")
+        bucket   = os.getenv("S3_BUCKET_LAUDOS", "laudifier-laudos")
+        key      = url.removeprefix(f"{endpoint}/{bucket}/")
+        try:
+            self._s3.delete_object(Bucket=bucket, Key=key)
+        except Exception:
+            pass  # falha silenciosa — não bloqueia o fluxo

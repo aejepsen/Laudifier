@@ -568,7 +568,9 @@ async def _ingerir_laudo_repositorio(
 ) -> None:
     from pipeline.run_pipeline import ingerir_laudo
     await ingerir_laudo(url, filename, especialidade, tipo_laudo, user_id)
-    logger.info("[Ingestão] Laudo ingerido", extra={"job_id": job_id})
+    # LGPD: remove arquivo original do blob após anonimização e indexação no Qdrant
+    storage.delete_document(url)
+    logger.info("[Ingestão] Laudo ingerido e arquivo original removido do storage", extra={"job_id": job_id})
 
 
 async def _memorizar_correcao(laudo_id: str, user_id: str, correcoes: str) -> None:
