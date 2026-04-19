@@ -1,8 +1,5 @@
 # backend/requirements.txt — Laudifier
 
-# ── PyTorch CPU-only (pinned — evita que sentence-transformers puxe torch+CUDA ~5.5GB) ──
-torch==2.5.1+cpu
-
 # ── Web ───────────────────────────────────────────────────────────────────────
 fastapi>=0.111.0
 uvicorn[standard]>=0.30.0
@@ -15,9 +12,6 @@ anthropic>=0.40.0
 # ── Vector DB ─────────────────────────────────────────────────────────────────
 qdrant-client>=1.7.0
 fastembed>=0.3.6               # embeddings ONNX int8 — ~280MB RAM vs ~2.2GB do sentence-transformers
-
-# ── Transcrição de voz ────────────────────────────────────────────────────────
-openai-whisper>=20231117  # fallback server-side se browser não suportar
 
 # ── Storage S3-compatível ─────────────────────────────────────────────────────
 boto3>=1.34.0
