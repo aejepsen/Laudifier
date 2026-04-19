@@ -14,7 +14,7 @@ anthropic>=0.40.0
 
 # ── Vector DB ─────────────────────────────────────────────────────────────────
 qdrant-client>=1.7.0
-sentence-transformers>=2.7.0  # embeddings locais intfloat/multilingual-e5-large
+fastembed>=0.3.6               # embeddings ONNX int8 — ~280MB RAM vs ~2.2GB do sentence-transformers
 
 # ── Transcrição de voz ────────────────────────────────────────────────────────
 openai-whisper>=20231117  # fallback server-side se browser não suportar

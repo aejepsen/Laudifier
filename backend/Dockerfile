@@ -13,11 +13,12 @@ RUN pip install --no-cache-dir --upgrade pip \
         --extra-index-url https://download.pytorch.org/whl/cpu \
         -r requirements.txt
 
-# Pré-baixa o modelo de embedding no build — evita download em runtime e erro de permissão
-RUN HF_HOME=/tmp/hf_model_cache python -c \
-    "from sentence_transformers import SentenceTransformer; \
-     SentenceTransformer('intfloat/multilingual-e5-large', cache_folder='/tmp/hf_model_cache'); \
-     print('Modelo multilingual-e5-large baixado com sucesso')"
+# Pré-baixa o modelo FastEmbed ONNX int8 no build — ~280MB vs ~2.24GB do sentence-transformers
+RUN python -c \
+    "from fastembed import TextEmbedding; \
+     m = TextEmbedding('intfloat/multilingual-e5-large', cache_dir='/tmp/fastembed_cache'); \
+     list(m.embed(['warmup'])); \
+     print('FastEmbed multilingual-e5-large baixado com sucesso')"
 
 # ─── Stage 2: runtime ────────────────────────────────────────────────────────
 FROM python:3.11-slim
@@ -41,15 +42,14 @@ COPY --chown=app:app . .
 # Deve rodar como root, antes de USER app
 RUN mkdir -p /workspace && ln -sf /app /workspace/backend
 
-# Copia modelo pré-baixado do builder e garante permissões corretas para o user app
-COPY --from=builder /tmp/hf_model_cache /home/app/.cache/huggingface
+# Copia modelo FastEmbed pré-baixado do builder
+COPY --from=builder /tmp/fastembed_cache /home/app/.cache/fastembed
 RUN chown -R app:app /home/app/.cache
 
 USER app
 
 ENV WHISPER_CACHE_DIR=/home/app/.cache/whisper
-ENV HF_HOME=/home/app/.cache/huggingface
-ENV TRANSFORMERS_CACHE=/home/app/.cache/huggingface
+ENV FASTEMBED_CACHE_DIR=/home/app/.cache/fastembed
 ENV PYTHONPATH=/workspace
 
 HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
