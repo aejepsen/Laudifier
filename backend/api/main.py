@@ -61,7 +61,7 @@ app.add_middleware(
     allow_origins=os.getenv("CORS_ORIGINS", "http://localhost:4200").split(","),
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allow_headers=["Authorization", "Content-Type"],
+    allow_headers=["*"],
 )
 
 app.state.limiter = limiter
@@ -461,8 +461,14 @@ async def upload_laudo_referencia(
 
 @app.get("/dashboard/stats")
 async def dashboard_stats(user: UserContext = Depends(verify_token)):
-    svc = LaudoService(user.id)
-    return await svc.get_stats()
+    if user.role != "admin":
+        raise HTTPException(status_code=403, detail="Acesso restrito a administradores")
+    try:
+        svc = LaudoService(user.id)
+        return await svc.get_stats()
+    except Exception:
+        logger.error("[Dashboard] Erro ao buscar stats", exc_info=True)
+        raise HTTPException(status_code=500, detail="Erro ao carregar estatísticas")
 
 
 # ─── Health ────────────────────────────────────────────────────────────────────
