@@ -214,17 +214,17 @@ async def transcrever_audio(
     Transcrição server-side com Whisper (fallback quando browser não suporta Web Speech API).
     Browser-first: o Angular usa Web Speech API diretamente quando disponível.
     """
-    try:
-        import whisper as wh
-    except ImportError:
-        raise HTTPException(status_code=501, detail="Transcrição server-side não disponível. Use o microfone do browser.")
-
     import tempfile
 
     MAX_AUDIO_BYTES = 25 * 1024 * 1024  # 25 MB
     contents = await audio.read(MAX_AUDIO_BYTES + 1)
     if len(contents) > MAX_AUDIO_BYTES:
         raise HTTPException(status_code=400, detail="Arquivo de áudio muito grande (máx 25 MB)")
+
+    try:
+        import whisper as wh
+    except ImportError:
+        raise HTTPException(status_code=501, detail="Transcrição server-side não disponível. Use o microfone do browser.")
 
     tmp_path = None
     try:
