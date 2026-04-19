@@ -1,5 +1,8 @@
 # backend/requirements.txt — Laudifier
 
+# ── PyTorch CPU-only (pin — impede que mem0ai ou outro pacote puxe torch+CUDA ~5.5GB) ──
+torch==2.5.1+cpu
+
 # ── Web ───────────────────────────────────────────────────────────────────────
 fastapi>=0.111.0
 uvicorn[standard]>=0.30.0
