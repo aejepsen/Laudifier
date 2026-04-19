@@ -30,6 +30,15 @@ OUTRO_MEDICO = UserContext(
     especialidade="Radiologia",
 )
 
+ADMIN = UserContext(
+    id="user-admin",
+    email="admin@laudifier.com",
+    display_name="Admin",
+    crm="",
+    role="admin",
+    especialidade="",
+)
+
 
 def _auth(user: UserContext = MEDICO):
     """Sobrescreve verify_token para não depender de JWT/Supabase."""
@@ -222,10 +231,10 @@ class TestExportacao:
 # ─── Dashboard ────────────────────────────────────────────────────────────
 class TestDashboard:
     def test_stats_retorna_dados(self):
-        """Dashboard stats retorna dict com métricas."""
+        """Dashboard stats retorna dict com métricas (apenas admin)."""
         stats_mock = {"total": 10, "aprovados": 7, "exportados": 3}
         with patch("backend.services.laudo_service.LaudoService.get_stats", new=AsyncMock(return_value=stats_mock)):
-            r = _auth().get("/dashboard/stats")
+            r = _auth(ADMIN).get("/dashboard/stats")
 
         assert r.status_code == 200
         body = r.json()
