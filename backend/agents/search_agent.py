@@ -9,7 +9,7 @@ import logging
 import os
 import uuid
 
-from fastembed import TextEmbedding
+from sentence_transformers import SentenceTransformer
 from qdrant_client import AsyncQdrantClient
 from qdrant_client.models import (
     Filter, FieldCondition, MatchValue,
@@ -24,7 +24,7 @@ COLLECTION  = os.getenv("QDRANT_COLLECTION", "laudos_medicos")
 EMB_MODEL   = "intfloat/multilingual-e5-large"
 EMB_DIM     = 1024
 
-_model: TextEmbedding | None = None
+_model: SentenceTransformer | None = None
 _model_error: Exception | None = None
 _qdrant_client: AsyncQdrantClient | None = None
 
@@ -41,17 +41,14 @@ def _get_qdrant_client() -> AsyncQdrantClient:
     return _qdrant_client
 
 
-def _get_model() -> TextEmbedding:
+def _get_model() -> SentenceTransformer:
     """Carrega o modelo uma única vez por processo (lazy singleton)."""
     global _model, _model_error
     if _model_error is not None:
         raise _model_error
     if _model is None:
         try:
-            _model = TextEmbedding(
-                model_name=EMB_MODEL,
-                cache_dir=os.getenv("FASTEMBED_CACHE_DIR", "/home/app/.cache/fastembed"),
-            )
+            _model = SentenceTransformer(EMB_MODEL)
         except Exception as e:
             _model_error = e
             logger.error(f"[SearchAgent] Falha ao carregar modelo {EMB_MODEL}: {e}")
@@ -111,10 +108,11 @@ class LaudoSearchAgent:
 
     async def _embed(self, text: str) -> list[float]:
         model = _get_model()
-        # FastEmbed é síncrono — executa em thread pool para não bloquear o event loop
-        # query_embed já aplica o prefixo "query: " internamente para modelos E5
+        # SentenceTransformer é síncrono — executa em thread pool para não bloquear
         vec = await asyncio.to_thread(
-            lambda: list(model.query_embed([text]))[0]
+            model.encode,
+            f"query: {text}",   # prefixo E5
+            normalize_embeddings=True,
         )
         return vec.tolist()
 
@@ -186,7 +184,9 @@ class LaudoSearchAgent:
             points = []
             for i, chunk in enumerate(chunks):
                 vec = await asyncio.to_thread(
-                    lambda c=chunk: list(model.passage_embed([c]))[0]
+                    model.encode,
+                    f"passage: {chunk}",
+                    normalize_embeddings=True,
                 )
                 points.append(PointStruct(
                     id=str(uuid.uuid5(uuid.NAMESPACE_DNS, f"medico:{medico_id}:{laudo_id}:{i}")),
