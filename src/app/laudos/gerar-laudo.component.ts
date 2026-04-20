@@ -13,7 +13,7 @@ import { marked } from 'marked';
 import { VoiceService } from '../core/services/voice.service';
 import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services/laudo.service';
 import { AuthService } from '../core/auth/auth.service';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-gerar-laudo',
