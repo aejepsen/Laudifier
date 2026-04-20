@@ -77,7 +77,12 @@ app.include_router(pipeline_router)
 
 @app.middleware("http")
 async def add_security_headers(request: Request, call_next):
-    response = await call_next(request)
+    try:
+        response = await call_next(request)
+    except Exception:
+        logger.error("[Middleware] Exceção não tratada na rota", exc_info=True)
+        from starlette.responses import Response as StarletteResponse
+        response = StarletteResponse("Internal Server Error", status_code=500)
     response.headers["X-Content-Type-Options"] = "nosniff"
     response.headers["X-Frame-Options"] = "DENY"
     response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"

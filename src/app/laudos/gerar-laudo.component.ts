@@ -387,6 +387,7 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
       if (this.voice.state() !== 'listening' || !campo || !t) return;
       if (campo === 'indicacao')   this.dadosPaciente.indicacao = t.slice(0, 300);
       if (campo === 'solicitacao') this.solicitacao = t;
+      if (campo === 'achados')     this.achados = t;
     });
   }
 
