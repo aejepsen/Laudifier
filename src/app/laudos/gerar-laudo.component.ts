@@ -4,7 +4,7 @@
  * Médico dita ou digita → IA gera o laudo → médico revisa e exporta.
  */
 import {
-  Component, signal, inject, computed, effect, OnDestroy, ViewChild, ElementRef
+  Component, signal, inject, computed, effect, OnDestroy, OnInit, ViewChild, ElementRef
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -13,6 +13,7 @@ import { marked } from 'marked';
 import { VoiceService } from '../core/services/voice.service';
 import { LaudoService, ESPECIALIDADES, LaudoGeradoChunk } from '../core/services/laudo.service';
 import { AuthService } from '../core/auth/auth.service';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-gerar-laudo',
@@ -105,15 +106,18 @@ import { AuthService } from '../core/auth/auth.service';
             </div>
           </div>
 
-          <!-- Data do Exame + E-mail (opcionais) -->
+          <!-- Data do Exame + E-mail -->
           <div class="dados-grid-2">
             <div class="field">
-              <label>Data do Exame <span class="optional">(opcional)</span></label>
+              <label>Data do Exame <span class="required">*</span></label>
               <input
                 type="date"
                 [(ngModel)]="dadosPaciente.dataExame"
-                class="date-input" />
-              <span class="field-hint">Se diferente da data de solicitação</span>
+                (blur)="marcarTocado('dataExame')"
+                class="date-input"
+                [class.field-error]="mostrarErro('dataExame')"
+                [class.field-valid]="!errosDados().dataExame && tocadoOuTentou('dataExame')" />
+              <span class="erro-msg" *ngIf="mostrarErro('dataExame')">{{ errosDados().dataExame }}</span>
             </div>
 
             <div class="field">
@@ -166,6 +170,16 @@ import { AuthService } from '../core/auth/auth.service';
             <span class="dot"></span>{{ voice.transcript() }}
           </p>
           <p class="voice-error" *ngIf="voice.error()">⚠️ {{ voice.error() }}</p>
+        </div>
+
+        <!-- Banner de warmup -->
+        <div class="backend-status-bar" *ngIf="backendStatus() === 'checking'">
+          <span class="status-dot checking"></span>
+          Aquecendo servidor... aguarde antes de gerar o laudo.
+        </div>
+        <div class="backend-status-bar ready" *ngIf="backendStatus() === 'just-ready'">
+          <span class="status-dot ready"></span>
+          ✅ Pronto para laudar
         </div>
 
         <!-- Botão Gerar -->
@@ -341,8 +355,12 @@ import { AuthService } from '../core/auth/auth.service';
         <!-- Feedback do médico -->
         <div class="feedback-bar" *ngIf="laudoGerado() && !isGenerating() && !isRefining()">
           <span class="feedback-label">Este laudo está correto?</span>
-          <button class="btn-feedback ok"    (click)="feedback(true)">👍 Aprovar</button>
-          <button class="btn-feedback nok"   (click)="feedback(false)">✏️ Precisa de ajustes</button>
+          <ng-container *ngIf="feedbackStatus() === 'idle'">
+            <button class="btn-feedback ok"  (click)="feedback(true)">👍 Aprovar</button>
+            <button class="btn-feedback nok" (click)="feedback(false)">✏️ Precisa de ajustes</button>
+          </ng-container>
+          <span *ngIf="feedbackStatus() === 'ok'"    class="feedback-msg ok">✅ Laudo aprovado</span>
+          <span *ngIf="feedbackStatus() === 'error'" class="feedback-msg error">❌ Erro ao enviar feedback</span>
         </div>
 
       </div>
@@ -351,11 +369,15 @@ import { AuthService } from '../core/auth/auth.service';
   `,
   styleUrls: ['./gerar-laudo.component.scss'],
 })
-export class GerarLaudoComponent implements OnDestroy {
+export class GerarLaudoComponent implements OnInit, OnDestroy {
   readonly voice = inject(VoiceService);
   private  laudoSvc = inject(LaudoService);
   private  authSvc  = inject(AuthService);
   private  destroy$ = new Subject<void>();
+  private  healthTimeout?: ReturnType<typeof setTimeout>;
+
+  backendStatus   = signal<'checking' | 'ready' | 'just-ready'>('checking');
+  feedbackStatus  = signal<'idle' | 'ok' | 'error'>('idle');
 
   constructor() {
     // Sincroniza transcript em tempo real → campo sendo ditado
@@ -366,6 +388,22 @@ export class GerarLaudoComponent implements OnDestroy {
       if (campo === 'indicacao')   this.dadosPaciente.indicacao = t.slice(0, 300);
       if (campo === 'solicitacao') this.solicitacao = t;
     });
+  }
+
+  ngOnInit() { this._checkBackend(); }
+
+  private async _checkBackend() {
+    try {
+      const resp = await fetch(`${environment.apiUrl}/health/ready`,
+        { signal: AbortSignal.timeout(5000) });
+      if (resp.ok) {
+        const wasChecking = this.backendStatus() === 'checking';
+        this.backendStatus.set(wasChecking ? 'just-ready' : 'ready');
+        if (wasChecking) setTimeout(() => this.backendStatus.set('ready'), 3000);
+        return;
+      }
+    } catch { /* ainda aquecendo */ }
+    this.healthTimeout = setTimeout(() => this._checkBackend(), 5000);
   }
 
   @ViewChild('refinarTextarea') refinarTextareaRef?: ElementRef<HTMLTextAreaElement>;
@@ -379,9 +417,9 @@ export class GerarLaudoComponent implements OnDestroy {
   tocados    = signal<Set<string>>(new Set());
   tentouGerar = signal(false);
 
-  errosDados(): { nome?: string; dataNascimento?: string; sexo?: string; indicacao?: string; email?: string } {
+  errosDados(): { nome?: string; dataNascimento?: string; sexo?: string; indicacao?: string; email?: string; dataExame?: string } {
     const d = this.dadosPaciente;
-    const e: { nome?: string; dataNascimento?: string; sexo?: string; indicacao?: string; email?: string } = {};
+    const e: { nome?: string; dataNascimento?: string; sexo?: string; indicacao?: string; email?: string; dataExame?: string } = {};
 
     const nome = d.nome.trim();
     if (!nome)               e['nome'] = 'Campo obrigatório';
@@ -406,15 +444,17 @@ export class GerarLaudoComponent implements OnDestroy {
     if (d.email && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.email))
       e['email'] = 'E-mail inválido';
 
+    if (!d.dataExame) e['dataExame'] = 'Campo obrigatório';
+
     return e;
   }
 
   dadosValidos(): boolean {
     const e = this.errosDados();
-    return !e.nome && !e.dataNascimento && !e.sexo && !e.indicacao && !e.email;
+    return !e.nome && !e.dataNascimento && !e.sexo && !e.indicacao && !e.email && !e.dataExame;
   }
 
-  mostrarErro(campo: 'nome' | 'dataNascimento' | 'sexo' | 'indicacao' | 'email'): boolean {
+  mostrarErro(campo: 'nome' | 'dataNascimento' | 'sexo' | 'indicacao' | 'email' | 'dataExame'): boolean {
     return !!(this.errosDados()[campo] && this.tocadoOuTentou(campo));
   }
 
@@ -441,7 +481,8 @@ export class GerarLaudoComponent implements OnDestroy {
   campoOuvindo      = signal<string>('');
 
   canGenerate() {
-    return this.dadosValidos() && !!this.solicitacao.trim() && !this.isGenerating();
+    return this.dadosValidos() && !!this.solicitacao.trim() && !this.isGenerating()
+      && this.backendStatus() !== 'checking';
   }
 
   laudoLinhas = computed(() => {
@@ -722,17 +763,24 @@ export class GerarLaudoComponent implements OnDestroy {
     }
   }
 
-  feedback(aprovado: boolean) {
+  async feedback(aprovado: boolean) {
     if (!this.currentLaudoId()) return;
     const correcoes = !aprovado ? prompt('Descreva os ajustes necessários (opcional):') ?? undefined : undefined;
-    this.laudoSvc.feedback(this.currentLaudoId(), aprovado, correcoes)
-      .pipe(takeUntil(this.destroy$)).subscribe();
+    try {
+      await this.laudoSvc.feedbackComAuth(this.currentLaudoId(), aprovado, correcoes);
+      this.feedbackStatus.set('ok');
+    } catch {
+      this.feedbackStatus.set('error');
+    }
   }
 
-  exportar(formato: 'pdf' | 'docx' | 'txt') {
+  async exportar(formato: 'pdf' | 'docx' | 'txt') {
     if (!this.currentLaudoId()) return;
-    const url = this.laudoSvc.exportar(this.currentLaudoId(), formato);
-    window.open(url, '_blank');
+    try {
+      await this.laudoSvc.exportarComAuth(this.currentLaudoId(), formato);
+    } catch (e: any) {
+      console.error('Exportar falhou:', e);
+    }
   }
 
   private _filtrarCamposUI(campos: string[]): string[] {
@@ -754,11 +802,13 @@ export class GerarLaudoComponent implements OnDestroy {
     this.dadosPaciente = { nome: '', dataNascimento: '', sexo: '', indicacao: '', email: '', dataExame: '' };
     this.tocados.set(new Set());
     this.tentouGerar.set(false);
+    this.feedbackStatus.set('idle');
   }
 
   ngOnDestroy() {
     this.destroy$.next();
     this.destroy$.complete();
     this.voice.stopSpeaking();
+    if (this.healthTimeout) clearTimeout(this.healthTimeout);
   }
 }
