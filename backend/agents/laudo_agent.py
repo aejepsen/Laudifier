@@ -155,7 +155,8 @@ async def gerar_laudo_stream(
             "cache_control": {"type": "ephemeral"},  # cache system prompt
         }],
         messages=[{"role": "user", "content": user_content}],
-        extra_headers={"anthropic-beta": "prompt-caching-2024-07-31"},
+        # Claude 4+: prompt caching é GA, sem beta header necessário
+        # Claude 3: manter extra_headers={"anthropic-beta": "prompt-caching-2024-07-31"}
     ) as stream:
         async for token in stream.text_stream:
             full_laudo += token
@@ -268,7 +269,6 @@ async def corrigir_laudo_stream(
         max_tokens=3000,
         system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
         messages=[{"role": "user", "content": prompt}],
-        extra_headers={"anthropic-beta": "prompt-caching-2024-07-31"},
     ) as stream:
         async for token in stream.text_stream:
             full_laudo += token
@@ -333,7 +333,6 @@ async def gerar_conclusao_stream(
         max_tokens=3000,
         system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
         messages=[{"role": "user", "content": prompt}],
-        extra_headers={"anthropic-beta": "prompt-caching-2024-07-31"},
     ) as stream:
         async for token in stream.text_stream:
             full_laudo += token
