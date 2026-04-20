@@ -521,6 +521,8 @@ async def health():
 async def _re_indexar_laudo_aprovado(laudo_id: str, user_id: str) -> None:
     """
     Indexa laudo aprovado no Qdrant vinculado ao médico.
+    Se o laudo foi gerado por fallback (sem RAG), também indexa no repositório geral
+    para que futuras gerações de qualquer médico possam usá-lo como referência.
     Dados do paciente são removidos antes da indexação (privacidade).
     """
     laudo = await LaudoService(user_id).get(laudo_id)
@@ -529,16 +531,31 @@ async def _re_indexar_laudo_aprovado(laudo_id: str, user_id: str) -> None:
 
     texto = laudo.get("laudo_editado") or laudo["laudo"]
     texto_anonimizado = _anonimizar_laudo(texto)
+    especialidade = laudo.get("especialidade", "")
+    solicitacao   = laudo.get("solicitacao", "")
 
     from ..agents.search_agent import LaudoSearchAgent
     search = LaudoSearchAgent()
+
+    # Sempre indexa para o médico (personalização individual)
     await search.indexar_laudo_aprovado(
         laudo_id=laudo_id,
         medico_id=user_id,
         laudo_text=texto_anonimizado,
-        especialidade=laudo.get("especialidade", ""),
-        solicitacao=laudo.get("solicitacao", ""),
+        especialidade=especialidade,
+        solicitacao=solicitacao,
     )
+
+    # Se foi gerado sem RAG, promove ao repositório geral
+    if laudo.get("tipo_geracao") == "fallback":
+        await search.indexar_no_repositorio_geral(
+            laudo_id=laudo_id,
+            laudo_text=texto_anonimizado,
+            especialidade=especialidade,
+            solicitacao=solicitacao,
+        )
+        logger.info("[Re-indexação] Laudo fallback promovido ao repositório geral", extra={"laudo_id": laudo_id})
+
     logger.info("[Re-indexação] Laudo indexado para médico", extra={"laudo_id": laudo_id, "user_id": user_id})
 
 

@@ -206,6 +206,44 @@ class LaudoSearchAgent:
         except Exception as e:
             logger.error(f"[SearchAgent] indexar_laudo_aprovado falhou: {e}")
 
+    async def indexar_no_repositorio_geral(
+        self,
+        laudo_id:      str,
+        laudo_text:    str,
+        especialidade: str,
+        solicitacao:   str,
+    ) -> None:
+        """
+        Indexa laudo gerado por fallback (sem RAG) e aprovado pelo médico
+        no repositório geral — disponível como referência para todos os médicos.
+        """
+        try:
+            model = _get_model()
+            chunks = self._chunk_text(laudo_text)
+            points = []
+            for i, chunk in enumerate(chunks):
+                vec = await asyncio.to_thread(
+                    model.encode,
+                    f"passage: {chunk}",
+                    normalize_embeddings=True,
+                )
+                points.append(PointStruct(
+                    id=str(uuid.uuid5(uuid.NAMESPACE_DNS, f"geral:fallback:{laudo_id}:{i}")),
+                    vector=vec.tolist(),
+                    payload={
+                        "content":       chunk,
+                        "source_name":   f"fallback_aprovado_{laudo_id[:8]}",
+                        "especialidade": especialidade.lower(),
+                        "tipo_laudo":    solicitacao[:80],
+                        "source":        "fallback_aprovado",
+                        "chunk_index":   i,
+                    },
+                ))
+            await self.qdrant.upsert(collection_name=COLLECTION, points=points)
+            logger.info(f"[SearchAgent] Laudo {laudo_id} indexado no repositório geral ({len(points)} chunks)")
+        except Exception as e:
+            logger.error(f"[SearchAgent] indexar_no_repositorio_geral falhou: {e}")
+
     @staticmethod
     def _chunk_text(text: str, size: int = 600, overlap: int = 30) -> list[str]:
         words = text.split()
