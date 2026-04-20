@@ -138,8 +138,35 @@ export class LaudoService {
       { laudo_id: id, aprovado, correcoes });
   }
 
+  async feedbackComAuth(id: string, aprovado: boolean, correcoes?: string): Promise<void> {
+    const token = await this.auth.getToken();
+    const resp = await fetch(`${environment.apiUrl}/laudos/${id}/feedback`, {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+      body:    JSON.stringify({ laudo_id: id, aprovado, correcoes }),
+    });
+    if (!resp.ok) throw new Error(`Feedback falhou: ${resp.status}`);
+  }
+
   exportar(id: string, formato: 'pdf' | 'docx' | 'txt'): string {
     return `${environment.apiUrl}/laudos/${id}/exportar/${formato}`;
+  }
+
+  async exportarComAuth(id: string, formato: 'pdf' | 'docx' | 'txt'): Promise<void> {
+    const token = await this.auth.getToken();
+    const resp = await fetch(`${environment.apiUrl}/laudos/${id}/exportar/${formato}`, {
+      headers: { 'Authorization': `Bearer ${token}` },
+    });
+    if (!resp.ok) throw new Error(`Export falhou: ${resp.status}`);
+    const blob = await resp.blob();
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = `laudo.${formato}`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   }
 
   getDashboardStats(): Observable<any> {
