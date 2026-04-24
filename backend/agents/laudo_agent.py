@@ -12,6 +12,7 @@ Fluxo com Memory 2.0:
 """
 
 import os
+import re
 import asyncio
 from typing import AsyncGenerator, TypedDict
 import anthropic
@@ -553,44 +554,57 @@ def _filtrar_metadata(laudo: str) -> str:
     return "\n".join(filtradas).rstrip()
 
 
+_RE_PLACEHOLDER_ASSINATURA = re.compile(r'^\[ASSINATURA[^\]]*\]\s*$\n?', re.MULTILINE)
+_RE_PLACEHOLDER_CRM = re.compile(r'\[CRM DO MÉDICO\]')
+_RE_LINHA_CRM_VAZIA = re.compile(r'^CRM:\s*$', re.MULTILINE)
+_RE_LINHA_UNDERSCORES = re.compile(r'^_{5,}\s*$')
+_RE_QUEBRAS_EXCESSIVAS = re.compile(r'\n{3,}')
+
+
+def _remover_placeholder_assinatura(laudo: str) -> str:
+    return _RE_PLACEHOLDER_ASSINATURA.sub('', laudo)
+
+
+def _substituir_placeholders_medico(laudo: str, nome: str, crm: str) -> str:
+    if nome:
+        laudo = laudo.replace('[NOME DO MÉDICO]', nome)
+    if crm:
+        laudo = _RE_PLACEHOLDER_CRM.sub(crm, laudo)
+        laudo = _RE_LINHA_CRM_VAZIA.sub(f'CRM: {crm}', laudo)
+    return laudo
+
+
+def _proximo_conteudo(linhas: list[str], inicio: int) -> str:
+    j = inicio
+    while j < len(linhas) and not linhas[j].strip():
+        j += 1
+    return linhas[j].strip() if j < len(linhas) else ''
+
+
+def _inserir_assinatura_apos_underscores(laudo: str, nome: str, crm: str) -> str:
+    if not (nome and '___' in laudo):
+        return laudo
+    linhas = laudo.splitlines()
+    resultado: list[str] = []
+    for i, linha in enumerate(linhas):
+        resultado.append(linha)
+        if not _RE_LINHA_UNDERSCORES.match(linha):
+            continue
+        if nome in _proximo_conteudo(linhas, i + 1):
+            continue
+        resultado.append(nome)
+        if crm:
+            resultado.append(f'CRM: {crm}')
+    return '\n'.join(resultado)
+
+
 def _preencher_assinatura(laudo: str, medico_nome: str, medico_crm: str) -> str:
     """
     Preenche automaticamente o bloco de assinatura com nome e CRM do médico.
     Remove placeholders incorretos como [ASSINATURA DO MÉDICO — email].
     """
-    import re
-
-    # Remove linhas "[ASSINATURA DO MÉDICO ...]" com qualquer conteúdo
-    laudo = re.sub(r'^\[ASSINATURA[^\]]*\]\s*$\n?', '', laudo, flags=re.MULTILINE)
-
-    # Substitui placeholders explícitos
-    if medico_nome:
-        laudo = laudo.replace('[NOME DO MÉDICO]', medico_nome)
-    if medico_crm:
-        laudo = re.sub(r'\[CRM DO MÉDICO\]', medico_crm, laudo)
-        # Preenche linha "CRM:" vazia
-        laudo = re.sub(r'^CRM:\s*$', f'CRM: {medico_crm}', laudo, flags=re.MULTILINE)
-
-    # Insere nome/CRM logo após a linha de underscores (se ainda não estiverem)
-    if medico_nome and '___' in laudo:
-        linhas = laudo.splitlines()
-        resultado: list[str] = []
-        i = 0
-        while i < len(linhas):
-            resultado.append(linhas[i])
-            if re.match(r'^_{5,}\s*$', linhas[i]):
-                # Verifica próxima linha não-vazia
-                j = i + 1
-                while j < len(linhas) and not linhas[j].strip():
-                    j += 1
-                next_content = linhas[j].strip() if j < len(linhas) else ''
-                if medico_nome not in next_content:
-                    resultado.append(medico_nome)
-                    if medico_crm:
-                        resultado.append(f'CRM: {medico_crm}')
-            i += 1
-        laudo = '\n'.join(resultado)
-
-    # Remove linhas vazias excessivas
-    laudo = re.sub(r'\n{3,}', '\n\n', laudo)
+    laudo = _remover_placeholder_assinatura(laudo)
+    laudo = _substituir_placeholders_medico(laudo, medico_nome, medico_crm)
+    laudo = _inserir_assinatura_apos_underscores(laudo, medico_nome, medico_crm)
+    laudo = _RE_QUEBRAS_EXCESSIVAS.sub('\n\n', laudo)
     return laudo.rstrip()
