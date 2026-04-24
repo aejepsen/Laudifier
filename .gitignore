@@ -49,6 +49,10 @@ Thumbs.db
 *.log
 logs/
 
+# Mutation testing
+mutants/
+coverage.xml
+
 # Avaliações do modelo (artefatos locais)
 avaliacao_*.json
 avaliacao_*.md

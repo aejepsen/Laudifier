@@ -1,9 +1,0 @@
-[mutmut]
-paths_to_mutate = [
-    "backend/agents",
-    "backend/services",
-    "backend/api",
-]
-runner = "pytest -x -q --no-cov"
-tests_dir = "tests"
-also_copy = ["conftest.py"]

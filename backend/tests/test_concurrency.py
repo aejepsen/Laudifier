@@ -34,11 +34,13 @@ from backend.api._query_counter import (
     n_tasks=st.integers(min_value=2, max_value=20),
     calls_per_task=st.integers(min_value=1, max_value=15),
 )
-@pytest.mark.asyncio
-async def test_query_counter_isolado_por_task(n_tasks: int, calls_per_task: int):
+def test_query_counter_isolado_por_task(n_tasks: int, calls_per_task: int):
     """
     ContextVar deve isolar o contador por request concorrente.
     Se vazar, N tasks disparam N*M incrementos no mesmo contador.
+
+    NOTA: teste é síncrono + `asyncio.run` interno. Combinar @pytest.mark.asyncio
+    com @given quebra sob `--import-mode=append` (usado pelo mutmut).
     """
     async def worker(label: str) -> int:
         reset_query_counter()
@@ -47,10 +49,12 @@ async def test_query_counter_isolado_por_task(n_tasks: int, calls_per_task: int)
         await asyncio.sleep(0)  # força troca de contexto
         return sum(get_query_count().values())
 
-    results = await asyncio.gather(
-        *[worker(f"task-{i}") for i in range(n_tasks)]
-    )
-    # Cada task DEVE ver exatamente seus próprios incrementos
+    async def run_all():
+        return await asyncio.gather(
+            *[worker(f"task-{i}") for i in range(n_tasks)]
+        )
+
+    results = asyncio.run(run_all())
     assert all(r == calls_per_task for r in results), (
         f"ContextVar vazou entre tasks: {results}"
     )
@@ -65,8 +69,7 @@ async def test_query_counter_isolado_por_task(n_tasks: int, calls_per_task: int)
     suppress_health_check=[HealthCheck.function_scoped_fixture],
 )
 @given(n_readers=st.integers(min_value=4, max_value=50))
-@pytest.mark.asyncio
-async def test_load_system_prompt_concorrente(n_readers: int, tmp_path, monkeypatch):
+def test_load_system_prompt_concorrente(n_readers: int, tmp_path, monkeypatch):
     """
     @lru_cache(maxsize=1) + read_text devem ser seguros sob N leituras concorrentes.
     Valida que todas as corrotinas recebem o mesmo conteúdo (identidade de objeto).
@@ -80,9 +83,12 @@ async def test_load_system_prompt_concorrente(n_readers: int, tmp_path, monkeypa
     monkeypatch.setattr(prompt_service, "PROMPT_DIR", prompt_dir)
     prompt_service.load_system_prompt.cache_clear()
 
-    results = await asyncio.gather(
-        *[asyncio.to_thread(prompt_service.load_system_prompt) for _ in range(n_readers)]
-    )
+    async def gather_all():
+        return await asyncio.gather(
+            *[asyncio.to_thread(prompt_service.load_system_prompt) for _ in range(n_readers)]
+        )
+
+    results = asyncio.run(gather_all())
     primeiro = results[0]
     assert primeiro == "CONTEUDO_PADRAO"
     # Equality, não identity — read_text retorna strings novas em race;
