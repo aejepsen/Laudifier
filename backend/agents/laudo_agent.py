@@ -36,6 +36,133 @@ class LaudoState(TypedDict):
     tipo_geracao:    str
 
 
+_MEM0_TIMEOUT = 8.0
+_SPLIT_MARKER = "── SOLICITAÇÃO DO MÉDICO ──"
+
+
+async def _resolver_contexto_mem0(
+    mem_svc:       "LaudifierMemory",
+    user_id:       str,
+    solicitacao:   str,
+    especialidade: str,
+    paciente_id:   str | None,
+) -> tuple[str, str, bool]:
+    """Busca contexto do médico e histórico do paciente no Mem0 com timeout gracioso."""
+    contexto_mem0, historico_paciente = "", ""
+    try:
+        contexto_mem0 = await asyncio.wait_for(
+            asyncio.to_thread(mem_svc.buscar_contexto_medico, user_id, solicitacao, especialidade),
+            timeout=_MEM0_TIMEOUT,
+        )
+    except (asyncio.TimeoutError, ConnectionError, RuntimeError):
+        pass
+    if paciente_id:
+        try:
+            historico_paciente = await asyncio.wait_for(
+                asyncio.to_thread(mem_svc.buscar_historico_paciente, paciente_id, solicitacao),
+                timeout=_MEM0_TIMEOUT,
+            )
+        except (asyncio.TimeoutError, ConnectionError, RuntimeError):
+            pass
+    return contexto_mem0, historico_paciente, bool(contexto_mem0 or historico_paciente)
+
+
+async def _buscar_refs_rag(
+    search:        LaudoSearchAgent,
+    user_id:       str,
+    solicitacao:   str,
+    especialidade: str,
+) -> list[dict]:
+    """Busca laudos do próprio médico (prioridade) + laudos gerais, sem duplicatas."""
+    laudos_proprios, laudos_gerais = await asyncio.gather(
+        search.buscar_laudos_do_medico(user_id, solicitacao, especialidade, top=3),
+        search.buscar_laudos_similares(solicitacao, especialidade, top=5),
+    )
+    ids_proprios = {l["id"] for l in laudos_proprios}
+    return laudos_proprios + [l for l in laudos_gerais if l["id"] not in ids_proprios]
+
+
+def _status_header(usar_contexto: bool, n_refs: int, score_max: float, tem_memoria: bool) -> str:
+    if usar_contexto:
+        head = f"📚 Usando {n_refs} laudo(s) de referência (score: {score_max:.2f})"
+    else:
+        head = "🧠 Gerando com base em conhecimento clínico geral — sem referência no repositório."
+    if tem_memoria:
+        head += "\n💾 Contexto personalizado do médico aplicado (Mem0)."
+    return head + "\n\n"
+
+
+def _build_user_content(prompt: str) -> list[dict]:
+    """Divide o prompt em parte cacheável (contexto) e dinâmica (solicitação) para prompt caching."""
+    if _SPLIT_MARKER in prompt:
+        ctx_part, query_part = prompt.split(_SPLIT_MARKER, 1)
+        query_part = _SPLIT_MARKER + query_part
+    else:
+        ctx_part, query_part = "", prompt
+    blocks: list[dict] = []
+    if ctx_part.strip():
+        blocks.append({"type": "text", "text": ctx_part.rstrip(), "cache_control": {"type": "ephemeral"}})
+    blocks.append({"type": "text", "text": query_part})
+    return blocks
+
+
+async def _stream_claude(
+    client:       anthropic.AsyncAnthropic,
+    system:       str,
+    user_content: list[dict],
+    max_tokens:   int = 4000,
+) -> AsyncGenerator[tuple[str, str], None]:
+    """Emite (token, full_laudo_acumulado) a cada token streamed do Claude."""
+    full = ""
+    async with client.messages.stream(
+        model=ANTHROPIC_MODEL,
+        max_tokens=max_tokens,
+        system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
+        messages=[{"role": "user", "content": user_content}],
+    ) as stream:
+        async for token in stream.text_stream:
+            full += token
+            yield token, full
+
+
+def _finalizar_laudo(full_laudo: str, dados_clinicos: dict) -> tuple[str, list[str]]:
+    """Aplica filtros finais e retorna (laudo_final, campos_faltando)."""
+    laudo = _filtrar_metadata(full_laudo)
+    laudo = _preencher_assinatura(
+        laudo,
+        dados_clinicos.get("medico", ""),
+        dados_clinicos.get("medico_crm", ""),
+    )
+    return laudo, _extrair_campos_faltando(laudo)
+
+
+def _persistir_mem0_bg(
+    mem_svc:       "LaudifierMemory",
+    user_id:       str,
+    solicitacao:   str,
+    laudo:         str,
+    especialidade: str,
+    tipo_geracao:  str,
+    paciente_id:   str | None,
+) -> None:
+    """Dispara persistência no Mem0 em background com handler — sem fire-and-forget silencioso."""
+    task = asyncio.create_task(
+        mem_svc.memorizar_interacao(
+            medico_id=user_id,
+            solicitacao=solicitacao,
+            laudo=laudo,
+            especialidade=especialidade,
+            tipo_geracao=tipo_geracao,
+            paciente_id=paciente_id,
+        )
+    )
+    def _log_err(t: asyncio.Task) -> None:
+        if (exc := t.exception()) is not None:
+            import logging
+            logging.getLogger(__name__).warning("memorizar_interacao falhou: %s", exc)
+    task.add_done_callback(_log_err)
+
+
 @observe(name="gerar-laudo")
 async def gerar_laudo_stream(
     solicitacao:    str,
@@ -46,76 +173,26 @@ async def gerar_laudo_stream(
 ) -> AsyncGenerator[dict, None]:
     """
     Gera laudo médico com streaming SSE.
-    Mem0 injeta contexto personalizado do médico automaticamente.
+    Orquestra: Mem0 (contexto médico + paciente) + RAG Qdrant + Claude streaming.
     """
-    client    = anthropic.AsyncAnthropic()
-    mem_svc   = LaudifierMemory()
+    client  = anthropic.AsyncAnthropic()
+    mem_svc = LaudifierMemory()
 
-    # ── 1. Recupera memórias do médico via Mem0 (non-blocking com timeout) ──────
-    # Mem0 usa sentence-transformers sincronamente — wrapping em thread evita
-    # bloquear o event loop; timeout de 8s garante fallback gracioso se lento.
-    try:
-        contexto_mem0 = await asyncio.wait_for(
-            asyncio.to_thread(mem_svc.buscar_contexto_medico, user_id, solicitacao, especialidade),
-            timeout=8.0,
-        )
-    except Exception:
-        contexto_mem0 = ""
-
-    historico_paciente = ""
-    if paciente_id:
-        try:
-            historico_paciente = await asyncio.wait_for(
-                asyncio.to_thread(mem_svc.buscar_historico_paciente, paciente_id, solicitacao),
-                timeout=8.0,
-            )
-        except Exception:
-            historico_paciente = ""
-
-    tem_memoria = bool(contexto_mem0 or historico_paciente)
-
-    # ── 2. Busca laudos de referência (RAG) ───────────────────────────────────
-    search = LaudoSearchAgent()
-
-    # Laudos aprovados pelo próprio médico têm prioridade máxima
-    laudos_proprios, laudos_gerais = await asyncio.gather(
-        search.buscar_laudos_do_medico(user_id, solicitacao, especialidade, top=3),
-        search.buscar_laudos_similares(solicitacao, especialidade, top=5),
+    contexto_mem0, historico_paciente, tem_memoria = await _resolver_contexto_mem0(
+        mem_svc, user_id, solicitacao, especialidade, paciente_id,
     )
-    # Mescla: laudos do médico primeiro, sem duplicatas
-    ids_proprios = {l["id"] for l in laudos_proprios}
-    laudos_ref   = laudos_proprios + [l for l in laudos_gerais if l["id"] not in ids_proprios]
 
-    # ── 3. Decide estratégia ──────────────────────────────────────────────────
+    laudos_ref    = await _buscar_refs_rag(LaudoSearchAgent(), user_id, solicitacao, especialidade)
     score_max     = max((l.get("score", 0) for l in laudos_ref), default=0)
     usar_contexto = score_max >= CONTEXT_RELEVANCE_THRESHOLD
     tipo_geracao  = "rag" if usar_contexto else "fallback"
 
-    # ── 4. Emite metadados para o frontend ────────────────────────────────────
     yield {
-        "type":         "meta",
-        "tipo_geracao": tipo_geracao,
-        "laudos_ref":   len(laudos_ref),
-        "score":        score_max,
-        "tem_memoria":  tem_memoria,
+        "type": "meta", "tipo_geracao": tipo_geracao, "laudos_ref": len(laudos_ref),
+        "score": score_max, "tem_memoria": tem_memoria,
     }
+    yield {"type": "token", "text": _status_header(usar_contexto, len(laudos_ref), score_max, tem_memoria)}
 
-    # ── 5. Monta cabeçalho de status ──────────────────────────────────────────
-    status_parts = []
-    if usar_contexto:
-        status_parts.append(
-            f"📚 Usando {len(laudos_ref)} laudo(s) de referência (score: {score_max:.2f})"
-        )
-    else:
-        status_parts.append(
-            "🧠 Gerando com base em conhecimento clínico geral — sem referência no repositório."
-        )
-    if tem_memoria:
-        status_parts.append("💾 Contexto personalizado do médico aplicado (Mem0).")
-
-    yield {"type": "token", "text": "\n".join(status_parts) + "\n\n"}
-
-    # ── 6. Monta prompt completo ──────────────────────────────────────────────
     prompt = _montar_prompt(
         solicitacao=solicitacao,
         especialidade=especialidade,
@@ -125,71 +202,20 @@ async def gerar_laudo_stream(
         laudos_ref=laudos_ref if usar_contexto else [],
     )
 
-    system = load_system_prompt()
-
-    # ── 7. Streaming Claude com prompt caching ────────────────────────────────
-    # Divide o prompt em parte cacheável (contexto RAG + mem0) e dinâmica (solicitação)
-    _SPLIT = "── SOLICITAÇÃO DO MÉDICO ──"
-    if _SPLIT in prompt:
-        ctx_part, query_part = prompt.split(_SPLIT, 1)
-        query_part = _SPLIT + query_part
-    else:
-        ctx_part, query_part = "", prompt
-
-    user_content: list[dict] = []
-    if ctx_part.strip():
-        user_content.append({
-            "type": "text",
-            "text": ctx_part.rstrip(),
-            "cache_control": {"type": "ephemeral"},  # cache contexto RAG + mem0
-        })
-    user_content.append({"type": "text", "text": query_part})
-
     full_laudo = ""
-    async with client.messages.stream(
-        model=ANTHROPIC_MODEL,
-        max_tokens=4000,
-        system=[{
-            "type": "text",
-            "text": system,
-            "cache_control": {"type": "ephemeral"},  # cache system prompt
-        }],
-        messages=[{"role": "user", "content": user_content}],
-        # Claude 4+: prompt caching é GA, sem beta header necessário
-        # Claude 3: manter extra_headers={"anthropic-beta": "prompt-caching-2024-07-31"}
-    ) as stream:
-        async for token in stream.text_stream:
-            full_laudo += token
-            yield {"type": "token", "text": token}
+    async for token, full_laudo in _stream_claude(client, load_system_prompt(), _build_user_content(prompt)):
+        yield {"type": "token", "text": token}
 
-    # ── 8. Emite fontes e conclusão ───────────────────────────────────────────
-    full_laudo = _filtrar_metadata(full_laudo)
-    full_laudo = _preencher_assinatura(
-        full_laudo,
-        dados_clinicos.get("medico", ""),
-        dados_clinicos.get("medico_crm", ""),
-    )
-    campos_faltando = _extrair_campos_faltando(full_laudo)
+    full_laudo, campos_faltando = _finalizar_laudo(full_laudo, dados_clinicos)
     yield {
-        "type":            "done",
-        "tipo_geracao":    tipo_geracao,
+        "type": "done", "tipo_geracao": tipo_geracao,
         "laudos_ref":      [{"id": l["id"], "nome": l["source_name"], "score": l.get("score", 0)} for l in laudos_ref],
         "campos_faltando": campos_faltando,
         "laudo":           full_laudo,
         "tem_memoria":     tem_memoria,
     }
 
-    # ── 9. Persiste no Mem0 em background ────────────────────────────────────
-    asyncio.create_task(
-        mem_svc.memorizar_interacao(
-            medico_id=user_id,
-            solicitacao=solicitacao,
-            laudo=full_laudo,
-            especialidade=especialidade,
-            tipo_geracao=tipo_geracao,
-            paciente_id=paciente_id,
-        )
-    )
+    _persistir_mem0_bg(mem_svc, user_id, solicitacao, full_laudo, especialidade, tipo_geracao, paciente_id)
 
 
 @observe(name="corrigir-laudo")

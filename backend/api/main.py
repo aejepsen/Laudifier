@@ -35,6 +35,7 @@ from ..services.export_service import ExportService
 from ..services.memory_service import LaudifierMemory
 from .memory_routes import router as memory_router
 from .pipeline_routes import router as pipeline_router
+from ._query_counter import reset_query_counter, log_if_over_threshold
 
 logger  = logging.getLogger(__name__)
 limiter = Limiter(key_func=get_remote_address)
@@ -73,6 +74,17 @@ app.include_router(memory_router)
 app.include_router(pipeline_router)
 
 
+# ─── Query-count (N+1 detector) ───────────────────────────────────────────────
+
+@app.middleware("http")
+async def query_counter_middleware(request: Request, call_next):
+    """Reseta counter por request, loga warning se threshold excedido."""
+    reset_query_counter()
+    response = await call_next(request)
+    log_if_over_threshold(request.url.path)
+    return response
+
+
 # ─── Security headers ─────────────────────────────────────────────────────────
 
 @app.middleware("http")
@@ -80,7 +92,9 @@ async def add_security_headers(request: Request, call_next):
     try:
         response = await call_next(request)
     except Exception:
-        logger.error("[Middleware] Exceção não tratada na rota", exc_info=True)
+        # Boundary de request: logger.exception preserva contexto e cadeia de causas.
+        # Captura genérica é correta aqui — último bastião antes do cliente HTTP.
+        logger.exception("[Middleware] Exceção não tratada na rota %s", request.url.path)
         from starlette.responses import Response as StarletteResponse
         response = StarletteResponse("Internal Server Error", status_code=500)
     response.headers["X-Content-Type-Options"] = "nosniff"

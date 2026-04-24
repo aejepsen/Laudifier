@@ -181,14 +181,15 @@ class LaudoSearchAgent:
         try:
             model = _get_model()
             chunks = self._chunk_text(laudo_text)
-            points = []
-            for i, chunk in enumerate(chunks):
-                vec = await asyncio.to_thread(
-                    model.encode,
-                    f"passage: {chunk}",
-                    normalize_embeddings=True,
-                )
-                points.append(PointStruct(
+            # Batch encode: uma passada no modelo ao invés de N threaded calls (fix N+1)
+            vecs = await asyncio.to_thread(
+                model.encode,
+                [f"passage: {c}" for c in chunks],
+                normalize_embeddings=True,
+                batch_size=32,
+            )
+            points = [
+                PointStruct(
                     id=str(uuid.uuid5(uuid.NAMESPACE_DNS, f"medico:{medico_id}:{laudo_id}:{i}")),
                     vector=vec.tolist(),
                     payload={
@@ -200,7 +201,9 @@ class LaudoSearchAgent:
                         "medico_id":     medico_id,
                         "chunk_index":   i,
                     },
-                ))
+                )
+                for i, (chunk, vec) in enumerate(zip(chunks, vecs))
+            ]
             await self.qdrant.upsert(collection_name=COLLECTION, points=points)
             logger.info(f"[SearchAgent] Laudo {laudo_id} indexado ({len(points)} chunks) para médico {medico_id}")
         except Exception as e:
@@ -220,14 +223,14 @@ class LaudoSearchAgent:
         try:
             model = _get_model()
             chunks = self._chunk_text(laudo_text)
-            points = []
-            for i, chunk in enumerate(chunks):
-                vec = await asyncio.to_thread(
-                    model.encode,
-                    f"passage: {chunk}",
-                    normalize_embeddings=True,
-                )
-                points.append(PointStruct(
+            vecs = await asyncio.to_thread(
+                model.encode,
+                [f"passage: {c}" for c in chunks],
+                normalize_embeddings=True,
+                batch_size=32,
+            )
+            points = [
+                PointStruct(
                     id=str(uuid.uuid5(uuid.NAMESPACE_DNS, f"geral:fallback:{laudo_id}:{i}")),
                     vector=vec.tolist(),
                     payload={
@@ -238,7 +241,9 @@ class LaudoSearchAgent:
                         "source":        "fallback_aprovado",
                         "chunk_index":   i,
                     },
-                ))
+                )
+                for i, (chunk, vec) in enumerate(zip(chunks, vecs))
+            ]
             await self.qdrant.upsert(collection_name=COLLECTION, points=points)
             logger.info(f"[SearchAgent] Laudo {laudo_id} indexado no repositório geral ({len(points)} chunks)")
         except Exception as e:

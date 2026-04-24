@@ -61,7 +61,7 @@ class LaudifierMemory:
     def __init__(self):
         try:
             self.mem = get_memory()
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Não inicializado: {e}")
             self.mem = None
 
@@ -123,7 +123,7 @@ class LaudifierMemory:
                     metadata={"especialidade": especialidade},
                 )
 
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao memorizar interação: {e}")
 
     async def memorizar_correcao(
@@ -151,7 +151,7 @@ class LaudifierMemory:
                     "data":          datetime.now(timezone.utc).isoformat(),
                 },
             )
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao memorizar correção: {e}")
 
     # ── Recuperar ─────────────────────────────────────────────────────────────
@@ -185,7 +185,7 @@ class LaudifierMemory:
                 )
             )
             return _formatar_memorias(memorias_medico, memorias_esp)
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao buscar contexto: {e}")
             return ""
 
@@ -210,7 +210,7 @@ class LaudifierMemory:
             if not items:
                 return ""
             return "HISTÓRICO DO PACIENTE (exames anteriores):\n" + "\n".join(items)
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao buscar histórico do paciente: {e}")
             return ""
 
@@ -220,7 +220,7 @@ class LaudifierMemory:
             return []
         try:
             return _safe_results(self.mem.get_all(user_id=medico_id))
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao listar memórias: {e}")
             return []
 
@@ -230,7 +230,7 @@ class LaudifierMemory:
             return
         try:
             self.mem.delete(memory_id=memory_id)
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao deletar memória {memory_id}: {e}")
 
     def limpar_memorias_medico(self, medico_id: str):
@@ -240,7 +240,7 @@ class LaudifierMemory:
         try:
             self.mem.delete_all(user_id=medico_id)
             logger.info(f"[Mem0] Memórias do médico {medico_id} removidas")
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao limpar memórias: {e}")
 
 

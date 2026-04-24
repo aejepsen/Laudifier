@@ -1,0 +1,27 @@
+# Dependências de QA — independente do runtime.
+# Para rodar os testes você também precisa instalar requirements.txt:
+#   pip install --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.txt
+#   pip install -r requirements-dev.txt
+
+# Test runner
+pytest==8.3.5
+pytest-asyncio==0.25.3
+pytest-cov==6.0.0
+pytest-mock==3.14.0
+pytest-timeout==2.3.1
+
+# Property-based + mutation testing
+hypothesis==6.124.0
+mutmut==3.2.2
+
+# Static analysis & complexity
+radon==6.0.1
+ruff==0.9.7
+mypy==1.14.1
+
+# Profiling & observability
+py-spy==0.3.14
+pyinstrument==5.0.0
+
+# Load testing
+locust==2.32.5
