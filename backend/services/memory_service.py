@@ -59,11 +59,22 @@ class LaudifierMemory:
     """
 
     def __init__(self):
-        try:
-            self.mem = get_memory()
-        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
-            logger.warning(f"[Mem0] Não inicializado: {e}")
-            self.mem = None
+        # Lazy: cliente Mem0 é criado na primeira leitura de `self.mem`.
+        # Evita IO de rede no construtor — facilita testes que mockam métodos
+        # da instância sem precisar de credenciais Mem0 válidas.
+        self._mem_initialized = False
+        self._mem = None
+
+    @property
+    def mem(self):
+        if not self._mem_initialized:
+            self._mem_initialized = True
+            try:
+                self._mem = get_memory()
+            except Exception as e:
+                logger.warning(f"[Mem0] Não inicializado: {e}")
+                self._mem = None
+        return self._mem
 
     # ── Lembrar ───────────────────────────────────────────────────────────────
 

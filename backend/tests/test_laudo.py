@@ -117,7 +117,8 @@ class TestExportService:
         path = svc._to_txt(laudo["laudo"], laudo)
         import os
         assert os.path.exists(path)
-        content = open(path).read()
+        with open(path, encoding="utf-8") as f:
+            content = f.read()
         assert "RADIOLOGIA" in content
         assert "ACHADOS" in content
 

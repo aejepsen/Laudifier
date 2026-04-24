@@ -4,8 +4,9 @@ import os
 from datetime import datetime, timezone
 from supabase import create_client
 
-SB_URL = os.getenv("SUPABASE_URL")
-SB_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+def _sb_env() -> tuple[str | None, str | None]:
+    """Lê env no momento da chamada — facilita testes que sobrescrevem env."""
+    return os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_SERVICE_ROLE_KEY")
 
 # Schema Supabase (execute no SQL Editor):
 SUPABASE_SCHEMA = """
@@ -45,7 +46,16 @@ CREATE POLICY "users_own_profile" ON user_profiles FOR ALL USING (auth.uid() = u
 class LaudoService:
     def __init__(self, user_id: str):
         self.user_id = user_id
-        self.sb = create_client(SB_URL, SB_KEY)
+        self._sb = None
+
+    @property
+    def sb(self):
+        """Lazy init do client Supabase — cria na primeira chamada de método.
+        Evita falha em testes que mockam métodos sem precisar de env Supabase."""
+        if self._sb is None:
+            url, key = _sb_env()
+            self._sb = create_client(url, key)
+        return self._sb
 
     async def salvar(self, laudo_id, especialidade, solicitacao, laudo, tipo_geracao, laudos_ref):
         self.sb.table("laudos").upsert({

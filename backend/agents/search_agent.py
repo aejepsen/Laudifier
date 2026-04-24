@@ -37,6 +37,7 @@ def _get_qdrant_client() -> AsyncQdrantClient:
             url=QDRANT_URL,
             api_key=QDRANT_KEY or None,
             timeout=30,  # cross-region: Azure BR → Qdrant US East
+            check_compatibility=False,  # evita thread bloqueante de version-check no boot
         )
     return _qdrant_client
 
