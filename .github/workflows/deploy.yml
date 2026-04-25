@@ -5,6 +5,12 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      run_mutation:
+        description: "Rodar mutation testing (mutmut)"
+        type: boolean
+        default: false
 
 env:
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/laudifier-backend
@@ -19,9 +25,6 @@ jobs:
       qdrant:
         image: qdrant/qdrant:v1.9.4
         ports: ["6333:6333"]
-    defaults:
-      run:
-        working-directory: backend
     steps:
       - uses: actions/checkout@v4
 
@@ -42,17 +45,21 @@ jobs:
       - name: Instalar torch CPU-only (evita CUDA ~5GB)
         run: pip install torch==2.5.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 
-      - run: pip install -r requirements.txt pytest pytest-asyncio httpx
+      - run: pip install -r backend/requirements.txt pytest pytest-asyncio pytest-cov httpx hypothesis
 
       - name: Dependency audit
         run: |
           pip install pip-audit -q
-          pip-audit --requirement requirements.txt --skip-editable \
+          pip-audit --requirement backend/requirements.txt --skip-editable \
             --index-url https://download.pytorch.org/whl/cpu \
             --extra-index-url https://pypi.org/simple
 
-      - name: Run tests
-        run: pytest tests/ -v --tb=short
+      - name: Run tests with coverage gate (≥ 80%)
+        run: |
+          pytest backend/tests/ -v --tb=short \
+            --cov=backend --cov-branch \
+            --cov-report=term-missing --cov-report=xml \
+            --cov-fail-under=80
         env:
           ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
           QDRANT_URL:                http://localhost:6333
@@ -63,6 +70,60 @@ jobs:
           MEM0_API_KEY:              ${{ secrets.MEM0_API_KEY }}
           USE_LOCAL_STORAGE:         "true"
           APP_ENV:                   "development"
+
+      - name: Upload coverage XML (artifact)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-xml
+          path: coverage.xml
+          if-no-files-found: warn
+
+
+  # ─── 1b. Mutation testing (manual via workflow_dispatch) ────────────────────
+  mutation-test:
+    name: Mutation Test (agents/)
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' && inputs.run_mutation == true
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar torch CPU-only
+        run: pip install torch==2.5.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+
+      - name: Instalar dependências + mutmut
+        run: |
+          pip install -r backend/requirements.txt
+          pip install pytest pytest-asyncio pytest-cov httpx hypothesis mutmut
+
+      - name: Run mutmut em backend/agents/ (config em setup.cfg)
+        env:
+          MEM0_API_KEY:      "stub"
+          ANTHROPIC_API_KEY: "stub"
+          QDRANT_URL:        "http://localhost:6333"
+          USE_LOCAL_STORAGE: "true"
+        run: |
+          mutmut run || true
+          mutmut results | tee mutmut-results.txt
+
+      - name: Verificar kill rate ≥ 70%
+        run: |
+          python - <<'PY'
+          import re, sys, pathlib
+          out = pathlib.Path("mutmut-results.txt").read_text()
+          killed   = len(re.findall(r'^\d+\s+killed', out, re.M))
+          survived = len(re.findall(r'^\d+\s+survived', out, re.M))
+          total = killed + survived
+          rate = killed / total if total else 0.0
+          print(f"Mutation kill rate: {rate:.1%} ({killed}/{total})")
+          sys.exit(0 if rate >= 0.70 else 1)
+          PY
 
 
   # ─── 2. Build + Push → Docker Hub ───────────────────────────────────────────
