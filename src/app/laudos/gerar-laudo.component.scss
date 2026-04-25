@@ -426,6 +426,21 @@ input, .date-input {
     font-size: 12px;
   }
 }
+/* Edição inline na linha selecionada — typing direto, sem LLM */
+.linha-text-edit {
+  flex: 1;
+  background: var(--colorNeutralBackground1);
+  border: 1px solid #60a5fa;
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--colorNeutralForeground1);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(96,165,250,0.15);
+  &:focus { border-color: #3b82f6; }
+}
 .linha-spacer { height: 8px; }
 
 .linha-check {

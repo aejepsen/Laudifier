@@ -143,3 +143,14 @@ def test_txt_encoding_utf8_preserva_acentos():
         content = f.read()
     assert "Avaliação" in content
     assert "coração" in content
+
+
+# ── PDF: regressão XML escape (reportlab Paragraph parses inline XML) ────────
+
+def test_pdf_escapa_xml_special_chars():
+    """Regressão: laudo com <, >, & não pode quebrar reportlab ParaParser."""
+    svc = ExportService()
+    laudo = {**LAUDO_BASE, "laudo": "Achado: dimensão < 5 mm & > limite normal."}
+    path = svc._to_pdf(laudo["laudo"], laudo)
+    assert path.endswith(".pdf")
+    assert os.path.getsize(path) > 0

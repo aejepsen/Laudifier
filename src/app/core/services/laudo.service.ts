@@ -135,7 +135,7 @@ export class LaudoService {
 
   feedback(id: string, aprovado: boolean, correcoes?: string): Observable<void> {
     return this.http.post<void>(`${environment.apiUrl}/laudos/${id}/feedback`,
-      { laudo_id: id, aprovado, correcoes });
+      { aprovado, correcoes });
   }
 
   async feedbackComAuth(id: string, aprovado: boolean, correcoes?: string): Promise<void> {
@@ -143,7 +143,7 @@ export class LaudoService {
     const resp = await fetch(`${environment.apiUrl}/laudos/${id}/feedback`, {
       method:  'POST',
       headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
-      body:    JSON.stringify({ laudo_id: id, aprovado, correcoes }),
+      body:    JSON.stringify({ aprovado, correcoes }),
     });
     if (!resp.ok) throw new Error(`Feedback falhou: ${resp.status}`);
   }

@@ -142,6 +142,7 @@ class LaudoService:
 
 import tempfile
 from pathlib import Path
+from xml.sax.saxutils import escape as _xml_escape
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import cm
@@ -168,19 +169,25 @@ class ExportService:
                                      fontSize=14, textColor=colors.HexColor("#1a56db"))
         body_style  = ParagraphStyle("corpo", parent=styles["Normal"],
                                      fontSize=11, leading=16)
+        especialidade = _xml_escape((laudo.get("especialidade") or "").upper())
+        data_exame    = _xml_escape((laudo.get("created_at") or "")[:10])
         elements = [
-            Paragraph(f"LAUDO MÉDICO — {laudo.get('especialidade','').upper()}", title_style),
+            Paragraph(f"LAUDO MÉDICO — {especialidade}", title_style),
             Spacer(1, 0.5*cm),
-            Paragraph(f"Data: {laudo.get('created_at','')[:10]}", styles["Normal"]),
+            Paragraph(f"Data: {data_exame}", styles["Normal"]),
             Spacer(1, 0.3*cm),
         ]
         for linha in texto.split("\n"):
-            if linha.strip():
-                if linha.isupper() and len(linha) < 60:
-                    elements.append(Paragraph(linha, styles["Heading2"]))
-                else:
-                    elements.append(Paragraph(linha.replace("**", ""), body_style))
-                elements.append(Spacer(1, 0.1*cm))
+            if not linha.strip():
+                continue
+            # Reportlab Paragraph parses inline XML/HTML — escape user-supplied chars
+            # (`<`, `>`, `&`) to avoid ParaParser failures on laudo text.
+            safe = _xml_escape(linha.replace("**", ""))
+            if linha.isupper() and len(linha) < 60:
+                elements.append(Paragraph(safe, styles["Heading2"]))
+            else:
+                elements.append(Paragraph(safe, body_style))
+            elements.append(Spacer(1, 0.1*cm))
         doc.build(elements)
         return tmp.name
 

@@ -72,8 +72,12 @@ async def gerar_laudo(
                     laudo_completo += chunk.get("text", "")
                 if chunk.get("type") == "done":
                     laudo_final = chunk.get("laudo") or laudo_completo
-                    task = asyncio.create_task(
-                        LaudoService(user.id).salvar(
+                    # Salvar de forma síncrona antes de yield 'done' — garante
+                    # que o laudo existe no DB quando o frontend chama feedback/exportar
+                    # logo após receber o evento. Race condition anterior causava
+                    # "Erro ao enviar feedback" em cliques rápidos.
+                    try:
+                        await LaudoService(user.id).salvar(
                             laudo_id=laudo_id,
                             especialidade=body.especialidade,
                             solicitacao=body.solicitacao,
@@ -81,10 +85,8 @@ async def gerar_laudo(
                             tipo_geracao=chunk.get("tipo_geracao", ""),
                             laudos_ref=chunk.get("laudos_ref", []),
                         )
-                    )
-                    task.add_done_callback(
-                        lambda t: logger.error("[Salvar laudo] Falhou", exc_info=t.exception()) if t.exception() else None
-                    )
+                    except Exception:
+                        logger.exception("[Salvar laudo] Falhou — feedback/exportar podem falhar")
                     trace.update(output={"laudo_id": laudo_id, "tipo_geracao": chunk.get("tipo_geracao")})
                     done_payload = {
                         "type":            "done",

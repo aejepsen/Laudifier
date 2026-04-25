@@ -132,6 +132,25 @@ import { environment } from '../../environments/environment';
               <span class="erro-msg" *ngIf="mostrarErro('email')">{{ errosDados().email }}</span>
             </div>
           </div>
+
+          <!-- Equipamento + Protocolo -->
+          <div class="dados-grid-2">
+            <div class="field">
+              <label>Equipamento utilizado <span class="optional">(opcional)</span></label>
+              <input
+                [(ngModel)]="dadosPaciente.equipamento"
+                placeholder="Ex: Siemens Magnetom Avanto 1.5T"
+                maxlength="120" />
+            </div>
+
+            <div class="field">
+              <label>Nº / Protocolo do exame <span class="optional">(opcional)</span></label>
+              <input
+                [(ngModel)]="dadosPaciente.numeroExame"
+                placeholder="Ex: 2026-04-12345"
+                maxlength="60" />
+            </div>
+          </div>
         </div>
 
         <!-- Solicitação do Médico -->
@@ -313,7 +332,18 @@ import { environment } from '../../environments/environment';
                     (change)="toggleEditarLinha(linha.num, linha.text)"
                     title="Selecionar para editar" />
                   <span class="linha-num">{{ linha.num }}</span>
-                  <span class="linha-text" [innerHTML]="renderLine(linha.text)"></span>
+
+                  <!-- Edição inline: input direto na linha selecionada (typing imediato, sem LLM) -->
+                  <input *ngIf="editandoLinha() === linha.num"
+                    #linhaInput
+                    class="linha-text-edit"
+                    [(ngModel)]="linhaEditadaTexto"
+                    (keydown.enter)="aplicarEdicaoInline()"
+                    (keydown.escape)="cancelarEdicaoLinha()"
+                    placeholder="Digite a correção e pressione Enter (Esc cancela)" />
+                  <span *ngIf="editandoLinha() !== linha.num"
+                    class="linha-text" [innerHTML]="renderLine(linha.text)"></span>
+
                   <span class="linha-acoes">
                     <button class="btn-linha-add" (click)="iniciarAdicao(linha.num)" title="Inserir linha após">+</button>
                     <button class="btn-linha-del" (click)="deletarLinha(linha.num)" title="Remover linha">×</button>
@@ -412,8 +442,12 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
   especialidade = 'Geral';
   solicitacao   = '';
   achados       = '';
-  dadosPaciente = { nome: '', dataNascimento: '', sexo: '', indicacao: '', email: '', dataExame: '' };
+  dadosPaciente = {
+    nome: '', dataNascimento: '', sexo: '', indicacao: '',
+    email: '', dataExame: '', equipamento: '', numeroExame: '',
+  };
   laudoEditado  = '';
+  linhaEditadaTexto = '';
 
   tocados    = signal<Set<string>>(new Set());
   tentouGerar = signal(false);
@@ -470,7 +504,16 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
   laudoGerado    = signal('');
   tipoGeracao    = signal<'rag' | 'fallback' | ''>('');
   laudosRef      = signal<any[]>([]);
-  camposFaltando = signal<string[]>([]);
+  // Computed: extrai placeholders [CAMPO] do laudo atual em tempo real,
+  // para o aviso "Preencha antes de finalizar" sumir conforme médico edita.
+  camposFaltando = computed(() => {
+    const txt = this.laudoGerado();
+    if (!txt) return [];
+    const matches = [...txt.matchAll(/\[([A-ZÁÉÍÓÚÀÃÕÂÊÔÜÇÑ0-9 _\-\/]{2,80})\]/g)]
+      .map(m => m[1].trim());
+    const unique = Array.from(new Set(matches));
+    return this._filtrarCamposUI(unique);
+  });
   isGenerating   = signal(false);
   isRefining     = signal(false);
   editando       = signal(false);
@@ -605,7 +648,6 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
           }
           if (chunk.type === 'done') {
             if (chunk.laudo) this.laudoGerado.set(chunk.laudo);
-            this.camposFaltando.set(this._filtrarCamposUI(chunk.campos_faltando ?? []));
             this.laudoEditado = chunk.laudo ?? this.laudoGerado();
             this.achados = '';
             this.isRefining.set(false);
@@ -624,7 +666,6 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
     this.laudoGerado.set('');
     this.tipoGeracao.set('');
     this.laudosRef.set([]);
-    this.camposFaltando.set([]);
     this.isGenerating.set(true);
     this.editando.set(false);
 
@@ -635,6 +676,8 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
     if (this.dadosPaciente.indicacao)       dados['indicacao']        = this.dadosPaciente.indicacao;
     if (this.dadosPaciente.email)            dados['email']            = this.dadosPaciente.email;
     if (this.dadosPaciente.dataExame)        dados['data_exame']       = this.dadosPaciente.dataExame;
+    if (this.dadosPaciente.equipamento)      dados['equipamento']      = this.dadosPaciente.equipamento;
+    if (this.dadosPaciente.numeroExame)      dados['numero_exame']     = this.dadosPaciente.numeroExame;
 
     // Dados do médico (autenticado)
     const perfil = this.authSvc.profile();
@@ -656,7 +699,6 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
           if (chunk.type === 'done') {
             // Sync com laudo pós-processado (assinatura preenchida, metadata removida)
             if (chunk.laudo) this.laudoGerado.set(chunk.laudo);
-            this.camposFaltando.set(this._filtrarCamposUI(chunk.campos_faltando ?? []));
             this.laudoEditado = chunk.laudo ?? this.laudoGerado();
             this.currentLaudoId.set(chunk.laudo_id ?? '');
             this.isGenerating.set(false);
@@ -723,23 +765,48 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
     this.voice.stopListening();
   }
 
-  toggleEditarLinha(num: number, _textoAtual: string) {
+  toggleEditarLinha(num: number, textoAtual: string) {
     if (this.editandoLinha() === num) {
       this.cancelarEdicaoLinha();
     } else {
       this.editandoLinha.set(num);
+      // Pré-preenche o input inline com o texto cru da linha p/ edição via teclado
+      this.linhaEditadaTexto = textoAtual;
       this.achados = '';
       this.voice.stopListening();
-      // Redireciona foco para o textarea no painel esquerdo
+      // Foca o input inline da linha selecionada (após Angular re-renderizar)
       setTimeout(() => {
-        this.refinarTextareaRef?.nativeElement?.focus();
-        this.refinarTextareaRef?.nativeElement?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        const el = document.querySelector<HTMLInputElement>('.linha-text-edit');
+        el?.focus();
+        el?.select();
       }, 50);
     }
   }
 
+  /** Aplica a edição inline da linha selecionada direto no laudo (sem LLM). */
+  aplicarEdicaoInline() {
+    const num = this.editandoLinha();
+    if (num <= 0) return;
+    const novo = this.linhaEditadaTexto;
+    if (!novo.trim()) { this.cancelarEdicaoLinha(); return; }
+
+    const linhas = this.laudoGerado().split('\n');
+    let contador = 0;
+    for (let i = 0; i < linhas.length; i++) {
+      if (linhas[i].trim()) {
+        contador++;
+        if (contador === num) { linhas[i] = novo; break; }
+      }
+    }
+    const atualizado = linhas.join('\n');
+    this.laudoGerado.set(atualizado);
+    this.laudoEditado = atualizado;
+    this.cancelarEdicaoLinha();
+  }
+
   cancelarEdicaoLinha() {
     this.editandoLinha.set(0);
+    this.linhaEditadaTexto = '';
     this.voice.stopListening();
   }
 
@@ -794,13 +861,15 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
     this.solicitacao = '';
     this.especialidade = 'Geral';
     this.tipoGeracao.set('');
-    this.camposFaltando.set([]);
     this.editando.set(false);
     this.achados = '';
     this.currentLaudoId.set('');
     this.modoLinhas.set(true);
     this.editandoLinha.set(0);
-    this.dadosPaciente = { nome: '', dataNascimento: '', sexo: '', indicacao: '', email: '', dataExame: '' };
+    this.dadosPaciente = {
+      nome: '', dataNascimento: '', sexo: '', indicacao: '',
+      email: '', dataExame: '', equipamento: '', numeroExame: '',
+    };
     this.tocados.set(new Set());
     this.tentouGerar.set(false);
     this.feedbackStatus.set('idle');
