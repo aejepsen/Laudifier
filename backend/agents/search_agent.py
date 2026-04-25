@@ -9,11 +9,26 @@ import logging
 import os
 import uuid
 
+import httpx
 from sentence_transformers import SentenceTransformer
 from qdrant_client import AsyncQdrantClient
+from qdrant_client.http.exceptions import UnexpectedResponse, ResponseHandlingException
 from qdrant_client.models import (
     Filter, FieldCondition, MatchValue,
     Distance, VectorParams, PointStruct,
+)
+
+# Erros esperados ao carregar/usar o encoder local (modelo HuggingFace).
+# CancelledError é BaseException em 3.8+, então NÃO é capturado por estes tuples.
+_EMBED_ERRORS = (RuntimeError, OSError, ValueError, ImportError)
+
+# Erros esperados de rede + protocolo Qdrant. Tudo fora disso = bug, deve crashar.
+_QDRANT_ERRORS = (
+    UnexpectedResponse,
+    ResponseHandlingException,
+    httpx.HTTPError,
+    ConnectionError,
+    TimeoutError,
 )
 
 logger = logging.getLogger(__name__)
@@ -50,7 +65,7 @@ def _get_model() -> SentenceTransformer:
     if _model is None:
         try:
             _model = SentenceTransformer(EMB_MODEL)
-        except Exception as e:
+        except _EMBED_ERRORS as e:
             _model_error = e
             logger.error(f"[SearchAgent] Falha ao carregar modelo {EMB_MODEL}: {e}")
             raise
@@ -74,7 +89,7 @@ class LaudoSearchAgent:
         """
         try:
             embedding = await self._embed(query)
-        except Exception as e:
+        except _EMBED_ERRORS as e:
             logger.warning(f"[SearchAgent] Embedding indisponível, usando fallback Claude: {e}")
             return []
 
@@ -103,7 +118,7 @@ class LaudoSearchAgent:
                 )
                 results = response.points
             return [self._to_dict(r) for r in results]
-        except Exception as e:
+        except _QDRANT_ERRORS as e:
             logger.warning(f"[SearchAgent] Qdrant search falhou: {e}")
             return []
 
@@ -144,7 +159,7 @@ class LaudoSearchAgent:
         """
         try:
             embedding = await self._embed(query)
-        except Exception:
+        except _EMBED_ERRORS:
             return []
 
         conditions = [FieldCondition(key="medico_id", match=MatchValue(value=medico_id))]
@@ -163,7 +178,7 @@ class LaudoSearchAgent:
                 score_threshold=0.40,
             )
             return [self._to_dict(r) for r in response.points]
-        except Exception as e:
+        except _QDRANT_ERRORS as e:
             logger.warning(f"[SearchAgent] buscar_laudos_do_medico falhou: {e}")
             return []
 
@@ -207,7 +222,7 @@ class LaudoSearchAgent:
             ]
             await self.qdrant.upsert(collection_name=COLLECTION, points=points)
             logger.info(f"[SearchAgent] Laudo {laudo_id} indexado ({len(points)} chunks) para médico {medico_id}")
-        except Exception as e:
+        except (*_EMBED_ERRORS, *_QDRANT_ERRORS) as e:
             logger.error(f"[SearchAgent] indexar_laudo_aprovado falhou: {e}")
 
     async def indexar_no_repositorio_geral(
@@ -247,7 +262,7 @@ class LaudoSearchAgent:
             ]
             await self.qdrant.upsert(collection_name=COLLECTION, points=points)
             logger.info(f"[SearchAgent] Laudo {laudo_id} indexado no repositório geral ({len(points)} chunks)")
-        except Exception as e:
+        except (*_EMBED_ERRORS, *_QDRANT_ERRORS) as e:
             logger.error(f"[SearchAgent] indexar_no_repositorio_geral falhou: {e}")
 
     @staticmethod

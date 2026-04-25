@@ -29,13 +29,15 @@ class TestLaudoSearchAgent:
 
     @pytest.mark.asyncio
     async def test_retorna_lista_vazia_sem_resultados(self):
+        from types import SimpleNamespace
         from backend.agents.search_agent import LaudoSearchAgent
         agent = LaudoSearchAgent.__new__(LaudoSearchAgent)
         with patch.object(agent, '_embed', new=AsyncMock(return_value=[0.1] * 1024)):
             with patch.object(agent, 'qdrant', create=True) as mock_q:
-                mock_q.search = AsyncMock(return_value=[])
+                mock_q.query_points = AsyncMock(return_value=SimpleNamespace(points=[]))
                 result = await agent.buscar_laudos_similares("rx torax", "radiologia")
         assert isinstance(result, list)
+        assert result == []
 
 
 # ── Geração de Laudo ─────────────────────────────────────────────────────────

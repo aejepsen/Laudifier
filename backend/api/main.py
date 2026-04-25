@@ -26,6 +26,20 @@ from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 
 from qdrant_client import QdrantClient
+from qdrant_client.http.exceptions import UnexpectedResponse, ResponseHandlingException
+import httpx
+import anthropic
+
+# Erros esperados em geração SSE: rede do Claude, Qdrant, runtime do agent.
+# CancelledError (BaseException em 3.8+) propaga e fecha o stream limpo.
+_SSE_STREAM_ERRORS = (
+    anthropic.APIError,
+    httpx.HTTPError,
+    UnexpectedResponse,
+    ResponseHandlingException,
+    RuntimeError,
+    ValueError,
+)
 
 from .auth import verify_token, UserContext
 from ..agents.laudo_agent import gerar_laudo_stream, corrigir_laudo_stream, gerar_conclusao_stream
@@ -214,7 +228,7 @@ async def gerar_laudo(
                     yield f"data: {json.dumps(done_payload)}\n\n"
                     return  # fecha o stream imediatamente após done
                 yield f"data: {json.dumps(chunk)}\n\n"
-        except Exception as e:
+        except _SSE_STREAM_ERRORS:
             logger.error("[Gerar laudo] Erro no streaming", exc_info=True)
             yield f"data: {json.dumps({'type': 'error', 'error': 'Erro ao gerar laudo'})}\n\n"
 
@@ -343,7 +357,7 @@ async def corrigir_laudo(
                     yield f"data: {json.dumps({**chunk, 'laudo_id': laudo_id})}\n\n"
                     return
                 yield f"data: {json.dumps(chunk)}\n\n"
-        except Exception:
+        except _SSE_STREAM_ERRORS:
             logger.error("[Corrigir laudo] Erro no streaming", exc_info=True)
             yield f"data: {json.dumps({'type': 'error', 'error': 'Erro ao corrigir laudo'})}\n\n"
 
@@ -383,7 +397,7 @@ async def gerar_conclusao(
                     yield f"data: {json.dumps({**chunk, 'laudo_id': laudo_id})}\n\n"
                     return
                 yield f"data: {json.dumps(chunk)}\n\n"
-        except Exception:
+        except _SSE_STREAM_ERRORS:
             logger.error("[Conclusão] Erro no streaming", exc_info=True)
             yield f"data: {json.dumps({'type': 'error', 'error': 'Erro ao gerar conclusão'})}\n\n"
 
@@ -523,7 +537,8 @@ async def health():
     try:
         _get_qdrant_health_client().get_collections()
         services["qdrant"] = "ok"
-    except Exception:
+    except (UnexpectedResponse, ResponseHandlingException,
+            ConnectionError, OSError, RuntimeError):
         services["qdrant"] = "error"
 
     status = "healthy" if all(v == "ok" for v in services.values()) else "degraded"

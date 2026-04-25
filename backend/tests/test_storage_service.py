@@ -128,8 +128,11 @@ def test_delete_s3_swallow_exception(monkeypatch, tmp_path):
     import importlib
     from backend.services import storage_service
 
+    from botocore.exceptions import ClientError
     fake_client = MagicMock()
-    fake_client.delete_object.side_effect = RuntimeError("boom")
+    fake_client.delete_object.side_effect = ClientError(
+        {"Error": {"Code": "500", "Message": "boom"}}, "DeleteObject"
+    )
     monkeypatch.setattr(storage_service, "boto3", MagicMock(client=lambda *a, **kw: fake_client))
     importlib.reload(storage_service)
     monkeypatch.setattr(storage_service, "boto3", MagicMock(client=lambda *a, **kw: fake_client))

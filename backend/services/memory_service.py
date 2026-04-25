@@ -71,7 +71,7 @@ class LaudifierMemory:
             self._mem_initialized = True
             try:
                 self._mem = get_memory()
-            except Exception as e:
+            except (RuntimeError, ConnectionError, OSError, ValueError, ImportError) as e:
                 logger.warning(f"[Mem0] Não inicializado: {e}")
                 self._mem = None
         return self._mem

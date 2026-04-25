@@ -3,6 +3,7 @@ import re
 import uuid
 import boto3
 from botocore.config import Config
+from botocore.exceptions import BotoCoreError, ClientError
 from pathlib import Path
 
 _USE_LOCAL  = os.getenv("USE_LOCAL_STORAGE", "true").lower() == "true"
@@ -59,5 +60,5 @@ class StorageService:
         key      = url.removeprefix(f"{endpoint}/{bucket}/")
         try:
             self._s3.delete_object(Bucket=bucket, Key=key)
-        except Exception:
+        except (BotoCoreError, ClientError):
             pass  # falha silenciosa — não bloqueia o fluxo

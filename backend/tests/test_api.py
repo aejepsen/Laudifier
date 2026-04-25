@@ -70,7 +70,7 @@ class TestHealth:
     def test_degradado_quando_qdrant_offline(self):
         """Health retorna 'degraded' se Qdrant não responde."""
         mock_client = MagicMock()
-        mock_client.get_collections.side_effect = Exception("conn refused")
+        mock_client.get_collections.side_effect = ConnectionError("conn refused")
         with patch("backend.api.main._get_qdrant_health_client", return_value=mock_client):
             r = _no_auth().get("/health")
 

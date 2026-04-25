@@ -202,7 +202,7 @@ async def test_buscar_do_medico_embedding_falha():
 async def test_buscar_do_medico_qdrant_falha():
     agent = sa.LaudoSearchAgent.__new__(sa.LaudoSearchAgent)
     agent.qdrant = MagicMock()
-    agent.qdrant.query_points = AsyncMock(side_effect=RuntimeError("x"))
+    agent.qdrant.query_points = AsyncMock(side_effect=ConnectionError("x"))
     with patch.object(agent, "_embed", new=AsyncMock(return_value=[0.1] * 1024)):
         out = await agent.buscar_laudos_do_medico("med-1", "q", "rad")
     assert out == []

@@ -33,6 +33,7 @@ _client = None
 
 # Reutiliza o singleton do search_agent — um único carregamento por processo
 from ..agents.search_agent import _get_model
+from qdrant_client.http.exceptions import UnexpectedResponse, ResponseHandlingException
 
 
 def _get_client():
@@ -173,7 +174,8 @@ async def indexar(
             total_chunks += len(points)
             total_files  += 1
 
-        except Exception as e:
+        except (RuntimeError, ValueError, OSError, ImportError,
+                UnexpectedResponse, ResponseHandlingException) as e:
             logger.error(f"[Pipeline] Erro em {upload.filename}: {e}")
             erros.append({"file": upload.filename, "error": str(e)})
 
