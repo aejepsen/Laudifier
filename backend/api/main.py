@@ -23,6 +23,7 @@ from .middleware import register_middlewares
 from .pipeline_routes import router as pipeline_router
 from .routes.auth import router as auth_router
 from .routes.dashboard import router as dashboard_router
+from .routes.debug import router as debug_router
 from .routes.health import router as health_router
 from .routes.laudos import router as laudos_router
 from .routes.repositorio import router as repositorio_router
@@ -59,5 +60,8 @@ app.include_router(dashboard_router)
 app.include_router(health_router)
 app.include_router(memory_router)
 app.include_router(pipeline_router)
+
+# Endpoints admin-only — deixar por último para não confundir grep de rotas públicas.
+app.include_router(debug_router)
 
 __all__ = ["app", "verify_token", "UserContext"]

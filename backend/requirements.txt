@@ -35,6 +35,7 @@ jinja2>=3.1.0             # templates de laudo
 
 # ── Observabilidade ───────────────────────────────────────────────────────────
 langfuse>=2.36.0,<3
+pyinstrument>=4.6.0       # /debug/profile (admin) — flame graph HTML
 
 # ── Pipeline ──────────────────────────────────────────────────────────────────
 prefect>=2.19.0,<3
