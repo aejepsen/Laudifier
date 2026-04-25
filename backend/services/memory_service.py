@@ -17,6 +17,8 @@ import functools
 import logging
 from datetime import datetime, timezone
 
+from backend.api._query_counter import track_query
+
 logger = logging.getLogger(__name__)
 
 
@@ -111,6 +113,7 @@ class LaudifierMemory:
                 },
             ]
 
+            track_query("mem0.add")
             self.mem.add(
                 mensagens,
                 user_id=medico_id,
@@ -121,6 +124,7 @@ class LaudifierMemory:
                 },
             )
 
+            track_query("mem0.add")
             self.mem.add(
                 mensagens,
                 app_id=f"especialidade_{especialidade.lower().replace(' ', '_')}",
@@ -128,6 +132,7 @@ class LaudifierMemory:
             )
 
             if paciente_id:
+                track_query("mem0.add")
                 self.mem.add(
                     mensagens,
                     agent_id=f"paciente_{paciente_id}",
@@ -153,6 +158,7 @@ class LaudifierMemory:
                 f"ANTES (gerado pela IA):\n{laudo_original[:800]}\n\n"
                 f"DEPOIS (corrigido pelo médico):\n{laudo_editado[:800]}"
             )
+            track_query("mem0.add")
             self.mem.add(
                 [{"role": "user", "content": diff_context}],
                 user_id=medico_id,
@@ -181,6 +187,7 @@ class LaudifierMemory:
         if not self.mem:
             return ""
         try:
+            track_query("mem0.search")
             memorias_medico = _safe_results(
                 self.mem.search(
                     query=f"{especialidade}: {solicitacao}",
@@ -188,6 +195,7 @@ class LaudifierMemory:
                     limit=limite,
                 )
             )
+            track_query("mem0.search")
             memorias_esp = _safe_results(
                 self.mem.search(
                     query=solicitacao,
@@ -210,6 +218,7 @@ class LaudifierMemory:
         if not self.mem:
             return ""
         try:
+            track_query("mem0.search")
             memorias = _safe_results(
                 self.mem.search(
                     query=solicitacao,

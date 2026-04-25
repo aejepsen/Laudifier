@@ -18,6 +18,8 @@ from qdrant_client.models import (
     Distance, VectorParams, PointStruct,
 )
 
+from backend.api._query_counter import track_query
+
 # Erros esperados ao carregar/usar o encoder local (modelo HuggingFace).
 # CancelledError é BaseException em 3.8+, então NÃO é capturado por estes tuples.
 _EMBED_ERRORS = (RuntimeError, OSError, ValueError, ImportError)
@@ -96,6 +98,7 @@ class LaudoSearchAgent:
         filtro = self._build_filter(especialidade, tipo_laudo)
 
         try:
+            track_query("qdrant.query_points")
             response = await self.qdrant.query_points(
                 collection_name=COLLECTION,
                 query=embedding,
@@ -108,6 +111,7 @@ class LaudoSearchAgent:
             # Fallback sem filtro de especialidade se retornar vazio
             if not results and filtro is not None:
                 logger.info("[SearchAgent] Busca filtrada vazia — tentando sem filtro de especialidade")
+                track_query("qdrant.query_points")
                 response = await self.qdrant.query_points(
                     collection_name=COLLECTION,
                     query=embedding,
@@ -169,6 +173,7 @@ class LaudoSearchAgent:
             )
 
         try:
+            track_query("qdrant.query_points")
             response = await self.qdrant.query_points(
                 collection_name=COLLECTION,
                 query=embedding,
@@ -220,6 +225,7 @@ class LaudoSearchAgent:
                 )
                 for i, (chunk, vec) in enumerate(zip(chunks, vecs))
             ]
+            track_query("qdrant.upsert")
             await self.qdrant.upsert(collection_name=COLLECTION, points=points)
             logger.info(f"[SearchAgent] Laudo {laudo_id} indexado ({len(points)} chunks) para médico {medico_id}")
         except (*_EMBED_ERRORS, *_QDRANT_ERRORS) as e:
@@ -260,6 +266,7 @@ class LaudoSearchAgent:
                 )
                 for i, (chunk, vec) in enumerate(zip(chunks, vecs))
             ]
+            track_query("qdrant.upsert")
             await self.qdrant.upsert(collection_name=COLLECTION, points=points)
             logger.info(f"[SearchAgent] Laudo {laudo_id} indexado no repositório geral ({len(points)} chunks)")
         except (*_EMBED_ERRORS, *_QDRANT_ERRORS) as e:
