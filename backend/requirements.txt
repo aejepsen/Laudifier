@@ -1,7 +1,10 @@
 # backend/requirements.txt — Laudifier
 
 # ── PyTorch CPU-only (pinned — evita que sentence-transformers puxe torch+CUDA ~5.5GB) ──
-torch==2.5.1+cpu
+# x86_64: usa wheel +cpu de download.pytorch.org (evita CUDA).
+# aarch64 (OCI Ampere A1): PyPI só tem CPU naturalmente; sem sufixo +cpu.
+torch==2.5.1+cpu ; platform_machine == "x86_64"
+torch==2.5.1 ; platform_machine == "aarch64"
 
 # ── Web ───────────────────────────────────────────────────────────────────────
 fastapi>=0.111.0
