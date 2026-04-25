@@ -37,26 +37,24 @@ Data: 2026-04-24 · Escopo: backend + scripts raiz · Re-pass após C1-C5 + A1-A
 
 ---
 
-## MEDIOS REMANESCENTES
+## MEDIOS
 
-- **M1.** ✅ mutmut + hypothesis em CI local. Pendente: instrumentar GitHub Actions.
-- **M2.** Profiler runtime (`pyinstrument` em `/debug/profile` gated por admin) — não implementado.
+- **M1.** ✅ CI: `--cov-fail-under=80` em PR/push. Mutmut em workflow_dispatch (manual) com gate ≥70%.
+- **M2.** ✅ `/debug/profile?duration=N` (1-30s) admin-gated, retorna flame graph HTML via pyinstrument.
 - **M3.** `processor.py` 552 LOC monolítico — fora do backend, deferido.
-- **M4.** `pytest.ini` com `addopts = --strict-markers --strict-config -ra --cov-branch` — implementado.
-- **M5.** ✅ SSE com fechamento explícito de generator (`return` após `done`); teste de desconexão em `test_concurrency`.
+- **M4.** ✅ `pytest.ini` com addopts strict + cov-branch.
+- **M5.** ✅ SSE com fechamento explícito (`return` após `done`); teste de desconexão em `test_concurrency`.
 
 ---
 
 ## REMANESCENTE
 
-- `routes/laudos.py` 322 LOC: cohesive single-resource router. Subdividir em `laudos_stream.py` (3 SSE) + `laudos_crud.py` traz fragmentação sem ganho real. Manter.
+- `routes/laudos.py` 322 LOC: cohesive single-resource router. Subdividir traz fragmentação sem ganho real. Manter.
 - `_montar_prompt` CC=9 — dentro do alvo B mas é a função mais complexa restante. Refatoração futura se evoluir.
-- CI: GitHub Actions com `pytest --cov --cov-fail-under=80` + `mutmut run --paths-to-mutate=backend/agents/` em PR check.
+- M3 (`processor.py` monolítico) — fora do backend, deferido para sprint de pipeline.
 
 ---
 
 ## RECOMENDACAO
 
-**Pronto para shippar v1.** Todos os C* e A* fechados. Restam medios de tooling (CI mutmut, profiler endpoint).
-
-Próximo bloco: instrumentar GitHub Actions e expor `/debug/profile` gated por role admin.
+**Pronto para shippar v1.** Todos os C*, A* e M1/M2/M4/M5 fechados. M3 deferido (escopo pipeline).
