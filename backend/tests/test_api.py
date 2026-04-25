@@ -57,7 +57,7 @@ def _no_auth():
 class TestHealth:
     def test_retorna_status_e_versao(self):
         """Health endpoint informa status e versão sem autenticação."""
-        with patch("backend.api.main.QdrantClient") as mock_qdrant:
+        with patch("backend.api.routes.health.QdrantClient") as mock_qdrant:
             mock_qdrant.return_value.get_collections.return_value = []
             r = _no_auth().get("/health")
 
@@ -71,7 +71,7 @@ class TestHealth:
         """Health retorna 'degraded' se Qdrant não responde."""
         mock_client = MagicMock()
         mock_client.get_collections.side_effect = ConnectionError("conn refused")
-        with patch("backend.api.main._get_qdrant_health_client", return_value=mock_client):
+        with patch("backend.api.routes.health._get_qdrant_health_client", return_value=mock_client):
             r = _no_auth().get("/health")
 
         assert r.status_code == 200
@@ -259,7 +259,7 @@ class TestGerarLaudo:
             "especialidade": "Radiologia",
             "dados_clinicos": {"indicacao": "cefaleia crônica"},
         }
-        with patch("backend.api.main.gerar_laudo_stream", new=_fake_stream):
+        with patch("backend.api.routes.laudos.gerar_laudo_stream", new=_fake_stream):
             with patch("backend.services.laudo_service.LaudoService.salvar", new=AsyncMock()):
                 r = _auth().post("/laudos/gerar", json=payload)
 
@@ -275,7 +275,7 @@ class TestStreamingSSE:
             yield {"type": "done", "tipo_geracao": "rag", "laudos_ref": []}
 
         payload = {"solicitacao": "RM de crânio", "especialidade": "Radiologia"}
-        with patch("backend.api.main.gerar_laudo_stream", new=_stream):
+        with patch("backend.api.routes.laudos.gerar_laudo_stream", new=_stream):
             with patch("backend.services.laudo_service.LaudoService.salvar", new=AsyncMock()):
                 r = _auth().post("/laudos/gerar", json=payload)
 
@@ -289,7 +289,7 @@ class TestStreamingSSE:
             yield {"type": "done", "tipo_geracao": "fallback", "laudos_ref": []}
 
         payload = {"solicitacao": "ECO cardíaco", "especialidade": "Cardiologia"}
-        with patch("backend.api.main.gerar_laudo_stream", new=_stream):
+        with patch("backend.api.routes.laudos.gerar_laudo_stream", new=_stream):
             with patch("backend.services.laudo_service.LaudoService.salvar", new=AsyncMock()):
                 r = _auth().post("/laudos/gerar", json=payload)
 
