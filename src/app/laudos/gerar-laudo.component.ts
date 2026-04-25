@@ -106,7 +106,7 @@ import { environment } from '../../environments/environment';
             </div>
           </div>
 
-          <!-- Data do Exame + E-mail -->
+          <!-- Data do Exame + Horário do Exame -->
           <div class="dados-grid-2">
             <div class="field">
               <label>Data do Exame <span class="required">*</span></label>
@@ -121,16 +121,25 @@ import { environment } from '../../environments/environment';
             </div>
 
             <div class="field">
-              <label>E-mail <span class="optional">(opcional)</span></label>
+              <label>Horário do Exame <span class="optional">(opcional)</span></label>
               <input
-                type="email"
-                [(ngModel)]="dadosPaciente.email"
-                placeholder="email@exemplo.com"
-                (blur)="marcarTocado('email')"
-                [class.field-error]="mostrarErro('email')"
-                [class.field-valid]="!!dadosPaciente.email && !errosDados().email && tocadoOuTentou('email')" />
-              <span class="erro-msg" *ngIf="mostrarErro('email')">{{ errosDados().email }}</span>
+                type="time"
+                [(ngModel)]="dadosPaciente.horarioExame"
+                class="date-input" />
             </div>
+          </div>
+
+          <!-- E-mail do Paciente -->
+          <div class="field">
+            <label>E-mail do Paciente <span class="optional">(opcional)</span></label>
+            <input
+              type="email"
+              [(ngModel)]="dadosPaciente.email"
+              placeholder="email@exemplo.com"
+              (blur)="marcarTocado('email')"
+              [class.field-error]="mostrarErro('email')"
+              [class.field-valid]="!!dadosPaciente.email && !errosDados().email && tocadoOuTentou('email')" />
+            <span class="erro-msg" *ngIf="mostrarErro('email')">{{ errosDados().email }}</span>
           </div>
 
           <!-- Equipamento + Protocolo -->
@@ -444,7 +453,7 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
   achados       = '';
   dadosPaciente = {
     nome: '', dataNascimento: '', sexo: '', indicacao: '',
-    email: '', dataExame: '', equipamento: '', numeroExame: '',
+    email: '', dataExame: '', horarioExame: '', equipamento: '', numeroExame: '',
   };
   laudoEditado  = '';
   linhaEditadaTexto = '';
@@ -674,14 +683,18 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
     if (this.dadosPaciente.dataNascimento)  dados['data_nascimento']  = this.dadosPaciente.dataNascimento;
     if (this.dadosPaciente.sexo)            dados['sexo']             = this.dadosPaciente.sexo;
     if (this.dadosPaciente.indicacao)       dados['indicacao']        = this.dadosPaciente.indicacao;
-    if (this.dadosPaciente.email)            dados['email']            = this.dadosPaciente.email;
+    if (this.dadosPaciente.email)            dados['paciente_email']   = this.dadosPaciente.email;
     if (this.dadosPaciente.dataExame)        dados['data_exame']       = this.dadosPaciente.dataExame;
+    if (this.dadosPaciente.horarioExame)     dados['horario_exame']    = this.dadosPaciente.horarioExame;
     if (this.dadosPaciente.equipamento)      dados['equipamento']      = this.dadosPaciente.equipamento;
     if (this.dadosPaciente.numeroExame)      dados['numero_exame']     = this.dadosPaciente.numeroExame;
 
-    // Dados do médico (autenticado)
+    // Dados do médico (autenticado) — fallback para local-part do email se displayName ausente
     const perfil = this.authSvc.profile();
-    if (perfil?.displayName) dados['medico']     = perfil.displayName;
+    const nomeMedico = (perfil?.displayName?.includes('@') ? '' : perfil?.displayName)
+      || perfil?.email?.split('@')[0]
+      || '';
+    if (nomeMedico)          dados['medico']     = nomeMedico;
     if (perfil?.crm)         dados['medico_crm'] = perfil.crm;
 
     this.laudoSvc
@@ -868,7 +881,7 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
     this.editandoLinha.set(0);
     this.dadosPaciente = {
       nome: '', dataNascimento: '', sexo: '', indicacao: '',
-      email: '', dataExame: '', equipamento: '', numeroExame: '',
+      email: '', dataExame: '', horarioExame: '', equipamento: '', numeroExame: '',
     };
     this.tocados.set(new Set());
     this.tentouGerar.set(false);

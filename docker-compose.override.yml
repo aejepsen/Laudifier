@@ -10,19 +10,26 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
+    working_dir: /workspace
     volumes:
-      - ./backend:/app
+      - ./backend:/workspace/backend
       - ./storage:/app/storage
       - whisper_models:/home/app/.cache/whisper
     environment:
       APP_ENV: development
+      LOG_LEVEL: info
+      LOCAL_STORAGE_PATH: /app/storage
     command:
       [
         "uvicorn",
-        "api.main:app",
+        "backend.api.main:app",
         "--host",
         "0.0.0.0",
         "--port",
         "8000",
         "--reload",
+        "--reload-dir",
+        "/workspace/backend",
+        "--log-level",
+        "info",
       ]

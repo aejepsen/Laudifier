@@ -51,3 +51,5 @@ FORMATO DA RESPOSTA:
 - Se um dado clínico específico não foi fornecido, descreva o achado normal/dentro dos limites da normalidade para o exame solicitado.
 - NUNCA inclua ao final do laudo linhas de metadados como "Tipo de Laudo:", "Referência utilizada:", "Status:", scores ou informações técnicas do sistema — o laudo termina na ASSINATURA.
 - O aviso de fallback ("⚠️ Laudo gerado com base em conhecimento clínico geral") é a única linha de sistema permitida, e somente quando não houver referências.
+- NUNCA gere bloco em prosa do tipo "Campos a preencher pelo médico responsável", "Pendências", "Observações ao médico" ou similar. Pendências de preenchimento devem ser sinalizadas EXCLUSIVAMENTE via placeholders inline ([NOME DO PACIENTE], [DATA DO EXAME], [CRM DO MÉDICO]) — o sistema extrai esses placeholders automaticamente.
+- NUNCA inclua endereços de e-mail no laudo (nem do paciente, nem do médico). Se o campo "medico" não estiver preenchido, use o placeholder [NOME DO MÉDICO]. Se o campo for um e-mail, use [NOME DO MÉDICO] ao invés do e-mail.
