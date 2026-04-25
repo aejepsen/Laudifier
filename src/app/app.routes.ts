@@ -18,6 +18,7 @@ export const routes: Routes = [
       { path: 'dashboard',  canActivate: [AdminGuard], loadComponent: () => import('./dashboard/dashboard.component').then(m => m.DashboardComponent) },
       { path: 'laudo/:id', loadComponent: () => import('./laudos/visualizar-laudo.component').then(m => m.VisualizarLaudoComponent) },
       { path: 'memoria', loadComponent: () => import('./memorias/memorias.component').then(m => m.MemoriasComponent) },
+      { path: 'perfil',  loadComponent: () => import('./perfil/perfil.component').then(m => m.PerfilComponent) },
     ],
   },
   { path: '**', redirectTo: 'gerar' },

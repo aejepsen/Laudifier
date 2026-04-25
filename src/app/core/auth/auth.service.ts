@@ -72,6 +72,19 @@ export class AuthService {
     this.router.navigate(['/login']);
   }
 
+  async updateProfile(patch: { displayName?: string; crm?: string; especialidade?: string }) {
+    const p = this.profile();
+    if (!p) throw new Error('Não autenticado');
+    const row: Record<string, unknown> = { updated_at: new Date().toISOString() };
+    if (patch.displayName !== undefined)  row['display_name']  = patch.displayName;
+    if (patch.crm !== undefined)          row['crm']           = patch.crm;
+    if (patch.especialidade !== undefined) row['especialidade'] = patch.especialidade;
+    const { error } = await this.sb.from('user_profiles')
+      .update(row).eq('user_id', p.id);
+    if (error) throw error;
+    await this._loadProfile(p.id, p.email);
+  }
+
   async getToken(): Promise<string> {
     const { data } = await this.sb.auth.getSession();
     return data.session?.access_token ?? '';

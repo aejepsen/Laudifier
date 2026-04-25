@@ -59,11 +59,14 @@ import { AuthService } from '../core/auth/auth.service';
         </ul>
 
         <div class="user-info" *ngIf="auth.profile() as p">
-          <div class="user-avatar">{{ initials() }}</div>
-          <div class="user-details">
-            <span class="user-name">{{ p.displayName }}</span>
-            <span class="user-crm" *ngIf="p.crm">CRM {{ p.crm }}</span>
-          </div>
+          <a routerLink="/perfil" class="user-link" title="Editar perfil">
+            <div class="user-avatar">{{ initials() }}</div>
+            <div class="user-details">
+              <span class="user-name">{{ p.displayName }}</span>
+              <span class="user-crm" *ngIf="p.crm">CRM {{ p.crm }}</span>
+              <span class="user-crm user-crm-empty" *ngIf="!p.crm">Adicionar CRM →</span>
+            </div>
+          </a>
           <button class="btn-logout" (click)="auth.signOut()" title="Sair">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
               <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/>
@@ -101,10 +104,13 @@ import { AuthService } from '../core/auth/auth.service';
     .nav-icon { width: 18px; height: 18px; flex-shrink: 0; }
 
     .user-info { display: flex; align-items: center; gap: 8px; padding: 12px 16px; border-top: 1px solid rgba(255,255,255,0.07); }
+    .user-link { display: flex; align-items: center; gap: 8px; flex: 1; min-width: 0; text-decoration: none; padding: 4px; margin: -4px; border-radius: 6px; transition: background 0.12s; }
+    .user-link:hover { background: rgba(255,255,255,0.05); }
     .user-avatar { width: 30px; height: 30px; border-radius: 50%; background: rgba(96,165,250,0.2); border: 1px solid rgba(96,165,250,0.3); color: #93c5fd; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; }
     .user-details { flex: 1; min-width: 0; }
     .user-name { font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.9); display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .user-crm  { font-size: 10px; color: rgba(255,255,255,0.35); }
+    .user-crm-empty { color: #60a5fa; }
     .btn-logout { background: none; border: none; cursor: pointer; color: rgba(255,255,255,0.35); padding: 4px; border-radius: 4px; display: flex; align-items: center; transition: color 0.12s; }
     .btn-logout:hover { color: rgba(255,255,255,0.8); }
 
