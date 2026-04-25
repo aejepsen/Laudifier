@@ -1,0 +1,255 @@
+#cloud-config
+# Cloud-init — Ubuntu 22.04 ARM (Ampere A1)
+# Provisiona Docker + compose, clona repo, sobe stack via Caddy reverse proxy.
+
+package_update: true
+package_upgrade: true
+
+packages:
+  - ca-certificates
+  - curl
+  - gnupg
+  - git
+  - ufw
+  - fail2ban
+  - unattended-upgrades
+
+write_files:
+  # ── App env (root-only) ───────────────────────────────────────────────────
+  - path: /opt/laudifier/.env
+    permissions: "0600"
+    owner: root:root
+    content: |
+%{ for k, v in app_env ~}
+      ${k}=${v}
+%{ endfor ~}
+      OCI_NAMESPACE=${oci_namespace}
+      OCI_BUCKET=${oci_bucket}
+      OCI_REGION=${region}
+      DOMAIN=${domain}
+      API_URL=https://${domain}/api
+      USE_LOCAL_STORAGE=false
+      S3_ENDPOINT_URL=${s3_endpoint}
+      S3_ACCESS_KEY_ID=${s3_access_key}
+      S3_SECRET_ACCESS_KEY=${s3_secret_key}
+      S3_REGION=${region}
+      S3_BUCKET_LAUDOS=${oci_bucket}
+
+  # ── Deploy key (private) — clone SSH do repo privado/público ─────────────
+  - path: /home/ubuntu/.ssh/id_ed25519
+    permissions: "0600"
+    owner: ubuntu:ubuntu
+    content: |
+      ${indent(6, deploy_key)}
+
+  # ── known_hosts GitHub ────────────────────────────────────────────────────
+  - path: /home/ubuntu/.ssh/known_hosts
+    permissions: "0644"
+    owner: ubuntu:ubuntu
+    content: |
+      github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
+      github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCj7ndNxQowgcQnjshcLrqPEiiphnt+VTTvDP6mHBL9j1aNUkY4Ue1gvwnGLVlOhGeYrnZaMgRK6+PKCUXaDbC7qtbW8gIkhL7aGCsOr/C56SJMy/BCZfxd1nWzAOxSDPgVsmerOBYfNqltV9/hWCqBywINIR+5dIg6JTJ72pcEpEjcYgXkE2YEFXV1JHnsKgbLWNlhScqb2UmyRkQyytRLtL+38TGxkxCflmO+5Z8CSSNY7GidjMIZ7Q4zMjA2n1nGrlTDkzwDCsw+wqFPGQA179cnfGWOWRVruj16z6XyvxvjJwbz0wQZ75XK5tKSb7FNyeIEs4TT4jk+S4dhPeAUC5y+bDYirYgM4GC7uEnztnZyaVWQ7B381AK4Qdrwt51ZqExKbQpTUNn+EjqoTwvqNj4kqx5QUCI0ThS/YkOxJCXmPUWZbhjpCg56i+2aB6CmK2JGhn57K5mj0MNdBXA4/WnwH6XoPWJzK5Nyu2zB3nAZp+S5hpQs+p1vN1/wsjk=
+
+  # ── docker-compose prod ───────────────────────────────────────────────────
+  - path: /opt/laudifier/docker-compose.prod.yml
+    permissions: "0644"
+    owner: root:root
+    content: |
+      services:
+        qdrant:
+          image: qdrant/qdrant:v1.9.4
+          container_name: laudifier-qdrant
+          restart: unless-stopped
+          volumes:
+            - qdrant_data:/qdrant/storage
+          healthcheck:
+            test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/localhost/6333"]
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 15s
+          networks: [app]
+
+        backend:
+          image: laudifier-backend:latest
+          build:
+            context: /opt/laudifier/repo/backend
+            dockerfile: Dockerfile
+          container_name: laudifier-backend
+          restart: unless-stopped
+          env_file: /opt/laudifier/.env
+          environment:
+            QDRANT_URL: http://qdrant:6333
+          volumes:
+            - /opt/laudifier/storage:/app/storage
+            - whisper_models:/home/app/.cache/whisper
+          depends_on:
+            qdrant:
+              condition: service_started
+          healthcheck:
+            test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 60s
+          networks: [app]
+
+        frontend:
+          image: laudifier-frontend:latest
+          build:
+            context: /opt/laudifier/repo
+            dockerfile: Dockerfile
+          container_name: laudifier-frontend
+          restart: unless-stopped
+          networks: [app]
+
+        caddy:
+          image: caddy:2-alpine
+          container_name: laudifier-caddy
+          restart: unless-stopped
+          ports:
+            - "80:80"
+            - "443:443"
+          volumes:
+            - /opt/laudifier/Caddyfile:/etc/caddy/Caddyfile:ro
+            - caddy_data:/data
+            - caddy_config:/config
+          depends_on:
+            - backend
+            - frontend
+          networks: [app]
+
+      volumes:
+        qdrant_data:
+        whisper_models:
+        caddy_data:
+        caddy_config:
+
+      networks:
+        app:
+          driver: bridge
+
+  # ── Caddyfile (TLS automático Let's Encrypt) ──────────────────────────────
+  - path: /opt/laudifier/Caddyfile
+    permissions: "0644"
+    owner: root:root
+    content: |
+      {
+        email ${letsencrypt_email}
+      }
+
+      ${domain} {
+        encode gzip zstd
+
+        # API → backend
+        handle_path /api/* {
+          reverse_proxy backend:8000
+        }
+
+        # Health passthrough
+        handle /health {
+          reverse_proxy backend:8000
+        }
+
+        # SPA → frontend nginx
+        handle {
+          reverse_proxy frontend:80
+        }
+
+        header {
+          Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+          X-Content-Type-Options "nosniff"
+          X-Frame-Options "DENY"
+          Referrer-Policy "strict-origin-when-cross-origin"
+        }
+      }
+
+  # ── Bootstrap script ──────────────────────────────────────────────────────
+  - path: /opt/laudifier/bootstrap.sh
+    permissions: "0750"
+    owner: root:root
+    content: |
+      #!/usr/bin/env bash
+      set -euo pipefail
+
+      # Docker engine + compose plugin (oficial)
+      install -m 0755 -d /etc/apt/keyrings
+      curl -fsSL https://download.docker.com/linux/ubuntu/gpg \
+        | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+      chmod a+r /etc/apt/keyrings/docker.gpg
+
+      ARCH="$(dpkg --print-architecture)"
+      CODENAME="$(. /etc/os-release && echo "$VERSION_CODENAME")"
+      echo "deb [arch=$ARCH signed-by=/etc/apt/keyrings/docker.gpg] \
+        https://download.docker.com/linux/ubuntu $CODENAME stable" \
+        > /etc/apt/sources.list.d/docker.list
+
+      apt-get update
+      apt-get install -y docker-ce docker-ce-cli containerd.io \
+        docker-buildx-plugin docker-compose-plugin
+
+      systemctl enable --now docker
+
+      usermod -aG docker ubuntu || true
+
+      # Firewall (defense in depth — NSG já filtra na borda)
+      ufw default deny incoming
+      ufw default allow outgoing
+      ufw allow 22/tcp
+      ufw allow 80/tcp
+      ufw allow 443/tcp
+      ufw --force enable
+
+      # fail2ban
+      systemctl enable --now fail2ban
+
+      # Auto security updates
+      dpkg-reconfigure -f noninteractive unattended-upgrades
+
+      # Storage dir
+      mkdir -p /opt/laudifier/storage
+      chown -R 1000:1000 /opt/laudifier/storage
+
+      # SSH dir perms (cloud-init write_files já gravou key + known_hosts)
+      chmod 700 /home/ubuntu/.ssh
+      chown -R ubuntu:ubuntu /home/ubuntu/.ssh
+
+      # Clone repo via SSH (deploy key já cadastrada no GitHub)
+      if [ ! -d /opt/laudifier/repo/.git ]; then
+        sudo -u ubuntu git clone --branch ${git_branch} --depth 1 \
+          ${git_repo_url} /opt/laudifier/repo
+      else
+        cd /opt/laudifier/repo && sudo -u ubuntu git pull --ff-only
+      fi
+
+      # Build + up
+      cd /opt/laudifier
+      docker compose -f docker-compose.prod.yml build
+      docker compose -f docker-compose.prod.yml up -d
+
+      # systemd unit para boot
+      cat > /etc/systemd/system/laudifier.service <<'UNIT'
+      [Unit]
+      Description=Laudifier compose stack
+      Requires=docker.service
+      After=docker.service network-online.target
+      Wants=network-online.target
+
+      [Service]
+      Type=oneshot
+      RemainAfterExit=yes
+      WorkingDirectory=/opt/laudifier
+      ExecStart=/usr/bin/docker compose -f docker-compose.prod.yml up -d
+      ExecStop=/usr/bin/docker compose -f docker-compose.prod.yml down
+
+      [Install]
+      WantedBy=multi-user.target
+      UNIT
+
+      systemctl daemon-reload
+      systemctl enable laudifier.service
+
+runcmd:
+  - bash /opt/laudifier/bootstrap.sh 2>&1 | tee -a /var/log/laudifier-bootstrap.log
+
+final_message: "Laudifier bootstrap finalizado. Aponte DNS A ${domain} para o IP público da VM."

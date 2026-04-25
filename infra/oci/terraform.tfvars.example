@@ -1,0 +1,39 @@
+# ─── OCI auth (Console > Profile > User Settings > API Keys) ────────────────
+tenancy_ocid     = "ocid1.tenancy.oc1..xxxxxxxx"
+user_ocid        = "ocid1.user.oc1..xxxxxxxx"
+fingerprint      = "aa:bb:cc:dd:ee:ff:..."
+private_key_path = "~/.oci/oci_api_key.pem"
+region           = "us-ashburn-1"
+compartment_ocid = "ocid1.compartment.oc1..xxxxxxxx"
+
+# ─── App ────────────────────────────────────────────────────────────────────
+app_name           = "laudifier"
+domain             = "laudifier.com.br"
+letsencrypt_email  = "aejepsen@yahoo.com.br"
+
+# ─── VM ─────────────────────────────────────────────────────────────────────
+ssh_public_key      = "ssh-ed25519 AAAA... user@host"
+vm_shape            = "VM.Standard.A1.Flex"
+vm_ocpus            = 4
+vm_memory_gb        = 24
+boot_volume_size_gb = 100
+ssh_cidr_allowlist  = ["SEU.IP.PUBLICO/32"]   # NUNCA deixar 0.0.0.0/0 em prod
+
+# ─── Source ─────────────────────────────────────────────────────────────────
+git_repo_url = "https://<USER>:<PAT>@github.com/<owner>/Laudifier.git"
+git_branch   = "main"
+
+# ─── Secrets app (mover para tfvars criptografado / vault) ──────────────────
+app_env = {
+  ANTHROPIC_API_KEY         = "sk-ant-..."
+  SUPABASE_URL              = "https://xxx.supabase.co"
+  SUPABASE_ANON_KEY         = "eyJ..."
+  SUPABASE_SERVICE_ROLE_KEY = "eyJ..."
+  JWT_SECRET                = "..."
+  QDRANT_API_KEY            = ""               # vazio — Qdrant local sem auth na rede privada
+  QDRANT_COLLECTION         = "laudos"
+  LANGFUSE_PUBLIC_KEY       = "pk-lf-..."
+  LANGFUSE_SECRET_KEY       = "sk-lf-..."
+  LANGFUSE_HOST             = "https://cloud.langfuse.com"
+  ADMIN_API_KEY             = "..."
+}
