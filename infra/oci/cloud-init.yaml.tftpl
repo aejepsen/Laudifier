@@ -251,6 +251,12 @@ write_files:
         cd /opt/laudifier/repo && sudo -u ubuntu git pull --ff-only
       fi
 
+      # environment.ts é gitignored — Angular fileReplacements substitui por
+      # environment.prod.ts em build prod, mas TS precisa do arquivo pra compilar.
+      cp /opt/laudifier/repo/src/environments/environment.example.ts \
+         /opt/laudifier/repo/src/environments/environment.ts
+      chown ubuntu:ubuntu /opt/laudifier/repo/src/environments/environment.ts
+
       # Build + up
       cd /opt/laudifier
       docker compose -f docker-compose.prod.yml build
