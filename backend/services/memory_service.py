@@ -17,6 +17,8 @@ import functools
 import logging
 from datetime import datetime, timezone
 
+from backend.api._query_counter import track_query
+
 logger = logging.getLogger(__name__)
 
 
@@ -59,11 +61,22 @@ class LaudifierMemory:
     """
 
     def __init__(self):
-        try:
-            self.mem = get_memory()
-        except Exception as e:
-            logger.warning(f"[Mem0] Não inicializado: {e}")
-            self.mem = None
+        # Lazy: cliente Mem0 é criado na primeira leitura de `self.mem`.
+        # Evita IO de rede no construtor — facilita testes que mockam métodos
+        # da instância sem precisar de credenciais Mem0 válidas.
+        self._mem_initialized = False
+        self._mem = None
+
+    @property
+    def mem(self):
+        if not self._mem_initialized:
+            self._mem_initialized = True
+            try:
+                self._mem = get_memory()
+            except (RuntimeError, ConnectionError, OSError, ValueError, ImportError) as e:
+                logger.warning(f"[Mem0] Não inicializado: {e}")
+                self._mem = None
+        return self._mem
 
     # ── Lembrar ───────────────────────────────────────────────────────────────
 
@@ -100,6 +113,7 @@ class LaudifierMemory:
                 },
             ]
 
+            track_query("mem0.add")
             self.mem.add(
                 mensagens,
                 user_id=medico_id,
@@ -110,6 +124,7 @@ class LaudifierMemory:
                 },
             )
 
+            track_query("mem0.add")
             self.mem.add(
                 mensagens,
                 app_id=f"especialidade_{especialidade.lower().replace(' ', '_')}",
@@ -117,13 +132,14 @@ class LaudifierMemory:
             )
 
             if paciente_id:
+                track_query("mem0.add")
                 self.mem.add(
                     mensagens,
                     agent_id=f"paciente_{paciente_id}",
                     metadata={"especialidade": especialidade},
                 )
 
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao memorizar interação: {e}")
 
     async def memorizar_correcao(
@@ -142,6 +158,7 @@ class LaudifierMemory:
                 f"ANTES (gerado pela IA):\n{laudo_original[:800]}\n\n"
                 f"DEPOIS (corrigido pelo médico):\n{laudo_editado[:800]}"
             )
+            track_query("mem0.add")
             self.mem.add(
                 [{"role": "user", "content": diff_context}],
                 user_id=medico_id,
@@ -151,7 +168,7 @@ class LaudifierMemory:
                     "data":          datetime.now(timezone.utc).isoformat(),
                 },
             )
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao memorizar correção: {e}")
 
     # ── Recuperar ─────────────────────────────────────────────────────────────
@@ -170,6 +187,7 @@ class LaudifierMemory:
         if not self.mem:
             return ""
         try:
+            track_query("mem0.search")
             memorias_medico = _safe_results(
                 self.mem.search(
                     query=f"{especialidade}: {solicitacao}",
@@ -177,6 +195,7 @@ class LaudifierMemory:
                     limit=limite,
                 )
             )
+            track_query("mem0.search")
             memorias_esp = _safe_results(
                 self.mem.search(
                     query=solicitacao,
@@ -185,7 +204,7 @@ class LaudifierMemory:
                 )
             )
             return _formatar_memorias(memorias_medico, memorias_esp)
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao buscar contexto: {e}")
             return ""
 
@@ -199,6 +218,7 @@ class LaudifierMemory:
         if not self.mem:
             return ""
         try:
+            track_query("mem0.search")
             memorias = _safe_results(
                 self.mem.search(
                     query=solicitacao,
@@ -210,7 +230,7 @@ class LaudifierMemory:
             if not items:
                 return ""
             return "HISTÓRICO DO PACIENTE (exames anteriores):\n" + "\n".join(items)
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao buscar histórico do paciente: {e}")
             return ""
 
@@ -220,7 +240,7 @@ class LaudifierMemory:
             return []
         try:
             return _safe_results(self.mem.get_all(user_id=medico_id))
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao listar memórias: {e}")
             return []
 
@@ -230,7 +250,7 @@ class LaudifierMemory:
             return
         try:
             self.mem.delete(memory_id=memory_id)
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao deletar memória {memory_id}: {e}")
 
     def limpar_memorias_medico(self, medico_id: str):
@@ -240,7 +260,7 @@ class LaudifierMemory:
         try:
             self.mem.delete_all(user_id=medico_id)
             logger.info(f"[Mem0] Memórias do médico {medico_id} removidas")
-        except Exception as e:
+        except (ConnectionError, TimeoutError, ValueError, KeyError, AttributeError, RuntimeError, OSError) as e:
             logger.warning(f"[Mem0] Falha ao limpar memórias: {e}")
 
 

@@ -9,11 +9,28 @@ import logging
 import os
 import uuid
 
+import httpx
 from sentence_transformers import SentenceTransformer
 from qdrant_client import AsyncQdrantClient
+from qdrant_client.http.exceptions import UnexpectedResponse, ResponseHandlingException
 from qdrant_client.models import (
     Filter, FieldCondition, MatchValue,
     Distance, VectorParams, PointStruct,
+)
+
+from backend.api._query_counter import track_query
+
+# Erros esperados ao carregar/usar o encoder local (modelo HuggingFace).
+# CancelledError é BaseException em 3.8+, então NÃO é capturado por estes tuples.
+_EMBED_ERRORS = (RuntimeError, OSError, ValueError, ImportError)
+
+# Erros esperados de rede + protocolo Qdrant. Tudo fora disso = bug, deve crashar.
+_QDRANT_ERRORS = (
+    UnexpectedResponse,
+    ResponseHandlingException,
+    httpx.HTTPError,
+    ConnectionError,
+    TimeoutError,
 )
 
 logger = logging.getLogger(__name__)
@@ -37,6 +54,7 @@ def _get_qdrant_client() -> AsyncQdrantClient:
             url=QDRANT_URL,
             api_key=QDRANT_KEY or None,
             timeout=30,  # cross-region: Azure BR → Qdrant US East
+            check_compatibility=False,  # evita thread bloqueante de version-check no boot
         )
     return _qdrant_client
 
@@ -49,7 +67,7 @@ def _get_model() -> SentenceTransformer:
     if _model is None:
         try:
             _model = SentenceTransformer(EMB_MODEL)
-        except Exception as e:
+        except _EMBED_ERRORS as e:
             _model_error = e
             logger.error(f"[SearchAgent] Falha ao carregar modelo {EMB_MODEL}: {e}")
             raise
@@ -73,13 +91,14 @@ class LaudoSearchAgent:
         """
         try:
             embedding = await self._embed(query)
-        except Exception as e:
+        except _EMBED_ERRORS as e:
             logger.warning(f"[SearchAgent] Embedding indisponível, usando fallback Claude: {e}")
             return []
 
         filtro = self._build_filter(especialidade, tipo_laudo)
 
         try:
+            track_query("qdrant.query_points")
             response = await self.qdrant.query_points(
                 collection_name=COLLECTION,
                 query=embedding,
@@ -92,6 +111,7 @@ class LaudoSearchAgent:
             # Fallback sem filtro de especialidade se retornar vazio
             if not results and filtro is not None:
                 logger.info("[SearchAgent] Busca filtrada vazia — tentando sem filtro de especialidade")
+                track_query("qdrant.query_points")
                 response = await self.qdrant.query_points(
                     collection_name=COLLECTION,
                     query=embedding,
@@ -102,7 +122,7 @@ class LaudoSearchAgent:
                 )
                 results = response.points
             return [self._to_dict(r) for r in results]
-        except Exception as e:
+        except _QDRANT_ERRORS as e:
             logger.warning(f"[SearchAgent] Qdrant search falhou: {e}")
             return []
 
@@ -143,7 +163,7 @@ class LaudoSearchAgent:
         """
         try:
             embedding = await self._embed(query)
-        except Exception:
+        except _EMBED_ERRORS:
             return []
 
         conditions = [FieldCondition(key="medico_id", match=MatchValue(value=medico_id))]
@@ -153,6 +173,7 @@ class LaudoSearchAgent:
             )
 
         try:
+            track_query("qdrant.query_points")
             response = await self.qdrant.query_points(
                 collection_name=COLLECTION,
                 query=embedding,
@@ -162,7 +183,7 @@ class LaudoSearchAgent:
                 score_threshold=0.40,
             )
             return [self._to_dict(r) for r in response.points]
-        except Exception as e:
+        except _QDRANT_ERRORS as e:
             logger.warning(f"[SearchAgent] buscar_laudos_do_medico falhou: {e}")
             return []
 
@@ -181,14 +202,15 @@ class LaudoSearchAgent:
         try:
             model = _get_model()
             chunks = self._chunk_text(laudo_text)
-            points = []
-            for i, chunk in enumerate(chunks):
-                vec = await asyncio.to_thread(
-                    model.encode,
-                    f"passage: {chunk}",
-                    normalize_embeddings=True,
-                )
-                points.append(PointStruct(
+            # Batch encode: uma passada no modelo ao invés de N threaded calls (fix N+1)
+            vecs = await asyncio.to_thread(
+                model.encode,
+                [f"passage: {c}" for c in chunks],
+                normalize_embeddings=True,
+                batch_size=32,
+            )
+            points = [
+                PointStruct(
                     id=str(uuid.uuid5(uuid.NAMESPACE_DNS, f"medico:{medico_id}:{laudo_id}:{i}")),
                     vector=vec.tolist(),
                     payload={
@@ -200,10 +222,13 @@ class LaudoSearchAgent:
                         "medico_id":     medico_id,
                         "chunk_index":   i,
                     },
-                ))
+                )
+                for i, (chunk, vec) in enumerate(zip(chunks, vecs))
+            ]
+            track_query("qdrant.upsert")
             await self.qdrant.upsert(collection_name=COLLECTION, points=points)
             logger.info(f"[SearchAgent] Laudo {laudo_id} indexado ({len(points)} chunks) para médico {medico_id}")
-        except Exception as e:
+        except (*_EMBED_ERRORS, *_QDRANT_ERRORS) as e:
             logger.error(f"[SearchAgent] indexar_laudo_aprovado falhou: {e}")
 
     async def indexar_no_repositorio_geral(
@@ -220,14 +245,14 @@ class LaudoSearchAgent:
         try:
             model = _get_model()
             chunks = self._chunk_text(laudo_text)
-            points = []
-            for i, chunk in enumerate(chunks):
-                vec = await asyncio.to_thread(
-                    model.encode,
-                    f"passage: {chunk}",
-                    normalize_embeddings=True,
-                )
-                points.append(PointStruct(
+            vecs = await asyncio.to_thread(
+                model.encode,
+                [f"passage: {c}" for c in chunks],
+                normalize_embeddings=True,
+                batch_size=32,
+            )
+            points = [
+                PointStruct(
                     id=str(uuid.uuid5(uuid.NAMESPACE_DNS, f"geral:fallback:{laudo_id}:{i}")),
                     vector=vec.tolist(),
                     payload={
@@ -238,10 +263,13 @@ class LaudoSearchAgent:
                         "source":        "fallback_aprovado",
                         "chunk_index":   i,
                     },
-                ))
+                )
+                for i, (chunk, vec) in enumerate(zip(chunks, vecs))
+            ]
+            track_query("qdrant.upsert")
             await self.qdrant.upsert(collection_name=COLLECTION, points=points)
             logger.info(f"[SearchAgent] Laudo {laudo_id} indexado no repositório geral ({len(points)} chunks)")
-        except Exception as e:
+        except (*_EMBED_ERRORS, *_QDRANT_ERRORS) as e:
             logger.error(f"[SearchAgent] indexar_no_repositorio_geral falhou: {e}")
 
     @staticmethod

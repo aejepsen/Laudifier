@@ -4,8 +4,11 @@ import os
 from datetime import datetime, timezone
 from supabase import create_client
 
-SB_URL = os.getenv("SUPABASE_URL")
-SB_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+from backend.api._query_counter import track_query
+
+def _sb_env() -> tuple[str | None, str | None]:
+    """Lê env no momento da chamada — facilita testes que sobrescrevem env."""
+    return os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_SERVICE_ROLE_KEY")
 
 # Schema Supabase (execute no SQL Editor):
 SUPABASE_SCHEMA = """
@@ -45,9 +48,19 @@ CREATE POLICY "users_own_profile" ON user_profiles FOR ALL USING (auth.uid() = u
 class LaudoService:
     def __init__(self, user_id: str):
         self.user_id = user_id
-        self.sb = create_client(SB_URL, SB_KEY)
+        self._sb = None
+
+    @property
+    def sb(self):
+        """Lazy init do client Supabase — cria na primeira chamada de método.
+        Evita falha em testes que mockam métodos sem precisar de env Supabase."""
+        if self._sb is None:
+            url, key = _sb_env()
+            self._sb = create_client(url, key)
+        return self._sb
 
     async def salvar(self, laudo_id, especialidade, solicitacao, laudo, tipo_geracao, laudos_ref):
+        track_query("supabase.laudos.upsert")
         self.sb.table("laudos").upsert({
             "id": laudo_id, "user_id": self.user_id,
             "especialidade": especialidade, "solicitacao": solicitacao,
@@ -57,6 +70,7 @@ class LaudoService:
         }).execute()
 
     async def listar(self, page=0, size=20, especialidade=None):
+        track_query("supabase.laudos.select")
         q = self.sb.table("laudos").select(
             "id, especialidade, tipo_laudo, solicitacao, tipo_geracao, aprovado, created_at, updated_at"
         ).eq("user_id", self.user_id).order("created_at", desc=True).range(page*size, (page+1)*size-1)
@@ -65,16 +79,19 @@ class LaudoService:
         return (q.execute()).data or []
 
     async def get(self, laudo_id: str) -> dict | None:
+        track_query("supabase.laudos.select")
         r = self.sb.table("laudos").select("*").eq("id", laudo_id).eq("user_id", self.user_id).single().execute()
         return r.data
 
     async def atualizar(self, laudo_id: str, laudo_editado: str):
+        track_query("supabase.laudos.update")
         self.sb.table("laudos").update({
             "laudo_editado": laudo_editado,
             "updated_at": datetime.now(timezone.utc).isoformat(),
         }).eq("id", laudo_id).eq("user_id", self.user_id).execute()
 
     async def registrar_feedback(self, laudo_id: str, aprovado: bool, correcoes: str | None):
+        track_query("supabase.laudos.update")
         self.sb.table("laudos").update({
             "aprovado": aprovado, "correcoes": correcoes,
             "updated_at": datetime.now(timezone.utc).isoformat(),
@@ -84,6 +101,7 @@ class LaudoService:
         # Carrega apenas as colunas necessárias com LIMIT explícito.
         # Supabase não suporta GROUP BY nativo na client lib,
         # mas limitamos a 1000 registros para evitar full table scan irrestrito.
+        track_query("supabase.laudos.select")
         dados = (
             self.sb.table("laudos")
             .select("especialidade, tipo_geracao, aprovado")
@@ -110,6 +128,7 @@ class LaudoService:
 
     async def deletar(self, laudo_id: str) -> None:
         """Remove laudo do usuário (LGPD art. 18, VI — direito de exclusão)."""
+        track_query("supabase.laudos.delete")
         self.sb.table("laudos") \
             .delete() \
             .eq("id", laudo_id) \
