@@ -97,6 +97,66 @@ def test_load_system_prompt_concorrente(n_readers: int, tmp_path, monkeypatch):
     assert all(r == primeiro for r in results), "valores divergentes entre threads"
 
 
+# ── Property-based: LaudifierMemory.add isolado por user_id ──────────────────
+
+@pytest.mark.concurrency
+@settings(
+    max_examples=10,
+    deadline=None,
+    suppress_health_check=[HealthCheck.function_scoped_fixture],
+)
+@given(
+    n_medicos=st.integers(min_value=2, max_value=12),
+    calls_por_medico=st.integers(min_value=1, max_value=8),
+)
+def test_memorizar_interacao_isola_por_medico(n_medicos: int, calls_por_medico: int):
+    """
+    N médicos em paralelo gravando memórias devem cair em silos por user_id.
+    Se mem0 client mutar estado interno, calls cruzam user_id e quebram LGPD.
+    """
+    from backend.services.memory_service import LaudifierMemory
+
+    chamadas: list[tuple[str, str]] = []  # (user_id_arg, app_id_arg)
+
+    class _FakeMem:
+        def add(self, _msgs, **kwargs):
+            uid = kwargs.get("user_id") or kwargs.get("agent_id") or kwargs.get("app_id") or ""
+            chamadas.append((kwargs.get("user_id", ""), kwargs.get("app_id", "")))
+
+    async def medico_worker(idx: int):
+        lm = LaudifierMemory()
+        lm._mem_initialized = True
+        lm._mem = _FakeMem()
+        for k in range(calls_por_medico):
+            await lm.memorizar_interacao(
+                medico_id=f"med-{idx}",
+                solicitacao=f"sol {k}",
+                laudo="laudo gerado",
+                especialidade="radiologia",
+                tipo_geracao="rag",
+            )
+
+    async def run_all():
+        await asyncio.gather(*[medico_worker(i) for i in range(n_medicos)])
+
+    asyncio.run(run_all())
+
+    # memorizar_interacao chama add 2x (user + app) por interação
+    esperado = n_medicos * calls_por_medico * 2
+    assert len(chamadas) == esperado, f"Perda/duplicação de calls: {len(chamadas)} != {esperado}"
+
+    # Cada médico deve ter exatamente calls_por_medico inserções com seu user_id
+    by_user: dict[str, int] = {}
+    for uid, _ in chamadas:
+        if uid:
+            by_user[uid] = by_user.get(uid, 0) + 1
+    for i in range(n_medicos):
+        uid = f"med-{i}"
+        assert by_user.get(uid) == calls_por_medico, (
+            f"user_id {uid}: {by_user.get(uid)} != {calls_por_medico} (vazamento entre tasks)"
+        )
+
+
 # ── SSE real: endpoint /laudos/gerar SEM mocar o pipeline ────────────────────
 
 @pytest.mark.integration
