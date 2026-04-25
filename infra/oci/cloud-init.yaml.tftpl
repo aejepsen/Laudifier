@@ -11,7 +11,6 @@ packages:
   - gnupg
   - git
   - ufw
-  - fail2ban
   - unattended-upgrades
 
 write_files:
@@ -36,16 +35,18 @@ write_files:
       S3_BUCKET_LAUDOS=${oci_bucket}
 
   # ── Deploy key (private) — clone SSH do repo privado/público ─────────────
+  # owner root:root: write_files roda antes do user `ubuntu` existir.
+  # bootstrap.sh faz chown ubuntu:ubuntu após user ser criado.
   - path: /home/ubuntu/.ssh/id_ed25519
     permissions: "0600"
-    owner: ubuntu:ubuntu
+    owner: root:root
     content: |
       ${indent(6, deploy_key)}
 
   # ── known_hosts GitHub ────────────────────────────────────────────────────
   - path: /home/ubuntu/.ssh/known_hosts
     permissions: "0644"
-    owner: ubuntu:ubuntu
+    owner: root:root
     content: |
       github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
       github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCj7ndNxQowgcQnjshcLrqPEiiphnt+VTTvDP6mHBL9j1aNUkY4Ue1gvwnGLVlOhGeYrnZaMgRK6+PKCUXaDbC7qtbW8gIkhL7aGCsOr/C56SJMy/BCZfxd1nWzAOxSDPgVsmerOBYfNqltV9/hWCqBywINIR+5dIg6JTJ72pcEpEjcYgXkE2YEFXV1JHnsKgbLWNlhScqb2UmyRkQyytRLtL+38TGxkxCflmO+5Z8CSSNY7GidjMIZ7Q4zMjA2n1nGrlTDkzwDCsw+wqFPGQA179cnfGWOWRVruj16z6XyvxvjJwbz0wQZ75XK5tKSb7FNyeIEs4TT4jk+S4dhPeAUC5y+bDYirYgM4GC7uEnztnZyaVWQ7B381AK4Qdrwt51ZqExKbQpTUNn+EjqoTwvqNj4kqx5QUCI0ThS/YkOxJCXmPUWZbhjpCg56i+2aB6CmK2JGhn57K5mj0MNdBXA4/WnwH6XoPWJzK5Nyu2zB3nAZp+S5hpQs+p1vN1/wsjk=
@@ -172,9 +173,33 @@ write_files:
       #!/usr/bin/env bash
       set -euo pipefail
 
+      # ── Wait for network/DNS (boot inicial pode ter DNS lento) ────────────
+      for i in {1..30}; do
+        if getent hosts download.docker.com >/dev/null 2>&1 \
+           && getent hosts archive.ubuntu.com >/dev/null 2>&1; then
+          break
+        fi
+        echo "[bootstrap] waiting for DNS… ($i/30)"
+        sleep 5
+      done
+
+      # ── apt-get update com retry (mitiga DNS/mirror flake no first boot) ──
+      apt_retry() {
+        for i in {1..5}; do
+          if "$@"; then return 0; fi
+          echo "[bootstrap] apt retry $i/5: $*"
+          sleep 10
+        done
+        return 1
+      }
+
+      apt_retry apt-get update
+      apt_retry apt-get install -y fail2ban
+
       # Docker engine + compose plugin (oficial)
       install -m 0755 -d /etc/apt/keyrings
-      curl -fsSL https://download.docker.com/linux/ubuntu/gpg \
+      curl -fsSL --retry 5 --retry-delay 5 \
+        https://download.docker.com/linux/ubuntu/gpg \
         | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
       chmod a+r /etc/apt/keyrings/docker.gpg
 
@@ -184,8 +209,8 @@ write_files:
         https://download.docker.com/linux/ubuntu $CODENAME stable" \
         > /etc/apt/sources.list.d/docker.list
 
-      apt-get update
-      apt-get install -y docker-ce docker-ce-cli containerd.io \
+      apt_retry apt-get update
+      apt_retry apt-get install -y docker-ce docker-ce-cli containerd.io \
         docker-buildx-plugin docker-compose-plugin
 
       systemctl enable --now docker
@@ -210,11 +235,15 @@ write_files:
       mkdir -p /opt/laudifier/storage
       chown -R 1000:1000 /opt/laudifier/storage
 
-      # SSH dir perms (cloud-init write_files já gravou key + known_hosts)
+      # SSH dir perms — write_files gravou como root (user ubuntu não existia ainda).
+      # Aqui o user ubuntu já existe (cc_users_groups rodou em config stage).
       chmod 700 /home/ubuntu/.ssh
       chown -R ubuntu:ubuntu /home/ubuntu/.ssh
 
       # Clone repo via SSH (deploy key já cadastrada no GitHub)
+      # /opt/laudifier é root:root — pré-cria repo dir owned by ubuntu
+      mkdir -p /opt/laudifier/repo
+      chown ubuntu:ubuntu /opt/laudifier/repo
       if [ ! -d /opt/laudifier/repo/.git ]; then
         sudo -u ubuntu git clone --branch ${git_branch} --depth 1 \
           ${git_repo_url} /opt/laudifier/repo
