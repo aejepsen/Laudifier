@@ -787,11 +787,14 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
       this.linhaEditadaTexto = textoAtual;
       this.achados = '';
       this.voice.stopListening();
-      // Foca o input inline da linha selecionada (após Angular re-renderizar)
+      // Foca o input inline + scroll do painel refinar pra dentro do viewport.
+      // Sem isso, em telas que stackeiam painéis (mobile/zoom alto), o textarea
+      // de refinar fica acima do fold e usuário perde de vista após clicar checkbox.
       setTimeout(() => {
         const el = document.querySelector<HTMLInputElement>('.linha-text-edit');
         el?.focus();
         el?.select();
+        this.refinarTextareaRef?.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }, 50);
     }
   }
