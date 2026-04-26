@@ -135,11 +135,15 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Setup SSH
+        env:
+          OCI_SSH_KEY: ${{ secrets.OCI_SSH_KEY }}
+          OCI_HOST:    ${{ secrets.OCI_HOST }}
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.OCI_SSH_KEY }}" > ~/.ssh/id_ed25519
+          # printf preserva newlines (echo + template inline corrompe chave multilinha)
+          printf '%s\n' "$OCI_SSH_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H ${{ secrets.OCI_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
+          ssh-keyscan -H "$OCI_HOST" >> ~/.ssh/known_hosts 2>/dev/null
 
       - name: Pull + rebuild + restart
         run: |
