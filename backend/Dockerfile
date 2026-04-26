@@ -19,6 +19,14 @@ RUN HF_HOME=/tmp/hf_model_cache python -c \
      SentenceTransformer('intfloat/multilingual-e5-large', cache_folder='/tmp/hf_model_cache'); \
      print('Modelo multilingual-e5-large baixado com sucesso')"
 
+# Pré-baixa Whisper 'small' (~245MB) — elimina cold start na primeira transcrição.
+# Cache em /tmp p/ copiar pro runtime stage com perms corretas (volume mount externo
+# shadow do path WHISPER_CACHE_DIR causou Permission denied; agora model vive na imagem).
+RUN python -c \
+    "import whisper, os; os.makedirs('/tmp/whisper_cache', exist_ok=True); \
+     whisper.load_model('small', download_root='/tmp/whisper_cache'); \
+     print('Whisper small baixado com sucesso')"
+
 # ─── Stage 2: runtime ────────────────────────────────────────────────────────
 FROM python:3.11-slim
 
@@ -41,8 +49,9 @@ COPY --chown=app:app . .
 # Deve rodar como root, antes de USER app
 RUN mkdir -p /workspace && ln -sf /app /workspace/backend
 
-# Copia modelo pré-baixado do builder e garante permissões corretas para o user app
+# Copia modelos pré-baixados do builder e garante permissões corretas para o user app
 COPY --from=builder /tmp/hf_model_cache /home/app/.cache/huggingface
+COPY --from=builder /tmp/whisper_cache  /home/app/.cache/whisper
 RUN chown -R app:app /home/app/.cache
 
 USER app

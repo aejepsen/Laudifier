@@ -191,7 +191,8 @@ class LaudifierMemory:
             memorias_medico = _safe_results(
                 self.mem.search(
                     query=f"{especialidade}: {solicitacao}",
-                    user_id=medico_id,
+                    version="v2",
+                    filters={"user_id": medico_id},
                     limit=limite,
                 )
             )
@@ -199,7 +200,8 @@ class LaudifierMemory:
             memorias_esp = _safe_results(
                 self.mem.search(
                     query=solicitacao,
-                    app_id=f"especialidade_{especialidade.lower().replace(' ', '_')}",
+                    version="v2",
+                    filters={"app_id": f"especialidade_{especialidade.lower().replace(' ', '_')}"},
                     limit=3,
                 )
             )
@@ -222,7 +224,8 @@ class LaudifierMemory:
             memorias = _safe_results(
                 self.mem.search(
                     query=solicitacao,
-                    agent_id=f"paciente_{paciente_id}",
+                    version="v2",
+                    filters={"agent_id": f"paciente_{paciente_id}"},
                     limit=limite,
                 )
             )
