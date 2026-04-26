@@ -12,7 +12,8 @@ RUN npm run build --configuration=production
 # Imagem oficial unprivileged — roda como uid 101, listen 8080, pid /tmp
 FROM nginxinc/nginx-unprivileged:1.27-alpine
 
-COPY --from=builder /app/dist/laudifier /usr/share/nginx/html
+# Angular 17 separa output em browser/ (cliente) e server/ (SSR) — só queremos browser/
+COPY --from=builder /app/dist/laudifier/browser /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 8080
