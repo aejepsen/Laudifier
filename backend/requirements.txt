@@ -16,7 +16,7 @@ python-multipart>=0.0.9
 anthropic>=0.40.0
 
 # ── Vector DB ─────────────────────────────────────────────────────────────────
-qdrant-client>=1.9.0,<1.10.0  # server Qdrant pinado em 1.9.4 — major/minor devem bater
+qdrant-client>=1.13.0  # versão mais nova suporta kwarg check_compatibility=False usado p/ silenciar UserWarning de mismatch com server v1.9.4
 sentence-transformers>=2.7.0  # embeddings locais intfloat/multilingual-e5-large
 
 # ── Transcrição de voz ────────────────────────────────────────────────────────

@@ -50,7 +50,7 @@ async def lifespan(app: FastAPI):
         collection = os.getenv("QDRANT_COLLECTION", "laudos_medicos")
         emb_dim    = int(os.getenv("EMB_DIM", "1024"))  # multilingual-e5-large
 
-        client = AsyncQdrantClient(url=qdrant_url, api_key=qdrant_key, timeout=30)
+        client = AsyncQdrantClient(url=qdrant_url, api_key=qdrant_key, timeout=30, check_compatibility=False)
         try:
             existing = {c.name for c in (await client.get_collections()).collections}
             if collection not in existing:
