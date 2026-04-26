@@ -9,16 +9,11 @@ COPY . .
 RUN npm run build --configuration=production
 
 # ─── Stage 2: runtime ────────────────────────────────────────────────────────
-FROM nginx:1.27-alpine
-
-# Non-root user (nginx official image já cria nginx user)
-RUN mkdir -p /var/cache/nginx /var/run && \
-    chown -R nginx:nginx /var/cache/nginx /var/run /var/log/nginx
+# Imagem oficial unprivileged — roda como uid 101, listen 8080, pid /tmp
+FROM nginxinc/nginx-unprivileged:1.27-alpine
 
 COPY --from=builder /app/dist/laudifier /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-USER nginx
-
-EXPOSE 80
+EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]
