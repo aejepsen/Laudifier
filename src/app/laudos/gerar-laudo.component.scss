@@ -1,16 +1,34 @@
 /* src/app/laudos/gerar-laudo.component.scss */
+:host {
+  display: block;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+
 .laudo-page {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   padding: 24px;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
   align-items: stretch;
 
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
+    height: auto;
+    min-height: 100%;
+    overflow: visible;
   }
+}
+
+@media (max-width: 900px) {
+  :host { overflow: visible; height: auto; }
+  .input-panel, .result-panel { height: auto; overflow: visible; }
+  .input-panel-scroll, .result-panel-scroll { overflow: visible; }
 }
 
 /* ── Painéis ─────────────────────────────────────────────────────────────── */
@@ -23,6 +41,21 @@
   flex-direction: column;
   gap: 16px;
   height: 100%;
+  min-height: 0;       /* deixa filhos com overflow funcionar dentro do flex */
+  overflow: hidden;
+}
+
+/* Containers internos com scroll independente — painel esquerdo e direito.
+   flex:1 + min-height:0 + overflow-y:auto = scroll só dentro do painel. */
+.input-panel-scroll,
+.result-panel-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-right: 4px;  /* respiro p/ scrollbar */
 }
 
 .input-panel.collapsed { opacity: 0.7; }
@@ -32,6 +65,7 @@
   font-weight: 700;
   color: var(--colorNeutralForeground1);
   margin: 0 0 4px;
+  flex-shrink: 0;
 }
 
 /* ── Campos ──────────────────────────────────────────────────────────────── */
@@ -243,7 +277,10 @@ input, .date-input {
 .voice-error { font-size: 12px; color: #dc2626; margin: 4px 0 0; }
 
 /* ── Botão Gerar ─────────────────────────────────────────────────────────── */
+/* Fica fora do .input-panel-scroll → sempre visível, sem scroll manual. */
 .btn-gerar {
+  flex-shrink: 0;
+  margin-top: 4px;
   padding: 14px;
   background: var(--colorBrandBackground);
   color: white;
@@ -275,7 +312,7 @@ input, .date-input {
 }
 
 /* ── Resultado ───────────────────────────────────────────────────────────── */
-.result-header { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.result-header { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; flex-shrink: 0; }
 
 .badges { display: flex; gap: 6px; flex-wrap: wrap; }
 .badge {

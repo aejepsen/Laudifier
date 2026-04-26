@@ -27,6 +27,8 @@ import { environment } from '../../environments/environment';
 
         <h2 class="panel-title">Novo Laudo</h2>
 
+        <div class="input-panel-scroll" #inputScroll>
+
         <!-- ── Dados do Paciente (obrigatório) ────────────────────────────── -->
         <div class="dados-section">
           <p class="dados-section-title">Dados do Paciente</p>
@@ -210,18 +212,6 @@ import { environment } from '../../environments/environment';
           ✅ Pronto para laudar
         </div>
 
-        <!-- Botão Gerar -->
-        <button
-          class="btn-gerar"
-          [disabled]="!canGenerate()"
-          (click)="gerarLaudo()">
-          <span *ngIf="!isGenerating()">Gerar Laudo</span>
-          <span *ngIf="isGenerating()" class="generating">
-            <span class="dots"><span></span><span></span><span></span></span>
-            Gerando...
-          </span>
-        </button>
-
         <!-- ── Refinar / Editar linha (aparece após gerar laudo) ──────────── -->
         <div class="refinar-section" *ngIf="currentLaudoId() && !isGenerating()">
           <div class="refinar-divider"></div>
@@ -275,6 +265,20 @@ import { environment } from '../../environments/environment';
           </button>
         </div>
 
+        </div><!-- /.input-panel-scroll -->
+
+        <!-- Botão Gerar — sempre visível, fora do scroll -->
+        <button
+          class="btn-gerar"
+          [disabled]="!canGenerate()"
+          (click)="gerarLaudo()">
+          <span *ngIf="!isGenerating()">Gerar Laudo</span>
+          <span *ngIf="isGenerating()" class="generating">
+            <span class="dots"><span></span><span></span><span></span></span>
+            Gerando...
+          </span>
+        </button>
+
       </div>
 
       <!-- ── Painel do Laudo Gerado ─────────────────────────────────────────── -->
@@ -304,6 +308,8 @@ import { environment } from '../../environments/environment';
             <button class="btn-novo" (click)="novoLaudo()">+ Novo Laudo</button>
           </div>
         </div>
+
+        <div class="result-panel-scroll" #resultScroll>
 
         <!-- Campos faltando -->
         <div class="campos-alert" *ngIf="camposFaltando().length > 0">
@@ -335,7 +341,7 @@ import { environment } from '../../environments/environment';
               <div *ngIf="linha.isEmpty" class="linha-spacer"></div>
               <ng-container *ngIf="!linha.isEmpty">
 
-                <div class="laudo-linha" [class.linha-ativa]="editandoLinha() === linha.num">
+                <div class="laudo-linha" [class.linha-ativa]="editandoLinha() === linha.num" [attr.data-num]="linha.num">
                   <input type="checkbox" class="linha-check"
                     [checked]="editandoLinha() === linha.num"
                     (change)="toggleEditarLinha(linha.num, linha.text)"
@@ -402,6 +408,8 @@ import { environment } from '../../environments/environment';
           <span *ngIf="feedbackStatus() === 'error'" class="feedback-msg error">❌ Erro ao enviar feedback</span>
         </div>
 
+        </div><!-- /.result-panel-scroll -->
+
       </div>
 
     </div>
@@ -447,6 +455,8 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
   }
 
   @ViewChild('refinarTextarea') refinarTextareaRef?: ElementRef<HTMLTextAreaElement>;
+  @ViewChild('inputScroll')     inputScrollRef?:     ElementRef<HTMLDivElement>;
+  @ViewChild('resultScroll')    resultScrollRef?:    ElementRef<HTMLDivElement>;
 
   especialidade = 'Geral';
   solicitacao   = '';
@@ -787,14 +797,23 @@ export class GerarLaudoComponent implements OnInit, OnDestroy {
       this.linhaEditadaTexto = textoAtual;
       this.achados = '';
       this.voice.stopListening();
-      // Foca o input inline + scroll do painel refinar pra dentro do viewport.
-      // Sem isso, em telas que stackeiam painéis (mobile/zoom alto), o textarea
-      // de refinar fica acima do fold e usuário perde de vista após clicar checkbox.
+      // Pareamento horizontal: alinha o textarea de refinar (painel esquerdo)
+      // na mesma altura Y da linha clicada (painel direito). Painéis têm scrolls
+      // independentes — ajustamos scrollTop do input-panel-scroll p/ alinhar.
       setTimeout(() => {
         const el = document.querySelector<HTMLInputElement>('.linha-text-edit');
         el?.focus();
         el?.select();
-        this.refinarTextareaRef?.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+        const linhaEl   = document.querySelector<HTMLElement>(`.laudo-linha[data-num="${num}"]`);
+        const refinarEl = this.refinarTextareaRef?.nativeElement;
+        const scrollEl  = this.inputScrollRef?.nativeElement;
+        if (!linhaEl || !refinarEl || !scrollEl) return;
+
+        const linhaY   = linhaEl.getBoundingClientRect().top;
+        const refinarY = refinarEl.getBoundingClientRect().top;
+        const delta    = refinarY - linhaY;
+        scrollEl.scrollBy({ top: delta, behavior: 'smooth' });
       }, 50);
     }
   }
