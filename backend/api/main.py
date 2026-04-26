@@ -11,6 +11,7 @@ for _noisy in ("httpx", "httpcore", "sentence_transformers", "langfuse", "qdrant
     logging.getLogger(_noisy).setLevel(logging.WARNING)
 
 import os
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -30,6 +31,56 @@ from .routes.repositorio import router as repositorio_router
 from ._shared import limiter
 
 _IS_PROD = os.getenv("APP_ENV") == "production"
+_log = logging.getLogger(__name__)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """
+    Boot: cria collection Qdrant se ausente + pré-carrega Whisper na RAM.
+    Reduz cold start do primeiro request (~2min → ~5s).
+    """
+    # ── Qdrant: garante collection com named vector "dense" ──────────────────
+    try:
+        from qdrant_client import AsyncQdrantClient
+        from qdrant_client.models import Distance, VectorParams
+
+        qdrant_url = os.getenv("QDRANT_URL", "http://qdrant:6333")
+        qdrant_key = os.getenv("QDRANT_API_KEY") or None
+        collection = os.getenv("QDRANT_COLLECTION", "laudos_medicos")
+        emb_dim    = int(os.getenv("EMB_DIM", "1024"))  # multilingual-e5-large
+
+        client = AsyncQdrantClient(url=qdrant_url, api_key=qdrant_key, timeout=30)
+        try:
+            existing = {c.name for c in (await client.get_collections()).collections}
+            if collection not in existing:
+                _log.info(f"[startup] criando collection Qdrant '{collection}'…")
+                await client.create_collection(
+                    collection_name=collection,
+                    vectors_config={"dense": VectorParams(size=emb_dim, distance=Distance.COSINE)},
+                )
+                for field in ["especialidade", "tipo_laudo", "source_name", "modalidade", "medico_id", "source"]:
+                    await client.create_payload_index(collection, field, "keyword")
+                _log.info(f"[startup] collection '{collection}' criada com índices")
+            else:
+                _log.info(f"[startup] collection '{collection}' já existe")
+        finally:
+            await client.close()
+    except Exception as e:
+        _log.warning(f"[startup] falha Qdrant init (segue sem RAG): {e}")
+
+    # ── Whisper: pré-carrega modelo na RAM (cold start → warm) ───────────────
+    try:
+        import whisper as wh
+        model_name = os.getenv("WHISPER_MODEL", "small")
+        _log.info(f"[startup] pré-carregando Whisper '{model_name}'…")
+        wh.load_model(model_name)  # cache em /home/app/.cache/whisper
+        _log.info(f"[startup] Whisper '{model_name}' carregado")
+    except Exception as e:
+        _log.warning(f"[startup] falha pre-load Whisper (segue lazy): {e}")
+
+    yield
+
 
 app = FastAPI(
     title="Laudifier API",
@@ -38,6 +89,7 @@ app = FastAPI(
     docs_url=None if _IS_PROD else "/docs",
     redoc_url=None if _IS_PROD else "/redoc",
     openapi_url=None if _IS_PROD else "/openapi.json",
+    lifespan=lifespan,
 )
 
 app.add_middleware(
