@@ -26,7 +26,7 @@ resource "azurerm_storage_share" "whisper" {
   quota                = var.whisper_share_quota_gb
 
   lifecycle {
-    prevent_destroy = true
+    prevent_destroy = false
   }
 }
 

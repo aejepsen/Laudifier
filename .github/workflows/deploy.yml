@@ -12,9 +12,6 @@ on:
         type: boolean
         default: false
 
-env:
-  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/laudifier-backend
-
 jobs:
 
   # ─── 1. Testes ──────────────────────────────────────────────────────────────
@@ -126,142 +123,49 @@ jobs:
           PY
 
 
-  # ─── 2. Build + Push → Docker Hub ───────────────────────────────────────────
-  build-push:
-    name: Build & Push → Docker Hub
+  # ─── 2. Deploy → OCI VM (Ampere A1) ─────────────────────────────────────────
+  # SSH na VM, git pull, rebuild containers, restart stack.
+  # Build nativo ARM (cross-arch x86→arm64 lento/caro p/ pytorch+whisper).
+  deploy-oci:
+    name: Deploy → OCI Ampere
     runs-on: ubuntu-latest
     needs: [test-backend]
     if: github.ref == 'refs/heads/main'
-    outputs:
-      image_tag: ${{ steps.meta.outputs.version }}
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Docker metadata (sha curto + latest)
-        id: meta
-        uses: docker/metadata-action@v5
-        with:
-          images: ${{ env.IMAGE_NAME }}
-          tags: |
-            type=sha,prefix=sha-,format=short
-            type=raw,value=latest,enable=true
-
-      - name: Login Docker Hub
-        uses: docker/login-action@v3
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-
-      - name: Setup Buildx (layer cache via GitHub Actions cache)
-        uses: docker/setup-buildx-action@v3
-
-      - name: Build e push
-        uses: docker/build-push-action@v5
-        with:
-          context:    ./backend
-          push:       true
-          tags:       ${{ steps.meta.outputs.tags }}
-          cache-from: type=gha
-          cache-to:   type=gha,mode=max
-
-
-  # ─── 3. Deploy Backend → Azure Container Apps ───────────────────────────────
-  deploy-backend:
-    name: Deploy Backend → Azure Container Apps
-    runs-on: ubuntu-latest
-    needs: [build-push]
     environment: production
-    permissions:
-      id-token: write
-      contents: read
+    timeout-minutes: 30
     steps:
-      - name: Login Azure via OIDC (sem credenciais estáticas)
-        uses: azure/login@v2
-        with:
-          client-id:       ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id:       ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.OCI_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ secrets.OCI_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
 
-      - name: Aguardar provisionamento anterior (se houver)
-        uses: azure/cli@v2
-        with:
-          azcliversion: latest
-          inlineScript: |
-            echo "Verificando estado do Container App..."
-            for i in $(seq 1 24); do
-              STATE=$(az containerapp show \
-                --name laudifier-production-backend \
-                --resource-group rg-laudifier-production \
-                --query "properties.provisioningState" -o tsv 2>/dev/null || echo "Unknown")
-              echo "Estado atual: $STATE (tentativa $i/24)"
-              if [ "$STATE" = "Succeeded" ] || [ "$STATE" = "Failed" ] || [ "$STATE" = "Canceled" ]; then
-                echo "Container App disponível. Prosseguindo..."
-                break
-              fi
-              sleep 15
-            done
-
-      - name: Atualizar imagem no Container App
-        uses: azure/cli@v2
-        with:
-          azcliversion: latest
-          inlineScript: |
-            SHA=$(echo "${{ github.sha }}" | cut -c1-7)
-            az containerapp registry set \
-              --name          laudifier-production-backend \
-              --resource-group rg-laudifier-production \
-              --server        docker.io \
-              --username      ${{ secrets.DOCKERHUB_USERNAME }} \
-              --password      ${{ secrets.DOCKERHUB_TOKEN }}
-            az containerapp update \
-              --name         laudifier-production-backend \
-              --resource-group rg-laudifier-production \
-              --image        docker.io/${{ env.IMAGE_NAME }}:sha-${SHA} \
-              --output       none
+      - name: Pull + rebuild + restart
+        run: |
+          ssh -i ~/.ssh/id_ed25519 \
+              -o StrictHostKeyChecking=no \
+              ${{ secrets.OCI_USER }}@${{ secrets.OCI_HOST }} \
+              'set -euo pipefail
+               cd /opt/laudifier/repo
+               sudo -u ubuntu git pull --ff-only origin main
+               # environment.ts gitignored — semeia a partir de example
+               cp -n src/environments/environment.example.ts src/environments/environment.ts || true
+               cd /opt/laudifier
+               sudo docker compose -f docker-compose.prod.yml build
+               sudo docker compose -f docker-compose.prod.yml up -d
+               sudo docker compose -f docker-compose.prod.yml ps'
 
       - name: Health check pós-deploy
-        uses: azure/cli@v2
-        with:
-          azcliversion: latest
-          inlineScript: |
-            FQDN=$(az containerapp show \
-              --name laudifier-production-backend \
-              --resource-group rg-laudifier-production \
-              --query "properties.configuration.ingress.fqdn" -o tsv)
-            echo "Aguardando Container App... URL: https://${FQDN}/health/ready"
-            sleep 30
-            curl -f --retry 6 --retry-delay 10 "https://${FQDN}/health/ready"
-
-
-  # ─── 4. Deploy Frontend → Azure Static Web Apps ─────────────────────────────
-  deploy-frontend:
-    name: Deploy Angular → Azure Static Web Apps
-    runs-on: ubuntu-latest
-    needs: [test-backend]
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 24
-          cache: npm
-
-      - name: Criar environment.ts (substituído em prod pelo environment.prod.ts)
         run: |
-          cat > src/environments/environment.ts << 'EOF'
-          export const environment = { production: false, apiUrl: '', supabaseUrl: '', supabaseKey: '', appName: 'Laudifier', appVersion: '1.0.0' };
-          EOF
-
-      - name: Build Angular
-        run: npm ci && npm run build
-
-      - name: Deploy para Azure Static Web Apps
-        uses: azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.SWA_DEPLOY_TOKEN }}
-          repo_token:                      ${{ secrets.GITHUB_TOKEN }}
-          action:                          upload
-          app_location:                    "/"
-          output_location:                 "dist/laudifier/browser"
-          skip_api_build:                  true
+          echo "Aguardando backend warm-up (Whisper + Qdrant)..."
+          for i in $(seq 1 30); do
+            if curl -fsS https://laudifier.com.br/health/ready > /dev/null; then
+              echo "Backend ready (tentativa $i)"
+              exit 0
+            fi
+            echo "Tentativa $i/30 — aguardando 10s..."
+            sleep 10
+          done
+          echo "Health check falhou após 5min" >&2
+          exit 1

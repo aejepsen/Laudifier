@@ -19,8 +19,19 @@ resource "oci_identity_customer_secret_key" "s3" {
   display_name = "${var.app_name}-s3-compat"
 }
 
+# IAM policy — permite ao service principal Object Storage executar lifecycle
+resource "oci_identity_policy" "objectstorage_lifecycle" {
+  compartment_id = var.tenancy_ocid # policies devem ficar no tenancy ou subtree
+  name           = "${var.app_name}-objectstorage-lifecycle"
+  description    = "Permite ao Object Storage executar lifecycle policies"
+  statements = [
+    "Allow service objectstorage-${var.region} to manage object-family in tenancy"
+  ]
+}
+
 # Lifecycle — corta risco de versioning estourar 20GB free tier
 resource "oci_objectstorage_object_lifecycle_policy" "storage" {
+  depends_on = [oci_identity_policy.objectstorage_lifecycle]
   namespace = data.oci_objectstorage_namespace.ns.namespace
   bucket    = oci_objectstorage_bucket.storage.name
 

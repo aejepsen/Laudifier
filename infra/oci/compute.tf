@@ -59,6 +59,9 @@ resource "oci_core_instance" "vm" {
   lifecycle {
     ignore_changes = [
       source_details[0].source_id, # não recriar VM se nova imagem Ubuntu sair
+      metadata["user_data"],       # cloud-init só roda no first boot — alterações no template
+                                   # não devem forçar replacement (perde volumes Docker locais).
+                                   # Pra aplicar mudanças, taint manual ou ssh/exec na VM.
     ]
   }
 }
