@@ -134,22 +134,22 @@ jobs:
     environment: production
     timeout-minutes: 30
     steps:
-      - name: Setup SSH
+      - name: Setup SSH agent (battle-tested newline handling)
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.OCI_SSH_KEY }}
+
+      - name: Trust VM host key
         env:
-          OCI_SSH_KEY: ${{ secrets.OCI_SSH_KEY }}
-          OCI_HOST:    ${{ secrets.OCI_HOST }}
-        run: |
-          mkdir -p ~/.ssh
-          # printf preserva newlines (echo + template inline corrompe chave multilinha)
-          printf '%s\n' "$OCI_SSH_KEY" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H "$OCI_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          OCI_HOST: ${{ secrets.OCI_HOST }}
+        run: ssh-keyscan -H "$OCI_HOST" >> ~/.ssh/known_hosts 2>/dev/null
 
       - name: Pull + rebuild + restart
+        env:
+          OCI_USER: ${{ secrets.OCI_USER }}
+          OCI_HOST: ${{ secrets.OCI_HOST }}
         run: |
-          ssh -i ~/.ssh/id_ed25519 \
-              -o StrictHostKeyChecking=no \
-              ${{ secrets.OCI_USER }}@${{ secrets.OCI_HOST }} \
+          ssh -o StrictHostKeyChecking=no "$OCI_USER@$OCI_HOST" \
               'set -euo pipefail
                cd /opt/laudifier/repo
                sudo -u ubuntu git pull --ff-only origin main
